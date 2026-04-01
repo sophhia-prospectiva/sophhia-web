@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOPHHIA — Crisis Global USA-Israel-Irán | 1 Abril 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root {
+  --negro: #0a0a0c;
+  --niebla: #1a1a20;
+  --grafito: #2a2a32;
+  --plomo: #3d3d4a;
+  --alba: #c8b88a;
+  --alba-claro: #e8d4a0;
+  --sol: #f0c040;
+  --rojo-alerta: #c0392b;
+  --naranja-alerta: #e67e22;
+  --verde-oportunidad: #27ae60;
+  --azul-dato: #2980b9;
+  --blanco-niebla: #e8e4dc;
+  --texto-principal: #d4cfc5;
+  --texto-secundario: #8a8580;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--negro);
+  color: var(--texto-principal);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ─── HEADER ─── */
+.masthead {
+  background: var(--negro);
+  border-bottom: 1px solid var(--plomo);
+  padding: 2rem 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.masthead::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -20%;
+  width: 60%;
+  height: 200%;
+  background: radial-gradient(ellipse, rgba(200,184,138,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.masthead-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.brand-line {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.brand-sophhia {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 0.15em;
+  color: var(--alba);
+  line-height: 1;
+}
+
+.brand-sub {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--texto-secundario);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-left: 1px solid var(--plomo);
+  padding-left: 1.5rem;
+  line-height: 1.5;
+}
+
+.headline-block {
+  padding: 3rem 0 2rem;
+  border-top: 1px solid var(--plomo);
+  margin-top: 1rem;
+}
+
+.kicker {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--rojo-alerta);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.kicker::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background: var(--rojo-alerta);
+}
+
+.headline-main {
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--blanco-niebla);
+  margin-bottom: 1.5rem;
+}
+
+.headline-main em {
+  font-style: italic;
+  color: var(--alba);
+}
+
+.deck {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--texto-secundario);
+  max-width: 680px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.meta-bar {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--grafito);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--texto-secundario);
+  flex-wrap: wrap;
+}
+
+.meta-item span {
+  color: var(--alba-claro);
+}
+
+/* ─── ESCENÓMETRO ─── */
+.scenometer {
+  background: var(--niebla);
+  border-top: 2px solid var(--grafito);
+  padding: 2.5rem 0;
+}
+
+.scenometer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--texto-secundario);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--grafito);
+}
+
+.scenarios-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--plomo);
+  border: 1px solid var(--plomo);
+}
+
+.scenario-card {
+  background: var(--negro);
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s;
+}
+
+.scenario-card:hover { background: var(--niebla); }
+
+.scenario-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
+
+.sc-e1::before { background: var(--verde-oportunidad); }
+.sc-e2::before { background: var(--naranja-alerta); }
+.sc-e3::before { background: var(--rojo-alerta); }
+.sc-e4::before { background: var(--azul-dato); }
+
+.sc-prob {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.sc-e1 .sc-prob { color: var(--verde-oportunidad); }
+.sc-e2 .sc-prob { color: var(--naranja-alerta); }
+.sc-e3 .sc-prob { color: var(--rojo-alerta); }
+.sc-e4 .sc-prob { color: var(--azul-dato); }
+
+.sc-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--texto-secundario);
+  margin-bottom: 0.75rem;
+}
+
+.sc-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--blanco-niebla);
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+}
+
+.sc-desc {
+  font-size: 0.85rem;
+  color: var(--texto-secundario);
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.sc-tendencial {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--naranja-alerta);
+  color: var(--negro);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.5rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  font-weight: 500;
+}
+
+/* ─── BODY ─── */
+.content-area {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+/* Drop cap lead */
+.lead-paragraph {
+  font-size: 1.35rem;
+  line-height: 1.65;
+  color: var(--blanco-niebla);
+  max-width: 720px;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--grafito);
+}
+
+.lead-paragraph::first-letter {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 5rem;
+  line-height: 0.8;
+  float: left;
+  margin-right: 0.15em;
+  color: var(--alba);
+}
+
+/* Two-col layout */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 4rem;
+  align-items: start;
+}
+
+.main-col {}
+.side-col {}
+
+h2.section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--blanco-niebla);
+  margin-bottom: 1.5rem;
+  line-height: 1.15;
+}
+
+h3.subsection-title {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--alba);
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+h3.subsection-title::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 1px;
+  background: var(--alba);
+}
+
+p { margin-bottom: 1.2rem; }
+
+/* Pull quote */
+.pull-quote {
+  border-left: 3px solid var(--alba);
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  margin: 2.5rem 0;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: var(--alba-claro);
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.pull-quote cite {
+  display: block;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-family: 'DM Mono', monospace;
+  color: var(--texto-secundario);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+}
+
+/* Alert boxes */
+.alert-box {
+  border: 1px solid;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.alert-box.critical {
+  border-color: var(--rojo-alerta);
+  background: rgba(192,57,43,0.06);
+}
+
+.alert-box.warning {
+  border-color: var(--naranja-alerta);
+  background: rgba(230,126,34,0.06);
+}
+
+.alert-box.opportunity {
+  border-color: var(--verde-oportunidad);
+  background: rgba(39,174,96,0.06);
+}
+
+.alert-box.info {
+  border-color: var(--azul-dato);
+  background: rgba(41,128,185,0.06);
+}
+
+.alert-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.55rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  position: absolute;
+  top: -0.55rem;
+  left: 1rem;
+  padding: 0 0.5rem;
+  background: var(--negro);
+}
+
+.alert-box.critical .alert-tag { color: var(--rojo-alerta); }
+.alert-box.warning .alert-tag { color: var(--naranja-alerta); }
+.alert-box.opportunity .alert-tag { color: var(--verde-oportunidad); }
+.alert-box.info .alert-tag { color: var(--azul-dato); }
+
+.alert-box p { margin-bottom: 0; font-size: 0.95rem; }
+.alert-box strong { color: var(--blanco-niebla); }
+
+/* Data cards sidebar */
+.data-card {
+  background: var(--niebla);
+  border: 1px solid var(--grafito);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.data-card-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--texto-secundario);
+  margin-bottom: 0.5rem;
+}
+
+.data-card-value {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  color: var(--alba);
+}
+
+.data-card-unit {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--texto-secundario);
+  margin-top: 0.15rem;
+}
+
+.data-card-note {
+  font-size: 0.8rem;
+  color: var(--texto-secundario);
+  margin-top: 0.5rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* Status indicators */
+.status-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.dot-red { background: var(--rojo-alerta); }
+.dot-orange { background: var(--naranja-alerta); }
+.dot-green { background: var(--verde-oportunidad); }
+.dot-blue { background: var(--azul-dato); }
+
+/* Tabla de actores */
+.actors-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.88rem;
+}
+
+.actors-table thead tr {
+  background: var(--grafito);
+}
+
+.actors-table thead th {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--alba);
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+.actors-table tbody tr {
+  border-bottom: 1px solid var(--grafito);
+  transition: background 0.2s;
+}
+
+.actors-table tbody tr:hover { background: var(--niebla); }
+
+.actors-table td {
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+  line-height: 1.4;
+}
+
+.actor-name {
+  font-weight: 600;
+  color: var(--blanco-niebla);
+  white-space: nowrap;
+}
+
+.posicion-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.4rem;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.pos-ofensivo { background: rgba(192,57,43,0.2); color: #e74c3c; border: 1px solid rgba(192,57,43,0.4); }
+.pos-neutral { background: rgba(41,128,185,0.2); color: #3498db; border: 1px solid rgba(41,128,185,0.4); }
+.pos-defensivo { background: rgba(230,126,34,0.2); color: #f39c12; border: 1px solid rgba(230,126,34,0.4); }
+.pos-pivot { background: rgba(155,89,182,0.2); color: #9b59b6; border: 1px solid rgba(155,89,182,0.4); }
+.pos-victima { background: rgba(100,100,100,0.2); color: #95a5a6; border: 1px solid rgba(100,100,100,0.4); }
+
+/* KPI Panel */
+.kpi-panel {
+  background: var(--niebla);
+  border: 1px solid var(--grafito);
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.kpi-panel-title {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--alba);
+  margin-bottom: 1.25rem;
+}
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 0.5rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--grafito);
+  font-size: 0.82rem;
+  align-items: center;
+}
+
+.kpi-row:last-child { border-bottom: none; }
+
+.kpi-row-header {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--texto-secundario);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--plomo);
+  grid-template-columns: 2fr 1fr 1fr;
+  display: grid;
+}
+
+.kpi-name { color: var(--blanco-niebla); }
+.kpi-alert { color: var(--naranja-alerta); font-family: 'DM Mono', monospace; font-size: 0.75rem; }
+.kpi-critical { color: var(--rojo-alerta); font-family: 'DM Mono', monospace; font-size: 0.75rem; }
+
+/* Leyes */
+.law-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--grafito);
+}
+
+.law-item:last-child { border-bottom: none; }
+
+.law-num {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.8rem;
+  color: var(--alba);
+  opacity: 0.4;
+  line-height: 1;
+  min-width: 2rem;
+  text-align: right;
+}
+
+.law-content {}
+
+.law-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--blanco-niebla);
+  margin-bottom: 0.3rem;
+}
+
+.law-desc {
+  font-size: 0.85rem;
+  color: var(--texto-secundario);
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Síntesis final */
+.synthesis-block {
+  background: var(--niebla);
+  border-left: 4px solid var(--alba);
+  padding: 2.5rem;
+  margin: 3rem 0;
+}
+
+.synthesis-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  color: var(--alba);
+  margin-bottom: 1rem;
+}
+
+.synthesis-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--blanco-niebla);
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--grafito);
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.3rem;
+  top: 0.45rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--grafito);
+}
+
+.timeline-item.critical::before { background: var(--rojo-alerta); }
+.timeline-item.warning::before { background: var(--naranja-alerta); }
+
+.timeline-date {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--texto-secundario);
+  margin-bottom: 0.25rem;
+}
+
+.timeline-event {
+  font-size: 0.9rem;
+  color: var(--blanco-niebla);
+  line-height: 1.4;
+}
+
+/* Footer */
+.footer {
+  background: var(--niebla);
+  border-top: 1px solid var(--grafito);
+  padding: 3rem 0;
+  margin-top: 4rem;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.footer-brand {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.15em;
+  color: var(--alba);
+  margin-bottom: 0.75rem;
+}
+
+.footer-desc {
+  font-size: 0.9rem;
+  color: var(--texto-secundario);
+  line-height: 1.6;
+}
+
+.footer-legal {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  line-height: 1.8;
+}
+
+.footer-legal strong {
+  color: var(--alba);
+  display: block;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* Separator */
+.sep {
+  border: none;
+  border-top: 1px solid var(--grafito);
+  margin: 3rem 0;
+}
+
+/* Inline monospace tag */
+code {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.8em;
+  background: var(--grafito);
+  padding: 0.1em 0.4em;
+  border-radius: 2px;
+  color: var(--alba-claro);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--negro); }
+::-webkit-scrollbar-thumb { background: var(--grafito); border-radius: 3px; }
+
+/* Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.masthead-inner > * {
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+.brand-line { animation-delay: 0.1s; }
+.headline-block { animation-delay: 0.3s; }
+.meta-bar { animation-delay: 0.5s; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .two-col { grid-template-columns: 1fr; gap: 2rem; }
+  .scenarios-grid { grid-template-columns: 1fr 1fr; }
+  .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+}
+
+@media (max-width: 600px) {
+  .scenarios-grid { grid-template-columns: 1fr; }
+  .brand-sophhia { font-size: 2.5rem; }
+  .headline-main { font-size: 2.2rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════ MASTHEAD -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="brand-line">
+      <div class="brand-sophhia">SOPHHIA</div>
+      <div class="brand-sub">
+        Sistema Operativo de Prospectiva<br>Híbrido Humano-IA
+      </div>
+    </div>
+
+    <div class="headline-block">
+      <div class="kicker">Análisis Geopolítico Global · Día 32 del Conflicto</div>
+      <h1 class="headline-main">
+        Dos arterias<br>del mundo,<br><em>cortadas</em> a la vez
+      </h1>
+      <p class="deck">
+        La guerra USA-Israel-Irán no es solo una crisis energética. Es la primera vez en la historia que el petróleo y los datos globales pasan por el mismo estrecho en llamas. Análisis SOPHHIA Sol de 9 Fases.
+      </p>
+    </div>
+
+    <div class="meta-bar">
+      <div class="meta-item">FECHA <span>1 Abril 2026</span></div>
+      <div class="meta-item">HORIZONTE <span>6–18 meses</span></div>
+      <div class="meta-item">METODOLOGÍA <span>Sol de 9 Fases</span></div>
+      <div class="meta-item">AUTOR <span>Julio Villacorta García</span></div>
+      <div class="meta-item">ORGANIZACIÓN <span>SOPHHIA PROSPECTIVA SL</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════════════════════════════════════════════════ ESCENÓMETRO -->
+<section class="scenometer">
+  <div class="scenometer-inner">
+    <div class="section-label">Escenarios · Horizonte 18 meses</div>
+    <div class="scenarios-grid">
+      <div class="scenario-card sc-e1">
+        <div class="sc-prob">25%</div>
+        <div class="sc-label">Escenario E-1</div>
+        <div class="sc-name">Resolución Táctica</div>
+        <div class="sc-desc">Trump declara «misión cumplida» en 2-3 semanas. Ormuz se reabre gradualmente. Daños en GNL persisten 3-5 años.</div>
+      </div>
+      <div class="scenario-card sc-e2">
+        <span class="sc-tendencial">Tendencial</span>
+        <div class="sc-prob">45%</div>
+        <div class="sc-label">Escenario E-2</div>
+        <div class="sc-name">Fricción Prolongada</div>
+        <div class="sc-desc">Conflicto enquistado 3-9 meses. Stagflación global. Brent 95-115$/bl. China consolida rutas alternativas.</div>
+      </div>
+      <div class="scenario-card sc-e3">
+        <div class="sc-prob">20%</div>
+        <div class="sc-label">Escenario E-3</div>
+        <div class="sc-name">Escalada Industrial</div>
+        <div class="sc-desc">EE.UU. destruye Kharg Island y plantas eléctricas. Rusia entra activamente. Brent supera 150$/bl. Recesión severa.</div>
+      </div>
+      <div class="scenario-card sc-e4">
+        <div class="sc-prob">10%</div>
+        <div class="sc-label">Escenario E-4</div>
+        <div class="sc-name">Reconfiguración Sistémica</div>
+        <div class="sc-desc">Ormuz pierde estatus de paso neutral. Rutas alternativas digitales y energéticas reescriben el mapa global.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════ BODY -->
+<main class="content-area">
+  <div class="two-col">
+
+    <!-- ─── COLUMNA PRINCIPAL ─── -->
+    <div class="main-col">
+
+      <p class="lead-paragraph">
+        El 28 de febrero de 2026, el mundo cruzó un umbral que nadie había marcado en ningún mapa de riesgos. Los ataques conjuntos de EE.UU. e Israel sobre Irán no solo iniciaron la mayor contienda armada en Oriente Medio desde 1973. Cortaron simultáneamente las dos rutas por las que circula la economía global: el petróleo y los datos.
+      </p>
+
+      <!-- ─── CRONOLOGÍA CLAVE ─── -->
+      <h3 class="subsection-title">Cronología del sistema</h3>
+
+      <div class="timeline">
+        <div class="timeline-item critical">
+          <div class="timeline-date">28 Feb · Día 1</div>
+          <div class="timeline-event"><strong>Asesinato de Khamenei</strong> — Israel elimina al Líder Supremo y 7 comandantes del CGRI. Irán declara 40 días de luto.</div>
+        </div>
+        <div class="timeline-item critical">
+          <div class="timeline-date">4 Mar · Día 5</div>
+          <div class="timeline-event"><strong>Cierre del Estrecho de Ormuz</strong> — CGRI declara el paso cerrado. El tráfico de petroleros cae un 90%. 20% del petróleo mundial interrumpido.</div>
+        </div>
+        <div class="timeline-item warning">
+          <div class="timeline-date">8 Mar · Día 9</div>
+          <div class="timeline-event"><strong>Brent supera 100 $/bl</strong> por primera vez en 4 años. Pico posterior: 126 $/bl.</div>
+        </div>
+        <div class="timeline-item warning">
+          <div class="timeline-date">18 Mar · Día 19</div>
+          <div class="timeline-event"><strong>Ataque a Ras Laffan (Qatar)</strong> — Daño del 17% en capacidad de GNL. Reparación: 3-5 años. Los precios spot de GNL en Asia suben 140%.</div>
+        </div>
+        <div class="timeline-item critical">
+          <div class="timeline-date">26 Mar · Día 27</div>
+          <div class="timeline-event"><strong>Trump extiende el plazo</strong> para destruir plantas eléctricas iraníes hasta el 6 de abril. Irán concede acceso selectivo a China, Rusia, India y Pakistán.</div>
+        </div>
+        <div class="timeline-item critical">
+          <div class="timeline-date">31 Mar · Día 32</div>
+          <div class="timeline-event"><strong>Trump amenaza Kharg Island</strong> — eje de exportación de petróleo iraní. Misil iraní impacta un petrolero en aguas de Qatar. EE.UU. sobrevuela Irán con B-52.</div>
+        </div>
+        <div class="timeline-item warning">
+          <div class="timeline-date">1 Abr · Día 33</div>
+          <div class="timeline-event"><strong>Trump: «EE.UU. se irá en 2-3 semanas»</strong> sin exigir acuerdo formal. Irán niega cualquier negociación en curso.</div>
+        </div>
+      </div>
+
+      <hr class="sep">
+
+      <!-- ─── ENERGÍA ─── -->
+      <h2 class="section-title">El colapso energético</h2>
+
+      <p>La AIE lo ha calificado como «la mayor perturbación en la historia del mercado mundial del petróleo». No es retórica. El tráfico de buques por Ormuz cayó un 90% desde el 4 de marzo. La producción de Kuwait, Irak, Arabia Saudí y EAU cayó en al menos 10 millones de barriles diarios —más del 10% del consumo global total.</p>
+
+      <div class="pull-quote">
+        «Si el cierre de Ormuz persiste tres trimestres, el crecimiento del PIB global de Q4 2026 caería 1,3 puntos porcentuales. Estamos ante la primera crisis energética sistémica desde 1973.»
+        <cite>Federal Reserve Bank of Dallas · Marzo 2026</cite>
+      </div>
+
+      <h3 class="subsection-title">El shock silencioso: GNL y fertilizantes</h3>
+
+      <p>El ataque a Ras Laffan (Qatar) es el daño más estructural del conflicto. La infraestructura de GNL tardará entre 3 y 5 años en recuperarse. Europa, que depende del gas de Qatar en un 12-14% de su consumo, enfrentará un déficit estructural que ninguna liberación de reservas estratégicas puede compensar.</p>
+
+      <div class="alert-box warning">
+        <span class="alert-tag">Señal de alerta</span>
+        <p>El coste de la urea subió un <strong>32% en una semana</strong> en el hub de Nueva Orleans (516 → 683 $/ton). Hasta el 30% de los fertilizantes nitrogenados del comercio internacional transitan Ormuz. Si la crisis persiste hasta la campaña de siembra de verano, los precios de alimentos en 2026 Q3 sufrirán una segunda oleada inflacionaria.</p>
+      </div>
+
+      <h3 class="subsection-title">La trampa estructural: no hay rutas alternativas</h3>
+
+      <p>Los oleoductos existentes solo pueden desviar el 15-20% del petróleo que normalmente va por mar. Para el GNL, los fertilizantes y los petroquímicos no existen reservas estratégicas ni alternativas escalables a corto plazo. Los daños en la infraestructura iraní y las instalaciones del Golfo tendrán efectos que durarán años más allá del cese de los bombardeos.</p>
+
+      <div class="alert-box info">
+        <span class="alert-tag">Beneficiado</span>
+        <p>Rusia y EE.UU. (shale) son los únicos productores que pueden abastecer el mercado fuera del Estrecho. El conflicto redistribuye cuota de mercado energético de forma duradera hacia estos actores.</p>
+      </div>
+
+      <hr class="sep">
+
+      <!-- ─── TELECOMUNICACIONES ─── -->
+      <h2 class="section-title">El doble cierre digital</h2>
+
+      <p>Mientras el mundo miraba el precio del barril, sucedió algo sin precedentes históricos: los dos pasos marítimos por los que circula la columna vertebral digital del planeta quedaron comprometidos simultáneamente.</p>
+
+      <p>17 cables submarinos atraviesan el Mar Rojo, transportando la mayor parte del tráfico de datos entre Europa, Asia y África. Cables adicionales pasan por el Estrecho de Ormuz, conectando Irán, Irak, Kuwait, Baréin y Qatar. Ambas rutas están ahora en zona de guerra activa, con barcos de reparación incapaces de operar.</p>
+
+      <div class="pull-quote">
+        «Cerrar ambos puntos simultáneamente sería un evento globalmente disruptivo. No recuerdo que eso haya ocurrido jamás.»
+        <cite>Doug Madory, Director de Análisis de Internet, Kentik</cite>
+      </div>
+
+      <h3 class="subsection-title">Daños materializados</h3>
+
+      <div class="alert-box critical">
+        <span class="alert-tag">Incidente confirmado</span>
+        <p>Un centro de datos de <strong>AWS en los EAU</strong> fue alcanzado por proyectiles, provocando un incendio y un cierre parcial con interrupciones en múltiples zonas de disponibilidad. Efecto en cascada sobre la región de Baréin.</p>
+      </div>
+
+      <div class="alert-box critical">
+        <span class="alert-tag">Infraestructura paralizada</span>
+        <p><strong>Alcatel Submarine Networks (ASN)</strong> emitió aviso de fuerza mayor sobre el proyecto 2Africa Pearls de Meta —que conectaría el Golfo Pérsico con África, Europa y Asia para 3.000 millones de personas. El cable ya está tendido pero no puede conectarse a las estaciones en tierra.</p>
+      </div>
+
+      <p>Los proyectos SEA-ME-WE 6 y WorldLink están paralizados indefinidamente. Iran ha amenazado a 17 empresas tecnológicas americanas (Apple, Microsoft, Google, Meta, IBM, Intel, Tesla) con ataques si continúan los bombardeos a líderes iraníes.</p>
+
+      <h3 class="subsection-title">La dimensión cibernética</h3>
+
+      <p>Más allá del daño físico, la firma de ciberseguridad CloudSEK detectó riesgos elevados de actividad APT (Amenaza Persistente Avanzada), ataques DDoS y compromiso de cadena de suministro dirigidos a toda organización con vínculos en el conflicto —lo que incluye prácticamente a todos los grandes proveedores de nube, instituciones financieras y operadores de infraestructura crítica de Europa y Asia.</p>
+
+      <hr class="sep">
+
+      <!-- ─── JUEGO DE ACTORES ─── -->
+      <h2 class="section-title">El tablero de actores</h2>
+
+      <table class="actors-table">
+        <thead>
+          <tr>
+            <th>Actor</th>
+            <th>Objetivo</th>
+            <th>Posición</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="actor-name">EE.UU. (Trump)</span></td>
+            <td>Neutralizar capacidad nuclear iraní, salida rápida</td>
+            <td><span class="posicion-tag pos-ofensivo">Ofensivo</span></td>
+          </tr>
+          <tr>
+            <td><span class="actor-name">Israel</span></td>
+            <td>Destruir infraestructura militar-nuclear iraní</td>
+            <td><span class="posicion-tag pos-ofensivo">Ofensivo</span></td>
+          </tr>
+          <tr>
+            <td><span class="actor-name">Irán</span></td>
+            <td>Resistir, no rendir, conservar capacidad asimétrica</td>
+            <td><span class="posicion-tag pos-defensivo">Defensivo asimétrico</span></td>
+          </tr>
+          <tr>
+            <td><span class="actor-name">China</span></td>
+            <td>Preservar acceso energético; ganar posición digital</td>
+            <td><span class="posicion-tag pos-neutral">Neutral beneficiado</span></td>
+          </tr>
+          <tr>
+            <td><span class="actor-name">Rusia</span></td>
+            <td>Exportar energía a precios premium; ganar cuota</td>
+            <td><span class="posicion-tag pos-neutral">Neutral beneficiado</span></td>
+          </tr>
+          <tr>
+            <td><span class="actor-name">Turquía</span></td>
+            <td>Intermediación diplomática; preservar relaciones</td>
+            <td><span class="posicion-tag pos-pivot">Pivote estratégico</span></td>
+          </tr>
+          <tr>
+            <td><span class="actor-name">UE / España</span></td>
+            <td>Seguridad energética; evitar escalada; mediación</td>
+            <td><span class="posicion-tag pos-victima">Crítica, sin poder</span></td>
+          </tr>
+          <tr>
+            <td><span class="actor-name">Asia (JP/KR/IN)</span></td>
+            <td>Garantizar suministro energético a toda costa</td>
+            <td><span class="posicion-tag pos-victima">Presionados</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="alert-box info">
+        <span class="alert-tag">Equilibrio de Nash</span>
+        <p>No existe equilibrio estable. EE.UU. no puede declarar victoria sin reabrir Ormuz. Irán no puede ganar militarmente pero puede prolongar indefinidamente el coste. El conflicto converge hacia una <strong>«victoria sin nombre»</strong>: EE.UU. se retira, Irán no capitula, y el mundo reescribe sus rutas de suministro.</p>
+      </div>
+
+      <hr class="sep">
+
+      <!-- ─── LEYES ─── -->
+      <h2 class="section-title">Las leyes del sistema que explican este momento</h2>
+
+      <div class="law-item">
+        <div class="law-num">3</div>
+        <div class="law-content">
+          <div class="law-name">Ley de Coaliciones Inestables</div>
+          <div class="law-desc">La OTAN no es un bloque. Alemania secundó a Trump contra España. Francia vetó el espacio aéreo. Trump llamó a Francia «muy poco útil». Las alianzas formales no garantizan solidaridad real bajo presión.</div>
+        </div>
+      </div>
+
+      <div class="law-item">
+        <div class="law-num">4</div>
+        <div class="law-content">
+          <div class="law-name">Ley de Bifurcación Retardada</div>
+          <div class="law-desc">El mundo cruzó el umbral de no retorno en infraestructura digital en febrero-marzo 2026. No lo percibió hasta que ambos pasos marítimos quedaron bloqueados. Los puntos de no retorno se cruzan antes de ser percibidos.</div>
+        </div>
+      </div>
+
+      <div class="law-item">
+        <div class="law-num">7</div>
+        <div class="law-content">
+          <div class="law-name">Ley de Emergencia Narrativa</div>
+          <div class="law-desc">La narrativa que definirá el sistema post-conflicto no la escribirá Washington ni Teherán, sino quien construya primero las rutas alternativas. China y Rusia tienen ventaja posicional hoy.</div>
+        </div>
+      </div>
+
+      <div class="law-item">
+        <div class="law-num">11</div>
+        <div class="law-content">
+          <div class="law-name">Ley de Irreversibilidad Selectiva</div>
+          <div class="law-desc">El ataque a Ras Laffan (3-5 años de reparación) ya no puede deshacerse. El mercado global de GNL ha cambiado estructuralmente. Algunos cambios no tienen vuelta atrás.</div>
+        </div>
+      </div>
+
+      <hr class="sep">
+
+      <!-- ─── SÍNTESIS LOGOTRÓN ─── -->
+      <div class="synthesis-block">
+        <div class="synthesis-title">Síntesis Logotrón</div>
+        <div class="synthesis-text">
+          <p>El mundo descubrió en 32 días que sus dos arterias más críticas —el petróleo y los datos— pasan por el mismo estrecho de 34 kilómetros. Nadie lo había planificado así. Todos dependemos de ello.</p>
+          <p style="margin-top:1rem; color: var(--texto-secundario); font-style:italic;">El error de marco dominante: Occidente analiza este conflicto como una crisis de seguridad. Es, ante todo, una crisis de infraestructura sistémica con consecuencias que durarán décadas. Las soluciones militares no reparan cables submarinos ni reconstruyen Ras Laffan.</p>
+          <p style="margin-top:1rem; color: var(--texto-secundario); font-style:italic;">La próxima década será la de las rutas alternativas. Quien las construya, reescribirá el orden mundial.</p>
+        </div>
+      </div>
+
+    </div><!-- fin main-col -->
+
+    <!-- ─── COLUMNA LATERAL ─── -->
+    <div class="side-col">
+
+      <div class="section-label" style="margin-bottom:1.5rem;">Datos clave</div>
+
+      <div class="data-card">
+        <div class="data-card-label">Precio Brent (pico)</div>
+        <div class="data-card-value">126</div>
+        <div class="data-card-unit">USD/barril</div>
+        <div class="data-card-note">Cotización actual ~92 $/bl. Umbral de alerta: 100. Umbral crítico: 130.</div>
+      </div>
+
+      <div class="data-card">
+        <div class="data-card-label">Producción Golfo interrumpida</div>
+        <div class="data-card-value">10M</div>
+        <div class="data-card-unit">Barriles/día desde 12 mar</div>
+        <div class="data-card-note">~10% del consumo global diario. Pérdida sin precedentes históricos.</div>
+      </div>
+
+      <div class="data-card">
+        <div class="data-card-label">GNL Qatar — caída spot Asia</div>
+        <div class="data-card-value">+140%</div>
+        <div class="data-card-unit">Precio spot GNL Asia</div>
+        <div class="data-card-note">Ras Laffan dañado. Reparación: 3-5 años. QatarEnergy declaró force majeure.</div>
+      </div>
+
+      <div class="data-card">
+        <div class="data-card-label">Impacto PIB global (3 trim.)</div>
+        <div class="data-card-value">-1,3</div>
+        <div class="data-card-unit">Puntos porcentuales Q4 2026</div>
+        <div class="data-card-note">Estimación Dallas Fed si el cierre se prolonga tres trimestres.</div>
+      </div>
+
+      <div class="data-card">
+        <div class="data-card-label">Cables submarinos en riesgo</div>
+        <div class="data-card-value">17+</div>
+        <div class="data-card-unit">Solo en el Mar Rojo</div>
+        <div class="data-card-note">Más cables en Ormuz. Barcos de reparación no pueden operar. Primera vez histórica.</div>
+      </div>
+
+      <div class="data-card">
+        <div class="data-card-label">Deadline Trump — Plantas Iran</div>
+        <div class="data-card-value">6 ABR</div>
+        <div class="data-card-unit">2026 — 5 días</div>
+        <div class="data-card-note">Punto de bifurcación más inmediato. Si ejecuta → P(E-3) sube al 40-50%.</div>
+      </div>
+
+      <hr class="sep" style="margin:1.5rem 0;">
+
+      <div class="section-label" style="margin-bottom:1rem;">Estado del sistema</div>
+
+      <div class="status-grid" style="display:block;">
+        <div class="status-item" style="margin-bottom:0.6rem;">
+          <div class="status-dot dot-red"></div>
+          <span>Ormuz: cerrado operativamente</span>
+        </div>
+        <div class="status-item" style="margin-bottom:0.6rem;">
+          <div class="status-dot dot-red"></div>
+          <span>Ras Laffan: dañado (-17% GNL)</span>
+        </div>
+        <div class="status-item" style="margin-bottom:0.6rem;">
+          <div class="status-dot dot-red"></div>
+          <span>AWS UAE: parcialmente offline</span>
+        </div>
+        <div class="status-item" style="margin-bottom:0.6rem;">
+          <div class="status-dot dot-red"></div>
+          <span>2Africa Pearls: force majeure</span>
+        </div>
+        <div class="status-item" style="margin-bottom:0.6rem;">
+          <div class="status-dot dot-orange"></div>
+          <span>Mar Rojo: Houthis activos</span>
+        </div>
+        <div class="status-item" style="margin-bottom:0.6rem;">
+          <div class="status-dot dot-orange"></div>
+          <span>Negociaciones: contradictorias</span>
+        </div>
+        <div class="status-item" style="margin-bottom:0.6rem;">
+          <div class="status-dot dot-blue"></div>
+          <span>China: acceso preferencial</span>
+        </div>
+        <div class="status-item" style="margin-bottom:0.6rem;">
+          <div class="status-dot dot-blue"></div>
+          <span>Rusia: exportaciones premium</span>
+        </div>
+      </div>
+
+      <hr class="sep" style="margin:1.5rem 0;">
+
+      <!-- KPI Panel -->
+      <div class="kpi-panel">
+        <div class="kpi-panel-title">Panel de vigilancia · KPIs semanales</div>
+
+        <div class="kpi-row kpi-row-header">
+          <span>Indicador</span>
+          <span>⚠ Alerta</span>
+          <span>🔴 Crítico</span>
+        </div>
+
+        <div class="kpi-row">
+          <span>Brent ($/bl)</span>
+          <span class="kpi-alert">&gt;100</span>
+          <span class="kpi-critical">&gt;130</span>
+        </div>
+        <div class="kpi-row">
+          <span>Tráfico Ormuz (tankers/día)</span>
+          <span class="kpi-alert">&lt;50</span>
+          <span class="kpi-critical">&lt;20</span>
+        </div>
+        <div class="kpi-row">
+          <span>GNL Asia spot ($/MMBTU)</span>
+          <span class="kpi-alert">&gt;30</span>
+          <span class="kpi-critical">&gt;50</span>
+        </div>
+        <div class="kpi-row">
+          <span>Latencia EU-Asia (ms)</span>
+          <span class="kpi-alert">&gt;180</span>
+          <span class="kpi-critical">&gt;300</span>
+        </div>
+        <div class="kpi-row">
+          <span>Cap. cable SMW-5 (%)</span>
+          <span class="kpi-alert">&lt;70%</span>
+          <span class="kpi-critical">&lt;40%</span>
+        </div>
+        <div class="kpi-row">
+          <span>Urea NO ($/ton)</span>
+          <span class="kpi-alert">&gt;700</span>
+          <span class="kpi-critical">&gt;900</span>
+        </div>
+      </div>
+
+    </div><!-- fin side-col -->
+
+  </div><!-- fin two-col -->
+</main>
+
+<!-- ══════════════════════════════════════════════════════ FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">SOPHHIA</div>
+      <p class="footer-desc">
+        Sistema Operativo de Prospectiva Híbrido Humano-IA. Metodología original de análisis prospectivo que integra la escuela francesa (MICMAC, MACTOR) con dinámica de sistemas, álgebra borrosa, teoría de juegos e inteligencia artificial narrativa, manteniendo la inteligencia humana como directora.
+      </p>
+      <p class="footer-desc" style="margin-top:1rem; color: var(--texto-secundario); font-size:0.85rem; font-style:italic;">
+        «No alucinamos. Calculamos.» · «No imponemos. Resonamos.»
+      </p>
+    </div>
+    <div class="footer-legal">
+      <strong>Ficha técnica</strong>
+      Autor: Julio Villacorta García<br>
+      Organización: SOPHHIA PROSPECTIVA SL<br>
+      Marca registrada: OEPM · Safe Creative 2603034749778<br>
+      Metodología: Sol de 9 Fases<br>
+      Fuentes: IEA, AIE, Dallas Fed, UNCTAD, ACLED,<br>
+      CNN, Al Jazeera, Wikipedia, Rest of World,<br>
+      Atlantic Council, Roland Berger, Capacity Global<br>
+      Fecha de corte: 1 de abril de 2026<br><br>
+      <em style="color: var(--texto-secundario);">Los escenarios son herramientas analíticas, no predicciones. [DATO] = hechos verificados. [SUPUESTO] = hipótesis analíticas.</em>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
