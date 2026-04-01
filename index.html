@@ -7,211 +7,43 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    :root {
-      --navy: #0F172A;
-      --cobalt: #1E3A5F;
-      --teal: #0D9488;
-      --purple: #6C3483;
-      --amber: #D97706;
-    }
+    :root { --navy:#0F172A;--cobalt:#1E3A5F;--teal:#0D9488;--purple:#6C3483;--amber:#D97706; }
     html { scroll-behavior: smooth; }
     body { font-family: 'Inter', sans-serif; }
     .font-display { font-family: 'Playfair Display', Georgia, serif; }
-    
-    @keyframes pulse-slow {
-      0%, 100% { opacity: 0.3; }
-      50% { opacity: 0.6; }
-    }
+    @keyframes pulse-slow { 0%,100%{opacity:0.3}50%{opacity:0.6} }
     .animate-pulse-slow { animation: pulse-slow 4s ease-in-out infinite; }
-    
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-10px); }
-    }
+    @keyframes float { 0%,100%{transform:translateY(0px)}50%{transform:translateY(-10px)} }
     .animate-float { animation: float 6s ease-in-out infinite; }
-    
-    .grain {
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-    }
-    
-    /* Diagrama SOPHHIA */
-    .diagrama-container {
-      position: relative;
-      width: 100%;
-      max-width: 650px;
-      aspect-ratio: 1;
-      margin: 0 auto;
-      overflow: hidden;
-      border-radius: 1rem;
-      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);
-    }
-    
-    .diagrama-fondo {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: radial-gradient(
-        ellipse 85% 90% at 50% 50%,
-        rgb(255, 220, 140) 0%,
-        rgb(255, 180, 80) 15%,
-        rgb(255, 130, 50) 28%,
-        rgb(220, 70, 45) 42%,
-        rgb(160, 45, 55) 58%,
-        rgb(100, 40, 65) 75%,
-        rgb(55, 30, 55) 100%
-      );
-    }
-    
-    .diagrama-mancha {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(40px);
-    }
-    
-    .diagrama-franja {
-      position: absolute;
-      left: 0;
-      width: 100%;
-      filter: blur(20px);
-      opacity: 0.4;
-    }
-    
-    .diagrama-grid {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-      z-index: 20;
-    }
-    
-    .diagrama-cell {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      padding: 14px;
-      position: relative;
-    }
-    
-    .diagrama-cell h4 {
-      font-size: 1rem;
-      font-weight: 600;
-      margin-bottom: 3px;
-      font-family: 'Playfair Display', serif;
-    }
-    
-    .diagrama-cell p {
-      font-size: 0.65rem;
-      opacity: 0.85;
-      line-height: 1.3;
-    }
-    
-    .diagrama-cell.light-text {
-      color: rgb(255, 240, 225);
-      text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-    }
-    
-    .diagrama-cell.dark-text {
-      color: rgb(60, 25, 35);
-      text-shadow: 0 1px 2px rgba(255,200,150,0.3);
-    }
-    
-    .fase-numero {
-      position: absolute;
-      bottom: 8px;
-      right: 10px;
-      font-size: 1.3rem;
-      font-weight: 700;
-      opacity: 0.2;
-    }
-    
-    .diagrama-sol {
-      position: absolute;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%; height: 100%;
-      z-index: 10;
-      pointer-events: none;
-    }
-    
-    .diagrama-labels {
-      position: absolute;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      width: 130px; height: 130px;
-      z-index: 15;
-      pointer-events: none;
-      text-align: center;
-    }
-    
-    .label-logotron {
-      position: absolute;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 0.55rem;
-      color: rgba(150, 80, 40, 0.95);
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      font-weight: 700;
-      text-shadow: 0 0 12px rgba(255,255,255,0.6);
-    }
-    
-    .label-cosmos {
-      position: absolute;
-      top: 40px; left: 50%;
-      transform: translateX(-50%);
-      font-size: 0.42rem;
-      color: rgba(160, 90, 50, 0.9);
-      font-weight: 600;
-    }
-    
-    .label-humanas {
-      position: absolute;
-      top: 25px; left: 50%;
-      transform: translateX(-50%);
-      font-size: 0.45rem;
-      color: rgba(170, 95, 55, 0.85);
-      font-weight: 600;
-    }
-    
-    .diagrama-cell.centro {
-      justify-content: flex-end;
-      align-items: center;
-      padding-bottom: 12px;
-    }
-    
-    .diagrama-cell.centro h4 {
-      font-size: 0.7rem;
-      text-align: center;
-    }
-    
-    .diagrama-cell.centro p {
-      font-size: 0.5rem;
-      text-align: center;
-    }
-    
-    .diagrama-cell.centro .fase-numero {
-      bottom: 3px;
-      right: 50%;
-      transform: translateX(50%);
-      font-size: 0.85rem;
-    }
-    
-    @media (max-width: 640px) {
-      .diagrama-cell h4 { font-size: 0.8rem; }
-      .diagrama-cell p { font-size: 0.55rem; }
-      .diagrama-cell { padding: 8px; }
-      .fase-numero { font-size: 1rem; }
-    }
+    .grain { background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E"); }
+    .diagrama-container { position:relative;width:100%;max-width:650px;aspect-ratio:1;margin:0 auto;overflow:hidden;border-radius:1rem;box-shadow:0 25px 50px -12px rgba(0,0,0,0.4); }
+    .diagrama-fondo { position:absolute;top:0;left:0;width:100%;height:100%;background:radial-gradient(ellipse 85% 90% at 50% 50%,rgb(255,220,140) 0%,rgb(255,180,80) 15%,rgb(255,130,50) 28%,rgb(220,70,45) 42%,rgb(160,45,55) 58%,rgb(100,40,65) 75%,rgb(55,30,55) 100%); }
+    .diagrama-mancha { position:absolute;border-radius:50%;filter:blur(40px); }
+    .diagrama-franja { position:absolute;left:0;width:100%;filter:blur(20px);opacity:0.4; }
+    .diagrama-grid { position:absolute;top:0;left:0;width:100%;height:100%;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);z-index:20; }
+    .diagrama-cell { display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;padding:14px;position:relative; }
+    .diagrama-cell h4 { font-size:1rem;font-weight:600;margin-bottom:3px;font-family:'Playfair Display',serif; }
+    .diagrama-cell p { font-size:0.65rem;opacity:0.85;line-height:1.3; }
+    .diagrama-cell.light-text { color:rgb(255,240,225);text-shadow:0 1px 3px rgba(0,0,0,0.5); }
+    .diagrama-cell.dark-text { color:rgb(60,25,35);text-shadow:0 1px 2px rgba(255,200,150,0.3); }
+    .fase-numero { position:absolute;bottom:8px;right:10px;font-size:1.3rem;font-weight:700;opacity:0.2; }
+    .diagrama-sol { position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;height:100%;z-index:10;pointer-events:none; }
+    .diagrama-labels { position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:130px;height:130px;z-index:15;pointer-events:none;text-align:center; }
+    .label-logotron { position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:0.55rem;color:rgba(150,80,40,0.95);text-transform:uppercase;letter-spacing:0.1em;font-weight:700;text-shadow:0 0 12px rgba(255,255,255,0.6); }
+    .label-cosmos { position:absolute;top:40px;left:50%;transform:translateX(-50%);font-size:0.42rem;color:rgba(160,90,50,0.9);font-weight:600; }
+    .label-humanas { position:absolute;top:25px;left:50%;transform:translateX(-50%);font-size:0.45rem;color:rgba(170,95,55,0.85);font-weight:600; }
+    .diagrama-cell.centro { justify-content:flex-end;align-items:center;padding-bottom:12px; }
+    .diagrama-cell.centro h4 { font-size:0.7rem;text-align:center; }
+    .diagrama-cell.centro p { font-size:0.5rem;text-align:center; }
+    .diagrama-cell.centro .fase-numero { bottom:3px;right:50%;transform:translateX(50%);font-size:0.85rem; }
+    @media(max-width:640px){.diagrama-cell h4{font-size:0.8rem}.diagrama-cell p{font-size:0.55rem}.diagrama-cell{padding:8px}.fase-numero{font-size:1rem}}
+    .filtro-btn.activo { background:rgba(217,119,6,0.15);border-color:rgba(217,119,6,0.6);color:#fbbf24; }
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 overflow-x-hidden">
-  <!-- Grain Overlay -->
   <div class="fixed inset-0 pointer-events-none opacity-10 z-50 grain"></div>
 
-  <!-- Navigation -->
+  <!-- NAV -->
   <nav id="navbar" class="fixed top-0 left-0 right-0 z-40 transition-all duration-500">
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
       <div class="flex items-center gap-3">
@@ -224,270 +56,139 @@
         <a href="manifiesto-sophhia.html" class="px-4 py-2 bg-teal-600 text-white rounded-full font-semibold mr-6">Manifiesto</a>
         <a href="#metodologia" class="text-slate-400 hover:text-teal-400 transition-colors text-sm tracking-wide">Metodología</a>
         <a href="#hemisferios" class="text-slate-400 hover:text-teal-400 transition-colors text-sm tracking-wide">Los Dos Hemisferios</a>
-        <a href="#analisis" class="text-slate-400 hover:text-teal-400 transition-colors text-sm tracking-wide">Casos</a>
+        <a href="#analisis" class="text-slate-400 hover:text-teal-400 transition-colors text-sm tracking-wide">Análisis</a>
         <a href="#descarga" class="text-slate-400 hover:text-teal-400 transition-colors text-sm tracking-wide">Descarga</a>
-        <a href="como-funciona.html" class="text-slate-400 hover:text-teal-400 transition-colors text-sm tracking-wide">Cómo Funciona</a>        <a href="#contacto" class="px-5 py-2 bg-teal-600 hover:bg-teal-500 rounded-full text-sm font-medium transition-all hover:shadow-lg hover:shadow-teal-500/25">
-          Contacto
-        </a>
+        <a href="como-funciona.html" class="text-slate-400 hover:text-teal-400 transition-colors text-sm tracking-wide">Cómo Funciona</a>
+        <a href="#contacto" class="px-5 py-2 bg-teal-600 hover:bg-teal-500 rounded-full text-sm font-medium transition-all hover:shadow-lg hover:shadow-teal-500/25">Contacto</a>
       </div>
     </div>
   </nav>
 
-  <!-- Hero Section - OSCURIDAD -->
+  <!-- HERO -->
   <section class="relative min-h-screen flex items-center justify-center px-6 overflow-hidden bg-slate-950">
     <div class="absolute inset-0">
       <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl animate-pulse-slow"></div>
-      <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse-slow" style="animation-delay: 2s;"></div>
+      <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse-slow" style="animation-delay:2s"></div>
       <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] border border-slate-800/50 rounded-full"></div>
       <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-slate-800/30 rounded-full"></div>
       <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] border border-slate-800/20 rounded-full"></div>
     </div>
-
     <div class="relative z-10 max-w-5xl mx-auto text-center">
       <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800/50 border border-slate-700/50 mb-8">
         <span class="w-2 h-2 bg-teal-400 rounded-full animate-pulse"></span>
         <span class="text-sm text-slate-400 tracking-wide">Sistema Operativo de Prospectiva Híbrido Humano-IA</span>
       </div>
-
       <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6 font-display">
         <span class="block text-slate-100">Anticiparse</span>
         <span class="block text-slate-100">no es adivinar.</span>
-        <span class="block bg-gradient-to-r from-teal-400 via-cyan-400 to-teal-400 bg-clip-text text-transparent">
-          Es consultar, calcular, reflexionar.
-        </span>
+        <span class="block bg-gradient-to-r from-teal-400 via-cyan-400 to-teal-400 bg-clip-text text-transparent">Es consultar, calcular, reflexionar.</span>
       </h1>
-
-      <p class="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed">
-        El primer sistema de prospectiva estratégica que integra
-        <span class="text-slate-200 font-medium"> Inteligencia Artificial </span> + 
-        <span class="text-slate-200 font-medium"> Análisis Matemático </span> + 
-        <span class="text-slate-200 font-medium"> Juicio Experto</span>
-      </p>
-
+      <p class="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed">El primer sistema de prospectiva estratégica que integra <span class="text-slate-200 font-medium">Inteligencia Artificial</span> + <span class="text-slate-200 font-medium">Análisis Matemático</span> + <span class="text-slate-200 font-medium">Juicio Experto</span></p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-        <a href="#contacto" class="group px-8 py-4 bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-400 hover:to-teal-500 rounded-full text-lg font-semibold transition-all duration-300 hover:shadow-2xl hover:shadow-teal-500/30 hover:-translate-y-1">
-          Solicitar sesión exploratoria
-          <span class="inline-block ml-2 transition-transform group-hover:translate-x-1">→</span>
-        </a>
-        <a href="#metodologia" class="px-8 py-4 border border-slate-700 hover:border-slate-500 rounded-full text-lg font-medium text-slate-300 hover:text-white transition-all hover:bg-slate-800/50">
-          Conocer la metodología
-        </a>
+        <a href="#contacto" class="group px-8 py-4 bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-400 hover:to-teal-500 rounded-full text-lg font-semibold transition-all duration-300 hover:shadow-2xl hover:shadow-teal-500/30 hover:-translate-y-1">Solicitar sesión exploratoria <span class="inline-block ml-2 transition-transform group-hover:translate-x-1">→</span></a>
+        <a href="#metodologia" class="px-8 py-4 border border-slate-700 hover:border-slate-500 rounded-full text-lg font-medium text-slate-300 hover:text-white transition-all hover:bg-slate-800/50">Conocer la metodología</a>
       </div>
-
       <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12">
-        <div class="flex items-center gap-3 px-6 py-3 rounded-xl bg-slate-900/80 border border-slate-800">
-          <div class="w-3 h-3 bg-slate-400 rounded-full"></div>
-          <span class="text-slate-300 font-medium italic font-display">"No alucinamos. Calculamos."</span>
-        </div>
-        <div class="flex items-center gap-3 px-6 py-3 rounded-xl bg-purple-950/50 border border-purple-800/50">
-          <div class="w-3 h-3 bg-purple-400 rounded-full"></div>
-          <span class="text-purple-200 font-medium italic font-display">"No imponemos. Resonamos."</span>
-        </div>
+        <div class="flex items-center gap-3 px-6 py-3 rounded-xl bg-slate-900/80 border border-slate-800"><div class="w-3 h-3 bg-slate-400 rounded-full"></div><span class="text-slate-300 font-medium italic font-display">"No alucinamos. Calculamos."</span></div>
+        <div class="flex items-center gap-3 px-6 py-3 rounded-xl bg-purple-950/50 border border-purple-800/50"><div class="w-3 h-3 bg-purple-400 rounded-full"></div><span class="text-purple-200 font-medium italic font-display">"No imponemos. Resonamos."</span></div>
       </div>
     </div>
-
     <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-slate-500 animate-float">
       <span class="text-xs tracking-widest uppercase">Scroll</span>
       <div class="w-px h-12 bg-gradient-to-b from-slate-500 to-transparent"></div>
     </div>
   </section>
 
-  <!-- Problem Section - PENUMBRA -->
+  <!-- PROBLEM -->
   <section class="py-32 px-6 relative bg-gradient-to-b from-slate-950 to-slate-900">
     <div class="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-transparent via-red-500/30 to-transparent"></div>
     <div class="max-w-4xl mx-auto">
       <span class="text-red-400 text-sm font-semibold tracking-widest uppercase mb-4 block">El Problema</span>
-      <h2 class="text-4xl md:text-5xl font-bold mb-8 font-display">
-        El futuro ya no es lo que era
-      </h2>
-      <p class="text-xl text-slate-400 mb-12 leading-relaxed">
-        Los métodos tradicionales de planificación estratégica fueron diseñados para un mundo más estable. Hoy, las organizaciones enfrentan:
-      </p>
+      <h2 class="text-4xl md:text-5xl font-bold mb-8 font-display">El futuro ya no es lo que era</h2>
+      <p class="text-xl text-slate-400 mb-12 leading-relaxed">Los métodos tradicionales de planificación estratégica fueron diseñados para un mundo más estable. Hoy, las organizaciones enfrentan:</p>
       <div class="grid md:grid-cols-2 gap-6">
-        <div class="flex items-start gap-4 p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-red-900/50 transition-colors">
-          <div class="w-2 h-2 mt-2 bg-red-500 rounded-full flex-shrink-0"></div>
-          <span class="text-slate-300">Cambios tecnológicos que transforman industrias enteras en meses</span>
-        </div>
-        <div class="flex items-start gap-4 p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-red-900/50 transition-colors">
-          <div class="w-2 h-2 mt-2 bg-red-500 rounded-full flex-shrink-0"></div>
-          <span class="text-slate-300">Disrupciones geopolíticas que alteran cadenas de suministro de la noche a la mañana</span>
-        </div>
-        <div class="flex items-start gap-4 p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-red-900/50 transition-colors">
-          <div class="w-2 h-2 mt-2 bg-red-500 rounded-full flex-shrink-0"></div>
-          <span class="text-slate-300">Transiciones energéticas con calendarios políticos y realidades técnicas en tensión</span>
-        </div>
-        <div class="flex items-start gap-4 p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-red-900/50 transition-colors">
-          <div class="w-2 h-2 mt-2 bg-red-500 rounded-full flex-shrink-0"></div>
-          <span class="text-slate-300">Múltiples actores con objetivos divergentes que bloquean decisiones</span>
-        </div>
+        <div class="flex items-start gap-4 p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-red-900/50 transition-colors"><div class="w-2 h-2 mt-2 bg-red-500 rounded-full flex-shrink-0"></div><span class="text-slate-300">Cambios tecnológicos que transforman industrias enteras en meses</span></div>
+        <div class="flex items-start gap-4 p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-red-900/50 transition-colors"><div class="w-2 h-2 mt-2 bg-red-500 rounded-full flex-shrink-0"></div><span class="text-slate-300">Disrupciones geopolíticas que alteran cadenas de suministro de la noche a la mañana</span></div>
+        <div class="flex items-start gap-4 p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-red-900/50 transition-colors"><div class="w-2 h-2 mt-2 bg-red-500 rounded-full flex-shrink-0"></div><span class="text-slate-300">Transiciones energéticas con calendarios políticos y realidades técnicas en tensión</span></div>
+        <div class="flex items-start gap-4 p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-red-900/50 transition-colors"><div class="w-2 h-2 mt-2 bg-red-500 rounded-full flex-shrink-0"></div><span class="text-slate-300">Múltiples actores con objetivos divergentes que bloquean decisiones</span></div>
       </div>
       <div class="mt-12 p-8 rounded-2xl bg-gradient-to-r from-slate-900 to-slate-900/50 border border-slate-800 text-center">
-        <p class="text-2xl text-slate-200 font-medium font-display">
-          El problema no es falta de datos.<br>
-          <span class="text-red-400">Es exceso de datos sin un marco para interpretarlos.</span>
-        </p>
+        <p class="text-2xl text-slate-200 font-medium font-display">El problema no es falta de datos.<br><span class="text-red-400">Es exceso de datos sin un marco para interpretarlos.</span></p>
       </div>
     </div>
   </section>
 
-  <!-- Solution Section - PRIMERA LUZ -->
+  <!-- SOLUTION -->
   <section class="py-32 px-6 bg-gradient-to-b from-slate-900 to-slate-800">
     <div class="max-w-6xl mx-auto">
       <div class="text-center mb-16">
         <span class="text-teal-400 text-sm font-semibold tracking-widest uppercase mb-4 block">La Solución</span>
-        <h2 class="text-4xl md:text-6xl font-bold mb-6 font-display">
-          Un sistema que piensa como<br>
-          <span class="text-teal-400">un equipo completo</span>
-        </h2>
-        <p class="text-xl text-slate-300 max-w-3xl mx-auto">
-          Analistas, matemáticos y estrategas trabajando en sincronía
-        </p>
+        <h2 class="text-4xl md:text-6xl font-bold mb-6 font-display">Un sistema que piensa como<br><span class="text-teal-400">un equipo completo</span></h2>
+        <p class="text-xl text-slate-300 max-w-3xl mx-auto">Analistas, matemáticos y estrategas trabajando en sincronía</p>
       </div>
-
       <div class="grid md:grid-cols-3 gap-8 mb-16">
-        <div class="relative p-8 rounded-3xl bg-gradient-to-br from-blue-500/20 to-blue-600/5 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
-          <div class="text-5xl mb-6">🤖</div>
-          <h3 class="text-2xl font-bold mb-1 font-display">IA de Lenguaje</h3>
-          <span class="text-sm text-slate-500 font-mono mb-4 block">LLM</span>
-          <p class="text-slate-300">Sintetiza información, genera hipótesis, traduce entre dominios</p>
-        </div>
-        <div class="relative p-8 rounded-3xl bg-gradient-to-br from-teal-500/20 to-teal-600/5 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
-          <div class="text-5xl mb-6">📊</div>
-          <h3 class="text-2xl font-bold mb-1 font-display">IA Matemática</h3>
-          <span class="text-sm text-slate-500 font-mono mb-4 block">LMM</span>
-          <p class="text-slate-300">Calcula, simula, optimiza, visualiza patrones</p>
-        </div>
-        <div class="relative p-8 rounded-3xl bg-gradient-to-br from-amber-500/20 to-amber-600/5 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
-          <div class="text-5xl mb-6">🧠</div>
-          <h3 class="text-2xl font-bold mb-1 font-display">Inteligencia Humana</h3>
-          <span class="text-sm text-slate-500 font-mono mb-4 block">IH</span>
-          <p class="text-slate-300">Valida, decide, aporta juicio experto y valores</p>
-        </div>
+        <div class="relative p-8 rounded-3xl bg-gradient-to-br from-blue-500/20 to-blue-600/5 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2"><div class="text-5xl mb-6">🤖</div><h3 class="text-2xl font-bold mb-1 font-display">IA de Lenguaje</h3><span class="text-sm text-slate-500 font-mono mb-4 block">LLM</span><p class="text-slate-300">Sintetiza información, genera hipótesis, traduce entre dominios</p></div>
+        <div class="relative p-8 rounded-3xl bg-gradient-to-br from-teal-500/20 to-teal-600/5 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2"><div class="text-5xl mb-6">📊</div><h3 class="text-2xl font-bold mb-1 font-display">IA Matemática</h3><span class="text-sm text-slate-500 font-mono mb-4 block">LMM</span><p class="text-slate-300">Calcula, simula, optimiza, visualiza patrones</p></div>
+        <div class="relative p-8 rounded-3xl bg-gradient-to-br from-amber-500/20 to-amber-600/5 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2"><div class="text-5xl mb-6">🧠</div><h3 class="text-2xl font-bold mb-1 font-display">Inteligencia Humana</h3><span class="text-sm text-slate-500 font-mono mb-4 block">IH</span><p class="text-slate-300">Valida, decide, aporta juicio experto y valores</p></div>
       </div>
-
       <div class="text-center p-8 rounded-3xl bg-slate-900/50 border border-slate-700">
-        <p class="text-xl text-slate-300 leading-relaxed">
-          El resultado: análisis con la <span class="text-teal-400 font-semibold">profundidad de un equipo de consultores senior</span>, 
-          la <span class="text-teal-400 font-semibold">velocidad de la automatización</span>, 
-          y la <span class="text-teal-400 font-semibold">responsabilidad del juicio humano</span>.
-        </p>
+        <p class="text-xl text-slate-300 leading-relaxed">El resultado: análisis con la <span class="text-teal-400 font-semibold">profundidad de un equipo de consultores senior</span>, la <span class="text-teal-400 font-semibold">velocidad de la automatización</span>, y la <span class="text-teal-400 font-semibold">responsabilidad del juicio humano</span>.</p>
       </div>
     </div>
   </section>
 
-  <!-- Two Hemispheres Section - AMANECER -->
+  <!-- HEMISFERIOS -->
   <section id="hemisferios" class="py-32 px-6 relative overflow-hidden bg-gradient-to-b from-slate-800 to-slate-700">
     <div class="relative z-10 max-w-6xl mx-auto">
       <div class="text-center mb-16">
         <span class="text-purple-300 text-sm font-semibold tracking-widest uppercase mb-4 block">Los Dos Hemisferios</span>
-        <h2 class="text-4xl md:text-6xl font-bold mb-6 font-display text-white">
-          Calculamos. <span class="text-purple-300">Y también narramos.</span>
-        </h2>
-        <p class="text-xl text-slate-300 max-w-3xl mx-auto">
-          Porque los números sin narrativa no movilizan, y las narrativas sin fundamento no convencen.
-        </p>
+        <h2 class="text-4xl md:text-6xl font-bold mb-6 font-display text-white">Calculamos. <span class="text-purple-300">Y también narramos.</span></h2>
+        <p class="text-xl text-slate-300 max-w-3xl mx-auto">Porque los números sin narrativa no movilizan, y las narrativas sin fundamento no convencen.</p>
       </div>
-
       <div class="grid md:grid-cols-2 gap-8 mb-16">
         <div class="p-8 rounded-3xl bg-slate-800/80 border border-slate-600 hover:border-teal-600/50 transition-colors">
-          <div class="flex items-center gap-4 mb-6">
-            <div class="w-4 h-4 bg-slate-300 rounded-full"></div>
-            <span class="text-sm font-semibold tracking-widest uppercase text-slate-400">Hemisferio Cuantitativo</span>
-          </div>
-          <h3 class="text-3xl font-bold mb-4 text-slate-100 italic font-display">
-            "No alucinamos. Calculamos."
-          </h3>
+          <div class="flex items-center gap-4 mb-6"><div class="w-4 h-4 bg-slate-300 rounded-full"></div><span class="text-sm font-semibold tracking-widest uppercase text-slate-400">Hemisferio Cuantitativo</span></div>
+          <h3 class="text-3xl font-bold mb-4 text-slate-100 italic font-display">"No alucinamos. Calculamos."</h3>
           <ul class="space-y-3 mb-6">
-            <li class="flex items-center gap-3 text-slate-300">
-              <span class="w-1.5 h-1.5 bg-teal-400 rounded-full"></span>
-              Matrices de influencia
-            </li>
-            <li class="flex items-center gap-3 text-slate-300">
-              <span class="w-1.5 h-1.5 bg-teal-400 rounded-full"></span>
-              Simulaciones dinámicas
-            </li>
-            <li class="flex items-center gap-3 text-slate-300">
-              <span class="w-1.5 h-1.5 bg-teal-400 rounded-full"></span>
-              Probabilidades
-            </li>
-            <li class="flex items-center gap-3 text-slate-300">
-              <span class="w-1.5 h-1.5 bg-teal-400 rounded-full"></span>
-              Equilibrios estratégicos
-            </li>
+            <li class="flex items-center gap-3 text-slate-300"><span class="w-1.5 h-1.5 bg-teal-400 rounded-full"></span>Matrices de influencia</li>
+            <li class="flex items-center gap-3 text-slate-300"><span class="w-1.5 h-1.5 bg-teal-400 rounded-full"></span>Simulaciones dinámicas</li>
+            <li class="flex items-center gap-3 text-slate-300"><span class="w-1.5 h-1.5 bg-teal-400 rounded-full"></span>Probabilidades</li>
+            <li class="flex items-center gap-3 text-slate-300"><span class="w-1.5 h-1.5 bg-teal-400 rounded-full"></span>Equilibrios estratégicos</li>
           </ul>
-          <div class="pt-6 border-t border-slate-600">
-            <span class="text-sm text-slate-400">Para decisiones de inversión, operaciones, planificación</span>
-          </div>
+          <div class="pt-6 border-t border-slate-600"><span class="text-sm text-slate-400">Para decisiones de inversión, operaciones, planificación</span></div>
         </div>
-
         <div class="p-8 rounded-3xl bg-purple-900/40 border border-purple-700/50 hover:border-purple-500/50 transition-colors">
-          <div class="flex items-center gap-4 mb-6">
-            <div class="w-4 h-4 bg-purple-300 rounded-full"></div>
-            <span class="text-sm font-semibold tracking-widest uppercase text-purple-300">Hemisferio Narrativo</span>
-          </div>
-          <h3 class="text-3xl font-bold mb-4 text-purple-100 italic font-display">
-            "No imponemos. Resonamos."
-          </h3>
+          <div class="flex items-center gap-4 mb-6"><div class="w-4 h-4 bg-purple-300 rounded-full"></div><span class="text-sm font-semibold tracking-widest uppercase text-purple-300">Hemisferio Narrativo</span></div>
+          <h3 class="text-3xl font-bold mb-4 text-purple-100 italic font-display">"No imponemos. Resonamos."</h3>
           <ul class="space-y-3 mb-6">
-            <li class="flex items-center gap-3 text-purple-200">
-              <span class="w-1.5 h-1.5 bg-purple-300 rounded-full"></span>
-              Relatos estratégicos
-            </li>
-            <li class="flex items-center gap-3 text-purple-200">
-              <span class="w-1.5 h-1.5 bg-purple-300 rounded-full"></span>
-              Síntesis de posiciones
-            </li>
-            <li class="flex items-center gap-3 text-purple-200">
-              <span class="w-1.5 h-1.5 bg-purple-300 rounded-full"></span>
-              Marcos integradores
-            </li>
-            <li class="flex items-center gap-3 text-purple-200">
-              <span class="w-1.5 h-1.5 bg-purple-300 rounded-full"></span>
-              Narrativas movilizadoras
-            </li>
+            <li class="flex items-center gap-3 text-purple-200"><span class="w-1.5 h-1.5 bg-purple-300 rounded-full"></span>Relatos estratégicos</li>
+            <li class="flex items-center gap-3 text-purple-200"><span class="w-1.5 h-1.5 bg-purple-300 rounded-full"></span>Síntesis de posiciones</li>
+            <li class="flex items-center gap-3 text-purple-200"><span class="w-1.5 h-1.5 bg-purple-300 rounded-full"></span>Marcos integradores</li>
+            <li class="flex items-center gap-3 text-purple-200"><span class="w-1.5 h-1.5 bg-purple-300 rounded-full"></span>Narrativas movilizadoras</li>
           </ul>
-          <div class="pt-6 border-t border-purple-700/50">
-            <span class="text-sm text-purple-300">Para política, comunicación, construcción de consensos</span>
-          </div>
+          <div class="pt-6 border-t border-purple-700/50"><span class="text-sm text-purple-300">Para política, comunicación, construcción de consensos</span></div>
         </div>
       </div>
-
       <div class="relative p-8 rounded-3xl bg-gradient-to-r from-purple-800/30 to-slate-800/30 border border-purple-700/30 overflow-hidden">
         <div class="absolute top-0 right-0 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl"></div>
         <div class="relative z-10">
-          <div class="flex items-center gap-3 mb-4">
-            <span class="text-2xl">⚛️</span>
-            <span class="text-purple-300 font-bold tracking-wide">LOGOTRÓN</span>
-            <span class="px-3 py-1 rounded-full bg-purple-700/50 text-purple-200 text-xs font-medium">Colisionador Semántico</span>
-          </div>
-          <p class="text-xl text-slate-200 leading-relaxed">
-            Nuestro Colisionador Semántico transforma los outputs cuantitativos en narrativas que resuenan. 
-            Porque un escenario no es solo un número: <span class="text-purple-200 font-medium">es un futuro que debe poder imaginarse, temerse o desearse</span>.
-          </p>
+          <div class="flex items-center gap-3 mb-4"><span class="text-2xl">⚛️</span><span class="text-purple-300 font-bold tracking-wide">LOGOTRÓN</span><span class="px-3 py-1 rounded-full bg-purple-700/50 text-purple-200 text-xs font-medium">Colisionador Semántico</span></div>
+          <p class="text-xl text-slate-200 leading-relaxed">Nuestro Colisionador Semántico transforma los outputs cuantitativos en narrativas que resuenan. Porque un escenario no es solo un número: <span class="text-purple-200 font-medium">es un futuro que debe poder imaginarse, temerse o desearse</span>.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 9 Phases Section with DIAGRAM - CLARIDAD CRECIENTE -->
+  <!-- METODOLOGÍA -->
   <section id="metodologia" class="py-32 px-6 bg-gradient-to-b from-slate-700 to-slate-500">
     <div class="max-w-6xl mx-auto">
       <div class="text-center mb-12">
         <span class="text-teal-300 text-sm font-semibold tracking-widest uppercase mb-4 block">Metodología</span>
-        <h2 class="text-4xl md:text-6xl font-bold mb-6 font-display text-white">
-          Un método riguroso en <span class="text-amber-300">8 fases</span>
-        </h2>
-        <p class="text-xl text-slate-200 max-w-3xl mx-auto">
-          Desde la comprensión del sistema hasta la hoja de ruta ejecutable
-        </p>
+        <h2 class="text-4xl md:text-6xl font-bold mb-6 font-display text-white">Un método riguroso en <span class="text-amber-300">8 fases</span></h2>
+        <p class="text-xl text-slate-200 max-w-3xl mx-auto">Desde la comprensión del sistema hasta la hoja de ruta ejecutable</p>
       </div>
-
-      <!-- DIAGRAMA VISUAL DE LAS 9 FASES -->
       <div class="diagrama-container">
-        <!-- Fondo radial tipo amanecer -->
         <div class="diagrama-fondo"></div>
-        
-        <!-- Manchas que rompen simetría -->
         <div class="diagrama-mancha" style="top:-5%;left:10%;width:220px;height:160px;background:rgba(60,25,50,0.6);mix-blend-mode:multiply;border-radius:60% 40% 50% 50%;"></div>
         <div class="diagrama-mancha" style="top:5%;right:-5%;width:200px;height:180px;background:rgba(50,20,45,0.5);mix-blend-mode:multiply;border-radius:45% 55% 60% 40%;"></div>
         <div class="diagrama-mancha" style="bottom:10%;left:-8%;width:250px;height:150px;background:rgba(70,30,55,0.55);mix-blend-mode:multiply;border-radius:50% 50% 40% 60%;"></div>
@@ -495,194 +196,69 @@
         <div class="diagrama-mancha" style="top:30%;left:5%;width:130px;height:110px;background:rgba(255,150,60,0.3);mix-blend-mode:screen;filter:blur(50px);border-radius:60% 40% 45% 55%;"></div>
         <div class="diagrama-mancha" style="bottom:25%;right:8%;width:160px;height:130px;background:rgba(255,120,50,0.25);mix-blend-mode:screen;filter:blur(55px);border-radius:45% 55% 50% 50%;"></div>
         <div class="diagrama-mancha" style="top:8%;left:35%;width:110px;height:90px;background:rgba(255,180,80,0.2);mix-blend-mode:screen;filter:blur(45px);border-radius:50% 50% 55% 45%;"></div>
-        
-        <!-- Franjas horizontales -->
         <div class="diagrama-franja" style="top:12%;height:35px;background:linear-gradient(90deg,transparent 0%,rgba(80,30,50,0.7) 20%,rgba(90,35,55,0.5) 50%,rgba(70,28,48,0.6) 80%,transparent 100%);"></div>
         <div class="diagrama-franja" style="top:22%;height:28px;background:linear-gradient(90deg,transparent 0%,rgba(100,40,55,0.5) 30%,rgba(120,50,60,0.4) 60%,transparent 100%);"></div>
         <div class="diagrama-franja" style="bottom:18%;height:32px;background:linear-gradient(90deg,transparent 0%,rgba(90,35,55,0.6) 25%,rgba(110,45,60,0.45) 70%,transparent 100%);"></div>
         <div class="diagrama-franja" style="bottom:8%;height:45px;background:linear-gradient(90deg,rgba(60,25,45,0.5) 0%,rgba(75,30,50,0.6) 40%,rgba(55,22,42,0.5) 70%,transparent 100%);"></div>
-        
-        <!-- SVG del Sol -->
         <svg class="diagrama-sol" viewBox="0 0 700 700">
           <defs>
-            <filter id="blur3" x="-50%" y="-50%" width="200%" height="200%">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
-            </filter>
-            <filter id="blur6" x="-50%" y="-50%" width="200%" height="200%">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="6"/>
-            </filter>
-            <filter id="blur12" x="-50%" y="-50%" width="200%" height="200%">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="12"/>
-            </filter>
-            
-            <linearGradient id="rayoLuz" x1="50%" y1="100%" x2="50%" y2="0%">
-              <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
-              <stop offset="15%" stop-color="#FFF8E0" stop-opacity="0.6"/>
-              <stop offset="35%" stop-color="#FFE8A0" stop-opacity="0.3"/>
-              <stop offset="60%" stop-color="#FFD860" stop-opacity="0.1"/>
-              <stop offset="100%" stop-color="#FFC830" stop-opacity="0"/>
-            </linearGradient>
-            
-            <radialGradient id="nucleoSol" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stop-color="#FFFFFF"/>
-              <stop offset="25%" stop-color="#FFFEF5"/>
-              <stop offset="50%" stop-color="#FFF8D8"/>
-              <stop offset="75%" stop-color="#FFECA0"/>
-              <stop offset="100%" stop-color="#FFE070"/>
-            </radialGradient>
-            
-            <radialGradient id="resplandor1" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
-              <stop offset="30%" stop-color="#FFF5C8" stop-opacity="0.5"/>
-              <stop offset="60%" stop-color="#FFE890" stop-opacity="0.2"/>
-              <stop offset="100%" stop-color="#FFD860" stop-opacity="0"/>
-            </radialGradient>
+            <filter id="blur3" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceGraphic" stdDeviation="3"/></filter>
+            <filter id="blur6" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceGraphic" stdDeviation="6"/></filter>
+            <filter id="blur12" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceGraphic" stdDeviation="12"/></filter>
+            <linearGradient id="rayoLuz" x1="50%" y1="100%" x2="50%" y2="0%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="15%" stop-color="#FFF8E0" stop-opacity="0.6"/><stop offset="35%" stop-color="#FFE8A0" stop-opacity="0.3"/><stop offset="60%" stop-color="#FFD860" stop-opacity="0.1"/><stop offset="100%" stop-color="#FFC830" stop-opacity="0"/></linearGradient>
+            <radialGradient id="nucleoSol" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="25%" stop-color="#FFFEF5"/><stop offset="50%" stop-color="#FFF8D8"/><stop offset="75%" stop-color="#FFECA0"/><stop offset="100%" stop-color="#FFE070"/></radialGradient>
+            <radialGradient id="resplandor1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="30%" stop-color="#FFF5C8" stop-opacity="0.5"/><stop offset="60%" stop-color="#FFE890" stop-opacity="0.2"/><stop offset="100%" stop-color="#FFD860" stop-opacity="0"/></radialGradient>
           </defs>
-          
-          <!-- Rayos principales -->
           <g filter="url(#blur6)">
-            <polygon points="350,350 338,205 362,205" fill="url(#rayoLuz)" opacity="0.8"/>
-            <polygon points="350,350 340,215 360,215" fill="url(#rayoLuz)" transform="rotate(24, 350, 350)" opacity="0.65"/>
-            <polygon points="350,350 335,190 365,190" fill="url(#rayoLuz)" transform="rotate(48, 350, 350)" opacity="0.9"/>
-            <polygon points="350,350 342,220 358,220" fill="url(#rayoLuz)" transform="rotate(72, 350, 350)" opacity="0.55"/>
-            <polygon points="350,350 333,180 367,180" fill="url(#rayoLuz)" transform="rotate(96, 350, 350)" opacity="0.95"/>
-            <polygon points="350,350 340,210 360,210" fill="url(#rayoLuz)" transform="rotate(120, 350, 350)" opacity="0.6"/>
-            <polygon points="350,350 336,195 364,195" fill="url(#rayoLuz)" transform="rotate(144, 350, 350)" opacity="0.85"/>
-            <polygon points="350,350 343,225 357,225" fill="url(#rayoLuz)" transform="rotate(168, 350, 350)" opacity="0.5"/>
-            <polygon points="350,350 332,175 368,175" fill="url(#rayoLuz)" transform="rotate(192, 350, 350)" opacity="1"/>
-            <polygon points="350,350 341,212 359,212" fill="url(#rayoLuz)" transform="rotate(216, 350, 350)" opacity="0.6"/>
-            <polygon points="350,350 335,188 365,188" fill="url(#rayoLuz)" transform="rotate(240, 350, 350)" opacity="0.88"/>
-            <polygon points="350,350 342,218 358,218" fill="url(#rayoLuz)" transform="rotate(264, 350, 350)" opacity="0.55"/>
-            <polygon points="350,350 334,182 366,182" fill="url(#rayoLuz)" transform="rotate(288, 350, 350)" opacity="0.92"/>
-            <polygon points="350,350 339,202 361,202" fill="url(#rayoLuz)" transform="rotate(312, 350, 350)" opacity="0.7"/>
-            <polygon points="350,350 341,214 359,214" fill="url(#rayoLuz)" transform="rotate(336, 350, 350)" opacity="0.58"/>
+            <polygon points="350,350 338,205 362,205" fill="url(#rayoLuz)" opacity="0.8"/><polygon points="350,350 340,215 360,215" fill="url(#rayoLuz)" transform="rotate(24,350,350)" opacity="0.65"/><polygon points="350,350 335,190 365,190" fill="url(#rayoLuz)" transform="rotate(48,350,350)" opacity="0.9"/><polygon points="350,350 342,220 358,220" fill="url(#rayoLuz)" transform="rotate(72,350,350)" opacity="0.55"/><polygon points="350,350 333,180 367,180" fill="url(#rayoLuz)" transform="rotate(96,350,350)" opacity="0.95"/><polygon points="350,350 340,210 360,210" fill="url(#rayoLuz)" transform="rotate(120,350,350)" opacity="0.6"/><polygon points="350,350 336,195 364,195" fill="url(#rayoLuz)" transform="rotate(144,350,350)" opacity="0.85"/><polygon points="350,350 343,225 357,225" fill="url(#rayoLuz)" transform="rotate(168,350,350)" opacity="0.5"/><polygon points="350,350 332,175 368,175" fill="url(#rayoLuz)" transform="rotate(192,350,350)" opacity="1"/><polygon points="350,350 341,212 359,212" fill="url(#rayoLuz)" transform="rotate(216,350,350)" opacity="0.6"/><polygon points="350,350 335,188 365,188" fill="url(#rayoLuz)" transform="rotate(240,350,350)" opacity="0.88"/><polygon points="350,350 342,218 358,218" fill="url(#rayoLuz)" transform="rotate(264,350,350)" opacity="0.55"/><polygon points="350,350 334,182 366,182" fill="url(#rayoLuz)" transform="rotate(288,350,350)" opacity="0.92"/><polygon points="350,350 339,202 361,202" fill="url(#rayoLuz)" transform="rotate(312,350,350)" opacity="0.7"/><polygon points="350,350 341,214 359,214" fill="url(#rayoLuz)" transform="rotate(336,350,350)" opacity="0.58"/>
           </g>
-          
-          <!-- Núcleo -->
           <circle cx="350" cy="350" r="100" fill="url(#resplandor1)" filter="url(#blur12)"/>
           <circle cx="350" cy="350" r="70" fill="url(#nucleoSol)" filter="url(#blur3)"/>
           <circle cx="350" cy="350" r="50" fill="#FFFFFF" filter="url(#blur6)" opacity="0.75"/>
           <circle cx="350" cy="350" r="35" fill="#FFFFFF" opacity="0.95"/>
         </svg>
-        
-        <!-- Labels centrales -->
-        <div class="diagrama-labels">
-          <span class="label-humanas">Leyes Humanas</span>
-          <span class="label-cosmos">Leyes del Cosmos</span>
-          <span class="label-logotron">Logotrón</span>
-        </div>
-        
-        <!-- Grid de las 9 fases -->
+        <div class="diagrama-labels"><span class="label-humanas">Leyes Humanas</span><span class="label-cosmos">Leyes del Cosmos</span><span class="label-logotron">Logotrón</span></div>
         <div class="diagrama-grid">
-          <div class="diagrama-cell light-text">
-            <h4>Encuadre</h4>
-            <p>¿Qué sistema? ¿Qué problema?</p>
-            <span class="fase-numero">1</span>
-          </div>
-          <div class="diagrama-cell light-text">
-            <h4>Estructura</h4>
-            <p>¿Qué mueve qué?</p>
-            <span class="fase-numero">2</span>
-          </div>
-          <div class="diagrama-cell light-text">
-            <h4>Dinámica</h4>
-            <p>¿Cómo evoluciona?</p>
-            <span class="fase-numero">3</span>
-          </div>
-          
-          <div class="diagrama-cell dark-text">
-            <h4>Acción</h4>
-            <p>¿Qué hacer ahora?</p>
-            <span class="fase-numero">8</span>
-          </div>
-          <div class="diagrama-cell centro dark-text">
-            <h4>El Legislador</h4>
-            <p>¿Qué ley rige?</p>
-          </div>
-          <div class="diagrama-cell dark-text">
-            <h4>Actores</h4>
-            <p>¿Quién quiere qué?</p>
-            <span class="fase-numero">4</span>
-          </div>
-          
-          <div class="diagrama-cell light-text">
-            <h4>Vigilancia</h4>
-            <p>¿Qué señales vigilar?</p>
-            <span class="fase-numero">7</span>
-          </div>
-          <div class="diagrama-cell light-text">
-            <h4>Robustez</h4>
-            <p>¿Qué estrategia resiste?</p>
-            <span class="fase-numero">6</span>
-          </div>
-          <div class="diagrama-cell light-text">
-            <h4>Escenarios</h4>
-            <p>¿Qué futuros son posibles?</p>
-            <span class="fase-numero">5</span>
-          </div>
+          <div class="diagrama-cell light-text"><h4>Encuadre</h4><p>¿Qué sistema? ¿Qué problema?</p><span class="fase-numero">1</span></div>
+          <div class="diagrama-cell light-text"><h4>Estructura</h4><p>¿Qué mueve qué?</p><span class="fase-numero">2</span></div>
+          <div class="diagrama-cell light-text"><h4>Dinámica</h4><p>¿Cómo evoluciona?</p><span class="fase-numero">3</span></div>
+          <div class="diagrama-cell dark-text"><h4>Acción</h4><p>¿Qué hacer ahora?</p><span class="fase-numero">8</span></div>
+          <div class="diagrama-cell centro dark-text"><h4>El Legislador</h4><p>¿Qué ley rige?</p></div>
+          <div class="diagrama-cell dark-text"><h4>Actores</h4><p>¿Quién quiere qué?</p><span class="fase-numero">4</span></div>
+          <div class="diagrama-cell light-text"><h4>Vigilancia</h4><p>¿Qué señales vigilar?</p><span class="fase-numero">7</span></div>
+          <div class="diagrama-cell light-text"><h4>Robustez</h4><p>¿Qué estrategia resiste?</p><span class="fase-numero">6</span></div>
+          <div class="diagrama-cell light-text"><h4>Escenarios</h4><p>¿Qué futuros son posibles?</p><span class="fase-numero">5</span></div>
         </div>
       </div>
-      
-      <!-- Leyenda bajo el diagrama -->
       <div class="mt-8 flex flex-wrap items-center justify-center gap-6 text-sm text-slate-100">
-        <div class="flex items-center gap-2">
-          <div class="w-3 h-3 rounded-full bg-gradient-to-r from-amber-400 to-orange-500"></div>
-          <span>Análisis estructural (1-3)</span>
-        </div>
-        <div class="flex items-center gap-2">
-          <div class="w-3 h-3 rounded-full bg-gradient-to-r from-orange-500 to-red-500"></div>
-          <span>Exploración estratégica (4-6)</span>
-        </div>
-        <div class="flex items-center gap-2">
-          <div class="w-3 h-3 rounded-full bg-gradient-to-r from-purple-500 to-violet-600"></div>
-          <span>Diseño de acción (6-8)</span>
-        </div>
+        <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-gradient-to-r from-amber-400 to-orange-500"></div><span>Análisis estructural (1-3)</span></div>
+        <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-gradient-to-r from-orange-500 to-red-500"></div><span>Exploración estratégica (4-6)</span></div>
+        <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-gradient-to-r from-purple-500 to-violet-600"></div><span>Diseño de acción (6-8)</span></div>
       </div>
-      
-      <!-- Descripción expandida -->
       <div class="mt-12 grid md:grid-cols-3 gap-6">
-        <div class="p-6 rounded-2xl bg-white/20 backdrop-blur-sm border border-white/30">
-          <div class="text-amber-300 text-sm font-semibold mb-3">FASES 1-3</div>
-          <h3 class="text-lg font-bold text-white mb-2 font-display">Comprensión</h3>
-          <p class="text-slate-100 text-sm">Delimitamos el sistema, mapeamos influencias entre variables, simulamos evolución temporal.</p>
-        </div>
-        <div class="p-6 rounded-2xl bg-white/20 backdrop-blur-sm border border-white/30">
-          <div class="text-orange-300 text-sm font-semibold mb-3">FASES 4-6</div>
-          <h3 class="text-lg font-bold text-white mb-2 font-display">Exploración</h3>
-          <p class="text-slate-100 text-sm">Analizamos actores y estrategias, construimos escenarios alternativos, identificamos las leyes que rigen.</p>
-        </div>
-        <div class="p-6 rounded-2xl bg-white/20 backdrop-blur-sm border border-white/30">
-          <div class="text-purple-300 text-sm font-semibold mb-3">FASES 6-8</div>
-          <h3 class="text-lg font-bold text-white mb-2 font-display">Acción</h3>
-          <p class="text-slate-100 text-sm">Diseñamos estrategias robustas, configuramos vigilancia, entregamos hojas de ruta ejecutables.</p>
-        </div>
+        <div class="p-6 rounded-2xl bg-white/20 backdrop-blur-sm border border-white/30"><div class="text-amber-300 text-sm font-semibold mb-3">FASES 1-3</div><h3 class="text-lg font-bold text-white mb-2 font-display">Comprensión</h3><p class="text-slate-100 text-sm">Delimitamos el sistema, mapeamos influencias entre variables, simulamos evolución temporal.</p></div>
+        <div class="p-6 rounded-2xl bg-white/20 backdrop-blur-sm border border-white/30"><div class="text-orange-300 text-sm font-semibold mb-3">FASES 4-6</div><h3 class="text-lg font-bold text-white mb-2 font-display">Exploración</h3><p class="text-slate-100 text-sm">Analizamos actores y estrategias, construimos escenarios alternativos, identificamos las leyes que rigen.</p></div>
+        <div class="p-6 rounded-2xl bg-white/20 backdrop-blur-sm border border-white/30"><div class="text-purple-300 text-sm font-semibold mb-3">FASES 6-8</div><h3 class="text-lg font-bold text-white mb-2 font-display">Acción</h3><p class="text-slate-100 text-sm">Diseñamos estrategias robustas, configuramos vigilancia, entregamos hojas de ruta ejecutables.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- Cases Section - LUZ CRECIENTE -->
   <!-- ══════════════════════════════════════════════════════════
        SECCIÓN ANÁLISIS — Observatorio SOPHHIA
-       INSTRUCCIONES PARA AÑADIR UN NUEVO ANÁLISIS:
-       1. Copia cualquier bloque <article class="caso-card"> del archivo
-       2. Cambia: href, emoji, data-categoria, fecha, título, descripción, fases
-       3. Si es pieza de actualidad, muévela a la zona "destacado"
+       PARA AÑADIR UN NUEVO ANÁLISIS:
+       1. Copia un bloque <article class="caso-card">
+       2. Cambia: href, emoji, data-categoria, fecha, título, descripción, herramientas
+       3. Si es actualidad, muévela a la zona "Pieza destacada"
        ══════════════════════════════════════════════════════════ -->
   <section id="analisis" class="bg-slate-950 py-24 px-6">
     <div class="max-w-7xl mx-auto">
 
-      <!-- ── CABECERA DE SECCIÓN ── -->
+      <!-- Cabecera -->
       <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16 pb-8 border-b border-slate-800">
         <div>
           <span class="text-xs font-semibold tracking-widest uppercase text-amber-500 font-mono mb-3 block">Observatorio SOPHHIA</span>
-          <h2 class="text-4xl md:text-5xl font-bold font-display text-slate-100 mb-4">
-            Análisis en profundidad
-          </h2>
-          <p class="text-slate-400 text-lg max-w-2xl leading-relaxed">
-            Cada pieza aplica el protocolo completo Sol de 9 Fases: datos verificados, 
-            juego de actores, escenarios con probabilidades y señales de vigilancia. 
-            No opinión. Método.
-          </p>
+          <h2 class="text-4xl md:text-5xl font-bold font-display text-slate-100 mb-4">Análisis en profundidad</h2>
+          <p class="text-slate-400 text-lg max-w-2xl leading-relaxed">Cada pieza aplica el protocolo completo Sol de 9 Fases: datos verificados, juego de actores, escenarios con probabilidades y señales de vigilancia. No opinión. Método.</p>
         </div>
         <div class="flex-shrink-0 text-right">
           <span class="text-slate-600 text-sm font-mono block mb-1">Metodología aplicada</span>
@@ -690,27 +266,19 @@
         </div>
       </div>
 
-      <!-- ── PIEZA DESTACADA: ACTUALIDAD ── -->
+      <!-- Pieza destacada -->
       <div class="mb-16">
         <div class="flex items-center gap-3 mb-6">
           <div class="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
           <span class="text-xs font-semibold tracking-widest uppercase text-red-400 font-mono">Análisis de actualidad</span>
         </div>
-
         <a href="analisis/iran-2026.html"
            class="group block relative rounded-2xl overflow-hidden border border-slate-700 hover:border-amber-500/60 transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl hover:shadow-amber-500/10"
-           style="background: linear-gradient(135deg, #07070f 0%, #0d1525 60%, #07070f 100%);">
-
-          <!-- Línea dorada superior -->
+           style="background:linear-gradient(135deg,#07070f 0%,#0d1525 60%,#07070f 100%);">
           <div class="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-60 group-hover:opacity-100 transition-opacity"></div>
-
-          <!-- Cuadrícula decorativa de fondo -->
-          <div class="absolute inset-0 opacity-5" style="background-image: linear-gradient(rgba(200,184,138,0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(200,184,138,0.4) 1px, transparent 1px); background-size: 60px 60px;"></div>
-
+          <div class="absolute inset-0 opacity-5" style="background-image:linear-gradient(rgba(200,184,138,0.4) 1px,transparent 1px),linear-gradient(90deg,rgba(200,184,138,0.4) 1px,transparent 1px);background-size:60px 60px;"></div>
           <div class="relative z-10 p-8 md:p-12">
             <div class="flex flex-col lg:flex-row gap-10">
-
-              <!-- Columna izquierda: contenido principal -->
               <div class="flex-1">
                 <div class="flex flex-wrap items-center gap-3 mb-6">
                   <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold tracking-wider bg-red-900/40 text-red-300 border border-red-700/40">GEOPOLÍTICA GLOBAL</span>
@@ -718,65 +286,24 @@
                   <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold tracking-wider bg-blue-900/30 text-blue-300 border border-blue-700/30">TELECOMUNICACIONES</span>
                   <span class="text-slate-500 text-xs font-mono ml-2">1 Abril 2026 · Día 32</span>
                 </div>
-
-                <h3 class="text-3xl md:text-4xl font-bold font-display text-slate-100 mb-4 group-hover:text-amber-100 transition-colors leading-tight">
-                  Dos arterias del mundo,<br>
-                  <span class="text-amber-400 italic">cortadas a la vez</span>
-                </h3>
-
-                <p class="text-slate-400 text-lg leading-relaxed mb-8 max-w-2xl">
-                  La guerra USA-Israel-Irán no es solo una crisis energética. Es la primera vez en la historia 
-                  que el petróleo y los datos globales pasan por el mismo estrecho en llamas. 
-                  Análisis completo con escenarios, juego de actores y vigilancia a 18 meses.
-                </p>
-
-                <!-- Escenarios inline -->
+                <h3 class="text-3xl md:text-4xl font-bold font-display text-slate-100 mb-4 group-hover:text-amber-100 transition-colors leading-tight">Dos arterias del mundo,<br><span class="text-amber-400 italic">cortadas a la vez</span></h3>
+                <p class="text-slate-400 text-lg leading-relaxed mb-8 max-w-2xl">La guerra USA-Israel-Irán no es solo una crisis energética. Es la primera vez en la historia que el petróleo y los datos globales pasan por el mismo estrecho en llamas. Análisis completo con escenarios, juego de actores y vigilancia a 18 meses.</p>
                 <div class="flex flex-wrap gap-3 mb-8">
-                  <div class="flex items-center gap-2 px-4 py-2 rounded-lg bg-green-900/20 border border-green-700/30">
-                    <span class="text-green-400 font-mono font-bold text-sm">25%</span>
-                    <span class="text-green-300 text-xs">Resolución Táctica</span>
-                  </div>
-                  <div class="flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-900/30 border border-amber-600/40">
-                    <span class="text-amber-400 font-mono font-bold text-sm">45%</span>
-                    <span class="text-amber-300 text-xs font-semibold">Fricción Prolongada ★</span>
-                  </div>
-                  <div class="flex items-center gap-2 px-4 py-2 rounded-lg bg-red-900/20 border border-red-700/30">
-                    <span class="text-red-400 font-mono font-bold text-sm">20%</span>
-                    <span class="text-red-300 text-xs">Escalada Industrial</span>
-                  </div>
-                  <div class="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-900/20 border border-blue-700/30">
-                    <span class="text-blue-400 font-mono font-bold text-sm">10%</span>
-                    <span class="text-blue-300 text-xs">Reconfiguración Sistémica</span>
-                  </div>
+                  <div class="flex items-center gap-2 px-4 py-2 rounded-lg bg-green-900/20 border border-green-700/30"><span class="text-green-400 font-mono font-bold text-sm">25%</span><span class="text-green-300 text-xs">Resolución Táctica</span></div>
+                  <div class="flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-900/30 border border-amber-600/40"><span class="text-amber-400 font-mono font-bold text-sm">45%</span><span class="text-amber-300 text-xs font-semibold">Fricción Prolongada ★</span></div>
+                  <div class="flex items-center gap-2 px-4 py-2 rounded-lg bg-red-900/20 border border-red-700/30"><span class="text-red-400 font-mono font-bold text-sm">20%</span><span class="text-red-300 text-xs">Escalada Industrial</span></div>
+                  <div class="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-900/20 border border-blue-700/30"><span class="text-blue-400 font-mono font-bold text-sm">10%</span><span class="text-blue-300 text-xs">Reconfiguración Sistémica</span></div>
                 </div>
-
-                <div class="flex items-center gap-3 text-amber-400 font-semibold group-hover:gap-5 transition-all">
-                  <span>Leer análisis completo</span>
-                  <span class="text-xl transition-transform group-hover:translate-x-2">→</span>
-                </div>
+                <div class="flex items-center gap-3 text-amber-400 font-semibold group-hover:gap-5 transition-all"><span>Leer análisis completo</span><span class="text-xl transition-transform group-hover:translate-x-2">→</span></div>
               </div>
-
-              <!-- Columna derecha: datos clave -->
               <div class="lg:w-72 flex-shrink-0">
                 <div class="bg-slate-900/60 rounded-xl border border-slate-700/50 p-6">
                   <span class="text-xs font-mono tracking-widest text-slate-500 uppercase block mb-4">Datos clave</span>
                   <div class="space-y-5">
-                    <div class="border-b border-slate-800 pb-4">
-                      <div class="text-2xl font-bold text-amber-400 font-display">126 <span class="text-base text-slate-500 font-normal">$/bl</span></div>
-                      <div class="text-xs text-slate-500 font-mono mt-1">Brent · pico del conflicto</div>
-                    </div>
-                    <div class="border-b border-slate-800 pb-4">
-                      <div class="text-2xl font-bold text-orange-400 font-display">–10 Mb/d</div>
-                      <div class="text-xs text-slate-500 font-mono mt-1">Producción Golfo interrumpida</div>
-                    </div>
-                    <div class="border-b border-slate-800 pb-4">
-                      <div class="text-2xl font-bold text-red-400 font-display">+140%</div>
-                      <div class="text-xs text-slate-500 font-mono mt-1">GNL Qatar spot Asia</div>
-                    </div>
-                    <div>
-                      <div class="text-2xl font-bold text-blue-400 font-display">17+</div>
-                      <div class="text-xs text-slate-500 font-mono mt-1">Cables submarinos en riesgo</div>
-                    </div>
+                    <div class="border-b border-slate-800 pb-4"><div class="text-2xl font-bold text-amber-400 font-display">126 <span class="text-base text-slate-500 font-normal">$/bl</span></div><div class="text-xs text-slate-500 font-mono mt-1">Brent · pico del conflicto</div></div>
+                    <div class="border-b border-slate-800 pb-4"><div class="text-2xl font-bold text-orange-400 font-display">–10 Mb/d</div><div class="text-xs text-slate-500 font-mono mt-1">Producción Golfo interrumpida</div></div>
+                    <div class="border-b border-slate-800 pb-4"><div class="text-2xl font-bold text-red-400 font-display">+140%</div><div class="text-xs text-slate-500 font-mono mt-1">GNL Qatar spot Asia</div></div>
+                    <div><div class="text-2xl font-bold text-blue-400 font-display">17+</div><div class="text-xs text-slate-500 font-mono mt-1">Cables submarinos en riesgo</div></div>
                   </div>
                   <div class="mt-6 pt-4 border-t border-slate-800">
                     <div class="flex flex-wrap gap-1">
@@ -788,30 +315,24 @@
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </a>
       </div>
 
-      <!-- ── ARCHIVO DE ANÁLISIS ── -->
+      <!-- Archivo -->
       <div>
         <div class="flex items-center gap-3 mb-8">
           <span class="text-xs font-semibold tracking-widest uppercase text-slate-500 font-mono">Casos demostrativos</span>
           <div class="flex-1 h-px bg-slate-800"></div>
           <span class="text-xs text-slate-600 font-mono">Protocolo Sol de 9 Fases completo</span>
         </div>
-
-        <!-- Filtros de categoría -->
-        <div class="flex flex-wrap gap-2 mb-8" id="filtros">
-          <button onclick="filtrar('todos')" class="filtro-btn activo px-4 py-1.5 rounded-full text-xs font-mono font-semibold tracking-wide border transition-all">Todos</button>
-          <button onclick="filtrar('geopolitica')" class="filtro-btn px-4 py-1.5 rounded-full text-xs font-mono font-semibold tracking-wide border border-slate-700 text-slate-400 hover:border-red-500 hover:text-red-300 transition-all">Geopolítica</button>
-          <button onclick="filtrar('energia')" class="filtro-btn px-4 py-1.5 rounded-full text-xs font-mono font-semibold tracking-wide border border-slate-700 text-slate-400 hover:border-amber-500 hover:text-amber-300 transition-all">Energía</button>
-          <button onclick="filtrar('territorio')" class="filtro-btn px-4 py-1.5 rounded-full text-xs font-mono font-semibold tracking-wide border border-slate-700 text-slate-400 hover:border-teal-500 hover:text-teal-300 transition-all">Territorio</button>
+        <div class="flex flex-wrap gap-2 mb-8">
+          <button onclick="filtrar(event,'todos')" class="filtro-btn activo px-4 py-1.5 rounded-full text-xs font-mono font-semibold tracking-wide border border-slate-700 transition-all">Todos</button>
+          <button onclick="filtrar(event,'geopolitica')" class="filtro-btn px-4 py-1.5 rounded-full text-xs font-mono font-semibold tracking-wide border border-slate-700 text-slate-400 hover:border-red-500 hover:text-red-300 transition-all">Geopolítica</button>
+          <button onclick="filtrar(event,'energia')" class="filtro-btn px-4 py-1.5 rounded-full text-xs font-mono font-semibold tracking-wide border border-slate-700 text-slate-400 hover:border-amber-500 hover:text-amber-300 transition-all">Energía</button>
+          <button onclick="filtrar(event,'territorio')" class="filtro-btn px-4 py-1.5 rounded-full text-xs font-mono font-semibold tracking-wide border border-slate-700 text-slate-400 hover:border-teal-500 hover:text-teal-300 transition-all">Territorio</button>
         </div>
-
-        <!-- Grid de casos
-             ══ PARA AÑADIR UN NUEVO CASO: copia un bloque <article> y edita sus atributos ══ -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="casos-grid">
 
           <!-- CASO: Ucrania -->
@@ -819,25 +340,12 @@
             <a href="caso-ucrania.html" class="block h-full rounded-2xl bg-slate-900 border border-slate-800 hover:border-red-600/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-red-900/20 overflow-hidden">
               <div class="h-1 bg-gradient-to-r from-red-600 to-red-400"></div>
               <div class="p-6">
-                <div class="flex items-start justify-between mb-4">
-                  <span class="text-3xl">🌍</span>
-                  <span class="text-xs font-mono text-slate-600">2025</span>
-                </div>
-                <div class="flex flex-wrap gap-2 mb-3">
-                  <span class="px-2 py-0.5 rounded text-xs font-mono bg-red-900/30 text-red-400 border border-red-800/40">GEOPOLÍTICA</span>
-                </div>
-                <h3 class="text-xl font-bold font-display text-slate-200 mb-3 group-hover:text-red-300 transition-colors leading-snug">
-                  Ucrania 2025–2030
-                </h3>
-                <p class="text-slate-500 text-sm leading-relaxed mb-5">
-                  Escenarios geopolíticos post-conflicto. 4 futuros alternativos con probabilidades, juego de actores y señales de vigilancia.
-                </p>
+                <div class="flex items-start justify-between mb-4"><span class="text-3xl">🌍</span><span class="text-xs font-mono text-slate-600">2025</span></div>
+                <div class="flex flex-wrap gap-2 mb-3"><span class="px-2 py-0.5 rounded text-xs font-mono bg-red-900/30 text-red-400 border border-red-800/40">GEOPOLÍTICA</span></div>
+                <h3 class="text-xl font-bold font-display text-slate-200 mb-3 group-hover:text-red-300 transition-colors">Ucrania 2025–2030</h3>
+                <p class="text-slate-500 text-sm leading-relaxed mb-5">Escenarios geopolíticos post-conflicto. 4 futuros alternativos con probabilidades, juego de actores y señales de vigilancia.</p>
                 <div class="flex items-center justify-between">
-                  <div class="flex gap-1 flex-wrap">
-                    <span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">MICMAC</span>
-                    <span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">MACTOR</span>
-                    <span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">Escenarios</span>
-                  </div>
+                  <div class="flex gap-1 flex-wrap"><span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">MICMAC</span><span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">MACTOR</span><span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">Escenarios</span></div>
                   <span class="text-red-500 text-sm group-hover:translate-x-1 transition-transform">→</span>
                 </div>
               </div>
@@ -849,25 +357,12 @@
             <a href="caso-ree.html" class="block h-full rounded-2xl bg-slate-900 border border-slate-800 hover:border-amber-500/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-amber-900/20 overflow-hidden">
               <div class="h-1 bg-gradient-to-r from-amber-500 to-yellow-400"></div>
               <div class="p-6">
-                <div class="flex items-start justify-between mb-4">
-                  <span class="text-3xl">⚡</span>
-                  <span class="text-xs font-mono text-slate-600">2025</span>
-                </div>
-                <div class="flex flex-wrap gap-2 mb-3">
-                  <span class="px-2 py-0.5 rounded text-xs font-mono bg-amber-900/30 text-amber-400 border border-amber-800/40">ENERGÍA</span>
-                </div>
-                <h3 class="text-xl font-bold font-display text-slate-200 mb-3 group-hover:text-amber-300 transition-colors leading-snug">
-                  REE Post-Apagón
-                </h3>
-                <p class="text-slate-500 text-sm leading-relaxed mb-5">
-                  Sistema eléctrico español tras el apagón de abril 2025. Vulnerabilidades estructurales y estrategias de resiliencia.
-                </p>
+                <div class="flex items-start justify-between mb-4"><span class="text-3xl">⚡</span><span class="text-xs font-mono text-slate-600">2025</span></div>
+                <div class="flex flex-wrap gap-2 mb-3"><span class="px-2 py-0.5 rounded text-xs font-mono bg-amber-900/30 text-amber-400 border border-amber-800/40">ENERGÍA</span></div>
+                <h3 class="text-xl font-bold font-display text-slate-200 mb-3 group-hover:text-amber-300 transition-colors">REE Post-Apagón</h3>
+                <p class="text-slate-500 text-sm leading-relaxed mb-5">Sistema eléctrico español tras el apagón de abril 2025. Vulnerabilidades estructurales y estrategias de resiliencia.</p>
                 <div class="flex items-center justify-between">
-                  <div class="flex gap-1 flex-wrap">
-                    <span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">Forrester</span>
-                    <span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">MICMAC</span>
-                    <span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">Vigilancia</span>
-                  </div>
+                  <div class="flex gap-1 flex-wrap"><span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">Forrester</span><span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">MICMAC</span><span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">Vigilancia</span></div>
                   <span class="text-amber-500 text-sm group-hover:translate-x-1 transition-transform">→</span>
                 </div>
               </div>
@@ -879,171 +374,84 @@
             <a href="caso-aeropuerto-bcn.html" class="block h-full rounded-2xl bg-slate-900 border border-slate-800 hover:border-teal-500/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-teal-900/20 overflow-hidden">
               <div class="h-1 bg-gradient-to-r from-teal-500 to-cyan-400"></div>
               <div class="p-6">
-                <div class="flex items-start justify-between mb-4">
-                  <span class="text-3xl">✈️</span>
-                  <span class="text-xs font-mono text-slate-600">2025</span>
-                </div>
-                <div class="flex flex-wrap gap-2 mb-3">
-                  <span class="px-2 py-0.5 rounded text-xs font-mono bg-teal-900/30 text-teal-400 border border-teal-800/40">TERRITORIO</span>
-                </div>
-                <h3 class="text-xl font-bold font-display text-slate-200 mb-3 group-hover:text-teal-300 transition-colors leading-snug">
-                  Aeropuerto Barcelona
-                </h3>
-                <p class="text-slate-500 text-sm leading-relaxed mb-5">
-                  Gobernanza multi-nivel de infraestructura crítica. 8 actores, 4 escenarios y estrategia robusta.
-                </p>
+                <div class="flex items-start justify-between mb-4"><span class="text-3xl">✈️</span><span class="text-xs font-mono text-slate-600">2025</span></div>
+                <div class="flex flex-wrap gap-2 mb-3"><span class="px-2 py-0.5 rounded text-xs font-mono bg-teal-900/30 text-teal-400 border border-teal-800/40">TERRITORIO</span></div>
+                <h3 class="text-xl font-bold font-display text-slate-200 mb-3 group-hover:text-teal-300 transition-colors">Aeropuerto Barcelona</h3>
+                <p class="text-slate-500 text-sm leading-relaxed mb-5">Gobernanza multi-nivel de infraestructura crítica. 8 actores, 4 escenarios y estrategia robusta.</p>
                 <div class="flex items-center justify-between">
-                  <div class="flex gap-1 flex-wrap">
-                    <span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">8 Actores</span>
-                    <span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">Nash</span>
-                    <span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">Robustez</span>
-                  </div>
+                  <div class="flex gap-1 flex-wrap"><span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">8 Actores</span><span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">Nash</span><span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">Robustez</span></div>
                   <span class="text-teal-500 text-sm group-hover:translate-x-1 transition-transform">→</span>
                 </div>
               </div>
             </a>
           </article>
 
-          <!-- ══ PLANTILLA PARA PRÓXIMO ANÁLISIS ══
+          <!-- PLANTILLA PARA PRÓXIMO ANÁLISIS — descomenta y edita
           <article class="caso-card group" data-categoria="CATEGORIA">
             <a href="analisis/SLUG.html" class="block h-full rounded-2xl bg-slate-900 border border-slate-800 hover:border-COLOR-500/50 transition-all duration-300 hover:-translate-y-1 overflow-hidden">
               <div class="h-1 bg-gradient-to-r from-COLOR-500 to-COLOR-400"></div>
               <div class="p-6">
-                <div class="flex items-start justify-between mb-4">
-                  <span class="text-3xl">EMOJI</span>
-                  <span class="text-xs font-mono text-slate-600">AÑO</span>
-                </div>
-                <div class="flex flex-wrap gap-2 mb-3">
-                  <span class="px-2 py-0.5 rounded text-xs font-mono bg-COLOR-900/30 text-COLOR-400 border border-COLOR-800/40">ETIQUETA</span>
-                </div>
+                <div class="flex items-start justify-between mb-4"><span class="text-3xl">EMOJI</span><span class="text-xs font-mono text-slate-600">AÑO</span></div>
+                <div class="flex flex-wrap gap-2 mb-3"><span class="px-2 py-0.5 rounded text-xs font-mono bg-COLOR-900/30 text-COLOR-400 border border-COLOR-800/40">ETIQUETA</span></div>
                 <h3 class="text-xl font-bold font-display text-slate-200 mb-3">TÍTULO</h3>
-                <p class="text-slate-500 text-sm leading-relaxed mb-5">DESCRIPCIÓN BREVE.</p>
+                <p class="text-slate-500 text-sm leading-relaxed mb-5">DESCRIPCIÓN.</p>
                 <div class="flex items-center justify-between">
-                  <div class="flex gap-1">
-                    <span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">HERRAMIENTA</span>
-                  </div>
+                  <div class="flex gap-1"><span class="text-xs font-mono text-slate-700 bg-slate-800 px-2 py-0.5 rounded">HERRAMIENTA</span></div>
                   <span class="text-COLOR-500 text-sm">→</span>
                 </div>
               </div>
             </a>
           </article>
-          ══ FIN PLANTILLA ══ -->
+          -->
 
         </div>
       </div>
-
-    </div><!-- fin max-w -->
+    </div>
   </section>
 
-  <style>
-    .filtro-btn.activo {
-      background: rgba(217, 119, 6, 0.15);
-      border-color: rgba(217, 119, 6, 0.6);
-      color: #fbbf24;
-    }
-  </style>
-
-  <script>
-    function filtrar(cat) {
-      document.querySelectorAll('.filtro-btn').forEach(b => b.classList.remove('activo'));
-      event.target.classList.add('activo');
-      document.querySelectorAll('.caso-card').forEach(card => {
-        card.style.display = (cat === 'todos' || card.dataset.categoria === cat) ? 'block' : 'none';
-      });
-    }
-  </script>
-  <!-- DESCARGA GRATUITA -->
+  <!-- DESCARGA -->
   <section id="descarga" class="py-32 px-6 bg-gradient-to-b from-slate-300 to-teal-100">
     <div class="max-w-4xl mx-auto text-center">
-      <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-teal-600/20 border border-teal-600/30 mb-8">
-        <span class="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></span>
-        <span class="text-sm text-teal-700 font-semibold tracking-wide">100% GRATUITO</span>
-      </span>
-
-      <h2 class="text-4xl md:text-5xl font-bold font-display text-slate-800 mb-6">
-        Descarga <span class="text-teal-600">Base Cero</span>
-      </h2>
-      <p class="text-xl text-slate-600 mb-12 max-w-2xl mx-auto">
-        Todo lo necesario para aplicar SOPHHIA a tu primer análisis prospectivo. Sin registro. Sin compromiso.
-      </p>
-
+      <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-teal-600/20 border border-teal-600/30 mb-8"><span class="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></span><span class="text-sm text-teal-700 font-semibold tracking-wide">100% GRATUITO</span></span>
+      <h2 class="text-4xl md:text-5xl font-bold font-display text-slate-800 mb-6">Descarga <span class="text-teal-600">Base Cero</span></h2>
+      <p class="text-xl text-slate-600 mb-12 max-w-2xl mx-auto">Todo lo necesario para aplicar SOPHHIA a tu primer análisis prospectivo. Sin registro. Sin compromiso.</p>
       <a href="https://villacorta50.gumroad.com/l/basecero" class="inline-flex items-center gap-3 px-10 py-5 bg-teal-600 hover:bg-teal-700 text-white rounded-full text-xl font-semibold transition-all duration-300 hover:shadow-xl hover:shadow-teal-500/30 hover:-translate-y-1 mb-12">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-        Descargar Base Cero v1.0
-        <span class="text-teal-200 text-sm">(4.7 MB)</span>
+        Descargar Base Cero v1.0 <span class="text-teal-200 text-sm">(4.7 MB)</span>
       </a>
-
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
-        <div class="p-4 rounded-xl bg-white/80 border border-slate-200">
-          <div class="text-2xl mb-2">📖</div>
-          <h4 class="font-semibold text-slate-800 text-sm">Guía Rápida</h4>
-          <p class="text-xs text-slate-500">Tutorial 7 días</p>
-        </div>
-        <div class="p-4 rounded-xl bg-white/80 border border-slate-200">
-          <div class="text-2xl mb-2">📊</div>
-          <h4 class="font-semibold text-slate-800 text-sm">3 Casos Completos</h4>
-          <p class="text-xs text-slate-500">Ucrania, REE, BCN</p>
-        </div>
-        <div class="p-4 rounded-xl bg-white/80 border border-slate-200">
-          <div class="text-2xl mb-2">📝</div>
-          <h4 class="font-semibold text-slate-800 text-sm">5 Plantillas</h4>
-          <p class="text-xs text-slate-500">Excel + Word editables</p>
-        </div>
-        <div class="p-4 rounded-xl bg-white/80 border border-slate-200">
-          <div class="text-2xl mb-2">🎯</div>
-          <h4 class="font-semibold text-slate-800 text-sm">Glosario</h4>
-          <p class="text-xs text-slate-500">40+ términos</p>
-        </div>
+        <div class="p-4 rounded-xl bg-white/80 border border-slate-200"><div class="text-2xl mb-2">📖</div><h4 class="font-semibold text-slate-800 text-sm">Guía Rápida</h4><p class="text-xs text-slate-500">Tutorial 7 días</p></div>
+        <div class="p-4 rounded-xl bg-white/80 border border-slate-200"><div class="text-2xl mb-2">📊</div><h4 class="font-semibold text-slate-800 text-sm">3 Casos Completos</h4><p class="text-xs text-slate-500">Ucrania, REE, BCN</p></div>
+        <div class="p-4 rounded-xl bg-white/80 border border-slate-200"><div class="text-2xl mb-2">📝</div><h4 class="font-semibold text-slate-800 text-sm">5 Plantillas</h4><p class="text-xs text-slate-500">Excel + Word editables</p></div>
+        <div class="p-4 rounded-xl bg-white/80 border border-slate-200"><div class="text-2xl mb-2">🎯</div><h4 class="font-semibold text-slate-800 text-sm">Glosario</h4><p class="text-xs text-slate-500">40+ términos</p></div>
       </div>
     </div>
   </section>
 
-  <!-- CTA Section - PLENA LUZ -->
+  <!-- CONTACTO -->
   <section id="contacto" class="py-32 px-6 relative overflow-hidden bg-gradient-to-b from-teal-100 to-white">
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-teal-500/10 rounded-full blur-3xl"></div>
-    
     <div class="relative z-10 max-w-4xl mx-auto text-center">
-      <h2 class="text-4xl md:text-6xl font-bold mb-6 font-display text-slate-900">
-        ¿Listo para anticipar?
-      </h2>
-      <p class="text-xl text-slate-600 mb-12 max-w-2xl mx-auto">
-        30 minutos para entender tu reto estratégico y evaluar si SOPHHIA puede ayudarte.
-      </p>
-
+      <h2 class="text-4xl md:text-6xl font-bold mb-6 font-display text-slate-900">¿Listo para anticipar?</h2>
+      <p class="text-xl text-slate-600 mb-12 max-w-2xl mx-auto">30 minutos para entender tu reto estratégico y evaluar si SOPHHIA puede ayudarte.</p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
-        <a href="mailto:contacto@sophhia.com" class="group px-10 py-5 bg-teal-600 hover:bg-teal-700 text-white rounded-full text-xl font-semibold transition-all duration-300 hover:shadow-xl hover:shadow-teal-500/30 hover:-translate-y-1">
-          Solicitar sesión exploratoria
-          <span class="inline-block ml-2 transition-transform group-hover:translate-x-1">→</span>
-        </a>
+        <a href="mailto:contacto@sophhia.com" class="group px-10 py-5 bg-teal-600 hover:bg-teal-700 text-white rounded-full text-xl font-semibold transition-all duration-300 hover:shadow-xl hover:shadow-teal-500/30 hover:-translate-y-1">Solicitar sesión exploratoria <span class="inline-block ml-2 transition-transform group-hover:translate-x-1">→</span></a>
       </div>
-
       <div class="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
-        <a href="caso-ree.html" class="p-6 rounded-2xl bg-white border border-slate-300 hover:border-teal-500/50 transition-all group shadow-sm">
-          <div class="text-2xl mb-3">📄</div>
-          <h3 class="text-lg font-semibold text-slate-800 mb-2 group-hover:text-teal-600 transition-colors">Caso de estudio gratuito</h3>
-          <p class="text-sm text-slate-500">Sistema eléctrico español post-apagón abril 2025</p>
-        </a>
-        <a href="https://www.linkedin.com/in/juliovillacorta" target="_blank" class="p-6 rounded-2xl bg-white border border-slate-300 hover:border-purple-500/50 transition-all group shadow-sm">
-          <div class="text-2xl mb-3">💼</div>
-          <h3 class="text-lg font-semibold text-slate-800 mb-2 group-hover:text-purple-600 transition-colors">Conecta en LinkedIn</h3>
-          <p class="text-sm text-slate-500">Análisis prospectivos y reflexiones semanales</p>
-        </a>
+        <a href="caso-ree.html" class="p-6 rounded-2xl bg-white border border-slate-300 hover:border-teal-500/50 transition-all group shadow-sm"><div class="text-2xl mb-3">📄</div><h3 class="text-lg font-semibold text-slate-800 mb-2 group-hover:text-teal-600 transition-colors">Caso de estudio gratuito</h3><p class="text-sm text-slate-500">Sistema eléctrico español post-apagón abril 2025</p></a>
+        <a href="https://www.linkedin.com/in/juliovillacorta" target="_blank" class="p-6 rounded-2xl bg-white border border-slate-300 hover:border-purple-500/50 transition-all group shadow-sm"><div class="text-2xl mb-3">💼</div><h3 class="text-lg font-semibold text-slate-800 mb-2 group-hover:text-purple-600 transition-colors">Conecta en LinkedIn</h3><p class="text-sm text-slate-500">Análisis prospectivos y reflexiones semanales</p></a>
       </div>
     </div>
   </section>
 
-  <!-- Footer - Vuelve a oscuro -->
+  <!-- FOOTER -->
   <footer class="py-24 px-6 bg-slate-950 border-t border-slate-800">
     <div class="max-w-6xl mx-auto">
       <div class="grid md:grid-cols-2 gap-16 mb-16">
         <div>
           <h3 class="text-sm font-semibold tracking-widest uppercase text-slate-500 mb-6">Sobre el Director</h3>
-          <p class="text-2xl font-bold text-slate-200 mb-4 font-display">
-            Julio Villacorta García
-          </p>
-          <p class="text-slate-400 mb-6">
-            Ingeniero Industrial con más de 50 años de experiencia en inteligencia estratégica, prospectiva y sistemas complejos.
-          </p>
+          <p class="text-2xl font-bold text-slate-200 mb-4 font-display">Julio Villacorta García</p>
+          <p class="text-slate-400 mb-6">Ingeniero Industrial con más de 50 años de experiencia en inteligencia estratégica, prospectiva y sistemas complejos.</p>
           <ul class="space-y-2 text-sm text-slate-500">
             <li>• Red Eléctrica de España — Dirección de proyectos estratégicos</li>
             <li>• Barcelona Activa — Desarrollo económico y planificación</li>
@@ -1052,44 +460,26 @@
             <li class="text-purple-400">• Creador del Logotrón y el Colisionador Semántico</li>
           </ul>
         </div>
-
         <div>
           <h3 class="text-sm font-semibold tracking-widest uppercase text-slate-500 mb-6">Fundamentación Académica</h3>
-          <p class="text-slate-400 mb-6">
-            SOPHHIA está siendo desarrollado como parte de una investigación doctoral:
-          </p>
-          <blockquote class="p-6 rounded-xl bg-slate-900/50 border-l-4 border-teal-500 text-slate-300 italic">
-            "Hacia una Teoría Integral de la Anticipación Sistémica: Inteligencia Prospectiva Aumentada y Gobernanza Adaptativa en la Era de la IA"
-          </blockquote>
+          <p class="text-slate-400 mb-6">SOPHHIA está siendo desarrollado como parte de una investigación doctoral:</p>
+          <blockquote class="p-6 rounded-xl bg-slate-900/50 border-l-4 border-teal-500 text-slate-300 italic">"Hacia una Teoría Integral de la Anticipación Sistémica: Inteligencia Prospectiva Aumentada y Gobernanza Adaptativa en la Era de la IA"</blockquote>
         </div>
       </div>
-
       <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6">
         <div class="flex items-center gap-4">
-          <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-teal-500 to-purple-600 flex items-center justify-center">
-            <span class="text-white font-bold font-display">S</span>
-          </div>
-          <div>
-            <span class="font-semibold text-slate-200 font-display">SOPHHIA</span>
-            <span class="block text-xs text-slate-600">Sistema Operativo de Prospectiva Híbrido Humano-IA</span>
-          </div>
+          <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-teal-500 to-purple-600 flex items-center justify-center"><span class="text-white font-bold font-display">S</span></div>
+          <div><span class="font-semibold text-slate-200 font-display">SOPHHIA</span><span class="block text-xs text-slate-600">Sistema Operativo de Prospectiva Híbrido Humano-IA</span></div>
         </div>
-
         <div class="flex items-center gap-6 text-sm text-slate-500">
           <a href="mailto:julio.villacorta@sophhia.com" class="hover:text-teal-400 transition-colors">julio.villacorta@sophhia.com</a>
           <span class="text-slate-700">|</span>
           <a href="https://sophhia.com" class="hover:text-teal-400 transition-colors">www.sophhia.com</a>
         </div>
-
-        <div class="text-xs text-slate-600">
-          © 2025 SOPHHIA. Barcelona.
-        </div>
+        <div class="text-xs text-slate-600">© 2025 SOPHHIA. Barcelona.</div>
       </div>
-
       <div class="mt-16 text-center">
-        <p class="text-2xl text-slate-600 italic font-display">
-          "Anticiparse no es adivinar. Es consultar, calcular, reflexionar, comprender y actuar."
-        </p>
+        <p class="text-2xl text-slate-600 italic font-display">"Anticiparse no es adivinar. Es consultar, calcular, reflexionar, comprender y actuar."</p>
       </div>
     </div>
   </footer>
@@ -1097,12 +487,16 @@
   <script>
     window.addEventListener('scroll', function() {
       const navbar = document.getElementById('navbar');
-      if (window.scrollY > 100) {
-        navbar.classList.add('bg-slate-950/95', 'backdrop-blur-lg', 'shadow-lg');
-      } else {
-        navbar.classList.remove('bg-slate-950/95', 'backdrop-blur-lg', 'shadow-lg');
-      }
+      if (window.scrollY > 100) { navbar.classList.add('bg-slate-950/95','backdrop-blur-lg','shadow-lg'); }
+      else { navbar.classList.remove('bg-slate-950/95','backdrop-blur-lg','shadow-lg'); }
     });
+    function filtrar(e, cat) {
+      document.querySelectorAll('.filtro-btn').forEach(b => b.classList.remove('activo'));
+      e.target.classList.add('activo');
+      document.querySelectorAll('.caso-card').forEach(card => {
+        card.style.display = (cat === 'todos' || card.dataset.categoria === cat) ? 'block' : 'none';
+      });
+    }
   </script>
 </body>
 </html>
