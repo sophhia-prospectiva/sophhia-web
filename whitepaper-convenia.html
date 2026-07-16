@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El fin de negociar a ciegas — White paper · SOPHHIA CONVENIA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4efe4;--surface:#fbf8f1;--ink:#1b2a41;--soft:#5a6373;--accent:#9a6a3c;--line:#e0d7c6;--line-strong:#cabfa9;--chip:#efe8d8;--zoom:1;}
+[data-theme="nocturno"]{--bg:#12161f;--surface:#1a2029;--ink:#e9e5d9;--soft:#a7ad9d;--accent:#c79a5b;--line:#2a323f;--line-strong:#3a4453;--chip:#222a35;}
+[data-theme="pergamino"]{--bg:#efe7d6;--surface:#f7f1e4;--ink:#3a2e22;--soft:#6f6252;--accent:#a6543a;--line:#e0d3ba;--line-strong:#cdbb98;--chip:#e8dcc4;}
+[data-theme="pizarra"]{--bg:#e9edf1;--surface:#f6f8fa;--ink:#1f2933;--soft:#586471;--accent:#2c6491;--line:#d3dae1;--line-strong:#b7c1cb;--chip:#dde4ea;}
+*{box-sizing:border-box;}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;transition:background .35s,color .35s;}
+.bar{position:sticky;top:0;z-index:60;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+.bar .row{max-width:800px;margin:0 auto;padding:10px 26px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;}
+.bar .grp{display:flex;align-items:center;gap:8px;}
+.bar .lbl{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--soft);font-weight:500;}
+.brand{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:18px;}
+.brand sup{font-size:10px;color:var(--accent);}
+.sw{width:21px;height:21px;border-radius:50%;border:1.5px solid var(--line-strong);cursor:pointer;padding:0;transition:transform .15s,box-shadow .15s;}
+.sw:hover{transform:scale(1.12);}
+.sw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--accent);}
+.sw.e{background:#9a6a3c;} .sw.n{background:#12161f;} .sw.p{background:#a6543a;} .sw.s{background:#2c6491;}
+.zbtn{width:29px;height:29px;border-radius:7px;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);font-size:14px;font-weight:600;cursor:pointer;line-height:1;transition:background .15s;}
+.zbtn:hover{background:var(--chip);}
+.pbtn{font-family:'Inter';font-size:12px;font-weight:600;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);border-radius:6px;padding:6px 12px;cursor:pointer;}
+.pbtn:hover{background:var(--chip);}
+button:focus-visible{outline:2.5px solid var(--accent);outline-offset:2px;}
+
+.doc{max-width:800px;margin:0 auto;padding:0 26px 80px;font-size:calc(17px*var(--zoom));line-height:1.7;}
+.doc p{margin:0 0 1.1em;} strong{font-weight:600;} .accent{color:var(--accent);font-weight:600;} em{font-style:italic;}
+
+.head{padding:56px 0 30px;border-bottom:2px solid var(--ink);}
+.wtag{font-family:'IBM Plex Mono',monospace;font-size:.74em;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:1.3em;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+.head h1{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:2.9em;line-height:1.06;letter-spacing:-.015em;margin:0 0 .35em;}
+.head .dek{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.4em;line-height:1.35;color:var(--soft);max-width:42ch;margin:0;}
+.byline{margin-top:1.8em;font-size:.8em;color:var(--soft);font-family:'IBM Plex Mono',monospace;}
+
+.abstract{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px 26px;margin:30px 0;}
+.abstract .l{font-family:'IBM Plex Mono',monospace;font-size:.7em;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.8em;}
+.abstract p{font-size:1.02em;margin:0;line-height:1.6;}
+
+section{padding:34px 0;border-bottom:1px solid var(--line);}
+.kick{font-family:'IBM Plex Mono',monospace;font-size:.72em;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.6em;}
+h2{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:1.95em;line-height:1.14;margin:.1em 0 .5em;letter-spacing:-.005em;}
+h3{font-family:'Inter';font-weight:600;font-size:1.02em;margin:1.6em 0 .5em;}
+.lead{font-size:1.14em;line-height:1.55;}
+.drop::first-letter{font-family:'Cormorant Garamond',serif;font-size:3.4em;font-weight:600;float:left;line-height:.82;margin:.05em .12em 0 0;color:var(--accent);}
+
+.pull{font-family:'Cormorant Garamond',serif;font-size:1.55em;line-height:1.3;color:var(--ink);border-left:3px solid var(--accent);padding:6px 0 6px 22px;margin:1.4em 0;font-style:italic;}
+.pull b{font-style:normal;color:var(--accent);}
+
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:1.5em 0;}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 18px;position:relative;}
+.step .n{font-family:'IBM Plex Mono',monospace;font-size:.7em;color:var(--accent);font-weight:600;}
+.step .t{font-family:'Inter';font-weight:600;font-size:.98em;margin:.4em 0 .3em;}
+.step .d{font-size:.82em;color:var(--soft);line-height:1.45;}
+.step .tool{font-family:'IBM Plex Mono',monospace;font-size:.72em;color:var(--accent);margin-top:.5em;}
+.step::after{content:"→";position:absolute;right:-10px;top:50%;transform:translateY(-50%);color:var(--line-strong);font-size:14px;z-index:2;}
+.step:last-child::after{content:"";}
+
+.case{background:var(--ink);color:var(--bg);border-radius:16px;padding:28px 30px;margin:1.6em 0;}
+[data-theme="nocturno"] .case{background:color-mix(in srgb,var(--accent) 18%,#0c1017);color:var(--ink);}
+.case .l{font-family:'IBM Plex Mono',monospace;font-size:.68em;letter-spacing:.12em;text-transform:uppercase;color:#c9b79a;font-weight:600;margin-bottom:.9em;}
+.case p{margin:0 0 .8em;color:color-mix(in srgb,var(--bg) 88%,transparent);}
+[data-theme="nocturno"] .case p{color:color-mix(in srgb,var(--ink) 85%,transparent);}
+.case p:last-child{margin-bottom:0;} .case b{color:#fff;} [data-theme="nocturno"] .case b{color:var(--ink);}
+
+ul.clean{list-style:none;padding:0;margin:1em 0;}
+ul.clean li{padding:9px 0 9px 26px;position:relative;border-top:1px solid var(--line);font-size:.98em;line-height:1.5;}
+ul.clean li:first-child{border-top:none;}
+ul.clean li::before{content:"→";position:absolute;left:0;color:var(--accent);font-weight:600;}
+ul.clean li b{color:var(--ink);}
+
+.cta{text-align:center;padding:44px 30px;background:var(--surface);border:1px solid var(--line-strong);border-radius:16px;margin:1.8em 0 0;}
+.cta h3{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:1.7em;margin:0 0 .4em;color:var(--ink);}
+.cta p{color:var(--soft);max-width:44ch;margin:0 auto 1.3em;font-size:.98em;}
+.cta .btn{display:inline-block;font-family:'Inter';font-weight:600;font-size:.98em;background:var(--accent);color:#fff;padding:12px 26px;border-radius:9px;text-decoration:none;}
+[data-theme="nocturno"] .cta .btn{color:#171208;}
+
+.method{font-size:.82em;color:var(--soft);}
+footer{padding:34px 0 0;text-align:center;color:var(--soft);font-size:.78em;}
+footer .brand{font-size:20px;color:var(--ink);}
+@media (max-width:600px){.head h1{font-size:2.1em;} .steps{grid-template-columns:1fr;} .step::after{content:"";}}
+@media print{.bar{display:none;} body{background:#fff;} .doc{max-width:none;} .case,.abstract,.cta{-webkit-print-color-adjust:exact;print-color-adjust:exact;} @page{margin:15mm;}}
+</style>
+</head>
+<body data-theme="editorial">
+
+<div class="bar"><div class="row">
+  <span class="brand">SOPHHIA<sup>®</sup> · CONVENIA</span>
+  <div class="grp" style="gap:16px;">
+    <button class="pbtn" onclick="window.print()">Imprimir / PDF</button>
+    <div class="grp"><span class="lbl">Paleta</span>
+      <button class="sw e" aria-pressed="true" title="Editorial" onclick="setTheme('editorial',this)"></button>
+      <button class="sw n" aria-pressed="false" title="Nocturno" onclick="setTheme('nocturno',this)"></button>
+      <button class="sw p" aria-pressed="false" title="Pergamino" onclick="setTheme('pergamino',this)"></button>
+      <button class="sw s" aria-pressed="false" title="Pizarra" onclick="setTheme('pizarra',this)"></button>
+    </div>
+    <div class="grp"><span class="lbl">Zoom</span>
+      <button class="zbtn" title="Reducir" onclick="zoom(-1)">−</button>
+      <button class="zbtn" title="Normal" onclick="zoom(0)" style="font-size:12px;">A</button>
+      <button class="zbtn" title="Aumentar" onclick="zoom(1)">+</button>
+    </div>
+  </div>
+</div></div>
+
+<div class="doc">
+
+  <header class="head">
+    <div class="wtag"><span>White paper · Negociación colectiva</span><span>SOPHHIA CONVENIA</span></div>
+    <h1>El fin de negociar a ciegas</h1>
+    <p class="dek">Anticipación, mapa de fuerzas y teoría de juegos para llegar a la mesa preparado — no confiado.</p>
+    <div class="byline">SOPHHIA® · Prospectiva Híbrida Humano-IA · 2026</div>
+  </header>
+
+  <div class="abstract">
+    <div class="l">En síntesis</div>
+    <p>La negociación colectiva mueve salarios, condiciones y paz social de miles de personas, y sin embargo se sigue afrontando en gran medida a intuición: se llega a la mesa sin haber mapeado las fuerzas reales, sin anticipar los escenarios de acuerdo o conflicto y sin diseñar el relato que hará aceptable el pacto. Este documento sostiene que la anticipación con método —la misma que se aplica a la estrategia— transforma la preparación de una negociación, y describe cómo.</p>
+  </div>
+
+  <section>
+    <div class="kick">El problema</div>
+    <h2>Una decisión de alto impacto, tomada con poca preparación analítica</h2>
+    <p class="drop">Pocas decisiones empresariales o sociales comprometen tanto como un convenio: fija el coste laboral durante años, condiciona el clima interno y puede desembocar en conflicto abierto. Y pocas se preparan con tan poca base analítica. La experiencia del negociador —valiosísima— suele ser el único instrumento, y frente a ella, la parte contraria opone la suya. Dos intuiciones enfrentadas, cada una convencida de leer bien la situación.</p>
+    <p>El coste de esa asimetría es real: acuerdos subóptimos que dejan valor sobre la mesa, bloqueos que podrían haberse previsto, conflictos que escalan porque nadie anticipó el punto de ruptura, y pactos técnicamente buenos que fracasan porque una de las partes no logra "vendérselo" a los suyos.</p>
+    <div class="pull">A la mesa se llega con toda la experiencia — y casi ningún mapa. <b>La experiencia lee el presente; hace falta anticipar el futuro.</b></div>
+  </section>
+
+  <section>
+    <div class="kick">Por qué la sola experiencia no basta</div>
+    <h2>Tres cosas que el instinto no ve</h2>
+    <p>La pericia del negociador es necesaria, pero incompleta en tres frentes donde el análisis riguroso aporta lo que la intuición no alcanza:</p>
+    <ul class="clean">
+      <li><b>Las fuerzas reales de la mesa:</b> quién depende de quién, qué alianzas tácitas existen, dónde está la verdadera capacidad de presión de cada actor — un mapa que rara vez se dibuja de forma sistemática.</li>
+      <li><b>La zona de acuerdo posible:</b> el conjunto de pactos que dejarían a ambas partes mejor que el conflicto, y cuál de ellos genera más valor conjunto — algo que la teoría de juegos identifica y la intuición aproxima a ciegas.</li>
+      <li><b>El punto de ruptura:</b> los escenarios en que la negociación descarrila, con qué probabilidad y por qué — para anticiparlos en lugar de descubrirlos en la mesa.</li>
+    </ul>
+    <p>No se trata de sustituir al negociador por un modelo, sino de <strong>armarlo con anticipación</strong>: que entre a la sala habiendo visto ya el tablero completo y los escenarios que pueden desplegarse.</p>
+  </section>
+
+  <section>
+    <div class="kick">El enfoque</div>
+    <h2>Mapear, calcular, narrar</h2>
+    <p class="lead">La misma metodología que anticipa el futuro de una organización se aplica, con precisión casi natural, a una negociación. Tres movimientos:</p>
+    <div class="steps">
+      <div class="step"><div class="n">01</div><div class="t">Mapa de fuerzas</div><div class="d">Quién puede qué en la mesa, alianzas y divergencias, capacidad real de presión de cada parte.</div><div class="tool">método de actores</div></div>
+      <div class="step"><div class="n">02</div><div class="t">Zona de acuerdo</div><div class="d">Dónde existe pacto posible y cuál genera más valor conjunto; qué escenarios llevan al bloqueo.</div><div class="tool">teoría de juegos</div></div>
+      <div class="step"><div class="n">03</div><div class="t">Relato del pacto</div><div class="d">Cómo se construye un acuerdo que cada parte pueda defender ante los suyos.</div><div class="tool">narrativa orientada</div></div>
+    </div>
+    <p>El tercer paso es el más subestimado. Muchos acuerdos técnicamente buenos fracasan en la ratificación porque una de las partes no consigue explicarlo como una victoria — o al menos como algo digno — ante su propia gente. Diseñar ese relato es parte de la negociación, no un añadido posterior.</p>
+  </section>
+
+  <section>
+    <div class="kick">Cómo se ve en la práctica</div>
+    <h2>La renegociación de un convenio</h2>
+    <div class="case">
+      <div class="l">Ilustración</div>
+      <p>Se acerca la renovación de un convenio en un clima tenso. Antes de la primera reunión, un análisis prospectivo dibujaría <b>el mapa de fuerzas</b>: no solo empresa y representación de los trabajadores como bloques, sino las tensiones internas de cada lado, las dependencias mutuas y quién tiene realmente capacidad de sostener un conflicto y por cuánto tiempo.</p>
+      <p>Después identificaría <b>la zona de acuerdo</b>: qué combinaciones de salario, jornada y condiciones dejarían a ambas partes mejor que una huelga, y cuál de esas combinaciones reparte mejor el valor. Y anticiparía <b>los escenarios de ruptura</b> —qué demanda concreta, en qué momento, dispara el bloqueo— para tenerlos previstos.</p>
+      <p>Con ese trabajo hecho, la parte que lo encarga entra a la mesa <b>habiendo visto la partida antes de jugarla</b>: sabe dónde ceder sin perder, dónde está el acuerdo de más valor y cómo narrarlo para que se ratifique.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="kick">Lo que aporta</div>
+    <h2>De la intuición enfrentada a la anticipación preparada</h2>
+    <ul class="clean">
+      <li><b>Menos conflictividad:</b> anticipar los puntos de ruptura permite rodearlos antes de que escalen.</li>
+      <li><b>Acuerdos de más valor:</b> encontrar el pacto que maximiza el beneficio conjunto, no el primero que aparece.</li>
+      <li><b>Preparación superior:</b> entrar a la mesa con el tablero y los escenarios ya vistos.</li>
+      <li><b>Ratificación más probable:</b> un relato del acuerdo que cada parte puede defender ante los suyos.</li>
+      <li><b>Aprendizaje acumulable:</b> cada negociación deja un método replicable, no solo una anécdota.</li>
+    </ul>
+  </section>
+
+  <section style="border-bottom:none;">
+    <div class="kick">Sobre este enfoque</div>
+    <h2>Rigor con discreción</h2>
+    <p>La preparación de una negociación exige la <strong>máxima confidencialidad</strong>. El análisis se realiza al servicio de quien lo encarga y bajo estricta reserva; es una capacidad que refuerza la posición de una parte sin exponerla. Bien entendido, no es un arma contra la otra parte, sino un instrumento para llegar antes y mejor a acuerdos que se sostengan — porque un pacto anticipado y bien narrado es más estable que uno arrancado en el último minuto.</p>
+    <p>SOPHHIA es un sistema de prospectiva híbrida humano-IA que une el cálculo riguroso con la construcción de sentido. CONVENIA es su aplicación a la negociación colectiva y las relaciones laborales, apoyada en una trayectoria de dirección de organización y personas en el ámbito de la gran empresa.</p>
+    <div class="cta">
+      <h3>¿Tiene una negociación por delante?</h3>
+      <p>La preparación empieza mucho antes de la primera reunión. Hablemos, con la discreción que el asunto exige.</p>
+      <a href="#" class="btn" onclick="return false;">Iniciar la conversación</a>
+    </div>
+  </section>
+
+  <section class="method" style="border-bottom:none;">
+    <p>Documento de divulgación profesional de SOPHHIA CONVENIA. Presenta un enfoque metodológico para la preparación de la negociación colectiva. La ilustración es un ejemplo genérico, no un caso real. SOPHHIA® y LOGOTRÓN® son marcas registradas; CONVENIA es denominación de trabajo.</p>
+  </section>
+
+  <footer>
+    <div class="brand">SOPHHIA<sup style="font-size:10px;color:var(--accent);">®</sup> · CONVENIA</div>
+    <p>Prospectiva Híbrida Humano-IA al servicio de la negociación · 2026</p>
+  </footer>
+
+</div>
+
+<script>
+let z=1;
+function setTheme(name,btn){document.body.setAttribute('data-theme',name);
+  document.querySelectorAll('.sw').forEach(b=>b.setAttribute('aria-pressed','false'));btn.setAttribute('aria-pressed','true');}
+function zoom(d){if(d===0)z=1;else z=Math.min(1.4,Math.max(0.8,z+d*0.1));document.querySelector('.doc').style.setProperty('--zoom',z.toFixed(2));}
+</script>
+</body>
+</html>
