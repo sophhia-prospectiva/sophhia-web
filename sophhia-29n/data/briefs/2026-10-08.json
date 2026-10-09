@@ -1,0 +1,75 @@
+{
+  "codigo": "D-002",
+  "fecha": "2026-10-08",
+  "fecha_legible": "8 de octubre de 2026",
+  "titulo": "Primer día de rutina: señales, no sobresaltos",
+  "estado_proceso": "Precampaña institucional",
+  "resumen": "La actualización aplica el protocolo diario: registra señales, clasifica variables afectadas y mantiene sin recalibrar el A-000 hasta que exista una base acumulada suficiente.",
+  "senal_principal": "La encuesta NC Report refuerza la hipótesis de mayoría PP-Vox, mientras la posible candidatura de Colau señala una vía todavía incierta de recomposición de la izquierda.",
+  "que_cambio": [
+    "Se incorpora la primera actualización diaria estructurada en la landing.",
+    "La encuesta NC Report del 8 de octubre refuerza el escenario dominante de mayoría PP-Vox.",
+    "Ada Colau condiciona su liderazgo en Frente Amplio a una candidatura unitaria que incorpore a Podemos y otras fuerzas.",
+    "La muerte de Maricarmen Abascal y su tratamiento público intensifican el eje vivienda y el riesgo de desinformación emocional."
+  ],
+  "que_no_cambio": [
+    "No se modifica la tesis central del A-000.",
+    "No se recalibran probabilidades con una sola encuesta.",
+    "La finalidad de la web sigue siendo explicar SOPHHIA como plataforma de prospectiva, más allá del 29-N."
+  ],
+  "escenarios": [
+    {
+      "id": "E1",
+      "nombre": "Mayoría PP-Vox amplia",
+      "tendencia": "sube leve",
+      "comentario": "Reforzada por NC Report, pendiente de confirmación por agregación de encuestas."
+    },
+    {
+      "id": "E2",
+      "nombre": "PP monocolor con apoyo externo de Vox",
+      "tendencia": "estable",
+      "comentario": "Depende del equilibrio PP/Vox y del coste institucional de la coalición."
+    },
+    {
+      "id": "E4",
+      "nombre": "Reconstrucción progresista",
+      "tendencia": "vigilancia",
+      "comentario": "Colau abre una señal de recomposición, aún condicionada a unidad real."
+    },
+    {
+      "id": "E5",
+      "nombre": "Bloqueo o repetición",
+      "tendencia": "estable",
+      "comentario": "No gana plausibilidad salvo erosión de la mayoría PP-Vox."
+    }
+  ],
+  "riesgo_principal": "Confundir la acumulación de titulares con cambios estructurales del modelo.",
+  "que_observar_manana": [
+    "Respuesta de Podemos y otras fuerzas a la propuesta de Frente Amplio.",
+    "Nuevas encuestas posteriores a la convocatoria.",
+    "Evolución del marco vivienda: movilización, duelo público y polarización.",
+    "Controversias sobre voto por correo, CERA o confianza electoral."
+  ],
+  "fuentes": [
+    {
+      "nombre": "La Sexta / NC Report",
+      "url": "https://www.lasexta.com/elecciones/generales/encuestas-elecciones-generales_202610056ac365161c30184d44b52907.html"
+    },
+    {
+      "nombre": "EFE · Ada Colau y Frente Amplio",
+      "url": "https://efe.com/espana/2026-10-08/ada-colau-dispuesta-liderar-frente-amplio/"
+    },
+    {
+      "nombre": "Europa Press · Maricarmen Abascal",
+      "url": "https://www.europapress.es/madrid/noticia-muere-maricarmen-abascal-convertida-simbolo-lucha-vivienda-desahucio-20261007203240.html"
+    },
+    {
+      "nombre": "El País · desinformación sobre Maricarmen",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-08/el-bulo-ultra-del-asesinato-de-maricarmen-procede-una-autopsia-zurdos-de-mierda-el-psoe-hara-todo-para-ganar-las-elecciones.html"
+    },
+    {
+      "nombre": "Cadena SER · voto por correo",
+      "url": "https://cadenaser.com/castillayleon/2026/10/08/ccoo-exige-al-pp-y-a-vox-que-dejen-de-sembrar-dudas-sobre-el-voto-por-correo-es-seguro-y-fiable-radio-palencia/"
+    }
+  ]
+}

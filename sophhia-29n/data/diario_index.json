@@ -1,0 +1,8 @@
+{
+  "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
+  "ultima_actualizacion": "D-002",
+  "entradas": [
+    {"codigo":"D-002","fecha":"2026-10-08","titulo":"Primer día de rutina: señales, no sobresaltos","url":"diario/2026-10-08.html","estado":"vigente"},
+    {"codigo":"D-001","fecha":"2026-10-07","titulo":"Apertura del observatorio público","url":"diario/2026-10-07.html","estado":"archivada"}
+  ]
+}

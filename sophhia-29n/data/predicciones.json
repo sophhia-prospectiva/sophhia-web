@@ -1,0 +1,32 @@
+{
+  "fecha": "2026-10-08",
+  "codigo": "D-002",
+  "estado": "sin cambios respecto a A-000",
+  "criterio": "No se modifica una predicción por una sola encuesta; se espera acumulación de señales o encuesta de mayor calidad metodológica.",
+  "predicciones": [
+    {
+      "id": "A000-P01",
+      "prediccion": "El PP será la fuerza con más escaños el 29-N",
+      "probabilidad": "84%",
+      "estado": "pendiente"
+    },
+    {
+      "id": "A000-P02",
+      "prediccion": "PP+Vox+UPN alcanzarán al menos 176 escaños",
+      "probabilidad": "82%",
+      "estado": "pendiente"
+    },
+    {
+      "id": "A000-P04",
+      "prediccion": "PP+Vox superarán los 200 escaños",
+      "probabilidad": "49%",
+      "estado": "pendiente"
+    },
+    {
+      "id": "A000-P10",
+      "prediccion": "La vivienda seguirá entre los tres primeros ejes de campaña hasta el 13 de noviembre",
+      "probabilidad": "74%",
+      "estado": "pendiente"
+    }
+  ]
+}

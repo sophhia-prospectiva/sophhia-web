@@ -1,0 +1,32 @@
+{
+  "fecha": "2026-10-08",
+  "codigo": "D-002",
+  "sin_recalibracion_probabilistica": true,
+  "nota": "Se registran tendencias cualitativas. Las probabilidades del A-000 no se actualizan con una sola encuesta.",
+  "escenarios": [
+    {
+      "id": "EE1/G1",
+      "nombre": "Mayoría PP-Vox amplia / coalición posible",
+      "tendencia": "↑ leve",
+      "estado": "reforzado"
+    },
+    {
+      "id": "G2",
+      "nombre": "PP monocolor con apoyo externo de Vox",
+      "tendencia": "→",
+      "estado": "estable"
+    },
+    {
+      "id": "G4",
+      "nombre": "Reconstrucción progresista-territorial",
+      "tendencia": "⚠",
+      "estado": "en vigilancia"
+    },
+    {
+      "id": "G5",
+      "nombre": "Bloqueo o repetición",
+      "tendencia": "→",
+      "estado": "estable"
+    }
+  ]
+}

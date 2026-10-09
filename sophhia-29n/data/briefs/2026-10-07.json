@@ -1,0 +1,18 @@
+{
+  "codigo": "D-001",
+  "fecha": "2026-10-07",
+  "fecha_humana": "7 de octubre de 2026",
+  "titulo": "Apertura del observatorio público",
+  "estado": "Archivado",
+  "resumen": "La convocatoria electoral activa el primer demostrador público de SOPHHIA. La entrada D-001 fija el propósito pedagógico: no acertar un ganador, sino mostrar cómo un proceso electoral se transforma en futuros posibles de gobernabilidad.",
+  "senal_principal": "El calendario institucional ya permite ordenar el seguimiento.",
+  "riesgo": "Confundir el primer puesto electoral con capacidad real de formar Gobierno.",
+  "variables": [
+    "Vivienda",
+    "Inflación y coste de vida",
+    "Fragmentación política",
+    "Confianza institucional"
+  ],
+  "pregunta_pedagogica": "Cómo pasa una sociedad del voto a la decisión pública efectiva.",
+  "url": "diario/2026-10-07.html"
+}
