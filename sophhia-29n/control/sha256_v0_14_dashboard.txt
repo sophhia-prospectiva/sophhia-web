@@ -1,0 +1,5 @@
+SOPHHIA 29-N · v0.14 Dashboard global
+Generado para integrar sección Dashboard en landing pública.
+
+index.html  49eb9b769018c22cdb80890711ed9ae0c816b7ae4928f78dc4f720f795aa0966
+data/dashboard.json  c969aebb2f0d8b0afc3d0dc3089c888ee9fb29737952007126526e0f4235681e

@@ -1,0 +1,79 @@
+{
+  "version": "v0.14",
+  "updated": "2026-10-09",
+  "title": "Dashboard SOPHHIA 29-N",
+  "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
+  "contract": "CP-29N-F0 v0.1",
+  "protocol": "P001",
+  "current_entry": "D-003",
+  "mode": "Modo A · Aproximación heurística estructurada",
+  "recalibration": "No",
+  "system_state": "Marco inicial A-000 confirmado · sin recalibración",
+  "dominant_scenario": "Mayoría PP-Vox",
+  "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
+  "watch_variable": "Recomposición o fragmentación de la izquierda alternativa",
+  "social_axis": "Vivienda + inflación / coste de vida",
+  "path": [
+    {
+      "id": "D-001",
+      "date": "2026-10-07",
+      "title": "Apertura del observatorio público",
+      "recalibration": "No"
+    },
+    {
+      "id": "D-002",
+      "date": "2026-10-08",
+      "title": "Primer día de rutina: señales, no sobresaltos",
+      "recalibration": "No"
+    },
+    {
+      "id": "D-003",
+      "date": "2026-10-09",
+      "title": "Del ruido diario a las señales prospectivas",
+      "recalibration": "No"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "G1",
+      "name": "Gobierno PP-Vox de coalición",
+      "trend": "sube leve",
+      "status": "plausible alto"
+    },
+    {
+      "id": "G2",
+      "name": "PP monocolor con apoyo externo de Vox",
+      "trend": "estable",
+      "status": "plausible alto"
+    },
+    {
+      "id": "G4",
+      "name": "Reconstrucción progresista",
+      "trend": "vigilancia",
+      "status": "baja, en vigilancia"
+    },
+    {
+      "id": "G5",
+      "name": "Bloqueo / repetición electoral",
+      "trend": "estable",
+      "status": "riesgo bajo/medio"
+    }
+  ],
+  "bifurcations": [
+    {
+      "id": "B1",
+      "name": "Relación PP-Vox",
+      "state": "en vigilancia"
+    },
+    {
+      "id": "B2",
+      "name": "Izquierda alternativa",
+      "state": "en vigilancia"
+    },
+    {
+      "id": "B3",
+      "name": "Vivienda y coste de vida",
+      "state": "en vigilancia"
+    }
+  ]
+}
