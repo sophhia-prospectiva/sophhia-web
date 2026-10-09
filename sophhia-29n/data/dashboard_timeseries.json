@@ -1,0 +1,143 @@
+{
+  "timeline": [
+    {
+      "date": "2026-10-07",
+      "entry": "D‑001"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D‑002"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D‑003"
+    }
+  ],
+  "scenarios": {
+    "G1 · PP‑Vox coalición": [
+      62,
+      63,
+      65
+    ],
+    "G2 · PP apoyo Vox": [
+      58,
+      58,
+      58
+    ],
+    "G4 · Reconstrucción progresista": [
+      29,
+      31,
+      30
+    ],
+    "G5 · Bloqueo/repetición": [
+      18,
+      18,
+      18
+    ]
+  },
+  "blocks": {
+    "PP‑Vox": [
+      68,
+      69,
+      71
+    ],
+    "PSOE + izquierda": [
+      44,
+      43,
+      42
+    ],
+    "Territoriales/bisagra": [
+      37,
+      36,
+      35
+    ],
+    "Riesgo no mayoría clara": [
+      24,
+      24,
+      23
+    ]
+  },
+  "variables": {
+    "Vivienda": [
+      76,
+      78,
+      80
+    ],
+    "Inflación/coste de vida": [
+      70,
+      70,
+      73
+    ],
+    "Fragmentación izquierda": [
+      66,
+      68,
+      69
+    ],
+    "Relación PP‑Vox": [
+      74,
+      74,
+      76
+    ],
+    "Participación": [
+      48,
+      48,
+      49
+    ],
+    "Bloqueo": [
+      28,
+      28,
+      27
+    ]
+  },
+  "signals": {
+    "Confirmatorias": [
+      1,
+      2,
+      3
+    ],
+    "Vigilancia": [
+      1,
+      3,
+      2
+    ],
+    "Disruptivas": [
+      0,
+      0,
+      0
+    ],
+    "Recalibradoras": [
+      0,
+      0,
+      0
+    ]
+  },
+  "mode": "Modo A · indicadores estructurados de seguimiento, con capa F2-MICMAC v0.2; no cálculo verificado Modo B",
+  "version": "v0.16",
+  "territorial": {
+    "Agenda nacionalista catalana": [
+      66,
+      67,
+      70
+    ],
+    "Agenda nacionalista vasca": [
+      47,
+      47,
+      49
+    ],
+    "Veto/bisagra territorial": [
+      36,
+      35,
+      38
+    ],
+    "Compatibilidad programática-territorial": [
+      56,
+      58,
+      60
+    ],
+    "Agendas territoriales complementarias": [
+      34,
+      34,
+      35
+    ]
+  }
+}

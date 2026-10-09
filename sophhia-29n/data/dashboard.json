@@ -1,5 +1,5 @@
 {
-  "version": "v0.14",
+  "version": "v0.16",
   "updated": "2026-10-09",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
@@ -75,5 +75,57 @@
       "name": "Vivienda y coste de vida",
       "state": "en vigilancia"
     }
-  ]
+  ],
+  "charts": {
+    "timeseries_file": "data/dashboard_timeseries.json",
+    "mode": "Modo A · indicadores estructurados de seguimiento",
+    "charts": [
+      "Trayectoria de escenarios",
+      "Balance dinámico de bloques",
+      "Pulso de variables críticas",
+      "Registro temporal de señales",
+      "Pulso nacional-territorial"
+    ]
+  },
+  "methodological_layer": "F2-MICMAC-001 v0.2 · subsistema nacional-territorial",
+  "territorial_radar": {
+    "status": "incorporado",
+    "decision": "DEC-IH-F2-002",
+    "micmac_report": "metodo/f2-micmac-001-v0-2.html",
+    "p001_amendment": "metodo/p001-e001-enmienda-nacional-territorial.html",
+    "contract_annex": "metodo/cp-29n-f0-anexo-a-subsistema-nacional-territorial.html",
+    "variables": [
+      {
+        "id": "V9",
+        "name": "Agenda nacionalista catalana",
+        "state": "activa",
+        "reading": "Alta propagación sistémica"
+      },
+      {
+        "id": "V10",
+        "name": "Agenda nacionalista vasca",
+        "state": "vigilancia",
+        "reading": "Alta capacidad negociadora institucional"
+      },
+      {
+        "id": "V11",
+        "name": "Agendas territoriales complementarias",
+        "state": "latente",
+        "reading": "Activación condicionada"
+      },
+      {
+        "id": "V12",
+        "name": "Capacidad de veto / bisagra territorial",
+        "state": "umbral",
+        "reading": "Motricidad condicionada por mayoría"
+      },
+      {
+        "id": "V16",
+        "name": "Compatibilidad programática y territorial de pactos",
+        "state": "tensionada",
+        "reading": "Nudo central de gobernabilidad"
+      }
+    ],
+    "reservation": "V4 · Fragmentación / recomposición de la izquierda alternativa queda pendiente de revisión IH por posible infravaloración."
+  }
 }

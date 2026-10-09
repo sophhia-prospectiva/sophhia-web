@@ -1,0 +1,10 @@
+SOPHHIA 29-N · v0.16 Dashboard nacional-territorial
+Fecha: 2026-10-09
+
+index.html  df5264fe4bb17cdf9c9d7e360ba11012d8ad8204a3ef68036215016deb13ab59
+data/dashboard.json  7594cde5cac1b02a6efe84d9fc8eadf67b928b2f27976ecd3b153f6b49477724
+data/dashboard_timeseries.json  b4af719ea6eb2d8a901a95a7bb18e1414884f939b71a160649ddcf76d6c7e3ff
+data/dashboard_territorial.json  da996cffb7f4d3e9ace93c7904f5123812494d34dfc11c2c02dccbeca276f86b
+metodo/f2-micmac-001-v0-2.html  07550c7ed723a312b2e1ba3241e1a043bc9d5ba21e79878acfb758007433e639
+metodo/p001-e001-enmienda-nacional-territorial.html  bb4062750de8acf7772e9b6c65196f8788980325d397f59ea9b855742ae4b610
+metodo/cp-29n-f0-anexo-a-subsistema-nacional-territorial.html  fd203bd8af4f8d1609b957f6c4585a0fdc4d74c172595c2ba70100709dc81fd7

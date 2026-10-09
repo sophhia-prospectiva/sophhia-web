@@ -1,0 +1,43 @@
+{
+  "version": "v0.16",
+  "date": "2026-10-09",
+  "source": "F2-MICMAC-001 v0.2",
+  "mode": "Modo A estructurado · pendiente de validación detallada de matriz",
+  "decision": "DEC-IH-F2-002",
+  "radar": [
+    {
+      "id": "V9",
+      "name": "Agenda nacionalista catalana",
+      "state": "activa",
+      "reading": "Alta propagación sistémica"
+    },
+    {
+      "id": "V10",
+      "name": "Agenda nacionalista vasca",
+      "state": "vigilancia",
+      "reading": "Alta capacidad negociadora institucional"
+    },
+    {
+      "id": "V11",
+      "name": "Agendas territoriales complementarias",
+      "state": "latente",
+      "reading": "Activación condicionada"
+    },
+    {
+      "id": "V12",
+      "name": "Capacidad de veto / bisagra territorial",
+      "state": "umbral",
+      "reading": "Motricidad condicionada por mayoría"
+    },
+    {
+      "id": "V16",
+      "name": "Compatibilidad programática y territorial de pactos",
+      "state": "tensionada",
+      "reading": "Nudo central de gobernabilidad"
+    }
+  ],
+  "daily_signal_rule": {
+    "code": "P001-E001",
+    "rule": "Toda señal diaria con implicación territorial deberá clasificarse distinguiendo actor, agenda explícita, agenda estratégica, instrumento táctico, variable MICMAC afectada y efecto sistémico."
+  }
+}
