@@ -1,75 +1,81 @@
 {
-  "codigo": "D-002",
-  "fecha": "2026-10-08",
-  "fecha_legible": "8 de octubre de 2026",
-  "titulo": "Primer día de rutina: señales, no sobresaltos",
-  "estado_proceso": "Precampaña institucional",
-  "resumen": "La actualización aplica el protocolo diario: registra señales, clasifica variables afectadas y mantiene sin recalibrar el A-000 hasta que exista una base acumulada suficiente.",
-  "senal_principal": "La encuesta NC Report refuerza la hipótesis de mayoría PP-Vox, mientras la posible candidatura de Colau señala una vía todavía incierta de recomposición de la izquierda.",
+  "codigo": "D-003",
+  "fecha": "2026-10-09",
+  "fecha_legible": "9 de octubre de 2026",
+  "hora_corte": "09:30",
+  "titulo": "Del ruido diario a las señales prospectivas",
+  "contrato": "CP-29N-F0 v0.1",
+  "protocolo": "P001",
+  "modo": "Modo A · Aproximación heurística estructurada",
+  "recalibracion": false,
+  "variacion_contrato": false,
+  "estado_proceso": "Precampaña institucional · operación ordinaria bajo P001",
+  "resumen": "SOPHHIA 29-N inicia su funcionamiento ordinario bajo el Contrato Prospectivo vigente y el Protocolo P001. Las señales del día refuerzan la hipótesis de mayoría PP-Vox, mantienen en vigilancia la recomposición de la izquierda alternativa y confirman la centralidad de vivienda e inflación como ejes sociales de campaña.",
+  "senal_principal": "La mayoría PP-Vox sigue apareciendo robusta en los sondeos disponibles.",
+  "variable_vigilancia": "Recomposición o fragmentación de la izquierda alternativa.",
+  "riesgo_interpretativo": "Confundir seguimiento diario con cambio diario de criterio.",
+  "decision": "Registrar señales, sin recalibrar.",
+  "url": "diario/2026-10-09.html",
   "que_cambio": [
-    "Se incorpora la primera actualización diaria estructurada en la landing.",
-    "La encuesta NC Report del 8 de octubre refuerza el escenario dominante de mayoría PP-Vox.",
-    "Ada Colau condiciona su liderazgo en Frente Amplio a una candidatura unitaria que incorpore a Podemos y otras fuerzas.",
-    "La muerte de Maricarmen Abascal y su tratamiento público intensifican el eje vivienda y el riesgo de desinformación emocional."
+    "SOPHHIA 29-N entra en operación pública ordinaria bajo Contrato Prospectivo vigente.",
+    "Una nueva encuesta 40dB. refuerza la lectura de mayoría PP-Vox amplia.",
+    "La izquierda alternativa sigue en fase de negociación y vigilancia.",
+    "Vivienda e inflación mantienen centralidad material de campaña."
   ],
   "que_no_cambio": [
-    "No se modifica la tesis central del A-000.",
-    "No se recalibran probabilidades con una sola encuesta.",
-    "La finalidad de la web sigue siendo explicar SOPHHIA como plataforma de prospectiva, más allá del 29-N."
+    "No cambia la pregunta matriz del caso.",
+    "No cambia la lectura central de A-000.",
+    "No cambia la incertidumbre principal: la forma de la gobernabilidad PP-Vox.",
+    "No cambia la regla epistémica: esta actualización es Modo A, no cálculo Modo B."
   ],
   "escenarios": [
     {
-      "id": "E1",
-      "nombre": "Mayoría PP-Vox amplia",
+      "id": "G1",
+      "nombre": "Gobierno PP-Vox de coalición",
       "tendencia": "sube leve",
-      "comentario": "Reforzada por NC Report, pendiente de confirmación por agregación de encuestas."
+      "comentario": "Vox mantiene fuerza suficiente para reclamar entrada o influencia directa."
     },
     {
-      "id": "E2",
+      "id": "G2",
       "nombre": "PP monocolor con apoyo externo de Vox",
       "tendencia": "estable",
-      "comentario": "Depende del equilibrio PP/Vox y del coste institucional de la coalición."
+      "comentario": "Sigue siendo plausible si el PP prioriza imagen institucional y europea."
     },
     {
-      "id": "E4",
+      "id": "G4",
       "nombre": "Reconstrucción progresista",
       "tendencia": "vigilancia",
-      "comentario": "Colau abre una señal de recomposición, aún condicionada a unidad real."
+      "comentario": "Depende de acuerdo real en la izquierda alternativa y movilización social."
     },
     {
-      "id": "E5",
+      "id": "G5",
       "nombre": "Bloqueo o repetición",
       "tendencia": "estable",
-      "comentario": "No gana plausibilidad salvo erosión de la mayoría PP-Vox."
+      "comentario": "No gana plausibilidad con las señales del día."
     }
   ],
-  "riesgo_principal": "Confundir la acumulación de titulares con cambios estructurales del modelo.",
   "que_observar_manana": [
-    "Respuesta de Podemos y otras fuerzas a la propuesta de Frente Amplio.",
     "Nuevas encuestas posteriores a la convocatoria.",
-    "Evolución del marco vivienda: movilización, duelo público y polarización.",
-    "Controversias sobre voto por correo, CERA o confianza electoral."
+    "Acuerdo o fragmentación del espacio Sumar/Podemos/Frente Amplio.",
+    "Relación estratégica PP-Vox.",
+    "Evolución del eje vivienda-coste de vida."
   ],
   "fuentes": [
     {
-      "nombre": "La Sexta / NC Report",
-      "url": "https://www.lasexta.com/elecciones/generales/encuestas-elecciones-generales_202610056ac365161c30184d44b52907.html"
+      "nombre": "Cadena SER / 40dB.",
+      "url": "https://cadenaser.com/nacional/2026/10/09/pp-y-vox-lograrian-una-amplia-mayoria-absoluta-con-mas-de-40-escanos-de-ventaja-sobre-el-bloque-de-la-investidura-cadena-ser/"
     },
     {
-      "nombre": "EFE · Ada Colau y Frente Amplio",
-      "url": "https://efe.com/espana/2026-10-08/ada-colau-dispuesta-liderar-frente-amplio/"
+      "nombre": "El País · Movimiento Sumar",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-09/movimiento-sumar-llama-al-resto-de-partidos-del-frente-amplio-a-negociar-con-discrecion-y-generosidad.html"
     },
     {
-      "nombre": "Europa Press · Maricarmen Abascal",
-      "url": "https://www.europapress.es/madrid/noticia-muere-maricarmen-abascal-convertida-simbolo-lucha-vivienda-desahucio-20261007203240.html"
+      "nombre": "INE · IPC adelantado septiembre 2026",
+      "url": "https://www.ine.es/dyngs/Prensa/es/adIPC0926.htm"
     },
     {
-      "nombre": "El País · desinformación sobre Maricarmen",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-10-08/el-bulo-ultra-del-asesinato-de-maricarmen-procede-una-autopsia-zurdos-de-mierda-el-psoe-hara-todo-para-ganar-las-elecciones.html"
-    },
-    {
-      "nombre": "Cadena SER · voto por correo",
-      "url": "https://cadenaser.com/castillayleon/2026/10/08/ccoo-exige-al-pp-y-a-vox-que-dejen-de-sembrar-dudas-sobre-el-voto-por-correo-es-seguro-y-fiable-radio-palencia/"
+      "nombre": "BOE · Real Decreto-ley 29/2026",
+      "url": "https://www.boe.es/eli/es/rdl/2026/10/06/29"
     }
   ]
 }

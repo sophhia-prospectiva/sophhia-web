@@ -1,0 +1,6 @@
+codigo,fecha,elemento,clasificacion,variable_afectada,actor_afectado,escenario_afectado,recalibracion,comentario
+S-D003-01,2026-10-09,SOPHHIA 29-N inicia operación pública ordinaria,Dato interno,Aprendizaje SOPHHIA,SOPHHIA,Subsistema metodológico,No,La Bitácora queda activada como memoria pública del aprendizaje prospectivo
+S-D003-02,2026-10-09,Encuesta 40dB. mantiene mayoría PP-Vox,Señal electoral,Mayoría parlamentaria,"PP, Vox",PP-Vox amplia,No,Confirma el marco A-000 sin recalibración por señal aislada
+S-D003-03,2026-10-09,Sumar llama a negociar con discreción y generosidad,Señal de actores,Fragmentación izquierda,"Sumar, Podemos, Comuns, Más Madrid",Reconstrucción progresista en vigilancia,No,Persisten riesgos de eficiencia electoral
+S-D003-04,2026-10-09,"IPC adelantado del 4,9 %",Dato económico,Coste de vida,"Gobierno, oposición, hogares",Eje social de campaña,No,Refuerza la centralidad material de campaña
+S-D003-05,2026-10-09,RDL 29/2026 sobre vivienda,Dato normativo,Vivienda,"Gobierno, propietarios, inquilinos, CCAA",Eje vivienda,No,Mantiene centralidad normativa y programática

@@ -1,0 +1,83 @@
+{
+  "codigo": "D-003",
+  "fecha": "2026-10-09",
+  "fecha_legible": "9 de octubre de 2026",
+  "hora_corte": "09:30",
+  "contrato": "CP-29N-F0 v0.1",
+  "protocolo": "P001",
+  "modo": "Modo A · Aproximación heurística estructurada",
+  "recalibracion": false,
+  "variacion_contrato": false,
+  "estado_proceso": "Precampaña institucional · operación ordinaria bajo P001",
+  "resumen": "SOPHHIA 29-N inicia su funcionamiento ordinario bajo el Contrato Prospectivo vigente y el Protocolo P001. Las señales del día refuerzan la hipótesis de mayoría PP-Vox, mantienen en vigilancia la recomposición de la izquierda alternativa y confirman la centralidad de vivienda e inflación como ejes sociales de campaña.",
+  "senal_principal": "La mayoría PP-Vox sigue apareciendo robusta en los sondeos disponibles.",
+  "variable_vigilancia": "Recomposición o fragmentación de la izquierda alternativa.",
+  "riesgo_interpretativo": "Confundir seguimiento diario con cambio diario de criterio.",
+  "decision": "Registrar señales, sin recalibrar.",
+  "url": "diario/2026-10-09.html",
+  "que_cambio": [
+    "SOPHHIA 29-N entra en operación pública ordinaria bajo Contrato Prospectivo vigente.",
+    "Una nueva encuesta 40dB. refuerza la lectura de mayoría PP-Vox amplia.",
+    "La izquierda alternativa sigue en fase de negociación y vigilancia.",
+    "Vivienda e inflación mantienen centralidad material de campaña."
+  ],
+  "que_no_cambio": [
+    "No cambia la pregunta matriz del caso.",
+    "No cambia la lectura central de A-000.",
+    "No cambia la incertidumbre principal: la forma de la gobernabilidad PP-Vox.",
+    "No cambia la regla epistémica: esta actualización es Modo A, no cálculo Modo B."
+  ],
+  "escenarios": [
+    {
+      "id": "G1",
+      "nombre": "Gobierno PP-Vox de coalición",
+      "tendencia": "sube leve",
+      "comentario": "Vox mantiene fuerza suficiente para reclamar entrada o influencia directa."
+    },
+    {
+      "id": "G2",
+      "nombre": "PP monocolor con apoyo externo de Vox",
+      "tendencia": "estable",
+      "comentario": "Sigue siendo plausible si el PP prioriza imagen institucional y europea."
+    },
+    {
+      "id": "G4",
+      "nombre": "Reconstrucción progresista",
+      "tendencia": "vigilancia",
+      "comentario": "Depende de acuerdo real en la izquierda alternativa y movilización social."
+    },
+    {
+      "id": "G5",
+      "nombre": "Bloqueo o repetición",
+      "tendencia": "estable",
+      "comentario": "No gana plausibilidad con las señales del día."
+    }
+  ],
+  "que_observar_manana": [
+    "Nuevas encuestas posteriores a la convocatoria.",
+    "Acuerdo o fragmentación del espacio Sumar/Podemos/Frente Amplio.",
+    "Relación estratégica PP-Vox.",
+    "Evolución del eje vivienda-coste de vida."
+  ],
+  "fuentes": [
+    {
+      "nombre": "Cadena SER / 40dB.",
+      "url": "https://cadenaser.com/nacional/2026/10/09/pp-y-vox-lograrian-una-amplia-mayoria-absoluta-con-mas-de-40-escanos-de-ventaja-sobre-el-bloque-de-la-investidura-cadena-ser/"
+    },
+    {
+      "nombre": "El País · Movimiento Sumar",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-09/movimiento-sumar-llama-al-resto-de-partidos-del-frente-amplio-a-negociar-con-discrecion-y-generosidad.html"
+    },
+    {
+      "nombre": "INE · IPC adelantado septiembre 2026",
+      "url": "https://www.ine.es/dyngs/Prensa/es/adIPC0926.htm"
+    },
+    {
+      "nombre": "BOE · Real Decreto-ley 29/2026",
+      "url": "https://www.boe.es/eli/es/rdl/2026/10/06/29"
+    }
+  ],
+  "id": "D-003",
+  "date": "2026-10-09",
+  "title": "Del ruido diario a las señales prospectivas"
+}
