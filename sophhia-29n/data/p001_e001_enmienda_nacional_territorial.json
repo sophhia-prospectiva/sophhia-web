@@ -1,0 +1,22 @@
+{
+  "code": "P001-E001",
+  "title": "Enmienda nacional-territorial al Protocolo P001",
+  "date": "2026-10-09",
+  "rule": "Toda señal diaria con implicación territorial deberá clasificarse distinguiendo actor, agenda explícita, agenda estratégica, instrumento táctico, variable MICMAC afectada y efecto sobre investidura, Gobierno, programa o estabilidad.",
+  "fields": [
+    "actor_territorial",
+    "agenda_explicita",
+    "agenda_estrategica",
+    "instrumento_tactico",
+    "variable_micmac",
+    "efecto_sistemico"
+  ],
+  "related_variables": [
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V16"
+  ],
+  "status": "provisional pendiente de validación IH"
+}

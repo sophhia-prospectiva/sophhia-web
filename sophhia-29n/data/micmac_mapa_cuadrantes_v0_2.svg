@@ -1,0 +1,49 @@
+<svg viewBox="0 0 820 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mapa MICMAC de motricidad y dependencia">
+<rect width="100%" height="100%" fill="#FBF8F2"/>
+<line x1="70" y1="450" x2="750" y2="450" stroke="#D8CFC0"/>
+<line x1="70" y1="450" x2="70" y2="70" stroke="#D8CFC0"/>
+<line x1="481.3" y1="70" x2="481.3" y2="450" stroke="#C99B6C" stroke-dasharray="6 6"/>
+<line x1="70" y1="190.7" x2="750" y2="190.7" stroke="#C99B6C" stroke-dasharray="6 6"/>
+<text x="410.0" y="498" text-anchor="middle" font-family="Work Sans" font-size="15" fill="#667085">Dependencia directa</text>
+<text x="22" y="260.0" transform="rotate(-90 22,260.0)" text-anchor="middle" font-family="Work Sans" font-size="15" fill="#667085">Motricidad directa</text>
+<text x="78" y="90" font-family="Work Sans" font-size="14" fill="#667085">Motrices</text>
+<text x="489.3" y="90" font-family="Work Sans" font-size="14" fill="#667085">Enlace</text>
+<text x="78" y="212.7" font-family="Work Sans" font-size="14" fill="#667085">Latentes</text>
+<text x="489.3" y="212.7" font-family="Work Sans" font-size="14" fill="#667085">Dependientes</text>
+<circle cx="379.1" cy="196.7" r="9" fill="#5E7D5A" opacity="0.88"/>
+<text x="391.1" y="201.7" font-family="Work Sans" font-size="13" fill="#182845">V1</text>
+<circle cx="332.7" cy="167.4" r="9" fill="#5E7D5A" opacity="0.88"/>
+<text x="344.7" y="172.4" font-family="Work Sans" font-size="13" fill="#182845">V2</text>
+<circle cx="425.5" cy="196.7" r="9" fill="#3E6B8C" opacity="0.88"/>
+<text x="437.5" y="201.7" font-family="Work Sans" font-size="13" fill="#182845">V3</text>
+<circle cx="270.9" cy="255.1" r="9" fill="#5E7D5A" opacity="0.88"/>
+<text x="282.9" y="260.1" font-family="Work Sans" font-size="13" fill="#182845">V4</text>
+<circle cx="487.3" cy="167.4" r="9" fill="#5E7D5A" opacity="0.88"/>
+<text x="499.3" y="172.4" font-family="Work Sans" font-size="13" fill="#182845">V5</text>
+<circle cx="487.3" cy="196.7" r="9" fill="#3E6B8C" opacity="0.88"/>
+<text x="499.3" y="201.7" font-family="Work Sans" font-size="13" fill="#182845">V6</text>
+<circle cx="301.8" cy="186.9" r="9" fill="#A97B4F" opacity="0.88"/>
+<text x="313.8" y="191.9" font-family="Work Sans" font-size="13" fill="#182845">V7</text>
+<circle cx="301.8" cy="196.7" r="9" fill="#A97B4F" opacity="0.88"/>
+<text x="313.8" y="201.7" font-family="Work Sans" font-size="13" fill="#182845">V8</text>
+<circle cx="533.6" cy="128.5" r="9" fill="#9C4A38" opacity="0.88"/>
+<text x="545.6" y="133.5" font-family="Work Sans" font-size="13" fill="#182845">V9</text>
+<circle cx="410.0" cy="225.9" r="9" fill="#9C4A38" opacity="0.88"/>
+<text x="422.0" y="230.9" font-family="Work Sans" font-size="13" fill="#182845">V10</text>
+<circle cx="379.1" cy="245.4" r="9" fill="#B5893B" opacity="0.88"/>
+<text x="391.1" y="250.4" font-family="Work Sans" font-size="13" fill="#182845">V11</text>
+<circle cx="595.5" cy="186.9" r="9" fill="#B5893B" opacity="0.88"/>
+<text x="607.5" y="191.9" font-family="Work Sans" font-size="13" fill="#182845">V12</text>
+<circle cx="410.0" cy="225.9" r="9" fill="#667085" opacity="0.88"/>
+<text x="422.0" y="230.9" font-family="Work Sans" font-size="13" fill="#182845">V13</text>
+<circle cx="657.3" cy="99.2" r="9" fill="#3E6B8C" opacity="0.88"/>
+<text x="669.3" y="104.2" font-family="Work Sans" font-size="13" fill="#182845">V14</text>
+<circle cx="672.7" cy="206.4" r="9" fill="#31456F" opacity="0.88"/>
+<text x="684.7" y="211.4" font-family="Work Sans" font-size="13" fill="#182845">V15</text>
+<circle cx="703.6" cy="128.5" r="9" fill="#9C4A38" opacity="0.88"/>
+<text x="715.6" y="133.5" font-family="Work Sans" font-size="13" fill="#182845">V16</text>
+<circle cx="657.3" cy="186.9" r="9" fill="#31456F" opacity="0.88"/>
+<text x="669.3" y="191.9" font-family="Work Sans" font-size="13" fill="#182845">V17</text>
+<circle cx="657.3" cy="235.6" r="9" fill="#31456F" opacity="0.88"/>
+<text x="669.3" y="240.6" font-family="Work Sans" font-size="13" fill="#182845">V18</text>
+</svg>

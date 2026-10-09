@@ -1,0 +1,15 @@
+# SOPHHIA 29-N · Paquete de ejecución F2-MICMAC-001 v0.2
+
+Este paquete contiene los primeros entregables ejecutados de la revisión nacional-territorial del MICMAC:
+
+- metodo/f2-micmac-001-v0-2.html
+- metodo/p001-e001-enmienda-nacional-territorial.html
+- metodo/cp-29n-f0-anexo-a-subsistema-nacional-territorial.html
+- data/micmac_variables_v0_2.json
+- data/micmac_mid_v0_2.csv
+- data/micmac_resultados_v0_2.json
+- data/micmac_mapa_cuadrantes_v0_2.svg
+- data/p001_e001_enmienda_nacional_territorial.json
+- control/sha256_f2_micmac_001_v0_2.txt
+
+Estado: provisional, pendiente de validación IH.

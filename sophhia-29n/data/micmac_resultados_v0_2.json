@@ -1,0 +1,273 @@
+{
+  "case": "SOPHHIA 29-N",
+  "code": "F2-MICMAC-001",
+  "version": "v0.2",
+  "method": "MICMAC provisional",
+  "direct_thresholds": {
+    "mean_motricity": 26.61111111111111,
+    "mean_dependency": 26.61111111111111
+  },
+  "direct_results": [
+    {
+      "code": "V1",
+      "name": "Ventaja electoral PP",
+      "direct_motricity": 26,
+      "direct_dependency": 20,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V2",
+      "name": "Fuerza electoral de Vox",
+      "direct_motricity": 29,
+      "direct_dependency": 17,
+      "quadrant": "motriz"
+    },
+    {
+      "code": "V3",
+      "name": "Relación estratégica PP‑Vox",
+      "direct_motricity": 26,
+      "direct_dependency": 23,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V4",
+      "name": "Fragmentación / recomposición de la izquierda alternativa",
+      "direct_motricity": 20,
+      "direct_dependency": 13,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V5",
+      "name": "Capacidad de recuperación del PSOE",
+      "direct_motricity": 29,
+      "direct_dependency": 27,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V6",
+      "name": "Participación diferencial",
+      "direct_motricity": 26,
+      "direct_dependency": 27,
+      "quadrant": "dependiente"
+    },
+    {
+      "code": "V7",
+      "name": "Vivienda como clivaje electoral",
+      "direct_motricity": 27,
+      "direct_dependency": 15,
+      "quadrant": "motriz"
+    },
+    {
+      "code": "V8",
+      "name": "Inflación y coste de vida",
+      "direct_motricity": 26,
+      "direct_dependency": 15,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V9",
+      "name": "Agenda nacionalista catalana",
+      "direct_motricity": 33,
+      "direct_dependency": 30,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V10",
+      "name": "Agenda nacionalista vasca",
+      "direct_motricity": 23,
+      "direct_dependency": 22,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V11",
+      "name": "Agendas territoriales complementarias",
+      "direct_motricity": 21,
+      "direct_dependency": 20,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V12",
+      "name": "Capacidad de veto / bisagra territorial",
+      "direct_motricity": 27,
+      "direct_dependency": 34,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V13",
+      "name": "Confianza electoral y procedimiento",
+      "direct_motricity": 23,
+      "direct_dependency": 22,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V14",
+      "name": "Agenda mediática y clima de campaña",
+      "direct_motricity": 36,
+      "direct_dependency": 38,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V15",
+      "name": "Riesgo de bloqueo de investidura",
+      "direct_motricity": 25,
+      "direct_dependency": 39,
+      "quadrant": "dependiente"
+    },
+    {
+      "code": "V16",
+      "name": "Compatibilidad programática y territorial de pactos",
+      "direct_motricity": 33,
+      "direct_dependency": 41,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V17",
+      "name": "Forma probable de Gobierno",
+      "direct_motricity": 27,
+      "direct_dependency": 38,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V18",
+      "name": "Estabilidad de legislatura",
+      "direct_motricity": 22,
+      "direct_dependency": 38,
+      "quadrant": "dependiente"
+    }
+  ],
+  "indirect_results": [
+    {
+      "code": "V1",
+      "name": "Ventaja electoral PP",
+      "indirect_motricity_normalized": 75.1,
+      "indirect_dependency_normalized": 45.6,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V2",
+      "name": "Fuerza electoral de Vox",
+      "indirect_motricity_normalized": 83.2,
+      "indirect_dependency_normalized": 40.7,
+      "quadrant": "motriz"
+    },
+    {
+      "code": "V3",
+      "name": "Relación estratégica PP‑Vox",
+      "indirect_motricity_normalized": 76.0,
+      "indirect_dependency_normalized": 63.6,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V4",
+      "name": "Fragmentación / recomposición de la izquierda alternativa",
+      "indirect_motricity_normalized": 59.5,
+      "indirect_dependency_normalized": 30.9,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V5",
+      "name": "Capacidad de recuperación del PSOE",
+      "indirect_motricity_normalized": 81.8,
+      "indirect_dependency_normalized": 59.9,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V6",
+      "name": "Participación diferencial",
+      "indirect_motricity_normalized": 73.4,
+      "indirect_dependency_normalized": 62.4,
+      "quadrant": "dependiente"
+    },
+    {
+      "code": "V7",
+      "name": "Vivienda como clivaje electoral",
+      "indirect_motricity_normalized": 78.4,
+      "indirect_dependency_normalized": 37.1,
+      "quadrant": "motriz"
+    },
+    {
+      "code": "V8",
+      "name": "Inflación y coste de vida",
+      "indirect_motricity_normalized": 76.1,
+      "indirect_dependency_normalized": 37.1,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V9",
+      "name": "Agenda nacionalista catalana",
+      "indirect_motricity_normalized": 94.3,
+      "indirect_dependency_normalized": 84.3,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V10",
+      "name": "Agenda nacionalista vasca",
+      "indirect_motricity_normalized": 67.1,
+      "indirect_dependency_normalized": 65.8,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V11",
+      "name": "Agendas territoriales complementarias",
+      "indirect_motricity_normalized": 60.9,
+      "indirect_dependency_normalized": 52.5,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V12",
+      "name": "Capacidad de veto / bisagra territorial",
+      "indirect_motricity_normalized": 77.2,
+      "indirect_dependency_normalized": 87.3,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V13",
+      "name": "Confianza electoral y procedimiento",
+      "indirect_motricity_normalized": 67.1,
+      "indirect_dependency_normalized": 59.6,
+      "quadrant": "reguladora/latente"
+    },
+    {
+      "code": "V14",
+      "name": "Agenda mediática y clima de campaña",
+      "indirect_motricity_normalized": 100.0,
+      "indirect_dependency_normalized": 88.4,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V15",
+      "name": "Riesgo de bloqueo de investidura",
+      "indirect_motricity_normalized": 73.2,
+      "indirect_dependency_normalized": 93.5,
+      "quadrant": "dependiente"
+    },
+    {
+      "code": "V16",
+      "name": "Compatibilidad programática y territorial de pactos",
+      "indirect_motricity_normalized": 91.9,
+      "indirect_dependency_normalized": 100.0,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V17",
+      "name": "Forma probable de Gobierno",
+      "indirect_motricity_normalized": 78.0,
+      "indirect_dependency_normalized": 93.0,
+      "quadrant": "enlace"
+    },
+    {
+      "code": "V18",
+      "name": "Estabilidad de legislatura",
+      "indirect_motricity_normalized": 66.3,
+      "indirect_dependency_normalized": 95.4,
+      "quadrant": "dependiente"
+    }
+  ],
+  "main_findings": [
+    "La agenda nacional-territorial debe tratarse como subsistema estructural, no como mera bisagra parlamentaria.",
+    "La agenda nacionalista catalana aparece como variable de enlace de alta motricidad.",
+    "La agenda nacionalista vasca opera con menor explosividad mediática, pero con relevancia estratégica institucional.",
+    "La capacidad de veto territorial funciona como variable umbral: su poder se dispara si la mayoría estatal queda ajustada.",
+    "La compatibilidad programática debe ampliarse a compatibilidad programática y territorial."
+  ]
+}
