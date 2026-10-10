@@ -1,0 +1,36 @@
+{
+  "id": "D-004",
+  "date": "2026-10-10",
+  "title": "Censo, territorio y legitimidad: el MICMAC entra en la Bitácora diaria",
+  "summary": "D-004 aplica por primera vez la capa F2-MICMAC-001 v0.2 y la enmienda P001-E001. El censo electoral y la controversia sobre voto exterior activan la vigilancia procedimental, mientras las señales del eje catalán muestran que el subsistema nacional-territorial debe tratarse como estructura de gobernabilidad, no sólo como aritmética de actores bisagra.",
+  "contract": "CP-29N-F0 v0.1 + Anexo A",
+  "protocol": "P001 + P001-E001",
+  "structural_layer": "F2-MICMAC-001 v0.2",
+  "mode": "Modo A",
+  "recalibration": "No",
+  "signals": [
+    "Censo electoral y voto exterior en vigilancia procedimental",
+    "Rufián / Frente Amplio como señal híbrida izquierda-Cataluña",
+    "Reagrupamiento catalanista Junts/PNC",
+    "Sondeos mantienen mayoría PP-Vox"
+  ],
+  "micmac_variables": [
+    "V13",
+    "V9",
+    "V16",
+    "V4",
+    "V1",
+    "V2",
+    "V3",
+    "V17"
+  ],
+  "scenario_effect": "Sin recalibración; G4 y G5 pasan a vigilancia específica por eje territorial/procedimental",
+  "next_watch": [
+    "Si la controversia sobre voto exterior y ley de nietos escala jurídicamente o se estabiliza.",
+    "Si la Junta Electoral, el Supremo o el Gobierno emiten decisiones procedimentales relevantes.",
+    "Si Rufián, ERC, Sumar o Comuns concretan la operación Frente Amplio.",
+    "Si Junts convierte el reagrupamiento catalanista en agenda electoral o postelectoral explícita.",
+    "Si nuevas encuestas consolidan mayoría PP-Vox por encima de 190 escaños.",
+    "Si PP o Vox clarifican el tipo de relación gubernamental que aceptarían."
+  ]
+}

@@ -1,18 +1,18 @@
 {
-  "version": "v0.16",
-  "updated": "2026-10-09",
+  "version": "v0.17",
+  "updated": "2026-10-10",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
-  "contract": "CP-29N-F0 v0.1",
-  "protocol": "P001",
-  "current_entry": "D-003",
+  "contract": "CP-29N-F0 v0.1 + Anexo A",
+  "protocol": "P001 + P001-E001",
+  "current_entry": "D-004",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "Marco inicial A-000 confirmado · sin recalibración",
+  "system_state": "Marco A-000 confirmado · vigilancia procedimental y territorial elevada",
   "dominant_scenario": "Mayoría PP-Vox",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
-  "watch_variable": "Recomposición o fragmentación de la izquierda alternativa",
-  "social_axis": "Vivienda + inflación / coste de vida",
+  "watch_variable": "V13 · Confianza electoral y procedimiento; V9 · Agenda nacionalista catalana; V16 · Compatibilidad territorial",
+  "social_axis": "Vivienda + inflación / coste de vida; censo y legitimidad procedimental",
   "path": [
     {
       "id": "D-001",
@@ -30,6 +30,12 @@
       "id": "D-003",
       "date": "2026-10-09",
       "title": "Del ruido diario a las señales prospectivas",
+      "recalibration": "No"
+    },
+    {
+      "id": "D-004",
+      "date": "2026-10-10",
+      "title": "Censo, territorio y legitimidad",
       "recalibration": "No"
     }
   ],
@@ -87,7 +93,7 @@
       "Pulso nacional-territorial"
     ]
   },
-  "methodological_layer": "F2-MICMAC-001 v0.2 · subsistema nacional-territorial",
+  "methodological_layer": "F2-MICMAC-001 v0.2 aplicado en D-004",
   "territorial_radar": {
     "status": "incorporado",
     "decision": "DEC-IH-F2-002",
@@ -127,5 +133,14 @@
       }
     ],
     "reservation": "V4 · Fragmentación / recomposición de la izquierda alternativa queda pendiente de revisión IH por posible infravaloración."
+  },
+  "current_reading": {
+    "signal": "Censo y voto exterior entran en vigilancia procedimental",
+    "micmac_variables": [
+      "V13",
+      "V9",
+      "V16"
+    ],
+    "decision": "No recalibrar"
   }
 }

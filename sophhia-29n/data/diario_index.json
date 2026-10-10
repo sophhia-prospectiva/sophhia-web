@@ -1,13 +1,20 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "D-003",
+  "ultima_actualizacion": "D-004",
   "entradas": [
+    {
+      "codigo": "D-004",
+      "fecha": "2026-10-10",
+      "titulo": "Censo, territorio y legitimidad: el MICMAC entra en la Bitácora diaria",
+      "url": "diario/2026-10-10.html",
+      "estado": "vigente"
+    },
     {
       "codigo": "D-003",
       "fecha": "2026-10-09",
       "titulo": "Del ruido diario a las señales prospectivas",
       "url": "diario/2026-10-09.html",
-      "estado": "vigente"
+      "estado": "archivada"
     },
     {
       "codigo": "D-002",

@@ -1,6 +1,6 @@
 {
-  "version": "v0.16",
-  "date": "2026-10-09",
+  "version": "v0.17",
+  "date": "2026-10-10",
   "source": "F2-MICMAC-001 v0.2",
   "mode": "Modo A estructurado · pendiente de validación detallada de matriz",
   "decision": "DEC-IH-F2-002",
@@ -39,5 +39,7 @@
   "daily_signal_rule": {
     "code": "P001-E001",
     "rule": "Toda señal diaria con implicación territorial deberá clasificarse distinguiendo actor, agenda explícita, agenda estratégica, instrumento táctico, variable MICMAC afectada y efecto sistémico."
-  }
+  },
+  "daily_application": "D-004 aplica P001-E001 y F2-MICMAC-001 v0.2",
+  "watch_level": "V13 vigilancia alta; V9 activada; V16 en vigilancia"
 }

@@ -1,26 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>SOPHHIA · Plataforma de Prospectiva · Caso público 29-N</title>
-  <meta name="description" content="SOPHHIA es una plataforma de prospectiva para comprender futuros posibles. Las Elecciones Españolas 29-N son su primer caso público de seguimiento diario.">
-  <link rel="canonical" href="https://sophhia.com/sophhia-29n">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="SOPHHIA · Aprender a mirar futuros posibles">
-  <meta property="og:description" content="Plataforma de prospectiva para comprender futuros posibles. El 29-N es el primer caso público de seguimiento diario.">
-  <meta property="og:url" content="https://sophhia.com/sophhia-29n">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="SOPHHIA · Aprender a mirar futuros posibles">
-  <meta name="twitter:description" content="Prospectiva aplicada para ordenar incertidumbre, construir escenarios y decidir mejor.">
-  <!-- Analítica respetuosa con la privacidad: Plausible.
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>SOPHHIA · Plataforma de Prospectiva · Caso público 29-N</title>
+<meta content="SOPHHIA es una plataforma de prospectiva para comprender futuros posibles. Las Elecciones Españolas 29-N son su primer caso público de seguimiento diario." name="description"/>
+<link href="https://sophhia.com/sophhia-29n" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SOPHHIA · Aprender a mirar futuros posibles" property="og:title"/>
+<meta content="Plataforma de prospectiva para comprender futuros posibles. El 29-N es el primer caso público de seguimiento diario." property="og:description"/>
+<meta content="https://sophhia.com/sophhia-29n" property="og:url"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="SOPHHIA · Aprender a mirar futuros posibles" name="twitter:title"/>
+<meta content="Prospectiva aplicada para ordenar incertidumbre, construir escenarios y decidir mejor." name="twitter:description"/>
+<!-- Analítica respetuosa con la privacidad: Plausible.
        Dominio previsto: sophhia.com.
        Para activarla, crear primero el sitio en Plausible y confirmar que el dominio coincide. -->
-  <script defer data-domain="sophhia.com" src="https://plausible.io/js/script.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <style>
+<script data-domain="sophhia.com" defer="" src="https://plausible.io/js/script.js"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<style>
     :root{
       color-scheme: light;
       --bg:#F4EFE6;--paper:#FBF8F2;--paper2:#FFFDF8;--ink:#182845;--inkhi:#31456F;--text:#2A2E38;--muted:#667085;
@@ -36,8 +37,7 @@
     @media(max-width:680px){.wrap{padding-inline:1rem}.topbar-inner{padding-inline:1rem}.grid-2,.grid-3,.dashboard,.grid-4,.source-list{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.hero{padding-top:2.4rem}.controls{width:100%;border-left:0;padding-left:0}.cta-row{flex-direction:column}.cta{justify-content:center}.mobile-only{display:block}.desktop-only{display:none}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
   </style>
-
-  <style>
+<style>
     /* v0.14 · Dashboard global SOPHHIA 29-N */
     /* v0.15 · Gráficas temporales del Dashboard */
 
@@ -75,425 +75,355 @@
   </style>
 </head>
 <body>
-  <div class="topbar">
-    <div class="topbar-inner">
-      <a class="brand plausible-event-name=Nav+Inicio" href="#inicio" aria-label="Inicio SOPHHIA">SOPHHIA</a>
-      <nav class="nav" aria-label="Navegación principal">
-        <a class="plausible-event-name=Nav+Que+Es" href="#que-es">Qué es</a><a class="plausible-event-name=Nav+Prospectiva" href="#prospectiva">Prospectiva</a><a class="plausible-event-name=Nav+Caso+29N" href="#caso-29n">29-N</a><a class="plausible-event-name=Nav+Dashboard" href="#dashboard">Dashboard</a><a class="plausible-event-name=Nav+Hoy" href="#hoy">Hoy</a><a class="plausible-event-name=Nav+Bitacora" href="diario/">Bitácora</a><a class="plausible-event-name=Nav+Plataforma" href="#plataforma">Plataforma</a><a class="plausible-event-name=Nav+Neutralidad" href="#compromiso">Neutralidad</a><a class="plausible-event-name=Nav+Medicion" href="#medicion">Medición</a>
-      </nav>
-      <div class="controls" aria-label="Controles de visualización">
-        <button class="btn active plausible-event-name=Paleta+Editorial" data-t="editorial">Editorial</button><button class="btn plausible-event-name=Paleta+Nocturna" data-t="nocturna">Nocturna</button><button class="btn plausible-event-name=Paleta+Pergamino" data-t="pergamino">Pergamino</button><button class="btn plausible-event-name=Paleta+Tecnica" data-t="tecnica">Técnica</button>
-      </div>
-    </div>
-  </div>
-
-  <main class="wrap" id="inicio">
-    <header class="hero">
-      <div>
-        <div class="eyebrow">Plataforma de prospectiva · caso público 29-N</div>
-        <h1>Aprender a mirar futuros posibles</h1>
-        <p class="lead">SOPHHIA no pretende adivinar el futuro. Quiere ayudar a comprenderlo antes de que nos alcance.</p>
-        <p class="intro">Vivimos rodeados de decisiones difíciles: elecciones, pactos, crisis económicas, cambios tecnológicos, tensiones sociales, conflictos internacionales. SOPHHIA nace para ordenar esa incertidumbre y convertirla en escenarios comprensibles, revisables y útiles para decidir mejor.</p>
-        <div class="cta-row">
-          <a class="cta plausible-event-name=CTA+Entender+SOPHHIA" href="#que-es">Entender SOPHHIA</a>
-          <a class="cta secondary plausible-event-name=CTA+Ver+Caso+29N" href="#caso-29n">Ver el caso 29-N</a>
-          <a class="cta secondary plausible-event-name=CTA+Ver+Dashboard" href="#dashboard">Ver Dashboard</a>
-          <a class="cta secondary plausible-event-name=CTA+Ver+Bitacora" href="diario/">Ver la Bitácora</a>
-        </div>
-      </div>
-      <aside class="hero-panel" aria-label="Propuesta de valor de SOPHHIA">
-        <div class="value-card"><strong>SOPHHIA 29‑N convierte la incertidumbre política en escenarios comprensibles, trazables y actualizados diariamente.</strong></div>
-        <div class="value-card"><strong>SOPHHIA 29‑N ayuda a mirar el futuro político sin ruido, sin propaganda y sin falsas certezas.</strong></div>
-        <p class="micro">Las elecciones españolas del 29‑N son el primer demostrador público. La plataforma seguirá viva después: podrá aplicarse a ciudades, instituciones, empresas, políticas públicas, conflictos, mercados y transiciones tecnológicas.</p>
-      </aside>
-    </header>
-
-    <section id="que-es">
-      <div class="section-kicker">01 · La idea central</div>
-      <h2>¿Qué es SOPHHIA?</h2>
-      <p class="section-note">SOPHHIA es una plataforma de prospectiva aplicada: un modo organizado de explorar qué puede pasar, por qué puede pasar, qué señales conviene observar y qué decisiones podrían abrir caminos mejores.</p>
-      <div class="grid grid-4">
-        <article class="card"><span class="num">No es</span><h3>Un oráculo</h3><p>No dice “el futuro será exactamente éste”. Trabaja con varios futuros posibles y muestra qué tendría que ocurrir para que cada uno gane o pierda fuerza.</p></article>
-        <article class="card"><span class="num">No es sólo</span><h3>Una encuesta</h3><p>Una encuesta pregunta qué opina una muestra hoy. SOPHHIA pregunta cómo pueden interactuar datos, actores, reglas, intereses, relatos y acontecimientos.</p></article>
-        <article class="card"><span class="num">Sí es</span><h3>Un navegador</h3><p>Como un mapa meteorológico no evita la tormenta, pero ayuda a prepararse, SOPHHIA no elimina la incertidumbre: la hace legible.</p></article>
-        <article class="card"><span class="num">También es</span><h3>Una memoria</h3><p>Registra qué se pensó, cuándo se pensó, con qué datos y qué hubo que corregir. La prospectiva aprende cuando acepta ser revisada.</p></article>
-      </div>
-    </section>
-
-    <section id="prospectiva" class="bridge">
-      <div class="section-kicker">02 · En lenguaje sencillo</div>
-      <h2>Prospectiva: pensar antes de que el futuro sea noticia</h2>
-      <p>La prospectiva no es profecía. Es una disciplina para mirar hacia delante con método. Observa tendencias, detecta señales débiles, escucha a los actores, identifica bifurcaciones y construye escenarios. Su pregunta no es sólo “qué pasará”, sino “qué puede pasar, por qué, con qué consecuencias y qué podemos hacer”.</p>
-      <div class="flow" aria-label="Flujo de trabajo de SOPHHIA">
-        <div class="step"><span class="num">1</span><b>Observar</b><p>Reunir datos, hechos, discursos, señales y cambios relevantes.</p></div>
-        <div class="step"><span class="num">2</span><b>Ordenar</b><p>Distinguir lo importante del ruido y mapear variables críticas.</p></div>
-        <div class="step"><span class="num">3</span><b>Explorar</b><p>Construir escenarios alternativos y ver qué condiciones los activan.</p></div>
-        <div class="step"><span class="num">4</span><b>Decidir</b><p>Comparar opciones, riesgos, pactos, costes y oportunidades.</p></div>
-        <div class="step"><span class="num">5</span><b>Aprender</b><p>Actualizar el modelo cuando la realidad confirma, matiza o desmiente.</p></div>
-      </div>
-    </section>
-
-    <section id="caso-29n">
-      <div class="section-kicker">03 · Primer caso público</div>
-      <h2>Elecciones Españolas 29‑N: un laboratorio abierto de prospectiva democrática</h2>
-      <p class="section-note">Las elecciones son una oportunidad pedagógica porque condensan incertidumbre, reglas, actores, intereses, emociones y consecuencias institucionales. SOPHHIA las toma como caso vivo para mostrar cómo trabaja.</p>
-      <div class="case-banner">
-        <article class="card">
-          <h3>El 29‑N no es el final: es el comienzo de la gobernabilidad</h3>
-          <p>La noche electoral dirá cuántos escaños obtiene cada candidatura. Pero después vendrán preguntas igual de importantes: ¿quién puede ser investido?, ¿con qué apoyos?, ¿qué Gobierno puede formarse?, ¿qué programa será realmente ejecutable?</p>
-          <p>Por eso el seguimiento no termina con el recuento: continúa durante la constitución de las Cámaras, las consultas, la investidura, la formación del Consejo de Ministros y los primeros compromisos de Gobierno.</p>
-        </article>
-        <aside class="status">
-          <div class="label">Cuenta atrás</div>
-          <div class="big"><span id="dias">52</span></div>
-          <p>días hasta las elecciones generales del 29 de noviembre de 2026.</p>
-          <span class="pill info">Caso demostrador</span>
-        </aside>
-      </div>
-      <div class="dashboard" aria-label="Indicadores de situación del caso 29-N">
-        <div class="metric"><div class="k">Estado</div><div class="n">A‑000</div><div class="l">primer análisis prospectivo inicial</div></div>
-        <div class="metric"><div class="k">Actualización</div><div class="n">D‑003</div><div class="l">9 de octubre de 2026</div></div>
-        <div class="metric"><div class="k">Foco</div><div class="n">Señales</div><div class="l">distinguir cambio real y ruido</div></div>
-        <div class="metric"><div class="k">Propósito</div><div class="n">Aprender</div><div class="l">mostrar cómo funciona SOPHHIA</div></div>
-      </div>
-    </section>
-
-
-    <section id="dashboard">
-      <div class="section-kicker">04 · Dashboard global</div>
-      <h2>De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos</h2>
-      <p class="section-note">El Dashboard ofrece una visión global del caso SOPHHIA 29‑N. No sustituye la Bitácora diaria: la resume, la ordena y la conecta con los escenarios para mostrar el punto de partida, el estado actual, la trayectoria recorrida y las próximas bifurcaciones.</p>
-
-      <div class="dash-hero">
-        <article class="dash-core">
-          <span class="state">Marco confirmado · sin recalibración</span>
-          <h3>Estado del sistema D‑003</h3>
-          <p>El marco inicial A‑000 se mantiene. Las señales del día refuerzan la hipótesis de mayoría PP‑Vox, mantienen en vigilancia la recomposición de la izquierda alternativa y no justifican recalibración del modelo.</p>
-          <div class="dash-snapshot" aria-label="Síntesis del estado actual">
-            <div><b>Contrato vigente</b><span>CP‑29N‑F0 v0.1</span></div>
-            <div><b>Protocolo aplicado</b><span>P001</span></div>
-            <div><b>Entrada vigente</b><span>D‑003 · 9 de octubre</span></div>
-            <div><b>Modo epistémico</b><span>Modo A · heurístico</span></div>
-          </div>
-        </article>
-        <aside class="dash-panel">
-          <div class="label">Lectura de 10 segundos</div>
-          <h3>Escenario dominante</h3>
-          <p><strong>Mayoría PP‑Vox</strong> como marco de gobernabilidad más robusto.</p>
-          <p><strong>Incertidumbre principal:</strong> forma de Gobierno: coalición, apoyo externo o fórmula intermedia.</p>
-          <p><strong>Variable en vigilancia:</strong> recomposición o fragmentación de la izquierda alternativa.</p>
-        </aside>
-      </div>
-
-      <div class="dash-quad" aria-label="Cuatro preguntas de navegación prospectiva">
-        <article class="dash-panel">
-          <div class="label">De dónde partimos</div>
-          <h3>A‑000 · Marco inicial</h3>
-          <p>Partimos de un análisis inicial que no cerraba el futuro: delimitaba un campo de escenarios.</p>
-          <ul><li>Pregunta matriz de gobernabilidad.</li><li>Hipótesis dominante PP‑Vox.</li><li>Variables críticas iniciales.</li></ul>
-        </article>
-        <article class="dash-panel">
-          <div class="label">Dónde estamos</div>
-          <h3>D‑003 · Estado vigente</h3>
-          <p>La Bitácora entra en operación ordinaria bajo Contrato Prospectivo y P001.</p>
-          <ul><li>Señales registradas.</li><li>Sin recalibración.</li><li>Mayoría PP‑Vox reforzada levemente.</li></ul>
-        </article>
-        <article class="dash-panel">
-          <div class="label">Por dónde hemos pasado</div>
-          <h3>D‑001 → D‑003</h3>
-          <p>La trayectoria muestra apertura, rutina y método. La Bitácora no cambia de criterio cada día: conserva memoria.</p>
-          <ul><li>D‑001 apertura.</li><li>D‑002 señales, no sobresaltos.</li><li>D‑003 aplicación ordinaria.</li></ul>
-        </article>
-        <article class="dash-panel">
-          <div class="label">A dónde vamos</div>
-          <h3>Bifurcaciones</h3>
-          <p>Lo relevante no es sólo quién gana, sino qué umbrales pueden transformar la gobernabilidad.</p>
-          <ul><li>Relación PP‑Vox.</li><li>Acuerdo de la izquierda alternativa.</li><li>Vivienda y coste de vida.</li></ul>
-        </article>
-      </div>
-
-      <div class="dash-status-grid">
-        <article class="dash-status-card">
-          <h4>Variables en estado D‑003</h4>
-          <div class="dash-semaphore">
-            <div class="row"><b>Mayoría PP‑Vox</b><span class="dot info">refuerza</span><span>Confirma el marco A‑000, sin recalibrar.</span></div>
-            <div class="row"><b>Forma de Gobierno</b><span class="dot warn">abierta</span><span>Coalición, apoyo externo o fórmula intermedia.</span></div>
-            <div class="row"><b>Izquierda alternativa</b><span class="dot warn">vigilancia</span><span>Negociación pendiente de acuerdo formal.</span></div>
-            <div class="row"><b>Vivienda</b><span class="dot warn">central</span><span>Eje social con valor programático y movilizador.</span></div>
-            <div class="row"><b>Inflación</b><span class="dot warn">central</span><span>Coste de vida como presión transversal de campaña.</span></div>
-            <div class="row"><b>Recalibración</b><span class="dot ok">no</span><span>Las señales registradas no modifican el campo de escenarios.</span></div>
-          </div>
-        </article>
-        <article class="dash-status-card">
-          <h4>Trayectoria de la Bitácora</h4>
-          <ul class="dash-path">
-            <li><span class="d">D‑001</span><p>Apertura del observatorio público y activación del demostrador.</p><span class="r">sin recalibración</span></li>
-            <li><span class="d">D‑002</span><p>Primer día de rutina: señales, no sobresaltos.</p><span class="r">sin recalibración</span></li>
-            <li><span class="d">D‑003</span><p>Del ruido diario a las señales prospectivas.</p><span class="r">sin recalibración</span></li>
-          </ul>
-          <p class="mini">La Bitácora no es un archivo de noticias: es la memoria de cómo cambian —o no cambian— las hipótesis bajo incertidumbre.</p>
-        </article>
-      </div>
-
-
-      <div class="territorial-radar" aria-label="Radar nacional-territorial del Dashboard SOPHHIA 29-N">
-        <article class="dash-status-card">
-          <h4>Radar nacional‑territorial</h4>
-          <p class="radar-note">F2‑MICMAC‑001 v0.2 transforma el eje territorial de “actor bisagra” a subsistema estructural de gobernabilidad. No recalibra escenarios por sí solo: reordena la vigilancia.</p>
-          <div class="territorial-grid">
-            <div class="territorial-item"><b>V9 · Agenda nacionalista catalana</b><span class="status-badge activa">activa</span><span>Alta propagación sobre campaña, pactos, legitimidad, investidura y estabilidad.</span></div>
-            <div class="territorial-item"><b>V10 · Agenda nacionalista vasca</b><span class="status-badge vigilancia">vigilancia</span><span>Menor explosividad mediática, pero alta capacidad negociadora institucional.</span></div>
-            <div class="territorial-item"><b>V11 · Agendas territoriales complementarias</b><span class="status-badge latente">latente</span><span>Gallega, andaluza, canaria y otras: activación condicionada por mayoría y agenda.</span></div>
-            <div class="territorial-item"><b>V12 · Veto / bisagra territorial</b><span class="status-badge vigilancia">umbral</span><span>Su motricidad se dispara si la mayoría estatal queda ajustada o bloqueada.</span></div>
-            <div class="territorial-item"><b>V16 · Compatibilidad programática‑territorial</b><span class="status-badge vigilancia">tensionada</span><span>Nudo entre programa, apoyos, demandas territoriales y estabilidad de legislatura.</span></div>
-          </div>
-        </article>
-        <aside class="dash-status-card">
-          <h4>Capa metodológica incorporada</h4>
-          <p class="radar-note">La capa F2‑MICMAC v0.2 queda aprobada provisionalmente por IH mediante DEC‑IH‑F2‑002, con reserva sobre V4 · Fragmentación / recomposición de la izquierda alternativa.</p>
-          <div class="micmac-links">
-            <a href="metodo/f2-micmac-001-v0-2.html">Abrir informe F2‑MICMAC‑001 v0.2</a>
-            <a href="metodo/p001-e001-enmienda-nacional-territorial.html">Abrir P001‑E001 · Enmienda nacional‑territorial</a>
-            <a href="metodo/cp-29n-f0-anexo-a-subsistema-nacional-territorial.html">Abrir Anexo A del Contrato Prospectivo</a>
-          </div>
-          <p class="mini" style="margin-top:.85rem">Regla nueva para la operación diaria: toda señal territorial relevante debe identificar actor, agenda explícita, agenda estratégica, instrumento táctico, variable MICMAC afectada y efecto sistémico.</p>
-        </aside>
-      </div>
-
-      <div class="charts-intro">
-        <strong>Lectura temporal.</strong> Las siguientes gráficas resumen la evolución D‑001 → D‑003 mediante indicadores de seguimiento prospectivo. La v0.16 incorpora el subsistema nacional‑territorial derivado de F2‑MICMAC‑001 v0.2. Están en <strong>Modo A estructurado</strong>: ordenan la lectura y la trazabilidad, pero no sustituyen a un cálculo verificado Modo B.
-      </div>
-      <div class="charts-grid" aria-label="Gráficas temporales del Dashboard SOPHHIA 29-N">
-        <article class="chart-card wide">
-          <h4>1 · Trayectoria de escenarios de gobernabilidad</h4>
-          <p>Índice de plausibilidad relativa de los escenarios vivos. Permite ver si el campo de futuros se desplaza o se mantiene estable.</p>
-          <div class="chart-wrap"><svg class="chart-svg" viewBox="0 0 720 300" role="img" aria-label="Trayectoria de escenarios de gobernabilidad"><line class="gridline" x1="54" y1="256.0" x2="696" y2="256.0"/><text class="axis-label" x="44" y="260.0" text-anchor="end">0</text><line class="gridline" x1="54" y1="197.5" x2="696" y2="197.5"/><text class="axis-label" x="44" y="201.5" text-anchor="end">25</text><line class="gridline" x1="54" y1="139.0" x2="696" y2="139.0"/><text class="axis-label" x="44" y="143.0" text-anchor="end">50</text><line class="gridline" x1="54" y1="80.5" x2="696" y2="80.5"/><text class="axis-label" x="44" y="84.5" text-anchor="end">75</text><line class="gridline" x1="54" y1="22.0" x2="696" y2="22.0"/><text class="axis-label" x="44" y="26.0" text-anchor="end">100</text><line class="axis" x1="54" y1="22" x2="54" y2="256"/><line class="axis" x1="54" y1="256" x2="696" y2="256"/><line class="gridline" x1="54.0" y1="22" x2="54.0" y2="256"/><text class="axis-label" x="54.0" y="282" text-anchor="middle">D‑001</text><line class="gridline" x1="375.0" y1="22" x2="375.0" y2="256"/><text class="axis-label" x="375.0" y="282" text-anchor="middle">D‑002</text><line class="gridline" x1="696.0" y1="22" x2="696.0" y2="256"/><text class="axis-label" x="696.0" y="282" text-anchor="middle">D‑003</text><polyline class="line-series series-a" points="54.0,110.9 375.0,108.6 696.0,103.9"/><circle class="dotpt series-a" cx="54.0" cy="110.9" r="4"/><circle class="dotpt series-a" cx="375.0" cy="108.6" r="4"/><circle class="dotpt series-a" cx="696.0" cy="103.9" r="4"/><text class="axis-label" x="704.0" y="107.9">65</text><polyline class="line-series series-b" points="54.0,120.3 375.0,120.3 696.0,120.3"/><circle class="dotpt series-b" cx="54.0" cy="120.3" r="4"/><circle class="dotpt series-b" cx="375.0" cy="120.3" r="4"/><circle class="dotpt series-b" cx="696.0" cy="120.3" r="4"/><text class="axis-label" x="704.0" y="124.3">58</text><polyline class="line-series series-d" points="54.0,188.1 375.0,183.5 696.0,185.8"/><circle class="dotpt series-d" cx="54.0" cy="188.1" r="4"/><circle class="dotpt series-d" cx="375.0" cy="183.5" r="4"/><circle class="dotpt series-d" cx="696.0" cy="185.8" r="4"/><text class="axis-label" x="704.0" y="189.8">30</text><polyline class="line-series series-e" points="54.0,213.9 375.0,213.9 696.0,213.9"/><circle class="dotpt series-e" cx="54.0" cy="213.9" r="4"/><circle class="dotpt series-e" cx="375.0" cy="213.9" r="4"/><circle class="dotpt series-e" cx="696.0" cy="213.9" r="4"/><text class="axis-label" x="704.0" y="217.9">18</text></svg></div>
-          <div class="legend"><span><i class="a"></i>G1 coalición PP‑Vox</span><span><i class="b"></i>G2 PP con apoyo Vox</span><span><i class="d"></i>G4 reconstrucción progresista</span><span><i class="e"></i>G5 bloqueo/repetición</span></div>
-        </article>
-        <article class="chart-card">
-          <h4>2 · Balance dinámico de bloques</h4>
-          <p>Capacidad relativa de gobernabilidad, no voto directo. Muestra quién puede formar mayoría y cuánto dependen los bloques de actores bisagra.</p>
-          <div class="chart-wrap"><svg class="chart-svg" viewBox="0 0 720 300" role="img" aria-label="Balance dinámico de bloques"><line class="gridline" x1="54" y1="256.0" x2="696" y2="256.0"/><text class="axis-label" x="44" y="260.0" text-anchor="end">0</text><line class="gridline" x1="54" y1="197.5" x2="696" y2="197.5"/><text class="axis-label" x="44" y="201.5" text-anchor="end">25</text><line class="gridline" x1="54" y1="139.0" x2="696" y2="139.0"/><text class="axis-label" x="44" y="143.0" text-anchor="end">50</text><line class="gridline" x1="54" y1="80.5" x2="696" y2="80.5"/><text class="axis-label" x="44" y="84.5" text-anchor="end">75</text><line class="gridline" x1="54" y1="22.0" x2="696" y2="22.0"/><text class="axis-label" x="44" y="26.0" text-anchor="end">100</text><line class="axis" x1="54" y1="22" x2="54" y2="256"/><line class="axis" x1="54" y1="256" x2="696" y2="256"/><line class="gridline" x1="54.0" y1="22" x2="54.0" y2="256"/><text class="axis-label" x="54.0" y="282" text-anchor="middle">D‑001</text><line class="gridline" x1="375.0" y1="22" x2="375.0" y2="256"/><text class="axis-label" x="375.0" y="282" text-anchor="middle">D‑002</text><line class="gridline" x1="696.0" y1="22" x2="696.0" y2="256"/><text class="axis-label" x="696.0" y="282" text-anchor="middle">D‑003</text><polyline class="line-series series-a" points="54.0,96.9 375.0,94.5 696.0,89.9"/><circle class="dotpt series-a" cx="54.0" cy="96.9" r="4"/><circle class="dotpt series-a" cx="375.0" cy="94.5" r="4"/><circle class="dotpt series-a" cx="696.0" cy="89.9" r="4"/><text class="axis-label" x="704.0" y="93.9">71</text><polyline class="line-series series-b" points="54.0,153.0 375.0,155.4 696.0,157.7"/><circle class="dotpt series-b" cx="54.0" cy="153.0" r="4"/><circle class="dotpt series-b" cx="375.0" cy="155.4" r="4"/><circle class="dotpt series-b" cx="696.0" cy="157.7" r="4"/><text class="axis-label" x="704.0" y="161.7">42</text><polyline class="line-series series-c" points="54.0,169.4 375.0,171.8 696.0,174.1"/><circle class="dotpt series-c" cx="54.0" cy="169.4" r="4"/><circle class="dotpt series-c" cx="375.0" cy="171.8" r="4"/><circle class="dotpt series-c" cx="696.0" cy="174.1" r="4"/><text class="axis-label" x="704.0" y="178.1">35</text><polyline class="line-series series-f" points="54.0,199.8 375.0,199.8 696.0,202.2"/><circle class="dotpt series-f" cx="54.0" cy="199.8" r="4"/><circle class="dotpt series-f" cx="375.0" cy="199.8" r="4"/><circle class="dotpt series-f" cx="696.0" cy="202.2" r="4"/><text class="axis-label" x="704.0" y="206.2">23</text></svg></div>
-          <div class="legend"><span><i class="a"></i>PP‑Vox</span><span><i class="b"></i>PSOE + izquierda</span><span><i class="c"></i>Territoriales</span><span><i class="f"></i>No mayoría clara</span></div>
-        </article>
-        <article class="chart-card">
-          <h4>3 · Pulso de variables críticas</h4>
-          <p>Centralidad prospectiva de variables motrices: vivienda, inflación, izquierda alternativa, relación PP‑Vox, participación y bloqueo.</p>
-          <div class="chart-wrap"><svg class="chart-svg" viewBox="0 0 720 300" role="img" aria-label="Pulso temporal de variables críticas"><line class="gridline" x1="54" y1="256.0" x2="696" y2="256.0"/><text class="axis-label" x="44" y="260.0" text-anchor="end">0</text><line class="gridline" x1="54" y1="197.5" x2="696" y2="197.5"/><text class="axis-label" x="44" y="201.5" text-anchor="end">25</text><line class="gridline" x1="54" y1="139.0" x2="696" y2="139.0"/><text class="axis-label" x="44" y="143.0" text-anchor="end">50</text><line class="gridline" x1="54" y1="80.5" x2="696" y2="80.5"/><text class="axis-label" x="44" y="84.5" text-anchor="end">75</text><line class="gridline" x1="54" y1="22.0" x2="696" y2="22.0"/><text class="axis-label" x="44" y="26.0" text-anchor="end">100</text><line class="axis" x1="54" y1="22" x2="54" y2="256"/><line class="axis" x1="54" y1="256" x2="696" y2="256"/><line class="gridline" x1="54.0" y1="22" x2="54.0" y2="256"/><text class="axis-label" x="54.0" y="282" text-anchor="middle">D‑001</text><line class="gridline" x1="375.0" y1="22" x2="375.0" y2="256"/><text class="axis-label" x="375.0" y="282" text-anchor="middle">D‑002</text><line class="gridline" x1="696.0" y1="22" x2="696.0" y2="256"/><text class="axis-label" x="696.0" y="282" text-anchor="middle">D‑003</text><polyline class="line-series series-a" points="54.0,78.2 375.0,73.5 696.0,68.8"/><circle class="dotpt series-a" cx="54.0" cy="78.2" r="4"/><circle class="dotpt series-a" cx="375.0" cy="73.5" r="4"/><circle class="dotpt series-a" cx="696.0" cy="68.8" r="4"/><text class="axis-label" x="704.0" y="72.8">80</text><polyline class="line-series series-b" points="54.0,92.2 375.0,92.2 696.0,85.2"/><circle class="dotpt series-b" cx="54.0" cy="92.2" r="4"/><circle class="dotpt series-b" cx="375.0" cy="92.2" r="4"/><circle class="dotpt series-b" cx="696.0" cy="85.2" r="4"/><text class="axis-label" x="704.0" y="89.2">73</text><polyline class="line-series series-c" points="54.0,101.6 375.0,96.9 696.0,94.5"/><circle class="dotpt series-c" cx="54.0" cy="101.6" r="4"/><circle class="dotpt series-c" cx="375.0" cy="96.9" r="4"/><circle class="dotpt series-c" cx="696.0" cy="94.5" r="4"/><text class="axis-label" x="704.0" y="98.5">69</text><polyline class="line-series series-d" points="54.0,82.8 375.0,82.8 696.0,78.2"/><circle class="dotpt series-d" cx="54.0" cy="82.8" r="4"/><circle class="dotpt series-d" cx="375.0" cy="82.8" r="4"/><circle class="dotpt series-d" cx="696.0" cy="78.2" r="4"/><text class="axis-label" x="704.0" y="82.2">76</text><polyline class="line-series series-e" points="54.0,143.7 375.0,143.7 696.0,141.3"/><circle class="dotpt series-e" cx="54.0" cy="143.7" r="4"/><circle class="dotpt series-e" cx="375.0" cy="143.7" r="4"/><circle class="dotpt series-e" cx="696.0" cy="141.3" r="4"/><text class="axis-label" x="704.0" y="145.3">49</text><polyline class="line-series series-f" points="54.0,190.5 375.0,190.5 696.0,192.8"/><circle class="dotpt series-f" cx="54.0" cy="190.5" r="4"/><circle class="dotpt series-f" cx="375.0" cy="190.5" r="4"/><circle class="dotpt series-f" cx="696.0" cy="192.8" r="4"/><text class="axis-label" x="704.0" y="196.8">27</text></svg></div>
-          <div class="legend"><span><i class="a"></i>Vivienda</span><span><i class="b"></i>Inflación</span><span><i class="c"></i>Fragmentación izquierda</span><span><i class="d"></i>Relación PP‑Vox</span><span><i class="e"></i>Participación</span><span><i class="f"></i>Bloqueo</span></div>
-        </article>
-        <article class="chart-card wide">
-          <h4>4 · Pulso nacional‑territorial</h4>
-          <p>Seguimiento temporal de las variables introducidas por F2‑MICMAC‑001 v0.2: agenda catalana, agenda vasca, bisagra territorial, compatibilidad programática‑territorial y agendas complementarias.</p>
-          <div class="chart-wrap"><svg class="chart-svg" viewBox="0 0 720 300" role="img" aria-label="Pulso nacional-territorial"><line class="gridline" x1="54" y1="256.0" x2="696" y2="256.0"/><text class="axis-label" x="44" y="260.0" text-anchor="end">0</text><line class="gridline" x1="54" y1="197.5" x2="696" y2="197.5"/><text class="axis-label" x="44" y="201.5" text-anchor="end">25</text><line class="gridline" x1="54" y1="139.0" x2="696" y2="139.0"/><text class="axis-label" x="44" y="143.0" text-anchor="end">50</text><line class="gridline" x1="54" y1="80.5" x2="696" y2="80.5"/><text class="axis-label" x="44" y="84.5" text-anchor="end">75</text><line class="gridline" x1="54" y1="22.0" x2="696" y2="22.0"/><text class="axis-label" x="44" y="26.0" text-anchor="end">100</text><line class="axis" x1="54" y1="22" x2="54" y2="256"/><line class="axis" x1="54" y1="256" x2="696" y2="256"/><line class="gridline" x1="54.0" y1="22" x2="54.0" y2="256"/><text class="axis-label" x="54.0" y="282" text-anchor="middle">D‑001</text><line class="gridline" x1="375.0" y1="22" x2="375.0" y2="256"/><text class="axis-label" x="375.0" y="282" text-anchor="middle">D‑002</text><line class="gridline" x1="696.0" y1="22" x2="696.0" y2="256"/><text class="axis-label" x="696.0" y="282" text-anchor="middle">D‑003</text><polyline class="line-series series-a" points="54.0,101.6 375.0,99.2 696.0,92.2"/><circle class="dotpt series-a" cx="54.0" cy="101.6" r="4"/><circle class="dotpt series-a" cx="375.0" cy="99.2" r="4"/><circle class="dotpt series-a" cx="696.0" cy="92.2" r="4"/><text class="axis-label" x="704.0" y="96.2">70</text><polyline class="line-series series-b" points="54.0,146.0 375.0,146.0 696.0,141.3"/><circle class="dotpt series-b" cx="54.0" cy="146.0" r="4"/><circle class="dotpt series-b" cx="375.0" cy="146.0" r="4"/><circle class="dotpt series-b" cx="696.0" cy="141.3" r="4"/><text class="axis-label" x="704.0" y="145.3">49</text><polyline class="line-series series-c" points="54.0,171.8 375.0,174.1 696.0,167.1"/><circle class="dotpt series-c" cx="54.0" cy="171.8" r="4"/><circle class="dotpt series-c" cx="375.0" cy="174.1" r="4"/><circle class="dotpt series-c" cx="696.0" cy="167.1" r="4"/><text class="axis-label" x="704.0" y="171.1">38</text><polyline class="line-series series-d" points="54.0,125.0 375.0,120.3 696.0,115.6"/><circle class="dotpt series-d" cx="54.0" cy="125.0" r="4"/><circle class="dotpt series-d" cx="375.0" cy="120.3" r="4"/><circle class="dotpt series-d" cx="696.0" cy="115.6" r="4"/><text class="axis-label" x="704.0" y="119.6">60</text><polyline class="line-series series-f" points="54.0,176.4 375.0,176.4 696.0,174.1"/><circle class="dotpt series-f" cx="54.0" cy="176.4" r="4"/><circle class="dotpt series-f" cx="375.0" cy="176.4" r="4"/><circle class="dotpt series-f" cx="696.0" cy="174.1" r="4"/><text class="axis-label" x="704.0" y="178.1">35</text></svg></div>
-          <div class="legend"><span><i class="a"></i>Agenda catalana</span><span><i class="b"></i>Agenda vasca</span><span><i class="c"></i>Veto/bisagra</span><span><i class="d"></i>Compatibilidad territorial</span><span><i class="f"></i>Agendas complementarias</span></div>
-          <p class="chart-note">Modo A estructurado. La serie refleja centralidad prospectiva de vigilancia, no medición demoscópica ni cálculo verificado Modo B.</p>
-        </article>
-        <article class="chart-card wide">
-          <h4>5 · Registro temporal de señales prospectivas</h4>
-          <p>Cuenta diaria de señales confirmatorias, de vigilancia, disruptivas y recalibradoras. Hace visible si SOPHHIA está observando continuidad o mutación del sistema.</p>
-          <div class="chart-wrap"><svg class="chart-svg" viewBox="0 0 720 300" role="img" aria-label="Registro temporal de señales prospectivas"><line class="gridline" x1="54" y1="256.0" x2="696" y2="256.0"/><text class="axis-label" x="44" y="260.0" text-anchor="end">0</text><line class="gridline" x1="54" y1="189.7" x2="696" y2="189.7"/><text class="axis-label" x="44" y="193.7" text-anchor="end">2</text><line class="gridline" x1="54" y1="123.4" x2="696" y2="123.4"/><text class="axis-label" x="44" y="127.4" text-anchor="end">4</text><line class="gridline" x1="54" y1="57.1" x2="696" y2="57.1"/><text class="axis-label" x="44" y="61.1" text-anchor="end">6</text><line class="axis" x1="54" y1="24" x2="54" y2="256"/><line class="axis" x1="54" y1="256" x2="696" y2="256"/><rect class="bar-d" x="102.0" y="222.9" width="24" height="33.1" rx="3"/><text class="axis-label" x="114.0" y="217.9" text-anchor="middle">1</text><rect class="bar-b" x="131.0" y="222.9" width="24" height="33.1" rx="3"/><text class="axis-label" x="143.0" y="217.9" text-anchor="middle">1</text><rect class="bar-c" x="160.0" y="256.0" width="24" height="0.0" rx="3"/><rect class="bar-a" x="189.0" y="256.0" width="24" height="0.0" rx="3"/><text class="axis-label" x="161.0" y="282" text-anchor="middle">D‑001</text><rect class="bar-d" x="316.0" y="189.7" width="24" height="66.3" rx="3"/><text class="axis-label" x="328.0" y="184.7" text-anchor="middle">2</text><rect class="bar-b" x="345.0" y="156.6" width="24" height="99.4" rx="3"/><text class="axis-label" x="357.0" y="151.6" text-anchor="middle">3</text><rect class="bar-c" x="374.0" y="256.0" width="24" height="0.0" rx="3"/><rect class="bar-a" x="403.0" y="256.0" width="24" height="0.0" rx="3"/><text class="axis-label" x="375.0" y="282" text-anchor="middle">D‑002</text><rect class="bar-d" x="530.0" y="156.6" width="24" height="99.4" rx="3"/><text class="axis-label" x="542.0" y="151.6" text-anchor="middle">3</text><rect class="bar-b" x="559.0" y="189.7" width="24" height="66.3" rx="3"/><text class="axis-label" x="571.0" y="184.7" text-anchor="middle">2</text><rect class="bar-c" x="588.0" y="256.0" width="24" height="0.0" rx="3"/><rect class="bar-a" x="617.0" y="256.0" width="24" height="0.0" rx="3"/><text class="axis-label" x="589.0" y="282" text-anchor="middle">D‑003</text></svg></div>
-          <div class="legend"><span><i class="c"></i>Confirmatorias</span><span><i class="d"></i>Vigilancia</span><span><i class="e"></i>Disruptivas</span><span><i class="a"></i>Recalibradoras</span></div>
-          <p class="chart-note">Estado D‑003: predominan señales confirmatorias y de vigilancia. No aparecen señales recalibradoras.</p>
-        </article>
-      </div>
-
-      <article class="dash-status-card" style="margin-top:1rem">
-        <h4>Escenarios y bifurcaciones</h4>
-        <div class="dash-scenarios">
-          <div class="scenario"><div><b>G1 · Gobierno PP‑Vox de coalición</b><br><span>Vox mantiene fuerza suficiente para reclamar entrada o influencia directa.</span></div><span class="pill info">↑ leve</span></div>
-          <div class="scenario"><div><b>G2 · PP monocolor con apoyo externo de Vox</b><br><span>Sigue siendo plausible si el PP prioriza imagen institucional y europea.</span></div><span class="pill ok">estable</span></div>
-          <div class="scenario"><div><b>G4 · Reconstrucción progresista</b><br><span>Depende de acuerdo real en la izquierda alternativa y movilización social.</span></div><span class="pill warn">vigilancia</span></div>
-          <div class="scenario"><div><b>G5 · Bloqueo o repetición electoral</b><br><span>No gana plausibilidad con las señales actuales.</span></div><span class="pill ok">estable</span></div>
-        </div>
-        <div class="dash-bif" aria-label="Próximas bifurcaciones">
-          <div class="bif"><b>B1 · Relación PP‑Vox</b><span>Define arquitectura de Gobierno: coalición o apoyo externo.</span></div>
-          <div class="bif"><b>B2 · Izquierda alternativa</b><span>Acuerdo o fragmentación: impacto sobre eficiencia electoral.</span></div>
-          <div class="bif"><b>B3 · Vivienda y coste de vida</b><span>Clivaje transversal o asunto sectorial de campaña.</span></div>
-        </div>
-      </article>
-
-      <p class="quote">Una democracia vive en el presente, recuerda lo que ha recorrido y decide bajo futuros abiertos. El Dashboard SOPHHIA 29‑N ordena esa memoria.</p>
-    </section>
-
-    <section id="hoy">
-      <div class="section-kicker">05 · La actualización de hoy</div>
-      <h2>Lo que miramos hoy</h2>
-      <p class="section-note">Cada día, en torno a las 10:00 h, SOPHHIA aplica el Contrato Prospectivo vigente al estado actualizado del proceso. No publica sólo noticias: clasifica señales, revisa variables, valora escenarios y deja memoria trazable de lo que cambia y de lo que permanece.</p>
-      <article class="card">
-        <span class="pill ok">Entrada D‑003 · 9 de octubre de 2026</span>
-        <h3>Del ruido diario a las señales prospectivas</h3>
-        <p>SOPHHIA 29‑N inicia su funcionamiento ordinario bajo el Contrato Prospectivo vigente y el Protocolo P001. Las señales del día refuerzan la hipótesis de mayoría PP‑Vox, mantienen en vigilancia la recomposición de la izquierda alternativa y confirman la centralidad de vivienda e inflación como ejes sociales de campaña.</p>
-        <ul class="plain-list">
-          <li><strong>Contrato aplicado:</strong> CP‑29N‑F0 v0.1.</li>
-          <li><strong>Protocolo aplicado:</strong> P001 · actualización diaria, trazabilidad y aprendizaje prospectivo.</li>
-          <li><strong>Señal principal:</strong> la mayoría PP‑Vox sigue apareciendo robusta en los sondeos disponibles.</li>
-          <li><strong>Variable en vigilancia:</strong> recomposición o fragmentación de la izquierda alternativa.</li>
-          <li><strong>Decisión SOPHHIA:</strong> registrar señales, sin recalibrar.</li>
-        </ul>
-        <p class="quote">Actualizar todos los días no significa cambiar de opinión todos los días. Significa mirar todos los días con método.</p>
-        <div class="cta-row">
-          <a class="cta plausible-event-name=CTA+Daily+D003" href="diario/2026-10-09.html">Leer actualización de hoy</a>
-          <a class="cta secondary plausible-event-name=CTA+Archivo+Bitacora" href="diario/">Ver archivo de la Bitácora</a>
-          <a class="cta secondary plausible-event-name=CTA+Datos+D003" href="data/current.json">Ver datos estructurados</a>
-        </div>
-      </article>
-
-      <div class="table-wrap" style="margin-top:1rem"><table>
-        <thead><tr><th>Escenario</th><th>Tendencia D‑003</th><th>Lectura SOPHHIA</th></tr></thead>
-        <tbody>
-          <tr><td>G1 · Gobierno PP‑Vox de coalición</td><td><span class="pill ok">↑ leve</span></td><td>Vox mantiene fuerza suficiente para reclamar entrada o influencia directa.</td></tr>
-          <tr><td>G2 · PP monocolor con apoyo externo de Vox</td><td><span class="pill info">→ estable</span></td><td>Sigue siendo plausible si el PP prioriza imagen institucional y europea.</td></tr>
-          <tr><td>G4 · Reconstrucción progresista</td><td><span class="pill warn">⚠ vigilancia</span></td><td>Depende de acuerdo real en la izquierda alternativa y movilización social.</td></tr>
-          <tr><td>G5 · Bloqueo o repetición</td><td><span class="pill warn">→ estable</span></td><td>No gana plausibilidad con las señales del día.</td></tr>
-        </tbody>
-      </table></div>
-
-      <details class="details">
-        <summary class="plausible-event-name=Expandir+Archivo+Diario">Archivo de la bitácora</summary>
-        <p>El archivo completo se consulta también como página propia: <a href="diario/">abrir archivo de la Bitácora SOPHHIA 29‑N</a>.</p>
-        <div class="table-wrap"><table>
-          <thead><tr><th>Fecha</th><th>Código</th><th>Título</th><th>Acceso</th></tr></thead>
-          <tbody>
-            <tr><td>9 oct 2026</td><td>D‑003</td><td>Del ruido diario a las señales prospectivas</td><td><a href="diario/2026-10-09.html">Abrir entrada completa</a></td></tr>
-            <tr><td>8 oct 2026</td><td>D‑002</td><td>Primer día de rutina: señales, no sobresaltos</td><td><a href="diario/2026-10-08.html">Abrir entrada completa</a></td></tr>
-            <tr><td>7 oct 2026</td><td>D‑001</td><td>Apertura del observatorio público</td><td><a href="diario/2026-10-07.html">Abrir entrada completa</a></td></tr>
-          </tbody>
-        </table></div>
-      </details>
-    </section>
-
-    <section id="plataforma">
-      <div class="section-kicker">06 · Más allá del 29-N</div>
-      <h2>La página como vehículo de difusión de SOPHHIA</h2>
-      <p class="section-note">El 29‑N es el primer escenario visible. El propósito de fondo es más amplio: presentar SOPHHIA como plataforma para trabajar incertidumbre estratégica en muchos ámbitos.</p>
-      <div class="grid grid-3">
-        <article class="card"><span class="num">SOPHHIA Explorer</span><h3>Comprender el sistema</h3><p>Mapas de variables, actores, tensiones, dependencias y bifurcaciones. Sirve para saber dónde mirar antes de decidir.</p></article>
-        <article class="card"><span class="num">Bitácora</span><h3>Seguir el cambio</h3><p>Registro diario o semanal de señales, hipótesis, revisiones y aprendizajes. Convierte el seguimiento en memoria pública.</p></article>
-        <article class="card"><span class="num">Escenarios</span><h3>Comparar futuros</h3><p>No hay un solo futuro. SOPHHIA construye varios caminos plausibles, con condiciones de activación y consecuencias.</p></article>
-        <article class="card"><span class="num">Alertas tempranas</span><h3>Detectar señales</h3><p>Señales débiles, umbrales críticos y cambios de tendencia que pueden anticipar una bifurcación importante.</p></article>
-        <article class="card"><span class="num">Forecast Lab</span><h3>Verificar hipótesis</h3><p>Cuando una hipótesis puede formularse con claridad, se fecha, se mide y se revisa. Acertar importa, pero aprender importa más.</p></article>
-        <article class="card"><span class="num">LOGOTRÓN / CSL</span><h3>Leer significados</h3><p>Herramientas para ordenar lenguaje, relatos, compromisos y contradicciones. Ayudan a comparar lo que los actores dicen y lo que pueden hacer.</p></article>
-      </div>
-    </section>
-
-    <section>
-      <div class="section-kicker">07 · Para quién sirve</div>
-      <h2>Una misma plataforma, muchas conversaciones</h2>
-      <div class="grid grid-3">
-        <article class="card"><h3>Ciudadanía</h3><p>Para comprender procesos complejos sin quedar atrapada entre propaganda, titulares sueltos y ruido emocional.</p></article>
-        <article class="card"><h3>Instituciones</h3><p>Para preparar decisiones públicas bajo incertidumbre: gobernabilidad, políticas sociales, transición energética, vivienda, seguridad, territorio.</p></article>
-        <article class="card"><h3>Organizaciones</h3><p>Para anticipar cambios de mercado, tecnología, regulación, reputación, talento y cadena de valor.</p></article>
-      </div>
-    </section>
-
-    <section>
-      <div class="section-kicker">08 · Profundización</div>
-      <h2>Análisis A‑000, sin perder el lenguaje ciudadano</h2>
-      <p class="section-note">Quien quiera ir más allá de la explicación general puede consultar la capa analítica. Aquí se conserva el rigor, pero se evita que la portada quede dominada por jerga o cifras prematuras.</p>
-      <details class="details" open>
-        <summary class="plausible-event-name=Expandir+A000">Resumen divulgativo del Análisis Prospectivo Inicial A‑000</summary>
-        <p>El análisis inicial identifica una ventaja estructural del bloque PP‑Vox en los datos disponibles, pero subraya que la campaña todavía puede modificar la forma final de la gobernabilidad. La pregunta central no es sólo si el PP ganará, sino si podrá gobernar solo, si Vox entrará en el Consejo de Ministros, si habrá apoyo externo o si una campaña excepcional reabre el tablero de investidura.</p>
-        <div class="table-wrap"><table>
-          <thead><tr><th>Escenario</th><th>Explicación sencilla</th><th>Lectura inicial</th></tr></thead>
-          <tbody>
-            <tr><td>Mayoría PP‑Vox amplia</td><td>El bloque conservador supera con holgura la mayoría absoluta.</td><td><span class="pill ok">Escenario dominante</span></td></tr>
-            <tr><td>Mayoría PP‑Vox ajustada</td><td>Hay mayoría, pero la negociación de Gobierno resulta más delicada.</td><td><span class="pill info">Muy plausible</span></td></tr>
-            <tr><td>PP primero sin mayoría suficiente</td><td>Los apoyos territoriales vuelven a ser decisivos.</td><td><span class="pill warn">Minoritaria</span></td></tr>
-            <tr><td>Reconstrucción progresista</td><td>El PSOE y sus aliados remontan lo suficiente para disputar la investidura.</td><td><span class="pill warn">Baja, no imposible</span></td></tr>
-            <tr><td>Bloqueo</td><td>Nadie logra una investidura viable y crece el riesgo de repetición electoral.</td><td><span class="pill alert">Riesgo a vigilar</span></td></tr>
-          </tbody>
-        </table></div>
-      </details>
-      <details class="details">
-        <summary class="plausible-event-name=Expandir+Conceptos">Cómo leer predicciones, escenarios e indicadores</summary>
-        <p><strong>Un escenario</strong> es un futuro posible. <strong>Una predicción</strong> es una hipótesis concreta que podrá verificarse. <strong>Un indicador</strong> resume varias señales en una escala comprensible. SOPHHIA no debe mezclar esas tres cosas: cuando lo hace bien, ayuda a pensar; cuando las confunde, se convierte en ruido.</p>
-      </details>
-    </section>
-
-    <section id="compromiso">
-      <div class="section-kicker">09 · Confianza pública</div>
-      <h2>Compromiso de neutralidad</h2>
-      <div class="grid grid-2">
-        <article class="card"><h3>Lo que SOPHHIA hará</h3><ul class="plain-list"><li>Distinguir datos, inferencias, escenarios y opiniones.</li><li>Citar fuentes cuando use hechos verificables.</li><li>Registrar cambios de criterio y corregir errores.</li><li>Explicar límites e incertidumbres sin ocultarlos.</li></ul></article>
-        <article class="card"><h3>Lo que SOPHHIA no hará</h3><ul class="plain-list"><li>No pedirá el voto para ninguna candidatura.</li><li>No presentará escenarios como certezas.</li><li>No convertirá la prospectiva en propaganda.</li><li>No sustituirá el juicio democrático de la ciudadanía.</li></ul></article>
-      </div>
-    </section>
-
-    <section>
-      <div class="section-kicker">10 · Calendario del caso 29-N</div>
-      <h2>El tiempo institucional también forma parte del análisis</h2>
-      <ol class="timeline">
-        <li class="done"><span class="d">5 oct 2026</span>Disolución de las Cortes y convocatoria electoral.</li>
-        <li class="done"><span class="d">6 oct 2026</span>Publicación en el BOE.</li>
-        <li><span class="d">13–27 nov 2026</span>Campaña electoral.</li>
-        <li><span class="d">29 nov 2026</span>Jornada electoral.</li>
-        <li><span class="d">23 dic 2026</span>Constitución de las nuevas Cámaras.</li>
-        <li><span class="d">Después</span>Consultas, investidura, formación de Gobierno y programa efectivo.</li>
-      </ol>
-    </section>
-
-    <section>
-      <div class="section-kicker">11 · Fuentes y trazabilidad</div>
-      <h2>La confianza se construye mostrando el camino</h2>
-      <p class="section-note">La página utiliza fuentes oficiales para el calendario y las reglas institucionales. Las capas prospectivas se identificarán siempre como análisis propio de SOPHHIA.</p>
-      <div class="source-list">
-        <div class="source"><b>Real Decreto 806/2026</b><a class="plausible-event-name=Fuente+BOE+Convocatoria" href="https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20742&lang=es" target="_blank" rel="noopener">Convocatoria electoral y calendario oficial</a></div>
-        <div class="source"><b>Constitución Española</b><a class="plausible-event-name=Fuente+Constitucion" href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229" target="_blank" rel="noopener">Investidura y formación del Gobierno</a></div>
-        <div class="source"><b>LOREG</b><a class="plausible-event-name=Fuente+LOREG" href="https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672" target="_blank" rel="noopener">Reglas electorales y régimen de sondeos</a></div>
-        <div class="source"><b>Bitácora SOPHHIA</b><span>Registro propio de actualizaciones, hipótesis, escenarios y aprendizajes.</span></div>
-        <div class="source"><b>Plausible Analytics</b><a class="plausible-event-name=Fuente+Plausible" href="https://plausible.io/docs" target="_blank" rel="noopener">Documentación de medición respetuosa</a></div>
-        <div class="source"><b>AEPD</b><a class="plausible-event-name=Fuente+AEPD+Cookies" href="https://www.aepd.es/guias/guia-cookies-analiticas-externas.pdf" target="_blank" rel="noopener">Guía sobre medición de audiencia y cookies</a></div>
-      </div>
-    </section>
-
-
-    <section id="medicion">
-      <div class="section-kicker">12 · Medición de audiencia</div>
-      <h2>Medir el interés, no vigilar al visitante</h2>
-      <p class="section-note">SOPHHIA necesita aprender cómo la ciudadanía entra en contacto con la prospectiva: qué contenidos se leen, qué explicaciones ayudan y qué partes de la plataforma conviene mejorar. La medición se plantea de forma agregada, sobria y respetuosa.</p>
-      <div class="grid grid-2">
-        <article class="card"><h3>Qué se medirá</h3><ul class="plain-list"><li>Visitas y evolución diaria de la página.</li><li>Origen agregado del tráfico: redes, buscadores, enlaces directos o referencias.</li><li>Lectura de secciones principales: SOPHHIA, Prospectiva, caso 29‑N, Bitácora, Plataforma y Neutralidad.</li><li>Clics principales: entender SOPHHIA, ver caso 29‑N, abrir A‑000 y consultar fuentes.</li><li>Tipo de dispositivo y zona geográfica aproximada, siempre en forma agregada.</li></ul></article>
-        <article class="card"><h3>Qué no se hará</h3><ul class="plain-list"><li>No se elaborarán perfiles individuales.</li><li>No se venderán datos ni se usarán para publicidad comportamental.</li><li>No se seguirá al visitante fuera de la web de SOPHHIA.</li><li>No se usará microsegmentación política.</li><li>No se instalará una lógica de vigilancia incompatible con el propósito cívico de SOPHHIA.</li></ul></article>
-      </div>
-      <p class="quote">SOPHHIA mide para aprender a explicar mejor, no para manipular mejor.</p>
-      <details class="details">
-        <summary class="plausible-event-name=Expandir+Privacidad">Nota técnica de privacidad</summary>
-        <p>Esta versión incluye el fragmento de Plausible Analytics preparado para el dominio <strong>sophhia.com</strong>. Antes de publicar definitivamente, hay que crear el sitio en la cuenta de Plausible, comprobar que el dominio coincide y activar en el panel los objetivos que correspondan a las clases de evento incluidas en esta página.</p>
-        <div class="table-wrap"><table>
-          <thead><tr><th>Objetivo Plausible sugerido</th><th>Evento incluido en la página</th><th>Utilidad para SOPHHIA</th></tr></thead>
-          <tbody>
-            <tr><td>CTA Entender SOPHHIA</td><td><code>CTA Entender SOPHHIA</code></td><td>Mide cuántas personas pasan de la portada a la explicación de la plataforma.</td></tr>
-            <tr><td>CTA Ver Caso 29N</td><td><code>CTA Ver Caso 29N</code></td><td>Mide el atractivo del demostrador electoral.</td></tr>
-            <tr><td>Expandir A000</td><td><code>Expandir A000</code></td><td>Mide el interés por la capa analítica inicial.</td></tr>
-            <tr><td>Expandir Conceptos</td><td><code>Expandir Conceptos</code></td><td>Mide si el lector necesita aclarar escenario, predicción e indicador.</td></tr>
-            <tr><td>Fuente BOE Convocatoria</td><td><code>Fuente BOE Convocatoria</code></td><td>Mide consulta de trazabilidad institucional.</td></tr>
-            <tr><td>Fuente Constitución</td><td><code>Fuente Constitucion</code></td><td>Mide consulta de reglas de investidura.</td></tr>
-            <tr><td>Fuente LOREG</td><td><code>Fuente LOREG</code></td><td>Mide consulta de reglas electorales y sondeos.</td></tr>
-          </tbody>
-        </table></div>
-      </details>
-    </section>
-
-    <section id="visitar">
-      <div class="final-cta">
-        <div>
-          <div class="section-kicker">Visita la plataforma</div>
-          <h2>Entra en SOPHHIA 29‑N</h2>
-          <p>Sigue el primer caso público de prospectiva democrática y descubre cómo SOPHHIA ayuda a mirar futuros posibles con método, memoria y neutralidad.</p>
-        </div>
-        <a class="cta plausible-event-name=CTA+Visitar+Plataforma" href="https://sophhia.com/sophhia-29n">Visitar sophhia.com</a>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="firma">SOPHHIA PROSPECTIVA, S.L.</div>
-      <p>SOPHHIA · Plataforma de Prospectiva · Landing Page v0.16 Dashboard nacional-territorial, sin vídeo, sin zoom interno, con Bitácora, D‑003, capa F2‑MICMAC v0.2, Radar nacional‑territorial y medición de audiencia. Las Elecciones Españolas 29‑N se presentan como caso demostrador público, no como límite del proyecto.</p>
-      <span class="tagline">Comprender futuros posibles para decidir mejor</span>
-    </footer>
-  </main>
-
-  <script>
+<div class="topbar">
+<div class="topbar-inner">
+<a aria-label="Inicio SOPHHIA" class="brand plausible-event-name=Nav+Inicio" href="#inicio">SOPHHIA</a>
+<nav aria-label="Navegación principal" class="nav">
+<a class="plausible-event-name=Nav+Que+Es" href="#que-es">Qué es</a><a class="plausible-event-name=Nav+Prospectiva" href="#prospectiva">Prospectiva</a><a class="plausible-event-name=Nav+Caso+29N" href="#caso-29n">29-N</a><a class="plausible-event-name=Nav+Dashboard" href="#dashboard">Dashboard</a><a class="plausible-event-name=Nav+Hoy" href="#hoy">Hoy</a><a class="plausible-event-name=Nav+Bitacora" href="diario/">Bitácora</a><a class="plausible-event-name=Nav+Plataforma" href="#plataforma">Plataforma</a><a class="plausible-event-name=Nav+Neutralidad" href="#compromiso">Neutralidad</a><a class="plausible-event-name=Nav+Medicion" href="#medicion">Medición</a>
+</nav>
+<div aria-label="Controles de visualización" class="controls">
+<button class="btn active plausible-event-name=Paleta+Editorial" data-t="editorial">Editorial</button><button class="btn plausible-event-name=Paleta+Nocturna" data-t="nocturna">Nocturna</button><button class="btn plausible-event-name=Paleta+Pergamino" data-t="pergamino">Pergamino</button><button class="btn plausible-event-name=Paleta+Tecnica" data-t="tecnica">Técnica</button>
+</div>
+</div>
+</div>
+<main class="wrap" id="inicio">
+<header class="hero">
+<div>
+<div class="eyebrow">Plataforma de prospectiva · caso público 29-N</div>
+<h1>Aprender a mirar futuros posibles</h1>
+<p class="lead">SOPHHIA no pretende adivinar el futuro. Quiere ayudar a comprenderlo antes de que nos alcance.</p>
+<p class="intro">Vivimos rodeados de decisiones difíciles: elecciones, pactos, crisis económicas, cambios tecnológicos, tensiones sociales, conflictos internacionales. SOPHHIA nace para ordenar esa incertidumbre y convertirla en escenarios comprensibles, revisables y útiles para decidir mejor.</p>
+<div class="cta-row">
+<a class="cta plausible-event-name=CTA+Entender+SOPHHIA" href="#que-es">Entender SOPHHIA</a>
+<a class="cta secondary plausible-event-name=CTA+Ver+Caso+29N" href="#caso-29n">Ver el caso 29-N</a>
+<a class="cta secondary plausible-event-name=CTA+Ver+Dashboard" href="#dashboard">Ver Dashboard</a>
+<a class="cta secondary plausible-event-name=CTA+Ver+Bitacora" href="diario/">Ver la Bitácora</a>
+</div>
+</div>
+<aside aria-label="Propuesta de valor de SOPHHIA" class="hero-panel">
+<div class="value-card"><strong>SOPHHIA 29‑N convierte la incertidumbre política en escenarios comprensibles, trazables y actualizados diariamente.</strong></div>
+<div class="value-card"><strong>SOPHHIA 29‑N ayuda a mirar el futuro político sin ruido, sin propaganda y sin falsas certezas.</strong></div>
+<p class="micro">Las elecciones españolas del 29‑N son el primer demostrador público. La plataforma seguirá viva después: podrá aplicarse a ciudades, instituciones, empresas, políticas públicas, conflictos, mercados y transiciones tecnológicas.</p>
+</aside>
+</header>
+<section id="que-es">
+<div class="section-kicker">01 · La idea central</div>
+<h2>¿Qué es SOPHHIA?</h2>
+<p class="section-note">SOPHHIA es una plataforma de prospectiva aplicada: un modo organizado de explorar qué puede pasar, por qué puede pasar, qué señales conviene observar y qué decisiones podrían abrir caminos mejores.</p>
+<div class="grid grid-4">
+<article class="card"><span class="num">No es</span><h3>Un oráculo</h3><p>No dice “el futuro será exactamente éste”. Trabaja con varios futuros posibles y muestra qué tendría que ocurrir para que cada uno gane o pierda fuerza.</p></article>
+<article class="card"><span class="num">No es sólo</span><h3>Una encuesta</h3><p>Una encuesta pregunta qué opina una muestra hoy. SOPHHIA pregunta cómo pueden interactuar datos, actores, reglas, intereses, relatos y acontecimientos.</p></article>
+<article class="card"><span class="num">Sí es</span><h3>Un navegador</h3><p>Como un mapa meteorológico no evita la tormenta, pero ayuda a prepararse, SOPHHIA no elimina la incertidumbre: la hace legible.</p></article>
+<article class="card"><span class="num">También es</span><h3>Una memoria</h3><p>Registra qué se pensó, cuándo se pensó, con qué datos y qué hubo que corregir. La prospectiva aprende cuando acepta ser revisada.</p></article>
+</div>
+</section>
+<section class="bridge" id="prospectiva">
+<div class="section-kicker">02 · En lenguaje sencillo</div>
+<h2>Prospectiva: pensar antes de que el futuro sea noticia</h2>
+<p>La prospectiva no es profecía. Es una disciplina para mirar hacia delante con método. Observa tendencias, detecta señales débiles, escucha a los actores, identifica bifurcaciones y construye escenarios. Su pregunta no es sólo “qué pasará”, sino “qué puede pasar, por qué, con qué consecuencias y qué podemos hacer”.</p>
+<div aria-label="Flujo de trabajo de SOPHHIA" class="flow">
+<div class="step"><span class="num">1</span><b>Observar</b><p>Reunir datos, hechos, discursos, señales y cambios relevantes.</p></div>
+<div class="step"><span class="num">2</span><b>Ordenar</b><p>Distinguir lo importante del ruido y mapear variables críticas.</p></div>
+<div class="step"><span class="num">3</span><b>Explorar</b><p>Construir escenarios alternativos y ver qué condiciones los activan.</p></div>
+<div class="step"><span class="num">4</span><b>Decidir</b><p>Comparar opciones, riesgos, pactos, costes y oportunidades.</p></div>
+<div class="step"><span class="num">5</span><b>Aprender</b><p>Actualizar el modelo cuando la realidad confirma, matiza o desmiente.</p></div>
+</div>
+</section>
+<section id="caso-29n">
+<div class="section-kicker">03 · Primer caso público</div>
+<h2>Elecciones Españolas 29‑N: un laboratorio abierto de prospectiva democrática</h2>
+<p class="section-note">Las elecciones son una oportunidad pedagógica porque condensan incertidumbre, reglas, actores, intereses, emociones y consecuencias institucionales. SOPHHIA las toma como caso vivo para mostrar cómo trabaja.</p>
+<div class="case-banner">
+<article class="card">
+<h3>El 29‑N no es el final: es el comienzo de la gobernabilidad</h3>
+<p>La noche electoral dirá cuántos escaños obtiene cada candidatura. Pero después vendrán preguntas igual de importantes: ¿quién puede ser investido?, ¿con qué apoyos?, ¿qué Gobierno puede formarse?, ¿qué programa será realmente ejecutable?</p>
+<p>Por eso el seguimiento no termina con el recuento: continúa durante la constitución de las Cámaras, las consultas, la investidura, la formación del Consejo de Ministros y los primeros compromisos de Gobierno.</p>
+</article>
+<aside class="status">
+<div class="label">Cuenta atrás</div>
+<div class="big"><span id="dias">52</span></div>
+<p>días hasta las elecciones generales del 29 de noviembre de 2026.</p>
+<span class="pill info">Caso demostrador</span>
+</aside>
+</div>
+<div aria-label="Indicadores de situación del caso 29-N" class="dashboard">
+<div class="metric"><div class="k">Estado</div><div class="n">A‑000</div><div class="l">primer análisis prospectivo inicial</div></div>
+<div class="metric"><div class="k">Actualización</div><div class="n">D‑004</div><div class="l">9 de octubre de 2026</div></div>
+<div class="metric"><div class="k">Foco</div><div class="n">Señales</div><div class="l">distinguir cambio real y ruido</div></div>
+<div class="metric"><div class="k">Propósito</div><div class="n">Aprender</div><div class="l">mostrar cómo funciona SOPHHIA</div></div>
+</div>
+</section>
+<section id="dashboard">
+<div class="section-kicker">04 · Dashboard global</div>
+<h2>De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos</h2>
+<p class="section-note">El Dashboard ofrece una visión global del caso SOPHHIA 29‑N. No sustituye la Bitácora diaria: la resume, la ordena y la conecta con los escenarios para mostrar el punto de partida, el estado actual, la trayectoria recorrida y las próximas bifurcaciones.</p>
+<div class="dash-hero">
+<article class="dash-core">
+<span class="state">Marco confirmado · sin recalibración</span>
+<h3>Estado del sistema D‑004</h3>
+<p>El marco A‑000 se mantiene, pero D‑004 eleva la vigilancia sobre procedimiento electoral y eje nacional‑territorial. El censo, el voto exterior y las señales catalanas muestran que el MICMAC ya opera en la Bitácora diaria.</p>
+<div aria-label="Síntesis del estado actual" class="dash-snapshot">
+<div><b>Contrato vigente</b><span>CP‑29N‑F0 v0.1 + Anexo A</span></div>
+<div><b>Protocolo aplicado</b><span>P001 + P001‑E001</span></div>
+<div><b>Entrada vigente</b><span>D‑004 · 10 de octubre</span></div>
+<div><b>Modo epistémico</b><span>Modo A · heurístico</span></div>
+</div>
+</article>
+<aside class="dash-panel">
+<div class="label">Lectura de 10 segundos</div>
+<h3>Escenario dominante</h3>
+<p><strong>Mayoría PP‑Vox</strong> como marco dominante de gobernabilidad.</p>
+<p><strong>Incertidumbre añadida:</strong> legitimidad procedimental y subsistema nacional‑territorial.</p>
+<p><strong>Variables en vigilancia:</strong> V13 · Confianza electoral; V9 · Agenda catalana; V16 · compatibilidad programática‑territorial.</p>
+</aside>
+</div>
+<div aria-label="Cuatro preguntas de navegación prospectiva" class="dash-quad">
+<article class="dash-panel">
+<div class="label">De dónde partimos</div>
+<h3>A‑000 · Marco inicial</h3>
+<p>Partimos de un análisis inicial que no cerraba el futuro: delimitaba un campo de escenarios.</p>
+<ul><li>Pregunta matriz de gobernabilidad.</li><li>Hipótesis dominante PP‑Vox.</li><li>Variables críticas iniciales.</li></ul>
+</article>
+<article class="dash-panel">
+<div class="label">Dónde estamos</div>
+<h3>D‑004 · Estado vigente</h3>
+<p>La Bitácora aplica por primera vez F2‑MICMAC‑001 v0.2 y P001‑E001.</p>
+<ul><li>Censo y voto exterior en vigilancia.</li><li>Dimensión territorial activada.</li><li>Sin recalibración.</li></ul>
+</article>
+<article class="dash-panel">
+<div class="label">Por dónde hemos pasado</div>
+<h3>D‑001 → D‑004</h3>
+<p>La trayectoria muestra apertura, rutina, método y primera operación con la capa MICMAC territorial.</p>
+<ul><li>D‑001 apertura.</li><li>D‑002 señales, no sobresaltos.</li><li>D‑003 aplicación ordinaria.</li><li>D‑004 MICMAC territorial operativo.</li></ul>
+</article>
+<article class="dash-panel">
+<div class="label">A dónde vamos</div>
+<h3>Bifurcaciones</h3>
+<p>Lo relevante no es sólo quién gana, sino qué umbrales pueden transformar la gobernabilidad.</p>
+<ul><li>Relación PP‑Vox.</li><li>Acuerdo de la izquierda alternativa.</li><li>Vivienda y coste de vida.</li></ul>
+</article>
+</div>
+<div class="dash-status-grid">
+<article class="dash-status-card">
+<h4>Variables en estado D‑004</h4>
+<div class="dash-semaphore">
+<div class="row"><b>Mayoría PP‑Vox</b><span class="dot warn">refuerza</span><span>Confirma el marco A‑000, sin recalibrar.</span></div>
+<div class="row"><b>Confianza electoral</b><span class="dot warn">vigilancia alta</span><span>Censo y voto exterior entran en vigilancia procedimental.</span></div>
+<div class="row"><b>Agenda catalana</b><span class="dot warn">activa</span><span>Rufián/Frente Amplio y Junts/PNC activan V9.</span></div>
+<div class="row"><b>Compatibilidad territorial</b><span class="dot warn">vigilancia</span><span>V16 conecta pactos, programa e investidura.</span></div>
+<div class="row"><b>V4 izquierda alternativa</b><span class="dot warn">revisar IH</span><span>D‑004 confirma posible infravaloración.</span></div>
+<div class="row"><b>Recalibración</b><span class="dot warn">no</span><span>Las señales registradas no modifican el campo de escenarios.</span></div>
+</div>
+</article>
+<article class="dash-status-card">
+<h4>Trayectoria de la Bitácora</h4>
+<ul class="dash-path"><li><span class="d">D‑001</span><p>Apertura del observatorio público.</p><span class="r">sin recalibración</span></li><li><span class="d">D‑002</span><p>Primer día de rutina: señales, no sobresaltos.</p><span class="r">sin recalibración</span></li><li><span class="d">D‑003</span><p>Del ruido diario a las señales prospectivas.</p><span class="r">sin recalibración</span></li><li><span class="d">D‑004</span><p>Censo, territorio y legitimidad: MICMAC operativo.</p><span class="r">sin recalibración</span></li></ul>
+<p class="mini">La Bitácora no es un archivo de noticias: es la memoria de cómo cambian —o no cambian— las hipótesis bajo incertidumbre.</p>
+</article>
+</div>
+<div aria-label="Radar nacional-territorial del Dashboard SOPHHIA 29-N" class="territorial-radar">
+<article class="dash-status-card">
+<h4>Radar nacional‑territorial</h4>
+<p class="radar-note">F2‑MICMAC‑001 v0.2 transforma el eje territorial de “actor bisagra” a subsistema estructural de gobernabilidad. No recalibra escenarios por sí solo: reordena la vigilancia.</p>
+<div class="territorial-grid">
+<div class="territorial-item"><b>V9 · Agenda nacionalista catalana</b><span class="status-badge activa">activa</span><span>Alta propagación sobre campaña, pactos, legitimidad, investidura y estabilidad.</span></div>
+<div class="territorial-item"><b>V10 · Agenda nacionalista vasca</b><span class="status-badge vigilancia">vigilancia</span><span>Menor explosividad mediática, pero alta capacidad negociadora institucional.</span></div>
+<div class="territorial-item"><b>V11 · Agendas territoriales complementarias</b><span class="status-badge latente">latente</span><span>Gallega, andaluza, canaria y otras: activación condicionada por mayoría y agenda.</span></div>
+<div class="territorial-item"><b>V12 · Veto / bisagra territorial</b><span class="status-badge vigilancia">umbral</span><span>Su motricidad se dispara si la mayoría estatal queda ajustada o bloqueada.</span></div>
+<div class="territorial-item"><b>V16 · Compatibilidad programática‑territorial</b><span class="status-badge vigilancia">tensionada</span><span>Nudo entre programa, apoyos, demandas territoriales y estabilidad de legislatura.</span></div>
+</div>
+</article>
+<aside class="dash-status-card">
+<h4>Capa metodológica incorporada</h4>
+<p class="radar-note">La capa F2‑MICMAC v0.2 queda aprobada provisionalmente por IH mediante DEC‑IH‑F2‑002, con reserva sobre V4 · Fragmentación / recomposición de la izquierda alternativa.</p>
+<div class="micmac-links">
+<a href="metodo/f2-micmac-001-v0-2.html">Abrir informe F2‑MICMAC‑001 v0.2</a>
+<a href="metodo/p001-e001-enmienda-nacional-territorial.html">Abrir P001‑E001 · Enmienda nacional‑territorial</a>
+<a href="metodo/cp-29n-f0-anexo-a-subsistema-nacional-territorial.html">Abrir Anexo A del Contrato Prospectivo</a>
+</div>
+<p class="mini" style="margin-top:.85rem">Regla nueva para la operación diaria: toda señal territorial relevante debe identificar actor, agenda explícita, agenda estratégica, instrumento táctico, variable MICMAC afectada y efecto sistémico.</p>
+</aside>
+</div>
+<div class="charts-intro"><strong>Lectura temporal.</strong> Las siguientes gráficas resumen la evolución D‑001 → D‑004 mediante indicadores de seguimiento prospectivo. D‑004 incorpora la primera aplicación diaria de F2‑MICMAC‑001 v0.2 y P001‑E001. Están en <strong>Modo A estructurado</strong>: ordenan la lectura y la trazabilidad, pero no sustituyen a un cálculo verificado Modo B.</div>
+<div aria-label="Gráficas temporales del Dashboard SOPHHIA 29-N" class="charts-grid">
+<article class="chart-card wide"><h4>1 · Trayectoria de escenarios de gobernabilidad</h4><p>Cómo evolucionan los escenarios desde la apertura del caso hasta la primera aplicación MICMAC territorial.</p><div class="chart-wrap"><svg class="chart-svg" role="img" viewbox="0 0 720 300"><line class="gridline" x1="54" x2="696" y1="256.0" y2="256.0"></line><text class="axis-label" text-anchor="end" x="44" y="260.0">0</text><line class="gridline" x1="54" x2="696" y1="197.5" y2="197.5"></line><text class="axis-label" text-anchor="end" x="44" y="201.5">25</text><line class="gridline" x1="54" x2="696" y1="139.0" y2="139.0"></line><text class="axis-label" text-anchor="end" x="44" y="143.0">50</text><line class="gridline" x1="54" x2="696" y1="80.5" y2="80.5"></line><text class="axis-label" text-anchor="end" x="44" y="84.5">75</text><line class="gridline" x1="54" x2="696" y1="22.0" y2="22.0"></line><text class="axis-label" text-anchor="end" x="44" y="26.0">100</text><line class="axis" x1="54" x2="54" y1="22" y2="256"></line><line class="axis" x1="54" x2="696" y1="256" y2="256"></line><line class="gridline" x1="54.0" x2="54.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="54.0" y="282">D‑001</text><line class="gridline" x1="268.0" x2="268.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="268.0" y="282">D‑002</text><line class="gridline" x1="482.0" x2="482.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="482.0" y="282">D‑003</text><line class="gridline" x1="696.0" x2="696.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="696.0" y="282">D‑004</text><polyline class="line-series series-a" points="54.0,110.9 268.0,108.6 482.0,103.9 696.0,101.6"></polyline><circle class="dotpt series-a" cx="54.0" cy="110.9" r="4"></circle><circle class="dotpt series-a" cx="268.0" cy="108.6" r="4"></circle><circle class="dotpt series-a" cx="482.0" cy="103.9" r="4"></circle><circle class="dotpt series-a" cx="696.0" cy="101.6" r="4"></circle><text class="axis-label" x="704.0" y="105.6">66</text><polyline class="line-series series-b" points="54.0,120.3 268.0,120.3 482.0,120.3 696.0,120.3"></polyline><circle class="dotpt series-b" cx="54.0" cy="120.3" r="4"></circle><circle class="dotpt series-b" cx="268.0" cy="120.3" r="4"></circle><circle class="dotpt series-b" cx="482.0" cy="120.3" r="4"></circle><circle class="dotpt series-b" cx="696.0" cy="120.3" r="4"></circle><text class="axis-label" x="704.0" y="124.3">58</text><polyline class="line-series series-d" points="54.0,188.1 268.0,183.5 482.0,185.8 696.0,181.1"></polyline><circle class="dotpt series-d" cx="54.0" cy="188.1" r="4"></circle><circle class="dotpt series-d" cx="268.0" cy="183.5" r="4"></circle><circle class="dotpt series-d" cx="482.0" cy="185.8" r="4"></circle><circle class="dotpt series-d" cx="696.0" cy="181.1" r="4"></circle><text class="axis-label" x="704.0" y="185.1">32</text><polyline class="line-series series-e" points="54.0,213.9 268.0,213.9 482.0,213.9 696.0,204.5"></polyline><circle class="dotpt series-e" cx="54.0" cy="213.9" r="4"></circle><circle class="dotpt series-e" cx="268.0" cy="213.9" r="4"></circle><circle class="dotpt series-e" cx="482.0" cy="213.9" r="4"></circle><circle class="dotpt series-e" cx="696.0" cy="204.5" r="4"></circle><text class="axis-label" x="704.0" y="208.5">22</text></svg></div><div class="legend"><span><i class="a"></i>G1 · PP‑Vox coalición</span><span><i class="b"></i>G2 · PP apoyo Vox</span><span><i class="d"></i>G4 · Reconstrucción progresista</span><span><i class="e"></i>G5 · Bloqueo/repetición</span></div></article>
+<article class="chart-card"><h4>2 · Balance dinámico de bloques</h4><p>Capacidad relativa de gobernabilidad por bloques y actores bisagra.</p><div class="chart-wrap"><svg class="chart-svg" role="img" viewbox="0 0 720 300"><line class="gridline" x1="54" x2="696" y1="256.0" y2="256.0"></line><text class="axis-label" text-anchor="end" x="44" y="260.0">0</text><line class="gridline" x1="54" x2="696" y1="197.5" y2="197.5"></line><text class="axis-label" text-anchor="end" x="44" y="201.5">25</text><line class="gridline" x1="54" x2="696" y1="139.0" y2="139.0"></line><text class="axis-label" text-anchor="end" x="44" y="143.0">50</text><line class="gridline" x1="54" x2="696" y1="80.5" y2="80.5"></line><text class="axis-label" text-anchor="end" x="44" y="84.5">75</text><line class="gridline" x1="54" x2="696" y1="22.0" y2="22.0"></line><text class="axis-label" text-anchor="end" x="44" y="26.0">100</text><line class="axis" x1="54" x2="54" y1="22" y2="256"></line><line class="axis" x1="54" x2="696" y1="256" y2="256"></line><line class="gridline" x1="54.0" x2="54.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="54.0" y="282">D‑001</text><line class="gridline" x1="268.0" x2="268.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="268.0" y="282">D‑002</text><line class="gridline" x1="482.0" x2="482.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="482.0" y="282">D‑003</text><line class="gridline" x1="696.0" x2="696.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="696.0" y="282">D‑004</text><polyline class="line-series series-a" points="54.0,96.9 268.0,94.5 482.0,89.9 696.0,89.9"></polyline><circle class="dotpt series-a" cx="54.0" cy="96.9" r="4"></circle><circle class="dotpt series-a" cx="268.0" cy="94.5" r="4"></circle><circle class="dotpt series-a" cx="482.0" cy="89.9" r="4"></circle><circle class="dotpt series-a" cx="696.0" cy="89.9" r="4"></circle><text class="axis-label" x="704.0" y="93.9">71</text><polyline class="line-series series-b" points="54.0,153.0 268.0,155.4 482.0,157.7 696.0,157.7"></polyline><circle class="dotpt series-b" cx="54.0" cy="153.0" r="4"></circle><circle class="dotpt series-b" cx="268.0" cy="155.4" r="4"></circle><circle class="dotpt series-b" cx="482.0" cy="157.7" r="4"></circle><circle class="dotpt series-b" cx="696.0" cy="157.7" r="4"></circle><text class="axis-label" x="704.0" y="161.7">42</text><polyline class="line-series series-d" points="54.0,169.4 268.0,171.8 482.0,174.1 696.0,164.7"></polyline><circle class="dotpt series-d" cx="54.0" cy="169.4" r="4"></circle><circle class="dotpt series-d" cx="268.0" cy="171.8" r="4"></circle><circle class="dotpt series-d" cx="482.0" cy="174.1" r="4"></circle><circle class="dotpt series-d" cx="696.0" cy="164.7" r="4"></circle><text class="axis-label" x="704.0" y="168.7">39</text><polyline class="line-series series-e" points="54.0,199.8 268.0,199.8 482.0,202.2 696.0,197.5"></polyline><circle class="dotpt series-e" cx="54.0" cy="199.8" r="4"></circle><circle class="dotpt series-e" cx="268.0" cy="199.8" r="4"></circle><circle class="dotpt series-e" cx="482.0" cy="202.2" r="4"></circle><circle class="dotpt series-e" cx="696.0" cy="197.5" r="4"></circle><text class="axis-label" x="704.0" y="201.5">25</text></svg></div><div class="legend"><span><i class="a"></i>PP‑Vox</span><span><i class="b"></i>PSOE + izquierda</span><span><i class="d"></i>Territoriales/bisagra</span><span><i class="e"></i>Riesgo no mayoría clara</span></div></article>
+<article class="chart-card"><h4>3 · Pulso temporal de variables críticas</h4><p>Centralidad prospectiva de variables sociales, políticas y de bloqueo.</p><div class="chart-wrap"><svg class="chart-svg" role="img" viewbox="0 0 720 300"><line class="gridline" x1="54" x2="696" y1="256.0" y2="256.0"></line><text class="axis-label" text-anchor="end" x="44" y="260.0">0</text><line class="gridline" x1="54" x2="696" y1="197.5" y2="197.5"></line><text class="axis-label" text-anchor="end" x="44" y="201.5">25</text><line class="gridline" x1="54" x2="696" y1="139.0" y2="139.0"></line><text class="axis-label" text-anchor="end" x="44" y="143.0">50</text><line class="gridline" x1="54" x2="696" y1="80.5" y2="80.5"></line><text class="axis-label" text-anchor="end" x="44" y="84.5">75</text><line class="gridline" x1="54" x2="696" y1="22.0" y2="22.0"></line><text class="axis-label" text-anchor="end" x="44" y="26.0">100</text><line class="axis" x1="54" x2="54" y1="22" y2="256"></line><line class="axis" x1="54" x2="696" y1="256" y2="256"></line><line class="gridline" x1="54.0" x2="54.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="54.0" y="282">D‑001</text><line class="gridline" x1="268.0" x2="268.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="268.0" y="282">D‑002</text><line class="gridline" x1="482.0" x2="482.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="482.0" y="282">D‑003</text><line class="gridline" x1="696.0" x2="696.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="696.0" y="282">D‑004</text><polyline class="line-series series-a" points="54.0,78.2 268.0,73.5 482.0,68.8 696.0,68.8"></polyline><circle class="dotpt series-a" cx="54.0" cy="78.2" r="4"></circle><circle class="dotpt series-a" cx="268.0" cy="73.5" r="4"></circle><circle class="dotpt series-a" cx="482.0" cy="68.8" r="4"></circle><circle class="dotpt series-a" cx="696.0" cy="68.8" r="4"></circle><text class="axis-label" x="704.0" y="72.8">80</text><polyline class="line-series series-b" points="54.0,92.2 268.0,92.2 482.0,85.2 696.0,85.2"></polyline><circle class="dotpt series-b" cx="54.0" cy="92.2" r="4"></circle><circle class="dotpt series-b" cx="268.0" cy="92.2" r="4"></circle><circle class="dotpt series-b" cx="482.0" cy="85.2" r="4"></circle><circle class="dotpt series-b" cx="696.0" cy="85.2" r="4"></circle><text class="axis-label" x="704.0" y="89.2">73</text><polyline class="line-series series-d" points="54.0,101.6 268.0,96.9 482.0,94.5 696.0,85.2"></polyline><circle class="dotpt series-d" cx="54.0" cy="101.6" r="4"></circle><circle class="dotpt series-d" cx="268.0" cy="96.9" r="4"></circle><circle class="dotpt series-d" cx="482.0" cy="94.5" r="4"></circle><circle class="dotpt series-d" cx="696.0" cy="85.2" r="4"></circle><text class="axis-label" x="704.0" y="89.2">73</text><polyline class="line-series series-e" points="54.0,82.8 268.0,82.8 482.0,78.2 696.0,78.2"></polyline><circle class="dotpt series-e" cx="54.0" cy="82.8" r="4"></circle><circle class="dotpt series-e" cx="268.0" cy="82.8" r="4"></circle><circle class="dotpt series-e" cx="482.0" cy="78.2" r="4"></circle><circle class="dotpt series-e" cx="696.0" cy="78.2" r="4"></circle><text class="axis-label" x="704.0" y="82.2">76</text><polyline class="line-series series-c" points="54.0,143.7 268.0,143.7 482.0,141.3 696.0,134.3"></polyline><circle class="dotpt series-c" cx="54.0" cy="143.7" r="4"></circle><circle class="dotpt series-c" cx="268.0" cy="143.7" r="4"></circle><circle class="dotpt series-c" cx="482.0" cy="141.3" r="4"></circle><circle class="dotpt series-c" cx="696.0" cy="134.3" r="4"></circle><text class="axis-label" x="704.0" y="138.3">52</text><polyline class="line-series series-f" points="54.0,190.5 268.0,190.5 482.0,192.8 696.0,183.5"></polyline><circle class="dotpt series-f" cx="54.0" cy="190.5" r="4"></circle><circle class="dotpt series-f" cx="268.0" cy="190.5" r="4"></circle><circle class="dotpt series-f" cx="482.0" cy="192.8" r="4"></circle><circle class="dotpt series-f" cx="696.0" cy="183.5" r="4"></circle><text class="axis-label" x="704.0" y="187.5">31</text></svg></div><div class="legend"><span><i class="a"></i>Vivienda</span><span><i class="b"></i>Inflación/coste de vida</span><span><i class="d"></i>Fragmentación izquierda</span><span><i class="e"></i>Relación PP‑Vox</span><span><i class="c"></i>Participación</span><span><i class="f"></i>Bloqueo</span></div></article>
+<article class="chart-card wide"><h4>4 · Pulso nacional‑territorial</h4><p>Seguimiento temporal de variables V9, V10, V11, V12 y V16 derivadas del MICMAC v0.2.</p><div class="chart-wrap"><svg class="chart-svg" role="img" viewbox="0 0 720 300"><line class="gridline" x1="54" x2="696" y1="256.0" y2="256.0"></line><text class="axis-label" text-anchor="end" x="44" y="260.0">0</text><line class="gridline" x1="54" x2="696" y1="197.5" y2="197.5"></line><text class="axis-label" text-anchor="end" x="44" y="201.5">25</text><line class="gridline" x1="54" x2="696" y1="139.0" y2="139.0"></line><text class="axis-label" text-anchor="end" x="44" y="143.0">50</text><line class="gridline" x1="54" x2="696" y1="80.5" y2="80.5"></line><text class="axis-label" text-anchor="end" x="44" y="84.5">75</text><line class="gridline" x1="54" x2="696" y1="22.0" y2="22.0"></line><text class="axis-label" text-anchor="end" x="44" y="26.0">100</text><line class="axis" x1="54" x2="54" y1="22" y2="256"></line><line class="axis" x1="54" x2="696" y1="256" y2="256"></line><line class="gridline" x1="54.0" x2="54.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="54.0" y="282">D‑001</text><line class="gridline" x1="268.0" x2="268.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="268.0" y="282">D‑002</text><line class="gridline" x1="482.0" x2="482.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="482.0" y="282">D‑003</text><line class="gridline" x1="696.0" x2="696.0" y1="22" y2="256"></line><text class="axis-label" text-anchor="middle" x="696.0" y="282">D‑004</text><polyline class="line-series series-a" points="54.0,101.6 268.0,99.2 482.0,92.2 696.0,78.2"></polyline><circle class="dotpt series-a" cx="54.0" cy="101.6" r="4"></circle><circle class="dotpt series-a" cx="268.0" cy="99.2" r="4"></circle><circle class="dotpt series-a" cx="482.0" cy="92.2" r="4"></circle><circle class="dotpt series-a" cx="696.0" cy="78.2" r="4"></circle><text class="axis-label" x="704.0" y="82.2">76</text><polyline class="line-series series-b" points="54.0,146.0 268.0,146.0 482.0,141.3 696.0,139.0"></polyline><circle class="dotpt series-b" cx="54.0" cy="146.0" r="4"></circle><circle class="dotpt series-b" cx="268.0" cy="146.0" r="4"></circle><circle class="dotpt series-b" cx="482.0" cy="141.3" r="4"></circle><circle class="dotpt series-b" cx="696.0" cy="139.0" r="4"></circle><text class="axis-label" x="704.0" y="143.0">50</text><polyline class="line-series series-d" points="54.0,171.8 268.0,174.1 482.0,167.1 696.0,155.4"></polyline><circle class="dotpt series-d" cx="54.0" cy="171.8" r="4"></circle><circle class="dotpt series-d" cx="268.0" cy="174.1" r="4"></circle><circle class="dotpt series-d" cx="482.0" cy="167.1" r="4"></circle><circle class="dotpt series-d" cx="696.0" cy="155.4" r="4"></circle><text class="axis-label" x="704.0" y="159.4">43</text><polyline class="line-series series-e" points="54.0,125.0 268.0,120.3 482.0,115.6 696.0,103.9"></polyline><circle class="dotpt series-e" cx="54.0" cy="125.0" r="4"></circle><circle class="dotpt series-e" cx="268.0" cy="120.3" r="4"></circle><circle class="dotpt series-e" cx="482.0" cy="115.6" r="4"></circle><circle class="dotpt series-e" cx="696.0" cy="103.9" r="4"></circle><text class="axis-label" x="704.0" y="107.9">65</text><polyline class="line-series series-c" points="54.0,176.4 268.0,176.4 482.0,174.1 696.0,169.4"></polyline><circle class="dotpt series-c" cx="54.0" cy="176.4" r="4"></circle><circle class="dotpt series-c" cx="268.0" cy="176.4" r="4"></circle><circle class="dotpt series-c" cx="482.0" cy="174.1" r="4"></circle><circle class="dotpt series-c" cx="696.0" cy="169.4" r="4"></circle><text class="axis-label" x="704.0" y="173.4">37</text></svg></div><div class="legend"><span><i class="a"></i>Agenda nacionalista catalana</span><span><i class="b"></i>Agenda nacionalista vasca</span><span><i class="d"></i>Veto/bisagra territorial</span><span><i class="e"></i>Compatibilidad programática-territorial</span><span><i class="c"></i>Agendas territoriales complementarias</span></div><p class="chart-note">Modo A estructurado. La serie refleja centralidad prospectiva de vigilancia, no medición demoscópica ni cálculo verificado Modo B.</p></article>
+<article class="chart-card wide"><h4>5 · Registro temporal de señales prospectivas</h4><p>Cuántas señales confirma cada día el marco vigente, cuántas quedan en vigilancia y si aparece alguna señal disruptiva o recalibradora.</p><div class="chart-wrap"><svg class="chart-svg" role="img" viewbox="0 0 720 300"><line class="gridline" x1="54" x2="696" y1="256.0" y2="256.0"></line><text class="axis-label" text-anchor="end" x="44" y="260.0">0</text><line class="gridline" x1="54" x2="696" y1="189.7" y2="189.7"></line><text class="axis-label" text-anchor="end" x="44" y="193.7">2</text><line class="gridline" x1="54" x2="696" y1="123.4" y2="123.4"></line><text class="axis-label" text-anchor="end" x="44" y="127.4">4</text><line class="gridline" x1="54" x2="696" y1="57.1" y2="57.1"></line><text class="axis-label" text-anchor="end" x="44" y="61.1">6</text><line class="axis" x1="54" x2="54" y1="24" y2="256"></line><line class="axis" x1="54" x2="696" y1="256" y2="256"></line><rect class="bar-d" height="33.1" rx="3" width="20" x="12.0" y="222.9"></rect><text class="axis-label" text-anchor="middle" x="22.0" y="217.9">1</text><rect class="bar-b" height="33.1" rx="3" width="20" x="38.0" y="222.9"></rect><text class="axis-label" text-anchor="middle" x="48.0" y="217.9">1</text><rect class="bar-c" height="0.0" rx="3" width="20" x="64.0" y="256.0"></rect><rect class="bar-a" height="0.0" rx="3" width="20" x="90.0" y="256.0"></rect><text class="axis-label" text-anchor="middle" x="54.0" y="282">D‑001</text><rect class="bar-d" height="66.3" rx="3" width="20" x="226.0" y="189.7"></rect><text class="axis-label" text-anchor="middle" x="236.0" y="184.7">2</text><rect class="bar-b" height="99.4" rx="3" width="20" x="252.0" y="156.6"></rect><text class="axis-label" text-anchor="middle" x="262.0" y="151.6">3</text><rect class="bar-c" height="0.0" rx="3" width="20" x="278.0" y="256.0"></rect><rect class="bar-a" height="0.0" rx="3" width="20" x="304.0" y="256.0"></rect><text class="axis-label" text-anchor="middle" x="268.0" y="282">D‑002</text><rect class="bar-d" height="99.4" rx="3" width="20" x="440.0" y="156.6"></rect><text class="axis-label" text-anchor="middle" x="450.0" y="151.6">3</text><rect class="bar-b" height="66.3" rx="3" width="20" x="466.0" y="189.7"></rect><text class="axis-label" text-anchor="middle" x="476.0" y="184.7">2</text><rect class="bar-c" height="0.0" rx="3" width="20" x="492.0" y="256.0"></rect><rect class="bar-a" height="0.0" rx="3" width="20" x="518.0" y="256.0"></rect><text class="axis-label" text-anchor="middle" x="482.0" y="282">D‑003</text><rect class="bar-d" height="66.3" rx="3" width="20" x="654.0" y="189.7"></rect><text class="axis-label" text-anchor="middle" x="664.0" y="184.7">2</text><rect class="bar-b" height="132.6" rx="3" width="20" x="680.0" y="123.4"></rect><text class="axis-label" text-anchor="middle" x="690.0" y="118.4">4</text><rect class="bar-c" height="0.0" rx="3" width="20" x="706.0" y="256.0"></rect><rect class="bar-a" height="0.0" rx="3" width="20" x="732.0" y="256.0"></rect><text class="axis-label" text-anchor="middle" x="696.0" y="282">D‑004</text></svg></div><div class="legend"><span><i class="a"></i>Confirmatorias</span><span><i class="b"></i>Vigilancia</span><span><i class="d"></i>Disruptivas</span><span><i class="e"></i>Recalibradoras</span></div><p class="chart-note">Estado D‑004: suben las señales de vigilancia por procedimiento electoral y subsistema nacional‑territorial; no hay señales recalibradoras.</p></article>
+</div>
+<article class="dash-status-card" style="margin-top:1rem">
+<h4>Escenarios y bifurcaciones</h4>
+<div class="dash-scenarios">
+<div class="scenario"><div><b>G1 · Gobierno PP‑Vox de coalición</b><br/><span>Vox mantiene fuerza suficiente para reclamar entrada o influencia directa.</span></div><span class="pill info">↑ leve</span></div>
+<div class="scenario"><div><b>G2 · PP monocolor con apoyo externo de Vox</b><br/><span>Sigue siendo plausible si el PP prioriza imagen institucional y europea.</span></div><span class="pill ok">estable</span></div>
+<div class="scenario"><div><b>G4 · Reconstrucción progresista</b><br/><span>Depende de acuerdo real en la izquierda alternativa y movilización social.</span></div><span class="pill warn">vigilancia</span></div>
+<div class="scenario"><div><b>G5 · Bloqueo o repetición electoral</b><br/><span>No gana plausibilidad con las señales actuales.</span></div><span class="pill ok">estable</span></div>
+</div>
+<div aria-label="Próximas bifurcaciones" class="dash-bif">
+<div class="bif"><b>B1 · Relación PP‑Vox</b><span>Define arquitectura de Gobierno: coalición o apoyo externo.</span></div>
+<div class="bif"><b>B2 · Izquierda alternativa</b><span>Acuerdo o fragmentación: impacto sobre eficiencia electoral.</span></div>
+<div class="bif"><b>B3 · Vivienda y coste de vida</b><span>Clivaje transversal o asunto sectorial de campaña.</span></div>
+</div>
+</article>
+<p class="quote">Una democracia vive en el presente, recuerda lo que ha recorrido y decide bajo futuros abiertos. El Dashboard SOPHHIA 29‑N ordena esa memoria.</p>
+</section>
+<section id="hoy">
+<div class="section-kicker">05 · La actualización de hoy</div>
+<h2>Lo que miramos hoy</h2>
+<p class="section-note">Cada día, en torno a las 10:00 h, SOPHHIA aplica el Contrato Prospectivo vigente al estado actualizado del proceso. No publica sólo noticias: clasifica señales, revisa variables MICMAC, valora escenarios y deja memoria trazable de lo que cambia y de lo que permanece.</p>
+<article class="card">
+<span class="pill ok">Entrada D‑004 · 10 de octubre de 2026</span>
+<h3>Censo, territorio y legitimidad: el MICMAC entra en la Bitácora diaria</h3>
+<p>D‑004 es la primera entrada diaria que aplica plenamente la capa F2‑MICMAC‑001 v0.2 y la enmienda P001‑E001. El censo electoral y el voto exterior pasan a vigilancia procedimental; al mismo tiempo, las señales del eje catalán muestran que el subsistema nacional‑territorial debe tratarse como estructura de gobernabilidad, no sólo como aritmética de actores bisagra.</p>
+<ul class="plain-list">
+<li><strong>Contrato aplicado:</strong> CP‑29N‑F0 v0.1 + Anexo A.</li>
+<li><strong>Protocolo aplicado:</strong> P001 + P001‑E001.</li>
+<li><strong>Capa estructural aplicada:</strong> F2‑MICMAC‑001 v0.2.</li>
+<li><strong>Señal principal:</strong> el censo electoral y el voto exterior pasan a vigilancia procedimental.</li>
+<li><strong>Variable MICMAC destacada:</strong> V13 · Confianza electoral y procedimiento.</li>
+<li><strong>Variable territorial activada:</strong> V9 · Agenda nacionalista catalana.</li>
+<li><strong>Decisión SOPHHIA:</strong> clasificar mejor las señales; no recalibrar escenarios.</li>
+</ul>
+<p class="quote">El futuro no se lee sólo en los sondeos: también en las variables que conectan territorio, legitimidad, pactos y gobernabilidad.</p>
+<div class="cta-row">
+<a class="cta plausible-event-name=CTA+Daily+D004" href="diario/2026-10-10.html">Leer actualización de hoy</a>
+<a class="cta secondary plausible-event-name=CTA+Archivo+Bitacora" href="diario/">Ver archivo de la Bitácora</a>
+<a class="cta secondary plausible-event-name=CTA+Datos+D004" href="data/current.json">Ver datos estructurados</a>
+</div>
+</article>
+<div class="table-wrap" style="margin-top:1rem"><table>
+<thead><tr><th>Escenario</th><th>Tendencia D‑004</th><th>Lectura SOPHHIA</th></tr></thead>
+<tbody>
+<tr><td>G1 · Gobierno PP‑Vox de coalición</td><td><span class="pill info">→ estable / ↑ leve</span></td><td>La suma PP‑Vox sigue robusta; el eje territorial afecta más al programa y a la oposición que a la investidura si la mayoría es amplia.</td></tr>
+<tr><td>G2 · PP monocolor con apoyo externo de Vox</td><td><span class="pill info">→ estable</span></td><td>Sigue como alternativa si el PP intenta reducir coste institucional.</td></tr>
+<tr><td>G4 · Reconstrucción progresista</td><td><span class="pill warn">⚠ vigilancia</span></td><td>Rufián / Frente Amplio activa la conexión entre recomposición izquierda y agenda catalana.</td></tr>
+<tr><td>G5 · Bloqueo o repetición</td><td><span class="pill warn">⚠ vigilancia procedimental</span></td><td>No por aritmética actual, sino por controversias de censo y posibles impugnaciones si el resultado se estrecha.</td></tr>
+</tbody>
+</table></div>
+<details class="details"><summary class="plausible-event-name=Expandir+Archivo+Diario">Archivo de la bitácora</summary><p>El archivo completo se consulta también como página propia: <a href="diario/">abrir archivo de la Bitácora SOPHHIA 29‑N</a>.</p><div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Código</th><th>Título</th><th>Acceso</th></tr></thead><tbody><tr><td>10 oct 2026</td><td>D‑004</td><td>Censo, territorio y legitimidad</td><td><a href="diario/2026-10-10.html">Abrir entrada completa</a></td></tr><tr><td>9 oct 2026</td><td>D‑003</td><td>Del ruido diario a las señales prospectivas</td><td><a href="diario/2026-10-09.html">Abrir entrada completa</a></td></tr><tr><td>8 oct 2026</td><td>D‑002</td><td>Primer día de rutina: señales, no sobresaltos</td><td><a href="diario/2026-10-08.html">Abrir entrada completa</a></td></tr><tr><td>7 oct 2026</td><td>D‑001</td><td>Apertura del observatorio público</td><td><a href="diario/2026-10-07.html">Abrir entrada completa</a></td></tr></tbody></table></div></details>
+</section>
+<section id="plataforma">
+<div class="section-kicker">06 · Más allá del 29-N</div>
+<h2>La página como vehículo de difusión de SOPHHIA</h2>
+<p class="section-note">El 29‑N es el primer escenario visible. El propósito de fondo es más amplio: presentar SOPHHIA como plataforma para trabajar incertidumbre estratégica en muchos ámbitos.</p>
+<div class="grid grid-3">
+<article class="card"><span class="num">SOPHHIA Explorer</span><h3>Comprender el sistema</h3><p>Mapas de variables, actores, tensiones, dependencias y bifurcaciones. Sirve para saber dónde mirar antes de decidir.</p></article>
+<article class="card"><span class="num">Bitácora</span><h3>Seguir el cambio</h3><p>Registro diario o semanal de señales, hipótesis, revisiones y aprendizajes. Convierte el seguimiento en memoria pública.</p></article>
+<article class="card"><span class="num">Escenarios</span><h3>Comparar futuros</h3><p>No hay un solo futuro. SOPHHIA construye varios caminos plausibles, con condiciones de activación y consecuencias.</p></article>
+<article class="card"><span class="num">Alertas tempranas</span><h3>Detectar señales</h3><p>Señales débiles, umbrales críticos y cambios de tendencia que pueden anticipar una bifurcación importante.</p></article>
+<article class="card"><span class="num">Forecast Lab</span><h3>Verificar hipótesis</h3><p>Cuando una hipótesis puede formularse con claridad, se fecha, se mide y se revisa. Acertar importa, pero aprender importa más.</p></article>
+<article class="card"><span class="num">LOGOTRÓN / CSL</span><h3>Leer significados</h3><p>Herramientas para ordenar lenguaje, relatos, compromisos y contradicciones. Ayudan a comparar lo que los actores dicen y lo que pueden hacer.</p></article>
+</div>
+</section>
+<section>
+<div class="section-kicker">07 · Para quién sirve</div>
+<h2>Una misma plataforma, muchas conversaciones</h2>
+<div class="grid grid-3">
+<article class="card"><h3>Ciudadanía</h3><p>Para comprender procesos complejos sin quedar atrapada entre propaganda, titulares sueltos y ruido emocional.</p></article>
+<article class="card"><h3>Instituciones</h3><p>Para preparar decisiones públicas bajo incertidumbre: gobernabilidad, políticas sociales, transición energética, vivienda, seguridad, territorio.</p></article>
+<article class="card"><h3>Organizaciones</h3><p>Para anticipar cambios de mercado, tecnología, regulación, reputación, talento y cadena de valor.</p></article>
+</div>
+</section>
+<section>
+<div class="section-kicker">08 · Profundización</div>
+<h2>Análisis A‑000, sin perder el lenguaje ciudadano</h2>
+<p class="section-note">Quien quiera ir más allá de la explicación general puede consultar la capa analítica. Aquí se conserva el rigor, pero se evita que la portada quede dominada por jerga o cifras prematuras.</p>
+<details class="details" open="">
+<summary class="plausible-event-name=Expandir+A000">Resumen divulgativo del Análisis Prospectivo Inicial A‑000</summary>
+<p>El análisis inicial identifica una ventaja estructural del bloque PP‑Vox en los datos disponibles, pero subraya que la campaña todavía puede modificar la forma final de la gobernabilidad. La pregunta central no es sólo si el PP ganará, sino si podrá gobernar solo, si Vox entrará en el Consejo de Ministros, si habrá apoyo externo o si una campaña excepcional reabre el tablero de investidura.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Escenario</th><th>Explicación sencilla</th><th>Lectura inicial</th></tr></thead>
+<tbody>
+<tr><td>Mayoría PP‑Vox amplia</td><td>El bloque conservador supera con holgura la mayoría absoluta.</td><td><span class="pill ok">Escenario dominante</span></td></tr>
+<tr><td>Mayoría PP‑Vox ajustada</td><td>Hay mayoría, pero la negociación de Gobierno resulta más delicada.</td><td><span class="pill info">Muy plausible</span></td></tr>
+<tr><td>PP primero sin mayoría suficiente</td><td>Los apoyos territoriales vuelven a ser decisivos.</td><td><span class="pill warn">Minoritaria</span></td></tr>
+<tr><td>Reconstrucción progresista</td><td>El PSOE y sus aliados remontan lo suficiente para disputar la investidura.</td><td><span class="pill warn">Baja, no imposible</span></td></tr>
+<tr><td>Bloqueo</td><td>Nadie logra una investidura viable y crece el riesgo de repetición electoral.</td><td><span class="pill alert">Riesgo a vigilar</span></td></tr>
+</tbody>
+</table></div>
+</details>
+<details class="details">
+<summary class="plausible-event-name=Expandir+Conceptos">Cómo leer predicciones, escenarios e indicadores</summary>
+<p><strong>Un escenario</strong> es un futuro posible. <strong>Una predicción</strong> es una hipótesis concreta que podrá verificarse. <strong>Un indicador</strong> resume varias señales en una escala comprensible. SOPHHIA no debe mezclar esas tres cosas: cuando lo hace bien, ayuda a pensar; cuando las confunde, se convierte en ruido.</p>
+</details>
+</section>
+<section id="compromiso">
+<div class="section-kicker">09 · Confianza pública</div>
+<h2>Compromiso de neutralidad</h2>
+<div class="grid grid-2">
+<article class="card"><h3>Lo que SOPHHIA hará</h3><ul class="plain-list"><li>Distinguir datos, inferencias, escenarios y opiniones.</li><li>Citar fuentes cuando use hechos verificables.</li><li>Registrar cambios de criterio y corregir errores.</li><li>Explicar límites e incertidumbres sin ocultarlos.</li></ul></article>
+<article class="card"><h3>Lo que SOPHHIA no hará</h3><ul class="plain-list"><li>No pedirá el voto para ninguna candidatura.</li><li>No presentará escenarios como certezas.</li><li>No convertirá la prospectiva en propaganda.</li><li>No sustituirá el juicio democrático de la ciudadanía.</li></ul></article>
+</div>
+</section>
+<section>
+<div class="section-kicker">10 · Calendario del caso 29-N</div>
+<h2>El tiempo institucional también forma parte del análisis</h2>
+<ol class="timeline">
+<li class="done"><span class="d">5 oct 2026</span>Disolución de las Cortes y convocatoria electoral.</li>
+<li class="done"><span class="d">6 oct 2026</span>Publicación en el BOE.</li>
+<li><span class="d">13–27 nov 2026</span>Campaña electoral.</li>
+<li><span class="d">29 nov 2026</span>Jornada electoral.</li>
+<li><span class="d">23 dic 2026</span>Constitución de las nuevas Cámaras.</li>
+<li><span class="d">Después</span>Consultas, investidura, formación de Gobierno y programa efectivo.</li>
+</ol>
+</section>
+<section>
+<div class="section-kicker">11 · Fuentes y trazabilidad</div>
+<h2>La confianza se construye mostrando el camino</h2>
+<p class="section-note">La página utiliza fuentes oficiales para el calendario y las reglas institucionales. Las capas prospectivas se identificarán siempre como análisis propio de SOPHHIA.</p>
+<div class="source-list">
+<div class="source"><b>Real Decreto 806/2026</b><a class="plausible-event-name=Fuente+BOE+Convocatoria" href="https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20742&amp;lang=es" rel="noopener" target="_blank">Convocatoria electoral y calendario oficial</a></div>
+<div class="source"><b>Constitución Española</b><a class="plausible-event-name=Fuente+Constitucion" href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229" rel="noopener" target="_blank">Investidura y formación del Gobierno</a></div>
+<div class="source"><b>LOREG</b><a class="plausible-event-name=Fuente+LOREG" href="https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672" rel="noopener" target="_blank">Reglas electorales y régimen de sondeos</a></div>
+<div class="source"><b>Bitácora SOPHHIA</b><span>Registro propio de actualizaciones, hipótesis, escenarios y aprendizajes.</span></div>
+<div class="source"><b>Plausible Analytics</b><a class="plausible-event-name=Fuente+Plausible" href="https://plausible.io/docs" rel="noopener" target="_blank">Documentación de medición respetuosa</a></div>
+<div class="source"><b>AEPD</b><a class="plausible-event-name=Fuente+AEPD+Cookies" href="https://www.aepd.es/guias/guia-cookies-analiticas-externas.pdf" rel="noopener" target="_blank">Guía sobre medición de audiencia y cookies</a></div>
+</div>
+</section>
+<section id="medicion">
+<div class="section-kicker">12 · Medición de audiencia</div>
+<h2>Medir el interés, no vigilar al visitante</h2>
+<p class="section-note">SOPHHIA necesita aprender cómo la ciudadanía entra en contacto con la prospectiva: qué contenidos se leen, qué explicaciones ayudan y qué partes de la plataforma conviene mejorar. La medición se plantea de forma agregada, sobria y respetuosa.</p>
+<div class="grid grid-2">
+<article class="card"><h3>Qué se medirá</h3><ul class="plain-list"><li>Visitas y evolución diaria de la página.</li><li>Origen agregado del tráfico: redes, buscadores, enlaces directos o referencias.</li><li>Lectura de secciones principales: SOPHHIA, Prospectiva, caso 29‑N, Bitácora, Plataforma y Neutralidad.</li><li>Clics principales: entender SOPHHIA, ver caso 29‑N, abrir A‑000 y consultar fuentes.</li><li>Tipo de dispositivo y zona geográfica aproximada, siempre en forma agregada.</li></ul></article>
+<article class="card"><h3>Qué no se hará</h3><ul class="plain-list"><li>No se elaborarán perfiles individuales.</li><li>No se venderán datos ni se usarán para publicidad comportamental.</li><li>No se seguirá al visitante fuera de la web de SOPHHIA.</li><li>No se usará microsegmentación política.</li><li>No se instalará una lógica de vigilancia incompatible con el propósito cívico de SOPHHIA.</li></ul></article>
+</div>
+<p class="quote">SOPHHIA mide para aprender a explicar mejor, no para manipular mejor.</p>
+<details class="details">
+<summary class="plausible-event-name=Expandir+Privacidad">Nota técnica de privacidad</summary>
+<p>Esta versión incluye el fragmento de Plausible Analytics preparado para el dominio <strong>sophhia.com</strong>. Antes de publicar definitivamente, hay que crear el sitio en la cuenta de Plausible, comprobar que el dominio coincide y activar en el panel los objetivos que correspondan a las clases de evento incluidas en esta página.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Objetivo Plausible sugerido</th><th>Evento incluido en la página</th><th>Utilidad para SOPHHIA</th></tr></thead>
+<tbody>
+<tr><td>CTA Entender SOPHHIA</td><td><code>CTA Entender SOPHHIA</code></td><td>Mide cuántas personas pasan de la portada a la explicación de la plataforma.</td></tr>
+<tr><td>CTA Ver Caso 29N</td><td><code>CTA Ver Caso 29N</code></td><td>Mide el atractivo del demostrador electoral.</td></tr>
+<tr><td>Expandir A000</td><td><code>Expandir A000</code></td><td>Mide el interés por la capa analítica inicial.</td></tr>
+<tr><td>Expandir Conceptos</td><td><code>Expandir Conceptos</code></td><td>Mide si el lector necesita aclarar escenario, predicción e indicador.</td></tr>
+<tr><td>Fuente BOE Convocatoria</td><td><code>Fuente BOE Convocatoria</code></td><td>Mide consulta de trazabilidad institucional.</td></tr>
+<tr><td>Fuente Constitución</td><td><code>Fuente Constitucion</code></td><td>Mide consulta de reglas de investidura.</td></tr>
+<tr><td>Fuente LOREG</td><td><code>Fuente LOREG</code></td><td>Mide consulta de reglas electorales y sondeos.</td></tr>
+</tbody>
+</table></div>
+</details>
+</section>
+<section id="visitar">
+<div class="final-cta">
+<div>
+<div class="section-kicker">Visita la plataforma</div>
+<h2>Entra en SOPHHIA 29‑N</h2>
+<p>Sigue el primer caso público de prospectiva democrática y descubre cómo SOPHHIA ayuda a mirar futuros posibles con método, memoria y neutralidad.</p>
+</div>
+<a class="cta plausible-event-name=CTA+Visitar+Plataforma" href="https://sophhia.com/sophhia-29n">Visitar sophhia.com</a>
+</div>
+</section>
+<footer class="footer">
+<div class="firma">SOPHHIA PROSPECTIVA, S.L.</div>
+<p>SOPHHIA · Plataforma de Prospectiva · Landing Page v0.17 D‑004, sin vídeo, sin zoom interno, con Dashboard nacional‑territorial, F2‑MICMAC v0.2 y Bitácora actualizada. Las Elecciones Españolas 29‑N se presentan como caso demostrador público, no como límite del proyecto.</p>
+<span class="tagline">Comprender futuros posibles para decidir mejor</span>
+</footer>
+</main>
+<script>
     (function(){
       var root=document.documentElement;
       var btns=document.querySelectorAll('.btn[data-t]');
@@ -503,7 +433,6 @@
       try{var f=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()).split('-');var hoy=Date.UTC(+f[0],+f[1]-1,+f[2]);var d=Math.round((Date.UTC(2026,10,29)-hoy)/86400000);if(d>=0){document.getElementById('dias').textContent=d}}catch(e){}
     })();
   </script>
-
 <!--
 Objetivos de analítica incluidos en esta versión:
 - CTA Entender SOPHHIA

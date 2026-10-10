@@ -1,0 +1,7 @@
+codigo,elemento,clasificacion,variable_micmac,escenario_afectado,dimension_nacional_territorial,recalibracion
+S-D004-01,Primera aplicación diaria de F2-MICMAC-001 v0.2,Dato metodológico,Transversal,Todos,"Sí, capa operativa",No
+S-D004-02,INE publica censo electoral 29-N,Dato oficial,V6; V13; V11,G5 en vigilancia,Parcial / exterior,No
+S-D004-03,Controversia sobre ley de nietos,Señal procedimental,V13; V14; V15,G5 en vigilancia,Parcial,No
+S-D004-04,Rufián / Frente Amplio,Señal de actores,V4; V5; V9; V16,G4,Sí,No
+S-D004-05,Alianza Pascal / Junts,Señal territorial,V9; V12; V16,G4; G5; oposición territorial a G1/G2,Sí,No
+S-D004-06,Sondeos mantienen mayoría PP-Vox,Señal electoral confirmatoria,V1; V2; V3; V17,G1; G2,No directa,No

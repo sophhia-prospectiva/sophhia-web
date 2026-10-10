@@ -8,49 +8,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <style>:root{--bg:#F4EFE6;--paper:#FBF8F2;--paper2:#FFFDF8;--ink:#182845;--text:#2A2E38;--muted:#667085;--accent:#A97B4F;--line:#D8CFC0;--soft:#EDE6D8;--ok:#5E7D5A;--warn:#B5893B;--radius:22px;--max:980px}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% 0%,rgba(201,155,108,.16),transparent 24rem),var(--bg);color:var(--text);font-family:'Work Sans',system-ui,sans-serif;font-weight:300;line-height:1.65}.wrap{max-width:var(--max);margin:0 auto;padding:2rem 1.2rem 4rem}.top{display:flex;gap:.8rem;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:1rem;margin-bottom:2.4rem}.brand{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.45rem;font-weight:600;color:var(--ink);text-decoration:none}.back{font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.45rem .8rem;background:var(--paper)}.brief-nav{display:flex;gap:.55rem;align-items:center;justify-content:flex-end;flex-wrap:wrap}.eyebrow{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:.75rem}h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(2.4rem,6vw,4.8rem);font-weight:600;line-height:.98;color:var(--ink);letter-spacing:-.03em;margin:0 0 .8rem}.lead{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.45rem;font-style:italic;line-height:1.28;color:var(--accent);max-width:52rem;margin:0 0 1.1rem}.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:1.25rem;margin:1rem 0;box-shadow:0 10px 30px rgba(28,43,74,.05)}.entry{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1rem;align-items:start}.entry h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:2rem;color:var(--ink);line-height:1.05;margin:.1rem 0 .35rem}.meta{font-size:.72rem;text-transform:uppercase;letter-spacing:.13em;color:var(--accent);font-weight:500}.pill{display:inline-flex;align-items:center;border:1px solid currentColor;border-radius:999px;padding:.16rem .58rem;font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;font-weight:500;color:var(--ok)}.pill.warn{color:var(--warn)}a{color:var(--accent)}.footer{border-top:1px solid var(--line);margin-top:2.5rem;padding-top:1rem;color:var(--muted);font-size:.85rem}@media(max-width:760px){.top,.entry{align-items:flex-start;flex-direction:column;display:flex}.brief-nav{justify-content:flex-start}}</style>
+  <style>:root{--bg:#F4EFE6;--paper:#FBF8F2;--paper2:#FFFDF8;--ink:#182845;--text:#2A2E38;--muted:#667085;--accent:#A97B4F;--line:#D8CFC0;--soft:#EDE6D8;--ok:#5E7D5A;--warn:#B5893B;--radius:22px;--max:980px}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% 0%,rgba(201,155,108,.16),transparent 24rem),var(--bg);color:var(--text);font-family:'Work Sans',system-ui,sans-serif;font-weight:300;line-height:1.65}.wrap{max-width:var(--max);margin:0 auto;padding:2rem 1.2rem 4rem}.top{display:flex;gap:.8rem;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:1rem;margin-bottom:2.4rem}.brand{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.45rem;font-weight:600;color:var(--ink);text-decoration:none}.back{font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.45rem .8rem;background:var(--paper)}.brief-nav{display:flex;gap:.55rem;align-items:center;justify-content:flex-end;flex-wrap:wrap}.eyebrow{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:.75rem}h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(2.4rem,6vw,4.8rem);font-weight:600;line-height:.98;color:var(--ink);letter-spacing:-.03em;margin:0 0 .8rem}.lead{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.25rem;line-height:1.34;color:var(--accent);font-style:italic}.entry{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:1.2rem;margin:1rem 0;box-shadow:0 10px 30px rgba(28,43,74,.05)}.entry h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.7rem;line-height:1.08;color:var(--ink);margin:.2rem 0 .55rem}.code{font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-weight:500}.meta{font-size:.86rem;color:var(--muted)}.cta{display:inline-flex;align-items:center;background:var(--ink);color:var(--bg);border:1px solid var(--ink);border-radius:999px;padding:.58rem .9rem;font-size:.76rem;text-transform:uppercase;letter-spacing:.09em;font-weight:500;text-decoration:none;margin-top:.6rem}.pill{display:inline-flex;border:1px solid currentColor;border-radius:999px;padding:.13rem .52rem;font-size:.65rem;text-transform:uppercase;letter-spacing:.1em}.ok{color:var(--ok)}.warn{color:var(--warn)}.footer{border-top:1px solid var(--line);padding-top:1.2rem;margin-top:2rem;color:var(--muted);font-size:.88rem}</style>
 </head>
-<body>
-  <main class="wrap">
-    <div class="top"><a class="brand" href="../index.html">SOPHHIA 29‑N</a><nav class="brief-nav" aria-label="Navegación del archivo"><a class="back" href="../index.html#hoy">Volver a la landing</a><a class="back" href="../index.html">Portada</a></nav></div>
-    <div class="eyebrow">Archivo de la Bitácora</div>
-    <h1>Memoria diaria del caso SOPHHIA 29‑N</h1>
-    <p class="lead">La portada muestra la actualización vigente; este archivo conserva cada entrada diaria para que pueda revisarse qué se dijo, cuándo se dijo y cómo evolucionó el análisis.</p>
-
-    <section class="card entry">
-      <div>
-        <div class="meta">D‑003 · 9 de octubre de 2026</div>
-        <h2>Del ruido diario a las señales prospectivas</h2>
-        <p>Primera actualización ordinaria bajo Contrato Prospectivo vigente y Protocolo P001. Las señales del día refuerzan el escenario PP‑Vox, mantienen en vigilancia la recomposición de la izquierda alternativa y no justifican recalibración.</p>
-        <span class="pill">Actualización vigente</span>
-      </div>
-      <a class="back" href="2026-10-09.html">Leer D‑003</a>
-    </section>
-
-    <section class="card entry">
-      <div>
-        <div class="meta">D‑002 · 8 de octubre de 2026</div>
-        <h2>Primer día de rutina: señales, no sobresaltos</h2>
-        <p>Actualización de señales, variables y escenarios sin recalibración probabilística del A‑000. La regla editorial queda fijada: actualizar todos los días no significa cambiar de criterio todos los días.</p>
-        <span class="pill warn">Archivada</span>
-      </div>
-      <a class="back" href="2026-10-08.html">Leer D‑002</a>
-    </section>
-
-    <section class="card entry">
-      <div>
-        <div class="meta">D‑001 · 7 de octubre de 2026</div>
-        <h2>Apertura del observatorio público</h2>
-        <p>Entrada inaugural de la Bitácora SOPHHIA 29‑N: propósito pedagógico, calendario institucional y primeras variables sociales a observar.</p>
-        <span class="pill warn">Archivada</span>
-      </div>
-      <a class="back" href="2026-10-07.html">Leer D‑001</a>
-    </section>
-
-    <footer class="footer">
-      <strong>SOPHHIA PROSPECTIVA, S.L.</strong><br>
-      Archivo de la Bitácora SOPHHIA 29‑N. En producción esta página es accesible desde <em>/sophhia-29n/diario/</em>.
-    </footer>
-  </main>
-</body>
-</html>
+<body><main class="wrap">
+  <div class="top"><a class="brand" href="../index.html">SOPHHIA 29‑N</a><nav class="brief-nav"><a class="back" href="../index.html#hoy">Landing</a><a class="back" href="../index.html#dashboard">Dashboard</a></nav></div>
+  <header><div class="eyebrow">Archivo de la Bitácora</div><h1>Bitácora SOPHHIA 29‑N</h1><p class="lead">Memoria diaria de datos, señales, inferencias, hipótesis y decisiones de recalibración del caso público SOPHHIA 29‑N.</p></header>
+  <section>
+    <article class="entry"><div class="code">D‑004 · 10 de octubre de 2026 · <span class="pill ok">vigente</span></div><h2>Censo, territorio y legitimidad: el MICMAC entra en la Bitácora diaria</h2><p>D‑004 es la primera entrada diaria que aplica plenamente la capa F2‑MICMAC‑001 v0.2 y la enmienda P001‑E001. El censo electoral y el voto exterior pasan a vigilancia procedimental; el eje nacional‑territorial opera ya como subsistema estructural.</p><p class="meta">Contrato: CP‑29N‑F0 v0.1 + Anexo A · Protocolo: P001 + P001‑E001 · Recalibración: no</p><a class="cta" href="2026-10-10.html">Leer D‑004</a></article>
+    <article class="entry"><div class="code">D‑003 · 9 de octubre de 2026</div><h2>Del ruido diario a las señales prospectivas</h2><p>Primera actualización ordinaria bajo Contrato Prospectivo vigente y Protocolo P001. Las señales del día refuerzan el escenario PP‑Vox, mantienen en vigilancia la recomposición de la izquierda alternativa y no justifican recalibración.</p><p class="meta">Contrato: CP‑29N‑F0 v0.1 · Protocolo: P001 · Recalibración: no</p><a class="cta" href="2026-10-09.html">Leer D‑003</a></article>
+    <article class="entry"><div class="code">D‑002 · 8 de octubre de 2026</div><h2>Primer día de rutina: señales, no sobresaltos</h2><p>La actualización registra señales y mantiene el marco A‑000 sin recalibración.</p><p class="meta">Estado: archivada</p><a class="cta" href="2026-10-08.html">Leer D‑002</a></article>
+    <article class="entry"><div class="code">D‑001 · 7 de octubre de 2026</div><h2>Apertura del observatorio público</h2><p>Inicio del caso público SOPHHIA 29‑N y activación del observatorio.</p><p class="meta">Estado: archivada</p><a class="cta" href="2026-10-07.html">Leer D‑001</a></article>
+  </section>
+  <footer class="footer">Archivo de la Bitácora SOPHHIA 29‑N · Actualizado a D‑004.</footer>
+</main></body></html>
