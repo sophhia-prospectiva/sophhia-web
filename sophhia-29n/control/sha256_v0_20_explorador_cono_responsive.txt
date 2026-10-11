@@ -1,0 +1,3 @@
+SOPHHIA 29-N · Explorador Paramétrico · v0.20 · corrección visual del cono
+
+a131f4279cbea4886affd919a05fd3fd77f8e31ed88721a6e08f76e659368de0  sophhia-29n/explorador/index.html
