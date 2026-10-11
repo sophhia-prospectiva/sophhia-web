@@ -1,0 +1,6 @@
+SOPHHIA 29-N · v0.19 · Integración Explorador Paramétrico
+
+index.html  cc26d109b57d66ec88d06dc5142c8b476aa47faff23b3d662304ee3580688d5a
+explorador/index.html  0151b7c9d816e23030cf91e38b35f69984cd053c87160e1c2c21349a24e10b0c
+data/explorador_parametrico_29n_v0_1.json  5cb183833bc1bf650610ca0a3fa9cbb13d0c10aa40ee8ed189aff6cab42c711f
+data/dashboard.json  66c00fda0b96f9e62584bdcdf34caf268a5e54bed4e95ccb42a7765f5125fe01

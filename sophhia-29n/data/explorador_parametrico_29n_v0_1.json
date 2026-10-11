@@ -1,0 +1,109 @@
+{
+  "code": "FE.5-29N-001",
+  "name": "Explorador Paramétrico SOPHHIA 29-N",
+  "version": "v0.1-integracion-web",
+  "date": "2026-10-11",
+  "status": "aprobado provisionalmente; pendiente de validación IH continua",
+  "mode": "Modo A estructurado",
+  "epistemic_warning": "Modelo experimental de sensibilidad prospectiva. No constituye predicción certificada ni cálculo Modo B.",
+  "path": "explorador/",
+  "micmac_basis": "F2-MICMAC-001 v0.2",
+  "variables": [
+    {
+      "id": "pp",
+      "name": "Ventaja electoral PP",
+      "micmac": [
+        "V1"
+      ],
+      "base": 70,
+      "low": "débil",
+      "high": "fuerte"
+    },
+    {
+      "id": "vox",
+      "name": "Fuerza electoral de Vox",
+      "micmac": [
+        "V2",
+        "V3"
+      ],
+      "base": 68,
+      "low": "contenida",
+      "high": "muy alta"
+    },
+    {
+      "id": "left",
+      "name": "Recomposición izquierda alternativa",
+      "micmac": [
+        "V4",
+        "V5"
+      ],
+      "base": 36,
+      "low": "fragmentada",
+      "high": "recompuesta"
+    },
+    {
+      "id": "territorial",
+      "name": "Activación nacional-territorial",
+      "micmac": [
+        "V9",
+        "V10",
+        "V12",
+        "V16"
+      ],
+      "base": 58,
+      "low": "latente",
+      "high": "crítica"
+    },
+    {
+      "id": "social",
+      "name": "Presión vivienda / coste de vida",
+      "micmac": [
+        "V7",
+        "V8"
+      ],
+      "base": 78,
+      "low": "sectorial",
+      "high": "clivaje"
+    },
+    {
+      "id": "confianza",
+      "name": "Confianza procedimental",
+      "micmac": [
+        "V13"
+      ],
+      "base": 55,
+      "low": "erosionada",
+      "high": "alta"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "G1",
+      "name": "Gobierno PP-Vox de coalición"
+    },
+    {
+      "id": "G2",
+      "name": "PP monocolor con apoyo externo de Vox"
+    },
+    {
+      "id": "G4",
+      "name": "Reconstrucción progresista competitiva"
+    },
+    {
+      "id": "G5",
+      "name": "Bloqueo / repetición electoral"
+    }
+  ],
+  "presets": [
+    "Caso base D-005",
+    "PP-Vox amplio",
+    "Reactivación progresista",
+    "Tensión territorial",
+    "Crisis procedimental"
+  ],
+  "integration": {
+    "dashboard_link": true,
+    "main_nav_link": true,
+    "publication_path": "/sophhia-29n/explorador/"
+  }
+}
