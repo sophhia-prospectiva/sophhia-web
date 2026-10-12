@@ -1,89 +1,46 @@
 {
-  "codigo": "D-004",
-  "fecha": "2026-10-10",
-  "fecha_legible": "10 de octubre de 2026",
+  "codigo": "D-006",
+  "fecha": "2026-10-12",
+  "fecha_legible": "12 de octubre de 2026",
   "hora_corte": "09:30",
-  "titulo": "Censo, territorio y legitimidad: el MICMAC entra en la Bitácora diaria",
+  "timezone": "Europe/Madrid",
+  "titulo": "Territorio, identidad y alianzas: nuevas conexiones en el sistema electoral",
   "contrato": "CP-29N-F0 v0.1 + Anexo A",
   "protocolo": "P001 + P001-E001",
   "capa": "F2-MICMAC-001 v0.2",
   "modo": "Modo A · Aproximación heurística estructurada",
   "recalibracion": false,
-  "variacion_contrato": false,
-  "estado_proceso": "Precampaña institucional · operación ordinaria con capa MICMAC territorial",
-  "resumen": "D-004 aplica por primera vez la capa F2-MICMAC-001 v0.2 y la enmienda P001-E001. El censo electoral y la controversia sobre voto exterior activan la vigilancia procedimental, mientras las señales del eje catalán muestran que el subsistema nacional-territorial debe tratarse como estructura de gobernabilidad, no sólo como aritmética de actores bisagra.",
-  "senal_principal": "El censo electoral y el voto exterior pasan a vigilancia procedimental.",
-  "variable_vigilancia": "V13 · Confianza electoral y procedimiento.",
-  "variable_territorial": "V9 · Agenda nacionalista catalana.",
-  "riesgo_interpretativo": "Confundir una señal procedimental con recalibración del modelo; o reducir las agendas territoriales a mera aritmética de escaños.",
-  "decision": "Clasificar mejor las señales; no recalibrar escenarios.",
-  "url": "diario/2026-10-10.html",
-  "que_cambio": [
-    "F2-MICMAC-001 v0.2 pasa a operar en la Bitácora diaria.",
-    "El censo electoral entra en vigilancia procedimental.",
-    "La controversia sobre voto exterior activa V13 · Confianza electoral y procedimiento.",
-    "Rufián / Frente Amplio y Junts / PNC activan V9 y V16 como variables territoriales."
-  ],
-  "que_no_cambio": [
-    "No cambia el escenario dominante de mayoría PP-Vox.",
-    "No cambia la incertidumbre principal sobre la forma de Gobierno.",
-    "No cambia la regla P001 de no recalibrar por señales aisladas.",
-    "No se modifica retroactivamente D-001, D-002 ni D-003."
-  ],
-  "escenarios": [
+  "micmac_modificada": false,
+  "validacion": "IH provisional",
+  "decision_id": "DEC-IH-D006-001",
+  "revision_abierta": "REV-F2-003",
+  "estado_publicacion": "preparada_pendiente_publicacion",
+  "resumen": "Negociaciones ERC-Podemos previas al corte activan V4 y V9; Fiesta Nacional y Vox-Ceuta como hechos previstos; vivienda como antecedente transversal. A-000 sin cambios cuantitativos.",
+  "senal_principal": "Negociación ERC-Podemos (no formalizada)",
+  "variable_vigilancia": "V4 · Recomposición de izquierda alternativa",
+  "variable_territorial": "V9 · Agenda nacionalista catalana",
+  "decision": "Sin recalibración. Abrir REV-F2-003; mantener MICMAC v0.2 intacto.",
+  "url": "diario/2026-10-12.html",
+  "fuentes_temporales": [
     {
-      "id": "G1",
-      "nombre": "Gobierno PP-Vox de coalición",
-      "tendencia": "estable / sube leve",
-      "comentario": "Los sondeos siguen reforzando la suma PP-Vox; la capa territorial afecta al programa y a la oposición si la mayoría es amplia."
+      "medio": "Cadena SER",
+      "publicado": "2026-10-11T15:08:00+02:00",
+      "estado": "anterior_corte_confirmado"
     },
     {
-      "id": "G2",
-      "nombre": "PP monocolor con apoyo externo de Vox",
-      "tendencia": "estable",
-      "comentario": "Sigue como alternativa si el PP intenta reducir coste institucional."
+      "medio": "Europa Press",
+      "actualizado": "2026-10-09T15:03:00+02:00",
+      "estado": "anterior_corte_confirmado"
     },
     {
-      "id": "G4",
-      "nombre": "Reconstrucción progresista",
-      "tendencia": "vigilancia",
-      "comentario": "Rufián / Frente Amplio activa conexión entre recomposición izquierda y agenda catalana."
+      "medio": "RTVE",
+      "publicado": "2026-10-09T23:59:00+02:00",
+      "estado": "anterior_corte_confirmado"
     },
     {
-      "id": "G5",
-      "nombre": "Bloqueo o repetición",
-      "tendencia": "vigilancia procedimental",
-      "comentario": "No por aritmética actual, sino por controversias de censo y posibles impugnaciones si el resultado se estrecha."
-    }
-  ],
-  "que_observar_manana": [
-    "Si la controversia sobre voto exterior y ley de nietos escala jurídicamente o se estabiliza.",
-    "Si la Junta Electoral, el Supremo o el Gobierno emiten decisiones procedimentales relevantes.",
-    "Si Rufián, ERC, Sumar o Comuns concretan la operación Frente Amplio.",
-    "Si Junts convierte el reagrupamiento catalanista en agenda electoral o postelectoral explícita.",
-    "Si nuevas encuestas consolidan mayoría PP-Vox por encima de 190 escaños.",
-    "Si PP o Vox clarifican el tipo de relación gubernamental que aceptarían."
-  ],
-  "fuentes": [
-    {
-      "nombre": "INE · censo electoral 2026",
-      "url": "https://ine.es/dyngs/Prensa/es/EG2026.htm"
-    },
-    {
-      "nombre": "El País · ley de nietos",
-      "url": "https://elpais.com/expres/2026-10-10/podran-votar-los-nacionalizados-por-la-ley-de-nietos-el-29-de-noviembre-claves-del-embrollo.html"
-    },
-    {
-      "nombre": "Cadena SER · Rufián / Frente Amplio",
-      "url": "https://cadenaser.com/nacional/2026/10/09/ada-colau-abre-las-puertas-del-frente-amplio-a-rufian-para-ayudar-a-unir-a-toda-la-izquierda-cadena-ser/"
-    },
-    {
-      "nombre": "El País · Pascal / Junts",
-      "url": "https://elpais.com/espana/catalunya/2026-10-09/marta-pascal-firma-la-paz-con-puigdemont-y-se-alia-con-junts.html"
-    },
-    {
-      "nombre": "RTVE · promedio de encuestas 29-N",
-      "url": "https://www.rtve.es/noticias/20261005/encuestas-elecciones-generales-29n-pp-vox-diputados/17253873.shtml"
+      "medio": "EL PAÍS",
+      "publicado": "2026-10-11T05:30:00+02:00",
+      "estado": "indicado_en_indice"
     }
   ]
 }

@@ -1,13 +1,28 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "D-004",
+  "ultima_actualizacion": "D-006 · IH provisional",
   "entradas": [
+    {
+      "codigo": "D-006",
+      "fecha": "2026-10-12",
+      "titulo": "Territorio, identidad y alianzas: nuevas conexiones en el sistema electoral",
+      "url": "diario/2026-10-12.html",
+      "estado": "validacion_IH_provisional",
+      "decision": "DEC-IH-D006-001"
+    },
+    {
+      "codigo": "D-005",
+      "fecha": "2026-10-11",
+      "titulo": "Malestar social, vivienda y territorio: señales de tensión sin recalibración",
+      "url": "diario/2026-10-11.html",
+      "estado": "archivada"
+    },
     {
       "codigo": "D-004",
       "fecha": "2026-10-10",
       "titulo": "Censo, territorio y legitimidad: el MICMAC entra en la Bitácora diaria",
       "url": "diario/2026-10-10.html",
-      "estado": "vigente"
+      "estado": "archivada"
     },
     {
       "codigo": "D-003",

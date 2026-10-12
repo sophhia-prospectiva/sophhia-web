@@ -1,18 +1,18 @@
 {
-  "version": "v0.19",
-  "updated": "2026-10-11",
+  "version": "v0.22-D006-provisional",
+  "updated": "2026-10-12",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-005",
+  "current_entry": "D-006",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "Marco A-000 confirmado · tensión social y vigilancia procedimental/nacional-territorial elevada",
+  "system_state": "A-000 intacto; revisión cualitativa V4-V9-V12-V16",
   "dominant_scenario": "Mayoría PP-Vox",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
-  "watch_variable": "V7 · Vivienda; V13 · Confianza electoral; V9 · Agenda nacionalista catalana",
-  "social_axis": "Vivienda + inflación / coste de vida; legitimidad procedimental; eje TC-amnistía-procés",
+  "watch_variable": "V4 · izquierda alternativa; V9 · agenda catalana; V12; V16",
+  "social_axis": "Vivienda (transversal); identidad-territorio; ERC-Podemos (negociaciones)",
   "path": [
     {
       "id": "D-001",
@@ -43,6 +43,13 @@
       "date": "2026-10-11",
       "title": "Malestar social, vivienda y territorio: señales de tensión sin recalibración",
       "recalibration": "No"
+    },
+    {
+      "id": "D-006",
+      "date": "2026-10-12",
+      "title": "Territorio, identidad y alianzas",
+      "recalibration": "No",
+      "state": "IH provisional"
     }
   ],
   "scenarios": [
@@ -99,7 +106,7 @@
       "Pulso nacional-territorial"
     ]
   },
-  "methodological_layer": "F2-MICMAC-001 v0.2 aplicado en D-004 y operativo en D-005",
+  "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
   "territorial_radar": {
     "status": "incorporado",
     "decision": "DEC-IH-F2-002",
@@ -156,5 +163,7 @@
     "mode": "Modo A estructurado",
     "warning": "No constituye predicción certificada; laboratorio de sensibilidad prospectiva.",
     "data_file": "data/explorador_parametrico_29n_v0_1.json"
-  }
+  },
+  "human_validation": "DEC-IH-D006-001 · provisional",
+  "micmac_review": "REV-F2-003 abierta, sin cambio de matriz"
 }

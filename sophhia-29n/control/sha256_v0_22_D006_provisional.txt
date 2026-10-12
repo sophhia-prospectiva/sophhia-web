@@ -1,0 +1,8 @@
+SOPHHIA 29-N · D-006 · DEC-IH-D006-001 · IH provisional
+Corte 2026-10-12 09:30 CEST
+e8b42de603d90e91517d7262f1c716d379b0e44bb85d864ab6b54b6ae51ac73b  sophhia-29n/index.html
+3152600030e1c99e1af487cebf42d95e1a41c4fd817c82760efa03b55b99b637  sophhia-29n/diario/index.html
+9320e4ab910a27bcf3e5322739e78207318dff653aab6b699f13478c13765bcf  sophhia-29n/diario/2026-10-12.html
+d0bdfff796fc0a5508a315c8c5b0cce6f1cc294048589577e1ef88f7b03f1e7d  sophhia-29n/data/current.json
+edd796384be8da6165851b18a6a21de0318dea3f5b9552c9a5a1ea83ac723810  sophhia-29n/data/dashboard.json
+1973644d2407ab90ae37a25d9e3c6ea285219923c6511ae803c21a1628aaa902  sophhia-29n/data/diario_index.json
