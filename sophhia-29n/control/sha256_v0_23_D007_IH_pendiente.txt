@@ -1,0 +1,10 @@
+SOPHHIA 29-N · D-007 · 2026-10-13 09:30 CEST
+EDICION PENDIENTE IH; NO PUBLICAR SIN APROBACION
+DEC-IH-D006-001 es aprobación provisional de D-006, no de D-007.
+SHA-256 de archivos de este parche:
+fe754500326e2159d95d699ff13ccb449b967522f22078c225699cc5037fc228  index.html
+2a989abfb361d22289b0f124ec8fe71f334f964d9176392918031bb6a696196e  diario/index.html
+ea91ef377d47b193e42b7565df0bdc38bf6c95c932e887f44db7d092e9ca8c9e  diario/2026-10-13.html
+7885f14abb492bcd69bb3e3c79053c26d4f183e15f80dd6a0f461e91c36dc34a  data/current.json
+7809e98ed6ca65c56f868dc80c11920235ed57eefacf363c60fd63d0732f236a  data/dashboard.json
+ee867abf5208cfe0f6be4f63e047590fc4236c372b62cfb44048750b880ef662  data/diario_index.json

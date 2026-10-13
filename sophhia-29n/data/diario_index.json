@@ -1,7 +1,15 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "D-006 · IH provisional",
+  "ultima_actualizacion": "D-007 · pendiente IH; D-006 aprobada provisionalmente",
   "entradas": [
+    {
+      "codigo": "D-007",
+      "fecha": "2026-10-13",
+      "titulo": "Alianzas de izquierda y derecho de sufragio: dos bifurcaciones bajo vigilancia",
+      "url": "diario/2026-10-13.html",
+      "estado": "pendiente_IH",
+      "decision_previa": "DEC-IH-D006-001"
+    },
     {
       "codigo": "D-006",
       "fecha": "2026-10-12",

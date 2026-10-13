@@ -1,46 +1,51 @@
 {
-  "codigo": "D-006",
-  "fecha": "2026-10-12",
-  "fecha_legible": "12 de octubre de 2026",
+  "codigo": "D-007",
+  "fecha": "2026-10-13",
+  "fecha_legible": "13 de octubre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "Territorio, identidad y alianzas: nuevas conexiones en el sistema electoral",
+  "titulo": "Alianzas de izquierda y derecho de sufragio: dos bifurcaciones bajo vigilancia",
   "contrato": "CP-29N-F0 v0.1 + Anexo A",
   "protocolo": "P001 + P001-E001",
   "capa": "F2-MICMAC-001 v0.2",
   "modo": "Modo A · Aproximación heurística estructurada",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "IH provisional",
-  "decision_id": "DEC-IH-D006-001",
+  "validacion": "Pendiente de validación IH de D-007; DEC-IH-D006-001 provisional heredada",
+  "decision_id": "DEC-IH-D006-001 (precedente, no aprobación de D-007)",
   "revision_abierta": "REV-F2-003",
-  "estado_publicacion": "preparada_pendiente_publicacion",
-  "resumen": "Negociaciones ERC-Podemos previas al corte activan V4 y V9; Fiesta Nacional y Vox-Ceuta como hechos previstos; vivienda como antecedente transversal. A-000 sin cambios cuantitativos.",
-  "senal_principal": "Negociación ERC-Podemos (no formalizada)",
-  "variable_vigilancia": "V4 · Recomposición de izquierda alternativa",
+  "estado_publicacion": "borrador_editorial_no_publicar_sin_IH",
+  "resumen": "Confirmación cooperación ERC-Podemos; propuesta de Ada Colau por Frente Amplio; suspensión cautelar de voto exterior. Sin recalibrar A-000 ni matriz MICMAC.",
+  "senal_principal": "Alianzas ERC-Podemos y Frente Amplio (V4–V9–V16)",
+  "variable_vigilancia": "V4 · Izquierda alternativa; garantías de sufragio",
   "variable_territorial": "V9 · Agenda nacionalista catalana",
-  "decision": "Sin recalibración. Abrir REV-F2-003; mantener MICMAC v0.2 intacto.",
-  "url": "diario/2026-10-12.html",
+  "decision": "Propuesta D-007: mantener A-000; mantener REV-F2-003 y abrir vigilancia procedimental, sujeto a IH",
+  "url": "diario/2026-10-13.html",
   "fuentes_temporales": [
     {
       "medio": "Cadena SER",
-      "publicado": "2026-10-11T15:08:00+02:00",
-      "estado": "anterior_corte_confirmado"
-    },
-    {
-      "medio": "Europa Press",
-      "actualizado": "2026-10-09T15:03:00+02:00",
-      "estado": "anterior_corte_confirmado"
-    },
-    {
-      "medio": "RTVE",
-      "publicado": "2026-10-09T23:59:00+02:00",
-      "estado": "anterior_corte_confirmado"
+      "fecha": "2026-10-12",
+      "hora": "no contrastada",
+      "estado": "día_anterior_hora_pendiente",
+      "url": "https://cadenaser.com/nacional/2026/10/12/erc-y-podemos-confirman-su-acuerdo-de-colaboracion-para-las-elecciones-del-29-n-cadena-ser/"
     },
     {
       "medio": "EL PAÍS",
-      "publicado": "2026-10-11T05:30:00+02:00",
-      "estado": "indicado_en_indice"
+      "publicado": "2026-10-12T20:15:00+02:00",
+      "estado": "anterior_corte",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-12/el-frente-amplio-propone-a-ada-colau-como-candidata-a-la-presidencia-y-deja-abierta-la-integracion-de-podemos.html"
+    },
+    {
+      "medio": "Cadena SER",
+      "publicado": "2026-10-12T15:32:00+02:00",
+      "estado": "anterior_corte",
+      "url": "https://cadenaser.com/nacional/2026/10/12/el-supremo-mantiene-suspendido-el-voto-a-miles-de-nacionalizados-por-la-ley-de-nietos-el-29-n-cadena-ser/"
+    },
+    {
+      "medio": "EL PAÍS",
+      "publicado": "2026-10-13T05:30:00+02:00",
+      "estado": "anterior_corte",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-13/sanchez-y-feijoo-ven-la-victoria-a-mano-y-creen-que-sus-fieles-estan-activados.html"
     }
   ]
 }

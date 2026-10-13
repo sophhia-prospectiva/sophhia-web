@@ -1,18 +1,18 @@
 {
-  "version": "v0.22-D006-provisional",
-  "updated": "2026-10-12",
+  "version": "v0.23-D007-IH-pendiente",
+  "updated": "2026-10-13",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-006",
+  "current_entry": "D-007",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "A-000 intacto; revisión cualitativa V4-V9-V12-V16",
+  "system_state": "A-000 sin recalibración; V4↔V9→V16 y vigilancia procedimental; MICMAC v0.2 intacto",
   "dominant_scenario": "Mayoría PP-Vox",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
-  "watch_variable": "V4 · izquierda alternativa; V9 · agenda catalana; V12; V16",
-  "social_axis": "Vivienda (transversal); identidad-territorio; ERC-Podemos (negociaciones)",
+  "watch_variable": "V4; V9; V16; garantías de sufragio (revisar correspondencia con inventario)",
+  "social_axis": "Acuerdos ERC-Podemos y Frente Amplio; voto exterior; vivienda como antecedente",
   "path": [
     {
       "id": "D-001",
@@ -50,6 +50,13 @@
       "title": "Territorio, identidad y alianzas",
       "recalibration": "No",
       "state": "IH provisional"
+    },
+    {
+      "id": "D-007",
+      "date": "2026-10-13",
+      "title": "Alianzas de izquierda y derecho de sufragio: dos bifurcaciones bajo vigilancia",
+      "recalibration": "No",
+      "state": "Pendiente IH"
     }
   ],
   "scenarios": [
@@ -68,8 +75,8 @@
     {
       "id": "G4",
       "name": "Reconstrucción progresista",
-      "trend": "vigilancia",
-      "status": "baja, en vigilancia"
+      "trend": "vigilancia reforzada cualitativa",
+      "status": "sin recalibración; pendiente evaluación"
     },
     {
       "id": "G5",
@@ -148,13 +155,13 @@
     "reservation": "V4 · Fragmentación / recomposición de la izquierda alternativa queda pendiente de revisión IH por posible infravaloración."
   },
   "current_reading": {
-    "signal": "Censo y voto exterior entran en vigilancia procedimental",
+    "signal": "Acuerdos electorales de izquierda y controversia del censo exterior",
     "micmac_variables": [
-      "V13",
+      "V4",
       "V9",
       "V16"
     ],
-    "decision": "No recalibrar"
+    "decision": "Propuesta: no recalibrar, pendiente IH"
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -164,6 +171,6 @@
     "warning": "No constituye predicción certificada; laboratorio de sensibilidad prospectiva.",
     "data_file": "data/explorador_parametrico_29n_v0_1.json"
   },
-  "human_validation": "DEC-IH-D006-001 · provisional",
-  "micmac_review": "REV-F2-003 abierta, sin cambio de matriz"
+  "human_validation": "D-007 pendiente IH · DEC-IH-D006-001 provisional heredada",
+  "micmac_review": "REV-F2-003 abierta; sin cambio de matriz"
 }
