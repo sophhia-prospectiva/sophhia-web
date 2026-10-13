@@ -1,0 +1,10 @@
+P001-CWS-001 REV01 — Correccion del control web SOPHHIA 29-N
+
+Contenido:
+- diario/2026-10-11.html: restauracion IDENTICA al HTML original D-005 del paquete sophhia-29n_v0_18_D005_patch.zip.
+- control/verificar_sincronizacion_p001.py: admite cuadrícula SVG generada por JavaScript, mediante gridMinor y clases grid-major/grid-minor.
+
+Prueba local sobre reconstruccion de versiones: 27 PASS, 0 errores, 1 aviso de fuente Cadena SER sin hora corroborada.
+GO TECNICO CON RESERVAS, no aprobación IH ni prueba del arbol live.
+
+Subir al directorio GitHub sophhia-web/sophhia-29n, arrastrando contenido de carpeta local sophhia-29n, no carpeta exterior. No alterar el resto del sitio.

@@ -66,7 +66,13 @@ def main():
     check('current.json' in page,'Portada consulta registro central')
     check('current.json' in explorer,'Explorador consulta registro central')
     check('todayLabel' in explorer,'Cono dispone de rótulo dinámico de fecha')
-    check('pattern' in explorer and 'grid' in explorer.lower(),'Cono dispone de retícula SVG')
+    # Se admiten dos implementaciones: patrón SVG o retícula generada por JavaScript.
+    has_svg_pattern = bool(re.search(r'<pattern\b', explorer, re.I))
+    has_dynamic_grid = (bool(re.search(r'id=[\"\']gridMinor[\"\']', explorer))
+                        and bool(re.search(r'getElementById\([\"\']gridMinor[\"\']\)', explorer))
+                        and 'grid-major' in explorer and 'grid-minor' in explorer
+                        and bool(re.search(r'el\([\"\']line[\"\']', explorer)))
+    check(has_svg_pattern or has_dynamic_grid,'Cono dispone de retícula SVG')
     check('Modelo experimental' in explorer or 'modelo experimental' in explorer.lower(),'Advertencia experimental del Explorador')
     # Evitar falsos positivos: solo comprobar enlaces internos explícitos de entrada vigente
     for html,name in [(page,'Portada'),(journal,'Bitácora')]:
