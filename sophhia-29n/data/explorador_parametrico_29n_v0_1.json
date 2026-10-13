@@ -1,8 +1,8 @@
 {
   "code": "FE.5-29N-001",
   "name": "Explorador Paramétrico SOPHHIA 29-N",
-  "version": "v0.1-integracion-web",
-  "date": "2026-10-11",
+  "version": "v0.22-SYNC-29N-001",
+  "date": "2026-10-13",
   "status": "aprobado provisionalmente; pendiente de validación IH continua",
   "mode": "Modo A estructurado",
   "epistemic_warning": "Modelo experimental de sensibilidad prospectiva. No constituye predicción certificada ni cálculo Modo B.",
@@ -105,5 +105,18 @@
     "dashboard_link": true,
     "main_nav_link": true,
     "publication_path": "/sophhia-29n/explorador/"
-  }
+  },
+  "design_canon": "DG-SOPHHIA-001",
+  "today_label_source": "data/current.json",
+  "enmienda": "ENM-EXP-002 · Fecha de hoy en el cono y adecuación DG-SOPHHIA-001",
+  "visual_updates": [
+    "Fecha vigente en el vértice del cono: hoy · entrada activa · fecha legible",
+    "Área gráfica diferenciada dentro del contenedor del cono",
+    "Cuadrícula secundaria discreta y eje temporal con escala",
+    "Sombras suaves 3D en medallones y contenedor",
+    "Sin desplazamiento horizontal interno"
+  ],
+  "current_source": "../data/current.json",
+  "update_rule": "Fecha y código de la última actualización publicados; no usar fecha local del visitante",
+  "grid": "Retícula menor y mayor sin escala cuantitativa independiente"
 }

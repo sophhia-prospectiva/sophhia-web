@@ -1,0 +1,8 @@
+SYNC-29N-001 — parche de sincronización D-007
+Base: paquete editorial D-007; se han comprobado en GitHub las rutas y SHA de los 8 archivos de partida.
+Estado: D-007 aprobada provisionalmente (DEC-IH-D007-001), no definitivamente.
+Contenido: corrección de estados/CTA/índice, JSON centrales, Explorador con fecha central y cuadrícula DG.
+No altera D-001 a D-006, los coeficientes del modelo ni MICMAC v0.2.
+NOTA: la portada aún alberga gráficos históricos hasta D-005: se preservan como series históricas y no se recalculan cifras.
+Subir dentro de sophhia-web/sophhia-29n: cuatro carpetas/archivos del interior del paquete, NO la carpeta externa.
+Control: comprobar enlaces, paletas, fecha del cono, seis controles y escenarios antes de dar por cerrado el cambio.

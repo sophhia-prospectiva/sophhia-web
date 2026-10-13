@@ -11,15 +11,15 @@
   "modo": "Modo A · Aproximación heurística estructurada",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Pendiente de validación IH de D-007; DEC-IH-D006-001 provisional heredada",
-  "decision_id": "DEC-IH-D006-001 (precedente, no aprobación de D-007)",
+  "validacion": "Aprobación IH provisional · DEC-IH-D007-001",
+  "decision_id": "DEC-IH-D007-001",
   "revision_abierta": "REV-F2-003",
-  "estado_publicacion": "borrador_editorial_no_publicar_sin_IH",
+  "estado_publicacion": "publicada_con_aprobacion_IH_provisional",
   "resumen": "Confirmación cooperación ERC-Podemos; propuesta de Ada Colau por Frente Amplio; suspensión cautelar de voto exterior. Sin recalibrar A-000 ni matriz MICMAC.",
   "senal_principal": "Alianzas ERC-Podemos y Frente Amplio (V4–V9–V16)",
   "variable_vigilancia": "V4 · Izquierda alternativa; garantías de sufragio",
   "variable_territorial": "V9 · Agenda nacionalista catalana",
-  "decision": "Propuesta D-007: mantener A-000; mantener REV-F2-003 y abrir vigilancia procedimental, sujeto a IH",
+  "decision": "D-007 aprobada provisionalmente; A-000 sin recalibración; REV-F2-003 abierta; MICMAC v0.2 intacta",
   "url": "diario/2026-10-13.html",
   "fuentes_temporales": [
     {
@@ -47,5 +47,6 @@
       "estado": "anterior_corte",
       "url": "https://elpais.com/espana/elecciones-generales/2026-10-13/sanchez-y-feijoo-ven-la-victoria-a-mano-y-creen-que-sus-fieles-estan-activados.html"
     }
-  ]
+  ],
+  "sync_version": "SYNC-29N-001"
 }

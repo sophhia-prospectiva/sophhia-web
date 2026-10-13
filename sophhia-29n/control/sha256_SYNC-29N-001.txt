@@ -1,0 +1,10 @@
+SYNC-29N-001 · 13-10-2026 · D-007 IH provisional
+SHA-256 (files relativos a sophhia-29n/)
+d8557167a2dd4b6e0f5f5ca2954fa5bbadb7734aa56a56db797bdfd21f3ac9e7  index.html
+0a62c7f74b680761ae921473a6ce252caa0eba2c67c3dea5b2d6066355dff19d  diario/index.html
+a7fc8391905fce68d75a6271a2ef3b0f863e44d4e64a31c219e9ae3eae71684a  diario/2026-10-13.html
+61ef474e37fa33cbf8ca63879a588b0fbc89c3d638979882fe67d16f559f0990  explorador/index.html
+8a6494cba656dec2b25f1fe78530410fe4cbbc5326a6427d4f82419e25137f93  data/current.json
+d955320c444254acec8ddeb97004743e2111f98d0bc613511b5780350443950a  data/dashboard.json
+5fd02229ba018f2558478b9b89059048c7ffa8ff9d49497555775b10e2a322b7  data/diario_index.json
+28ecaa8dbc1086f2b0a6794c4cc33c15aa035c18e3474423a342480e3cad9812  data/explorador_parametrico_29n_v0_1.json

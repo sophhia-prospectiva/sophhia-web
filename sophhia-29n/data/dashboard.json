@@ -1,5 +1,5 @@
 {
-  "version": "v0.23-D007-IH-pendiente",
+  "version": "v0.24-D007-IH-provisional-SYNC-29N-001",
   "updated": "2026-10-13",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
@@ -56,7 +56,7 @@
       "date": "2026-10-13",
       "title": "Alianzas de izquierda y derecho de sufragio: dos bifurcaciones bajo vigilancia",
       "recalibration": "No",
-      "state": "Pendiente IH"
+      "state": "IH provisional"
     }
   ],
   "scenarios": [
@@ -161,7 +161,7 @@
       "V9",
       "V16"
     ],
-    "decision": "Propuesta: no recalibrar, pendiente IH"
+    "decision": "Aprobación IH provisional · DEC-IH-D007-001; sin recalibración"
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -171,6 +171,6 @@
     "warning": "No constituye predicción certificada; laboratorio de sensibilidad prospectiva.",
     "data_file": "data/explorador_parametrico_29n_v0_1.json"
   },
-  "human_validation": "D-007 pendiente IH · DEC-IH-D006-001 provisional heredada",
+  "human_validation": "D-007 IH provisional · DEC-IH-D007-001",
   "micmac_review": "REV-F2-003 abierta; sin cambio de matriz"
 }
