@@ -1,0 +1,10 @@
+INC-SYNC-002 · Corrección de jerarquía temporal de portada
+Fecha: 13-10-2026
+Archivo modificado: sophhia-29n/index.html
+- Una sola ficha vigente de D-007, con fallback editorial seguro.
+- Consume data/current.json sin caché en cada carga, siempre que el registro indique publicada y validación provisional.
+- D-006 se muestra como histórica; D-005 y anteriores en Bitácora.
+- Se elimina enlace de actualización vigente desde ficha histórica.
+- No se modifican datos de resultados, análisis, modelo, Explorador ni páginas históricas.
+- Para cada D-00n posterior: actualizar el JSON y publicar la entrada de Bitácora, verificar en portada fecha, enlace y estado IH.
+- Comprobación pendiente: prueba visual real en GitHub Pages y recarga Safari.
