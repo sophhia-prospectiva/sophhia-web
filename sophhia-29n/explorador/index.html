@@ -55,12 +55,12 @@ section{padding:2rem 0}h2{font-family:'Cormorant Garamond',Georgia,serif;font-si
 
   <section>
     <h2>Panel interactivo</h2>
-    <p class="note">Desplaza una variable motriz y observa el efecto sobre cuatro escenarios vivos. El caso base se corresponde con la lectura D‑005: mayoría PP‑Vox dominante, tensión social por vivienda, vigilancia procedimental y eje nacional‑territorial activo.</p>
+    <p class="note">Desplaza una variable motriz y observa el efecto sobre cuatro escenarios vivos. El caso base paramétrico procede de la lectura D‑005, del 11 de octubre de 2026; no equivale a la actualización diaria ni implica recalibración de A‑000.</p><p class="note" id="explorer-update-meta" aria-live="polite"><strong>Referencia paramétrica:</strong> D‑005 · 11 oct 2026. <strong>Última actualización del observatorio:</strong> consultando fecha…</p>
     <div class="grid grid-2">
       <section class="panel" aria-label="Variables motrices">
         <h3>Variables motrices</h3>
         <div class="pre" role="group" aria-label="Preajustes">
-          <button class="btn" data-pre="base">Caso base D‑005</button>
+          <button class="btn" data-pre="base">Referencia D‑005</button>
           <button class="btn" data-pre="conservador">PP‑Vox amplio</button>
           <button class="btn" data-pre="progresista">Reactivación progresista</button>
           <button class="btn" data-pre="territorial">Tensión territorial</button>
@@ -68,7 +68,7 @@ section{padding:2rem 0}h2{font-family:'Cormorant Garamond',Georgia,serif;font-si
         </div>
         <div id="controls"></div>
         <div class="pre">
-          <button class="btn" id="reset">Restablecer base</button>
+          <button class="btn" id="reset">Restablecer caso base</button>
           <button class="btn" id="fixbase">Fijar este punto como base</button>
         </div>
         <div class="results" id="results" aria-live="polite"></div>
@@ -194,6 +194,8 @@ section{padding:2rem 0}h2{font-family:'Cormorant Garamond',Georgia,serif;font-si
     const niceCode=String(code||'sin edición').replace('-', '‑');
     document.getElementById('todayLabel1').textContent='hoy · '+niceCode;
     document.getElementById('todayLabel2').textContent=fmtDateLabel(date);
+    const status=document.getElementById('explorer-update-meta');
+    if(status) status.innerHTML='<strong>Referencia paramétrica:</strong> D‑005 · 11 oct 2026. <strong>Última actualización del observatorio:</strong> '+niceCode+' · '+fmtDateLabel(date);
     const firstTick=document.querySelector('#ticks text');
     if(firstTick) firstTick.textContent=niceCode;
   }

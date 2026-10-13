@@ -1,0 +1,5 @@
+SOPHHIA 29-N · Ajuste editorial del Explorador
+Archivo de destino: sophhia-web/sophhia-29n/explorador/index.html
+Cambios: botón Restablecer caso base; referencia D-005 separada de actualización vigente desde current.json.
+No se cambia el cálculo ni se recalibran escenarios.
+La publicación requiere commit en GitHub y validación visual posterior.
