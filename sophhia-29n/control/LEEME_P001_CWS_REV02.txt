@@ -1,0 +1,9 @@
+P001-CWS-001 REV02 · VERIFICADOR SOLAMENTE
+
+Destino: sophhia-web/sophhia-29n/control/verificar_sincronizacion_p001.py
+Sustituye el verificador REV01, sin modificar ninguna pagina HTML ni JSON.
+Verificacion en copia local D-008: 35 PASS, 0 FALLOS, 1 AVISO (corte temporal INE).
+Pruebas negativas: fecha de dashboard, encabezado, decision IH y enlace a entrada D-008: STOP.
+NO ejecuta automaticamente: requiere Python 3 sobre copia integra del arbol sophhia-29n.
+No equivale a validacion humana ni certificacion de las fuentes.
+SHA256 del script: ea50aa6814d116cccf0d1cb037fd3731c902c004bf069eae1b9356a1fc120ec0

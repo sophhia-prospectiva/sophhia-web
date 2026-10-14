@@ -59,6 +59,35 @@ def main():
     check(bool(url) and (base/url).is_file(),'Entrada vigente existe en '+url)
     page=file('index.html'); journal=file('diario/index.html'); explorer=file('explorador/index.html')
     present=file(url) if url else ''
+    # Dashboard: el control no debe aceptar un código viejo en una ficha vigente.
+    from html.parser import HTMLParser
+    class DashboardScan(HTMLParser):
+        def __init__(self):
+            super().__init__();self.in_dashboard=False;self.depth=0;self.region=None;self.stack=[];self.parts={};self.links={}
+        def handle_starttag(self,tag,attrs):
+            attrs=dict(attrs);id=attrs.get('id','');
+            if id=='dashboard':self.in_dashboard=True;self.depth=1
+            elif self.in_dashboard:self.depth+=1
+            if self.in_dashboard:
+                if id.startswith('dash-current-') or id.startswith('dash-where-') or id.startswith('dash-journey-'):self.region=id;self.parts[id]='';self.stack.append((id,self.depth))
+                if tag=='a' and id=='dash-current-link':self.links[id]=attrs.get('href','')
+        def handle_data(self,d):
+            if self.in_dashboard and self.region:self.parts[self.region]+=d
+        def handle_endtag(self,tag):
+            if self.in_dashboard:
+                if self.stack and self.stack[-1][1]==self.depth:self.stack.pop();self.region=self.stack[-1][0] if self.stack else None
+                self.depth-=1
+                if self.depth==0:self.in_dashboard=False
+    scan=DashboardScan();scan.feed(page)
+    required=['dash-current-badge','dash-current-title','dash-current-summary','dash-current-heading','dash-current-entry','dash-where-heading','dash-where-summary','dash-current-link']
+    check(all(k in scan.parts for k in required),'Dashboard tiene todos los campos actuales identificados')
+    check(code in scan.parts.get('dash-current-badge',''),'Dashboard visual: código vigente en ficha principal')
+    check(decision in scan.parts.get('dash-current-badge',''),'Dashboard visual: decisión IH vigente')
+    check(code in scan.parts.get('dash-current-heading',''),'Dashboard visual: encabezado estado actual')
+    check(code in scan.parts.get('dash-current-entry',''),'Dashboard visual: entrada vigente')
+    check(code in scan.parts.get('dash-where-heading',''),'Dashboard visual: dónde estamos')
+    check(scan.links.get('dash-current-link')==url,'Dashboard visual: enlace a entrada vigente')
+    check('dash-live-sync' in page and 'dashboard.json' in page,'Dashboard: sincronizador dinámico instalado')
     check(code in page,'Portada identifica entrada vigente')
     check(code in journal,'Bitácora identifica entrada vigente')
     check(decision in present,'Entrada vigente identifica decisión IH')
