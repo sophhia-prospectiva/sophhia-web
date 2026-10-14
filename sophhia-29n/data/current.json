@@ -1,52 +1,46 @@
 {
-  "codigo": "D-007",
-  "fecha": "2026-10-13",
-  "fecha_legible": "13 de octubre de 2026",
+  "codigo": "D-008",
+  "fecha": "2026-10-14",
+  "fecha_legible": "14 de octubre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "Alianzas de izquierda y derecho de sufragio: dos bifurcaciones bajo vigilancia",
+  "titulo": "Alianzas territoriales y garantías de sufragio: interdependencias bajo revisión",
   "contrato": "CP-29N-F0 v0.1 + Anexo A",
   "protocolo": "P001 + P001-E001",
   "capa": "F2-MICMAC-001 v0.2",
   "modo": "Modo A · Aproximación heurística estructurada",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Aprobación IH provisional · DEC-IH-D007-001",
-  "decision_id": "DEC-IH-D007-001",
+  "validacion": "Aprobación IH provisional · DEC-IH-D008-001",
+  "decision_id": "DEC-IH-D008-001",
   "revision_abierta": "REV-F2-003",
   "estado_publicacion": "publicada_con_aprobacion_IH_provisional",
-  "resumen": "Confirmación cooperación ERC-Podemos; propuesta de Ada Colau por Frente Amplio; suspensión cautelar de voto exterior. Sin recalibrar A-000 ni matriz MICMAC.",
-  "senal_principal": "Alianzas ERC-Podemos y Frente Amplio (V4–V9–V16)",
-  "variable_vigilancia": "V4 · Izquierda alternativa; garantías de sufragio",
-  "variable_territorial": "V9 · Agenda nacionalista catalana",
-  "decision": "D-007 aprobada provisionalmente; A-000 sin recalibración; REV-F2-003 abierta; MICMAC v0.2 intacta",
-  "url": "diario/2026-10-13.html",
+  "resumen": "El acuerdo PP-UPN se incorpora a la vigilancia territorial, junto con ERC-Podemos, Frente Amplio y el debate sobre el sufragio exterior. Sin recalibración de A-000 ni modificación de MICMAC v0.2.",
+  "senal_principal": "PP-UPN: cooperación electoral territorial; relaciones V11 y V16",
+  "variable_vigilancia": "V4, V9, V11, V12 y V16; garantías de sufragio",
+  "variable_territorial": "V11 · Agendas territoriales complementarias",
+  "decision": "D-008 aprobada provisionalmente · sin recalibración · REV-F2-003 abierta · P-005 pendiente",
+  "url": "diario/2026-10-14.html",
   "fuentes_temporales": [
     {
-      "medio": "Cadena SER",
+      "medio": "Cadena SER · Navarra",
+      "fecha": "2026-10-13",
+      "estado": "anterior_corte_por_fecha",
+      "url": "https://cadenaser.com/navarra/2026/10/13/principio-de-acuerdo-entre-pp-y-upn-para-ir-en-coalicion-el-29-n-radio-pamplona/"
+    },
+    {
+      "medio": "EL PAÍS · decisión del Supremo",
       "fecha": "2026-10-12",
+      "estado": "anterior_corte_por_fecha",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-12/el-voto-particular-sobre-la-decision-del-supremo-sobre-la-ley-de-nietos-el-29-n-introdujo-un-elemento-nuevo-y-decisivo.html"
+    },
+    {
+      "medio": "INE · IPC septiembre definitivo",
+      "fecha": "2026-10-14",
       "hora": "no contrastada",
-      "estado": "día_anterior_hora_pendiente",
-      "url": "https://cadenaser.com/nacional/2026/10/12/erc-y-podemos-confirman-su-acuerdo-de-colaboracion-para-las-elecciones-del-29-n-cadena-ser/"
-    },
-    {
-      "medio": "EL PAÍS",
-      "publicado": "2026-10-12T20:15:00+02:00",
-      "estado": "anterior_corte",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-10-12/el-frente-amplio-propone-a-ada-colau-como-candidata-a-la-presidencia-y-deja-abierta-la-integracion-de-podemos.html"
-    },
-    {
-      "medio": "Cadena SER",
-      "publicado": "2026-10-12T15:32:00+02:00",
-      "estado": "anterior_corte",
-      "url": "https://cadenaser.com/nacional/2026/10/12/el-supremo-mantiene-suspendido-el-voto-a-miles-de-nacionalizados-por-la-ley-de-nietos-el-29-n-cadena-ser/"
-    },
-    {
-      "medio": "EL PAÍS",
-      "publicado": "2026-10-13T05:30:00+02:00",
-      "estado": "anterior_corte",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-10-13/sanchez-y-feijoo-ven-la-victoria-a-mano-y-creen-que-sus-fieles-estan-activados.html"
+      "estado": "pendiente_hora_anterior_corte",
+      "url": "https://www.ine.es/"
     }
   ],
-  "sync_version": "SYNC-29N-001"
+  "sync_version": "P001-CWS-001 REV01; propuesta D-008"
 }

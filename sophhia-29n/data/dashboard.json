@@ -1,18 +1,18 @@
 {
-  "version": "v0.24-D007-IH-provisional-SYNC-29N-001",
-  "updated": "2026-10-13",
+  "version": "v0.25-D008-IH-provisional",
+  "updated": "2026-10-14",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-007",
+  "current_entry": "D-008",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
   "system_state": "A-000 sin recalibración; V4↔V9→V16 y vigilancia procedimental; MICMAC v0.2 intacto",
   "dominant_scenario": "Mayoría PP-Vox",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
-  "watch_variable": "V4; V9; V16; garantías de sufragio (revisar correspondencia con inventario)",
-  "social_axis": "Acuerdos ERC-Podemos y Frente Amplio; voto exterior; vivienda como antecedente",
+  "watch_variable": "V4, V9, V11, V12 y V16; garantías de sufragio",
+  "social_axis": "Cooperación PP-UPN, ERC-Podemos y Frente Amplio; censo exterior; IPC pendiente de certificación temporal",
   "path": [
     {
       "id": "D-001",
@@ -55,6 +55,13 @@
       "id": "D-007",
       "date": "2026-10-13",
       "title": "Alianzas de izquierda y derecho de sufragio: dos bifurcaciones bajo vigilancia",
+      "recalibration": "No",
+      "state": "IH provisional"
+    },
+    {
+      "id": "D-008",
+      "date": "2026-10-14",
+      "title": "Alianzas territoriales y garantías de sufragio: interdependencias bajo revisión",
       "recalibration": "No",
       "state": "IH provisional"
     }
@@ -155,13 +162,15 @@
     "reservation": "V4 · Fragmentación / recomposición de la izquierda alternativa queda pendiente de revisión IH por posible infravaloración."
   },
   "current_reading": {
-    "signal": "Acuerdos electorales de izquierda y controversia del censo exterior",
+    "signal": "PP-UPN: coordinación electoral territorial y garantías de sufragio",
     "micmac_variables": [
       "V4",
       "V9",
+      "V11",
+      "V12",
       "V16"
     ],
-    "decision": "Aprobación IH provisional · DEC-IH-D007-001; sin recalibración"
+    "decision": "DEC-IH-D008-001 · IH provisional; A-000 sin recalibración; P-005 pendiente"
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -171,6 +180,6 @@
     "warning": "No constituye predicción certificada; laboratorio de sensibilidad prospectiva.",
     "data_file": "data/explorador_parametrico_29n_v0_1.json"
   },
-  "human_validation": "D-007 IH provisional · DEC-IH-D007-001",
-  "micmac_review": "REV-F2-003 abierta; sin cambio de matriz"
+  "human_validation": "D-008 IH provisional · DEC-IH-D008-001",
+  "micmac_review": "REV-F2-003 abierta; examen propuesto V11–V16; matriz MICMAC v0.2 sin cambio"
 }

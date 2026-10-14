@@ -1,7 +1,15 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "D-007 · IH provisional · DEC-IH-D007-001",
+  "ultima_actualizacion": "D-008 · IH provisional · DEC-IH-D008-001",
   "entradas": [
+    {
+      "codigo": "D-008",
+      "fecha": "2026-10-14",
+      "titulo": "Alianzas territoriales y garantías de sufragio: interdependencias bajo revisión",
+      "url": "diario/2026-10-14.html",
+      "estado": "validacion_IH_provisional",
+      "decision": "DEC-IH-D008-001"
+    },
     {
       "codigo": "D-007",
       "fecha": "2026-10-13",

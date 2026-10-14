@@ -1,0 +1,23 @@
+SOPHHIA 29-N · D-008 · Paquete editorial sincronizado
+Fecha de corte: 14-10-2026 · 09:30 CEST
+DEC-IH-D008-001 · APROBACIÓN IH PROVISIONAL
+Publicación: NO AUTORIZADA todavía; requiere revisión humana del paquete y autorización expresa.
+
+P001-CWS-001 REV01 (copia local) · PASS 27 / AVISOS 1 / FALLOS 0
+RESULTADO: GO TÉCNICO CON RESERVAS
+Reserva: hora de publicación del dato definitivo IPC de septiembre INE no acreditada para corte 09:30. P-005 pendiente.
+
+6 archivos a subir bajo sophhia-29n:
+- index.html: portada y Dashboard visible, D-008
+- diario/index.html: D-008 primero y anteriores conservadas
+- diario/2026-10-14.html: D-008 íntegra, IH provisional
+- data/current.json: registro central vigente D-008
+- data/dashboard.json: estado D-008 sin recalibración
+- data/diario_index.json: índice cronológico D-008 a D-001
+
+No se modifica explorador/index.html: ya lee ../data/current.json y cambia dinámicamente el cono a D-008. Su código permanece intacto para evitar regresión.
+No se modifican los documentos de D-001 a D-007 ni la matriz MICMAC, ni los cálculos de A-000.
+
+Pruebas pendientes de publicación: revisión IH del paquete, pruebas navegador escritorio/móvil y verificación GitHub Pages. GO técnico no equivale a aprobación de publicación.
+
+AMPLIACIÓN: incluido explorador/index.html sin modificaciones respecto al archivo vigente de GitHub (Git blob SHA 937da535802310dfd0e12c6473061da4c4463fe3); lee current.json para reflejar D-008.
