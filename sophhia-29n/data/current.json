@@ -1,46 +1,59 @@
 {
-  "codigo": "D-008",
-  "fecha": "2026-10-14",
-  "fecha_legible": "14 de octubre de 2026",
-  "hora_corte": "09:30",
+  "codigo": "D-009",
+  "fecha": "2026-10-16",
+  "fecha_legible": "16 de octubre de 2026",
+  "hora_corte": "12:25",
   "timezone": "Europe/Madrid",
-  "titulo": "Alianzas territoriales y garantías de sufragio: interdependencias bajo revisión",
+  "titulo": "Las alianzas territoriales llegan al cierre del plazo de coaliciones",
   "contrato": "CP-29N-F0 v0.1 + Anexo A",
   "protocolo": "P001 + P001-E001",
   "capa": "F2-MICMAC-001 v0.2",
   "modo": "Modo A · Aproximación heurística estructurada",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Aprobación IH provisional · DEC-IH-D008-001",
-  "decision_id": "DEC-IH-D008-001",
+  "validacion": "Actualización editorial · interpretación pendiente de validación IH",
+  "decision_id": null,
   "revision_abierta": "REV-F2-003",
-  "estado_publicacion": "publicada_con_aprobacion_IH_provisional",
-  "resumen": "El acuerdo PP-UPN se incorpora a la vigilancia territorial, junto con ERC-Podemos, Frente Amplio y el debate sobre el sufragio exterior. Sin recalibración de A-000 ni modificación de MICMAC v0.2.",
-  "senal_principal": "PP-UPN: cooperación electoral territorial; relaciones V11 y V16",
-  "variable_vigilancia": "V4, V9, V11, V12 y V16; garantías de sufragio",
+  "estado_publicacion": "publicada_editorial_pendiente_IH",
+  "resumen": "El acuerdo anunciado en Canarias amplía la cooperación territorial, mientras sigue abierta la negociación estatal de la izquierda. Se incorpora Sigma Dos al archivo demoscópico como publicación del 12 de octubre. Sin recalibración de A-000 ni cambios en MICMAC.",
+  "senal_principal": "Acuerdo canario anunciado y cierre del plazo de coaliciones",
+  "variable_vigilancia": "V4, V9, V11, V12 y V16; seguimiento de garantías",
   "variable_territorial": "V11 · Agendas territoriales complementarias",
-  "decision": "D-008 aprobada provisionalmente · sin recalibración · REV-F2-003 abierta · P-005 pendiente",
-  "url": "diario/2026-10-14.html",
+  "decision": "Publicación editorial solicitada; interpretación pendiente de validación IH. A-000 y MICMAC sin cambios; REV-F2-003 abierta.",
+  "url": "diario/2026-10-16.html",
   "fuentes_temporales": [
     {
-      "medio": "Cadena SER · Navarra",
-      "fecha": "2026-10-13",
-      "estado": "anterior_corte_por_fecha",
-      "url": "https://cadenaser.com/navarra/2026/10/13/principio-de-acuerdo-entre-pp-y-upn-para-ir-en-coalicion-el-29-n-radio-pamplona/"
+      "id": "F-D009-01",
+      "medio": "RTVE",
+      "fecha": "2026-10-16",
+      "hora": "11:42",
+      "tipo": "periodistica",
+      "url": "https://www.rtve.es/noticias/20261016/elecciones-29n-coaliciones-plazo/17269290.shtml"
     },
     {
-      "medio": "EL PAÍS · decisión del Supremo",
+      "id": "F-D009-02",
+      "medio": "RTVC",
+      "fecha": "2026-10-15",
+      "hora": "18:20 (hora local no especificada en página)",
+      "tipo": "periodistica",
+      "url": "https://rtvc.es/podemos-nueva-canarias-iu-sumar-juntos-29n-bajo-nombre-unidad-pueblo-canario-15-octubre-2026/"
+    },
+    {
+      "id": "F-D009-03",
+      "medio": "Sigma Dos",
       "fecha": "2026-10-12",
-      "estado": "anterior_corte_por_fecha",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-10-12/el-voto-particular-sobre-la-decision-del-supremo-sobre-la-ley-de-nietos-el-29-n-introdujo-un-elemento-nuevo-y-decisivo.html"
+      "tipo": "primaria_instituto",
+      "url": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/"
     },
     {
-      "medio": "INE · IPC septiembre definitivo",
-      "fecha": "2026-10-14",
-      "hora": "no contrastada",
-      "estado": "pendiente_hora_anterior_corte",
-      "url": "https://www.ine.es/"
+      "id": "F-D009-04",
+      "medio": "Sigma Dos · ficha y desglose territorial",
+      "fecha": "2026-10-13",
+      "tipo": "primaria_instituto",
+      "url": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/"
     }
   ],
-  "sync_version": "P001-CWS-001 REV01; propuesta D-008"
+  "sync_version": "D009-editorial-20261016",
+  "registro_id": "REG-D009-20261016",
+  "nota_continuidad": "D-009 es la siguiente entrada publicada después de D-008 (14 de octubre). No existe entrada diaria publicada del 15 de octubre en el repositorio consultado. Se incorporan antecedentes del 15 sin simular publicación retrospectiva."
 }
