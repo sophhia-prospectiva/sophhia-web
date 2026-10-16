@@ -1,0 +1,105 @@
+{
+  "id": "REG-SERIES-29N-001",
+  "version": "1.0",
+  "created": "2026-10-16",
+  "status": "regla_aplicada_editorial_pendiente_IH",
+  "scope": "Reconstrucción documental 7–16; tramo solicitado 11–16. Se rehace también 7–10 para evitar unir escalas incompatibles.",
+  "source_commit": "229a030e52e4ef4f5165cd0f1dad9cfbb88e4b91",
+  "scenarios": {
+    "unit": "estado ordinal documentado, no plausibilidad ni probabilidad",
+    "levels": {
+      "1": "Referencia o estabilidad expresamente descrita",
+      "2": "Vigilancia expresamente descrita",
+      "3": "Refuerzo o subida explícita descrita"
+    },
+    "missing": "null = no evaluado en la ficha",
+    "rule": "Usar exclusivamente registro contexto con scenario_levels. No derivar de recuentos, sondeos ni fuerza de bloques. Heredar sólo si la ficha conserva expresamente lecturas anteriores, y citar origen. Un cambio 3→1 es cambio de etiqueta documental, no caída de probabilidad."
+  },
+  "variables": {
+    "unit": "atención documental ordinal, no importancia real ni peso MICMAC",
+    "levels": {
+      "1": "Mención/contexto",
+      "2": "Seguimiento o revisión explícita",
+      "3": "Atención alta/intensificación explícita"
+    },
+    "rule": "Por día y variable canónica: máximo de niveles de registros admisibles. No sumar menciones. Sin registro admisible: null, nunca cero."
+  },
+  "blocks": {
+    "unit": "número de unidades temáticas tratadas por grupo en la ficha",
+    "rule": "Contar IDs admisibles y externos cuyo groups contiene el grupo; un ID cuenta como máximo una vez por grupo. Una unidad puede referirse a varios grupos; no se suman las curvas como un total. No es balance electoral, de poder ni de escaños."
+  },
+  "signals": {
+    "unit": "recuento documental por clase",
+    "rule": "Clases mutuamente excluyentes por ID: Confirmatorias/Vigilancia/Disruptivas/Recalibradoras. Excluir contexto, método, reservas y enlaces genéricos. Contar temas tratados, no acontecimientos nuevos ni independientes entre días. 0 significa ninguna unidad codificada en esa clase en la ficha, no ausencia de señales en el mundo."
+  },
+  "deduplication": "Una unidad por tema y entrada. D-005 fusiona vivienda 01/02 y continuidad electoral 03/04. La repetición en otra fecha es seguimiento, no evento nuevo acumulativo.",
+  "temporal": "No incorporar información posterior al corte de la ficha. D-009 del 15 carece de hora común certificada y sigue siendo borrador; se marca en cada punto. Información actual del 16 se limita a las 12:25, no a la hora de reconstrucción.",
+  "mapping": {
+    "Vivienda": "V7",
+    "Inflación/coste de vida": "V8",
+    "Fragmentación izquierda": "V4",
+    "Relación PP‑Vox": "V3",
+    "Participación": "V6",
+    "Bloqueo": "V15",
+    "Agenda nacionalista catalana": "V9",
+    "Agenda nacionalista vasca": "V10",
+    "Veto/bisagra territorial": "V12",
+    "Compatibilidad programática-territorial": "V16",
+    "Agendas territoriales complementarias": "V11"
+  },
+  "legacy_mapping_notes": [
+    "CSV del 8 llama V3 a fragmentación izquierda: se remapea por significado a V4.",
+    "CSV del 8 llama V4 a vivienda: se remapea por significado a V7.",
+    "CSV del 8 llama V9 a confianza/voto correo: se remapea a V13.",
+    "No se modifican los documentos históricos ni la matriz MICMAC."
+  ],
+  "snapshots": [
+    {
+      "path": "diario/2026-10-07.html",
+      "sha256": "fe1d9d198c4668d1b1a1b85be5e60d1f6c3bfc8cf40d6b6d27903b6ccb6b9715"
+    },
+    {
+      "path": "diario/2026-10-08.html",
+      "sha256": "62668338928e6c40d8fa4d33f2fb0698ea4a3cb32ed5ba2254485a48930e3943"
+    },
+    {
+      "path": "diario/2026-10-09.html",
+      "sha256": "b0c9ae082a938941642552a7089b21821afbf4b95f34bee43a515980b6f6ebdd"
+    },
+    {
+      "path": "diario/2026-10-10.html",
+      "sha256": "dca83bf5c44a598393e3be16b4ef7758c9486b399987d74ee4fe762c0ff9e5ed"
+    },
+    {
+      "path": "diario/2026-10-11.html",
+      "sha256": "59263d4bd40c6e31b9d078cda2e63aa9cf3679a040f713bf04d8894d289e92af"
+    },
+    {
+      "path": "diario/2026-10-12.html",
+      "sha256": "9320e4ab910a27bcf3e5322739e78207318dff653aab6b699f13478c13765bcf"
+    },
+    {
+      "path": "diario/2026-10-13.html",
+      "sha256": "a7fc8391905fce68d75a6271a2ef3b0f863e44d4e64a31c219e9ae3eae71684a"
+    },
+    {
+      "path": "diario/2026-10-14.html",
+      "sha256": "f3ccd13325edf803dbbdf3ce23c239540ae2b434276453e1881df0cf7eec4a7c"
+    },
+    {
+      "path": "diario/2026-10-15.html",
+      "sha256": "dff6944a38063dfd98c1b80e7750e4c63c06ecff81745f8136f8507a616fcfe4"
+    },
+    {
+      "path": "diario/2026-10-16.html",
+      "sha256": "750c819c9cd3e956d56fb29f028206cfb4992eea0175c8a76d38427a18926bbc"
+    }
+  ],
+  "limitations": [
+    "Codificación retrospectiva realizada por IA; pendiente de validación IH específica de la nueva regla y codificaciones.",
+    "La aprobación de D-010 no aprueba automáticamente esta reconstrucción posterior.",
+    "Trazabilidad a la ficha no equivale a certificación primaria del hecho externo.",
+    "D-009 presenta fuentes genéricas y hora no común; puntos de escenario o variables sin evidencia quedan null.",
+    "No se ha encontrado sustento específico para V10 en el tramo; se conserva null."
+  ]
+}

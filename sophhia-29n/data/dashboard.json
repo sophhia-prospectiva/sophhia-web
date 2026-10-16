@@ -125,7 +125,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Modo A · indicadores estructurados de seguimiento",
+    "mode": "Reconstrucción documental retrospectiva: estados ordinales y recuentos. Codificación IA pendiente IH; no probabilidades ni pesos MICMAC.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -133,11 +133,14 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.27-fit-sync",
+    "version": "v0.28-auditada-reconstruccion-v1",
     "cutoff": "2026-10-16",
-    "last_numeric_date": "2026-10-10",
-    "missing_value_policy": "null = pendiente de cálculo; nunca cero ni arrastre del último valor",
-    "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento"
+    "last_numeric_date": "2026-10-16",
+    "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
+    "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
+    "method": "REG-SERIES-29N-001",
+    "audit_url": "metodo/auditoria-series-2026-10-16.html",
+    "validation": "Reconstrucción editorial pendiente de validación IH específica"
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
   "territorial_radar": {

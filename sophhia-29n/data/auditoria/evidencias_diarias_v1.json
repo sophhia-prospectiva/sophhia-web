@@ -1,0 +1,1460 @@
+{
+  "schema_version": "1.0",
+  "method": "REG-SERIES-29N-001",
+  "records": [
+    {
+      "id": "REC-D-001-01",
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "title": "Apertura y calendario del observatorio",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {
+        "V15": 1
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-07.html",
+        "locator": "Señal o lectura correspondiente: Apertura y calendario del observatorio",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Actuación interna, excluida del recuento externo.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-001-02",
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "title": "Variables sociales de arranque",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {
+        "V7": 1,
+        "V8": 1,
+        "V4": 1,
+        "V13": 1
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-07.html",
+        "locator": "Señal o lectura correspondiente: Variables sociales de arranque",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Inventario inicial sin noticia fechada independiente; sólo mención documental.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-002-01",
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "title": "Encuesta NC Report refuerza el marco de mayoría PP-Vox",
+      "classification": "Confirmatorias",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V1": 2,
+        "V2": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PP‑Vox",
+        "PSOE + izquierda"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-08.html",
+        "locator": "Señal o lectura correspondiente: Encuesta NC Report refuerza el marco de mayoría PP-Vox",
+        "external_urls": [
+          "https://www.lasexta.com/elecciones/generales/encuestas-elecciones-generales_202610056ac365161c30184d44b52907.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-002-02",
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "title": "Colau condiciona candidatura a unidad",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2,
+        "V5": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-08.html",
+        "locator": "Señal o lectura correspondiente: Colau condiciona candidatura a unidad",
+        "external_urls": [
+          "https://efe.com/espana/2026-10-08/ada-colau-dispuesta-liderar-frente-amplio/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-002-03",
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "title": "Vivienda y tratamiento público del fallecimiento",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V7": 3
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-08.html",
+        "locator": "Señal o lectura correspondiente: Vivienda y tratamiento público del fallecimiento",
+        "external_urls": [
+          "https://www.europapress.es/madrid/noticia-muere-maricarmen-abascal-convertida-simbolo-lucha-vivienda-desahucio-20261007203240.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "La entrada dice que se intensifica el eje vivienda; no se infiere transferencia de votos.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-002-04",
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "title": "Desinformación sobre vivienda",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V7": 2,
+        "V13": 2,
+        "V14": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "Garantías y procedimiento"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-08.html",
+        "locator": "Señal o lectura correspondiente: Desinformación sobre vivienda",
+        "external_urls": [
+          "https://elpais.com/espana/elecciones-generales/2026-10-08/el-bulo-ultra-del-asesinato-de-maricarmen-procede-una-autopsia-zurdos-de-mierda-el-psoe-hara-todo-para-ganar-las-elecciones.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-002-05",
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "title": "Confianza en voto por correo",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V13": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "Garantías y procedimiento"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-08.html",
+        "locator": "Señal o lectura correspondiente: Confianza en voto por correo",
+        "external_urls": [
+          "https://cadenaser.com/castillayleon/2026/10/08/ccoo-exige-al-pp-y-a-vox-que-dejen-de-sembrar-dudas-sobre-el-voto-por-correo-es-seguro-y-fiable-radio-palencia/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-002-90",
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "title": "Estado cualitativo de escenarios",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {
+        "G1": 3,
+        "G2": 1,
+        "G4": 2,
+        "G5": 1
+      },
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-08.html",
+        "locator": "Lectura de escenarios / continuidad del marco",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "D-002: G1 reforzado; G2 estable; G4 vigilancia; G5 estable.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-003-01",
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "title": "Inicio de operación ordinaria",
+      "classification": "metodologica",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-09.html",
+        "locator": "Señal o lectura correspondiente: Inicio de operación ordinaria",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "No es señal política externa; se excluye.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-003-02",
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "title": "40dB refuerza mayoría PP-Vox",
+      "classification": "Confirmatorias",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V1": 2,
+        "V2": 2,
+        "V3": 1
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PP‑Vox",
+        "PSOE + izquierda"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-09.html",
+        "locator": "Señal o lectura correspondiente: 40dB refuerza mayoría PP-Vox",
+        "external_urls": [
+          "https://cadenaser.com/nacional/2026/10/09/pp-y-vox-lograrian-una-amplia-mayoria-absoluta-con-mas-de-40-escanos-de-ventaja-sobre-el-bloque-de-la-investidura-cadena-ser/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-003-03",
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "title": "Sumar pide negociación de candidaturas",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-09.html",
+        "locator": "Señal o lectura correspondiente: Sumar pide negociación de candidaturas",
+        "external_urls": [
+          "https://elpais.com/espana/elecciones-generales/2026-10-09/movimiento-sumar-llama-al-resto-de-partidos-del-frente-amplio-a-negociar-con-discrecion-y-generosidad.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-003-04",
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "title": "IPC adelantado como antecedente de coste de vida",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V8": 2
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-09.html",
+        "locator": "Señal o lectura correspondiente: IPC adelantado como antecedente de coste de vida",
+        "external_urls": [
+          "https://www.ine.es/dyngs/Prensa/es/adIPC0926.htm"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Se codifica la atención prestada al antecedente; no se revalida aquí su cifra macroeconómica ni su fecha de emisión.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-003-05",
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "title": "Medidas de vivienda tratadas en la entrada",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V7": 2
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-09.html",
+        "locator": "Señal o lectura correspondiente: Medidas de vivienda tratadas en la entrada",
+        "external_urls": [
+          "https://www.boe.es/eli/es/rdl/2026/10/06/29"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-003-90",
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "title": "Estado cualitativo de escenarios",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {
+        "G1": 3,
+        "G2": 1,
+        "G4": 2,
+        "G5": 1
+      },
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-09.html",
+        "locator": "Lectura de escenarios / continuidad del marco",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "D-003: G1 sube leve; G2 estable; G4 vigilancia; G5 estable.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-004-01",
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "title": "Aplicación MICMAC v0.2",
+      "classification": "metodologica",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-10.html",
+        "locator": "Señal o lectura correspondiente: Aplicación MICMAC v0.2",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Actuación interna; no es señal externa.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-004-02",
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "title": "Censo electoral y voto exterior",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V6": 2,
+        "V13": 3,
+        "V11": 1
+      },
+      "scenario_levels": {},
+      "groups": [
+        "Garantías y procedimiento"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-10.html",
+        "locator": "Señal o lectura correspondiente: Censo electoral y voto exterior",
+        "external_urls": [
+          "https://ine.es/dyngs/Prensa/es/EG2026.htm"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-004-03",
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "title": "Controversia de ley de nietos",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V13": 3,
+        "V14": 2,
+        "V15": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "Garantías y procedimiento"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-10.html",
+        "locator": "Señal o lectura correspondiente: Controversia de ley de nietos",
+        "external_urls": [
+          "https://elpais.com/expres/2026-10-10/podran-votar-los-nacionalizados-por-la-ley-de-nietos-el-29-de-noviembre-claves-del-embrollo.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-004-04",
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "title": "Rufián y Frente Amplio",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2,
+        "V5": 1,
+        "V9": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-10.html",
+        "locator": "Señal o lectura correspondiente: Rufián y Frente Amplio",
+        "external_urls": [
+          "https://cadenaser.com/nacional/2026/10/09/ada-colau-abre-las-puertas-del-frente-amplio-a-rufian-para-ayudar-a-unir-a-toda-la-izquierda-cadena-ser/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-004-05",
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "title": "Pascal y Junts",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V9": 2,
+        "V12": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "Territoriales/bisagra"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-10.html",
+        "locator": "Señal o lectura correspondiente: Pascal y Junts",
+        "external_urls": [
+          "https://elpais.com/espana/catalunya/2026-10-09/marta-pascal-firma-la-paz-con-puigdemont-y-se-alia-con-junts.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-004-06",
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "title": "Sondeos de referencia mantienen mayoría PP-Vox",
+      "classification": "Confirmatorias",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V1": 2,
+        "V2": 2,
+        "V3": 1,
+        "V17": 1
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PP‑Vox",
+        "PSOE + izquierda"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-10.html",
+        "locator": "Señal o lectura correspondiente: Sondeos de referencia mantienen mayoría PP-Vox",
+        "external_urls": [
+          "https://www.rtve.es/noticias/20261005/encuestas-elecciones-generales-29n-pp-vox-diputados/17253873.shtml"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-004-90",
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "title": "Estado cualitativo de escenarios",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {
+        "G1": 3,
+        "G2": 1,
+        "G4": 2,
+        "G5": 2
+      },
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-10.html",
+        "locator": "Lectura de escenarios / continuidad del marco",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "D-004, tabla 7: G1 estable/sube leve; G2 estable; G4 vigilancia; G5 vigilancia procedimental.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-005-01",
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "title": "Malestar social y vivienda transversal",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V7": 3,
+        "V8": 2,
+        "V6": 2,
+        "V14": 3,
+        "V5": 1
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-11.html",
+        "locator": "Apartados 2.1, 2.2 y 6",
+        "external_urls": [
+          "https://elpais.com/espana/elecciones-generales/2026-10-11/el-gran-enfado-salta-a-las-urnas.html",
+          "https://elpais.com/espana/elecciones-generales/2026-10-11/vivienda-inmigracion-o-gobierno-que-preocupa-mas-a-los-votantes-de-cada-partido.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Se fusionan S-D005-01 y 02: mismo núcleo vivienda/malestar; no se contabilizan como dos eventos independientes.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-005-02",
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "title": "Ventaja y encuestas PP-Vox",
+      "classification": "Confirmatorias",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V1": 2,
+        "V2": 2,
+        "V3": 1,
+        "V5": 1,
+        "V6": 2,
+        "V17": 1
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PP‑Vox",
+        "PSOE + izquierda"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-11.html",
+        "locator": "Apartados 2.3, 2.4 y tabla de señales",
+        "external_urls": [
+          "https://elpais.com/espana/elecciones-generales/2026-10-11/la-cronica-sanchez-contra-lo-imposible.html",
+          "https://www.lasexta.com/elecciones/generales/barometro-lasexta-protestas-vivienda-impactan-encuestas-que-hunden-bloque-izquierda-disparan-vox_202610096ac8ae9bb79b18452fc08907.html",
+          "https://www.rtve.es/noticias/20261005/encuestas-elecciones-generales-29n-pp-vox-diputados/17253873.shtml"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Se fusionan S-D005-03 y 04: narración de la ventaja y sus sondeos; una unidad temática por entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-005-03",
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "title": "Voto exterior y seguimiento procedimental",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V13": 3,
+        "V14": 2,
+        "V15": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "Garantías y procedimiento"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-11.html",
+        "locator": "Apartado 2.5 y 6",
+        "external_urls": [
+          "https://www.que.es/2026/10/11/ley-nietos-voto-supremo-29n/",
+          "https://www.elespanol.com/espana/20261009/censo-crece-millones-personas-exterior-espera-decision-tribunal-supremo/1003744415845_0.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-005-04",
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "title": "TC, amnistía y procés",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V9": 2,
+        "V13": 3,
+        "V14": 3,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "Territoriales/bisagra",
+        "Garantías y procedimiento"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-11.html",
+        "locator": "Apartado 2.6 y 6",
+        "external_urls": [
+          "https://elpais.com/espana/2026-10-11/candido-conde-pumpido-cuestionar-al-tribunal-constitucional-es-cuestionar-la-democracia.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-005-90",
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "title": "Estado cualitativo de escenarios",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {
+        "G1": 3,
+        "G2": 1,
+        "G4": 2,
+        "G5": 2
+      },
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-11.html",
+        "locator": "Lectura de escenarios / continuidad del marco",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "D-005, apartado 7: G1 estable/sube leve; G2 estable; G4 vigilancia; G5 vigilancia procedimental.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-005-91",
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "title": "V4 pendiente de revisión, sin nueva señal",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {
+        "V4": 2
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-11.html",
+        "locator": "Apartado 6 · Variables revisadas",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "La entrada mantiene expresamente V4 en revisión; no se cuenta como señal externa adicional.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-006-01",
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "title": "Negociaciones ERC-Podemos",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2,
+        "V9": 2,
+        "V12": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-12.html",
+        "locator": "S-D006-01; negociaciones, no acuerdo definitivo",
+        "external_urls": [
+          "https://cadenaser.com/nacional/2026/10/11/erc-y-podemos-ultiman-un-acuerdo-para-el-29n-cadena-ser/?outputType=amp"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-006-02",
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "title": "Fiesta Nacional y anuncio de Vox en Ceuta",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V2": 1,
+        "V14": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PP‑Vox"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-12.html",
+        "locator": "S-D006-02",
+        "external_urls": [
+          "https://www.europapress.es/nacional/noticia-abascal-ausentara-tambien-ano-desfile-12-octubre-celebrara-hispanidad-ceuta-20261009102224.html",
+          "https://www.rtve.es/rtve/20261009/rtve-retransmite-directo-celebracion-dia-fiesta-nacional-12-octubre/17260502.shtml"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Anuncio de Vox/Fiesta Nacional: se codifica V2/V14. No se confunde identidad española o Ceuta con agenda nacionalista catalana V9.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-006-03",
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "title": "Vivienda como preocupación transversal",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V7": 2,
+        "V6": 1,
+        "V5": 1
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-12.html",
+        "locator": "S-D006-03",
+        "external_urls": [
+          "https://elpais.com/espana/elecciones-generales/2026-10-11/vivienda-inmigracion-o-gobierno-que-preocupa-mas-a-los-votantes-de-cada-partido.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Antecedente documentado, no encuesta nueva del 12.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-006-90",
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "title": "Estado cualitativo de escenarios",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {
+        "G1": 1,
+        "G2": 1,
+        "G4": 2,
+        "G5": 1
+      },
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-12.html",
+        "locator": "Lectura de escenarios / continuidad del marco",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "D-006, apartado 4: G1/G2/G5 estables; G4 vigilancia reforzada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-006-91",
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "title": "Marco estable: relación PP-Vox y bloqueo",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {
+        "V3": 1,
+        "V15": 1
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-12.html",
+        "locator": "Apartado 4 · Continuidades",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-007-01",
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "title": "Colaboración ERC-Podemos anunciada",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2,
+        "V9": 2,
+        "V12": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-13.html",
+        "locator": "S-D007-01",
+        "external_urls": [
+          "https://cadenaser.com/nacional/2026/10/12/erc-y-podemos-confirman-su-acuerdo-de-colaboracion-para-las-elecciones-del-29-n-cadena-ser/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-007-02",
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "title": "Propuesta de candidatura Frente Amplio",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2,
+        "V9": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-13.html",
+        "locator": "S-D007-02",
+        "external_urls": [
+          "https://elpais.com/espana/elecciones-generales/2026-10-12/el-frente-amplio-propone-a-ada-colau-como-candidata-a-la-presidencia-y-deja-abierta-la-integracion-de-podemos.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-007-03",
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "title": "Medida cautelar sobre voto exterior",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V13": 2,
+        "V15": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "Garantías y procedimiento"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-13.html",
+        "locator": "S-D007-03",
+        "external_urls": [
+          "https://cadenaser.com/nacional/2026/10/12/el-supremo-mantiene-suspendido-el-voto-a-miles-de-nacionalizados-por-la-ley-de-nietos-el-29-n-cadena-ser/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Atención a garantías; personas afectadas no equivalen a votos perdidos.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-007-04",
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "title": "Movilización declarada por líderes",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V6": 2,
+        "V14": 1
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PP‑Vox",
+        "PSOE + izquierda"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-13.html",
+        "locator": "S-D007-04",
+        "external_urls": [
+          "https://elpais.com/espana/elecciones-generales/2026-10-13/sanchez-y-feijoo-ven-la-victoria-a-mano-y-creen-que-sus-fieles-estan-activados.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Declaraciones de confianza, no observación de participación real.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-007-90",
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "title": "Estado cualitativo de escenarios",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {
+        "G1": 1,
+        "G2": 1,
+        "G4": 2,
+        "G5": 1
+      },
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-13.html",
+        "locator": "Lectura de escenarios / continuidad del marco",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "D-007, apartado 4: G1/G2 de referencia; G4 vigilancia reforzada; G5 sin cambio probado.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-007-91",
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "title": "G5 sin cambio probado",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {
+        "V15": 1
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-13.html",
+        "locator": "Apartado 4 · MICMAC y escenarios",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-008-01",
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "title": "Principio de acuerdo PP-UPN",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V11": 2,
+        "V12": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PP‑Vox",
+        "Territoriales/bisagra"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-14.html",
+        "locator": "S-D008-01; ratificación primaria pendiente",
+        "external_urls": [
+          "https://cadenaser.com/navarra/2026/10/13/principio-de-acuerdo-entre-pp-y-upn-para-ir-en-coalicion-el-29-n-radio-pamplona/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-008-02",
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "title": "Continuidad ERC-Podemos y Frente Amplio",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2,
+        "V9": 2,
+        "V12": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-14.html",
+        "locator": "S-D008-02",
+        "external_urls": [
+          "https://cadenaser.com/nacional/2026/10/11/erc-y-podemos-ultiman-un-acuerdo-para-el-29n-cadena-ser/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Continuidad de tema tratado; no se cuenta como evento nuevo acumulativo.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-008-03",
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "title": "Continuidad de garantías del voto exterior",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V13": 2,
+        "V15": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "Garantías y procedimiento"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-14.html",
+        "locator": "S-D008-03",
+        "external_urls": [
+          "https://elpais.com/espana/elecciones-generales/2026-10-12/el-voto-particular-sobre-la-decision-del-supremo-sobre-la-ley-de-nietos-el-29-n-introdujo-un-elemento-nuevo-y-decisivo.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-008-04",
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "title": "IPC definitivo no admisible al corte",
+      "classification": "excluida",
+      "eligible": false,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-14.html",
+        "locator": "S-D008-04 y tabla de corte",
+        "external_urls": [
+          "https://www.ine.es/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "La entrada no acredita emisión antes de 09:30; no entra en niveles ni recuentos.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-008-90",
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "title": "Estado cualitativo de escenarios",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {
+        "G1": 1,
+        "G2": 1,
+        "G4": 2,
+        "G5": 1
+      },
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-14.html",
+        "locator": "Lectura de escenarios / continuidad del marco",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "D-008, apartado 5 conserva expresamente lecturas anteriores. Herencia de estados documentada, no arrastre de puntuaciones electorales.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-008-91",
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "title": "Vivienda y coste de vida como antecedente pendiente",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {
+        "V7": 1,
+        "V8": 1
+      },
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-14.html",
+        "locator": "S-D008-04 · antecedente anterior",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Se codifica sólo su mención como antecedente, no el IPC definitivo excluido.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-009-01",
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "title": "Divergencia CIS y promedio de encuestas",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V1": 2,
+        "V2": 2,
+        "V5": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PP‑Vox",
+        "PSOE + izquierda"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-15.html",
+        "locator": "S-D009-01",
+        "external_urls": [
+          "https://www.rtve.es/noticias/20261014/cis-dispara-a-118-puntos-ventaja-del-psoe-con-pp-tras-caida-del-decreto-maricarmen/17265537.shtml",
+          "https://www.rtve.es/noticias/20261005/encuestas-elecciones-generales-29n-pp-vox-diputados/17253873.shtml"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Se documenta divergencia, sin privilegiar un instituto ni inferir ganador.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-009-02",
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "title": "Negociaciones territoriales de candidaturas",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2,
+        "V11": 2,
+        "V12": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-15.html",
+        "locator": "S-D009-02",
+        "external_urls": [
+          "https://elpais.com/espana/elecciones-generales/2026-10-15/podemos-y-los-partidos-del-frente-amplio-avanzan-en-los-acuerdos-territoriales-para-el-29-n.html"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-009-03",
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "title": "Garantías con enlace genérico",
+      "classification": "excluida",
+      "eligible": false,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-15.html",
+        "locator": "S-D009-03",
+        "external_urls": [
+          "https://elpais.com/espana/elecciones-generales/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "La ficha sólo enlaza una sección de noticias, sin pieza precisa ni hora común de corte; excluida del cómputo.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-009-04",
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "title": "Compromís con enlace genérico",
+      "classification": "excluida",
+      "eligible": false,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-15.html",
+        "locator": "S-D009-04",
+        "external_urls": [
+          "https://www.elespanol.com/temas/elecciones_generales_29_n_2026/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "La ficha sólo enlaza un índice temático; evidencia insuficiente para un nuevo punto cuantitativo.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-010-01",
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "title": "Vencimiento previsto del plazo de coaliciones",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2,
+        "V11": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra",
+        "Garantías y procedimiento"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-16.html",
+        "locator": "S-D010-01",
+        "external_urls": [
+          "https://www.rtve.es/noticias/20261016/elecciones-29n-coaliciones-plazo/17269290.shtml"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Se conoce el plazo, no su resultado de la noche. PDF primario JEC pendiente.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-010-02",
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "title": "Acuerdo canario anunciado el 15",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2,
+        "V11": 2,
+        "V12": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-16.html",
+        "locator": "S-D010-02",
+        "external_urls": [
+          "https://rtvc.es/podemos-nueva-canarias-iu-sumar-juntos-29n-bajo-nombre-unidad-pueblo-canario-15-octubre-2026/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Disponible antes del corte del 16; no se introduce retrospectivamente en el borrador del 15.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-010-03",
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "title": "Negociación estatal abierta",
+      "classification": "Vigilancia",
+      "eligible": true,
+      "scope": "externa",
+      "count_in_signals": true,
+      "variable_levels": {
+        "V4": 2,
+        "V9": 2,
+        "V16": 2
+      },
+      "scenario_levels": {},
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "evidence": {
+        "entry_url": "diario/2026-10-16.html",
+        "locator": "S-D010-03",
+        "external_urls": [
+          "https://www.rtve.es/noticias/20261016/elecciones-29n-coaliciones-plazo/17269290.shtml"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Codificación retrospectiva del contenido expresamente tratado en la entrada.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-010-04",
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "title": "Incorporación documental Sigma Dos del 12",
+      "classification": "metodologica",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {},
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-16.html",
+        "locator": "S-D010-04",
+        "external_urls": [
+          "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/",
+          "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/"
+        ],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "Ingesta de estudio anterior, no sondeo nuevo ni evento electoral del 16; excluida de señales externas.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    },
+    {
+      "id": "REC-D-010-90",
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "title": "Estado cualitativo de escenarios",
+      "classification": "contexto",
+      "eligible": true,
+      "scope": "interna_o_no_admitida",
+      "count_in_signals": false,
+      "variable_levels": {},
+      "scenario_levels": {
+        "G1": 1,
+        "G2": 1,
+        "G4": 2,
+        "G5": 1
+      },
+      "groups": [],
+      "evidence": {
+        "entry_url": "diario/2026-10-16.html",
+        "locator": "Lectura de escenarios / continuidad del marco",
+        "external_urls": [],
+        "basis": "Documento diario archivado; no certificación independiente del hecho externo"
+      },
+      "reason": "D-010, apartado 2 conserva el marco anterior. Herencia explícita del marco validado D-008; no supone cambio de probabilidades.",
+      "validation": "codificacion_editorial_pendiente_IH"
+    }
+  ]
+}

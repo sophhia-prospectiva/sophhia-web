@@ -1,290 +1,268 @@
 {
+  "version": "v0.28-auditada-reconstruccion-v1",
+  "mode": "Reconstrucción documental retrospectiva: estados ordinales y recuentos. Codificación IA pendiente IH; no probabilidades ni pesos MICMAC.",
+  "method": "REG-SERIES-29N-001",
+  "cutoff": "2026-10-16",
+  "current_entry": "D-010",
+  "last_numeric_date": "2026-10-16",
+  "updated": "2026-10-16",
+  "reconstruction_date": "2026-10-16",
+  "interpretation_cutoff": "2026-10-16T12:25:00+02:00",
+  "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
     {
       "date": "2026-10-07",
-      "entry": "D-001"
+      "entry": "D-001",
+      "source_status": "archivada",
+      "retrospective": true
     },
     {
       "date": "2026-10-08",
-      "entry": "D-002"
+      "entry": "D-002",
+      "source_status": "archivada",
+      "retrospective": true
     },
     {
       "date": "2026-10-09",
-      "entry": "D-003"
+      "entry": "D-003",
+      "source_status": "archivada",
+      "retrospective": true
     },
     {
       "date": "2026-10-10",
-      "entry": "D-004"
+      "entry": "D-004",
+      "source_status": "archivada",
+      "retrospective": true
     },
     {
       "date": "2026-10-11",
-      "entry": "D-005"
+      "entry": "D-005",
+      "source_status": "archivada",
+      "retrospective": true
     },
     {
       "date": "2026-10-12",
-      "entry": "D-006"
+      "entry": "D-006",
+      "source_status": "validacion_IH_provisional",
+      "retrospective": true
     },
     {
       "date": "2026-10-13",
-      "entry": "D-007"
+      "entry": "D-007",
+      "source_status": "validacion_IH_provisional",
+      "retrospective": true
     },
     {
       "date": "2026-10-14",
-      "entry": "D-008"
+      "entry": "D-008",
+      "source_status": "validacion_IH_provisional",
+      "retrospective": true
     },
     {
       "date": "2026-10-15",
-      "entry": "D-009"
+      "entry": "D-009",
+      "source_status": "borrador_recuperado_pendiente_IH",
+      "retrospective": true
     },
     {
       "date": "2026-10-16",
-      "entry": "D-010"
+      "entry": "D-010",
+      "source_status": "validacion_IH",
+      "retrospective": true
     }
   ],
   "scenarios": {
     "G1 · PP‑Vox coalición": [
-      62,
-      63,
-      65,
-      66,
       null,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
       null,
-      null,
-      null,
-      null,
-      null
+      1
     ],
     "G2 · PP apoyo Vox": [
-      58,
-      58,
-      58,
-      58,
       null,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
       null,
-      null,
-      null,
-      null,
-      null
+      1
     ],
     "G4 · Reconstrucción progresista": [
-      29,
-      31,
-      30,
-      32,
       null,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
       null,
-      null,
-      null,
-      null,
-      null
+      2
     ],
     "G5 · Bloqueo/repetición": [
-      18,
-      18,
-      18,
-      22,
       null,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
       null,
-      null,
-      null,
-      null,
-      null
+      1
     ]
   },
   "blocks": {
     "PP‑Vox": [
-      68,
-      69,
-      71,
-      71,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
     ],
     "PSOE + izquierda": [
-      44,
-      43,
-      42,
-      42,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0,
+      2,
+      2,
+      2,
+      1,
+      1,
+      3,
+      1,
+      2,
+      3
     ],
     "Territoriales/bisagra": [
-      37,
-      36,
-      35,
-      39,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0,
+      0,
+      0,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      3
     ],
-    "Riesgo no mayoría clara": [
-      24,
-      24,
-      23,
-      25,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+    "Garantías y procedimiento": [
+      0,
+      2,
+      0,
+      2,
+      2,
+      0,
+      1,
+      1,
+      0,
+      1
     ]
   },
   "variables": {
     "Vivienda": [
-      76,
-      78,
-      80,
-      80,
+      1,
+      3,
+      2,
       null,
+      3,
+      2,
       null,
-      null,
-      null,
+      1,
       null,
       null
     ],
     "Inflación/coste de vida": [
-      70,
-      70,
-      73,
-      73,
+      1,
+      null,
+      2,
+      null,
+      2,
       null,
       null,
-      null,
-      null,
+      1,
       null,
       null
     ],
     "Fragmentación izquierda": [
-      66,
-      68,
-      69,
-      73,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
     ],
     "Relación PP‑Vox": [
-      74,
-      74,
-      76,
-      76,
       null,
       null,
+      1,
+      1,
+      1,
+      1,
       null,
       null,
       null,
       null
     ],
     "Participación": [
-      48,
-      48,
-      49,
-      52,
       null,
       null,
       null,
+      2,
+      2,
+      1,
+      2,
       null,
       null,
       null
     ],
     "Bloqueo": [
-      28,
-      28,
-      27,
-      31,
+      1,
       null,
       null,
-      null,
-      null,
+      2,
+      2,
+      1,
+      2,
+      2,
       null,
       null
     ]
   },
-  "signals": {
-    "Confirmatorias": [
-      1,
-      2,
-      3,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "Vigilancia": [
-      1,
-      3,
-      2,
-      4,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "Disruptivas": [
-      0,
-      0,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "Recalibradoras": [
-      0,
-      0,
-      0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
-  },
-  "mode": "Modo A · indicadores estructurados de seguimiento, con capa F2-MICMAC v0.2 aplicada en D-004; no cálculo verificado Modo B",
-  "version": "v0.27-fit-sync",
   "territorial": {
     "Agenda nacionalista catalana": [
-      66,
-      67,
-      70,
-      76,
       null,
       null,
       null,
+      2,
+      2,
+      2,
+      2,
+      2,
       null,
-      null,
-      null
+      2
     ],
     "Agenda nacionalista vasca": [
-      47,
-      47,
-      49,
-      50,
+      null,
+      null,
+      null,
+      null,
       null,
       null,
       null,
@@ -293,46 +271,103 @@
       null
     ],
     "Veto/bisagra territorial": [
-      36,
-      35,
-      38,
-      43,
       null,
       null,
       null,
+      2,
       null,
-      null,
-      null
+      2,
+      2,
+      2,
+      2,
+      2
     ],
     "Compatibilidad programática-territorial": [
-      56,
-      58,
-      60,
-      65,
       null,
       null,
       null,
-      null,
-      null,
-      null
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
     ],
     "Agendas territoriales complementarias": [
-      34,
-      34,
-      35,
-      37,
       null,
       null,
       null,
+      1,
       null,
       null,
-      null
+      null,
+      2,
+      2,
+      2
     ]
   },
-  "cutoff": "2026-10-16",
-  "current_entry": "D-010",
-  "last_numeric_date": "2026-10-10",
-  "missing_value_policy": "null = pendiente de cálculo; nunca cero ni arrastre del último valor",
-  "updated": "2026-10-16",
-  "note": "Se conserva cada valor histórico. A partir del 11 de octubre no constan puntuaciones o recuentos consolidados; los días se añaden sin imputación. No recalibra A-000 ni MICMAC."
+  "signals": {
+    "Confirmatorias": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Vigilancia": [
+      0,
+      4,
+      3,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      3
+    ],
+    "Disruptivas": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Recalibradoras": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "metric_types": {
+    "scenarios": "ordinal_1_3",
+    "blocks": "counts",
+    "variables": "ordinal_1_3",
+    "territorial": "ordinal_1_3",
+    "signals": "counts"
+  },
+  "method_url": "metodo/auditoria-series-2026-10-16.html",
+  "evidence_url": "data/auditoria/evidencias_diarias_v1.json",
+  "validation": "Reconstrucción editorial pendiente de validación IH específica",
+  "legacy_archive": "data/auditoria/series_anteriores_v027.json",
+  "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
+  "note": "Sin recalibración de A-000, sin modificación de MICMAC ni de probabilidades selladas."
 }

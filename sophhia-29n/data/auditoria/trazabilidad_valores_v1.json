@@ -1,0 +1,2390 @@
+{
+  "method": "REG-SERIES-29N-001",
+  "values": [
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "scenarios",
+      "series": "G1 · PP‑Vox coalición",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "scenarios",
+      "series": "G1 · PP‑Vox coalición",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-002-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "scenarios",
+      "series": "G1 · PP‑Vox coalición",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-003-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "scenarios",
+      "series": "G1 · PP‑Vox coalición",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-004-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "scenarios",
+      "series": "G1 · PP‑Vox coalición",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-005-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "scenarios",
+      "series": "G1 · PP‑Vox coalición",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-006-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "scenarios",
+      "series": "G1 · PP‑Vox coalición",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-007-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "scenarios",
+      "series": "G1 · PP‑Vox coalición",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-008-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "scenarios",
+      "series": "G1 · PP‑Vox coalición",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "scenarios",
+      "series": "G1 · PP‑Vox coalición",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-010-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "scenarios",
+      "series": "G2 · PP apoyo Vox",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "scenarios",
+      "series": "G2 · PP apoyo Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-002-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "scenarios",
+      "series": "G2 · PP apoyo Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-003-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "scenarios",
+      "series": "G2 · PP apoyo Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-004-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "scenarios",
+      "series": "G2 · PP apoyo Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-005-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "scenarios",
+      "series": "G2 · PP apoyo Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-006-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "scenarios",
+      "series": "G2 · PP apoyo Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-007-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "scenarios",
+      "series": "G2 · PP apoyo Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-008-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "scenarios",
+      "series": "G2 · PP apoyo Vox",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "scenarios",
+      "series": "G2 · PP apoyo Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-010-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "scenarios",
+      "series": "G4 · Reconstrucción progresista",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "scenarios",
+      "series": "G4 · Reconstrucción progresista",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-002-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "scenarios",
+      "series": "G4 · Reconstrucción progresista",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-003-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "scenarios",
+      "series": "G4 · Reconstrucción progresista",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "scenarios",
+      "series": "G4 · Reconstrucción progresista",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-005-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "scenarios",
+      "series": "G4 · Reconstrucción progresista",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-006-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "scenarios",
+      "series": "G4 · Reconstrucción progresista",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-007-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "scenarios",
+      "series": "G4 · Reconstrucción progresista",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-008-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "scenarios",
+      "series": "G4 · Reconstrucción progresista",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "scenarios",
+      "series": "G4 · Reconstrucción progresista",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-010-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "scenarios",
+      "series": "G5 · Bloqueo/repetición",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "scenarios",
+      "series": "G5 · Bloqueo/repetición",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-002-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "scenarios",
+      "series": "G5 · Bloqueo/repetición",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-003-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "scenarios",
+      "series": "G5 · Bloqueo/repetición",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "scenarios",
+      "series": "G5 · Bloqueo/repetición",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-005-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "scenarios",
+      "series": "G5 · Bloqueo/repetición",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-006-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "scenarios",
+      "series": "G5 · Bloqueo/repetición",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-007-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "scenarios",
+      "series": "G5 · Bloqueo/repetición",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-008-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "scenarios",
+      "series": "G5 · Bloqueo/repetición",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "scenarios",
+      "series": "G5 · Bloqueo/repetición",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-010-90"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-002-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-003-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-004-06"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-005-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-006-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-007-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-008-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-009-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-002-01",
+        "REC-D-002-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-003-02",
+        "REC-D-003-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-04",
+        "REC-D-004-06"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-005-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-006-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-007-01",
+        "REC-D-007-02",
+        "REC-D-007-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-008-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-009-01",
+        "REC-D-009-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-010-01",
+        "REC-D-010-02",
+        "REC-D-010-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-04",
+        "REC-D-004-05"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-005-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-006-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-007-01",
+        "REC-D-007-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-008-01",
+        "REC-D-008-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-009-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-010-01",
+        "REC-D-010-02",
+        "REC-D-010-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-002-04",
+        "REC-D-002-05"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-02",
+        "REC-D-004-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-005-03",
+        "REC-D-005-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-007-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-008-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-010-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "variables",
+      "series": "Vivienda",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-001-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "variables",
+      "series": "Vivienda",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-002-03",
+        "REC-D-002-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "variables",
+      "series": "Vivienda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-003-05"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "variables",
+      "series": "Vivienda",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "variables",
+      "series": "Vivienda",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-005-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "variables",
+      "series": "Vivienda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-006-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "variables",
+      "series": "Vivienda",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "variables",
+      "series": "Vivienda",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-008-91"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "variables",
+      "series": "Vivienda",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "variables",
+      "series": "Vivienda",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-001-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-003-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-005-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-008-91"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-001-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-002-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-003-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-005-91"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-006-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-007-01",
+        "REC-D-007-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-008-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-009-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-010-01",
+        "REC-D-010-02",
+        "REC-D-010-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-003-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-004-06"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-005-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-006-91"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "variables",
+      "series": "Participación",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "variables",
+      "series": "Participación",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "variables",
+      "series": "Participación",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "variables",
+      "series": "Participación",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "variables",
+      "series": "Participación",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-005-01",
+        "REC-D-005-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "variables",
+      "series": "Participación",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-006-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "variables",
+      "series": "Participación",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-007-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "variables",
+      "series": "Participación",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "variables",
+      "series": "Participación",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "variables",
+      "series": "Participación",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "variables",
+      "series": "Bloqueo",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-001-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "variables",
+      "series": "Bloqueo",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "variables",
+      "series": "Bloqueo",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "variables",
+      "series": "Bloqueo",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "variables",
+      "series": "Bloqueo",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-005-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "variables",
+      "series": "Bloqueo",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-006-91"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "variables",
+      "series": "Bloqueo",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-007-03",
+        "REC-D-007-91"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "variables",
+      "series": "Bloqueo",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-008-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "variables",
+      "series": "Bloqueo",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "variables",
+      "series": "Bloqueo",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-04",
+        "REC-D-004-05"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-005-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-006-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-007-01",
+        "REC-D-007-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-008-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-010-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-05"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-006-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-007-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-008-01",
+        "REC-D-008-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-009-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-010-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-004-04",
+        "REC-D-004-05"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-005-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-006-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-007-01",
+        "REC-D-007-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-008-01",
+        "REC-D-008-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-009-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-010-01",
+        "REC-D-010-02",
+        "REC-D-010-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-004-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "value": null,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-008-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-009-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-010-01",
+        "REC-D-010-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-002-01"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-003-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-004-06"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "value": 1,
+      "evidence_ids": [
+        "REC-D-005-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "signals",
+      "series": "Vigilancia",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "signals",
+      "series": "Vigilancia",
+      "value": 4,
+      "evidence_ids": [
+        "REC-D-002-02",
+        "REC-D-002-03",
+        "REC-D-002-04",
+        "REC-D-002-05"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "signals",
+      "series": "Vigilancia",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-003-03",
+        "REC-D-003-04",
+        "REC-D-003-05"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "signals",
+      "series": "Vigilancia",
+      "value": 4,
+      "evidence_ids": [
+        "REC-D-004-02",
+        "REC-D-004-03",
+        "REC-D-004-04",
+        "REC-D-004-05"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "signals",
+      "series": "Vigilancia",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-005-01",
+        "REC-D-005-03",
+        "REC-D-005-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "signals",
+      "series": "Vigilancia",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-006-01",
+        "REC-D-006-02",
+        "REC-D-006-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "signals",
+      "series": "Vigilancia",
+      "value": 4,
+      "evidence_ids": [
+        "REC-D-007-01",
+        "REC-D-007-02",
+        "REC-D-007-03",
+        "REC-D-007-04"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "signals",
+      "series": "Vigilancia",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-008-01",
+        "REC-D-008-02",
+        "REC-D-008-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "signals",
+      "series": "Vigilancia",
+      "value": 2,
+      "evidence_ids": [
+        "REC-D-009-01",
+        "REC-D-009-02"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "signals",
+      "series": "Vigilancia",
+      "value": 3,
+      "evidence_ids": [
+        "REC-D-010-01",
+        "REC-D-010-02",
+        "REC-D-010-03"
+      ],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "signals",
+      "series": "Disruptivas",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "signals",
+      "series": "Disruptivas",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "signals",
+      "series": "Disruptivas",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "signals",
+      "series": "Disruptivas",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "signals",
+      "series": "Disruptivas",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "signals",
+      "series": "Disruptivas",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "signals",
+      "series": "Disruptivas",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "signals",
+      "series": "Disruptivas",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "signals",
+      "series": "Disruptivas",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "signals",
+      "series": "Disruptivas",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "value": 0,
+      "evidence_ids": [],
+      "status": "Reconstrucción editorial pendiente de validación IH específica"
+    }
+  ]
+}
