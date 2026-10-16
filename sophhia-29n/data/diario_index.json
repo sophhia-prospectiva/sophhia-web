@@ -1,15 +1,24 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "D-009 · Interpretación validada por IH · DEC-IH-D009-001",
+  "ultima_actualizacion": "D-010 · Interpretación validada por IH · DEC-IH-D010-001",
   "entradas": [
     {
-      "codigo": "D-009",
+      "codigo": "D-010",
       "fecha": "2026-10-16",
       "titulo": "Las alianzas territoriales llegan al cierre del plazo de coaliciones",
       "url": "diario/2026-10-16.html",
       "estado": "validacion_IH",
-      "registro": "REG-D009-20261016",
-      "decision": "DEC-IH-D009-001"
+      "registro": "REG-D010-20261016",
+      "decision": "DEC-IH-D010-001"
+    },
+    {
+      "codigo": "D-009",
+      "fecha": "2026-10-15",
+      "titulo": "Encuestas divergentes, alianzas abiertas y garantías de sufragio",
+      "url": "diario/2026-10-15.html",
+      "estado": "borrador_recuperado_pendiente_IH",
+      "publicado_el": "2026-10-16",
+      "rectificacion": "REG-RECT-29N-20261016-001"
     },
     {
       "codigo": "D-008",

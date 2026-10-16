@@ -1,5 +1,5 @@
 {
-  "registro": "REG-D009-20261016",
+  "registro": "REG-D010-20261016",
   "corte": "2026-10-16T12:25:00+02:00",
   "fuentes": [
     {
@@ -51,18 +51,18 @@
     "incorporated": "2026-10-16",
     "note": "Estudio del 12 oct; campo 1–8 oct acreditado en publicación territorial del mismo instituto del 13. No mide el efecto posterior de alianzas; no se duplica como segunda encuesta."
   },
-  "validacion": "Interpretación validada por IH · DEC-IH-D009-001",
+  "validacion": "Interpretación validada por IH · DEC-IH-D010-001",
   "recalibracion": false,
   "series_cuantitativas": "Se conservan cortes históricos; no se inventan nuevos puntos",
-  "entrada_15_octubre": "No publicada en repositorio consultado",
+  "entrada_15_octubre": "Recuperada del borrador original; publicación documental el 16, pendiente IH",
   "validacion_humana": {
-    "id": "DEC-IH-D009-001",
+    "id": "DEC-IH-D010-001",
     "fecha": "2026-10-16",
     "hora": "12:42",
     "timezone": "Europe/Madrid",
     "autoridad": "Julio Villacorta García",
     "instruccion": "Valida la interpretación D-009",
-    "alcance": "Validación expresa de la interpretación D-009 al corte 16-10-2026 12:25 CEST. No supone certificación primaria de fuentes pendientes ni actualización cuantitativa.",
+    "alcance": "Validación del contenido de la entrada del 16-10-2026, aprobada a las 12:42 bajo el rótulo erróneo D-009. Su renumeración a D-010 no altera el contenido ni la voluntad de validación.",
     "recalibracion": false,
     "micmac_modificada": false,
     "reservas": [
@@ -71,6 +71,35 @@
       "No se anticipa el cierre de coaliciones posterior al corte",
       "Series gráficas conservan cortes históricos; no se añaden valores no calculados"
     ],
-    "revision_abierta": "REV-F2-003"
+    "revision_abierta": "REV-F2-003",
+    "codigo_entrada": "D-010",
+    "fecha_entrada": "2026-10-16",
+    "identificador_anterior": "DEC-IH-D009-001 (aplicado erróneamente al 16 de octubre)",
+    "rectificacion_fecha": "2026-10-16",
+    "rectificacion_autorizacion": "Adelante · instrucción de Julio Villacorta a las 13:04 CEST",
+    "nota": "La validación no se extiende al borrador original D-009 del 15 de octubre."
+  },
+  "rectificacion": {
+    "id": "REG-RECT-29N-20261016-001",
+    "fecha": "2026-10-16",
+    "autorizacion_usuario": "Adelante (13:04 CEST)",
+    "motivo": "Recuperación del borrador original del 15 y corrección de reutilización indebida de D-009 para el 16.",
+    "original": {
+      "codigo": "D-009",
+      "fecha": "2026-10-15",
+      "titulo": "Encuestas divergentes, alianzas abiertas y garantías de sufragio",
+      "estado": "borrador_recuperado_publicado_como_documento_pendiente_IH",
+      "archivo_fuente": "SOPHHIA_29N_D009_borrador_2026-10-15.zip",
+      "sha256_html": "a2cbbcdb2e32f3e47eb607ffce0181e0bef324718d4d5679479f65f5c1670754",
+      "sha256_acta": "0a0072d5bfbe7c7be6194c3a9275967033a687e4724b6fa916443dc851988075"
+    },
+    "correccion_16": {
+      "codigo_anterior": "D-009",
+      "codigo_correcto": "D-010",
+      "decision_anterior": "DEC-IH-D009-001",
+      "decision_canonica": "DEC-IH-D010-001",
+      "contenido_validado_conservado": true
+    },
+    "no_recalibracion": true
   }
 }

@@ -1,0 +1,18 @@
+{
+  "id": "DEC-IH-D009-001",
+  "fecha": "2026-10-16",
+  "hora": "12:42",
+  "timezone": "Europe/Madrid",
+  "autoridad": "Julio Villacorta García",
+  "instruccion": "Valida la interpretación D-009",
+  "alcance": "Validación expresa de la interpretación D-009 al corte 16-10-2026 12:25 CEST. No supone certificación primaria de fuentes pendientes ni actualización cuantitativa.",
+  "recalibracion": false,
+  "micmac_modificada": false,
+  "reservas": [
+    "Documentación primaria JEC y CIS pendiente de contraste directo",
+    "Acuerdos anunciados no equivalen a comunicación electoral acreditada",
+    "No se anticipa el cierre de coaliciones posterior al corte",
+    "Series gráficas conservan cortes históricos; no se añaden valores no calculados"
+  ],
+  "revision_abierta": "REV-F2-003"
+}

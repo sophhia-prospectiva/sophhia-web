@@ -1,14 +1,14 @@
 {
-  "version": "v0.26-D009-IH-validada",
+  "version": "v0.26-D010-IH-validada",
   "updated": "2026-10-16",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-009",
+  "current_entry": "D-010",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "A-000 sin recalibración; alianzas territoriales en vigilancia; MICMAC v0.2 intacta. Interpretación D-009 validada por IH; reservas documentales conservadas.",
+  "system_state": "A-000 sin recalibración; alianzas territoriales en vigilancia; MICMAC v0.2 intacta. Interpretación D-010 validada por IH; reservas documentales conservadas.",
   "dominant_scenario": "Mayoría PP-Vox",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
   "watch_variable": "V4, V9, V11, V12 y V16; seguimiento de garantías",
@@ -67,10 +67,17 @@
     },
     {
       "id": "D-009",
+      "date": "2026-10-15",
+      "title": "Encuestas divergentes, alianzas abiertas y garantías de sufragio",
+      "recalibration": "No",
+      "state": "Borrador recuperado; pendiente IH; publicado documentalmente el 16"
+    },
+    {
+      "id": "D-010",
       "date": "2026-10-16",
       "title": "Las alianzas territoriales llegan al cierre del plazo de coaliciones",
       "recalibration": "No",
-      "state": "Interpretación validada IH · DEC-IH-D009-001"
+      "state": "Interpretación validada IH · DEC-IH-D010-001"
     }
   ],
   "scenarios": [
@@ -177,7 +184,7 @@
       "V12",
       "V16"
     ],
-    "decision": "DEC-IH-D009-001 · Interpretación validada; sin recalibración; reservas conservadas."
+    "decision": "DEC-IH-D010-001 · Interpretación validada; sin recalibración; reservas conservadas."
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -187,6 +194,7 @@
     "warning": "No constituye predicción certificada; laboratorio de sensibilidad prospectiva.",
     "data_file": "data/explorador_parametrico_29n_v0_1.json"
   },
-  "human_validation": "Interpretación validada por IH · DEC-IH-D009-001",
-  "micmac_review": "REV-F2-003 abierta; sin pesos nuevos"
+  "human_validation": "Interpretación validada por IH · DEC-IH-D010-001",
+  "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
+  "rectification": "REG-RECT-29N-20261016-001"
 }

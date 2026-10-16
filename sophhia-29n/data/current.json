@@ -1,5 +1,5 @@
 {
-  "codigo": "D-009",
+  "codigo": "D-010",
   "fecha": "2026-10-16",
   "fecha_legible": "16 de octubre de 2026",
   "hora_corte": "12:25",
@@ -11,15 +11,15 @@
   "modo": "Modo A · Aproximación heurística estructurada",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación validada por IH · DEC-IH-D009-001",
-  "decision_id": "DEC-IH-D009-001",
+  "validacion": "Interpretación validada por IH · DEC-IH-D010-001",
+  "decision_id": "DEC-IH-D010-001",
   "revision_abierta": "REV-F2-003",
   "estado_publicacion": "publicada_con_validacion_IH",
   "resumen": "El acuerdo anunciado en Canarias amplía la cooperación territorial, mientras sigue abierta la negociación estatal de la izquierda. Se incorpora Sigma Dos al archivo demoscópico como publicación del 12 de octubre. Sin recalibración de A-000 ni cambios en MICMAC.",
   "senal_principal": "Acuerdo canario anunciado y cierre del plazo de coaliciones",
   "variable_vigilancia": "V4, V9, V11, V12 y V16; seguimiento de garantías",
   "variable_territorial": "V11 · Agendas territoriales complementarias",
-  "decision": "DEC-IH-D009-001 · Interpretación D-009 validada por instrucción expresa de Julio Villacorta. Se mantienen reservas documentales; A-000 y MICMAC sin cambios; REV-F2-003 abierta.",
+  "decision": "DEC-IH-D010-001 · Interpretación D-010 validada por instrucción expresa de Julio Villacorta. Se mantienen reservas documentales; A-000 y MICMAC sin cambios; REV-F2-003 abierta.",
   "url": "diario/2026-10-16.html",
   "fuentes_temporales": [
     {
@@ -53,17 +53,17 @@
       "url": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/"
     }
   ],
-  "sync_version": "D009-editorial-20261016",
-  "registro_id": "REG-D009-20261016",
-  "nota_continuidad": "D-009 es la siguiente entrada publicada después de D-008 (14 de octubre). No existe entrada diaria publicada del 15 de octubre en el repositorio consultado. Se incorporan antecedentes del 15 sin simular publicación retrospectiva.",
+  "sync_version": "D010-editorial-20261016",
+  "registro_id": "REG-D010-20261016",
+  "nota_continuidad": "D-009 del 15 recuperada del borrador original y publicada como documento pendiente IH el 16. Entrada del 16 renumerada D-010, manteniendo contenido y validación.",
   "validacion_humana": {
-    "id": "DEC-IH-D009-001",
+    "id": "DEC-IH-D010-001",
     "fecha": "2026-10-16",
     "hora": "12:42",
     "timezone": "Europe/Madrid",
     "autoridad": "Julio Villacorta García",
     "instruccion": "Valida la interpretación D-009",
-    "alcance": "Validación expresa de la interpretación D-009 al corte 16-10-2026 12:25 CEST. No supone certificación primaria de fuentes pendientes ni actualización cuantitativa.",
+    "alcance": "Validación del contenido de la entrada del 16-10-2026, aprobada a las 12:42 bajo el rótulo erróneo D-009. Su renumeración a D-010 no altera el contenido ni la voluntad de validación.",
     "recalibracion": false,
     "micmac_modificada": false,
     "reservas": [
@@ -72,6 +72,13 @@
       "No se anticipa el cierre de coaliciones posterior al corte",
       "Series gráficas conservan cortes históricos; no se añaden valores no calculados"
     ],
-    "revision_abierta": "REV-F2-003"
-  }
+    "revision_abierta": "REV-F2-003",
+    "codigo_entrada": "D-010",
+    "fecha_entrada": "2026-10-16",
+    "identificador_anterior": "DEC-IH-D009-001 (aplicado erróneamente al 16 de octubre)",
+    "rectificacion_fecha": "2026-10-16",
+    "rectificacion_autorizacion": "Adelante · instrucción de Julio Villacorta a las 13:04 CEST",
+    "nota": "La validación no se extiende al borrador original D-009 del 15 de octubre."
+  },
+  "rectificacion": "REG-RECT-29N-20261016-001"
 }

@@ -1,0 +1,23 @@
+{
+  "id": "REG-RECT-29N-20261016-001",
+  "fecha": "2026-10-16",
+  "autorizacion_usuario": "Adelante (13:04 CEST)",
+  "motivo": "Recuperación del borrador original del 15 y corrección de reutilización indebida de D-009 para el 16.",
+  "original": {
+    "codigo": "D-009",
+    "fecha": "2026-10-15",
+    "titulo": "Encuestas divergentes, alianzas abiertas y garantías de sufragio",
+    "estado": "borrador_recuperado_publicado_como_documento_pendiente_IH",
+    "archivo_fuente": "SOPHHIA_29N_D009_borrador_2026-10-15.zip",
+    "sha256_html": "a2cbbcdb2e32f3e47eb607ffce0181e0bef324718d4d5679479f65f5c1670754",
+    "sha256_acta": "0a0072d5bfbe7c7be6194c3a9275967033a687e4724b6fa916443dc851988075"
+  },
+  "correccion_16": {
+    "codigo_anterior": "D-009",
+    "codigo_correcto": "D-010",
+    "decision_anterior": "DEC-IH-D009-001",
+    "decision_canonica": "DEC-IH-D010-001",
+    "contenido_validado_conservado": true
+  },
+  "no_recalibracion": true
+}
