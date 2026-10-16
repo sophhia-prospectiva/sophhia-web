@@ -364,10 +364,7 @@
     "territorial": "ordinal_1_3",
     "signals": "counts"
   },
-  "method_url": "metodo/auditoria-series-2026-10-16.html",
-  "evidence_url": "data/auditoria/evidencias_diarias_v1.json",
   "validation": "Reconstrucción editorial pendiente de validación IH específica",
-  "legacy_archive": "data/auditoria/series_anteriores_v027.json",
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
   "note": "Sin recalibración de A-000, sin modificación de MICMAC ni de probabilidades selladas."
 }

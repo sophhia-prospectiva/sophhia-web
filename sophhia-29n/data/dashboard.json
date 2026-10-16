@@ -139,7 +139,6 @@
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "audit_url": "metodo/auditoria-series-2026-10-16.html",
     "validation": "Reconstrucción editorial pendiente de validación IH específica"
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
