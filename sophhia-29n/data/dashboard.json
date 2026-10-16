@@ -132,7 +132,12 @@
       "Pulso de variables críticas",
       "Registro temporal de señales",
       "Pulso nacional-territorial"
-    ]
+    ],
+    "version": "v0.27-fit-sync",
+    "cutoff": "2026-10-16",
+    "last_numeric_date": "2026-10-10",
+    "missing_value_policy": "null = pendiente de cálculo; nunca cero ni arrastre del último valor",
+    "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento"
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
   "territorial_radar": {
