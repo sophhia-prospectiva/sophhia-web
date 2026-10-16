@@ -11,15 +11,15 @@
   "modo": "Modo A · Aproximación heurística estructurada",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Actualización editorial · interpretación pendiente de validación IH",
-  "decision_id": null,
+  "validacion": "Interpretación validada por IH · DEC-IH-D009-001",
+  "decision_id": "DEC-IH-D009-001",
   "revision_abierta": "REV-F2-003",
-  "estado_publicacion": "publicada_editorial_pendiente_IH",
+  "estado_publicacion": "publicada_con_validacion_IH",
   "resumen": "El acuerdo anunciado en Canarias amplía la cooperación territorial, mientras sigue abierta la negociación estatal de la izquierda. Se incorpora Sigma Dos al archivo demoscópico como publicación del 12 de octubre. Sin recalibración de A-000 ni cambios en MICMAC.",
   "senal_principal": "Acuerdo canario anunciado y cierre del plazo de coaliciones",
   "variable_vigilancia": "V4, V9, V11, V12 y V16; seguimiento de garantías",
   "variable_territorial": "V11 · Agendas territoriales complementarias",
-  "decision": "Publicación editorial solicitada; interpretación pendiente de validación IH. A-000 y MICMAC sin cambios; REV-F2-003 abierta.",
+  "decision": "DEC-IH-D009-001 · Interpretación D-009 validada por instrucción expresa de Julio Villacorta. Se mantienen reservas documentales; A-000 y MICMAC sin cambios; REV-F2-003 abierta.",
   "url": "diario/2026-10-16.html",
   "fuentes_temporales": [
     {
@@ -55,5 +55,23 @@
   ],
   "sync_version": "D009-editorial-20261016",
   "registro_id": "REG-D009-20261016",
-  "nota_continuidad": "D-009 es la siguiente entrada publicada después de D-008 (14 de octubre). No existe entrada diaria publicada del 15 de octubre en el repositorio consultado. Se incorporan antecedentes del 15 sin simular publicación retrospectiva."
+  "nota_continuidad": "D-009 es la siguiente entrada publicada después de D-008 (14 de octubre). No existe entrada diaria publicada del 15 de octubre en el repositorio consultado. Se incorporan antecedentes del 15 sin simular publicación retrospectiva.",
+  "validacion_humana": {
+    "id": "DEC-IH-D009-001",
+    "fecha": "2026-10-16",
+    "hora": "12:42",
+    "timezone": "Europe/Madrid",
+    "autoridad": "Julio Villacorta García",
+    "instruccion": "Valida la interpretación D-009",
+    "alcance": "Validación expresa de la interpretación D-009 al corte 16-10-2026 12:25 CEST. No supone certificación primaria de fuentes pendientes ni actualización cuantitativa.",
+    "recalibracion": false,
+    "micmac_modificada": false,
+    "reservas": [
+      "Documentación primaria JEC y CIS pendiente de contraste directo",
+      "Acuerdos anunciados no equivalen a comunicación electoral acreditada",
+      "No se anticipa el cierre de coaliciones posterior al corte",
+      "Series gráficas conservan cortes históricos; no se añaden valores no calculados"
+    ],
+    "revision_abierta": "REV-F2-003"
+  }
 }

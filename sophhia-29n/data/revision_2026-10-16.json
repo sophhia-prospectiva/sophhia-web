@@ -51,8 +51,26 @@
     "incorporated": "2026-10-16",
     "note": "Estudio del 12 oct; campo 1–8 oct acreditado en publicación territorial del mismo instituto del 13. No mide el efecto posterior de alianzas; no se duplica como segunda encuesta."
   },
-  "validacion": "Actualización editorial · interpretación pendiente de validación IH",
+  "validacion": "Interpretación validada por IH · DEC-IH-D009-001",
   "recalibracion": false,
   "series_cuantitativas": "Se conservan cortes históricos; no se inventan nuevos puntos",
-  "entrada_15_octubre": "No publicada en repositorio consultado"
+  "entrada_15_octubre": "No publicada en repositorio consultado",
+  "validacion_humana": {
+    "id": "DEC-IH-D009-001",
+    "fecha": "2026-10-16",
+    "hora": "12:42",
+    "timezone": "Europe/Madrid",
+    "autoridad": "Julio Villacorta García",
+    "instruccion": "Valida la interpretación D-009",
+    "alcance": "Validación expresa de la interpretación D-009 al corte 16-10-2026 12:25 CEST. No supone certificación primaria de fuentes pendientes ni actualización cuantitativa.",
+    "recalibracion": false,
+    "micmac_modificada": false,
+    "reservas": [
+      "Documentación primaria JEC y CIS pendiente de contraste directo",
+      "Acuerdos anunciados no equivalen a comunicación electoral acreditada",
+      "No se anticipa el cierre de coaliciones posterior al corte",
+      "Series gráficas conservan cortes históricos; no se añaden valores no calculados"
+    ],
+    "revision_abierta": "REV-F2-003"
+  }
 }

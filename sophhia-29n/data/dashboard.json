@@ -1,5 +1,5 @@
 {
-  "version": "v0.26-D009-editorial",
+  "version": "v0.26-D009-IH-validada",
   "updated": "2026-10-16",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
@@ -8,7 +8,7 @@
   "current_entry": "D-009",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "A-000 sin recalibración; alianzas territoriales en vigilancia; MICMAC v0.2 intacta. Lectura D-009 pendiente de validación IH.",
+  "system_state": "A-000 sin recalibración; alianzas territoriales en vigilancia; MICMAC v0.2 intacta. Interpretación D-009 validada por IH; reservas documentales conservadas.",
   "dominant_scenario": "Mayoría PP-Vox",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
   "watch_variable": "V4, V9, V11, V12 y V16; seguimiento de garantías",
@@ -70,7 +70,7 @@
       "date": "2026-10-16",
       "title": "Las alianzas territoriales llegan al cierre del plazo de coaliciones",
       "recalibration": "No",
-      "state": "Editorial; pendiente IH"
+      "state": "Interpretación validada IH · DEC-IH-D009-001"
     }
   ],
   "scenarios": [
@@ -177,7 +177,7 @@
       "V12",
       "V16"
     ],
-    "decision": "Publicación editorial solicitada; interpretación pendiente de validación IH. A-000 y MICMAC sin cambios; REV-F2-003 abierta."
+    "decision": "DEC-IH-D009-001 · Interpretación validada; sin recalibración; reservas conservadas."
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -187,6 +187,6 @@
     "warning": "No constituye predicción certificada; laboratorio de sensibilidad prospectiva.",
     "data_file": "data/explorador_parametrico_29n_v0_1.json"
   },
-  "human_validation": "Actualización editorial · interpretación pendiente de validación IH",
+  "human_validation": "Interpretación validada por IH · DEC-IH-D009-001",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos"
 }

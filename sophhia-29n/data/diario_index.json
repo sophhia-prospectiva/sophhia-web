@@ -1,14 +1,15 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "D-009 · Actualización editorial · interpretación pendiente de validación IH",
+  "ultima_actualizacion": "D-009 · Interpretación validada por IH · DEC-IH-D009-001",
   "entradas": [
     {
       "codigo": "D-009",
       "fecha": "2026-10-16",
       "titulo": "Las alianzas territoriales llegan al cierre del plazo de coaliciones",
       "url": "diario/2026-10-16.html",
-      "estado": "publicada_editorial_pendiente_IH",
-      "registro": "REG-D009-20261016"
+      "estado": "validacion_IH",
+      "registro": "REG-D009-20261016",
+      "decision": "DEC-IH-D009-001"
     },
     {
       "codigo": "D-008",
