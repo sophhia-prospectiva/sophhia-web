@@ -1,18 +1,18 @@
 {
-  "version": "v0.26-D010-IH-validada",
-  "updated": "2026-10-16",
+  "version": "v0.29-D011-editorial",
+  "updated": "2026-10-17",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-010",
+  "current_entry": "D-011",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "A-000 sin recalibración; alianzas territoriales en vigilancia; MICMAC v0.2 intacta. Interpretación D-010 validada por IH; reservas documentales conservadas.",
+  "system_state": "Marco A-000 conservado. El cierre de la coalición estatal sin acuerdo refuerza la atención documental a V4; Senado de Progreso se sigue por separado. Interpretación D-011 pendiente IH; sin nuevos pesos MICMAC ni probabilidades.",
   "dominant_scenario": "Mayoría PP-Vox",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
-  "watch_variable": "V4, V9, V11, V12 y V16; seguimiento de garantías",
-  "social_axis": "Cierre de coaliciones y oferta territorial; acuerdo canario anunciado, registro pendiente de comprobación",
+  "watch_variable": "V4 · atención alta; V11 y V16 · seguimiento; V12 · contexto",
+  "social_axis": "Candidaturas y cooperación diferentes por cámara; prioridades económicas como antecedente",
   "path": [
     {
       "id": "D-001",
@@ -78,32 +78,39 @@
       "title": "Las alianzas territoriales llegan al cierre del plazo de coaliciones",
       "recalibration": "No",
       "state": "Interpretación validada IH · DEC-IH-D010-001"
+    },
+    {
+      "id": "D-011",
+      "date": "2026-10-17",
+      "title": "Cooperación en el Senado y fragmentación en el Congreso",
+      "recalibration": "No",
+      "state": "Interpretación y codificación pendientes de validación IH"
     }
   ],
   "scenarios": [
     {
       "id": "G1",
       "name": "Gobierno PP-Vox de coalición",
-      "trend": "sube leve",
-      "status": "plausible alto"
+      "trend": "sin cambio respecto de D-010",
+      "status": "marco anterior conservado; no nueva estimación"
     },
     {
       "id": "G2",
       "name": "PP monocolor con apoyo externo de Vox",
-      "trend": "estable",
-      "status": "plausible alto"
+      "trend": "sin cambio respecto de D-010",
+      "status": "marco anterior conservado; no nueva estimación"
     },
     {
       "id": "G4",
       "name": "Reconstrucción progresista",
-      "trend": "vigilancia reforzada cualitativa",
-      "status": "sin recalibración; pendiente evaluación"
+      "trend": "vigilancia cualitativa conservada",
+      "status": "pendiente evaluación; sin probabilidad asignada"
     },
     {
       "id": "G5",
       "name": "Bloqueo / repetición electoral",
-      "trend": "estable",
-      "status": "riesgo bajo/medio"
+      "trend": "sin cambio respecto de D-010",
+      "status": "marco anterior conservado; no nueva estimación"
     }
   ],
   "bifurcations": [
@@ -115,7 +122,7 @@
     {
       "id": "B2",
       "name": "Izquierda alternativa",
-      "state": "en vigilancia"
+      "state": "cierre sin coalición estatal; seguimiento de pactos territoriales y cooperación parlamentaria"
     },
     {
       "id": "B3",
@@ -125,7 +132,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Reconstrucción documental retrospectiva: estados ordinales y recuentos. Codificación IA pendiente IH; no probabilidades ni pesos MICMAC.",
+    "mode": "Reconstrucción documental 7–16 y seguimiento del 17: estados ordinales y recuentos. Regla y codificación IA pendientes IH; no probabilidades ni pesos MICMAC.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -133,13 +140,13 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.28-auditada-reconstruccion-v1",
-    "cutoff": "2026-10-16",
-    "last_numeric_date": "2026-10-16",
+    "version": "v0.29-D011-seguimiento-editorial",
+    "cutoff": "2026-10-17",
+    "last_numeric_date": "2026-10-17",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Reconstrucción editorial pendiente de validación IH específica"
+    "validation": "Regla, reconstrucción 7–16 y codificación D-011 pendientes de validación IH específica"
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
   "territorial_radar": {
@@ -183,15 +190,14 @@
     "reservation": "V4 · Fragmentación / recomposición de la izquierda alternativa queda pendiente de revisión IH por posible infravaloración."
   },
   "current_reading": {
-    "signal": "Acuerdo canario anunciado y cierre del plazo de coaliciones",
+    "signal": "Desenlace distinto de las alianzas para el Congreso y el Senado",
     "micmac_variables": [
       "V4",
-      "V9",
       "V11",
       "V12",
       "V16"
     ],
-    "decision": "DEC-IH-D010-001 · Interpretación validada; sin recalibración; reservas conservadas."
+    "decision": "Propuesta editorial D-011 pendiente de validación IH. Mantener A-000, MICMAC v0.2 y escenarios; completar la comprobación electoral de los acuerdos."
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -201,7 +207,7 @@
     "warning": "No constituye predicción certificada; laboratorio de sensibilidad prospectiva.",
     "data_file": "data/explorador_parametrico_29n_v0_1.json"
   },
-  "human_validation": "Interpretación validada por IH · DEC-IH-D010-001",
+  "human_validation": "Interpretación y codificación pendientes de validación IH",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001"
 }

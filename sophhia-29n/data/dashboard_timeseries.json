@@ -1,13 +1,13 @@
 {
-  "version": "v0.28-auditada-reconstruccion-v1",
-  "mode": "Reconstrucción documental retrospectiva: estados ordinales y recuentos. Codificación IA pendiente IH; no probabilidades ni pesos MICMAC.",
+  "version": "v0.29-D011-seguimiento-editorial",
+  "mode": "Reconstrucción documental 7–16 y seguimiento del 17: estados ordinales y recuentos. Regla y codificación IA pendientes IH; no probabilidades ni pesos MICMAC.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-10-16",
-  "current_entry": "D-010",
-  "last_numeric_date": "2026-10-16",
-  "updated": "2026-10-16",
+  "cutoff": "2026-10-17",
+  "current_entry": "D-011",
+  "last_numeric_date": "2026-10-17",
+  "updated": "2026-10-17",
   "reconstruction_date": "2026-10-16",
-  "interpretation_cutoff": "2026-10-16T12:25:00+02:00",
+  "interpretation_cutoff": "2026-10-17T09:55:00+02:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
     {
@@ -69,6 +69,12 @@
       "entry": "D-010",
       "source_status": "validacion_IH",
       "retrospective": true
+    },
+    {
+      "date": "2026-10-17",
+      "entry": "D-011",
+      "source_status": "editorial_pendiente_IH",
+      "retrospective": false
     }
   ],
   "scenarios": {
@@ -82,6 +88,7 @@
       1,
       1,
       null,
+      1,
       1
     ],
     "G2 · PP apoyo Vox": [
@@ -94,6 +101,7 @@
       1,
       1,
       null,
+      1,
       1
     ],
     "G4 · Reconstrucción progresista": [
@@ -106,6 +114,7 @@
       2,
       2,
       null,
+      2,
       2
     ],
     "G5 · Bloqueo/repetición": [
@@ -118,6 +127,7 @@
       1,
       1,
       null,
+      1,
       1
     ]
   },
@@ -132,6 +142,7 @@
       1,
       1,
       1,
+      0,
       0
     ],
     "PSOE + izquierda": [
@@ -144,6 +155,7 @@
       3,
       1,
       2,
+      3,
       3
     ],
     "Territoriales/bisagra": [
@@ -156,7 +168,8 @@
       2,
       2,
       1,
-      3
+      3,
+      2
     ],
     "Garantías y procedimiento": [
       0,
@@ -168,7 +181,8 @@
       1,
       1,
       0,
-      1
+      1,
+      0
     ]
   },
   "variables": {
@@ -182,7 +196,8 @@
       null,
       1,
       null,
-      null
+      null,
+      1
     ],
     "Inflación/coste de vida": [
       1,
@@ -194,7 +209,8 @@
       null,
       1,
       null,
-      null
+      null,
+      1
     ],
     "Fragmentación izquierda": [
       1,
@@ -206,7 +222,8 @@
       2,
       2,
       2,
-      2
+      2,
+      3
     ],
     "Relación PP‑Vox": [
       null,
@@ -215,6 +232,7 @@
       1,
       1,
       1,
+      null,
       null,
       null,
       null,
@@ -230,6 +248,7 @@
       2,
       null,
       null,
+      null,
       null
     ],
     "Bloqueo": [
@@ -241,6 +260,7 @@
       1,
       2,
       2,
+      null,
       null,
       null
     ]
@@ -256,9 +276,11 @@
       2,
       2,
       null,
-      2
+      2,
+      null
     ],
     "Agenda nacionalista vasca": [
+      null,
       null,
       null,
       null,
@@ -280,12 +302,14 @@
       2,
       2,
       2,
-      2
+      2,
+      1
     ],
     "Compatibilidad programática-territorial": [
       null,
       null,
       null,
+      2,
       2,
       2,
       2,
@@ -304,6 +328,7 @@
       null,
       2,
       2,
+      2,
       2
     ]
   },
@@ -314,6 +339,7 @@
       1,
       1,
       1,
+      0,
       0,
       0,
       0,
@@ -330,9 +356,11 @@
       4,
       3,
       2,
+      3,
       3
     ],
     "Disruptivas": [
+      0,
       0,
       0,
       0,
@@ -354,6 +382,7 @@
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -364,7 +393,7 @@
     "territorial": "ordinal_1_3",
     "signals": "counts"
   },
-  "validation": "Reconstrucción editorial pendiente de validación IH específica",
+  "validation": "Regla, reconstrucción 7–16 y codificación D-011 pendientes de validación IH específica",
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
   "note": "Sin recalibración de A-000, sin modificación de MICMAC ni de probabilidades selladas."
 }

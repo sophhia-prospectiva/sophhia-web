@@ -1,84 +1,254 @@
 {
-  "codigo": "D-010",
-  "fecha": "2026-10-16",
-  "fecha_legible": "16 de octubre de 2026",
-  "hora_corte": "12:25",
+  "codigo": "D-011",
+  "fecha": "2026-10-17",
+  "fecha_legible": "17 de octubre de 2026",
+  "hora_corte": "09:55",
   "timezone": "Europe/Madrid",
-  "titulo": "Las alianzas territoriales llegan al cierre del plazo de coaliciones",
+  "titulo": "Cooperación en el Senado y fragmentación en el Congreso",
   "contrato": "CP-29N-F0 v0.1 + Anexo A",
   "protocolo": "P001 + P001-E001",
   "capa": "F2-MICMAC-001 v0.2",
   "modo": "Modo A · Aproximación heurística estructurada",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación validada por IH · DEC-IH-D010-001",
-  "decision_id": "DEC-IH-D010-001",
+  "validacion": "Interpretación y codificación pendientes de validación IH",
+  "decision_id": null,
   "revision_abierta": "REV-F2-003",
-  "estado_publicacion": "publicada_con_validacion_IH",
-  "resumen": "El acuerdo anunciado en Canarias amplía la cooperación territorial, mientras sigue abierta la negociación estatal de la izquierda. Se incorpora Sigma Dos al archivo demoscópico como publicación del 12 de octubre. Sin recalibración de A-000 ni cambios en MICMAC.",
-  "senal_principal": "Acuerdo canario anunciado y cierre del plazo de coaliciones",
-  "variable_vigilancia": "V4, V9, V11, V12 y V16; seguimiento de garantías",
+  "estado_publicacion": "publicada_editorial_pendiente_IH",
+  "resumen": "Las negociaciones de Frente Amplio y Podemos terminan sin coalición estatal para el Congreso, con acuerdos parciales en Canarias y la Comunitat Valenciana. Se anuncia Senado de Progreso. No se incorpora una nueva medición nacional; se mantiene el marco de escenarios y se refuerza la atención documental a V4.",
+  "senal_principal": "Desenlace distinto de las alianzas para el Congreso y el Senado",
+  "variable_vigilancia": "V4 · atención alta; V11 y V16 · seguimiento; V12 · contexto",
   "variable_territorial": "V11 · Agendas territoriales complementarias",
-  "decision": "DEC-IH-D010-001 · Interpretación D-010 validada por instrucción expresa de Julio Villacorta. Se mantienen reservas documentales; A-000 y MICMAC sin cambios; REV-F2-003 abierta.",
-  "url": "diario/2026-10-16.html",
+  "decision": "Propuesta editorial D-011 pendiente de validación IH. Mantener A-000, MICMAC v0.2 y escenarios; completar la comprobación electoral de los acuerdos.",
+  "url": "diario/2026-10-17.html",
   "fuentes_temporales": [
     {
-      "id": "F-D009-01",
-      "medio": "RTVE",
+      "id": "F-D011-01",
+      "medio": "Público",
       "fecha": "2026-10-16",
-      "hora": "11:42",
-      "tipo": "periodistica",
-      "url": "https://www.rtve.es/noticias/20261016/elecciones-29n-coaliciones-plazo/17269290.shtml"
+      "hora": "23:21",
+      "actualizada": "2026-10-17T00:38:00+02:00",
+      "tipo": "periodistica_con_propuestas_documentales",
+      "url": "https://www.publico.es/politica/consulta-aqui-ultima-propuesta-frente-amplio-podemos-elecciones-29n.html"
     },
     {
-      "id": "F-D009-02",
-      "medio": "RTVC",
-      "fecha": "2026-10-15",
-      "hora": "18:20 (hora local no especificada en página)",
+      "id": "F-D011-02",
+      "medio": "El Independiente",
+      "fecha": "2026-10-16",
+      "hora": "17:28",
+      "actualizada": "2026-10-17T00:44:00+02:00",
       "tipo": "periodistica",
-      "url": "https://rtvc.es/podemos-nueva-canarias-iu-sumar-juntos-29n-bajo-nombre-unidad-pueblo-canario-15-octubre-2026/"
+      "url": "https://www.elindependiente.com/espana/2026/10/16/frente-amplio-podemos-generales-pactos-listas-izquierdas-irene-montero/"
     },
     {
-      "id": "F-D009-03",
-      "medio": "Sigma Dos",
+      "id": "F-D011-03",
+      "medio": "laSexta",
+      "fecha": "2026-10-17",
+      "hora": "00:41",
+      "tipo": "periodistica",
+      "url": "https://www.lasexta.com/elecciones/generales/psoe-frente-amplio-crean-alianza-senado-progreso-listas-camara-alta_202610176ad2a808cfd4076f0c7d45d2.html"
+    },
+    {
+      "id": "F-D011-04",
+      "medio": "Onda Cero · entrevista a Carlos Cuerpo",
+      "fecha": "2026-10-16",
+      "hora": "10:20",
+      "tipo": "primaria_entrevista",
+      "url": "https://www.ondacero.es/noticias/economia/rafa-latorre-entrevista-carlos-cuerpo-mas-uno_202610166ad1a174b79b18452fc5fac0.html",
+      "tratamiento": "Antecedente anterior al corte de D-010; incorporado como seguimiento, no como novedad posterior"
+    },
+    {
+      "id": "F-D011-05",
+      "medio": "40dB. · informe original",
+      "fecha": "2026-10-09",
+      "tipo": "primaria_instituto",
+      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/10-08-barometro-flash/2026_10_informe_voto_barometro_flash.pdf"
+    },
+    {
+      "id": "F-D011-06",
+      "medio": "GAD3 · ABC",
+      "fecha": "2026-10-12",
+      "tipo": "primaria_instituto",
+      "url": "https://www.gad3.com/barometro-abc-estimacion-de-voto-nacional-octubre-2026/"
+    },
+    {
+      "id": "F-D011-07",
+      "medio": "Sigma Dos · El Mundo",
       "fecha": "2026-10-12",
       "tipo": "primaria_instituto",
       "url": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/"
     },
     {
-      "id": "F-D009-04",
-      "medio": "Sigma Dos · ficha y desglose territorial",
+      "id": "F-D011-08",
+      "medio": "Sigma Dos · ficha de campo",
       "fecha": "2026-10-13",
-      "tipo": "primaria_instituto",
+      "tipo": "primaria_instituto_mismo_estudio",
       "url": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/"
+    },
+    {
+      "id": "F-D011-09",
+      "medio": "CIS · estimación estudio 3582",
+      "fecha": "2026-10-14",
+      "tipo": "primaria_indexada_acceso_integro_pendiente",
+      "url": "https://www.cis.es/documents/d/guest/3582_estimacion-pdf"
+    },
+    {
+      "id": "F-D011-10",
+      "medio": "EFE · CIS",
+      "fecha": "2026-10-14",
+      "tipo": "periodistica",
+      "url": "https://efe.com/espana/2026-10-14/barometro-cis-psoe-vencedor-tras-desahucio-maricarmen/"
+    },
+    {
+      "id": "F-D011-11",
+      "medio": "Interior · La Moncloa",
+      "fecha": "2026-10-14",
+      "tipo": "primaria_oficial_contexto",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/Paginas/guia-dudas-elecciones-generales-29n.aspx"
+    },
+    {
+      "id": "F-D011-12",
+      "medio": "BOE · Constitución, art. 99",
+      "tipo": "primaria_normativa_contexto",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a99"
+    },
+    {
+      "id": "F-D011-13",
+      "medio": "PSOE · agenda del sábado",
+      "fecha": "2026-10-17",
+      "tipo": "primaria_agenda_posterior_al_corte",
+      "url": "https://www.psoe.es/agenda/previsiones-sabado-17-de-octubre/"
+    },
+    {
+      "id": "F-D011-14",
+      "medio": "BOE · convocatoria del 29-N",
+      "fecha": "2026-10-06",
+      "tipo": "primaria_oficial_contexto",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20742&lang=es"
     }
   ],
-  "sync_version": "D010-editorial-20261016",
-  "registro_id": "REG-D010-20261016",
-  "nota_continuidad": "D-009 del 15 recuperada del borrador original y publicada como documento pendiente IH el 16. Entrada del 16 renumerada D-010, manteniendo contenido y validación.",
-  "validacion_humana": {
-    "id": "DEC-IH-D010-001",
-    "fecha": "2026-10-16",
-    "hora": "12:42",
-    "timezone": "Europe/Madrid",
-    "autoridad": "Julio Villacorta García",
-    "instruccion": "Valida la interpretación D-009",
-    "alcance": "Validación del contenido de la entrada del 16-10-2026, aprobada a las 12:42 bajo el rótulo erróneo D-009. Su renumeración a D-010 no altera el contenido ni la voluntad de validación.",
-    "recalibracion": false,
-    "micmac_modificada": false,
-    "reservas": [
-      "Documentación primaria JEC y CIS pendiente de contraste directo",
-      "Acuerdos anunciados no equivalen a comunicación electoral acreditada",
-      "No se anticipa el cierre de coaliciones posterior al corte",
-      "Series gráficas conservan cortes históricos; no se añaden valores no calculados"
-    ],
-    "revision_abierta": "REV-F2-003",
-    "codigo_entrada": "D-010",
-    "fecha_entrada": "2026-10-16",
-    "identificador_anterior": "DEC-IH-D009-001 (aplicado erróneamente al 16 de octubre)",
-    "rectificacion_fecha": "2026-10-16",
-    "rectificacion_autorizacion": "Adelante · instrucción de Julio Villacorta a las 13:04 CEST",
-    "nota": "La validación no se extiende al borrador original D-009 del 15 de octubre."
+  "sync_version": "D011-editorial-20261017",
+  "registro_id": "REG-D011-20261017",
+  "nota_continuidad": "D-009 corresponde al 15 y D-010 al 16. Se conserva la validación de D-010 sin extenderla a D-011 ni a la regla de series pendiente IH.",
+  "validacion_humana": null,
+  "ventana_novedades": {
+    "desde_exclusivo": "2026-10-16T12:25:00+02:00",
+    "hasta_inclusivo": "2026-10-17T09:55:00+02:00"
   },
-  "rectificacion": "REG-RECT-29N-20261016-001"
+  "senales": [
+    {
+      "id": "S-D011-01",
+      "tema": "Cierre sin coalición estatal Frente Amplio–Podemos para el Congreso; pactos parciales territoriales",
+      "tipo": "novedad_posterior_corte_D010",
+      "clase": "Vigilancia",
+      "fuentes": [
+        "F-D011-01",
+        "F-D011-02"
+      ],
+      "grupos": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "variables": {
+        "Fragmentación izquierda": 3
+      },
+      "territorial": {
+        "Agendas territoriales complementarias": 2,
+        "Compatibilidad programática-territorial": 2
+      },
+      "reserva": "Anuncios y desenlace negociador; relación electoral formal pendiente de contraste",
+      "lectura_territorial": {
+        "actor": "Frente Amplio, Podemos y formaciones de sus acuerdos territoriales",
+        "agenda_explicita": "Negociación de candidaturas conjuntas",
+        "agenda_estrategica": "Inferencia: combinar representación y autonomía política",
+        "instrumento": "Candidaturas separadas y pactos parciales en Canarias y la Comunitat Valenciana",
+        "variables": [
+          "V4",
+          "V11",
+          "V16"
+        ],
+        "efecto_sistemico": "Hipótesis de fragmentación territorial diferenciada; efecto electoral no cuantificado"
+      }
+    },
+    {
+      "id": "S-D011-02",
+      "tema": "Acuerdo anunciado Senado de Progreso",
+      "tipo": "novedad_posterior_corte_D010",
+      "clase": "Vigilancia",
+      "fuentes": [
+        "F-D011-03"
+      ],
+      "grupos": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "variables": {
+        "Fragmentación izquierda": 2
+      },
+      "territorial": {
+        "Agendas territoriales complementarias": 2,
+        "Compatibilidad programática-territorial": 2,
+        "Veto/bisagra territorial": 1
+      },
+      "reserva": "Un solo tema: anuncio, ratificaciones y coberturas repetidas no se cuentan por separado; alcance oficial pendiente",
+      "lectura_territorial": {
+        "actor": "PSOE, IU, Movimiento Sumar, Compromís, Más Madrid, Chunta Aragonesista y Batzarre, según anuncio",
+        "agenda_explicita": "Listas conjuntas al Senado",
+        "agenda_estrategica": "Objetivo declarado de disputar la mayoría de la Cámara Alta",
+        "instrumento": "Acuerdo electoral Senado de Progreso y pactos territoriales",
+        "variables": [
+          "V4",
+          "V11",
+          "V16"
+        ],
+        "contexto": [
+          "V12"
+        ],
+        "efecto_sistemico": "Coordinación electoral por cámara; no acredita apoyos de investidura en el Congreso"
+      }
+    },
+    {
+      "id": "S-D011-03",
+      "tema": "Transición del equipo económico y prioridades del próximo Gobierno: entrevista de Carlos Cuerpo",
+      "tipo": "antecedente_recuperado_no_novedad",
+      "clase": "Vigilancia",
+      "fuentes": [
+        "F-D011-04"
+      ],
+      "grupos": [
+        "PSOE + izquierda"
+      ],
+      "variables": {
+        "Vivienda": 1,
+        "Inflación/coste de vida": 1
+      },
+      "territorial": {},
+      "reserva": "Declaraciones del 16 por la mañana, anteriores a D-010; sin nombramientos ni programa pactado"
+    }
+  ],
+  "demoscopia": {
+    "estudios_incorporados_hoy": 0,
+    "casas_en_panel": 4,
+    "ultima_incorporacion": "2026-10-16",
+    "resultado_busqueda": "No se localiza una nueva medición nacional posterior al corte anterior con ficha suficiente en las fuentes examinadas",
+    "limite": "Los campos del panel terminaron del 6 al 8 de octubre; no miden los acuerdos del 16"
+  },
+  "escenarios_conservados": {
+    "origen": "diario/2026-10-16.html",
+    "niveles_documentales": {
+      "G1": 1,
+      "G2": 1,
+      "G4": 2,
+      "G5": 1
+    },
+    "nota": "Estados ordinales heredados por continuidad expresamente declarada; no probabilidades"
+  },
+  "codificacion": {
+    "metodo": "REG-SERIES-29N-001",
+    "estado": "aplicacion_editorial_pendiente_IH",
+    "temas_tratados": 3,
+    "novedades": 2,
+    "antecedentes": 1,
+    "exclusiones": "Revisión del panel, normas vigentes, reservas, agenda posterior al corte y fuentes repetidas no son unidades adicionales"
+  }
 }

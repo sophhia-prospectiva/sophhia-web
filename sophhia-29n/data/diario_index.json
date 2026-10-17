@@ -1,7 +1,16 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "D-010 · Interpretación validada por IH · DEC-IH-D010-001",
+  "ultima_actualizacion": "D-011 · Interpretación y codificación pendientes de validación IH",
   "entradas": [
+    {
+      "codigo": "D-011",
+      "fecha": "2026-10-17",
+      "titulo": "Cooperación en el Senado y fragmentación en el Congreso",
+      "url": "diario/2026-10-17.html",
+      "estado": "editorial_pendiente_IH",
+      "registro": "REG-D011-20261017",
+      "decision": null
+    },
     {
       "codigo": "D-010",
       "fecha": "2026-10-16",
