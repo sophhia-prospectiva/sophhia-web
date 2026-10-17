@@ -1,0 +1,399 @@
+{
+  "version": "v0.29-D011-seguimiento-editorial",
+  "mode": "Reconstrucción documental 7–16 y seguimiento del 17: estados ordinales y recuentos. Regla y codificación IA pendientes IH; no probabilidades ni pesos MICMAC.",
+  "method": "REG-SERIES-29N-001",
+  "cutoff": "2026-10-17",
+  "current_entry": "D-011",
+  "last_numeric_date": "2026-10-17",
+  "updated": "2026-10-17",
+  "reconstruction_date": "2026-10-16",
+  "interpretation_cutoff": "2026-10-17T09:55:00+02:00",
+  "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
+  "timeline": [
+    {
+      "date": "2026-10-07",
+      "entry": "D-001",
+      "source_status": "archivada",
+      "retrospective": true
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "D-002",
+      "source_status": "archivada",
+      "retrospective": true
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "D-003",
+      "source_status": "archivada",
+      "retrospective": true
+    },
+    {
+      "date": "2026-10-10",
+      "entry": "D-004",
+      "source_status": "archivada",
+      "retrospective": true
+    },
+    {
+      "date": "2026-10-11",
+      "entry": "D-005",
+      "source_status": "archivada",
+      "retrospective": true
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "D-006",
+      "source_status": "validacion_IH_provisional",
+      "retrospective": true
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "D-007",
+      "source_status": "validacion_IH_provisional",
+      "retrospective": true
+    },
+    {
+      "date": "2026-10-14",
+      "entry": "D-008",
+      "source_status": "validacion_IH_provisional",
+      "retrospective": true
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "D-009",
+      "source_status": "borrador_recuperado_pendiente_IH",
+      "retrospective": true
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "D-010",
+      "source_status": "validacion_IH",
+      "retrospective": true
+    },
+    {
+      "date": "2026-10-17",
+      "entry": "D-011",
+      "source_status": "editorial_pendiente_IH",
+      "retrospective": false
+    }
+  ],
+  "scenarios": {
+    "G1 · PP‑Vox coalición": [
+      null,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      null,
+      1,
+      1
+    ],
+    "G2 · PP apoyo Vox": [
+      null,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      null,
+      1,
+      1
+    ],
+    "G4 · Reconstrucción progresista": [
+      null,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      null,
+      2,
+      2
+    ],
+    "G5 · Bloqueo/repetición": [
+      null,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      null,
+      1,
+      1
+    ]
+  },
+  "blocks": {
+    "PP‑Vox": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "PSOE + izquierda": [
+      0,
+      2,
+      2,
+      2,
+      1,
+      1,
+      3,
+      1,
+      2,
+      3,
+      3
+    ],
+    "Territoriales/bisagra": [
+      0,
+      0,
+      0,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      3,
+      2
+    ],
+    "Garantías y procedimiento": [
+      0,
+      2,
+      0,
+      2,
+      2,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "variables": {
+    "Vivienda": [
+      1,
+      3,
+      2,
+      null,
+      3,
+      2,
+      null,
+      1,
+      null,
+      null,
+      1
+    ],
+    "Inflación/coste de vida": [
+      1,
+      null,
+      2,
+      null,
+      2,
+      null,
+      null,
+      1,
+      null,
+      null,
+      1
+    ],
+    "Fragmentación izquierda": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "Relación PP‑Vox": [
+      null,
+      null,
+      1,
+      1,
+      1,
+      1,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "Participación": [
+      null,
+      null,
+      null,
+      2,
+      2,
+      1,
+      2,
+      null,
+      null,
+      null,
+      null
+    ],
+    "Bloqueo": [
+      1,
+      null,
+      null,
+      2,
+      2,
+      1,
+      2,
+      2,
+      null,
+      null,
+      null
+    ]
+  },
+  "territorial": {
+    "Agenda nacionalista catalana": [
+      null,
+      null,
+      null,
+      2,
+      2,
+      2,
+      2,
+      2,
+      null,
+      2,
+      null
+    ],
+    "Agenda nacionalista vasca": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "Veto/bisagra territorial": [
+      null,
+      null,
+      null,
+      2,
+      null,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "Compatibilidad programática-territorial": [
+      null,
+      null,
+      null,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "Agendas territoriales complementarias": [
+      null,
+      null,
+      null,
+      1,
+      null,
+      null,
+      null,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "signals": {
+    "Confirmatorias": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Vigilancia": [
+      0,
+      4,
+      3,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      3,
+      3
+    ],
+    "Disruptivas": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Recalibradoras": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "metric_types": {
+    "scenarios": "ordinal_1_3",
+    "blocks": "counts",
+    "variables": "ordinal_1_3",
+    "territorial": "ordinal_1_3",
+    "signals": "counts"
+  },
+  "validation": "Regla, reconstrucción 7–16 y codificación D-011 pendientes de validación IH específica",
+  "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
+  "note": "Sin recalibración de A-000, sin modificación de MICMAC ni de probabilidades selladas."
+}

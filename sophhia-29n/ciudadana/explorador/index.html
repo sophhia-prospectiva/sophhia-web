@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SOPHHIA 29‑N · Explorador Paramétrico</title>
+<meta name="description" content="Explorador Paramétrico experimental de sensibilidad prospectiva para SOPHHIA 29‑N. Laboratorio interactivo de sensibilidad prospectiva integrado en SOPHHIA 29‑N. Modelo heurístico, sin valor de predicción certificada.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#F4EFE6; --paper:#FBF8F2; --paper2:#FFFDF8; --ink:#182845; --inkhi:#31456F; --text:#2A2E38; --muted:#667085;
+  --accent:#A97B4F; --accenthi:#C99B6C; --accentlo:#7A5430; --line:#D8CFC0; --soft:#EDE6D8;
+  --ok:#5E7D5A; --warn:#B5893B; --alert:#9C4A38; --info:#3E6B8C; --shadow:0 22px 70px rgba(28,43,74,.13);
+}
+:root[data-theme="nocturna"]{color-scheme:dark;--bg:#141B2D;--paper:#1D2740;--paper2:#202B46;--ink:#E8E0CE;--inkhi:#FFF8E8;--text:#C9CFDC;--muted:#9AA7BD;--accent:#C79A63;--accenthi:#E4BC85;--accentlo:#96693A;--line:#33405C;--soft:#26314E;--ok:#7FA37A;--warn:#D0A75A;--alert:#C06A55;--info:#80A8C8;--shadow:0 22px 70px rgba(0,0,0,.25)}
+:root[data-theme="pergamino"]{--bg:#EFE3CE;--paper:#F8F0DF;--paper2:#FFF7E9;--ink:#4A3626;--inkhi:#6B523C;--text:#54432F;--muted:#7C6B55;--accent:#8A5A2B;--accenthi:#AC7C46;--accentlo:#603E1B;--line:#D6C4A4;--soft:#E9DCC0;--ok:#6B7D4F;--warn:#A8762C;--alert:#93402C;--info:#57758C;--shadow:0 22px 70px rgba(74,54,38,.15)}
+:root[data-theme="tecnica"]{--bg:#F2F4F7;--paper:#FFFFFF;--paper2:#FFFFFF;--ink:#22303F;--inkhi:#3C5268;--text:#3A4654;--muted:#667085;--accent:#3E6B8C;--accenthi:#628FB0;--accentlo:#294A63;--line:#D4DAE2;--soft:#E8ECF1;--ok:#4F7D5E;--warn:#B08830;--alert:#A04A3A;--info:#3E6B8C;--shadow:0 22px 70px rgba(34,48,63,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 18% 0%,rgba(201,155,108,.16),transparent 24rem),var(--bg);color:var(--text);font-family:'Work Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:300;line-height:1.62}a{color:var(--accent)}.wrap{max-width:1160px;margin:0 auto;padding:0 1.2rem 4rem}.controls{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:.75rem 0;display:flex;gap:.55rem;align-items:center;flex-wrap:wrap}.lbl{font-size:.68rem;text-transform:uppercase;letter-spacing:.16em;color:var(--accent);font-weight:600}.btn{font-size:.72rem;letter-spacing:.06em;background:var(--paper);color:var(--text);border:1px solid var(--line);padding:.42rem .78rem;border-radius:999px;cursor:pointer}.btn.active{background:var(--ink);color:var(--bg);border-color:var(--ink)}.btn:hover{border-color:var(--accent)}
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:2rem;align-items:center;padding:3.2rem 0 2rem;border-bottom:1px solid var(--line)}.eyebrow{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.7rem}h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(2.5rem,5.5vw,4.8rem);line-height:.98;margin:0 0 1rem;color:var(--ink);font-weight:600;letter-spacing:-.035em}.lead{font-family:'Cormorant Garamond',Georgia,serif;color:var(--accent);font-style:italic;font-size:clamp(1.25rem,2vw,1.8rem);line-height:1.3;margin:0 0 1rem}.intro{font-size:1.02rem;max-width:58rem}.hero-card{background:linear-gradient(150deg,var(--paper),var(--paper2));border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:1.2rem}.hero-card strong{font-family:'Cormorant Garamond',Georgia,serif;color:var(--ink);font-size:1.25rem;line-height:1.2;display:block;margin-bottom:.55rem}.tag{display:inline-flex;border:1px solid currentColor;border-radius:999px;padding:.18rem .58rem;font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;font-weight:600;color:var(--accent);margin:.15rem .2rem .15rem 0}.tag.warn{color:var(--warn)}.tag.info{color:var(--info)}
+section{padding:2rem 0}h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(1.9rem,3vw,3rem);line-height:1.05;color:var(--ink);font-weight:600;margin:0 0 .75rem}.note{color:var(--muted);max-width:70ch;margin-bottom:1rem}.grid{display:grid;gap:1rem}.grid-2{grid-template-columns:minmax(310px,.75fr) minmax(0,1.25fr)}.panel,.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:1.15rem;box-shadow:0 10px 30px rgba(28,43,74,.05)}.panel h3,.card h3{font-family:'Cormorant Garamond',Georgia,serif;color:var(--ink);font-size:1.35rem;margin:.1rem 0 .55rem}.pre{display:flex;flex-wrap:wrap;gap:.45rem;margin:.3rem 0 1rem}.ctl{margin:0 0 1rem}.ctl label{display:flex;justify-content:space-between;gap:1rem;font-size:.9rem}.ctl output{font-variant-numeric:tabular-nums;color:var(--accent);font-weight:600}.ends{display:flex;justify-content:space-between;color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em}input[type=range]{width:100%;accent-color:var(--accent)}
+.viz{min-height:420px}.plate{border:1px solid var(--line);background:linear-gradient(160deg,var(--soft),var(--paper) 56%,var(--soft));border-radius:18px;padding:1rem;overflow:hidden;box-shadow:0 18px 45px rgba(28,43,74,.12), inset 0 0 0 5px color-mix(in srgb,var(--paper) 85%,transparent)}.plate svg{display:block;width:100%;max-width:100%;height:auto}.plot-bg{fill:color-mix(in srgb,var(--paper2) 84%,var(--soft));stroke:var(--line);stroke-width:1}.grid-major{stroke:var(--ink);stroke-width:.65;opacity:.18}.grid-minor{stroke:var(--ink);stroke-width:.45;opacity:.09}.axis-label{fill:var(--accent);font-size:9.5px;letter-spacing:.07em}.scenario-link{stroke:var(--accent);stroke-width:.75;stroke-dasharray:3 4;opacity:.45}.cap{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;color:var(--accent);text-align:center;font-size:.95rem;margin:.5rem 0 0}.results{display:grid;gap:.55rem;margin-top:1rem}.resrow{display:grid;grid-template-columns:4rem 1fr 4rem 4rem;gap:.7rem;align-items:center;border-bottom:1px dotted var(--line);padding:.35rem 0}.resrow b{font-family:'Cormorant Garamond',Georgia,serif;color:var(--ink);font-size:1.1rem}.bar{height:.85rem;background:var(--soft);border:1px solid var(--line);border-radius:999px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accentlo),var(--accenthi))}.pv,.dv{font-variant-numeric:tabular-nums;text-align:right}.dv{color:var(--accent);font-size:.82rem}.sum{font-size:.78rem;color:var(--muted);margin-top:.6rem}.reading{border-left:3px solid var(--accent);padding-left:1rem;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;color:var(--inkhi);font-size:1.15rem;line-height:1.35;margin-top:1rem}.method{margin-top:1rem}.method summary{cursor:pointer;color:var(--accent);text-transform:uppercase;letter-spacing:.1em;font-size:.75rem;font-weight:600}.table-wrap{overflow-x:auto;border:1px solid var(--line);background:var(--paper);border-radius:14px;margin-top:.75rem}table{width:100%;border-collapse:collapse;min-width:690px;font-size:.82rem}th{background:var(--soft);color:var(--accent);text-align:left;text-transform:uppercase;letter-spacing:.11em;font-size:.65rem;padding:.55rem .7rem}td{border-top:1px solid var(--line);padding:.5rem .7rem;vertical-align:top}.cols3{grid-template-columns:repeat(3,1fr)}.small{font-size:.85rem;color:var(--muted)}.footer{border-top:1px solid var(--line);padding:1.4rem 0 3rem;margin-top:2rem;font-size:.85rem;color:var(--muted)}.footer b{font-family:'Cormorant Garamond',Georgia,serif;color:var(--ink);font-size:1.18rem}
+.t{fill:var(--text);font-size:11px}.ts{fill:var(--text);font-size:9.5px}.tu{fill:var(--accent);font-size:9px;letter-spacing:.14em;text-transform:uppercase}.tf{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;fill:var(--ink);font-size:16px}.tfp{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;fill:var(--ink);font-size:18px}.tp{fill:var(--paper);font-size:11px;font-weight:600}.ln{stroke:var(--ink);fill:none;stroke-width:1.35}.lnd{stroke:var(--accent);fill:none;stroke-width:1.4;stroke-dasharray:5 4}.gridln{stroke:var(--ink);stroke-width:.5;opacity:.16}.sh{filter:url(#fSh)}.tooltip{font-size:.75rem;color:var(--muted)}
+@media(max-width:900px){.hero,.grid-2{grid-template-columns:1fr}.cols3{grid-template-columns:1fr}.resrow{grid-template-columns:3.3rem 1fr 3.4rem 3.7rem}}
+</style>
+<style>.ci-nav{position:relative;z-index:20;background:#173b3d;color:#fff;padding:15px max(18px,calc((100% - 1160px)/2));font:15px/1.6 system-ui;display:flex;flex-wrap:wrap;gap:9px 20px;align-items:center}.ci-nav a{color:#fff;text-decoration:underline;text-underline-offset:4px}.ci-brand{font-weight:700;width:100%;letter-spacing:.03em}.ci-guide{margin:24px auto;padding:24px;max-width:1100px;background:#f3eee2;border:1px solid #c9b88e;border-left:5px solid #a67b39;border-radius:12px;color:#203d3d;box-shadow:0 8px 22px #183b3b14;font:17px/1.7 system-ui}.ci-guide h2{font:600 27px/1.25 Georgia,serif;margin:0 0 12px;color:#183b3d}.ci-guide p{margin:8px 0}.ci-guide a{color:#184f55;text-decoration:underline}.ci-guide summary{cursor:pointer;font-weight:650}.ci-guide dl{display:grid;grid-template-columns:minmax(100px,1fr) 3fr;gap:12px}.ci-guide dt{font-weight:700}.ci-guide dd{margin:0}.ci-state{font-size:14px;border-top:1px solid #c9b88e;padding-top:12px}.ci-table{width:100%;border-collapse:collapse;font:15px/1.5 system-ui}.ci-table td,.ci-table th{padding:12px;border-bottom:1px solid #c9b88e;text-align:left;overflow-wrap:anywhere}@media(max-width:600px){.ci-guide{margin:16px 12px;padding:18px}.ci-guide dl{display:block}.ci-guide dd{margin-bottom:14px}.ci-table{font-size:13px}.ci-table td,.ci-table th{padding:6px}}html,body{max-width:100%}.chart-wrap{overflow:visible!important}.chart-svg{min-width:0!important;max-width:100%!important}</style></head>
+<body><nav class="ci-nav" aria-label="Edición Ciudadana"><span class="ci-brand">SOPHHIA 29-N · Edición Ciudadana</span><a href="../">Inicio</a><a href="../#dashboard">Cinco gráficos</a><a href="../diario/">Once entregas</a><a href="../midc/">Sondeos</a><a href="../midc/historico/">Histórico</a><a href="../explorador/">Explorador</a><a href="../metodologia/">Cómo funciona</a><a href="../guia/">Participar</a><a href="/sophhia-29n/">Edición Básica</a></nav><section class="ci-guide"><h2>Un laboratorio: ¿qué pasaría si…?</h2><p>Mueva los controles para ensayar cambios en las condiciones políticas. Observe cómo responde el modelo y restablezca los valores para comparar. Los resultados son orientativos: no son encuestas, probabilidades electorales ni decisiones aprobadas.</p><p>La referencia paramétrica original sigue siendo D-005; la fecha D-011 identifica el seguimiento editorial vigente, no una recalibración del modelo. Los porcentajes representan salidas de ensayos del modelo, no probabilidades electorales. Los controles modifican una simulación local; no alteran la Bitácora ni su validación humana.</p></section>
+<div class="wrap">
+  <div class="controls" aria-label="Controles visuales">
+    <a class="btn" href="../" style="text-decoration:none">← Volver a SOPHHIA 29‑N</a>
+    <a class="btn" href="../#dashboard" style="text-decoration:none">Dashboard</a>
+    <span class="lbl">Paleta</span>
+    <button class="btn active" data-t="editorial">Editorial</button>
+    <button class="btn" data-t="nocturna">Nocturna</button>
+    <button class="btn" data-t="pergamino">Pergamino</button>
+    <button class="btn" data-t="tecnica">Técnica</button>
+  </div>
+
+  <header class="hero">
+    <div>
+      <div class="eyebrow">FE.5‑29N‑001 · Explorador Paramétrico · Modo A estructurado</div>
+      <h1>Explorador Paramétrico SOPHHIA 29‑N</h1>
+      <p class="lead">Mover variables motrices y observar cómo respiran los escenarios de gobernabilidad.</p>
+      <p class="intro">Esta pieza adapta el modelo de Explorador Paramétrico al caso SOPHHIA 29‑N. No pretende calcular la probabilidad real de cada escenario: muestra sensibilidad heurística ante cambios en variables estructurales del caso.</p>
+      <p class="intro"><strong>Advertencia metodológica:</strong> modelo experimental de sensibilidad. No constituye predicción certificada. Sus resultados son heurísticos y están pendientes de validación IH.</p>
+    </div>
+    <aside class="hero-card">
+      <strong>Modelo experimental de sensibilidad prospectiva.</strong>
+      <p>Resultados heurísticos, sin valor de predicción certificada y pendientes de validación IH.</p>
+      <span class="tag warn">No Modo B</span><span class="tag info">No predicción</span><span class="tag">Semilla fija</span>
+    </aside>
+  </header>
+
+  <section>
+    <h2>Panel interactivo</h2>
+    <p class="note">Desplaza una variable motriz y observa el efecto sobre cuatro escenarios vivos. El caso base paramétrico procede de la lectura D‑005, del 11 de octubre de 2026; no equivale a la actualización diaria ni implica recalibración de A‑000.</p><p class="note" id="explorer-update-meta" aria-live="polite"><strong>Referencia paramétrica:</strong> D‑005 · 11 oct 2026. <strong>Última actualización del observatorio:</strong> consultando fecha…</p>
+    <div class="grid grid-2">
+      <section class="panel" aria-label="Variables motrices">
+        <h3>Variables motrices</h3>
+        <div class="pre" role="group" aria-label="Preajustes">
+          <button class="btn" data-pre="base">Referencia D‑005</button>
+          <button class="btn" data-pre="conservador">PP‑Vox amplio</button>
+          <button class="btn" data-pre="progresista">Reactivación progresista</button>
+          <button class="btn" data-pre="territorial">Tensión territorial</button>
+          <button class="btn" data-pre="procedimental">Crisis procedimental</button>
+        </div>
+        <div id="controls"></div>
+        <div class="pre">
+          <button class="btn" id="reset">Restablecer caso base</button>
+          <button class="btn" id="fixbase">Fijar este punto como base</button>
+        </div>
+        <div class="results" id="results" aria-live="polite"></div>
+      </section>
+
+      <section class="viz">
+        <div class="plate">
+          <svg id="svg" viewBox="0 0 900 455" role="img" aria-label="Cono de escenarios SOPHHIA 29‑N con cuatro medallones dinámicos G1, G2, G4 y G5.">
+            <defs>
+              <filter id="fSh" x="-35%" y="-35%" width="170%" height="170%"><feDropShadow dx="0" dy="3" stdDeviation="2.7" flood-color="#101820" flood-opacity="0.26"/></filter>
+              <radialGradient id="gSun" cx="38%" cy="32%" r="80%"><stop offset="0%" stop-color="var(--accenthi)"/><stop offset="55%" stop-color="var(--accent)"/><stop offset="100%" stop-color="var(--accentlo)"/></radialGradient>
+              <linearGradient id="gCone" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="var(--accent)" stop-opacity="0"/><stop offset="1" stop-color="var(--accent)" stop-opacity=".22"/></linearGradient>
+              <linearGradient id="gCone2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="var(--ink)" stop-opacity="0"/><stop offset="1" stop-color="var(--ink)" stop-opacity=".10"/></linearGradient>
+            </defs>
+            <rect x="18" y="14" width="220" height="22" rx="3" fill="none" class="lnd"/>
+            <text x="30" y="30" class="tu">[MODELO EXPERIMENTAL · MODO A]</text>
+            <rect x="44" y="50" width="820" height="352" rx="12" class="plot-bg"/>
+            <g id="gridMinor" aria-hidden="true"></g>
+            <path id="wOuter" fill="url(#gCone2)" class="lnd"/>
+            <path id="wInner" fill="url(#gCone)" class="lnd" stroke-width="1.8"/>
+            <line x1="72" y1="386" x2="610" y2="386" class="ln"/>
+            <g id="ticks"></g>
+            <circle cx="72" cy="214" r="19" fill="none" class="lnd" opacity=".58"/>
+            <circle cx="72" cy="214" r="10" fill="url(#gSun)" stroke="var(--paper)" stroke-width="1.6"/>
+            <text id="todayLabel1" x="72" y="171" text-anchor="middle" class="tf">última edición</text>
+            <text id="todayLabel2" x="72" y="188" text-anchor="middle" class="tu">consultando fecha…</text>
+            <text x="735" y="430" text-anchor="middle" class="tu">horizonte · formación de Gobierno</text>
+            <g id="links" aria-hidden="true"></g>
+            <g id="med"></g>
+            <text id="unc" x="22" y="438" class="ts"></text>
+          </svg>
+        </div>
+        <div class="cap">El cono se abre con la incertidumbre; los medallones crecen con la plausibilidad simulada. Cuadrícula de orientación conceptual, sin escala probabilística propia.</div>
+        <div class="reading" id="reading"></div>
+      </section>
+    </div>
+  </section>
+
+  <section>
+    <h2>Variables, escenarios y lectura</h2>
+    <div class="grid cols3">
+      <article class="card"><h3>Dashboard</h3><p>El Dashboard dice dónde está el sistema.</p><p class="small">Estado vigente, trayectorias, señales y radar nacional‑territorial.</p></article>
+      <article class="card"><h3>MICMAC</h3><p>El MICMAC explica qué variables mueven el sistema.</p><p class="small">V1–V18, con foco territorial en V9, V10, V11, V12 y V16.</p></article>
+      <article class="card"><h3>Explorador</h3><p>El Explorador pregunta qué pasaría si se mueven algunas variables.</p><p class="small">No predice: ensaya sensibilidad.</p></article>
+    </div>
+    <details class="method">
+      <summary>Ver modelo heurístico</summary>
+      <p class="small">Cada escenario recibe una puntuación lineal con pesos fijos y arbitrarios, adaptados a las variables del caso 29‑N. Se añaden perturbaciones gaussianas con semilla fija y se asigna cada muestra al escenario de mayor puntuación. Es un cálculo reproducible de un modelo heurístico, no una predicción certificada.</p>
+      <div class="table-wrap"><table id="modelTable"></table></div>
+    </details>
+  </section>
+
+  <footer class="footer">
+    <b>SOPHHIA 29‑N · Explorador Paramétrico</b>
+    <p>Pieza experimental integrada en SOPHHIA 29‑N. Sus resultados son heurísticos, sin valor de predicción certificada, y quedan pendientes de validación IH continua. Versión FE.5‑29N‑001 v0.22 · SYNC‑29N‑001 · fecha de hoy dinámica y normalización DG‑SOPHHIA‑001.</p>
+  </footer>
+</div>
+
+<script>
+(function(){
+  const root=document.documentElement;
+  const themeBtns=document.querySelectorAll('.btn[data-t]');
+  themeBtns.forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.t;if(t==='editorial')root.removeAttribute('data-theme');else root.setAttribute('data-theme',t);themeBtns.forEach(x=>x.classList.toggle('active',x===b));}));
+
+  const variables=[
+    {id:'pp', name:'Ventaja electoral PP', lo:'débil', hi:'fuerte', base:70, micmac:'V1'},
+    {id:'vox', name:'Fuerza electoral de Vox', lo:'contenida', hi:'muy alta', base:68, micmac:'V2 / V3'},
+    {id:'left', name:'Recomposición izquierda alternativa', lo:'fragmentada', hi:'recompuesta', base:36, micmac:'V4 / V5'},
+    {id:'terr', name:'Activación nacional‑territorial', lo:'latente', hi:'crítica', base:58, micmac:'V9 / V10 / V12 / V16'},
+    {id:'social', name:'Presión vivienda / coste de vida', lo:'sectorial', hi:'clivaje', base:78, micmac:'V7 / V8'},
+    {id:'conf', name:'Confianza procedimental', lo:'erosionada', hi:'alta', base:55, micmac:'V13'}
+  ];
+  const scenarios=[
+    {id:'G1', name:'Gobierno PP‑Vox de coalición'},
+    {id:'G2', name:'PP monocolor con apoyo externo de Vox'},
+    {id:'G4', name:'Reconstrucción progresista competitiva'},
+    {id:'G5', name:'Bloqueo / repetición electoral'}
+  ];
+  // pesos: pp, vox, left, terr, social, conf
+  const B=[-0.70,-0.60,-1.55,-2.20];
+  const W=[
+    [ .030,.040,-.015,.012,-.005,-.010],
+    [ .040,-.018,-.010,-.018,-.010,.014],
+    [-.030,-.025,.052,.018,.030,.006],
+    [-.018,.008,.014,.045,.018,-.050]
+  ];
+  const PRE={
+    base:variables.map(v=>v.base),
+    conservador:[82,78,28,48,60,62],
+    progresista:[54,50,72,62,86,62],
+    territorial:[66,70,42,92,70,50],
+    procedimental:[64,72,38,78,72,18]
+  };
+  const N=5000, SIG=11, SEED=29112026;
+  function rng(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;}}
+  const rand=rng(SEED); const Z=new Float64Array(N*variables.length);
+  for(let i=0;i<Z.length;i+=2){const u=rand()||1e-9,v=rand(),m=Math.sqrt(-2*Math.log(u));Z[i]=m*Math.cos(2*Math.PI*v);if(i+1<Z.length)Z[i+1]=m*Math.sin(2*Math.PI*v)}
+  function score(x){return scenarios.map((_,i)=>B[i]+W[i].reduce((s,w,j)=>s+w*(x[j]-50),0));}
+  function mc(x){let counts=[0,0,0,0];const baseScore=score(x);for(let i=0;i<N;i++){let best=-Infinity,k=0;for(let s=0;s<4;s++){let val=baseScore[s];for(let j=0;j<variables.length;j++){val+=W[s][j]*SIG*Z[i*variables.length+j]}if(val>best){best=val;k=s}}counts[k]++}const raw=counts.map(c=>c*100/N), fl=raw.map(Math.floor);let rem=100-fl.reduce((a,b)=>a+b,0);const ord=[0,1,2,3].sort((a,b)=>(raw[b]-fl[b])-(raw[a]-fl[a]));for(let i=0;i<rem;i++)fl[ord[i]]++;return {p:fl,f:raw.map(r=>r/100)}}
+  function entropy(f){let h=0;f.forEach(q=>{if(q>0)h-=q*Math.log(q)});return h/Math.log(4)}
+  const controls=document.getElementById('controls');
+  variables.forEach((v,i)=>{controls.insertAdjacentHTML('beforeend',`<div class="ctl"><label for="s${i}"><span>${v.name} <span class="small">(${v.micmac})</span></span><output id="o${i}">${v.base}</output></label><input type="range" id="s${i}" min="0" max="100" step="1" value="${v.base}"><div class="ends"><span>${v.lo}</span><span>${v.hi}</span></div></div>`)});
+  const sliders=variables.map((_,i)=>document.getElementById('s'+i));
+  const outs=variables.map((_,i)=>document.getElementById('o'+i));
+  function vals(){return sliders.map(s=>+s.value)}
+  function setVals(a){a.forEach((v,i)=>{sliders[i].value=v;outs[i].textContent=v})}
+  let baseX=vals(), baseRes=mc(baseX), baseU=entropy(baseRes.f);
+  sliders.forEach((s,i)=>s.addEventListener('input',()=>{outs[i].textContent=s.value;update()}));
+  document.querySelectorAll('[data-pre]').forEach(b=>b.addEventListener('click',()=>{setVals(PRE[b.dataset.pre]);update()}));
+  document.getElementById('reset').addEventListener('click',()=>{setVals(baseX);update()});
+  document.getElementById('fixbase').addEventListener('click',()=>{baseX=vals();baseRes=mc(baseX);baseU=entropy(baseRes.f);document.getElementById('wOuter').setAttribute('d',wedge(hs(baseU).outer));update()});
+
+  const NS='http://www.w3.org/2000/svg', X0=72,X1=610,Y0=214;
+  function el(n,a,p,t){const e=document.createElementNS(NS,n);Object.entries(a).forEach(([k,v])=>e.setAttribute(k,v));if(t!=null)e.textContent=t;if(p)p.appendChild(e);return e}
+  function fmtDateLabel(iso){
+    if(!iso) return 'fecha no disponible';
+    const m=String(iso).match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if(!m) return 'fecha no disponible';
+    const meses=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    return String(+m[3])+' '+meses[+m[2]-1]+' '+m[1];
+  }
+  function setTodayMeta(code,date){
+    const niceCode=String(code||'sin edición').replace('-', '‑');
+    document.getElementById('todayLabel1').textContent='hoy · '+niceCode;
+    document.getElementById('todayLabel2').textContent=fmtDateLabel(date);
+    const status=document.getElementById('explorer-update-meta');
+    if(status) status.innerHTML='<strong>Referencia paramétrica:</strong> D‑005 · 11 oct 2026. <strong>Última actualización del observatorio:</strong> '+niceCode+' · '+fmtDateLabel(date);
+    const firstTick=document.querySelector('#ticks text');
+    if(firstTick) firstTick.textContent=niceCode;
+  }
+  fetch('../data/current.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{if(j)setTodayMeta(j.codigo,j.fecha);else setTodayMeta(null,null)}).catch(()=>setTodayMeta(null,null));
+  const grid=document.getElementById('gridMinor');
+  for(let i=0;i<=8;i++){const x=72+i*(538/8);el('line',{x1:x,y1:58,x2:x,y2:386,class:i%2===0?'grid-major':'grid-minor'},grid)}
+  for(let i=0;i<=6;i++){const y=74+i*(288/6);el('line',{x1:52,y1:y,x2:846,y2:y,class:i%2===0?'grid-major':'grid-minor'},grid)}
+  const ticks=document.getElementById('ticks');
+  [0,1,2,3,4].forEach(i=>{const x=X0+i*(X1-X0)/4;el('line',{x1:x,y1:386,x2:x,y2:392,class:'ln'},ticks);el('text',{x:x,y:407,'text-anchor':'middle',class:'axis-label'},ticks,['D‑005','campaña','29‑N','investidura','gobierno'][i])});
+  function wedge(h){return `M${X0} ${Y0} C 255 ${Y0}, 385 ${Y0-h}, ${X1} ${Y0-h} L ${X1} ${Y0+h} C 385 ${Y0+h}, 255 ${Y0}, ${X0} ${Y0} Z`}
+  function hs(U){return {outer:150*(.70+.30*U),inner:72*(.58+.42*U)}}
+  const med=document.getElementById('med'), linkLayer=document.getElementById('links'), nodes=[];
+  const shortNames={G1:['PP‑Vox','coalición'],G2:['PP monocolor','apoyo externo'],G4:['Reconstrucción','progresista'],G5:['Bloqueo /','repetición']};
+  scenarios.forEach((sc,i)=>{const line=el('path',{d:'',class:'scenario-link'},linkLayer);const g=el('g',{},med);const c=el('circle',{cx:670,cy:Y0,r:22,fill:'url(#gSun)',stroke:'var(--paper)','stroke-width':2,class:'sh'},g);const ring=el('circle',{cx:670,cy:Y0,r:27,fill:'none',class:'lnd'},g);const cod=el('text',{x:670,y:Y0+4,'text-anchor':'middle',class:'tp'},g,sc.id);const pct=el('text',{x:725,y:Y0-8,class:'tfp'},g,'');const delta=el('text',{x:725,y:Y0+9,class:'ts'},g,'');const name1=el('text',{x:725,y:Y0+25,class:'ts'},g,shortNames[sc.id][0]);const name2=el('text',{x:725,y:Y0+38,class:'ts'},g,shortNames[sc.id][1]);nodes.push({g,c,ring,cod,pct,delta,name1,name2,line})});
+  function sign(n){return n>0?'+'+n:(n<0?'−'+Math.abs(n):'±0')}
+  function draw(res,U,dp){const h=hs(U);document.getElementById('wOuter').setAttribute('d',wedge(h.outer));document.getElementById('wInner').setAttribute('d',wedge(h.inner));const ys=[Y0-105,Y0-35,Y0+35,Y0+105];nodes.forEach((m,i)=>{const r=11+28*Math.sqrt(res.f[i]);[m.c,m.ring].forEach((e,j)=>{e.setAttribute('cy',ys[i]);e.setAttribute('r',r+(j?5:0))});m.cod.setAttribute('y',ys[i]+4);m.pct.setAttribute('y',ys[i]-8);m.delta.setAttribute('y',ys[i]+9);m.name1.setAttribute('y',ys[i]+25);m.name2.setAttribute('y',ys[i]+38);m.line.setAttribute('d',`M610 ${ys[i]} H${670-r-8}`);m.pct.textContent=res.p[i]+' %';m.delta.textContent=sign(dp[i])+' pp vs base'});document.getElementById('unc').textContent='Incertidumbre del modelo: '+U.toFixed(2).replace('.',',')+' · semilla fija '+SEED}
+  function update(){const x=vals();const res=mc(x), U=entropy(res.f), dp=res.p.map((v,i)=>v-baseRes.p[i]);draw(res,U,dp);render(res,dp,U);}
+  function render(res,dp,U){const results=document.getElementById('results');let html='';scenarios.forEach((sc,i)=>{html+=`<div class="resrow"><b>${sc.id}</b><div><div>${sc.name}</div><div class="bar"><i style="width:${res.p[i]}%"></i></div></div><span class="pv">${res.p[i]}%</span><span class="dv">${sign(dp[i])} pp</span></div>`});html+=`<div class="sum">Suma: 100 %. Incertidumbre: ${U.toFixed(2).replace('.',',')}. Modelo heurístico experimental.</div>`;results.innerHTML=html;const top=res.p.reduce((a,b,i)=>b>res.p[a]?i:a,0);const txt={G1:'La sensibilidad favorece una salida de coalición PP‑Vox cuando PP y Vox se mantienen fuertes y la recomposición progresista no compensa.',G2:'La sensibilidad favorece un PP monocolor con apoyo externo si el PP es fuerte y Vox no domina la negociación.',G4:'La sensibilidad abre la reconstrucción progresista cuando se combinan recomposición de izquierda, presión social y menor ventaja conservadora.',G5:'El bloqueo gana peso cuando coinciden tensión territorial, baja confianza procedimental e incertidumbre alta.'};document.getElementById('reading').textContent=txt[scenarios[top].id]}
+  const tab=document.getElementById('modelTable');
+  let th='<tr><th>Escenario</th><th>Sesgo</th>'+variables.map(v=>'<th>'+v.name+'</th>').join('')+'</tr>';scenarios.forEach((s,i)=>{th+=`<tr><td>${s.id} · ${s.name}</td><td>${B[i].toFixed(2).replace('.',',')}</td>`+W[i].map(w=>`<td>${w>=0?'+':'−'}${Math.abs(w).toFixed(3).replace('.',',')}</td>`).join('')+'</tr>'});tab.innerHTML=th;
+  update();
+})();
+</script>
+</body>
+</html>

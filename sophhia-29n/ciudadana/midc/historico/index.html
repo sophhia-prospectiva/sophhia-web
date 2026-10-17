@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOPHHIA · Archivo demoscópico</title>
+<style>
+body{background:#f4efe6;color:#182845;font:16px/1.5 system-ui;margin:0}
+header{background:#182845;padding:1rem}header a{color:#f2d7b5}
+main{max-width:1050px;margin:auto;padding:1rem}h1,h2{font-family:Georgia,serif}
+section{background:#fbf8f2;padding:1rem;margin:1rem 0;border:1px solid #d8cfc0;border-radius:12px}
+label{margin-right:8px}select{padding:6px;margin-right:20px}
+.notice{background:#efe3cf;border-left:4px solid #a97b4f;padding:1rem}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td,th{padding:8px;border-bottom:1px solid #d8cfc0;text-align:left}
+.scroll{overflow-x:auto}svg{width:100%;height:auto}
+.dot{fill:#a97b4f;stroke:#182845;stroke-width:2}
+</style>
+<style>.ci-nav{position:relative;z-index:20;background:#173b3d;color:#fff;padding:15px max(18px,calc((100% - 1160px)/2));font:15px/1.6 system-ui;display:flex;flex-wrap:wrap;gap:9px 20px;align-items:center}.ci-nav a{color:#fff;text-decoration:underline;text-underline-offset:4px}.ci-brand{font-weight:700;width:100%;letter-spacing:.03em}.ci-guide{margin:24px auto;padding:24px;max-width:1100px;background:#f3eee2;border:1px solid #c9b88e;border-left:5px solid #a67b39;border-radius:12px;color:#203d3d;box-shadow:0 8px 22px #183b3b14;font:17px/1.7 system-ui}.ci-guide h2{font:600 27px/1.25 Georgia,serif;margin:0 0 12px;color:#183b3d}.ci-guide p{margin:8px 0}.ci-guide a{color:#184f55;text-decoration:underline}.ci-guide summary{cursor:pointer;font-weight:650}.ci-guide dl{display:grid;grid-template-columns:minmax(100px,1fr) 3fr;gap:12px}.ci-guide dt{font-weight:700}.ci-guide dd{margin:0}.ci-state{font-size:14px;border-top:1px solid #c9b88e;padding-top:12px}.ci-table{width:100%;border-collapse:collapse;font:15px/1.5 system-ui}.ci-table td,.ci-table th{padding:12px;border-bottom:1px solid #c9b88e;text-align:left;overflow-wrap:anywhere}@media(max-width:600px){.ci-guide{margin:16px 12px;padding:18px}.ci-guide dl{display:block}.ci-guide dd{margin-bottom:14px}.ci-table{font-size:13px}.ci-table td,.ci-table th{padding:6px}}html,body{max-width:100%}.chart-wrap{overflow:visible!important}.chart-svg{min-width:0!important;max-width:100%!important}</style></head>
+<body><nav class="ci-nav" aria-label="Edición Ciudadana"><span class="ci-brand">SOPHHIA 29-N · Edición Ciudadana</span><a href="../../">Inicio</a><a href="../../#dashboard">Cinco gráficos</a><a href="../../diario/">Once entregas</a><a href="../../midc/">Sondeos</a><a href="../../midc/historico/">Histórico</a><a href="../../explorador/">Explorador</a><a href="../../metodologia/">Cómo funciona</a><a href="../../guia/">Participar</a><a href="/sophhia-29n/">Edición Básica</a></nav><section class="ci-guide"><h2>Comparar con memoria</h2><p>El histórico permite volver a las observaciones fechadas y sus fichas. Antes de interpretar una subida, compruebe si compara la misma encuestadora, el mismo método y periodos de trabajo de campo comparables.</p></section>
+<header><a href="../">← MIDC v0.4</a></header>
+<main>
+<small>MIDC-29N-002 · LABORATORIO · 16-10-2026 · v0.2</small>
+<h1>Archivo demoscópico comparado</h1><p class="notice"><strong>Revisión del 17 de octubre · 09:55 CEST.</strong> Sin nueva medición nacional incorporada en las fuentes examinadas. Se conservan cuatro estudios y sus cifras; última incorporación: 16 de octubre. Los trabajos de campo son anteriores al cierre de alianzas. <a href="../../diario/2026-10-17.html">Lectura D-011</a>.</p>
+<p class="notice">Cuatro estudios históricos; sin imputar cifras ausentes. Los puntos corresponden a publicaciones de casas diferentes: no constituyen una serie temporal continua ni una predicción. Sin recalibrar A-000 o MICMAC.</p>
+<section>
+<label for="party">Partido</label><select id="party"></select>
+<label for="date">Fecha del eje</label><select id="date"><option value="publicacion">Publicación</option><option value="campo_fin">Fin del trabajo de campo</option></select>
+<h2>Observaciones fechadas</h2><div id="plot"></div><p id="insight"></p>
+</section>
+<section><h2>Fuentes y ficha metodológica</h2><div class="scroll" id="table"></div></section>
+<section><h2>Protocolo de registro</h2><p>Conservar el identificador original, fechas de campo y publicación, método, muestra, ámbito, resultado y fuente de cada sondeo. Los registros nuevos se añaden sin sobrescribir los anteriores. Ninguna alerta implica actualización automática de escenarios.</p></section>
+</main>
+<script id="archive" type="application/json">{"codigo": "MIDC-29N-002", "version": "0.2", "corte": "2026-10-16", "estado": "base_funcional_validacion_parcial", "partidos": ["PSOE", "PP", "Vox", "Sumar", "Podemos"], "encuestas": [{"id": "40db-el país / ser", "instituto": "40dB", "medio": "EL PAÍS / SER", "publicacion": "2026-10-09", "campo_inicio": "2026-10-07", "campo_fin": "2026-10-08", "muestra": 800, "modo": "CAWI", "ambito": "España", "porcentajes": {"PSOE": 28.1, "PP": 31.9, "Vox": 18.9, "Sumar": 5.3, "Podemos": 2.3}, "url": "https://elpais.com/espana/2026-10-09/el-pp-y-vox-mantienen-la-mayoria-absoluta-tras-el-adelanto-electoral.html"}, {"id": "gad3-abc", "instituto": "GAD3", "medio": "ABC", "publicacion": "2026-10-12", "campo_inicio": "2026-10-06", "campo_fin": "2026-10-08", "muestra": 1077, "modo": "CATI", "ambito": "España", "porcentajes": {"PSOE": 26.4, "PP": 31.4, "Vox": 18.2, "Sumar": 7.4, "Podemos": null}, "url": "https://www.gad3.com/en/abc-barometer-national-voting-intention-poll-october-2026/"}, {"id": "cis-cis / efe", "instituto": "CIS", "medio": "CIS / EFE", "publicacion": "2026-10-14", "campo_inicio": "2026-10-01", "campo_fin": "2026-10-06", "muestra": 5025, "modo": "Pendiente de contraste primario", "ambito": "España", "porcentajes": {"PSOE": 34, "PP": 22.2, "Vox": 17.1, "Sumar": 6.1, "Podemos": 3.1}, "url": "https://efe.com/espana/2026-10-14/barometro-cis-psoe-vencedor-tras-desahucio-maricarmen/"}, {"id": "SIGMADOS-ELMUNDO-20261012", "instituto": "Sigma Dos", "medio": "El Mundo", "publicacion": "2026-10-12", "campo_inicio": "2026-10-01", "campo_fin": "2026-10-08", "muestra": 2017, "modo": "Mixta: CATI / CAWI / RRSS (según ficha nacional)", "ambito": "España", "porcentajes": {"PSOE": 25.3, "PP": 31.9, "Vox": 19.1, "Sumar": 7.6, "Podemos": 3.1}, "url": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/", "fuente_campo": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/", "incorporado": "2026-10-16", "verificacion": "Porcentajes y ficha en publicaciones del instituto"}]}</script>
+<script>
+'use strict';
+const d=JSON.parse(document.getElementById('archive').textContent);
+const get=id=>document.getElementById(id);
+const format=n=>n===null?'n/d':n.toLocaleString('es-ES',{minimumFractionDigits:1,maximumFractionDigits:1})+' %';
+d.partidos.forEach(p=>get('party').add(new Option(p,p)));
+
+// Etiquetas autónomas: posición observada invariable; se desplaza únicamente el rótulo.
+function positionLabels(points){
+  const placed=[];
+  return points.map((p,i)=>{
+    const label=p.name+' '+format(p.value);
+    const w=Math.max(78,label.length*7.5);
+    const options=[
+      [0,-22],[0,-44],[-95,-23],[95,-23],[-95,-47],[95,-47],
+      [0,29],[-120,-68],[120,-68],[-155,29],[155,29]
+    ];
+    let chosen;
+    for(const [dx,dy] of options){
+      const x=Math.max(w/2+4,Math.min(850-w/2-4,p.x+dx));
+      const y=Math.max(17,Math.min(253,p.y+dy));
+      const r={l:x-w/2-4,r:x+w/2+4,t:y-15,b:y+5};
+      if(!placed.some(q=>r.l<q.r&&r.r>q.l&&r.t<q.b&&r.b>q.t)){
+        chosen={x,y,rect:r};break;
+      }
+    }
+    if(!chosen){
+      const x=Math.max(w/2+4,Math.min(850-w/2-4,p.x));
+      const y=Math.min(253,Math.max(17,p.y-22-22*i));
+      chosen={x,y,rect:{l:x-w/2-4,r:x+w/2+4,t:y-15,b:y+5}};
+    }
+    placed.push(chosen.rect);
+    return {...p,label,tx:chosen.x,ty:chosen.y};
+  });
+}
+function render(){
+  const party=get('party').value,axis=get('date').value;
+  const rows=d.encuestas.filter(x=>x.porcentajes[party]!=null).sort((a,b)=>a[axis].localeCompare(b[axis]));
+  const vals=rows.map(x=>x.porcentajes[party]);
+  if(!vals.length){get('plot').textContent='Sin observaciones.';get('insight').textContent='';return;}
+  const lo=Math.floor(Math.min(...vals)-4),hi=Math.ceil(Math.max(...vals)+4);
+  const times=rows.map(x=>Date.parse(x[axis]));
+  const mint=Math.min(...times)-86400000,maxt=Math.max(...times)+86400000;
+  const X=t=>85+(t-mint)/(maxt-mint)*700,Y=v=>40+(hi-v)/(hi-lo)*190;
+  const points=positionLabels(rows.map((x,i)=>({x:X(times[i]),y:Y(vals[i]),name:x.instituto,value:vals[i],date:x[axis]})));
+  let svg='<svg viewBox="0 0 850 290" role="img" aria-label="Estimaciones observadas">';
+  const shownDates=new Set();
+  points.forEach(p=>{
+    svg+='<circle class="dot" cx="'+p.x+'" cy="'+p.y+'" r="8"/>';
+    if(Math.abs(p.tx-p.x)>3||Math.abs(p.ty-(p.y-22))>4){
+      svg+='<line x1="'+p.x+'" y1="'+p.y+'" x2="'+p.tx+'" y2="'+(p.ty+4)+'" stroke="#7b6e60" stroke-width="1" opacity=".65"/>';
+    }
+    svg+='<text x="'+p.tx+'" y="'+p.ty+'" text-anchor="middle" font-size="13">'+p.label+'</text>';
+    if(!shownDates.has(p.date)){
+      svg+='<text x="'+p.x+'" y="275" text-anchor="middle" font-size="12">'+new Intl.DateTimeFormat('es-ES',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(p.date+'T00:00:00Z'))+'</text>';
+      shownDates.add(p.date);
+    }
+  });
+  get('plot').innerHTML=svg+'</svg>';
+  get('insight').textContent='Dispersión entre casas: '+(Math.max(...vals)-Math.min(...vals)).toFixed(1).replace('.',',')+' puntos. No equivale a un intervalo de confianza.';
+  get('table').innerHTML='<table><tr><th>Instituto</th><th>Publicación</th><th>Campo</th><th>Muestra</th><th>Modo</th><th>'+party+'</th><th>Fuente / ficha</th></tr>'+d.encuestas.map(x=>'<tr><td>'+x.instituto+'</td><td>'+x.publicacion+'</td><td>'+x.campo_inicio+' a '+x.campo_fin+'</td><td>'+x.muestra+'</td><td>'+x.modo+'</td><td>'+format(x.porcentajes[party])+'</td><td><a href="'+x.url+'" target="_blank" rel="noopener noreferrer">Fuente</a>'+(x.fuente_campo?' · <a href="'+x.fuente_campo+'" target="_blank" rel="noopener noreferrer">Campo</a>':'')+'</td></tr>').join('')+'</table>';
+}
+get('party').onchange=render;get('date').onchange=render;render();
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+  "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
+  "ultima_actualizacion": "D-011 · Interpretación y codificación pendientes de validación IH",
+  "entradas": [
+    {
+      "codigo": "D-011",
+      "fecha": "2026-10-17",
+      "titulo": "Cooperación en el Senado y fragmentación en el Congreso",
+      "url": "diario/2026-10-17.html",
+      "estado": "editorial_pendiente_IH",
+      "registro": "REG-D011-20261017",
+      "decision": null
+    },
+    {
+      "codigo": "D-010",
+      "fecha": "2026-10-16",
+      "titulo": "Las alianzas territoriales llegan al cierre del plazo de coaliciones",
+      "url": "diario/2026-10-16.html",
+      "estado": "validacion_IH",
+      "registro": "REG-D010-20261016",
+      "decision": "DEC-IH-D010-001"
+    },
+    {
+      "codigo": "D-009",
+      "fecha": "2026-10-15",
+      "titulo": "Encuestas divergentes, alianzas abiertas y garantías de sufragio",
+      "url": "diario/2026-10-15.html",
+      "estado": "borrador_recuperado_pendiente_IH",
+      "publicado_el": "2026-10-16",
+      "rectificacion": "REG-RECT-29N-20261016-001"
+    },
+    {
+      "codigo": "D-008",
+      "fecha": "2026-10-14",
+      "titulo": "Alianzas territoriales y garantías de sufragio: interdependencias bajo revisión",
+      "url": "diario/2026-10-14.html",
+      "estado": "validacion_IH_provisional",
+      "decision": "DEC-IH-D008-001"
+    },
+    {
+      "codigo": "D-007",
+      "fecha": "2026-10-13",
+      "titulo": "Alianzas de izquierda y derecho de sufragio: dos bifurcaciones bajo vigilancia",
+      "url": "diario/2026-10-13.html",
+      "estado": "validacion_IH_provisional",
+      "decision_previa": "DEC-IH-D006-001",
+      "decision": "DEC-IH-D007-001"
+    },
+    {
+      "codigo": "D-006",
+      "fecha": "2026-10-12",
+      "titulo": "Territorio, identidad y alianzas: nuevas conexiones en el sistema electoral",
+      "url": "diario/2026-10-12.html",
+      "estado": "validacion_IH_provisional",
+      "decision": "DEC-IH-D006-001"
+    },
+    {
+      "codigo": "D-005",
+      "fecha": "2026-10-11",
+      "titulo": "Malestar social, vivienda y territorio: señales de tensión sin recalibración",
+      "url": "diario/2026-10-11.html",
+      "estado": "archivada"
+    },
+    {
+      "codigo": "D-004",
+      "fecha": "2026-10-10",
+      "titulo": "Censo, territorio y legitimidad: el MICMAC entra en la Bitácora diaria",
+      "url": "diario/2026-10-10.html",
+      "estado": "archivada"
+    },
+    {
+      "codigo": "D-003",
+      "fecha": "2026-10-09",
+      "titulo": "Del ruido diario a las señales prospectivas",
+      "url": "diario/2026-10-09.html",
+      "estado": "archivada"
+    },
+    {
+      "codigo": "D-002",
+      "fecha": "2026-10-08",
+      "titulo": "Primer día de rutina: señales, no sobresaltos",
+      "url": "diario/2026-10-08.html",
+      "estado": "archivada"
+    },
+    {
+      "codigo": "D-001",
+      "fecha": "2026-10-07",
+      "titulo": "Apertura del observatorio público",
+      "url": "diario/2026-10-07.html",
+      "estado": "archivada"
+    }
+  ]
+}
