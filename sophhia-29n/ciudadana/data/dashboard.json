@@ -1,213 +1,88 @@
 {
-  "version": "v0.29-D011-editorial",
-  "updated": "2026-10-17",
-  "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
-  "contract": "CP-29N-F0 v0.1 + Anexo A",
-  "protocol": "P001 + P001-E001",
-  "current_entry": "D-011",
-  "mode": "Modo A · Aproximación heurística estructurada",
-  "recalibration": "No",
-  "system_state": "Marco A-000 conservado. El cierre de la coalición estatal sin acuerdo refuerza la atención documental a V4; Senado de Progreso se sigue por separado. Interpretación D-011 pendiente IH; sin nuevos pesos MICMAC ni probabilidades.",
-  "dominant_scenario": "Mayoría PP-Vox",
-  "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
-  "watch_variable": "V4 · atención alta; V11 y V16 · seguimiento; V12 · contexto",
-  "social_axis": "Candidaturas y cooperación diferentes por cámara; prioridades económicas como antecedente",
-  "path": [
-    {
-      "id": "D-001",
-      "date": "2026-10-07",
-      "title": "Apertura del observatorio público",
-      "recalibration": "No"
-    },
-    {
-      "id": "D-002",
-      "date": "2026-10-08",
-      "title": "Primer día de rutina: señales, no sobresaltos",
-      "recalibration": "No"
-    },
-    {
-      "id": "D-003",
-      "date": "2026-10-09",
-      "title": "Del ruido diario a las señales prospectivas",
-      "recalibration": "No"
-    },
-    {
-      "id": "D-004",
-      "date": "2026-10-10",
-      "title": "Censo, territorio y legitimidad",
-      "recalibration": "No"
-    },
-    {
-      "id": "D-005",
-      "date": "2026-10-11",
-      "title": "Malestar social, vivienda y territorio: señales de tensión sin recalibración",
-      "recalibration": "No"
-    },
-    {
-      "id": "D-006",
-      "date": "2026-10-12",
-      "title": "Territorio, identidad y alianzas",
-      "recalibration": "No",
-      "state": "IH provisional"
-    },
-    {
-      "id": "D-007",
-      "date": "2026-10-13",
-      "title": "Alianzas de izquierda y derecho de sufragio: dos bifurcaciones bajo vigilancia",
-      "recalibration": "No",
-      "state": "IH provisional"
-    },
-    {
-      "id": "D-008",
-      "date": "2026-10-14",
-      "title": "Alianzas territoriales y garantías de sufragio: interdependencias bajo revisión",
-      "recalibration": "No",
-      "state": "IH provisional"
-    },
-    {
-      "id": "D-009",
-      "date": "2026-10-15",
-      "title": "Encuestas divergentes, alianzas abiertas y garantías de sufragio",
-      "recalibration": "No",
-      "state": "Borrador recuperado; pendiente IH; publicado documentalmente el 16"
-    },
-    {
-      "id": "D-010",
-      "date": "2026-10-16",
-      "title": "Las alianzas territoriales llegan al cierre del plazo de coaliciones",
-      "recalibration": "No",
-      "state": "Interpretación validada IH · DEC-IH-D010-001"
-    },
-    {
-      "id": "D-011",
-      "date": "2026-10-17",
-      "title": "Cooperación en el Senado y fragmentación en el Congreso",
-      "recalibration": "No",
-      "state": "Interpretación y codificación pendientes de validación IH"
-    }
+  "version":"v0.30-D012-editorial",
+  "updated":"2026-10-18",
+  "title":"Dashboard SOPHHIA 29-N",
+  "subtitle":"De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
+  "contract":"CP-29N-F0 v0.1 + Anexo A",
+  "protocol":"P001 + P001-E001",
+  "current_entry":"D-012",
+  "mode":"Modo A · Aproximación heurística estructurada",
+  "recalibration":"No",
+  "system_state":"Marco A-000 conservado. ElectoPanel aporta una ficha nacional verificada, pero no porcentajes abiertos contrastados al corte. Cuatro referencias cuantitativas sin cambios. Interpretación D-012 pendiente IH; no se recalibra MICMAC ni se añaden probabilidades o valores numéricos a las series del 18.",
+  "dominant_scenario":"Mayoría PP-Vox",
+  "dominant_scenario_origin":"Hipótesis heredada de A-000; no nueva estimación del 18",
+  "main_uncertainty":"Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
+  "watch_variable":"V4 · vigilancia de continuidad; V11 y V16 · seguimiento; sin nueva puntuación",
+  "social_axis":"Compatibilidad de candidaturas y pactos; observación separada de evidencia demoscópica e interpretación",
+  "current_bullets":["Una nueva ficha nacional: ElectoPanel; resultados pendientes.","Se conservan cuatro referencias cuantitativas; no se imputa ningún porcentaje.","A-000 y MICMAC sin recalibración; interpretación pendiente IH."],
+  "path":[
+    {"id":"D-001","date":"2026-10-07","title":"Apertura del observatorio público","recalibration":"No"},
+    {"id":"D-002","date":"2026-10-08","title":"Primer día de rutina: señales, no sobresaltos","recalibration":"No"},
+    {"id":"D-003","date":"2026-10-09","title":"Del ruido diario a las señales prospectivas","recalibration":"No"},
+    {"id":"D-004","date":"2026-10-10","title":"Censo, territorio y legitimidad","recalibration":"No"},
+    {"id":"D-005","date":"2026-10-11","title":"Malestar social, vivienda y territorio: señales de tensión sin recalibración","recalibration":"No"},
+    {"id":"D-006","date":"2026-10-12","title":"Territorio, identidad y alianzas","recalibration":"No","state":"IH provisional"},
+    {"id":"D-007","date":"2026-10-13","title":"Alianzas de izquierda y derecho de sufragio: dos bifurcaciones bajo vigilancia","recalibration":"No","state":"IH provisional"},
+    {"id":"D-008","date":"2026-10-14","title":"Alianzas territoriales y garantías de sufragio: interdependencias bajo revisión","recalibration":"No","state":"IH provisional"},
+    {"id":"D-009","date":"2026-10-15","title":"Encuestas divergentes, alianzas abiertas y garantías de sufragio","recalibration":"No","state":"Borrador recuperado; pendiente IH; publicado documentalmente el 16"},
+    {"id":"D-010","date":"2026-10-16","title":"Las alianzas territoriales llegan al cierre del plazo de coaliciones","recalibration":"No","state":"Interpretación validada IH · DEC-IH-D010-001"},
+    {"id":"D-011","date":"2026-10-17","title":"Cooperación en el Senado y fragmentación en el Congreso","recalibration":"No","state":"Interpretación y codificación pendientes de validación IH"},
+    {"id":"D-012","date":"2026-10-18","title":"ElectoPanel: nueva ficha, resultados pendientes","recalibration":"No","state":"Publicación editorial; interpretación pendiente de validación IH; sin nueva codificación numérica"}
   ],
-  "scenarios": [
-    {
-      "id": "G1",
-      "name": "Gobierno PP-Vox de coalición",
-      "trend": "sin cambio respecto de D-010",
-      "status": "marco anterior conservado; no nueva estimación"
-    },
-    {
-      "id": "G2",
-      "name": "PP monocolor con apoyo externo de Vox",
-      "trend": "sin cambio respecto de D-010",
-      "status": "marco anterior conservado; no nueva estimación"
-    },
-    {
-      "id": "G4",
-      "name": "Reconstrucción progresista",
-      "trend": "vigilancia cualitativa conservada",
-      "status": "pendiente evaluación; sin probabilidad asignada"
-    },
-    {
-      "id": "G5",
-      "name": "Bloqueo / repetición electoral",
-      "trend": "sin cambio respecto de D-010",
-      "status": "marco anterior conservado; no nueva estimación"
-    }
+  "scenarios":[
+    {"id":"G1","name":"Gobierno PP-Vox de coalición","trend":"sin cambio respecto de D-011","status":"marco anterior conservado; no nueva estimación"},
+    {"id":"G2","name":"PP monocolor con apoyo externo de Vox","trend":"sin cambio respecto de D-011","status":"marco anterior conservado; no nueva estimación"},
+    {"id":"G4","name":"Reconstrucción progresista","trend":"vigilancia cualitativa conservada","status":"pendiente evaluación; sin probabilidad asignada"},
+    {"id":"G5","name":"Bloqueo / repetición electoral","trend":"sin cambio respecto de D-011","status":"marco anterior conservado; no nueva estimación"}
   ],
-  "bifurcations": [
-    {
-      "id": "B1",
-      "name": "Relación PP-Vox",
-      "state": "en vigilancia"
-    },
-    {
-      "id": "B2",
-      "name": "Izquierda alternativa",
-      "state": "cierre sin coalición estatal; seguimiento de pactos territoriales y cooperación parlamentaria"
-    },
-    {
-      "id": "B3",
-      "name": "Vivienda y coste de vida",
-      "state": "en vigilancia"
-    }
+  "bifurcations":[
+    {"id":"B1","name":"Relación PP-Vox","state":"en vigilancia"},
+    {"id":"B2","name":"Izquierda alternativa","state":"cierre sin coalición estatal; seguimiento de pactos territoriales y cooperación parlamentaria"},
+    {"id":"B3","name":"Vivienda y coste de vida","state":"en vigilancia"}
   ],
-  "charts": {
-    "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Reconstrucción documental 7–16 y seguimiento del 17: estados ordinales y recuentos. Regla y codificación IA pendientes IH; no probabilidades ni pesos MICMAC.",
-    "charts": [
-      "Trayectoria de escenarios",
-      "Balance dinámico de bloques",
-      "Pulso de variables críticas",
-      "Registro temporal de señales",
-      "Pulso nacional-territorial"
+  "charts":{
+    "timeseries_file":"data/dashboard_timeseries.json",
+    "mode":"Reconstrucción documental y seguimiento hasta el 18. Sin nuevos valores para D-012; último día codificado: 17. Regla y codificaciones previas mantienen sus reservas IH.",
+    "charts":["Trayectoria de escenarios","Balance dinámico de bloques","Pulso de variables críticas","Registro temporal de señales","Pulso nacional-territorial"],
+    "version":"v0.30-D012-seguimiento-editorial",
+    "cutoff":"2026-10-18",
+    "last_numeric_date":"2026-10-17",
+    "missing_value_policy":"null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
+    "responsive":"Gráficos completos dentro de cada caja, sin barras de desplazamiento",
+    "method":"REG-SERIES-29N-001",
+    "validation":"Regla, reconstrucción 7–16 y codificación D-011 pendientes de validación IH específica; D-012 no añade valores"
+  },
+  "methodological_layer":"F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
+  "territorial_radar":{
+    "status":"incorporado",
+    "decision":"DEC-IH-F2-002",
+    "micmac_report":"metodo/f2-micmac-001-v0-2.html",
+    "p001_amendment":"metodo/p001-e001-enmienda-nacional-territorial.html",
+    "contract_annex":"metodo/cp-29n-f0-anexo-a-subsistema-nacional-territorial.html",
+    "variables":[
+      {"id":"V9","name":"Agenda nacionalista catalana","state":"activa","reading":"Alta propagación sistémica"},
+      {"id":"V10","name":"Agenda nacionalista vasca","state":"vigilancia","reading":"Alta capacidad negociadora institucional"},
+      {"id":"V11","name":"Agendas territoriales complementarias","state":"latente","reading":"Activación condicionada"},
+      {"id":"V12","name":"Capacidad de veto / bisagra territorial","state":"umbral","reading":"Motricidad condicionada por mayoría"},
+      {"id":"V16","name":"Compatibilidad programática y territorial de pactos","state":"tensionada","reading":"Nudo central de gobernabilidad"}
     ],
-    "version": "v0.29-D011-seguimiento-editorial",
-    "cutoff": "2026-10-17",
-    "last_numeric_date": "2026-10-17",
-    "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
-    "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
-    "method": "REG-SERIES-29N-001",
-    "validation": "Regla, reconstrucción 7–16 y codificación D-011 pendientes de validación IH específica"
+    "reservation":"V4 · Fragmentación / recomposición de la izquierda alternativa queda pendiente de revisión IH por posible infravaloración."
   },
-  "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
-  "territorial_radar": {
-    "status": "incorporado",
-    "decision": "DEC-IH-F2-002",
-    "micmac_report": "metodo/f2-micmac-001-v0-2.html",
-    "p001_amendment": "metodo/p001-e001-enmienda-nacional-territorial.html",
-    "contract_annex": "metodo/cp-29n-f0-anexo-a-subsistema-nacional-territorial.html",
-    "variables": [
-      {
-        "id": "V9",
-        "name": "Agenda nacionalista catalana",
-        "state": "activa",
-        "reading": "Alta propagación sistémica"
-      },
-      {
-        "id": "V10",
-        "name": "Agenda nacionalista vasca",
-        "state": "vigilancia",
-        "reading": "Alta capacidad negociadora institucional"
-      },
-      {
-        "id": "V11",
-        "name": "Agendas territoriales complementarias",
-        "state": "latente",
-        "reading": "Activación condicionada"
-      },
-      {
-        "id": "V12",
-        "name": "Capacidad de veto / bisagra territorial",
-        "state": "umbral",
-        "reading": "Motricidad condicionada por mayoría"
-      },
-      {
-        "id": "V16",
-        "name": "Compatibilidad programática y territorial de pactos",
-        "state": "tensionada",
-        "reading": "Nudo central de gobernabilidad"
-      }
-    ],
-    "reservation": "V4 · Fragmentación / recomposición de la izquierda alternativa queda pendiente de revisión IH por posible infravaloración."
+  "current_reading":{
+    "signal":"Nueva ficha nacional verificada; resultados cuantitativos pendientes",
+    "micmac_variables":["V4","V11","V12","V16"],
+    "decision":"Registrar la evidencia, sin incorporar ElectoPanel al agregado hasta verificar sus porcentajes. Mantener A-000, MICMAC v0.2 y escenarios. Interpretación D-012 pendiente IH."
   },
-  "current_reading": {
-    "signal": "Desenlace distinto de las alianzas para el Congreso y el Senado",
-    "micmac_variables": [
-      "V4",
-      "V11",
-      "V12",
-      "V16"
-    ],
-    "decision": "Propuesta editorial D-011 pendiente de validación IH. Mantener A-000, MICMAC v0.2 y escenarios; completar la comprobación electoral de los acuerdos."
+  "explorer":{
+    "status":"incorporado como pieza experimental",
+    "code":"FE.5-29N-001",
+    "path":"explorador/",
+    "mode":"Modo A estructurado",
+    "warning":"No constituye predicción certificada; laboratorio de sensibilidad prospectiva.",
+    "data_file":"/sophhia-29n/data/explorador_parametrico_29n_v0_1.json"
   },
-  "explorer": {
-    "status": "incorporado como pieza experimental",
-    "code": "FE.5-29N-001",
-    "path": "explorador/",
-    "mode": "Modo A estructurado",
-    "warning": "No constituye predicción certificada; laboratorio de sensibilidad prospectiva.",
-    "data_file": "/sophhia-29n/data/explorador_parametrico_29n_v0_1.json"
-  },
-  "human_validation": "Interpretación y codificación pendientes de validación IH",
-  "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
-  "rectification": "REG-RECT-29N-20261016-001"
+  "demoscopy":{"quantitative_references":4,"new_verified_metadata_records":1,"new_quantitative_observations":0,"review_file":"data/MIDC-29N-001_revision_2026-10-18.json"},
+  "human_validation":"Publicación editorial; interpretación pendiente de validación IH",
+  "micmac_review":"REV-F2-003 abierta; sin pesos nuevos",
+  "rectification":"REG-RECT-29N-20261016-001"
 }

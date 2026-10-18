@@ -1,0 +1,23 @@
+{
+  "registro":"VERIFICACION-D012-20261018",
+  "base_commit":"d46af79dae3dcdf927251acb7ef2ce85ac5776e1",
+  "entrada":"D-012",
+  "pruebas_previas":{
+    "sintaxis_javascript":"PASS · node --check",
+    "sincronizacion_DOM_edicion_basica":"PASS · entorno simulado",
+    "sincronizacion_DOM_edicion_ciudadana":"PASS · entorno simulado",
+    "rechazo_ruta_no_admisible":"PASS · entorno simulado",
+    "respeto_estado_validacion_del_registro":"PASS · entorno simulado",
+    "rutas_datos_ambas_ediciones":"PASS",
+    "margenes_PSOE_PP_cuatro_referencias":"PASS"
+  },
+  "portadas":"Se conservan las plantillas y se sincronizan los campos vigentes con current.json, dashboard.json y diario_index.json. Si falla la carga, se advierte que la referencia estática mantiene su fecha anterior.",
+  "visor_graficas_original_blob":"02d3f9aa7ff6e4eaa6980c041b4906b1bbc5e282",
+  "visor_graficas_conservado_como":"assets/dashboard-charts-v0.29.js",
+  "series_numericas_sin_modificar_blob":"e0e3192fd856204301c9b8b61b2f19e7fbdbe2e8",
+  "sin_nueva_codificacion_D012":true,
+  "archivos_modelo_fuera_del_cambio":["data/micmac_mid_v0_2.csv","data/micmac_resultados_v0_2.json","data/micmac_variables_v0_2.json","data/escenarios.json","data/explorador_parametrico_29n_v0_1.json","explorador/"],
+  "MIDC":"Anexo de revisión enlazado en D-012. Se conserva el módulo cuantitativo v0.4 y su motor.",
+  "inspeccion_visual_navegador_real":"No realizada; las pruebas DOM no la sustituyen",
+  "despliegue":"Se comprueba después de actualizar la rama; no se certifica de antemano en este archivo"
+}

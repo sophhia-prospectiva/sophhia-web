@@ -1,0 +1,58 @@
+{
+  "registro":"MIDC-29N-001-REV-20261018",
+  "version":"1.0",
+  "corte":"2026-10-18T12:50:00+02:00",
+  "entrada":"D-012",
+  "alcance":"Vigilancia de encuestas nacionales; anexo documental. No sustituye ni recalibra el panel cuantitativo v0.4.",
+  "unidad":"Porcentaje de voto estimado; no intención directa ni probabilidad",
+  "recalibracion_A000":false,
+  "modificacion_MICMAC":false,
+  "novedades":[{
+    "id":"ELECTOPANEL-GENERALES-20261018",
+    "instituto":"ElectoPanel",
+    "empresa_responsable":"Estudios y Minería de Datos S.L.",
+    "medio":"Electomanía",
+    "ambito":"Nacional",
+    "universo":"Personas con derecho a voto en España, según ficha",
+    "fecha_oleada_anunciada":"2026-10-18",
+    "publicacion_adelanto":"2026-10-17",
+    "hora_publicacion_adelanto":"15:06",
+    "publicacion_abierta_efectiva":null,
+    "estado_publicacion_abierta":"Anunciada para el 18; no verificada al corte",
+    "campo_desde":"2026-10-15",
+    "campo_hasta":"2026-10-17",
+    "muestra":3141,
+    "unidad_muestra":"Cuestionarios satisfactorios",
+    "metodo":"CAWI / tracking",
+    "panelistas_fijos_pct":60,
+    "cuotas_declaradas":["territorio","sexo","edad","formación","interés político"],
+    "estimaciones_pct":{"PSOE":null,"PP":null,"Vox":null,"Frente Amplio":null,"Sumar":null,"Podemos":null,"ERC":null,"otros":null},
+    "estado_estimaciones":"No verificadas en acceso abierto; null no significa cero",
+    "url":"https://electomania.es/electopanel-18-oct-adelanto-erc-y-frente-amplio-ceden-ante-el-psoe-podemos-en-el-limite-de-ser-extraparlamentario/",
+    "estado_verificacion":"Metadatos contrastados en fuente primaria; resultados pendientes",
+    "incluir_agregado":false,
+    "limite":"El titular del instituto es una afirmación cualitativa atribuida, no una variación medida por SOPHHIA. El solapamiento temporal con el cierre negociador no identifica por sí solo un efecto causal."
+  }],
+  "referencias_cuantitativas_conservadas":[
+    {"instituto":"40dB.","medio":"EL PAÍS / Cadena SER","publicacion":"2026-10-09","campo_desde":"2026-10-07","campo_hasta":"2026-10-08","muestra":800,"metodo":"CAWI","ambito":"España excepto Ceuta y Melilla","universo":"Residentes de 18 o más años con derecho a voto","estimaciones_pct":{"PSOE":28.1,"PP":31.9,"Vox":18.9,"Sumar":5.3,"Podemos":2.3},"ventaja_PSOE_PP_pp":-3.8,"url":"https://ep00.epimg.net/infografias/encuestas40db/2026/10-08-barometro-flash/2026_10_informe_voto_barometro_flash.pdf","localizacion":"Páginas impresas 5 y 26","verificacion":"Informe primario contrastado","nota":"Selección de partidos común al MIDC. No se utiliza el supuesto alternativo de candidatura conjunta."},
+    {"instituto":"GAD3","medio":"ABC","publicacion":"2026-10-12","campo_desde":"2026-10-06","campo_hasta":"2026-10-08","muestra":1077,"metodo":"CATI","ambito":"Nacional","estimaciones_pct":{"PSOE":26.4,"PP":31.4,"Vox":18.2,"Sumar":7.4,"Podemos":null},"ventaja_PSOE_PP_pp":-5.0,"url":"https://www.gad3.com/barometro-abc-estimacion-de-voto-nacional-octubre-2026/","verificacion":"Publicación primaria contrastada","nota":"Selección de partidos común al MIDC. Sin cifra individual de Podemos verificada; no se imputa."},
+    {"instituto":"CIS","estudio":"3582 · Barómetro de octubre","publicacion":"2026-10-14","campo_desde":"2026-10-01","campo_hasta":"2026-10-06","muestra":5025,"metodo":null,"ambito":"Nacional","estimaciones_pct":{"PSOE":34.0,"PP":22.2,"Vox":17.1,"Sumar/Frente Amplio":6.1,"Podemos":3.1},"ventaja_PSOE_PP_pp":11.8,"url":"https://www.cis.es/documents/d/guest/3582_estimacion-pdf","url_corrobora":"https://efe.com/espana/2026-10-14/barometro-cis-psoe-vencedor-tras-desahucio-maricarmen/","verificacion":"Estimaciones, muestra y campo corroborados por EFE; ficha primaria íntegra pendiente de acceso","nota":"Se conserva la etiqueta de candidatura de la fuente; no presupone homogeneidad perfecta con Sumar de otras casas."},
+    {"instituto":"Sigma Dos","estudio":"SIGMADOS-ELMUNDO-20261012","medio":"El Mundo","publicacion":"2026-10-12","campo_desde":"2026-10-01","campo_hasta":"2026-10-08","muestra":2017,"metodo":"Mixta CATI / CAWI, según ficha del 13","ambito":"España","estimaciones_pct":{"PSOE":25.3,"PP":31.9,"Vox":19.1,"Sumar":7.6,"Podemos":3.1},"ventaja_PSOE_PP_pp":-6.6,"url":"https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/","ficha_url":"https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/","verificacion":"Resultados nacionales y ficha del mismo estudio contrastados","nota":"Incorporado el 16, publicado el 12. El desglose territorial del 13 no se cuenta como nueva encuesta."}
+  ],
+  "comparacion":{
+    "ventaja_definicion":"PSOE menos PP, en puntos porcentuales",
+    "discrepancia_entre_casas":"Ya registrada: CIS muestra signo opuesto a 40dB., GAD3 y Sigma Dos",
+    "nueva_comparacion_temporal_misma_casa":null,
+    "nuevo_cambio_mayor_igual_2pp":null,
+    "nuevo_cambio_signo_PSOE_PP":null,
+    "dictamen":"No evaluable sin nuevas estimaciones comparables. No se presenta la discrepancia entre casas como cambio temporal."
+  },
+  "exclusiones":[
+    {"ambito":"Municipal · Monforte","url":"https://electomania.es/encuesta-monforte-sondaxe-18-oct-jose-tome-tendria-mas-del-50-de-los-votos/","motivo":"No es una encuesta nacional"},
+    {"ambito":"Municipal · Barcelona","url":"https://electomania.es/encuesta-interna-junts-para-barcelona-17-oct-el-psc-lidera-ac-entre-pp-y-vox/","motivo":"No es una encuesta nacional"},
+    {"tipo":"Votación de lectores","url":"https://www.diariocritico.com/nacional/encuesta-partido-coalicion-votar-elecciones-generales","motivo":"No se admite como estimación nacional con ficha técnica comparable"}
+  ],
+  "regla_territorial":"Se clasifica por universo y ámbito del estudio, no por el nombre del partido. Los porcentajes nacionales de partidos territoriales pueden ser nacionales; un desglose autonómico no es otra encuesta independiente.",
+  "validacion_interpretativa":"Pendiente IH; publicación de evidencias no equivale a aprobación de inferencias",
+  "alcance_busqueda":"Fuentes indicadas examinadas al corte; no certifica ausencia universal de otras publicaciones"
+}

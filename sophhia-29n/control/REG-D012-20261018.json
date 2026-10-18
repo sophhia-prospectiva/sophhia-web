@@ -1,0 +1,21 @@
+{
+  "registro":"REG-D012-20261018",
+  "fecha":"2026-10-18",
+  "corte_informativo":"2026-10-18T12:50:00+02:00",
+  "orden_usuario":"Ejecuta la actualización de SOPHHIA 29-N a fecha 18-octubre-2026",
+  "naturaleza":"Actualización editorial y documental autorizada; no validación humana de la interpretación",
+  "entrada":"D-012",
+  "ediciones_objetivo":["sophhia.com/sophhia-29n/","sophhia.com/sophhia-29n/ciudadana/"],
+  "excluido_del_alcance":["Proyecto privado de ChatGPT Work / chatgpt.site","Servidores de cálculo y sus secretos","Fórmulas del explorador","MICMAC y A-000"],
+  "novedad":"Ficha de ElectoPanel identificada y contrastada; resultados no verificados",
+  "recalibracion_A000":false,
+  "modificacion_MICMAC":false,
+  "validacion_interpretacion":"Pendiente IH",
+  "decision_IH":null,
+  "continuidad":"Se conservan todos los estados históricos; DEC-IH-D010-001 no se extiende a D-011 ni a D-012",
+  "series":"No se añaden valores numéricos para el 18. La sincronización de fechas utiliza null sin interpolación; último dato codificado 17 de octubre.",
+  "registro_demoscopico":"data/MIDC-29N-001_revision_2026-10-18.json",
+  "politica_datos":"No imputar porcentajes. No confundir desgloses territoriales, sondeos municipales o votos de lectores con encuestas nacionales independientes.",
+  "limite_verificacion":"La ficha primaria íntegra del CIS permanece pendiente de acceso; muestra, campo y estimaciones corroborados por EFE.",
+  "publicacion":"El estado de despliegue se comprueba después del commit; este registro no certifica por adelantado la disponibilidad pública."
+}
