@@ -11,34 +11,126 @@
   "modo": "Modo A · Aproximación heurística estructurada",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Publicación editorial; interpretación pendiente de validación IH",
-  "decision_id": null,
+  "validacion": "Interpretación validada IH · DEC-IH-D012-001",
+  "decision_id": "DEC-IH-D012-001",
   "revision_abierta": "REV-F2-003",
-  "estado_publicacion": "publicada_editorial_pendiente_IH",
+  "estado_publicacion": "publicada_validada_IH",
   "resumen": "Se registra la ficha nacional del ElectoPanel anunciado para el 18 de octubre: adelanto del 17, campo del 15 al 17 y 3.141 cuestionarios. No se han verificado sus porcentajes abiertos. Se conservan las cuatro referencias cuantitativas del MIDC y el marco A-000; el seguimiento de la precampaña no se convierte en una nueva estimación electoral.",
   "senal_principal": "Nueva ficha nacional verificada; resultados cuantitativos pendientes",
   "variable_vigilancia": "V4 · vigilancia de continuidad; V11 y V16 · seguimiento; sin nueva puntuación",
   "variable_territorial": "V11 · Agendas territoriales complementarias",
-  "decision": "Registrar ElectoPanel como novedad documental, fuera del agregado cuantitativo hasta verificar sus resultados. Mantener A-000, MICMAC v0.2 y escenarios. La orden de actualización no valida por sí sola la interpretación ni la codificación.",
+  "decision": "Registrar ElectoPanel como novedad documental, fuera del agregado cuantitativo hasta verificar sus resultados. Mantener A-000, MICMAC v0.2 y escenarios. Interpretación validada por IH mediante DEC-IH-D012-001. La regla y las codificaciones mantienen sus reservas.",
   "url": "diario/2026-10-18.html",
   "fuentes_temporales": [
-    {"id":"F-D012-01","medio":"ElectoPanel / Electomanía","fecha":"2026-10-17","hora":"15:06","tipo":"primaria_instituto_metadatos","url":"https://electomania.es/electopanel-18-oct-adelanto-erc-y-frente-amplio-ceden-ante-el-psoe-podemos-en-el-limite-de-ser-extraparlamentario/","reserva":"Adelanto y ficha verificados; publicación abierta efectiva y porcentajes no verificados"},
-    {"id":"F-D012-02","medio":"40dB. · informe original","fecha":"2026-10-09","tipo":"primaria_instituto","url":"https://ep00.epimg.net/infografias/encuestas40db/2026/10-08-barometro-flash/2026_10_informe_voto_barometro_flash.pdf","localizacion":"Páginas impresas 5 y 26: estimaciones y ficha"},
-    {"id":"F-D012-03","medio":"GAD3 · ABC","fecha":"2026-10-12","tipo":"primaria_instituto","url":"https://www.gad3.com/barometro-abc-estimacion-de-voto-nacional-octubre-2026/"},
-    {"id":"F-D012-04","medio":"CIS · estudio 3582","fecha":"2026-10-14","tipo":"primaria_indexada_acceso_integro_pendiente","url":"https://www.cis.es/documents/d/guest/3582_estimacion-pdf","reserva":"No se certifica una comprobación íntegra de la ficha primaria en esta revisión"},
-    {"id":"F-D012-05","medio":"EFE · CIS","fecha":"2026-10-14","tipo":"periodistica_corrobora_estimaciones_campo_muestra","url":"https://efe.com/espana/2026-10-14/barometro-cis-psoe-vencedor-tras-desahucio-maricarmen/"},
-    {"id":"F-D012-06","medio":"Sigma Dos · El Mundo","fecha":"2026-10-12","tipo":"primaria_instituto","url":"https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/"},
-    {"id":"F-D012-07","medio":"Sigma Dos · ficha del mismo estudio","fecha":"2026-10-13","tipo":"primaria_instituto_mismo_estudio","url":"https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/","reserva":"Desglose territorial del sondeo nacional, no segunda encuesta"},
-    {"id":"F-D012-08","medio":"Cadena SER","fecha":"2026-10-18","hora":"11:15","tipo":"periodistica_seguimiento_contextual","url":"https://cadenaser.com/nacional/2026/10/18/la-cuenta-atras-hacia-el-29-n-se-activa-con-el-tablero-de-las-coaliciones-ya-despejado-cadena-ser/","reserva":"El cierre de alianzas ya constaba en D-011; la cobertura posterior no lo convierte en un segundo acontecimiento"}
+    {
+      "id": "F-D012-01",
+      "medio": "ElectoPanel / Electomanía",
+      "fecha": "2026-10-17",
+      "hora": "15:06",
+      "tipo": "primaria_instituto_metadatos",
+      "url": "https://electomania.es/electopanel-18-oct-adelanto-erc-y-frente-amplio-ceden-ante-el-psoe-podemos-en-el-limite-de-ser-extraparlamentario/",
+      "reserva": "Adelanto y ficha verificados; publicación abierta efectiva y porcentajes no verificados"
+    },
+    {
+      "id": "F-D012-02",
+      "medio": "40dB. · informe original",
+      "fecha": "2026-10-09",
+      "tipo": "primaria_instituto",
+      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/10-08-barometro-flash/2026_10_informe_voto_barometro_flash.pdf",
+      "localizacion": "Páginas impresas 5 y 26: estimaciones y ficha"
+    },
+    {
+      "id": "F-D012-03",
+      "medio": "GAD3 · ABC",
+      "fecha": "2026-10-12",
+      "tipo": "primaria_instituto",
+      "url": "https://www.gad3.com/barometro-abc-estimacion-de-voto-nacional-octubre-2026/"
+    },
+    {
+      "id": "F-D012-04",
+      "medio": "CIS · estudio 3582",
+      "fecha": "2026-10-14",
+      "tipo": "primaria_indexada_acceso_integro_pendiente",
+      "url": "https://www.cis.es/documents/d/guest/3582_estimacion-pdf",
+      "reserva": "No se certifica una comprobación íntegra de la ficha primaria en esta revisión"
+    },
+    {
+      "id": "F-D012-05",
+      "medio": "EFE · CIS",
+      "fecha": "2026-10-14",
+      "tipo": "periodistica_corrobora_estimaciones_campo_muestra",
+      "url": "https://efe.com/espana/2026-10-14/barometro-cis-psoe-vencedor-tras-desahucio-maricarmen/"
+    },
+    {
+      "id": "F-D012-06",
+      "medio": "Sigma Dos · El Mundo",
+      "fecha": "2026-10-12",
+      "tipo": "primaria_instituto",
+      "url": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/"
+    },
+    {
+      "id": "F-D012-07",
+      "medio": "Sigma Dos · ficha del mismo estudio",
+      "fecha": "2026-10-13",
+      "tipo": "primaria_instituto_mismo_estudio",
+      "url": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/",
+      "reserva": "Desglose territorial del sondeo nacional, no segunda encuesta"
+    },
+    {
+      "id": "F-D012-08",
+      "medio": "Cadena SER",
+      "fecha": "2026-10-18",
+      "hora": "11:15",
+      "tipo": "periodistica_seguimiento_contextual",
+      "url": "https://cadenaser.com/nacional/2026/10/18/la-cuenta-atras-hacia-el-29-n-se-activa-con-el-tablero-de-las-coaliciones-ya-despejado-cadena-ser/",
+      "reserva": "El cierre de alianzas ya constaba en D-011; la cobertura posterior no lo convierte en un segundo acontecimiento"
+    }
   ],
   "sync_version": "D012-editorial-20261018",
   "registro_id": "REG-D012-20261018",
   "nota_continuidad": "D-011 conserva su corte del 17 a las 09:55 y su estado pendiente IH. La validación DEC-IH-D010-001 no se extiende a D-011, D-012 ni a las series documentales.",
-  "validacion_humana": null,
-  "ventana_novedades": {"desde_exclusivo":"2026-10-17T09:55:00+02:00","hasta_inclusivo":"2026-10-18T12:50:00+02:00"},
+  "validacion_humana": {
+    "decision_id": "DEC-IH-D012-001",
+    "por": "Julio Villacorta García",
+    "fecha": "2026-10-18",
+    "hora": "14:47:50",
+    "timezone": "Europe/Madrid",
+    "instruccion": "Valido la interpretación D-012",
+    "alcance": "Interpretación D-012 exclusivamente. Se conservan el corte 12:50, las reservas de datos, la ausencia de nuevos valores y los estados previos; no valida la regla ni las codificaciones."
+  },
+  "ventana_novedades": {
+    "desde_exclusivo": "2026-10-17T09:55:00+02:00",
+    "hasta_inclusivo": "2026-10-18T12:50:00+02:00"
+  },
   "senales": [
-    {"id":"S-D012-01","tema":"Ficha del ElectoPanel nacional anunciado para el 18","tipo":"novedad_documental_demoscopica","clase":"Vigilancia","fuentes":["F-D012-01"],"variables_en_observacion":["V4"],"reserva":"No se verifica un porcentaje ni un cambio electoral. El campo atraviesa el cierre negociador, pero no acredita causalidad ni magnitud del efecto."},
-    {"id":"S-D012-02","tema":"Seguimiento de la precampaña y de la oferta electoral","tipo":"seguimiento_contextual_no_nuevo_desenlace","clase":"Vigilancia","fuentes":["F-D012-08"],"variables_en_observacion":["V4","V11","V16"],"reserva":"Se conserva el análisis de D-011; anuncios, listas proclamadas y pactos de gobierno son estados diferentes. Sin nueva cuantificación."}
+    {
+      "id": "S-D012-01",
+      "tema": "Ficha del ElectoPanel nacional anunciado para el 18",
+      "tipo": "novedad_documental_demoscopica",
+      "clase": "Vigilancia",
+      "fuentes": [
+        "F-D012-01"
+      ],
+      "variables_en_observacion": [
+        "V4"
+      ],
+      "reserva": "No se verifica un porcentaje ni un cambio electoral. El campo atraviesa el cierre negociador, pero no acredita causalidad ni magnitud del efecto."
+    },
+    {
+      "id": "S-D012-02",
+      "tema": "Seguimiento de la precampaña y de la oferta electoral",
+      "tipo": "seguimiento_contextual_no_nuevo_desenlace",
+      "clase": "Vigilancia",
+      "fuentes": [
+        "F-D012-08"
+      ],
+      "variables_en_observacion": [
+        "V4",
+        "V11",
+        "V16"
+      ],
+      "reserva": "Se conserva el análisis de D-011; anuncios, listas proclamadas y pactos de gobierno son estados diferentes. Sin nueva cuantificación."
+    }
   ],
   "demoscopia": {
     "estudios_incorporados_hoy": 0,
@@ -53,7 +145,24 @@
     "cambio_signo_ventaja_psoe_pp": null,
     "limite": "Las cuatro referencias cuantitativas preceden al cierre de alianzas. La discrepancia entre casas ya existía; no es un nuevo giro temporal del voto."
   },
-  "escenarios_conservados": {"origen":"diario/2026-10-17.html","base_analitica":"A-000 / continuidad D-010","nota":"G1, G2, G4 y G5 conservados como marco histórico. No se generan probabilidades, escaños ni nuevas puntuaciones."},
-  "codificacion": {"metodo":"REG-SERIES-29N-001","estado":"sin_nueva_codificacion_numerica","ultima_fecha_codificada":"2026-10-17","tratamiento_D012":"Valores null al extender la cronología: no se repiten valores del 17 como si fueran nuevas mediciones.","validacion":"La regla y las codificaciones previas mantienen sus reservas IH"},
-  "anterior": {"codigo":"D-011","fecha":"2026-10-17","fecha_legible":"17 de octubre de 2026","titulo":"Cooperación en el Senado y fragmentación en el Congreso","url":"diario/2026-10-17.html","estado":"Interpretación y codificación pendientes de validación IH"}
+  "escenarios_conservados": {
+    "origen": "diario/2026-10-17.html",
+    "base_analitica": "A-000 / continuidad D-010",
+    "nota": "G1, G2, G4 y G5 conservados como marco histórico. No se generan probabilidades, escaños ni nuevas puntuaciones."
+  },
+  "codificacion": {
+    "metodo": "REG-SERIES-29N-001",
+    "estado": "sin_nueva_codificacion_numerica",
+    "ultima_fecha_codificada": "2026-10-17",
+    "tratamiento_D012": "Valores null al extender la cronología: no se repiten valores del 17 como si fueran nuevas mediciones.",
+    "validacion": "La regla y las codificaciones previas mantienen sus reservas IH"
+  },
+  "anterior": {
+    "codigo": "D-011",
+    "fecha": "2026-10-17",
+    "fecha_legible": "17 de octubre de 2026",
+    "titulo": "Cooperación en el Senado y fragmentación en el Congreso",
+    "url": "diario/2026-10-17.html",
+    "estado": "Interpretación y codificación pendientes de validación IH"
+  }
 }
