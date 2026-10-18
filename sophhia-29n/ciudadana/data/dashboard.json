@@ -223,8 +223,7 @@
   "demoscopy": {
     "quantitative_references": 4,
     "new_verified_metadata_records": 1,
-    "new_quantitative_observations": 0,
-    "review_file": "data/MIDC-29N-001_revision_2026-10-18.json"
+    "new_quantitative_observations": 0
   },
   "human_validation": "Interpretación validada IH · DEC-IH-D012-001",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",

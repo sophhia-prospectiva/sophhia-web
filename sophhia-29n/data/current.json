@@ -138,7 +138,6 @@
     "casas_en_panel": 4,
     "ultima_incorporacion_cuantitativa": "2026-10-16",
     "ultima_incorporacion": "2026-10-16",
-    "registro_revision": "data/MIDC-29N-001_revision_2026-10-18.json",
     "resultado_busqueda": "ElectoPanel: metadatos primarios verificados, estimaciones pendientes. No se incorpora una nueva observación al agregado cuantitativo en las fuentes examinadas.",
     "comparacion_temporal": "No evaluable sin una nueva observación cuantitativa comparable de la misma casa",
     "cambio_mayor_igual_2pp": null,
