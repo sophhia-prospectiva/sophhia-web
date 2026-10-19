@@ -1,8 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>SOPHHIA · Archivo demoscópico</title>
 <style>
 body{background:#f4efe6;color:#182845;font:16px/1.5 system-ui;margin:0}
@@ -19,10 +20,10 @@ td,th{padding:8px;border-bottom:1px solid #d8cfc0;text-align:left}
 </head>
 <body>
 <header><a href="../">← MIDC v0.4</a></header>
-<main>
-<small>MIDC-29N-002 · LABORATORIO · 16-10-2026 · v0.2</small>
-<h1>Archivo demoscópico comparado</h1><p class="notice"><strong>Revisión del 17 de octubre · 09:55 CEST.</strong> Sin nueva medición nacional incorporada en las fuentes examinadas. Se conservan cuatro estudios y sus cifras; última incorporación: 16 de octubre. Los trabajos de campo son anteriores al cierre de alianzas. <a href="../../diario/2026-10-17.html">Lectura D-011</a>.</p>
-<p class="notice">Cuatro estudios históricos; sin imputar cifras ausentes. Los puntos corresponden a publicaciones de casas diferentes: no constituyen una serie temporal continua ni una predicción. Sin recalibrar A-000 o MICMAC.</p>
+<main><p class="small">Revisión D-013 · 19 de octubre · 09:30 CEST. ElectoPanel del 18 incorporado. Frente Amplio y Sumar mantienen categorías distintas. Sigma Dos del 19 pendiente de ficha primaria; no incorporado como nuevo estudio.</p>
+<small>MIDC-29N-002 · LABORATORIO · 19-10-2026 · v0.3</small>
+<h1>Archivo demoscópico comparado</h1><p class="notice">Revisión del 19 de octubre · 09:30 CEST. ElectoPanel del 18 incorporado. Nueva referencia Sigma Dos pendiente de contraste primario. Cinco estudios conservados; comparabilidad parcial por candidatura.</p>
+<p class="notice">Cinco estudios históricos; sin imputar cifras ausentes. Casas y campos diferentes: los puntos no constituyen una tendencia continua ni una predicción. Frente Amplio y Sumar se mantienen separados.</p>
 <section>
 <label for="party">Partido</label><select id="party"></select>
 <label for="date">Fecha del eje</label><select id="date"><option value="publicacion">Publicación</option><option value="campo_fin">Fin del trabajo de campo</option></select>
@@ -31,12 +32,12 @@ td,th{padding:8px;border-bottom:1px solid #d8cfc0;text-align:left}
 <section><h2>Fuentes y ficha metodológica</h2><div class="scroll" id="table"></div></section>
 <section><h2>Protocolo de registro</h2><p>Conservar el identificador original, fechas de campo y publicación, método, muestra, ámbito, resultado y fuente de cada sondeo. Los registros nuevos se añaden sin sobrescribir los anteriores. Ninguna alerta implica actualización automática de escenarios.</p></section>
 </main>
-<script id="archive" type="application/json">{"codigo": "MIDC-29N-002", "version": "0.2", "corte": "2026-10-16", "estado": "base_funcional_validacion_parcial", "partidos": ["PSOE", "PP", "Vox", "Sumar", "Podemos"], "encuestas": [{"id": "40db-el país / ser", "instituto": "40dB", "medio": "EL PAÍS / SER", "publicacion": "2026-10-09", "campo_inicio": "2026-10-07", "campo_fin": "2026-10-08", "muestra": 800, "modo": "CAWI", "ambito": "España", "porcentajes": {"PSOE": 28.1, "PP": 31.9, "Vox": 18.9, "Sumar": 5.3, "Podemos": 2.3}, "url": "https://elpais.com/espana/2026-10-09/el-pp-y-vox-mantienen-la-mayoria-absoluta-tras-el-adelanto-electoral.html"}, {"id": "gad3-abc", "instituto": "GAD3", "medio": "ABC", "publicacion": "2026-10-12", "campo_inicio": "2026-10-06", "campo_fin": "2026-10-08", "muestra": 1077, "modo": "CATI", "ambito": "España", "porcentajes": {"PSOE": 26.4, "PP": 31.4, "Vox": 18.2, "Sumar": 7.4, "Podemos": null}, "url": "https://www.gad3.com/en/abc-barometer-national-voting-intention-poll-october-2026/"}, {"id": "cis-cis / efe", "instituto": "CIS", "medio": "CIS / EFE", "publicacion": "2026-10-14", "campo_inicio": "2026-10-01", "campo_fin": "2026-10-06", "muestra": 5025, "modo": "Pendiente de contraste primario", "ambito": "España", "porcentajes": {"PSOE": 34, "PP": 22.2, "Vox": 17.1, "Sumar": 6.1, "Podemos": 3.1}, "url": "https://efe.com/espana/2026-10-14/barometro-cis-psoe-vencedor-tras-desahucio-maricarmen/"}, {"id": "SIGMADOS-ELMUNDO-20261012", "instituto": "Sigma Dos", "medio": "El Mundo", "publicacion": "2026-10-12", "campo_inicio": "2026-10-01", "campo_fin": "2026-10-08", "muestra": 2017, "modo": "Mixta: CATI / CAWI / RRSS (según ficha nacional)", "ambito": "España", "porcentajes": {"PSOE": 25.3, "PP": 31.9, "Vox": 19.1, "Sumar": 7.6, "Podemos": 3.1}, "url": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/", "fuente_campo": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/", "incorporado": "2026-10-16", "verificacion": "Porcentajes y ficha en publicaciones del instituto"}]}</script>
+<script id="archive" type="application/json">{"codigo": "MIDC-29N-002", "version": "0.3", "corte": "2026-10-19", "estado": "base_funcional_validacion_parcial", "partidos": ["PSOE", "PP", "Vox", "Sumar", "Podemos", "Frente Amplio"], "encuestas": [{"id": "40db-el país / ser", "instituto": "40dB", "medio": "EL PAÍS / SER", "publicacion": "2026-10-09", "campo_inicio": "2026-10-07", "campo_fin": "2026-10-08", "muestra": 800, "modo": "CAWI", "ambito": "España", "porcentajes": {"PSOE": 28.1, "PP": 31.9, "Vox": 18.9, "Sumar": 5.3, "Podemos": 2.3}, "url": "https://elpais.com/espana/2026-10-09/el-pp-y-vox-mantienen-la-mayoria-absoluta-tras-el-adelanto-electoral.html"}, {"id": "gad3-abc", "instituto": "GAD3", "medio": "ABC", "publicacion": "2026-10-12", "campo_inicio": "2026-10-06", "campo_fin": "2026-10-08", "muestra": 1077, "modo": "CATI", "ambito": "España", "porcentajes": {"PSOE": 26.4, "PP": 31.4, "Vox": 18.2, "Sumar": 7.4, "Podemos": null}, "url": "https://www.gad3.com/en/abc-barometer-national-voting-intention-poll-october-2026/"}, {"id": "cis-cis / efe", "instituto": "CIS", "medio": "CIS / EFE", "publicacion": "2026-10-14", "campo_inicio": "2026-10-01", "campo_fin": "2026-10-06", "muestra": 5025, "modo": "Pendiente de contraste primario", "ambito": "España", "porcentajes": {"PSOE": 34, "PP": 22.2, "Vox": 17.1, "Sumar": 6.1, "Podemos": 3.1}, "url": "https://efe.com/espana/2026-10-14/barometro-cis-psoe-vencedor-tras-desahucio-maricarmen/"}, {"id": "SIGMADOS-ELMUNDO-20261012", "instituto": "Sigma Dos", "medio": "El Mundo", "publicacion": "2026-10-12", "campo_inicio": "2026-10-01", "campo_fin": "2026-10-08", "muestra": 2017, "modo": "Mixta: CATI / CAWI / RRSS (según ficha nacional)", "ambito": "España", "porcentajes": {"PSOE": 25.3, "PP": 31.9, "Vox": 19.1, "Sumar": 7.6, "Podemos": 3.1}, "url": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n/", "fuente_campo": "https://www.sigmados.com/sondeo-de-arranque-de-campana-estimacion-de-voto-para-las-elecciones-generales-29-n-por-comunidad-autonoma/", "incorporado": "2026-10-16", "verificacion": "Porcentajes y ficha en publicaciones del instituto"}, {"id": "ELECTOPANEL-20261018", "instituto": "ElectoPanel", "medio": "Electomanía", "publicacion": "2026-10-18", "campo_inicio": "2026-10-15", "campo_fin": "2026-10-17", "muestra": 3141, "modo": "CAWI / tracking; 60 % panelistas fijos", "ambito": "España", "porcentajes": {"PSOE": 27.1, "PP": 31.8, "Vox": 18.9, "Sumar": null, "Frente Amplio": 4.9, "Podemos": 2.0}, "url": "https://electomania.es/electopanel-18-oct-erc-y-frente-amplio-ceden-ante-el-psoe-podemos-en-el-limite-de-ser-extraparlamentario/", "incorporado": "2026-10-19"}]}</script>
 <script>
 'use strict';
 const d=JSON.parse(document.getElementById('archive').textContent);
 const get=id=>document.getElementById(id);
-const format=n=>n===null?'n/d':n.toLocaleString('es-ES',{minimumFractionDigits:1,maximumFractionDigits:1})+' %';
+const format=n=>n==null?'n/d':n.toLocaleString('es-ES',{minimumFractionDigits:1,maximumFractionDigits:1})+' %';
 d.partidos.forEach(p=>get('party').add(new Option(p,p)));
 
 // Etiquetas autónomas: posición observada invariable; se desplaza únicamente el rótulo.

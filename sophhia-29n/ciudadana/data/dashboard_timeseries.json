@@ -1,13 +1,13 @@
 {
-  "version": "v0.29-D011-seguimiento-editorial",
-  "mode": "Reconstrucción documental 7–16 y seguimiento del 17: estados ordinales y recuentos. Regla y codificación IA pendientes IH; no probabilidades ni pesos MICMAC.",
+  "version": "v0.31-D013-editorial",
+  "mode": "Seguimiento editorial hasta el 19; última codificación numérica del 17. Días 18 y 19 sin nuevas puntuaciones. Regla y codificaciones previas pendientes IH específica.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-10-17",
-  "current_entry": "D-011",
+  "cutoff": "2026-10-19",
+  "current_entry": "D-013",
   "last_numeric_date": "2026-10-17",
-  "updated": "2026-10-17",
+  "updated": "2026-10-19",
   "reconstruction_date": "2026-10-16",
-  "interpretation_cutoff": "2026-10-17T09:55:00+02:00",
+  "interpretation_cutoff": "2026-10-19T09:30:00+02:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
     {
@@ -75,6 +75,18 @@
       "entry": "D-011",
       "source_status": "editorial_pendiente_IH",
       "retrospective": false
+    },
+    {
+      "date": "2026-10-18",
+      "entry": "D-012",
+      "source_status": "validacion_IH",
+      "retrospective": false
+    },
+    {
+      "date": "2026-10-19",
+      "entry": "D-013",
+      "source_status": "editorial_pendiente_IH",
+      "retrospective": false
     }
   ],
   "scenarios": {
@@ -89,7 +101,9 @@
       1,
       null,
       1,
-      1
+      1,
+      null,
+      null
     ],
     "G2 · PP apoyo Vox": [
       null,
@@ -102,7 +116,9 @@
       1,
       null,
       1,
-      1
+      1,
+      null,
+      null
     ],
     "G4 · Reconstrucción progresista": [
       null,
@@ -115,7 +131,9 @@
       2,
       null,
       2,
-      2
+      2,
+      null,
+      null
     ],
     "G5 · Bloqueo/repetición": [
       null,
@@ -128,7 +146,9 @@
       1,
       null,
       1,
-      1
+      1,
+      null,
+      null
     ]
   },
   "blocks": {
@@ -143,7 +163,9 @@
       1,
       1,
       0,
-      0
+      0,
+      null,
+      null
     ],
     "PSOE + izquierda": [
       0,
@@ -156,7 +178,9 @@
       1,
       2,
       3,
-      3
+      3,
+      null,
+      null
     ],
     "Territoriales/bisagra": [
       0,
@@ -169,7 +193,9 @@
       2,
       1,
       3,
-      2
+      2,
+      null,
+      null
     ],
     "Garantías y procedimiento": [
       0,
@@ -182,7 +208,9 @@
       1,
       0,
       1,
-      0
+      0,
+      null,
+      null
     ]
   },
   "variables": {
@@ -197,7 +225,9 @@
       1,
       null,
       null,
-      1
+      1,
+      null,
+      null
     ],
     "Inflación/coste de vida": [
       1,
@@ -210,7 +240,9 @@
       1,
       null,
       null,
-      1
+      1,
+      null,
+      null
     ],
     "Fragmentación izquierda": [
       1,
@@ -223,7 +255,9 @@
       2,
       2,
       2,
-      3
+      3,
+      null,
+      null
     ],
     "Relación PP‑Vox": [
       null,
@@ -232,6 +266,8 @@
       1,
       1,
       1,
+      null,
+      null,
       null,
       null,
       null,
@@ -249,6 +285,8 @@
       null,
       null,
       null,
+      null,
+      null,
       null
     ],
     "Bloqueo": [
@@ -260,6 +298,8 @@
       1,
       2,
       2,
+      null,
+      null,
       null,
       null,
       null
@@ -277,9 +317,13 @@
       2,
       null,
       2,
+      null,
+      null,
       null
     ],
     "Agenda nacionalista vasca": [
+      null,
+      null,
       null,
       null,
       null,
@@ -303,7 +347,9 @@
       2,
       2,
       2,
-      1
+      1,
+      null,
+      null
     ],
     "Compatibilidad programática-territorial": [
       null,
@@ -316,7 +362,9 @@
       2,
       2,
       2,
-      2
+      2,
+      null,
+      null
     ],
     "Agendas territoriales complementarias": [
       null,
@@ -329,7 +377,9 @@
       2,
       2,
       2,
-      2
+      2,
+      null,
+      null
     ]
   },
   "signals": {
@@ -344,7 +394,9 @@
       0,
       0,
       0,
-      0
+      0,
+      null,
+      null
     ],
     "Vigilancia": [
       0,
@@ -357,7 +409,9 @@
       3,
       2,
       3,
-      3
+      3,
+      null,
+      null
     ],
     "Disruptivas": [
       0,
@@ -370,7 +424,9 @@
       0,
       0,
       0,
-      0
+      0,
+      null,
+      null
     ],
     "Recalibradoras": [
       0,
@@ -383,7 +439,9 @@
       0,
       0,
       0,
-      0
+      0,
+      null,
+      null
     ]
   },
   "metric_types": {

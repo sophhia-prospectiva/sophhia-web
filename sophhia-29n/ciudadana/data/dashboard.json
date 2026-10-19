@@ -1,23 +1,23 @@
 {
-  "version": "v0.30-D012-editorial",
-  "updated": "2026-10-18",
+  "version": "v0.31-D013-editorial",
+  "updated": "2026-10-19",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-012",
+  "current_entry": "D-013",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "Marco A-000 conservado. ElectoPanel aporta una ficha nacional verificada, pero no porcentajes abiertos contrastados al corte. Cuatro referencias cuantitativas sin cambios. Interpretación D-012 validada IH · DEC-IH-D012-001; no se recalibra MICMAC ni se añaden probabilidades o valores numéricos a las series del 18.",
+  "system_state": "Se incorporan los resultados abiertos del ElectoPanel publicado el 18 después del corte de D-012. Una nueva referencia de Sigma Dos queda pendiente de contraste primario. Continúa el seguimiento territorial y del Senado, sin recalibrar A-000 ni MICMAC y sin nuevas puntuaciones gráficas.",
   "dominant_scenario": "Mayoría PP-Vox",
-  "dominant_scenario_origin": "Hipótesis heredada de A-000; no nueva estimación del 18",
+  "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-013",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
-  "watch_variable": "V4 · vigilancia de continuidad; V11 y V16 · seguimiento; sin nueva puntuación",
+  "watch_variable": "V4, V9, V11, V12 y V16 · seguimiento documental; sin nueva puntuación",
   "social_axis": "Compatibilidad de candidaturas y pactos; observación separada de evidencia demoscópica e interpretación",
   "current_bullets": [
-    "Una nueva ficha nacional: ElectoPanel; resultados pendientes.",
-    "Se conservan cuatro referencias cuantitativas; no se imputa ningún porcentaje.",
-    "A-000 y MICMAC sin recalibración; interpretación validada IH."
+    "ElectoPanel: una observación cuantitativa incorporada; cinco casas en el panel.",
+    "Nueva referencia Sigma Dos pendiente de contraste primario; sin duplicarla.",
+    "Interpretación D-013 pendiente IH; A-000 y MICMAC sin recalibración."
   ],
   "path": [
     {
@@ -98,31 +98,38 @@
       "title": "ElectoPanel: nueva ficha, resultados pendientes",
       "recalibration": "No",
       "state": "Interpretación validada IH · DEC-IH-D012-001; sin nueva codificación numérica"
+    },
+    {
+      "id": "D-013",
+      "date": "2026-10-19",
+      "title": "ElectoPanel publica resultados; nuevas comprobaciones demoscópicas y territoriales",
+      "recalibration": "No",
+      "state": "Interpretación pendiente de validación humana"
     }
   ],
   "scenarios": [
     {
       "id": "G1",
       "name": "Gobierno PP-Vox de coalición",
-      "trend": "sin cambio respecto de D-011",
+      "trend": "marco conservado en D-013; sin nueva probabilidad",
       "status": "marco anterior conservado; no nueva estimación"
     },
     {
       "id": "G2",
       "name": "PP monocolor con apoyo externo de Vox",
-      "trend": "sin cambio respecto de D-011",
+      "trend": "marco conservado en D-013; sin nueva probabilidad",
       "status": "marco anterior conservado; no nueva estimación"
     },
     {
       "id": "G4",
       "name": "Reconstrucción progresista",
-      "trend": "vigilancia cualitativa conservada",
+      "trend": "marco conservado en D-013; sin nueva probabilidad",
       "status": "pendiente evaluación; sin probabilidad asignada"
     },
     {
       "id": "G5",
       "name": "Bloqueo / repetición electoral",
-      "trend": "sin cambio respecto de D-011",
+      "trend": "marco conservado en D-013; sin nueva probabilidad",
       "status": "marco anterior conservado; no nueva estimación"
     }
   ],
@@ -145,7 +152,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Reconstrucción documental y seguimiento hasta el 18. Sin nuevos valores para D-012; último día codificado: 17. Regla y codificaciones previas mantienen sus reservas IH.",
+    "mode": "Seguimiento editorial hasta el 19. Última codificación numérica: 17; días 18 y 19 sin valores nuevos.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -153,13 +160,13 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.30-D012-seguimiento-editorial",
-    "cutoff": "2026-10-18",
+    "version": "v0.31-D013-editorial",
+    "cutoff": "2026-10-19",
     "last_numeric_date": "2026-10-17",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Regla, reconstrucción 7–16 y codificación D-011 pendientes de validación IH específica; D-012 no añade valores"
+    "validation": "Regla y codificaciones previas conservan sus reservas IH. D-013 pendiente IH; sin nueva puntuación."
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
   "territorial_radar": {
@@ -203,14 +210,15 @@
     "reservation": "V4 · Fragmentación / recomposición de la izquierda alternativa queda pendiente de revisión IH por posible infravaloración."
   },
   "current_reading": {
-    "signal": "Nueva ficha nacional verificada; resultados cuantitativos pendientes",
+    "signal": "Resultados de ElectoPanel verificados; Sigma Dos pendiente de contraste primario",
     "micmac_variables": [
       "V4",
+      "V9",
       "V11",
       "V12",
       "V16"
     ],
-    "decision": "Registrar la evidencia, sin incorporar ElectoPanel al agregado hasta verificar sus porcentajes. Mantener A-000, MICMAC v0.2 y escenarios. Interpretación D-012 validada IH · DEC-IH-D012-001."
+    "decision": "Publicación editorial D-013. Interpretación pendiente de validación humana; A-000 y MICMAC conservados."
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -221,12 +229,12 @@
     "data_file": "/sophhia-29n/data/explorador_parametrico_29n_v0_1.json"
   },
   "demoscopy": {
-    "quantitative_references": 4,
-    "new_verified_metadata_records": 1,
-    "new_quantitative_observations": 0
+    "quantitative_references": 5,
+    "new_quantitative_observations": 1,
+    "pending_primary_records": 1
   },
-  "human_validation": "Interpretación validada IH · DEC-IH-D012-001",
+  "human_validation": "Interpretación pendiente de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
-  "human_validation_record": "DEC-IH-D012-001"
+  "human_validation_record": null
 }
