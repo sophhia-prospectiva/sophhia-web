@@ -17,7 +17,7 @@
   "current_bullets": [
     "Sigma Dos del 19 incorporado: seis estudios históricos de cinco casas; una observación por casa en el comparador.",
     "Programas y territorios: declaraciones identificadas; el entendimiento del Senado no está acreditado como acuerdo cerrado.",
-    "D-014 pendiente IH. Última codificación numérica: 17 de octubre; días 18–20 sin nuevas puntuaciones."
+    "D-014: interpretación validada IH · DEC-IH-D014-001. Última codificación numérica: 17 de octubre; días 18–20 sin nuevas puntuaciones."
   ],
   "path": [
     {
@@ -307,7 +307,7 @@
       "V13",
       "V16"
     ],
-    "decision": "Publicación editorial D-014. Interpretación pendiente de validación humana; sin recalibración de A-000 ni cambios en MICMAC."
+    "decision": "Julio Villacorta García · 20 de octubre de 2026: «Validada la interpretación D-014». DEC-IH-D014-001. Alcance exclusivamente interpretativo de D-014; no valida A-000, MICMAC, cálculos, reglas o codificaciones gráficas ni otras entregas."
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -324,10 +324,10 @@
     "pending_primary_records": 1,
     "pending_record_scope": "Senado; excluido de la serie del Congreso"
   },
-  "human_validation": "Interpretación pendiente de validación humana",
+  "human_validation": "Interpretación validada IH · DEC-IH-D014-001",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
-  "human_validation_record": null,
+  "human_validation_record": "DEC-IH-D014-001",
   "qualitative_signals": [
     {
       "id": "S-D014-01",

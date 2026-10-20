@@ -12,14 +12,14 @@
   "titulo": "Sigma Dos verificado; programas y pactos bajo vigilancia",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación pendiente de validación humana",
-  "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_IH",
+  "validacion": "Interpretación validada IH · DEC-IH-D014-001",
+  "decision_id": "DEC-IH-D014-001",
+  "estado_publicacion": "publicada_interpretacion_validada_IH",
   "resumen": "Se completa la verificación del sondeo de Sigma Dos publicado el 19 y se incorpora al histórico. Se registran anuncios programáticos y señales de Cataluña, País Vasco, Galicia y Andalucía. La disposición a negociar el Senado no acredita un pacto cerrado. A-000 y MICMAC se mantienen; los cinco gráficos llegan al 20 sin nuevas puntuaciones.",
   "senal_principal": "Sigma Dos del 19 verificado; programas y posiciones territoriales documentados",
   "variable_vigilancia": "V3, V7, V9, V10, V11, V12, V13 y V16 · seguimiento cualitativo; sin nueva puntuación",
   "variable_territorial": "V9 / V10 / V11 / V12 / V16 · observaciones cualitativas del 19 incorporadas el 20",
-  "decision": "Publicación editorial D-014. Interpretación pendiente de validación humana; sin recalibración de A-000 ni cambios en MICMAC.",
+  "decision": "Julio Villacorta García · 20 de octubre de 2026: «Validada la interpretación D-014». DEC-IH-D014-001. Alcance exclusivamente interpretativo de D-014; no valida A-000, MICMAC, cálculos, reglas o codificaciones gráficas ni otras entregas.",
   "url": "diario/2026-10-20.html",
   "fuentes_temporales": [
     {
