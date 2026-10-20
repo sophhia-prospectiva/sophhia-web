@@ -1,0 +1,476 @@
+{
+  "contrato": "CP-29N-F0 v0.1 + Anexo A",
+  "protocolo": "P001 + P001-E001",
+  "capa": "F2-MICMAC-001 v0.2",
+  "modo": "Modo A · Aproximación heurística estructurada",
+  "revision_abierta": "REV-F2-003",
+  "codigo": "D-014",
+  "fecha": "2026-10-20",
+  "fecha_legible": "20 de octubre de 2026",
+  "hora_corte": "09:30",
+  "timezone": "Europe/Madrid",
+  "titulo": "Sigma Dos verificado; programas y pactos bajo vigilancia",
+  "recalibracion": false,
+  "micmac_modificada": false,
+  "validacion": "Interpretación pendiente de validación humana",
+  "decision_id": null,
+  "estado_publicacion": "publicada_pendiente_IH",
+  "resumen": "Se completa la verificación del sondeo de Sigma Dos publicado el 19 y se incorpora al histórico. Se registran anuncios programáticos y señales de Cataluña, País Vasco, Galicia y Andalucía. La disposición a negociar el Senado no acredita un pacto cerrado. A-000 y MICMAC se mantienen; los cinco gráficos llegan al 20 sin nuevas puntuaciones.",
+  "senal_principal": "Sigma Dos del 19 verificado; programas y posiciones territoriales documentados",
+  "variable_vigilancia": "V3, V7, V9, V10, V11, V12, V13 y V16 · seguimiento cualitativo; sin nueva puntuación",
+  "variable_territorial": "V9 / V10 / V11 / V12 / V16 · observaciones cualitativas del 19 incorporadas el 20",
+  "decision": "Publicación editorial D-014. Interpretación pendiente de validación humana; sin recalibración de A-000 ni cambios en MICMAC.",
+  "url": "diario/2026-10-20.html",
+  "fuentes_temporales": [
+    {
+      "id": "F-D014-01",
+      "medio": "Sigma Dos / El Mundo",
+      "fecha_publicacion": "2026-10-19",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": null,
+      "campo_inicio": "2026-10-01",
+      "campo_fin": "2026-10-14",
+      "tipo": "primaria_demoscopica",
+      "titulo": "Estimación de voto y ficha técnica de Sigma Dos",
+      "url": "https://www.sigmados.com/noticia?id=EIJOKGN2GFZmhHt",
+      "alcance": "Resultados del Congreso y ficha original; incorporación documental de referencia pendiente en D-013.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-20T09:30:00+02:00"
+    },
+    {
+      "id": "F-D014-02",
+      "medio": "La Moncloa",
+      "fecha_publicacion": "2026-10-19",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-19",
+      "tipo": "primaria_institucional_anuncio",
+      "titulo": "Anuncio sobre residencias y Estatuto del Estudiantado",
+      "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/191026-sanchez-estatuto-estudiantado-universitario.aspx",
+      "alcance": "Anuncio de 45 millones de euros y de un nuevo Estatuto; no se da por aprobado el Consejo del 20.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-20T09:30:00+02:00"
+    },
+    {
+      "id": "F-D014-03",
+      "medio": "Partido Popular",
+      "fecha_publicacion": "2026-10-19",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-19",
+      "tipo": "primaria_partidaria_declaracion",
+      "titulo": "Presentación del Contrato con España",
+      "url": "https://www.pp.es/actualidad/articulos/feijoo-firma-el-contrato-para-gobernar-el-cambio-mi-mayor-ambicion-es-lograr-que-la-palabra-de-un-presidente-vuelva-a-tener-valor/",
+      "alcance": "Compromisos políticos atribuidos a Feijóo; no programa de gobierno pactado.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-20T09:30:00+02:00"
+    },
+    {
+      "id": "F-D014-04",
+      "medio": "VOX",
+      "fecha_publicacion": "2026-10-19",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-19",
+      "tipo": "primaria_partidaria_declaracion",
+      "titulo": "Disposición de Abascal a un entendimiento para el Senado",
+      "url": "https://www.voxespana.es/actualidad/abascal-dispuesto-a-proteger-el-senado-de-los-pactos-de-psoe-con-la-extrema-izquierda-sanchez-ha-dicho-que-va-a-seguir-gobernando-de-una-manera-o-de-otra-20261019",
+      "alcance": "Voluntad declarada; sin acuerdo cerrado, provincias ni condiciones acreditadas en la nota.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-20T09:30:00+02:00"
+    },
+    {
+      "id": "F-D014-05",
+      "medio": "Europa Press",
+      "fecha_publicacion": "2026-10-19",
+      "hora_publicacion": "14:22",
+      "fecha_acontecimiento": "2026-10-19",
+      "tipo": "agencia_declaracion_atribuida",
+      "titulo": "Rueda de prensa de Elisenda Alamany",
+      "url": "https://www.europapress.es/catalunya/noticia-erc-acusa-junts-equidistancia-propuesta-modelo-linguistico-feijoo-20261019142213.html",
+      "alcance": "Posición de ERC sobre lengua y candidaturas; decisiones internas del 20 aún por comprobar al corte.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-20T09:30:00+02:00"
+    },
+    {
+      "id": "F-D014-06",
+      "medio": "EH Bildu",
+      "fecha_publicacion": "2026-10-19",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-19",
+      "tipo": "primaria_partidaria_declaracion",
+      "titulo": "Presentación de candidaturas y posición de Otegi",
+      "url": "https://ehbildu.eus/es/noticias/otegi-en-euskal-herria-si-hay-una-izquierda-a-la-izquierda-del-psoe-que-puede-ganar-las-elecciones-y-esa-izquierda-se-llama-eh-bildu",
+      "alcance": "Acto y posición declarada; no capacidad parlamentaria efectiva ni pacto de investidura.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-20T09:30:00+02:00"
+    },
+    {
+      "id": "F-D014-07",
+      "medio": "BNG",
+      "fecha_publicacion": "2026-10-19",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-19",
+      "tipo": "primaria_partidaria_declaracion",
+      "titulo": "Agenda gallega y políticas sociales en el acto de A Coruña",
+      "url": "https://www.bng.gal/articulo/novas/bng-esperanza-solucion-galiza-mais-politicas-sociais/20261019134514043651.html",
+      "alcance": "Objetivos de representación y demandas políticas atribuidas al BNG.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-20T09:30:00+02:00"
+    },
+    {
+      "id": "F-D014-08",
+      "medio": "BOJA",
+      "fecha_publicacion": "2026-10-19",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": null,
+      "fecha_resolucion": "2026-10-19",
+      "tipo": "primaria_institucional_documento",
+      "titulo": "Acuerdo bilateral sobre discrepancias de la Ley de Vivienda de Andalucía",
+      "url": "https://www.juntadeandalucia.es/boja/2026/202/c02/1",
+      "alcance": "Controversia competencial concreta; no consta fecha separada de adopción del acuerdo ni hora de publicación.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-20T09:30:00+02:00"
+    },
+    {
+      "id": "F-D014-09",
+      "medio": "INE / Oficina del Censo Electoral",
+      "fecha_publicacion": null,
+      "hora_publicacion": null,
+      "fecha_acontecimiento": null,
+      "tipo": "primaria_institucional_calendario",
+      "titulo": "Plazos electorales oficiales",
+      "url": "https://ine.es/dyngs/CEL/en/index.htm?cid=1702",
+      "alcance": "Resolución de reclamaciones censales hasta el 22 y exposición el 23 de octubre; calendario preexistente verificado hoy.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-20T09:30:00+02:00"
+    },
+    {
+      "id": "F-D014-10",
+      "medio": "BOE",
+      "fecha_publicacion": "2026-10-06",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-05",
+      "tipo": "primaria_institucional_antecedente",
+      "titulo": "Real Decreto 806/2026: convocatoria electoral",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "alcance": "Votación 29 de noviembre; campaña 13–27 de noviembre; constitución de las Cámaras 23 de diciembre.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-20T09:30:00+02:00"
+    },
+    {
+      "id": "F-D014-11",
+      "medio": "El Mundo / referencia difundida por Electomanía",
+      "fecha_publicacion": "2026-10-20",
+      "hora_publicacion": "07:36",
+      "fecha_acontecimiento": null,
+      "tipo": "referencia_secundaria_original_no_accesible",
+      "titulo": "Publicación sobre el Senado, pendiente de comprobación primaria",
+      "url": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad65700fc6c837b168b4590.html",
+      "referencia_secundaria": "https://electomania.es/encuesta-al-senado-sigma-dos-20oct-pp-y-vox-a-6-escanos-del-control-total/",
+      "alcance": "Fecha y hora corresponden a la difusión secundaria, sin zona horaria explícita. La admisión temporal al corte también está pendiente. Se conserva sólo como próxima comprobación documental, fuera de los hechos admitidos. Ficha, campo y método del original no comprobados; no se incorporan cifras.",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": null,
+      "zona_horaria_publicacion": "no indicada",
+      "admitida_como_hecho_al_corte": false
+    }
+  ],
+  "sync_version": "D014-editorial-20261020",
+  "ventana_novedades": {
+    "desde_exclusivo": "2026-10-19T09:30:00+02:00",
+    "hasta_inclusivo": "2026-10-20T09:30:00+02:00",
+    "reserva": "Las piezas del 19 sin hora se identifican como incorporación documental; no se afirma que su acontecimiento sucediera después del corte anterior. Consulta realizada después del corte."
+  },
+  "anterior": {
+    "codigo": "D-013",
+    "fecha": "2026-10-19",
+    "fecha_legible": "19 de octubre de 2026",
+    "titulo": "ElectoPanel publica resultados; nuevas comprobaciones demoscópicas y territoriales",
+    "url": "diario/2026-10-19.html",
+    "estado": "Interpretación pendiente de validación humana"
+  },
+  "demoscopia": {
+    "estudios_incorporados_hoy": 1,
+    "estudios_en_historico": 6,
+    "casas_en_panel": 5,
+    "nuevos_estudios_congreso_publicados_el_20_verificados": 0,
+    "ultima_incorporacion_cuantitativa": "2026-10-20",
+    "resultado_busqueda": "Sigma Dos publicado el 19: ficha original verificada y reserva de D-013 resuelta. Publicación del Senado pendiente de comprobación primaria; sin cifras admitidas.",
+    "agregacion": "Una observación por casa en el comparador. Se conserva la observación anterior de Sigma Dos en el histórico. Frente Amplio y Sumar mantienen etiquetas distintas.",
+    "limite": "Campo Sigma Dos 1–14: no mide la recepción de acuerdos posteriores. Las dos oleadas pueden solaparse; no se presume independencia de muestras."
+  },
+  "codificacion": {
+    "estado": "sin_nueva_codificacion_numerica",
+    "ultima_fecha_codificada": "2026-10-17",
+    "tratamiento_D014": "null: sin nueva puntuación; no arrastrar valores del 17."
+  },
+  "protocolos_consultados": [
+    "P001-E001: texto disponible",
+    "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
+  ],
+  "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
+  "senales": [
+    {
+      "id": "S-D014-01",
+      "tema": "Sigma Dos: reserva primaria resuelta",
+      "tipo": "incorporacion_documental_demoscopica",
+      "fuentes": [
+        "F-D014-01"
+      ],
+      "variables_en_observacion": [
+        "V1",
+        "V2",
+        "V4"
+      ],
+      "alcance": "Nuevo registro en el histórico; estudio publicado el 19, ya mencionado pendiente en D-013. No nuevo trabajo de campo del 20.",
+      "fecha_incorporacion": "2026-10-20",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D014-02",
+      "tema": "Residencias universitarias y Estatuto del Estudiantado",
+      "tipo": "anuncio_institucional_atribuido",
+      "fuentes": [
+        "F-D014-02"
+      ],
+      "variables_en_observacion": [
+        "V7",
+        "V16"
+      ],
+      "alcance": "Anuncio del 19; aprobación y contenido definitivo del Consejo del 20 pendientes al corte.",
+      "fecha_incorporacion": "2026-10-20",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D014-03",
+      "tema": "Contrato con España del PP",
+      "tipo": "propuesta_partidaria_atribuida",
+      "fuentes": [
+        "F-D014-03"
+      ],
+      "variables_en_observacion": [
+        "V7",
+        "V8",
+        "V16",
+        "V17"
+      ],
+      "alcance": "Propuestas sobre vivienda, pensiones y organización gubernamental. No programa pactado ni gabinete designado.",
+      "fecha_incorporacion": "2026-10-20",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D014-04",
+      "tema": "Entendimiento electoral para el Senado",
+      "tipo": "declaracion_partidaria_atribuida",
+      "fuentes": [
+        "F-D014-04"
+      ],
+      "variables_en_observacion": [
+        "V3",
+        "V16"
+      ],
+      "alcance": "Disposición de Abascal; no acuerdo cerrado ni decisión sobre la coalición de Gobierno.",
+      "fecha_incorporacion": "2026-10-20",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D014-05",
+      "tema": "Cataluña · Defensa de la inmersión lingüística y de su candidatura.",
+      "tipo": "declaracion_atribuida_por_agencia",
+      "fuentes": [
+        "F-D014-05"
+      ],
+      "variables_en_observacion": [
+        "V9",
+        "V16"
+      ],
+      "alcance": "Puede afectar a la compatibilidad programática. La condición de bisagra V12 depende de resultados y acuerdos futuros.",
+      "fecha_incorporacion": "2026-10-20",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D014-06",
+      "tema": "País Vasco · Defender la agenda vasca e impedir un Gobierno PP-Vox si su representación lo permite.",
+      "tipo": "acto_y_posicion_en_fuente_primaria",
+      "fuentes": [
+        "F-D014-06"
+      ],
+      "variables_en_observacion": [
+        "V10",
+        "V12",
+        "V16"
+      ],
+      "alcance": "Posición relevante para futuros apoyos; no prueba capacidad efectiva de veto ni se extiende al PNV.",
+      "fecha_incorporacion": "2026-10-20",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D014-07",
+      "tema": "Galicia · Más representación para la agenda gallega y las políticas sociales, con referencias a transporte, pensiones y vivienda.",
+      "tipo": "posicion_en_fuente_primaria",
+      "fuentes": [
+        "F-D014-07"
+      ],
+      "variables_en_observacion": [
+        "V11",
+        "V12",
+        "V16"
+      ],
+      "alcance": "Amplía la documentación sobre demandas negociadoras. Su influencia parlamentaria sigue condicionada por los resultados.",
+      "fecha_incorporacion": "2026-10-20",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D014-08",
+      "tema": "Andalucía · Resolver discrepancias competenciales concretas sobre la Ley 5/2025 de Vivienda.",
+      "tipo": "documento_oficial_verificado",
+      "fuentes": [
+        "F-D014-08"
+      ],
+      "variables_en_observacion": [
+        "V11",
+        "V16",
+        "V7"
+      ],
+      "alcance": "Muestra cooperación institucional en vivienda. No acredita un pacto electoral ni el cierre de todas las controversias sobre vivienda.",
+      "fecha_incorporacion": "2026-10-20",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D014-09",
+      "tema": "Calendario censal: resolución y exposición de reclamaciones",
+      "tipo": "seguimiento_de_hito_preexistente",
+      "fuentes": [
+        "F-D014-09"
+      ],
+      "variables_en_observacion": [
+        "V13"
+      ],
+      "alcance": "Resolución hasta el 22 y exposición el 23; no se atribuye resolución judicial nueva.",
+      "fecha_incorporacion": "2026-10-20",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D014-10",
+      "tema": "Referencia a una publicación del Senado",
+      "tipo": "hipotesis_documental_pendiente_de_contraste",
+      "fuentes": [
+        "F-D014-11"
+      ],
+      "variables_en_observacion": [],
+      "alcance": "Próxima comprobación documental; admisión temporal al corte pendiente y excluida de los hechos admitidos. Sin ficha primaria accesible ni cifras admitidas; no constituye un nuevo estudio del Congreso.",
+      "fecha_incorporacion": "2026-10-20",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    }
+  ],
+  "dimension_nacional_territorial": [
+    {
+      "territorio": "Cataluña",
+      "actor": "ERC / Elisenda Alamany",
+      "agenda_explicita": "Defensa de la inmersión lingüística y de su candidatura.",
+      "agenda_estrategica": "ERC declara querer liderar la defensa de Cataluña; no se deducen compromisos reservados.",
+      "instrumento_tactico": "Rueda de prensa del 19; anuncio de aprobación interna de listas para el 20, aún por verificar al corte.",
+      "variables": [
+        "V9",
+        "V16"
+      ],
+      "efecto_sistemico": "Puede afectar a la compatibilidad programática. La condición de bisagra V12 depende de resultados y acuerdos futuros.",
+      "fuente": "F-D014-05",
+      "grado_confirmacion": "declaracion_atribuida_por_agencia",
+      "ciudadana": "ERC vuelve a situar la lengua en la escuela entre sus prioridades. Ese desacuerdo puede influir en futuros pactos; todavía no demuestra quién decidirá una investidura.",
+      "fecha_incorporacion": "2026-10-20",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH"
+    },
+    {
+      "territorio": "País Vasco",
+      "actor": "EH Bildu / Arnaldo Otegi",
+      "agenda_explicita": "Defender la agenda vasca e impedir un Gobierno PP-Vox si su representación lo permite.",
+      "agenda_estrategica": "Objetivo declarado de sumar apoyos desde su posición de izquierda soberanista.",
+      "instrumento_tactico": "Presentación pública de candidaturas en el Kursaal el 19.",
+      "variables": [
+        "V10",
+        "V12",
+        "V16"
+      ],
+      "efecto_sistemico": "Posición relevante para futuros apoyos; no prueba capacidad efectiva de veto ni se extiende al PNV.",
+      "fuente": "F-D014-06",
+      "grado_confirmacion": "acto_y_posicion_en_fuente_primaria",
+      "ciudadana": "EH Bildu ha explicado que intentará impedir un Gobierno de PP y Vox. Para saber si podrá hacerlo habrá que conocer sus escaños y los acuerdos que acepten las otras fuerzas.",
+      "fecha_incorporacion": "2026-10-20",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH"
+    },
+    {
+      "territorio": "Galicia",
+      "actor": "BNG / Néstor Rego y Carme da Silva",
+      "agenda_explicita": "Más representación para la agenda gallega y las políticas sociales, con referencias a transporte, pensiones y vivienda.",
+      "agenda_estrategica": "Reforzar la capacidad de decisión de Galicia, según declara la formación.",
+      "instrumento_tactico": "Acto informativo y llamamiento electoral en A Coruña el 19.",
+      "variables": [
+        "V11",
+        "V12",
+        "V16"
+      ],
+      "efecto_sistemico": "Amplía la documentación sobre demandas negociadoras. Su influencia parlamentaria sigue condicionada por los resultados.",
+      "fuente": "F-D014-07",
+      "grado_confirmacion": "posicion_en_fuente_primaria",
+      "ciudadana": "El BNG pide más representación para situar las demandas de Galicia en los acuerdos del próximo Gobierno. Su influencia dependerá de los escaños y de que sus apoyos sean necesarios.",
+      "fecha_incorporacion": "2026-10-20",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH"
+    },
+    {
+      "territorio": "Andalucía",
+      "actor": "Administración General del Estado y Junta de Andalucía",
+      "agenda_explicita": "Resolver discrepancias competenciales concretas sobre la Ley 5/2025 de Vivienda.",
+      "agenda_estrategica": "Cooperación normativa sectorial acreditada; no se atribuye finalidad electoral no documentada.",
+      "instrumento_tactico": "Acuerdo bilateral publicado por resolución de 19 de octubre en el BOJA.",
+      "variables": [
+        "V11",
+        "V16",
+        "V7"
+      ],
+      "efecto_sistemico": "Muestra cooperación institucional en vivienda. No acredita un pacto electoral ni el cierre de todas las controversias sobre vivienda.",
+      "fuente": "F-D014-08",
+      "grado_confirmacion": "documento_oficial_verificado",
+      "ciudadana": "El Estado y Andalucía han publicado un acuerdo sobre discrepancias concretas de la ley andaluza de vivienda. Esa negociación entre administraciones debe distinguirse de los pactos para formar Gobierno.",
+      "fecha_incorporacion": "2026-10-20",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH"
+    }
+  ],
+  "escenarios_conservados": {
+    "origen": "A-000; continuidad del marco documentado en D-013",
+    "identificadores": [
+      "G1",
+      "G2",
+      "G4",
+      "G5"
+    ],
+    "recalibracion": false
+  },
+  "proximas_comprobaciones": [
+    {
+      "plazo": "24–72 horas",
+      "comprobacion": "Comprobar acuerdos publicados del Consejo de Ministros, candidaturas acreditadas y ficha del Senado; no anticipar resultados al corte."
+    },
+    {
+      "fecha": "2026-10-22",
+      "hito": "Fin del periodo de resolución de reclamaciones censales",
+      "fuente": "F-D014-09"
+    },
+    {
+      "fecha": "2026-10-23",
+      "hito": "Exposición de resoluciones en ayuntamientos y consulados",
+      "fuente": "F-D014-09"
+    }
+  ]
+}

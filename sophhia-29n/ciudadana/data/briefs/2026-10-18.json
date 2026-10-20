@@ -11,10 +11,10 @@
   "modo": "Modo A · Aproximación heurística estructurada",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Publicación editorial; interpretación pendiente de validación IH",
-  "decision_id": null,
+  "validacion": "Interpretación validada IH · DEC-IH-D012-001",
+  "decision_id": "DEC-IH-D012-001",
   "revision_abierta": "REV-F2-003",
-  "estado_publicacion": "publicada_editorial_pendiente_IH",
+  "estado_publicacion": "publicada_interpretacion_validada_IH",
   "resumen": "Se registra la ficha nacional del ElectoPanel anunciado para el 18 de octubre: adelanto del 17, campo del 15 al 17 y 3.141 cuestionarios. No se han verificado sus porcentajes abiertos. Se conservan las cuatro referencias cuantitativas del MIDC y el marco A-000; el seguimiento de la precampaña no se convierte en una nueva estimación electoral.",
   "senal_principal": "Nueva ficha nacional verificada; resultados cuantitativos pendientes",
   "variable_vigilancia": "V4 · vigilancia de continuidad; V11 y V16 · seguimiento; sin nueva puntuación",
@@ -89,7 +89,13 @@
   "sync_version": "D012-editorial-20261018",
   "registro_id": "REG-D012-20261018",
   "nota_continuidad": "D-011 conserva su corte del 17 a las 09:55 y su estado pendiente IH. La validación DEC-IH-D010-001 no se extiende a D-011, D-012 ni a las series documentales.",
-  "validacion_humana": null,
+  "validacion_humana": {
+    "decision_id": "DEC-IH-D012-001",
+    "fecha": "2026-10-18T14:47:50+02:00",
+    "autor": "Julio Villacorta",
+    "instruccion": "Valido la interpretación D-012",
+    "alcance": "Interpretación de D-012. Conserva corte, reservas documentales y estados de otras entregas, reglas y codificaciones."
+  },
   "ventana_novedades": {
     "desde_exclusivo": "2026-10-17T09:55:00+02:00",
     "hasta_inclusivo": "2026-10-18T12:50:00+02:00"

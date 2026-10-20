@@ -1,7 +1,15 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "D-013 · 19 de octubre de 2026 · interpretación pendiente IH",
+  "ultima_actualizacion": "D-014 · 20 de octubre de 2026 · interpretación pendiente IH",
   "entradas": [
+    {
+      "codigo": "D-014",
+      "fecha": "2026-10-20",
+      "titulo": "Sigma Dos verificado; programas y pactos bajo vigilancia",
+      "url": "diario/2026-10-20.html",
+      "estado": "editorial_pendiente_IH",
+      "decision": null
+    },
     {
       "codigo": "D-013",
       "fecha": "2026-10-19",

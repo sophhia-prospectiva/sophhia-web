@@ -1,4 +1,4 @@
-/* D-012: presentation synchronisation only. The existing chart renderer is preserved byte-for-byte. */
+/* Public presentation synchronisation. D-014: grid and editorial labels; scoring rules unchanged. */
 (function(){
 'use strict';
 if(typeof document==='undefined'){
@@ -9,7 +9,9 @@ const own=document.currentScript;
 const scriptURL=new URL(own&&own.src?own.src:'assets/dashboard-charts.js',document.baseURI);
 const dataURL=new URL('../data/',scriptURL);
 const core=document.createElement('script');
-core.src=new URL('dashboard-charts-v0.29.js',scriptURL).href;
+const rendererURL=new URL('dashboard-charts-v0.29.js',scriptURL);
+rendererURL.search=scriptURL.search;
+core.src=rendererURL.href;
 core.async=false;
 core.onerror=function(){const n=document.getElementById('dashboard-chart-sync');if(n)n.textContent='No se ha podido cargar el visor de gráficas. Los registros permanecen disponibles en la Bitácora.';};
 document.head.appendChild(core);
@@ -64,3 +66,4 @@ function start(){
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 })();
+
