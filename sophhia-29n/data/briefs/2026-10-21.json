@@ -1,0 +1,586 @@
+{
+  "contrato": "CP-29N-F0 v0.1 + Anexo A",
+  "protocolo": "P001 + P001-E001",
+  "capa": "F2-MICMAC-001 v0.2",
+  "modo": "Modo A · Aproximación heurística estructurada",
+  "revision_abierta": "REV-F2-003",
+  "protocolos_consultados": [
+    "P001-E001: texto disponible",
+    "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
+  ],
+  "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
+  "codigo": "D-015",
+  "fecha": "2026-10-21",
+  "fecha_legible": "21 de octubre de 2026",
+  "hora_corte": "09:30",
+  "timezone": "Europe/Madrid",
+  "titulo": "Amnistía, Senado y preferencias de gobierno: nuevas condiciones para los pactos",
+  "recalibracion": false,
+  "micmac_modificada": false,
+  "validacion": "Interpretación pendiente de validación humana",
+  "decision_id": null,
+  "estado_publicacion": "publicada_pendiente_validacion_IH",
+  "resumen": "La amnistía aplicada a cuatro dirigentes del procés, las conversaciones reconocidas por Feijóo sobre el Senado y los acuerdos sociales del Consejo añaden condiciones observables a los pactos. ElectoPanel aporta preferencias de gobierno; el mapa de Sigma Dos amplía un estudio ya registrado. No se verifica una nueva estimación nacional de voto. D-015 queda pendiente de validación humana; escenarios, parámetros y última codificación numérica se conservan.",
+  "resumen_ciudadana": "Hoy se comprueban cambios judiciales y medidas del Gobierno, y se confirman conversaciones entre PP y Vox para el Senado. Una encuesta pregunta qué Gobierno prefieren los participantes; no predice quién gobernará. El nuevo mapa de Sigma Dos utiliza entrevistas ya registradas. La interpretación de D-015 espera revisión humana. Los escenarios y cálculos conservan su base; no se añaden puntuaciones sin evidencia.",
+  "senal_principal": "Amnistía de cuatro dirigentes; conversaciones sobre el Senado; medidas de vivienda y preferencias de gobierno",
+  "variable_vigilancia": "V3, V7, V9, V11, V12, V13 y V16 · seguimiento cualitativo; sin nueva puntuación",
+  "variable_territorial": "V9, V11, V12 y V16 · evidencia cualitativa; ayudas territoriales sin equipararlas a agenda nacionalista",
+  "decision": "D-015 pendiente de validación humana. D-014 conserva DEC-IH-D014-001, exclusivamente sobre su interpretación; esa decisión no valida D-015 ni cálculos, reglas o codificaciones gráficas.",
+  "url": "diario/2026-10-21.html",
+  "fuentes_temporales": [
+    {
+      "id": "F-D015-01",
+      "medio": "CGPJ / Tribunal Supremo",
+      "url": "https://www.poderjudicial.es/cgpj/en/Judiciary/Supreme-Court/Judicial-News/El-Tribunal-Supremo-declara-extinguida-la-responsabilidad-penal-de-Oriol-Junqueras--Raul-Romeva--Jordi-Turull-y-Dolors-Bassa-en-aplicacion-de-la-amnistia-al-asumir-la-sentencia-del-TC",
+      "fecha_publicacion": "2026-10-20",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-20",
+      "tipo": "primaria_judicial_indexada",
+      "alcance": "Amnistía a Junqueras, Romeva, Turull y Bassa; anuncio oficial indexado. No se ha leído el auto íntegro.",
+      "grado_confirmacion": "anuncio_oficial_indexado_corroborado_por_prensa",
+      "titulo": "Aplicación de la amnistía a cuatro dirigentes",
+      "fecha_incorporacion": "2026-10-21",
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "corte_admision": "2026-10-21T09:30:00+02:00",
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    },
+    {
+      "id": "F-D015-02",
+      "medio": "elDiario.es",
+      "url": "https://www.eldiario.es/catalunya/supremo-amnistia-malversacion-lideres-proces-carga-grandilocuencia-constitucional_1_13599766.html",
+      "fecha_publicacion": "2026-10-20",
+      "hora_publicacion": "12:53",
+      "fecha_acontecimiento": "2026-10-20",
+      "tipo": "prensa_contraste",
+      "alcance": "Corrobora la extinción de responsabilidad y las inhabilitaciones de los cuatro dirigentes.",
+      "grado_confirmacion": "corroboracion_periodistica",
+      "titulo": "Contraste de la resolución del Supremo",
+      "fecha_incorporacion": "2026-10-21",
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "corte_admision": "2026-10-21T09:30:00+02:00",
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    },
+    {
+      "id": "F-D015-03",
+      "medio": "Partido Popular",
+      "url": "https://www.pp.es/actualidad/articulos/feijoo-dice-que-a-sanchez-le-han-pillado-haciendo-trampas-con-la-ley-de-nietos-y-se-muestra-convencido-de-que-el-constitucional-no-ira-contra-el-supremo-y-la-jec/",
+      "fecha_publicacion": "2026-10-20",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-20",
+      "tipo": "primaria_partidaria_declaracion",
+      "alcance": "Feijóo reconoce negociaciones con Vox para el Senado y formula propuestas de organización gubernamental; sin pacto cerrado acreditado.",
+      "grado_confirmacion": "declaracion_atribuida_fuente_original",
+      "titulo": "Declaraciones de Feijóo sobre Senado y programa",
+      "fecha_incorporacion": "2026-10-21",
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "corte_admision": "2026-10-21T09:30:00+02:00",
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    },
+    {
+      "id": "F-D015-04",
+      "medio": "La Moncloa",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20261020-referencia-rueda-de-prensa-ministros-aspx.aspx",
+      "fecha_publicacion": "2026-10-20",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-20",
+      "tipo": "primaria_institucional_acuerdos",
+      "alcance": "Acuerdos del Consejo sobre protección social, vivienda y alojamientos universitarios; aprobación comunicada, sin equipararla a ejecución.",
+      "grado_confirmacion": "documento_oficial_consultado",
+      "titulo": "Acuerdos del Consejo de Ministros del 20 de octubre",
+      "fecha_incorporacion": "2026-10-21",
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "corte_admision": "2026-10-21T09:30:00+02:00",
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    },
+    {
+      "id": "F-D015-05",
+      "medio": "Electomanía / ElectoPanel",
+      "url": "https://electomania.es/electopanel-20-oct-continua-la-division-por-la-formula-de-gobierno-preferida-tras-el-29n/",
+      "fecha_publicacion": "2026-10-20",
+      "hora_publicacion": "18:09",
+      "fecha_acontecimiento": null,
+      "tipo": "primaria_demoscopica_preferencias",
+      "alcance": "Preferencias por fórmulas de gobierno. Campo 5–17 de octubre; 6.873 cuestionarios CAWI. Registro separado de la estimación de voto.",
+      "grado_confirmacion": "publicacion_y_ficha_consultadas",
+      "titulo": "Preferencias por fórmulas de gobierno",
+      "fecha_incorporacion": "2026-10-21",
+      "campo_inicio": "2026-10-05",
+      "campo_fin": "2026-10-17",
+      "zona_horaria_publicacion": "no indicada",
+      "muestra_cuestionarios": 6873,
+      "metodo": "CAWI; tracking; 60 % de panelistas fijos; cuotas de territorio, sexo, edad, formación e interés político",
+      "encuestadora": "ElectoPanel",
+      "analisis": "Estudios y Minería de Datos S. L.",
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "corte_admision": "2026-10-21T09:30:00+02:00",
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    },
+    {
+      "id": "F-D015-06",
+      "medio": "Sigma Dos / El Mundo",
+      "url": "https://www.sigmados.com/noticia?id=rivzEnwHgHaatUC",
+      "fecha_publicacion": "2026-10-20",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": null,
+      "tipo": "primaria_demoscopica_ampliacion",
+      "alcance": "Mapa provincial: ampliación del estudio publicado el 19, mismo campo 1–14 y 3.007 entrevistas CATI/CAWI; no nueva encuesta independiente.",
+      "grado_confirmacion": "publicacion_y_ficha_consultadas",
+      "titulo": "Ampliación provincial del estudio ya registrado",
+      "fecha_incorporacion": "2026-10-21",
+      "campo_inicio": "2026-10-01",
+      "campo_fin": "2026-10-14",
+      "muestra": 3007,
+      "metodo": "CATI/CAWI",
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "corte_admision": "2026-10-21T09:30:00+02:00",
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    },
+    {
+      "id": "F-D015-07",
+      "medio": "Junta Electoral Central",
+      "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+      "fecha_publicacion": null,
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-21",
+      "tipo": "primaria_calendario_indexado",
+      "alcance": "Presentación de candidaturas del 21 al 26 de octubre. Contenido indexado; descarga del PDF devuelve 403.",
+      "grado_confirmacion": "contenido_oficial_indexado_pdf_no_accesible",
+      "titulo": "Calendario de presentación de candidaturas",
+      "fecha_incorporacion": "2026-10-21",
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "corte_admision": "2026-10-21T09:30:00+02:00",
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    },
+    {
+      "id": "F-D015-08",
+      "medio": "INE / Oficina del Censo Electoral",
+      "url": "https://ine.es/dyngs/CEL/en/index.htm?cid=1702",
+      "fecha_publicacion": null,
+      "hora_publicacion": null,
+      "fecha_acontecimiento": null,
+      "tipo": "primaria_institucional_calendario",
+      "alcance": "Resolución de reclamaciones censales hasta el 22 y exposición el 23 de octubre; antecedente oficial.",
+      "grado_confirmacion": "calendario_oficial_consultado",
+      "titulo": "Próximos hitos del censo electoral",
+      "fecha_incorporacion": "2026-10-20",
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "fecha_revision_documental": "2026-10-21",
+      "corte_admision": "2026-10-21T09:30:00+02:00",
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    },
+    {
+      "id": "F-D015-09",
+      "medio": "BOE",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "fecha_publicacion": "2026-10-06",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-05",
+      "tipo": "primaria_institucional_antecedente",
+      "alcance": "RD 806/2026: votación 29 de noviembre, campaña 13–27 de noviembre, constitución de Cámaras 23 de diciembre.",
+      "grado_confirmacion": "texto_oficial_consultado",
+      "titulo": "Convocatoria de las elecciones generales",
+      "fecha_incorporacion": "2026-10-20",
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "fecha_revision_documental": "2026-10-21",
+      "corte_admision": "2026-10-21T09:30:00+02:00",
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    },
+    {
+      "id": "F-D015-10",
+      "medio": "El Mundo / referencia secundaria de Electomanía",
+      "url": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad65700fc6c837b168b4590.html",
+      "fecha_publicacion": null,
+      "hora_publicacion": null,
+      "fecha_acontecimiento": null,
+      "tipo": "referencia_documental_pendiente",
+      "alcance": "Original sobre el Senado no accesible. Se conserva la reserva, sin cifras ni ficha heredadas del Congreso.",
+      "grado_confirmacion": "pendiente_de_comprobacion_primaria",
+      "titulo": "Reserva documental de la encuesta del Senado",
+      "fecha_incorporacion": "2026-10-20",
+      "referencia_secundaria": "https://electomania.es/encuesta-al-senado-sigma-dos-20oct-pp-y-vox-a-6-escanos-del-control-total/",
+      "admitida_como_hecho_al_corte": false,
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "fecha_revision_documental": "2026-10-21",
+      "corte_admision": null,
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    },
+    {
+      "id": "F-D015-11",
+      "medio": "Sigma Dos / El Mundo",
+      "url": "https://www.sigmados.com/noticia?id=EIJOKGN2GFZmhHt",
+      "fecha_publicacion": "2026-10-19",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": null,
+      "tipo": "primaria_demoscopica_antecedente",
+      "alcance": "Estudio nacional de voto incorporado en D-014; referencia para identificar la ampliación del 20 y evitar duplicados.",
+      "grado_confirmacion": "antecedente_ya_verificado",
+      "titulo": "Estudio de voto ya incorporado en D-014",
+      "fecha_incorporacion": "2026-10-20",
+      "campo_inicio": "2026-10-01",
+      "campo_fin": "2026-10-14",
+      "muestra": 3007,
+      "metodo": "CATI/CAWI",
+      "fecha_incorporacion_a_entrega": "2026-10-21",
+      "fecha_revision_documental": "2026-10-21",
+      "corte_admision": "2026-10-21T09:30:00+02:00",
+      "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
+    }
+  ],
+  "sync_version": "D015-editorial-20261021",
+  "ventana_novedades": {
+    "desde_exclusivo": "2026-10-20T09:30:00+02:00",
+    "hasta_inclusivo": "2026-10-21T09:30:00+02:00",
+    "reserva": "Las piezas del 20 sin hora se registran como incorporación documental. No se afirma que cada acontecimiento sucediera después del corte anterior. Consulta realizada después del corte."
+  },
+  "anterior": {
+    "codigo": "D-014",
+    "fecha": "2026-10-20",
+    "fecha_legible": "20 de octubre de 2026",
+    "titulo": "Sigma Dos verificado; programas y pactos bajo vigilancia",
+    "url": "diario/2026-10-20.html",
+    "estado": "Interpretación validada IH · DEC-IH-D014-001",
+    "decision_id": "DEC-IH-D014-001"
+  },
+  "demoscopia": {
+    "estudios_de_voto_incorporados_hoy": 0,
+    "estudios_en_historico": 6,
+    "casas_en_panel": 5,
+    "nuevas_estimaciones_nacionales_voto_verificadas": 0,
+    "nuevas_publicaciones_preferencias_gobierno": 1,
+    "ampliaciones_documentales_estudios_existentes": 1,
+    "ultima_incorporacion_cuantitativa_voto": "2026-10-20",
+    "resultado_busqueda": "Nueva publicación sobre preferencias de gobierno y mapa provincial del sondeo Sigma Dos ya registrado. No se ha verificado una nueva estimación nacional de voto en esta revisión.",
+    "agregacion": "Cinco observaciones, una por casa, en el comparador de voto; seis estudios en el histórico. Preferencias de gobierno en registro complementario; mapa provincial vinculado al estudio existente.",
+    "limite": "Se conservan la reserva de acceso a la ficha primaria del CIS y la reserva del estudio del Senado. No se presume independencia entre paneles u oleadas."
+  },
+  "codificacion": {
+    "estado": "sin_nueva_codificacion_numerica",
+    "ultima_fecha_codificada": "2026-10-17",
+    "tratamiento_D015": "null: sin nueva puntuación; no arrastrar los valores del 17."
+  },
+  "cambios": [
+    "Aplicación judicial de la amnistía a cuatro dirigentes del procés, con comprobación pendiente de candidaturas concretas.",
+    "Feijóo reconoce conversaciones con Vox para el Senado; no acuerdo definitivo acreditado.",
+    "Se comprueban acuerdos del Consejo de Ministros que D-014 mantenía como anuncio.",
+    "ElectoPanel del 20: preferencias de gobierno en registro separado; campo 5–17 de octubre.",
+    "Mapa provincial de Sigma Dos: ampliación del estudio del 19, sin duplicar muestra.",
+    "Apertura del plazo de presentación de candidaturas; próximos hitos censales el 22 y 23."
+  ],
+  "senales": [
+    {
+      "id": "S-D015-01",
+      "tema": "Amnistía aplicada a cuatro dirigentes",
+      "tipo": "hecho_judicial_corroborado",
+      "fuentes": [
+        "F-D015-01",
+        "F-D015-02"
+      ],
+      "variables_en_observacion": [
+        "V9",
+        "V12",
+        "V16"
+      ],
+      "alcance": "Cambio de situación judicial; candidaturas y efectos parlamentarios pendientes de comprobación.",
+      "fecha_incorporacion": "2026-10-21",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D015-02",
+      "tema": "Conversaciones PP-Vox sobre el Senado",
+      "tipo": "declaracion_partidaria_atribuida",
+      "fuentes": [
+        "F-D015-03"
+      ],
+      "variables_en_observacion": [
+        "V3",
+        "V16"
+      ],
+      "alcance": "Conversaciones públicamente reconocidas; no acuerdo cerrado ni pacto de Gobierno.",
+      "fecha_incorporacion": "2026-10-21",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D015-03",
+      "tema": "Vivienda y protección social",
+      "tipo": "aprobacion_gubernamental_comunicada",
+      "fuentes": [
+        "F-D015-04"
+      ],
+      "variables_en_observacion": [
+        "V7",
+        "V11",
+        "V16"
+      ],
+      "alcance": "Acuerdos del Consejo de Ministros; separar publicación normativa y ejecución.",
+      "fecha_incorporacion": "2026-10-21",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D015-04",
+      "tema": "Preferencias de gobierno",
+      "tipo": "publicacion_demoscopica_sin_estimacion_de_voto",
+      "fuentes": [
+        "F-D015-05"
+      ],
+      "variables_en_observacion": [
+        "V3",
+        "V16"
+      ],
+      "alcance": "Resultados de opinión; no probabilidad de escenarios ni actualización del comparador de voto.",
+      "fecha_incorporacion": "2026-10-21",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D015-05",
+      "tema": "Mapa provincial de Sigma Dos",
+      "tipo": "ampliacion_documental",
+      "fuentes": [
+        "F-D015-06",
+        "F-D015-11"
+      ],
+      "variables_en_observacion": [
+        "V11",
+        "V12"
+      ],
+      "alcance": "Mismo estudio del 19, sin nueva muestra ni suma de intervalos.",
+      "fecha_incorporacion": "2026-10-21",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D015-06",
+      "tema": "Presentación de candidaturas",
+      "tipo": "hito_calendario_institucional",
+      "fuentes": [
+        "F-D015-07",
+        "F-D015-08",
+        "F-D015-09"
+      ],
+      "variables_en_observacion": [
+        "V13"
+      ],
+      "alcance": "Plazo 21–26 según calendario indexado de JEC; PDF íntegro no accesible.",
+      "fecha_incorporacion": "2026-10-21",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH"
+    }
+  ],
+  "dimension_nacional_territorial": [
+    {
+      "territorio": "Cataluña",
+      "actor": "Tribunal Supremo; dirigentes afectados; Gobierno de España en vivienda",
+      "agenda_explicita": "Aplicación de la amnistía a cuatro dirigentes y ayudas de vivienda a Cataluña.",
+      "agenda_estrategica": "No se infiere una nueva estrategia de ERC o Junts ni un apoyo de investidura.",
+      "instrumento_tactico": "Resolución judicial y acuerdo del Consejo del 20; no maniobra partidaria atribuida.",
+      "variables": [
+        "V9",
+        "V12",
+        "V16"
+      ],
+      "efecto_sistemico": "Cambia una condición jurídica de participación; sus efectos sobre candidaturas y pactos requieren comprobación.",
+      "fuentes": [
+        "F-D015-01",
+        "F-D015-02",
+        "F-D015-04"
+      ],
+      "grado_confirmacion": "hecho_judicial_corroborado_y_acuerdo_institucional",
+      "ciudadana": "La amnistía elimina un impedimento jurídico para los cuatro dirigentes. No decide qué listas se registrarán ni a quién apoyarán después.",
+      "fecha_incorporacion": "2026-10-21",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH"
+    },
+    {
+      "territorio": "País Vasco",
+      "actor": "Gobierno de España; instituciones destinatarias de vivienda",
+      "agenda_explicita": "Ayudas de vivienda para Euskadi: 31 millones de euros.",
+      "agenda_estrategica": "Objetivo institucional de vivienda asequible; no revela la agenda negociadora de PNV o EH Bildu.",
+      "instrumento_tactico": "Subvención directa aprobada el 20; instrumento administrativo, no pacto electoral.",
+      "variables": [
+        "V7",
+        "V16"
+      ],
+      "efecto_sistemico": "Permite seguir una política con alcance territorial; no acredita apoyo parlamentario. V10, agenda nacionalista vasca, permanece sin nueva observación específica en esta entrega.",
+      "fuentes": [
+        "F-D015-04"
+      ],
+      "grado_confirmacion": "acuerdo_institucional_documentado",
+      "ciudadana": "La ayuda a Euskadi permite seguir una política pública. No demuestra un nuevo acuerdo con los partidos vascos.",
+      "fecha_incorporacion": "2026-10-21",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH"
+    },
+    {
+      "territorio": "Galicia",
+      "actor": "Gobierno de España; administraciones destinatarias",
+      "agenda_explicita": "Ayudas de vivienda para Galicia: 10,2 millones de euros.",
+      "agenda_estrategica": "Finalidad institucional de vivienda asequible; no se deduce una nueva condición del BNG.",
+      "instrumento_tactico": "Subvención directa aprobada el 20; sin táctica electoral atribuida.",
+      "variables": [
+        "V11",
+        "V16",
+        "V7"
+      ],
+      "efecto_sistemico": "Aporta una medida verificable a la agenda territorial, sin convertirla en fuerza electoral.",
+      "fuentes": [
+        "F-D015-04"
+      ],
+      "grado_confirmacion": "acuerdo_institucional_documentado",
+      "ciudadana": "Los fondos para Galicia son una decisión del Gobierno. Su recepción electoral y los futuros apoyos siguen sin medirse.",
+      "fecha_incorporacion": "2026-10-21",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH"
+    },
+    {
+      "territorio": "Andalucía",
+      "actor": "Gobierno de España; universidades Pablo de Olavide y de Jaén",
+      "agenda_explicita": "Actuaciones de alojamiento universitario incluidas en el acuerdo del 20.",
+      "agenda_estrategica": "Objetivo público de acceso a alojamiento; sin nueva estrategia de partidos acreditada.",
+      "instrumento_tactico": "Ayudas aprobadas; no equivalen a plazas ya disponibles ni a un pacto partidario.",
+      "variables": [
+        "V11",
+        "V16",
+        "V7"
+      ],
+      "efecto_sistemico": "Introduce compromisos de ejecución observables, sin asignar un rendimiento electoral.",
+      "fuentes": [
+        "F-D015-04"
+      ],
+      "grado_confirmacion": "acuerdo_institucional_documentado",
+      "ciudadana": "Las ayudas afectan a universidades andaluzas. Habrá que comprobar su ejecución antes de evaluar resultados.",
+      "fecha_incorporacion": "2026-10-21",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH"
+    }
+  ],
+  "escenarios_conservados": {
+    "origen": "A-000; marco conservado desde D-014",
+    "identificadores": [
+      "G1",
+      "G2",
+      "G4",
+      "G5"
+    ],
+    "recalibracion": false
+  },
+  "lectura_escenarios": [
+    {
+      "id": "G1",
+      "nombre": "Gobierno PP-Vox de coalición",
+      "lectura": "Las conversaciones sobre el Senado permiten seguir la coordinación entre ambos partidos, pero no acreditan ministerios compartidos. El 29,3 % de preferencia por esta fórmula no es su probabilidad.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "G2",
+      "nombre": "PP monocolor con apoyo externo de Vox",
+      "lectura": "La respuesta «PP solo» (17 %) no especifica apoyos parlamentarios externos y no puede identificarse automáticamente con G2.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "G4",
+      "nombre": "Reconstrucción progresista",
+      "lectura": "La preferencia PSOE–Frente Amplio (33,6 %) describe una respuesta del sondeo; no demuestra escaños suficientes ni compatibilidad con los apoyos territoriales.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "G5",
+      "nombre": "Bloqueo / repetición electoral",
+      "lectura": "No hay una nueva medición de bloqueo. Ni «Otra» ni «NS/NC» se convierten en apoyo o probabilidad de repetición.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH"
+    }
+  ],
+  "incertidumbres": [
+    "Condiciones y alcance territorial de cualquier acuerdo PP–Vox para el Senado.",
+    "Candidaturas efectivamente registradas y consecuencias precisas de cada resolución judicial.",
+    "La preferencia de gobierno no mide viabilidad parlamentaria; el campo termina antes de los hechos del 20.",
+    "Ficha original del Senado aún inaccesible; se mantiene la reserva del CIS.",
+    "Ejecución de medidas anunciadas y acuerdos programáticos o de investidura aún no acreditados."
+  ],
+  "proximas_comprobaciones": [
+    {
+      "plazo": "24–72 horas",
+      "comprobacion": "Comprobar candidaturas registradas, acuerdos electorales explícitos, publicaciones normativas y documentación demoscópica pendiente."
+    },
+    {
+      "fecha": "2026-10-22",
+      "hito": "Fin del plazo de resolución de reclamaciones censales",
+      "fuente": "F-D015-08"
+    },
+    {
+      "fecha": "2026-10-23",
+      "hito": "Exposición de resoluciones censales en ayuntamientos y consulados",
+      "fuente": "F-D015-08"
+    },
+    {
+      "fecha": "2026-10-26",
+      "hito": "Fin del plazo de presentación de candidaturas, según calendario JEC indexado",
+      "fuente": "F-D015-07"
+    }
+  ],
+  "estudios_complementarios": [
+    {
+      "id": "ELECTOPANEL-PREFERENCIAS-20261020",
+      "tipo": "preferencias_sobre_formula_de_gobierno",
+      "instituto": "ElectoPanel",
+      "empresa_analisis": "Estudios y Minería de Datos S. L.",
+      "publicacion": "2026-10-20",
+      "hora_publicacion": "18:09",
+      "zona_horaria_publicacion": "no indicada",
+      "medio": "Electomanía",
+      "promotor": null,
+      "reserva_promotor": "La ficha identifica el medio de publicación; no identifica un promotor separado.",
+      "ambito": "España",
+      "universo": "Personas con derecho a voto en España",
+      "campo_inicio": "2026-10-05",
+      "campo_fin": "2026-10-17",
+      "muestra": 6873,
+      "modo": "CAWI / tracking; 60 % de panelistas fijos",
+      "cuotas": [
+        "territorio",
+        "sexo",
+        "edad",
+        "formación",
+        "interés político"
+      ],
+      "pregunta_resumida": "Fórmula de gobierno preferida tras las elecciones; pregunta general, sin condicionar a una mayoría PP-Vox.",
+      "porcentajes_preferencia": {
+        "PSOE + Frente Amplio": 33.6,
+        "PP + Vox": 29.3,
+        "PP en solitario": 17.0,
+        "Otra fórmula": 9.5,
+        "PSOE en solitario": 6.8,
+        "NS/NC": 2.0,
+        "PP–PSOE": 1.8
+      },
+      "url": "https://electomania.es/electopanel-20-oct-continua-la-division-por-la-formula-de-gobierno-preferida-tras-el-29n/",
+      "incorporado": "2026-10-21",
+      "validacion_interpretacion": "pendiente_IH",
+      "incluido_en_comparador_voto": false,
+      "incluido_en_agregado_voto": false,
+      "reserva": "No es intención ni estimación de voto, ni probabilidad de escenarios. Campo concluido el 17: no mide acontecimientos del 18–20. No se publican tamaños de submuestras partidarias; posible solapamiento de panel, sin independencia presumida."
+    },
+    {
+      "id": "SIGMADOS-MAPA-20261020",
+      "tipo": "ampliacion_documental_estudio_existente",
+      "estudio_vinculado": "SIGMADOS-ELMUNDO-20261019",
+      "publicacion": "2026-10-20",
+      "hora_publicacion": null,
+      "url": "https://www.sigmados.com/noticia?id=rivzEnwHgHaatUC",
+      "incorporado": "2026-10-21",
+      "campo_inicio": "2026-10-01",
+      "campo_fin": "2026-10-14",
+      "muestra": 3007,
+      "modo": "CATI / CAWI",
+      "nueva_muestra": false,
+      "nueva_estimacion_nacional_voto": false,
+      "reserva": "Mapa de estimaciones del instituto; no cálculo de SOPHHIA. No se suman extremos de intervalos. La ficha no indica tamaños provinciales; campo anterior a los acuerdos posteriores."
+    }
+  ]
+}

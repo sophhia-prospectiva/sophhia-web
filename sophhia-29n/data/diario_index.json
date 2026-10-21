@@ -1,7 +1,15 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "D-014 · 20 de octubre de 2026 · Interpretación validada IH · DEC-IH-D014-001",
+  "ultima_actualizacion": "D-015 · 21 de octubre de 2026 · Interpretación pendiente de validación humana",
   "entradas": [
+    {
+      "codigo": "D-015",
+      "fecha": "2026-10-21",
+      "titulo": "Amnistía, Senado y preferencias de gobierno: nuevas condiciones para los pactos",
+      "url": "diario/2026-10-21.html",
+      "estado": "editorial_pendiente_IH",
+      "decision": null
+    },
     {
       "codigo": "D-014",
       "fecha": "2026-10-20",

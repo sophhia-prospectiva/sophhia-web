@@ -1,4 +1,4 @@
-/* Public presentation synchronisation. D-014: grid and editorial labels; scoring rules unchanged. */
+/* Public presentation synchronisation. D-015: citizen summaries; scoring rules unchanged. */
 (function(){
 'use strict';
 if(typeof document==='undefined'){
@@ -26,18 +26,18 @@ function render(c,d,index){
   const cut='Corte: '+c.fecha+' · '+c.hora_corte+' · Europe/Madrid. '+c.validacion;
   text('dash-current-badge',dated+' · '+c.validacion);
   text('dash-current-title',c.fecha_legible+' · '+c.titulo);
-  text('dash-current-summary',c.resumen);
+  text('dash-current-summary',(c.resumen_ciudadana||c.resumen));
   text('dash-current-cut',cut);
   link('dash-current-link',c.url,'Leer '+c.codigo);
   text('dash-current-heading','Estado del sistema '+c.codigo+' · '+c.validacion);
-  text('dash-core-reading',d.system_state);
+  text('dash-core-reading',c.resumen_ciudadana||d.system_state);
   text('dash-current-entry',dated);
   text('dash-where-heading',c.codigo+' · Estado vigente');
-  text('dash-where-summary',c.resumen);
+  text('dash-where-summary',(c.resumen_ciudadana||c.resumen));
   text('dash-journey-heading','D-001 → '+c.codigo);
   text('sophhia-current-status',dated+' · '+c.validacion);
   text('sophhia-current-title',c.titulo);
-  text('sophhia-current-summary',c.resumen);
+  text('sophhia-current-summary',(c.resumen_ciudadana||c.resumen));
   text('sophhia-current-decision',c.decision);
   link('sophhia-current-link',c.url,'Leer '+c.codigo);
   text('sophhia-sync-note','Estado editorial sincronizado: '+dated+'. Sin recalibración automática de A-000 ni MICMAC.');
@@ -66,4 +66,5 @@ function start(){
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 })();
+
 

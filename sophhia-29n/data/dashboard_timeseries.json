@@ -1,13 +1,13 @@
 {
-  "version": "v0.32-D014-editorial",
-  "mode": "Seguimiento editorial hasta el 20; última codificación numérica del 17. Días 18, 19 y 20 sin nuevas puntuaciones. Regla y codificaciones previas pendientes IH específica.",
+  "version": "v0.33-D015-editorial",
+  "mode": "Seguimiento editorial hasta el 21; última codificación numérica del 17. Días 18–21 sin nuevas puntuaciones. Regla y codificaciones previas pendientes IH específica.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-10-20",
-  "current_entry": "D-014",
+  "cutoff": "2026-10-21",
+  "current_entry": "D-015",
   "last_numeric_date": "2026-10-17",
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "reconstruction_date": "2026-10-16",
-  "interpretation_cutoff": "2026-10-20T09:30:00+02:00",
+  "interpretation_cutoff": "2026-10-21T09:30:00+02:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
     {
@@ -91,6 +91,12 @@
     {
       "date": "2026-10-20",
       "entry": "D-014",
+      "source_status": "validacion_IH",
+      "retrospective": false
+    },
+    {
+      "date": "2026-10-21",
+      "entry": "D-015",
       "source_status": "editorial_pendiente_IH",
       "retrospective": false
     }
@@ -110,6 +116,7 @@
       1,
       null,
       null,
+      null,
       null
     ],
     "G2 · PP apoyo Vox": [
@@ -124,6 +131,7 @@
       null,
       1,
       1,
+      null,
       null,
       null,
       null
@@ -142,6 +150,7 @@
       2,
       null,
       null,
+      null,
       null
     ],
     "G5 · Bloqueo/repetición": [
@@ -156,6 +165,7 @@
       null,
       1,
       1,
+      null,
       null,
       null,
       null
@@ -176,6 +186,7 @@
       0,
       null,
       null,
+      null,
       null
     ],
     "PSOE + izquierda": [
@@ -190,6 +201,7 @@
       2,
       3,
       3,
+      null,
       null,
       null,
       null
@@ -208,6 +220,7 @@
       2,
       null,
       null,
+      null,
       null
     ],
     "Garantías y procedimiento": [
@@ -222,6 +235,7 @@
       0,
       1,
       0,
+      null,
       null,
       null,
       null
@@ -242,6 +256,7 @@
       1,
       null,
       null,
+      null,
       null
     ],
     "Inflación/coste de vida": [
@@ -256,6 +271,7 @@
       null,
       null,
       1,
+      null,
       null,
       null,
       null
@@ -274,6 +290,7 @@
       3,
       null,
       null,
+      null,
       null
     ],
     "Relación PP‑Vox": [
@@ -283,6 +300,7 @@
       1,
       1,
       1,
+      null,
       null,
       null,
       null,
@@ -306,6 +324,7 @@
       null,
       null,
       null,
+      null,
       null
     ],
     "Bloqueo": [
@@ -317,6 +336,7 @@
       1,
       2,
       2,
+      null,
       null,
       null,
       null,
@@ -340,9 +360,11 @@
       null,
       null,
       null,
+      null,
       null
     ],
     "Agenda nacionalista vasca": [
+      null,
       null,
       null,
       null,
@@ -372,6 +394,7 @@
       1,
       null,
       null,
+      null,
       null
     ],
     "Compatibilidad programática-territorial": [
@@ -388,6 +411,7 @@
       2,
       null,
       null,
+      null,
       null
     ],
     "Agendas territoriales complementarias": [
@@ -402,6 +426,7 @@
       2,
       2,
       2,
+      null,
       null,
       null,
       null
@@ -422,6 +447,7 @@
       0,
       null,
       null,
+      null,
       null
     ],
     "Vigilancia": [
@@ -436,6 +462,7 @@
       2,
       3,
       3,
+      null,
       null,
       null,
       null
@@ -454,6 +481,7 @@
       0,
       null,
       null,
+      null,
       null
     ],
     "Recalibradoras": [
@@ -470,6 +498,7 @@
       0,
       null,
       null,
+      null,
       null
     ]
   },
@@ -484,7 +513,7 @@
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
   "note": "Sin recalibración de A-000, sin modificación de MICMAC ni de probabilidades selladas.",
   "readings": {
-    "territorial": "D-014 incorpora evidencia cualitativa de Cataluña, País Vasco, Galicia y Andalucía, sin puntuaciones nuevas. Los huecos de la serie no significan ausencia de actividad ni capacidad de veto nula.",
-    "signals": "Las señales cualitativas de D-014 se explican en la entrega y se mantienen sin recuento gráfico nuevo. Cero y falta de codificación son estados diferentes."
+    "territorial": "D-015 registra la amnistía de cuatro dirigentes y medidas de vivienda con alcance territorial. Su efecto electoral no se cuantifica; las ayudas a un territorio no acreditan una agenda nacionalista ni un poder de veto.",
+    "signals": "Las observaciones cualitativas de D-015 están documentadas en la entrega. El 21 permanece sin recuento gráfico nuevo: falta de codificación no equivale a cero acontecimientos."
   }
 }
