@@ -17,15 +17,15 @@
   "titulo": "Amnistía, Senado y preferencias de gobierno: nuevas condiciones para los pactos",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación pendiente de validación humana",
-  "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_validacion_IH",
-  "resumen": "La amnistía aplicada a cuatro dirigentes del procés, las conversaciones reconocidas por Feijóo sobre el Senado y los acuerdos sociales del Consejo añaden condiciones observables a los pactos. ElectoPanel aporta preferencias de gobierno; el mapa de Sigma Dos amplía un estudio ya registrado. No se verifica una nueva estimación nacional de voto. D-015 queda pendiente de validación humana; escenarios, parámetros y última codificación numérica se conservan.",
-  "resumen_ciudadana": "Hoy se comprueban cambios judiciales y medidas del Gobierno, y se confirman conversaciones entre PP y Vox para el Senado. Una encuesta pregunta qué Gobierno prefieren los participantes; no predice quién gobernará. El nuevo mapa de Sigma Dos utiliza entrevistas ya registradas. La interpretación de D-015 espera revisión humana. Los escenarios y cálculos conservan su base; no se añaden puntuaciones sin evidencia.",
+  "validacion": "Interpretación validada IH · DEC-IH-D015-001",
+  "decision_id": "DEC-IH-D015-001",
+  "estado_publicacion": "publicada_interpretacion_validada_IH",
+  "resumen": "La amnistía aplicada a cuatro dirigentes del procés, las conversaciones reconocidas por Feijóo sobre el Senado y los acuerdos sociales del Consejo añaden condiciones observables a los pactos. ElectoPanel aporta preferencias de gobierno; el mapa de Sigma Dos amplía un estudio ya registrado. No se verifica una nueva estimación nacional de voto. La interpretación de D-015 queda validada por IH · DEC-IH-D015-001; escenarios, parámetros y última codificación numérica se conservan.",
+  "resumen_ciudadana": "Hoy se comprueban cambios judiciales y medidas del Gobierno, y se confirman conversaciones entre PP y Vox para el Senado. Una encuesta pregunta qué Gobierno prefieren los participantes; no predice quién gobernará. El nuevo mapa de Sigma Dos utiliza entrevistas ya registradas. La interpretación de D-015 está validada por IH · DEC-IH-D015-001. Los escenarios y cálculos conservan su base; no se añaden puntuaciones sin evidencia.",
   "senal_principal": "Amnistía de cuatro dirigentes; conversaciones sobre el Senado; medidas de vivienda y preferencias de gobierno",
   "variable_vigilancia": "V3, V7, V9, V11, V12, V13 y V16 · seguimiento cualitativo; sin nueva puntuación",
   "variable_territorial": "V9, V11, V12 y V16 · evidencia cualitativa; ayudas territoriales sin equipararlas a agenda nacionalista",
-  "decision": "D-015 pendiente de validación humana. D-014 conserva DEC-IH-D014-001, exclusivamente sobre su interpretación; esa decisión no valida D-015 ni cálculos, reglas o codificaciones gráficas.",
+  "decision": "Julio Villacorta García · 21 de octubre de 2026: «Validado D-015». DEC-IH-D015-001. Alcance exclusivamente interpretativo de D-015; no valida A-000, MICMAC, cálculos, reglas o codificaciones gráficas ni otras entregas.",
   "url": "diario/2026-10-21.html",
   "fuentes_temporales": [
     {
@@ -226,7 +226,7 @@
       "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
     }
   ],
-  "sync_version": "D015-editorial-20261021",
+  "sync_version": "D015-validacion-20261021",
   "ventana_novedades": {
     "desde_exclusivo": "2026-10-20T09:30:00+02:00",
     "hasta_inclusivo": "2026-10-21T09:30:00+02:00",

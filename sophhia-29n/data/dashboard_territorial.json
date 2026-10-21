@@ -47,7 +47,7 @@
     "date": "2026-10-21",
     "entry": "D-015",
     "cutoff": "2026-10-21T09:30:00+02:00",
-    "validation": "Interpretación pendiente de validación humana",
+    "validation": "Interpretación validada IH · DEC-IH-D015-001",
     "quantified": false,
     "observations": [
       {
@@ -71,7 +71,8 @@
         "ciudadana": "La amnistía elimina un impedimento jurídico para los cuatro dirigentes. No decide qué listas se registrarán ni a quién apoyarán después.",
         "fecha_incorporacion": "2026-10-21",
         "puntuacion": null,
-        "validacion_interpretacion": "pendiente_IH"
+        "validacion_interpretacion": "validada_IH",
+        "decision_id": "DEC-IH-D015-001"
       },
       {
         "territorio": "País Vasco",
@@ -91,7 +92,8 @@
         "ciudadana": "La ayuda a Euskadi permite seguir una política pública. No demuestra un nuevo acuerdo con los partidos vascos.",
         "fecha_incorporacion": "2026-10-21",
         "puntuacion": null,
-        "validacion_interpretacion": "pendiente_IH"
+        "validacion_interpretacion": "validada_IH",
+        "decision_id": "DEC-IH-D015-001"
       },
       {
         "territorio": "Galicia",
@@ -112,7 +114,8 @@
         "ciudadana": "Los fondos para Galicia son una decisión del Gobierno. Su recepción electoral y los futuros apoyos siguen sin medirse.",
         "fecha_incorporacion": "2026-10-21",
         "puntuacion": null,
-        "validacion_interpretacion": "pendiente_IH"
+        "validacion_interpretacion": "validada_IH",
+        "decision_id": "DEC-IH-D015-001"
       },
       {
         "territorio": "Andalucía",
@@ -133,7 +136,8 @@
         "ciudadana": "Las ayudas afectan a universidades andaluzas. Habrá que comprobar su ejecución antes de evaluar resultados.",
         "fecha_incorporacion": "2026-10-21",
         "puntuacion": null,
-        "validacion_interpretacion": "pendiente_IH"
+        "validacion_interpretacion": "validada_IH",
+        "decision_id": "DEC-IH-D015-001"
       }
     ]
   }

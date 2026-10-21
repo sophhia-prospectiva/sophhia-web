@@ -17,15 +17,15 @@
   "titulo": "Amnistía, Senado y preferencias de gobierno: nuevas condiciones para los pactos",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación pendiente de validación humana",
-  "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_validacion_IH",
-  "resumen": "La amnistía aplicada a cuatro dirigentes del procés, las conversaciones reconocidas por Feijóo sobre el Senado y los acuerdos sociales del Consejo añaden condiciones observables a los pactos. ElectoPanel aporta preferencias de gobierno; el mapa de Sigma Dos amplía un estudio ya registrado. No se verifica una nueva estimación nacional de voto. D-015 queda pendiente de validación humana; escenarios, parámetros y última codificación numérica se conservan.",
-  "resumen_ciudadana": "Hoy se comprueban cambios judiciales y medidas del Gobierno, y se confirman conversaciones entre PP y Vox para el Senado. Una encuesta pregunta qué Gobierno prefieren los participantes; no predice quién gobernará. El nuevo mapa de Sigma Dos utiliza entrevistas ya registradas. La interpretación de D-015 espera revisión humana. Los escenarios y cálculos conservan su base; no se añaden puntuaciones sin evidencia.",
+  "validacion": "Interpretación validada IH · DEC-IH-D015-001",
+  "decision_id": "DEC-IH-D015-001",
+  "estado_publicacion": "publicada_interpretacion_validada_IH",
+  "resumen": "La amnistía aplicada a cuatro dirigentes del procés, las conversaciones reconocidas por Feijóo sobre el Senado y los acuerdos sociales del Consejo añaden condiciones observables a los pactos. ElectoPanel aporta preferencias de gobierno; el mapa de Sigma Dos amplía un estudio ya registrado. No se verifica una nueva estimación nacional de voto. La interpretación de D-015 queda validada por IH · DEC-IH-D015-001; escenarios, parámetros y última codificación numérica se conservan.",
+  "resumen_ciudadana": "Hoy se comprueban cambios judiciales y medidas del Gobierno, y se confirman conversaciones entre PP y Vox para el Senado. Una encuesta pregunta qué Gobierno prefieren los participantes; no predice quién gobernará. El nuevo mapa de Sigma Dos utiliza entrevistas ya registradas. La interpretación de D-015 está validada por IH · DEC-IH-D015-001. Los escenarios y cálculos conservan su base; no se añaden puntuaciones sin evidencia.",
   "senal_principal": "Amnistía de cuatro dirigentes; conversaciones sobre el Senado; medidas de vivienda y preferencias de gobierno",
   "variable_vigilancia": "V3, V7, V9, V11, V12, V13 y V16 · seguimiento cualitativo; sin nueva puntuación",
   "variable_territorial": "V9, V11, V12 y V16 · evidencia cualitativa; ayudas territoriales sin equipararlas a agenda nacionalista",
-  "decision": "D-015 pendiente de validación humana. D-014 conserva DEC-IH-D014-001, exclusivamente sobre su interpretación; esa decisión no valida D-015 ni cálculos, reglas o codificaciones gráficas.",
+  "decision": "Julio Villacorta García · 21 de octubre de 2026: «Validado D-015». DEC-IH-D015-001. Alcance exclusivamente interpretativo de D-015; no valida A-000, MICMAC, cálculos, reglas o codificaciones gráficas ni otras entregas.",
   "url": "diario/2026-10-21.html",
   "fuentes_temporales": [
     {
@@ -226,7 +226,7 @@
       "reserva_temporal": "Consulta posterior al corte; no certifica una captura histórica íntegra. Las piezas del 20 sin hora se registran por incorporación documental."
     }
   ],
-  "sync_version": "D015-editorial-20261021",
+  "sync_version": "D015-validacion-20261021",
   "ventana_novedades": {
     "desde_exclusivo": "2026-10-20T09:30:00+02:00",
     "hasta_inclusivo": "2026-10-21T09:30:00+02:00",
@@ -283,7 +283,8 @@
       "alcance": "Cambio de situación judicial; candidaturas y efectos parlamentarios pendientes de comprobación.",
       "fecha_incorporacion": "2026-10-21",
       "valor_grafico": null,
-      "estado_interpretacion": "pendiente_IH"
+      "estado_interpretacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "id": "S-D015-02",
@@ -299,7 +300,8 @@
       "alcance": "Conversaciones públicamente reconocidas; no acuerdo cerrado ni pacto de Gobierno.",
       "fecha_incorporacion": "2026-10-21",
       "valor_grafico": null,
-      "estado_interpretacion": "pendiente_IH"
+      "estado_interpretacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "id": "S-D015-03",
@@ -316,7 +318,8 @@
       "alcance": "Acuerdos del Consejo de Ministros; separar publicación normativa y ejecución.",
       "fecha_incorporacion": "2026-10-21",
       "valor_grafico": null,
-      "estado_interpretacion": "pendiente_IH"
+      "estado_interpretacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "id": "S-D015-04",
@@ -332,7 +335,8 @@
       "alcance": "Resultados de opinión; no probabilidad de escenarios ni actualización del comparador de voto.",
       "fecha_incorporacion": "2026-10-21",
       "valor_grafico": null,
-      "estado_interpretacion": "pendiente_IH"
+      "estado_interpretacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "id": "S-D015-05",
@@ -349,7 +353,8 @@
       "alcance": "Mismo estudio del 19, sin nueva muestra ni suma de intervalos.",
       "fecha_incorporacion": "2026-10-21",
       "valor_grafico": null,
-      "estado_interpretacion": "pendiente_IH"
+      "estado_interpretacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "id": "S-D015-06",
@@ -366,7 +371,8 @@
       "alcance": "Plazo 21–26 según calendario indexado de JEC; PDF íntegro no accesible.",
       "fecha_incorporacion": "2026-10-21",
       "valor_grafico": null,
-      "estado_interpretacion": "pendiente_IH"
+      "estado_interpretacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     }
   ],
   "dimension_nacional_territorial": [
@@ -391,7 +397,8 @@
       "ciudadana": "La amnistía elimina un impedimento jurídico para los cuatro dirigentes. No decide qué listas se registrarán ni a quién apoyarán después.",
       "fecha_incorporacion": "2026-10-21",
       "puntuacion": null,
-      "validacion_interpretacion": "pendiente_IH"
+      "validacion_interpretacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "territorio": "País Vasco",
@@ -411,7 +418,8 @@
       "ciudadana": "La ayuda a Euskadi permite seguir una política pública. No demuestra un nuevo acuerdo con los partidos vascos.",
       "fecha_incorporacion": "2026-10-21",
       "puntuacion": null,
-      "validacion_interpretacion": "pendiente_IH"
+      "validacion_interpretacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "territorio": "Galicia",
@@ -432,7 +440,8 @@
       "ciudadana": "Los fondos para Galicia son una decisión del Gobierno. Su recepción electoral y los futuros apoyos siguen sin medirse.",
       "fecha_incorporacion": "2026-10-21",
       "puntuacion": null,
-      "validacion_interpretacion": "pendiente_IH"
+      "validacion_interpretacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "territorio": "Andalucía",
@@ -453,7 +462,8 @@
       "ciudadana": "Las ayudas afectan a universidades andaluzas. Habrá que comprobar su ejecución antes de evaluar resultados.",
       "fecha_incorporacion": "2026-10-21",
       "puntuacion": null,
-      "validacion_interpretacion": "pendiente_IH"
+      "validacion_interpretacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     }
   ],
   "escenarios_conservados": {
@@ -472,28 +482,32 @@
       "nombre": "Gobierno PP-Vox de coalición",
       "lectura": "Las conversaciones sobre el Senado permiten seguir la coordinación entre ambos partidos, pero no acreditan ministerios compartidos. El 29,3 % de preferencia por esta fórmula no es su probabilidad.",
       "probabilidad_nueva": null,
-      "validacion": "pendiente_IH"
+      "validacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "id": "G2",
       "nombre": "PP monocolor con apoyo externo de Vox",
       "lectura": "La respuesta «PP solo» (17 %) no especifica apoyos parlamentarios externos y no puede identificarse automáticamente con G2.",
       "probabilidad_nueva": null,
-      "validacion": "pendiente_IH"
+      "validacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "id": "G4",
       "nombre": "Reconstrucción progresista",
       "lectura": "La preferencia PSOE–Frente Amplio (33,6 %) describe una respuesta del sondeo; no demuestra escaños suficientes ni compatibilidad con los apoyos territoriales.",
       "probabilidad_nueva": null,
-      "validacion": "pendiente_IH"
+      "validacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "id": "G5",
       "nombre": "Bloqueo / repetición electoral",
       "lectura": "No hay una nueva medición de bloqueo. Ni «Otra» ni «NS/NC» se convierten en apoyo o probabilidad de repetición.",
       "probabilidad_nueva": null,
-      "validacion": "pendiente_IH"
+      "validacion": "validada_IH",
+      "decision_id": "DEC-IH-D015-001"
     }
   ],
   "incertidumbres": [
@@ -561,10 +575,11 @@
       },
       "url": "https://electomania.es/electopanel-20-oct-continua-la-division-por-la-formula-de-gobierno-preferida-tras-el-29n/",
       "incorporado": "2026-10-21",
-      "validacion_interpretacion": "pendiente_IH",
+      "validacion_interpretacion": "validada_IH",
       "incluido_en_comparador_voto": false,
       "incluido_en_agregado_voto": false,
-      "reserva": "No es intención ni estimación de voto, ni probabilidad de escenarios. Campo concluido el 17: no mide acontecimientos del 18–20. No se publican tamaños de submuestras partidarias; posible solapamiento de panel, sin independencia presumida."
+      "reserva": "No es intención ni estimación de voto, ni probabilidad de escenarios. Campo concluido el 17: no mide acontecimientos del 18–20. No se publican tamaños de submuestras partidarias; posible solapamiento de panel, sin independencia presumida.",
+      "decision_id": "DEC-IH-D015-001"
     },
     {
       "id": "SIGMADOS-MAPA-20261020",
