@@ -1,23 +1,23 @@
 {
-  "version": "v0.33-D015-editorial",
-  "updated": "2026-10-21",
+  "version": "v0.34-D016-editorial",
+  "updated": "2026-10-22",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-015",
+  "current_entry": "D-016",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "La amnistía aplicada a cuatro dirigentes del procés, las conversaciones reconocidas por Feijóo sobre el Senado y los acuerdos sociales del Consejo añaden condiciones observables a los pactos. ElectoPanel aporta preferencias de gobierno; el mapa de Sigma Dos amplía un estudio ya registrado. No se verifica una nueva estimación nacional de voto. La interpretación de D-015 queda validada por IH · DEC-IH-D015-001; escenarios, parámetros y última codificación numérica se conservan.",
+  "system_state": "El TC inadmite por prematuro el amparo del Defensor del Pueblo sobre las inscripciones en el CERA, con la vía judicial previa aún abierta. Los anuncios de candidaturas del PP, la posición de Turull y el desacuerdo CHA–IU en Teruel concretan decisiones y límites de coordinación. Se incorporan demandas y propuestas territoriales, sin nueva estimación nacional de voto verificada al corte ni recalibración del modelo. D-016 queda pendiente de validación humana.",
   "dominant_scenario": "Mayoría PP-Vox",
-  "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-015",
+  "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-016",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
-  "watch_variable": "V3, V7, V9, V11, V12, V13 y V16 · seguimiento cualitativo; sin nueva puntuación",
-  "social_axis": "Vivienda y protección social: acuerdos comunicados del Consejo de Ministros; ejecución y efecto electoral por comprobar.",
+  "watch_variable": "V4, V7, V9, V10, V11, V12, V13 y V16 · seguimiento cualitativo; sin nueva puntuación",
+  "social_axis": "Vivienda y salario mínimo: propuestas partidarias y demandas sindicales diferenciadas de normas o acuerdos vigentes.",
   "current_bullets": [
-    "ElectoPanel de preferencias de gobierno: registro separado. El mapa provincial de Sigma Dos amplía el estudio existente; no duplica la muestra.",
-    "Amnistía de cuatro dirigentes, conversaciones sobre el Senado y acuerdos de vivienda: hechos, declaraciones y lecturas diferenciados.",
-    "Interpretación D-015 validada IH · DEC-IH-D015-001. Última codificación numérica: 17 de octubre; días 18–21 sin nuevas puntuaciones."
+    "TC: inadmisión procesal del amparo; la vía judicial previa sigue abierta.",
+    "Candidaturas y desacuerdo en Teruel: anuncios y posiciones atribuidas, pendientes de formalización.",
+    "Sin nueva estimación nacional de voto. D-016 pendiente IH; última codificación numérica: 17 de octubre."
   ],
   "path": [
     {
@@ -119,31 +119,38 @@
       "title": "Amnistía, Senado y preferencias de gobierno: nuevas condiciones para los pactos",
       "recalibration": "No",
       "state": "Interpretación validada IH · DEC-IH-D015-001; sin validación de codificaciones"
+    },
+    {
+      "id": "D-016",
+      "date": "2026-10-22",
+      "title": "Voto exterior y candidaturas: decisiones concretas, pactos aún abiertos",
+      "recalibration": "No",
+      "state": "Interpretación pendiente de validación humana"
     }
   ],
   "scenarios": [
     {
       "id": "G1",
       "name": "Gobierno PP-Vox de coalición",
-      "trend": "marco conservado en D-015; sin nueva probabilidad",
+      "trend": "marco conservado en D-016; sin nueva probabilidad",
       "status": "marco anterior conservado; no nueva estimación"
     },
     {
       "id": "G2",
       "name": "PP monocolor con apoyo externo de Vox",
-      "trend": "marco conservado en D-015; sin nueva probabilidad",
+      "trend": "marco conservado en D-016; sin nueva probabilidad",
       "status": "marco anterior conservado; no nueva estimación"
     },
     {
       "id": "G4",
       "name": "Reconstrucción progresista",
-      "trend": "marco conservado en D-015; sin nueva probabilidad",
+      "trend": "marco conservado en D-016; sin nueva probabilidad",
       "status": "pendiente evaluación; sin probabilidad asignada"
     },
     {
       "id": "G5",
       "name": "Bloqueo / repetición electoral",
-      "trend": "marco conservado en D-015; sin nueva probabilidad",
+      "trend": "marco conservado en D-016; sin nueva probabilidad",
       "status": "marco anterior conservado; no nueva estimación"
     }
   ],
@@ -166,7 +173,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Seguimiento editorial hasta el 21; última codificación numérica del 17. Días 18–21 sin nuevas puntuaciones. Regla y codificaciones previas pendientes IH específica.",
+    "mode": "Seguimiento editorial hasta el 22; última codificación numérica del 17. Días 18–22 sin nuevas puntuaciones. Regla y codificaciones previas pendientes IH específica.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -174,13 +181,13 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.33-D015-editorial",
-    "cutoff": "2026-10-21",
+    "version": "v0.34-D016-editorial",
+    "cutoff": "2026-10-22",
     "last_numeric_date": "2026-10-17",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Regla y codificaciones previas conservan sus reservas IH. Interpretación D-015 validada IH · DEC-IH-D015-001; sin nueva puntuación."
+    "validation": "Regla y codificaciones previas conservan sus reservas IH. D-016 pendiente de validación interpretativa; sin nueva puntuación."
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
   "territorial_radar": {
@@ -227,107 +234,128 @@
     "daily_observations": [
       {
         "territorio": "Cataluña",
-        "actor": "Tribunal Supremo; dirigentes afectados; Gobierno de España en vivienda",
-        "agenda_explicita": "Aplicación de la amnistía a cuatro dirigentes y ayudas de vivienda a Cataluña.",
-        "agenda_estrategica": "No se infiere una nueva estrategia de ERC o Junts ni un apoyo de investidura.",
-        "instrumento_tactico": "Resolución judicial y acuerdo del Consejo del 20; no maniobra partidaria atribuida.",
+        "actor": "Jordi Turull / Junts",
+        "agenda_explicita": "Turull descarta integrarse en la lista de Junts para el 29-N.",
+        "agenda_estrategica": "Mantiene su compromiso político; no se infiere una nueva condición de apoyo estatal.",
+        "instrumento_tactico": "Entrevista pública; no inscripción formal de candidatura.",
         "variables": [
           "V9",
           "V12",
           "V16"
         ],
-        "efecto_sistemico": "Cambia una condición jurídica de participación; sus efectos sobre candidaturas y pactos requieren comprobación.",
+        "efecto_sistemico": "Concreta una incógnita de participación abierta en D-015; no acredita pactos de investidura.",
         "fuentes": [
-          "F-D015-01",
-          "F-D015-02",
-          "F-D015-04"
+          "F-D016-07"
         ],
-        "grado_confirmacion": "hecho_judicial_corroborado_y_acuerdo_institucional",
-        "ciudadana": "La amnistía elimina un impedimento jurídico para los cuatro dirigentes. No decide qué listas se registrarán ni a quién apoyarán después.",
-        "fecha_incorporacion": "2026-10-21",
+        "grado_confirmacion": "declaracion_original",
+        "ciudadana": "Turull dice que no irá en la lista de Junts. Poder concurrir y decidir hacerlo son cosas distintas.",
+        "fecha_incorporacion": "2026-10-22",
         "puntuacion": null,
-        "validacion_interpretacion": "validada_IH",
-        "decision_id": "DEC-IH-D015-001"
+        "validacion_interpretacion": "pendiente_IH",
+        "decision_id": null
       },
       {
         "territorio": "País Vasco",
-        "actor": "Gobierno de España; instituciones destinatarias de vivienda",
-        "agenda_explicita": "Ayudas de vivienda para Euskadi: 31 millones de euros.",
-        "agenda_estrategica": "Objetivo institucional de vivienda asequible; no revela la agenda negociadora de PNV o EH Bildu.",
-        "instrumento_tactico": "Subvención directa aprobada el 20; instrumento administrativo, no pacto electoral.",
+        "actor": "ELA y LAB; Gobierno Vasco como interlocutor",
+        "agenda_explicita": "ELA reclama competencias para un salario mínimo propio y negociación con la patronal.",
+        "agenda_estrategica": "Objetivo sindical declarado; no se atribuye una estrategia nueva al PNV o a EH Bildu.",
+        "instrumento_tactico": "Reunión y presión sindical; ninguna concesión gubernamental acreditada.",
         "variables": [
-          "V7",
+          "V10",
           "V16"
         ],
-        "efecto_sistemico": "Permite seguir una política con alcance territorial; no acredita apoyo parlamentario. V10, agenda nacionalista vasca, permanece sin nueva observación específica en esta entrega.",
+        "efecto_sistemico": "Añade una demanda competencial y social al seguimiento; no acredita apoyo de investidura ni veto.",
         "fuentes": [
-          "F-D015-04"
+          "F-D016-08"
         ],
-        "grado_confirmacion": "acuerdo_institucional_documentado",
-        "ciudadana": "La ayuda a Euskadi permite seguir una política pública. No demuestra un nuevo acuerdo con los partidos vascos.",
-        "fecha_incorporacion": "2026-10-21",
+        "grado_confirmacion": "posicion_sindical_atribuida",
+        "ciudadana": "Los sindicatos plantean sus demandas al Gobierno Vasco. La reunión no significa que exista un acuerdo ni un pacto estatal.",
+        "fecha_incorporacion": "2026-10-22",
         "puntuacion": null,
-        "validacion_interpretacion": "validada_IH",
-        "decision_id": "DEC-IH-D015-001"
+        "validacion_interpretacion": "pendiente_IH",
+        "decision_id": null
       },
       {
         "territorio": "Galicia",
-        "actor": "Gobierno de España; administraciones destinatarias",
-        "agenda_explicita": "Ayudas de vivienda para Galicia: 10,2 millones de euros.",
-        "agenda_estrategica": "Finalidad institucional de vivienda asequible; no se deduce una nueva condición del BNG.",
-        "instrumento_tactico": "Subvención directa aprobada el 20; sin táctica electoral atribuida.",
+        "actor": "PPdeG",
+        "agenda_explicita": "Anuncios de Santalices para el Senado por Ourense y de Fabiola García para el Congreso por A Coruña.",
+        "agenda_estrategica": "Selección de representantes; no se deducen cambios de voto ni ceses ya realizados.",
+        "instrumento_tactico": "Anuncio de candidatura atribuido al partido por Europa Press.",
         "variables": [
           "V11",
-          "V16",
-          "V7"
+          "V16"
         ],
-        "efecto_sistemico": "Aporta una medida verificable a la agenda territorial, sin convertirla en fuerza electoral.",
+        "efecto_sistemico": "Permite vigilar la composición de listas y sus consecuencias institucionales; queda pendiente la formalización.",
         "fuentes": [
-          "F-D015-04"
+          "F-D016-10"
         ],
-        "grado_confirmacion": "acuerdo_institucional_documentado",
-        "ciudadana": "Los fondos para Galicia son una decisión del Gobierno. Su recepción electoral y los futuros apoyos siguen sin medirse.",
-        "fecha_incorporacion": "2026-10-21",
+        "grado_confirmacion": "anuncio_partidario_segun_agencia",
+        "ciudadana": "El PP anuncia candidatos en Galicia. El anuncio debe distinguirse de la lista oficialmente proclamada.",
+        "fecha_incorporacion": "2026-10-22",
         "puntuacion": null,
-        "validacion_interpretacion": "validada_IH",
-        "decision_id": "DEC-IH-D015-001"
+        "validacion_interpretacion": "pendiente_IH",
+        "decision_id": null
       },
       {
-        "territorio": "Andalucía",
-        "actor": "Gobierno de España; universidades Pablo de Olavide y de Jaén",
-        "agenda_explicita": "Actuaciones de alojamiento universitario incluidas en el acuerdo del 20.",
-        "agenda_estrategica": "Objetivo público de acceso a alojamiento; sin nueva estrategia de partidos acreditada.",
-        "instrumento_tactico": "Ayudas aprobadas; no equivalen a plazas ya disponibles ni a un pacto partidario.",
+        "territorio": "Andalucía / agenda estatal",
+        "actor": "Alberto Núñez Feijóo / PP; acto en Sevilla con Juanma Moreno",
+        "agenda_explicita": "Deducciones para alquileres, ampliación de la oferta y ayudas para acceder a vivienda.",
+        "agenda_estrategica": "Objetivos electorales declarados, sujetos a desarrollo jurídico, financiación y apoyos.",
+        "instrumento_tactico": "Presentación de propuestas de programa; no legislación en vigor.",
         "variables": [
+          "V7",
           "V11",
-          "V16",
-          "V7"
+          "V16"
         ],
-        "efecto_sistemico": "Introduce compromisos de ejecución observables, sin asignar un rendimiento electoral.",
+        "efecto_sistemico": "Concreta contenido para comparar programas y compatibilidades; no demuestra su ejecución o rendimiento electoral.",
         "fuentes": [
-          "F-D015-04"
+          "F-D016-09"
         ],
-        "grado_confirmacion": "acuerdo_institucional_documentado",
-        "ciudadana": "Las ayudas afectan a universidades andaluzas. Habrá que comprobar su ejecución antes de evaluar resultados.",
-        "fecha_incorporacion": "2026-10-21",
+        "grado_confirmacion": "propuesta_partidaria_original",
+        "ciudadana": "El PP presenta propuestas de vivienda en Sevilla. Para aplicarlas tendría que gobernar, concretarlas y obtener los apoyos necesarios.",
+        "fecha_incorporacion": "2026-10-22",
         "puntuacion": null,
-        "validacion_interpretacion": "validada_IH",
-        "decision_id": "DEC-IH-D015-001"
+        "validacion_interpretacion": "pendiente_IH",
+        "decision_id": null
+      },
+      {
+        "territorio": "Aragón / Teruel",
+        "actor": "CHA e Izquierda Unida en el Frente Amplio aragonés",
+        "agenda_explicita": "CHA anuncia no concurrir al Congreso en Teruel; IU se opone y busca mantener una candidatura.",
+        "agenda_estrategica": "CHA alega evitar dispersión; IU defiende representación propia. Son objetivos atribuidos, no resultados.",
+        "instrumento_tactico": "Anuncio y negociación interna, con desacuerdo público.",
+        "variables": [
+          "V4",
+          "V11",
+          "V16"
+        ],
+        "efecto_sistemico": "Muestra tensión entre coordinación electoral y representación. No acredita una retirada definitiva ni transferencia automática de votos.",
+        "fuentes": [
+          "F-D016-05",
+          "F-D016-06"
+        ],
+        "grado_confirmacion": "anuncios_y_entrevista_original",
+        "ciudadana": "En Teruel los socios discrepan sobre presentar una lista. La solución aún debe comprobarse; los votos no se trasladan automáticamente.",
+        "fecha_incorporacion": "2026-10-22",
+        "puntuacion": null,
+        "validacion_interpretacion": "pendiente_IH",
+        "decision_id": null
       }
     ]
   },
   "current_reading": {
-    "signal": "Amnistía de cuatro dirigentes; conversaciones sobre el Senado; medidas de vivienda y preferencias de gobierno",
+    "signal": "Voto exterior: decisión procesal; candidaturas y desacuerdo CHA–IU; programas territoriales",
     "micmac_variables": [
-      "V3",
+      "V4",
       "V7",
       "V9",
+      "V10",
       "V11",
       "V12",
       "V13",
       "V16"
     ],
-    "decision": "Julio Villacorta García · 21 de octubre de 2026: «Validado D-015». DEC-IH-D015-001. Alcance exclusivamente interpretativo de D-015; no valida A-000, MICMAC, cálculos, reglas o codificaciones gráficas ni otras entregas."
+    "decision": "D-016 pendiente de validación humana. D-015 conserva DEC-IH-D015-001, de 21 de octubre de 2026, con alcance exclusivamente interpretativo de aquella entrega. La publicación técnica no valida modelos, cálculos, reglas ni codificaciones gráficas."
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -343,120 +371,121 @@
     "new_quantitative_observations": 0,
     "pending_primary_records": 1,
     "pending_record_scope": "Senado; excluido de la serie del Congreso",
-    "new_government_preference_publications": 1,
-    "existing_study_document_extensions": 1
+    "new_government_preference_publications": 0,
+    "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación validada IH · DEC-IH-D015-001",
+  "human_validation": "Interpretación pendiente de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
-  "human_validation_record": "DEC-IH-D015-001",
+  "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D015-01",
-      "tema": "Amnistía aplicada a cuatro dirigentes",
-      "tipo": "hecho_judicial_corroborado",
+      "id": "S-D016-01",
+      "tema": "Inadmisión procesal del amparo sobre CERA",
+      "tipo": "hecho_institucional",
       "fuentes": [
-        "F-D015-01",
-        "F-D015-02"
+        "F-D016-01",
+        "F-D016-02",
+        "F-D016-03"
+      ],
+      "variables_en_observacion": [
+        "V13"
+      ],
+      "alcance": "Vía judicial previa abierta; no sentencia de fondo ni efecto electoral cuantificado.",
+      "fecha_incorporacion": "2026-10-22",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D016-02",
+      "tema": "Anuncios de candidaturas del PP",
+      "tipo": "anuncio_partidario_atribuido",
+      "fuentes": [
+        "F-D016-04",
+        "F-D016-10"
+      ],
+      "variables_en_observacion": [
+        "V11",
+        "V16"
+      ],
+      "alcance": "Nombres para Madrid y Galicia; no proclamación ni composición del futuro gabinete.",
+      "fecha_incorporacion": "2026-10-22",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D016-03",
+      "tema": "Desacuerdo CHA–IU en Teruel",
+      "tipo": "declaraciones_y_negociacion_abierta",
+      "fuentes": [
+        "F-D016-05",
+        "F-D016-06"
+      ],
+      "variables_en_observacion": [
+        "V4",
+        "V11",
+        "V16"
+      ],
+      "alcance": "La discrepancia pública no prueba retirada definitiva, ruptura global ni trasvase de voto.",
+      "fecha_incorporacion": "2026-10-22",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D016-04",
+      "tema": "Turull y la candidatura de Junts",
+      "tipo": "declaracion_original",
+      "fuentes": [
+        "F-D016-07"
       ],
       "variables_en_observacion": [
         "V9",
         "V12",
         "V16"
       ],
-      "alcance": "Cambio de situación judicial; candidaturas y efectos parlamentarios pendientes de comprobación.",
-      "fecha_incorporacion": "2026-10-21",
+      "alcance": "Decisión personal declarada; no acuerdo de investidura.",
+      "fecha_incorporacion": "2026-10-22",
       "valor_grafico": null,
-      "estado_interpretacion": "validada_IH",
-      "decision_id": "DEC-IH-D015-001"
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
     },
     {
-      "id": "S-D015-02",
-      "tema": "Conversaciones PP-Vox sobre el Senado",
-      "tipo": "declaracion_partidaria_atribuida",
+      "id": "S-D016-05",
+      "tema": "Propuestas de vivienda en Sevilla",
+      "tipo": "propuesta_partidaria",
       "fuentes": [
-        "F-D015-03"
-      ],
-      "variables_en_observacion": [
-        "V3",
-        "V16"
-      ],
-      "alcance": "Conversaciones públicamente reconocidas; no acuerdo cerrado ni pacto de Gobierno.",
-      "fecha_incorporacion": "2026-10-21",
-      "valor_grafico": null,
-      "estado_interpretacion": "validada_IH",
-      "decision_id": "DEC-IH-D015-001"
-    },
-    {
-      "id": "S-D015-03",
-      "tema": "Vivienda y protección social",
-      "tipo": "aprobacion_gubernamental_comunicada",
-      "fuentes": [
-        "F-D015-04"
+        "F-D016-09"
       ],
       "variables_en_observacion": [
         "V7",
         "V11",
         "V16"
       ],
-      "alcance": "Acuerdos del Consejo de Ministros; separar publicación normativa y ejecución.",
-      "fecha_incorporacion": "2026-10-21",
+      "alcance": "Compromisos electorales; financiación, desarrollo normativo y compatibilidad por verificar.",
+      "fecha_incorporacion": "2026-10-22",
       "valor_grafico": null,
-      "estado_interpretacion": "validada_IH",
-      "decision_id": "DEC-IH-D015-001"
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
     },
     {
-      "id": "S-D015-04",
-      "tema": "Preferencias de gobierno",
-      "tipo": "publicacion_demoscopica_sin_estimacion_de_voto",
+      "id": "S-D016-06",
+      "tema": "Demanda sindical de SMI propio",
+      "tipo": "posicion_sindical",
       "fuentes": [
-        "F-D015-05"
+        "F-D016-08"
       ],
       "variables_en_observacion": [
-        "V3",
+        "V10",
         "V16"
       ],
-      "alcance": "Resultados de opinión; no probabilidad de escenarios ni actualización del comparador de voto.",
-      "fecha_incorporacion": "2026-10-21",
+      "alcance": "Demanda competencial y laboral; no concesión gubernamental ni condición estatal pactada.",
+      "fecha_incorporacion": "2026-10-22",
       "valor_grafico": null,
-      "estado_interpretacion": "validada_IH",
-      "decision_id": "DEC-IH-D015-001"
-    },
-    {
-      "id": "S-D015-05",
-      "tema": "Mapa provincial de Sigma Dos",
-      "tipo": "ampliacion_documental",
-      "fuentes": [
-        "F-D015-06",
-        "F-D015-11"
-      ],
-      "variables_en_observacion": [
-        "V11",
-        "V12"
-      ],
-      "alcance": "Mismo estudio del 19, sin nueva muestra ni suma de intervalos.",
-      "fecha_incorporacion": "2026-10-21",
-      "valor_grafico": null,
-      "estado_interpretacion": "validada_IH",
-      "decision_id": "DEC-IH-D015-001"
-    },
-    {
-      "id": "S-D015-06",
-      "tema": "Presentación de candidaturas",
-      "tipo": "hito_calendario_institucional",
-      "fuentes": [
-        "F-D015-07",
-        "F-D015-08",
-        "F-D015-09"
-      ],
-      "variables_en_observacion": [
-        "V13"
-      ],
-      "alcance": "Plazo 21–26 según calendario indexado de JEC; PDF íntegro no accesible.",
-      "fecha_incorporacion": "2026-10-21",
-      "valor_grafico": null,
-      "estado_interpretacion": "validada_IH",
-      "decision_id": "DEC-IH-D015-001"
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
     }
   ]
 }

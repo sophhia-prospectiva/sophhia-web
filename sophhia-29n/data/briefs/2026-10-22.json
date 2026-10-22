@@ -1,0 +1,679 @@
+{
+  "contrato": "CP-29N-F0 v0.1 + Anexo A",
+  "protocolo": "P001 + P001-E001",
+  "capa": "F2-MICMAC-001 v0.2",
+  "modo": "Modo A · Aproximación heurística estructurada",
+  "revision_abierta": "REV-F2-003",
+  "protocolos_consultados": [
+    "P001-E001: texto disponible",
+    "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
+  ],
+  "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
+  "codigo": "D-016",
+  "fecha": "2026-10-22",
+  "fecha_legible": "22 de octubre de 2026",
+  "hora_corte": "09:30",
+  "timezone": "Europe/Madrid",
+  "titulo": "Voto exterior y candidaturas: decisiones concretas, pactos aún abiertos",
+  "recalibracion": false,
+  "micmac_modificada": false,
+  "validacion": "Interpretación pendiente de validación humana",
+  "decision_id": null,
+  "estado_publicacion": "publicada_pendiente_IH",
+  "resumen": "El TC inadmite por prematuro el amparo del Defensor del Pueblo sobre las inscripciones en el CERA, con la vía judicial previa aún abierta. Los anuncios de candidaturas del PP, la posición de Turull y el desacuerdo CHA–IU en Teruel concretan decisiones y límites de coordinación. Se incorporan demandas y propuestas territoriales, sin nueva estimación nacional de voto verificada al corte ni recalibración del modelo. D-016 queda pendiente de validación humana.",
+  "resumen_ciudadana": "El Constitucional considera que el recurso sobre el voto exterior ha llegado antes de terminar la vía judicial previa; el problema de fondo sigue abierto. Los partidos anuncian candidatos y en Teruel discrepan sobre cómo presentarse. También aparecen propuestas de vivienda y demandas laborales. Hoy no añadimos nuevas cifras de voto ni damos por cerrado ningún pacto de Gobierno. La interpretación de D-016 está pendiente de validación humana.",
+  "senal_principal": "Voto exterior: decisión procesal; candidaturas y desacuerdo CHA–IU; programas territoriales",
+  "variable_vigilancia": "V4, V7, V9, V10, V11, V12, V13 y V16 · seguimiento cualitativo; sin nueva puntuación",
+  "variable_territorial": "V9, V10, V11, V12 y V16 · declaraciones y agendas diferenciadas; sin efecto electoral cuantificado",
+  "decision": "D-016 pendiente de validación humana. D-015 conserva DEC-IH-D015-001, de 21 de octubre de 2026, con alcance exclusivamente interpretativo de aquella entrega. La publicación técnica no valida modelos, cálculos, reglas ni codificaciones gráficas.",
+  "url": "diario/2026-10-22.html",
+  "fuentes_temporales": [
+    {
+      "id": "F-D016-01",
+      "medio": "Tribunal Constitucional",
+      "url": "https://www.tribunalconstitucional.es/NotasDePrensaDocumentos/NP_2026_094/NOTA%20INFORMATIVA%20N%C2%BA%2094-2026.pdf",
+      "fecha_publicacion": "2026-10-21",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-21",
+      "tipo": "primaria_institucional",
+      "titulo": "Nota informativa 94/2026",
+      "alcance": "Inadmisión por prematuro del amparo del Defensor del Pueblo; vía previa ante el Supremo abierta. Nota oficial leída; no auto íntegro.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Nota oficial del 21 sin hora; noticia EFE del 21 a las 13:20 corrobora su difusión después del corte anterior."
+    },
+    {
+      "id": "F-D016-02",
+      "medio": "Defensor del Pueblo",
+      "url": "https://www.defensordelpueblo.es/noticias/recurso-de-amparo-al-tc-voto-nacionalizados/",
+      "fecha_publicacion": "2026-10-21",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-21",
+      "tipo": "primaria_institucional_declaracion",
+      "titulo": "Posición del Defensor del Pueblo",
+      "alcance": "Respeta la decisión y advierte del riesgo práctico para el ejercicio del sufragio por la premura de plazos. Posición institucional atribuida.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Consulta posterior al corte. La fecha y hora corresponden a la publicación citada; no se certifica una captura histórica completa de la página."
+    },
+    {
+      "id": "F-D016-03",
+      "medio": "EFE / Informativos Telecinco",
+      "url": "https://www.telecinco.es/noticias/espana/20261021/constitucional-rechaza-recurso-defensor-pueblo-contra-ley-nietos_18_020495754.html",
+      "fecha_publicacion": "2026-10-21",
+      "hora_publicacion": "13:20",
+      "fecha_acontecimiento": "2026-10-21",
+      "tipo": "prensa_contraste_temporal",
+      "titulo": "Difusión de la decisión del TC",
+      "alcance": "Contraste temporal de la decisión; prevalece la formulación procesal de la nota oficial, sin asumir un pronunciamiento sobre el fondo.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Consulta posterior al corte. La fecha y hora corresponden a la publicación citada; no se certifica una captura histórica completa de la página."
+    },
+    {
+      "id": "F-D016-04",
+      "medio": "Cadena SER",
+      "url": "https://cadenaser.com/nacional/2026/10/22/el-pp-confirma-a-alvarez-de-toledo-como-numero-dos-por-madrid-y-a-semper-como-numero-tres-cadena-ser/",
+      "fecha_publicacion": "2026-10-22",
+      "hora_publicacion": "08:54",
+      "fecha_acontecimiento": "2026-10-22",
+      "tipo": "prensa_declaracion_atribuida",
+      "titulo": "Anuncio de candidatura del PP por Madrid",
+      "alcance": "Anuncio atribuido al PP: Álvarez de Toledo número dos y Sémper número tres. No acredita inscripción o proclamación oficial.",
+      "grado_confirmacion": "noticia_consultada_anuncio_atribuido",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Consulta posterior al corte. La fecha y hora corresponden a la publicación citada; no se certifica una captura histórica completa de la página.",
+      "zona_horaria_publicacion": "CEST",
+      "reserva": "No se reproduce el plazo de candidaturas que menciona la crónica, discrepante con la referencia JEC conservada."
+    },
+    {
+      "id": "F-D016-05",
+      "medio": "Cadena SER / Radio Zaragoza",
+      "url": "https://cadenaser.com/aragon/2026/10/21/cha-frente-amplio-aragon-renuncia-a-concurrir-al-congreso-por-la-provincia-de-teruel-para-evitar-dispersion-de-voto-radio-zaragoza/",
+      "fecha_publicacion": "2026-10-21",
+      "hora_publicacion": "21:00",
+      "fecha_acontecimiento": "2026-10-21",
+      "tipo": "prensa_declaraciones_atribuidas",
+      "titulo": "Desacuerdo CHA–IU sobre Teruel",
+      "alcance": "CHA anuncia no concurrir al Congreso en Teruel; IU rechaza la decisión. No se verifica una retirada definitiva de la coalición.",
+      "grado_confirmacion": "noticia_consultada",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Consulta posterior al corte. La fecha y hora corresponden a la publicación citada; no se certifica una captura histórica completa de la página.",
+      "zona_horaria_publicacion": "CEST"
+    },
+    {
+      "id": "F-D016-06",
+      "medio": "Cadena SER / La Rebotica",
+      "url": "https://cadenaser.com/aragon/2026/10/22/iu-rechaza-la-retirada-de-la-candidatura-del-frente-amplio-en-teruel-y-denuncia-una-decision-unilateral-de-chunta-radio-zaragoza/",
+      "fecha_publicacion": "2026-10-22",
+      "hora_publicacion": "08:36",
+      "fecha_acontecimiento": "2026-10-22",
+      "tipo": "primaria_entrevista",
+      "titulo": "Posición de IU en la entrevista de la mañana",
+      "alcance": "Marta Abengoechea mantiene la discrepancia y busca reconducir la situación; no cuestiona la continuidad de la coalición en Aragón.",
+      "grado_confirmacion": "entrevista_original_consultada",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Consulta posterior al corte. La fecha y hora corresponden a la publicación citada; no se certifica una captura histórica completa de la página.",
+      "zona_horaria_publicacion": "CEST"
+    },
+    {
+      "id": "F-D016-07",
+      "medio": "Cadena SER / Aquí Catalunya",
+      "url": "https://cadenaser.com/cataluna/2026/10/21/turull-descarta-ir-en-las-listas-de-junts-el-29n-no-hace-falta-ir-en-un-puesto-simbolico-para-comprometerse-sercat/",
+      "fecha_publicacion": "2026-10-21",
+      "hora_publicacion": "10:42",
+      "fecha_acontecimiento": "2026-10-21",
+      "tipo": "primaria_entrevista",
+      "titulo": "Turull descarta concurrir en la lista de Junts",
+      "alcance": "Declaración personal sobre la candidatura; no lista oficial ni compromiso de investidura.",
+      "grado_confirmacion": "entrevista_original_consultada",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Consulta posterior al corte. La fecha y hora corresponden a la publicación citada; no se certifica una captura histórica completa de la página.",
+      "zona_horaria_publicacion": "CEST"
+    },
+    {
+      "id": "F-D016-08",
+      "medio": "ELA",
+      "url": "https://www.ela.eus/es/noticias/el-gobierno-vasco-debe-denegar-la-financiacion-adicional-a-confebask-si-no-negocia-el-smi",
+      "fecha_publicacion": "2026-10-21",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-21",
+      "tipo": "primaria_sindical_declaracion",
+      "titulo": "Demandas sobre un salario mínimo propio",
+      "alcance": "ELA informa de la reunión con LAB y el Gobierno Vasco y reclama competencias para un SMI propio. Posición sindical; no acuerdo del Gobierno ni condición pactada de investidura.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Publicación del 21 sin hora: incorporación documental del 22; no se asegura que cada declaración fuese posterior a las 09:30 del 21."
+    },
+    {
+      "id": "F-D016-09",
+      "medio": "Partido Popular",
+      "url": "https://www.pp.es/actualidad/articulos/feijoo-anuncia-deducciones-para-alquileres-y-aprobara-en-sus-cien-dias-las-leyes-para-construir-un-millon-de-viviendas-y-desalojar-okupas/",
+      "fecha_publicacion": "2026-10-21",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-21",
+      "tipo": "primaria_partidaria_propuesta",
+      "titulo": "Propuestas de vivienda presentadas en Sevilla",
+      "alcance": "Deducciones para alquileres, ampliación de oferta y ayudas de acceso: compromisos electorales, sin vigencia normativa ni ejecución acreditadas.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Publicación del 21 sin hora: incorporación documental del 22; no se asegura que el acto fuese posterior a las 09:30 del 21."
+    },
+    {
+      "id": "F-D016-10",
+      "medio": "Europa Press / Galiciapress",
+      "url": "https://www.galiciapress.es/articulo/politica/2026-10-21/6060751-pp-pone-presidente-parlamento-lista-senado-conselleira-politica-social-2-tellado",
+      "fecha_publicacion": "2026-10-21",
+      "hora_publicacion": "17:01",
+      "fecha_acontecimiento": "2026-10-21",
+      "tipo": "prensa_declaracion_atribuida",
+      "titulo": "Anuncios de listas del PPdeG",
+      "alcance": "Santalices para el Senado por Ourense y Fabiola García como número dos al Congreso por A Coruña, según anuncio atribuido al PPdeG. Sin proclamación oficial verificada.",
+      "grado_confirmacion": "noticia_de_agencia_consultada",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Consulta posterior al corte. La fecha y hora corresponden a la publicación citada; no se certifica una captura histórica completa de la página."
+    },
+    {
+      "id": "F-D016-11",
+      "medio": "INE / Oficina del Censo Electoral",
+      "url": "https://ine.es/dyngs/CEL/en/index.htm?cid=1702",
+      "fecha_publicacion": null,
+      "hora_publicacion": null,
+      "fecha_acontecimiento": null,
+      "tipo": "primaria_institucional_antecedente",
+      "titulo": "Calendario censal y voto exterior",
+      "alcance": "Resolución de reclamaciones hasta el 22, exposición el 23 y primer envío CERA del 24 al 30 de octubre. Calendario, no acreditación de actuaciones consumadas.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Consulta posterior al corte. La fecha y hora corresponden a la publicación citada; no se certifica una captura histórica completa de la página.",
+      "fecha_revision_documental": "2026-10-22"
+    },
+    {
+      "id": "F-D016-12",
+      "medio": "BOE",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "fecha_publicacion": "2026-10-06",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-05",
+      "tipo": "primaria_institucional_antecedente",
+      "titulo": "Convocatoria de elecciones generales",
+      "alcance": "RD 806/2026, de 5 de octubre: elecciones 29 de noviembre, campaña 13–27 de noviembre, constitución de Cámaras 23 de diciembre.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-20",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Consulta posterior al corte. La fecha y hora corresponden a la publicación citada; no se certifica una captura histórica completa de la página.",
+      "fecha_revision_documental": "2026-10-22"
+    },
+    {
+      "id": "F-D016-13",
+      "medio": "Junta Electoral Central",
+      "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+      "fecha_publicacion": null,
+      "hora_publicacion": null,
+      "fecha_acontecimiento": null,
+      "tipo": "primaria_calendario_indexado",
+      "titulo": "Calendario de candidaturas: reserva documental",
+      "alcance": "La referencia indexada y conservada en D-015 sitúa la presentación entre el 21 y el 26 de octubre. La descarga directa del PDF sigue devolviendo 403.",
+      "grado_confirmacion": "contenido_indexado_pdf_no_accesible",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-21",
+      "corte_admision": "2026-10-22T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Consulta posterior al corte. La fecha y hora corresponden a la publicación citada; no se certifica una captura histórica completa de la página.",
+      "fecha_revision_documental": "2026-10-22"
+    },
+    {
+      "id": "F-D016-14",
+      "medio": "Electomanía / ElectoPanel",
+      "url": "https://electomania.es/electopanel-22-oct-el-pp-se-deja-casi-medio-punto-podemos-sigue-a-la-baja/",
+      "fecha_publicacion": "2026-10-22",
+      "hora_publicacion": "10:18",
+      "fecha_acontecimiento": "2026-10-22",
+      "tipo": "referencia_excluida_del_corte",
+      "titulo": "Publicación sin disponibilidad acreditada antes del corte; ficha incompleta",
+      "alcance": "Página con hora visible 10:18 y zona horaria no indicada, sin disponibilidad acreditada antes de las 09:30 Europe/Madrid y con ficha pública sin muestra y campo completos. No se incorporan resultados ni tendencias.",
+      "grado_confirmacion": "pagina_consultada_no_admisible",
+      "fecha_incorporacion_a_entrega": "2026-10-22",
+      "fecha_incorporacion": "2026-10-22",
+      "corte_admision": null,
+      "admitida_como_hecho_al_corte": false,
+      "reserva_temporal": "Excluida: publicación visible a las 10:18, sin acreditación de disponibilidad antes de las 09:30 Europe/Madrid; ficha incompleta. Se registra sólo para próxima comprobación.",
+      "zona_horaria_publicacion": "no indicada"
+    }
+  ],
+  "sync_version": "D016-editorial-20261022",
+  "ventana_novedades": {
+    "desde_exclusivo": "2026-10-21T09:30:00+02:00",
+    "hasta_inclusivo": "2026-10-22T09:30:00+02:00",
+    "reserva": "Las piezas del 21 sin hora se incorporan documentalmente. Los hitos de BOE e INE son antecedentes revisados. La publicación de ElectoPanel de las 10:18 queda excluida."
+  },
+  "anterior": {
+    "codigo": "D-015",
+    "fecha": "2026-10-21",
+    "fecha_legible": "21 de octubre de 2026",
+    "titulo": "Amnistía, Senado y preferencias de gobierno: nuevas condiciones para los pactos",
+    "url": "diario/2026-10-21.html",
+    "decision_id": "DEC-IH-D015-001",
+    "estado": "Interpretación validada IH · DEC-IH-D015-001"
+  },
+  "demoscopia": {
+    "estudios_de_voto_incorporados_hoy": 0,
+    "estudios_en_historico": 6,
+    "casas_en_panel": 5,
+    "nuevas_estimaciones_nacionales_voto_verificadas": 0,
+    "nuevas_publicaciones_preferencias_gobierno": 0,
+    "ampliaciones_documentales_estudios_existentes": 0,
+    "ultima_incorporacion_cuantitativa_voto": "2026-10-20",
+    "resultado_busqueda": "No se ha verificado una nueva estimación nacional de voto admisible al corte. Se conservan seis estudios de cinco casas. La fecha editorial del 22 no cambia las fechas de campo ni añade observaciones.",
+    "agregacion": "Cinco observaciones, una por casa, en el comparador de voto; seis estudios en el histórico. Preferencias de gobierno en registro complementario; mapa provincial vinculado al estudio existente.",
+    "limite": "Se conservan la reserva de acceso a la ficha primaria del CIS y la reserva del estudio del Senado. No se presume independencia entre paneles u oleadas.",
+    "documentos_excluidos_del_corte": [
+      "F-D016-14"
+    ]
+  },
+  "codificacion": {
+    "estado": "sin_nueva_codificacion_numerica",
+    "ultima_fecha_codificada": "2026-10-17",
+    "tratamiento_D016": "null: sin nueva puntuación; no arrastrar los valores del 17."
+  },
+  "cambios": [
+    "Decisión procesal del TC posterior al corte anterior: vía previa abierta, sin fallo de fondo.",
+    "Anuncios de candidatos en Madrid y Galicia y declaración de Turull; no proclamaciones oficiales.",
+    "Desacuerdo público CHA–IU en Teruel, con entrevista de seguimiento antes del corte del 22.",
+    "Demandas sindicales vascas y propuestas de vivienda del PP en Sevilla, con sus respectivos alcances.",
+    "No se incorpora nueva estimación nacional de voto; los cinco gráficos añaden el 22 sin puntuación."
+  ],
+  "senales": [
+    {
+      "id": "S-D016-01",
+      "tema": "Inadmisión procesal del amparo sobre CERA",
+      "tipo": "hecho_institucional",
+      "fuentes": [
+        "F-D016-01",
+        "F-D016-02",
+        "F-D016-03"
+      ],
+      "variables_en_observacion": [
+        "V13"
+      ],
+      "alcance": "Vía judicial previa abierta; no sentencia de fondo ni efecto electoral cuantificado.",
+      "fecha_incorporacion": "2026-10-22",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D016-02",
+      "tema": "Anuncios de candidaturas del PP",
+      "tipo": "anuncio_partidario_atribuido",
+      "fuentes": [
+        "F-D016-04",
+        "F-D016-10"
+      ],
+      "variables_en_observacion": [
+        "V11",
+        "V16"
+      ],
+      "alcance": "Nombres para Madrid y Galicia; no proclamación ni composición del futuro gabinete.",
+      "fecha_incorporacion": "2026-10-22",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D016-03",
+      "tema": "Desacuerdo CHA–IU en Teruel",
+      "tipo": "declaraciones_y_negociacion_abierta",
+      "fuentes": [
+        "F-D016-05",
+        "F-D016-06"
+      ],
+      "variables_en_observacion": [
+        "V4",
+        "V11",
+        "V16"
+      ],
+      "alcance": "La discrepancia pública no prueba retirada definitiva, ruptura global ni trasvase de voto.",
+      "fecha_incorporacion": "2026-10-22",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D016-04",
+      "tema": "Turull y la candidatura de Junts",
+      "tipo": "declaracion_original",
+      "fuentes": [
+        "F-D016-07"
+      ],
+      "variables_en_observacion": [
+        "V9",
+        "V12",
+        "V16"
+      ],
+      "alcance": "Decisión personal declarada; no acuerdo de investidura.",
+      "fecha_incorporacion": "2026-10-22",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D016-05",
+      "tema": "Propuestas de vivienda en Sevilla",
+      "tipo": "propuesta_partidaria",
+      "fuentes": [
+        "F-D016-09"
+      ],
+      "variables_en_observacion": [
+        "V7",
+        "V11",
+        "V16"
+      ],
+      "alcance": "Compromisos electorales; financiación, desarrollo normativo y compatibilidad por verificar.",
+      "fecha_incorporacion": "2026-10-22",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D016-06",
+      "tema": "Demanda sindical de SMI propio",
+      "tipo": "posicion_sindical",
+      "fuentes": [
+        "F-D016-08"
+      ],
+      "variables_en_observacion": [
+        "V10",
+        "V16"
+      ],
+      "alcance": "Demanda competencial y laboral; no concesión gubernamental ni condición estatal pactada.",
+      "fecha_incorporacion": "2026-10-22",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    }
+  ],
+  "dimension_nacional_territorial": [
+    {
+      "territorio": "Cataluña",
+      "actor": "Jordi Turull / Junts",
+      "agenda_explicita": "Turull descarta integrarse en la lista de Junts para el 29-N.",
+      "agenda_estrategica": "Mantiene su compromiso político; no se infiere una nueva condición de apoyo estatal.",
+      "instrumento_tactico": "Entrevista pública; no inscripción formal de candidatura.",
+      "variables": [
+        "V9",
+        "V12",
+        "V16"
+      ],
+      "efecto_sistemico": "Concreta una incógnita de participación abierta en D-015; no acredita pactos de investidura.",
+      "fuentes": [
+        "F-D016-07"
+      ],
+      "grado_confirmacion": "declaracion_original",
+      "ciudadana": "Turull dice que no irá en la lista de Junts. Poder concurrir y decidir hacerlo son cosas distintas.",
+      "fecha_incorporacion": "2026-10-22",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "País Vasco",
+      "actor": "ELA y LAB; Gobierno Vasco como interlocutor",
+      "agenda_explicita": "ELA reclama competencias para un salario mínimo propio y negociación con la patronal.",
+      "agenda_estrategica": "Objetivo sindical declarado; no se atribuye una estrategia nueva al PNV o a EH Bildu.",
+      "instrumento_tactico": "Reunión y presión sindical; ninguna concesión gubernamental acreditada.",
+      "variables": [
+        "V10",
+        "V16"
+      ],
+      "efecto_sistemico": "Añade una demanda competencial y social al seguimiento; no acredita apoyo de investidura ni veto.",
+      "fuentes": [
+        "F-D016-08"
+      ],
+      "grado_confirmacion": "posicion_sindical_atribuida",
+      "ciudadana": "Los sindicatos plantean sus demandas al Gobierno Vasco. La reunión no significa que exista un acuerdo ni un pacto estatal.",
+      "fecha_incorporacion": "2026-10-22",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "Galicia",
+      "actor": "PPdeG",
+      "agenda_explicita": "Anuncios de Santalices para el Senado por Ourense y de Fabiola García para el Congreso por A Coruña.",
+      "agenda_estrategica": "Selección de representantes; no se deducen cambios de voto ni ceses ya realizados.",
+      "instrumento_tactico": "Anuncio de candidatura atribuido al partido por Europa Press.",
+      "variables": [
+        "V11",
+        "V16"
+      ],
+      "efecto_sistemico": "Permite vigilar la composición de listas y sus consecuencias institucionales; queda pendiente la formalización.",
+      "fuentes": [
+        "F-D016-10"
+      ],
+      "grado_confirmacion": "anuncio_partidario_segun_agencia",
+      "ciudadana": "El PP anuncia candidatos en Galicia. El anuncio debe distinguirse de la lista oficialmente proclamada.",
+      "fecha_incorporacion": "2026-10-22",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "Andalucía / agenda estatal",
+      "actor": "Alberto Núñez Feijóo / PP; acto en Sevilla con Juanma Moreno",
+      "agenda_explicita": "Deducciones para alquileres, ampliación de la oferta y ayudas para acceder a vivienda.",
+      "agenda_estrategica": "Objetivos electorales declarados, sujetos a desarrollo jurídico, financiación y apoyos.",
+      "instrumento_tactico": "Presentación de propuestas de programa; no legislación en vigor.",
+      "variables": [
+        "V7",
+        "V11",
+        "V16"
+      ],
+      "efecto_sistemico": "Concreta contenido para comparar programas y compatibilidades; no demuestra su ejecución o rendimiento electoral.",
+      "fuentes": [
+        "F-D016-09"
+      ],
+      "grado_confirmacion": "propuesta_partidaria_original",
+      "ciudadana": "El PP presenta propuestas de vivienda en Sevilla. Para aplicarlas tendría que gobernar, concretarlas y obtener los apoyos necesarios.",
+      "fecha_incorporacion": "2026-10-22",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "Aragón / Teruel",
+      "actor": "CHA e Izquierda Unida en el Frente Amplio aragonés",
+      "agenda_explicita": "CHA anuncia no concurrir al Congreso en Teruel; IU se opone y busca mantener una candidatura.",
+      "agenda_estrategica": "CHA alega evitar dispersión; IU defiende representación propia. Son objetivos atribuidos, no resultados.",
+      "instrumento_tactico": "Anuncio y negociación interna, con desacuerdo público.",
+      "variables": [
+        "V4",
+        "V11",
+        "V16"
+      ],
+      "efecto_sistemico": "Muestra tensión entre coordinación electoral y representación. No acredita una retirada definitiva ni transferencia automática de votos.",
+      "fuentes": [
+        "F-D016-05",
+        "F-D016-06"
+      ],
+      "grado_confirmacion": "anuncios_y_entrevista_original",
+      "ciudadana": "En Teruel los socios discrepan sobre presentar una lista. La solución aún debe comprobarse; los votos no se trasladan automáticamente.",
+      "fecha_incorporacion": "2026-10-22",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    }
+  ],
+  "escenarios_conservados": {
+    "origen": "A-000; marco conservado desde D-015",
+    "identificadores": [
+      "G1",
+      "G2",
+      "G4",
+      "G5"
+    ],
+    "recalibracion": false
+  },
+  "lectura_escenarios": [
+    {
+      "id": "G1",
+      "nombre": "Gobierno PP-Vox de coalición",
+      "lectura": "Los anuncios de listas del PP no acreditan un reparto de ministerios ni cierran las conversaciones con Vox.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "G2",
+      "nombre": "PP monocolor con apoyo externo de Vox",
+      "lectura": "La composición de una candidatura tampoco demuestra que Vox acepte prestar apoyo externo sin entrar en el Gobierno.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "G4",
+      "nombre": "Reconstrucción progresista",
+      "lectura": "Teruel muestra una tensión concreta entre coordinación electoral y representación propia; la solución y sus efectos requieren comprobación.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "G5",
+      "nombre": "Bloqueo / repetición electoral",
+      "lectura": "La controversia censal y las discrepancias electorales no permiten estimar un aumento del bloqueo de investidura.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    }
+  ],
+  "incertidumbres": [
+    "Resoluciones y efectos concretos en el procedimiento de inscripciones CERA; la nota del TC no sustituye el auto íntegro.",
+    "Candidaturas presentadas y proclamadas; resolución del desacuerdo de Teruel.",
+    "Acuerdos explícitos de investidura y programa: ninguno se deduce de nombres de candidatos o declaraciones aisladas.",
+    "Desarrollo jurídico, financiación y ejecución de propuestas de vivienda; respuesta gubernamental a demandas sindicales.",
+    "Reservas documentales previas del CIS y del estudio de Sigma Dos sobre el Senado; ficha y disponibilidad temporal de publicaciones posteriores."
+  ],
+  "proximas_comprobaciones": [
+    {
+      "plazo": "24–72 horas",
+      "comprobacion": "Consultar nuevas resoluciones y comunicaciones electorales; comprobar listas efectivamente presentadas y la solución del desacuerdo de Teruel; revisar fichas de encuestas publicadas después del corte."
+    },
+    {
+      "fecha": "2026-10-22",
+      "hito": "Fin del plazo de resolución de reclamaciones censales; no se presume que todas estén resueltas a las 09:30.",
+      "fuente": "F-D016-11"
+    },
+    {
+      "fecha": "2026-10-23",
+      "hito": "Exposición de resoluciones censales en ayuntamientos y consulados.",
+      "fuente": "F-D016-11"
+    },
+    {
+      "fecha": "2026-10-24/2026-10-30",
+      "hito": "Primer envío de documentación CERA, según calendario INE; no certifica el derecho individual a votar.",
+      "fuente": "F-D016-11"
+    },
+    {
+      "fecha": "2026-10-26",
+      "hito": "Fin de presentación de candidaturas según referencia JEC indexada conservada; lectura íntegra del PDF pendiente.",
+      "fuente": "F-D016-13"
+    }
+  ],
+  "estudios_complementarios": [
+    {
+      "id": "ELECTOPANEL-PREFERENCIAS-20261020",
+      "tipo": "preferencias_sobre_formula_de_gobierno",
+      "instituto": "ElectoPanel",
+      "empresa_analisis": "Estudios y Minería de Datos S. L.",
+      "publicacion": "2026-10-20",
+      "hora_publicacion": "18:09",
+      "zona_horaria_publicacion": "no indicada",
+      "medio": "Electomanía",
+      "promotor": null,
+      "reserva_promotor": "La ficha identifica el medio de publicación; no identifica un promotor separado.",
+      "ambito": "España",
+      "universo": "Personas con derecho a voto en España",
+      "campo_inicio": "2026-10-05",
+      "campo_fin": "2026-10-17",
+      "muestra": 6873,
+      "modo": "CAWI / tracking; 60 % de panelistas fijos",
+      "cuotas": [
+        "territorio",
+        "sexo",
+        "edad",
+        "formación",
+        "interés político"
+      ],
+      "pregunta_resumida": "Fórmula de gobierno preferida tras las elecciones; pregunta general, sin condicionar a una mayoría PP-Vox.",
+      "porcentajes_preferencia": {
+        "PSOE + Frente Amplio": 33.6,
+        "PP + Vox": 29.3,
+        "PP en solitario": 17.0,
+        "Otra fórmula": 9.5,
+        "PSOE en solitario": 6.8,
+        "NS/NC": 2.0,
+        "PP–PSOE": 1.8
+      },
+      "url": "https://electomania.es/electopanel-20-oct-continua-la-division-por-la-formula-de-gobierno-preferida-tras-el-29n/",
+      "incorporado": "2026-10-21",
+      "validacion_interpretacion": "validada_IH",
+      "incluido_en_comparador_voto": false,
+      "incluido_en_agregado_voto": false,
+      "reserva": "No es intención ni estimación de voto, ni probabilidad de escenarios. Campo concluido el 17: no mide acontecimientos del 18–20. No se publican tamaños de submuestras partidarias; posible solapamiento de panel, sin independencia presumida.",
+      "decision_id": "DEC-IH-D015-001"
+    },
+    {
+      "id": "SIGMADOS-MAPA-20261020",
+      "tipo": "ampliacion_documental_estudio_existente",
+      "estudio_vinculado": "SIGMADOS-ELMUNDO-20261019",
+      "publicacion": "2026-10-20",
+      "hora_publicacion": null,
+      "url": "https://www.sigmados.com/noticia?id=rivzEnwHgHaatUC",
+      "incorporado": "2026-10-21",
+      "campo_inicio": "2026-10-01",
+      "campo_fin": "2026-10-14",
+      "muestra": 3007,
+      "modo": "CATI / CAWI",
+      "nueva_muestra": false,
+      "nueva_estimacion_nacional_voto": false,
+      "reserva": "Mapa de estimaciones del instituto; no cálculo de SOPHHIA. No se suman extremos de intervalos. La ficha no indica tamaños provinciales; campo anterior a los acuerdos posteriores."
+    }
+  ]
+}
