@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="utf-8">
@@ -7,7 +7,7 @@
 <meta name="description" content="Explorador Paramétrico experimental de sensibilidad prospectiva para SOPHHIA 29‑N. Laboratorio interactivo de sensibilidad prospectiva integrado en SOPHHIA 29‑N. Modelo heurístico, sin valor de predicción certificada.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
 <style>
 :root{
   color-scheme: light;
@@ -55,7 +55,7 @@ section{padding:2rem 0}h2{font-family:'Cormorant Garamond',Georgia,serif;font-si
 
   <section>
     <h2>Panel interactivo</h2>
-    <p class="note">Desplaza una variable motriz y observa el efecto sobre cuatro escenarios vivos. El caso base paramétrico procede de la lectura D‑005, del 11 de octubre de 2026; no equivale a la actualización diaria ni implica recalibración de A‑000.</p><p class="note" id="explorer-update-meta" aria-live="polite"><strong>Referencia paramétrica:</strong> D‑005 · 11 oct 2026. <strong>Última actualización del observatorio:</strong> D‑016 · 22 oct 2026 · corte 09:30 CEST. Interpretación D-016 pendiente de validación humana. D-015 conserva DEC-IH-D015-001 con su alcance propio; la base no se recalibra automáticamente.</p>
+    <p class="note">Desplaza una variable motriz y observa el efecto sobre cuatro escenarios vivos. El caso base paramétrico procede de la lectura D‑005, del 11 de octubre de 2026; no equivale a la actualización diaria ni implica recalibración de A‑000.</p><p class="note" id="explorer-update-meta" aria-live="polite"><strong>Referencia paramétrica:</strong> D‑005 · 11 oct 2026. <strong>Última actualización del observatorio:</strong> D‑017 · 23 oct 2026 · corte 09:30 CEST. Interpretación D-017 pendiente de validación humana. D-015 conserva DEC-IH-D015-001 con su alcance propio; la base no se recalibra automáticamente.</p>
     <div class="grid grid-2">
       <section class="panel" aria-label="Variables motrices">
         <h3>Variables motrices</h3>
@@ -76,25 +76,25 @@ section{padding:2rem 0}h2{font-family:'Cormorant Garamond',Georgia,serif;font-si
 
       <section class="viz">
         <div class="plate">
-          <svg id="svg" viewBox="0 0 900 455" role="img" aria-label="Cono de escenarios SOPHHIA 29‑N con cuatro medallones dinámicos G1, G2, G4 y G5.">
+          <svg id="svg" viewbox="0 0 900 455" role="img" aria-label="Cono de escenarios SOPHHIA 29‑N con cuatro medallones dinámicos G1, G2, G4 y G5.">
             <defs>
-              <filter id="fSh" x="-35%" y="-35%" width="170%" height="170%"><feDropShadow dx="0" dy="3" stdDeviation="2.7" flood-color="#101820" flood-opacity="0.26"/></filter>
-              <radialGradient id="gSun" cx="38%" cy="32%" r="80%"><stop offset="0%" stop-color="var(--accenthi)"/><stop offset="55%" stop-color="var(--accent)"/><stop offset="100%" stop-color="var(--accentlo)"/></radialGradient>
-              <linearGradient id="gCone" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="var(--accent)" stop-opacity="0"/><stop offset="1" stop-color="var(--accent)" stop-opacity=".22"/></linearGradient>
-              <linearGradient id="gCone2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="var(--ink)" stop-opacity="0"/><stop offset="1" stop-color="var(--ink)" stop-opacity=".10"/></linearGradient>
+              <filter id="fSh" x="-35%" y="-35%" width="170%" height="170%"><fedropshadow dx="0" dy="3" stddeviation="2.7" flood-color="#101820" flood-opacity="0.26"></fedropshadow></filter>
+              <radialgradient id="gSun" cx="38%" cy="32%" r="80%"><stop offset="0%" stop-color="var(--accenthi)"></stop><stop offset="55%" stop-color="var(--accent)"></stop><stop offset="100%" stop-color="var(--accentlo)"></stop></radialgradient>
+              <lineargradient id="gCone" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="var(--accent)" stop-opacity="0"></stop><stop offset="1" stop-color="var(--accent)" stop-opacity=".22"></stop></lineargradient>
+              <lineargradient id="gCone2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="var(--ink)" stop-opacity="0"></stop><stop offset="1" stop-color="var(--ink)" stop-opacity=".10"></stop></lineargradient>
             </defs>
-            <rect x="18" y="14" width="220" height="22" rx="3" fill="none" class="lnd"/>
+            <rect x="18" y="14" width="220" height="22" rx="3" fill="none" class="lnd"></rect>
             <text x="30" y="30" class="tu">[MODELO EXPERIMENTAL · MODO A]</text>
-            <rect x="44" y="50" width="820" height="352" rx="12" class="plot-bg"/>
+            <rect x="44" y="50" width="820" height="352" rx="12" class="plot-bg"></rect>
             <g id="gridMinor" aria-hidden="true"></g>
-            <path id="wOuter" fill="url(#gCone2)" class="lnd"/>
-            <path id="wInner" fill="url(#gCone)" class="lnd" stroke-width="1.8"/>
-            <line x1="72" y1="386" x2="610" y2="386" class="ln"/>
+            <path id="wOuter" fill="url(#gCone2)" class="lnd"></path>
+            <path id="wInner" fill="url(#gCone)" class="lnd" stroke-width="1.8"></path>
+            <line x1="72" y1="386" x2="610" y2="386" class="ln"></line>
             <g id="ticks"></g>
-            <circle cx="72" cy="214" r="19" fill="none" class="lnd" opacity=".58"/>
-            <circle cx="72" cy="214" r="10" fill="url(#gSun)" stroke="var(--paper)" stroke-width="1.6"/>
-            <text id="todayLabel1" x="72" y="171" text-anchor="middle" class="tf">hoy · D‑016</text>
-            <text id="todayLabel2" x="72" y="188" text-anchor="middle" class="tu">22 oct 2026</text>
+            <circle cx="72" cy="214" r="19" fill="none" class="lnd" opacity=".58"></circle>
+            <circle cx="72" cy="214" r="10" fill="url(#gSun)" stroke="var(--paper)" stroke-width="1.6"></circle>
+            <text id="todayLabel1" x="72" y="171" text-anchor="middle" class="tf">hoy · D‑017</text>
+            <text id="todayLabel2" x="72" y="188" text-anchor="middle" class="tu">23 oct 2026</text>
             <text x="735" y="430" text-anchor="middle" class="tu">horizonte · formación de Gobierno</text>
             <g id="links" aria-hidden="true"></g>
             <g id="med"></g>
@@ -226,5 +226,3 @@ section{padding:2rem 0}h2{font-family:'Cormorant Garamond',Georgia,serif;font-si
 </script>
 </body>
 </html>
-
-

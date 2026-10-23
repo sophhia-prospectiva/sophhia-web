@@ -44,117 +44,141 @@
   "watch_level": "V13 vigilancia alta; V9 activada; V16 en vigilancia",
   "date_role": "Fecha histórica de la referencia estructural; no fecha de observación diaria.",
   "editorial_update": {
-    "date": "2026-10-22",
-    "entry": "D-016",
-    "cutoff": "2026-10-22T09:30:00+02:00",
+    "date": "2026-10-23",
+    "entry": "D-017",
+    "cutoff": "09:30 CEST",
     "validation": "Interpretación pendiente de validación humana",
     "quantified": false,
     "observations": [
       {
         "territorio": "Cataluña",
-        "actor": "Jordi Turull / Junts",
-        "agenda_explicita": "Turull descarta integrarse en la lista de Junts para el 29-N.",
-        "agenda_estrategica": "Mantiene su compromiso político; no se infiere una nueva condición de apoyo estatal.",
-        "instrumento_tactico": "Entrevista pública; no inscripción formal de candidatura.",
+        "actor": "Comuns / Frente Amplio",
+        "agenda_explicita": "La crónica sitúa a Colau y Urtasun al frente de la lista y a Aina Vidal fuera de ella; falta comprobar la proclamación.",
+        "agenda_estrategica": "Coordinación electoral; no se atribuye un pacto estatal nuevo.",
+        "instrumento_tactico": "Acuerdo interno y anuncio recogidos en prensa.",
         "variables": [
+          "V4",
           "V9",
           "V12",
           "V16"
         ],
-        "efecto_sistemico": "Concreta una incógnita de participación abierta en D-015; no acredita pactos de investidura.",
+        "efecto_sistemico": "La composición de la lista no resuelve la compatibilidad programática de una futura mayoría.",
         "fuentes": [
-          "F-D016-07"
+          "F-D017-07"
         ],
-        "grado_confirmacion": "declaracion_original",
-        "ciudadana": "Turull dice que no irá en la lista de Junts. Poder concurrir y decidir hacerlo son cosas distintas.",
-        "fecha_incorporacion": "2026-10-22",
+        "grado_confirmacion": "declaracion_atribuida",
+        "ciudadana": "Una lista electoral concreta quién concurre; los acuerdos para gobernar deberán comprobarse por separado.",
+        "fecha_incorporacion": "2026-10-23",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
-        "territorio": "País Vasco",
-        "actor": "ELA y LAB; Gobierno Vasco como interlocutor",
-        "agenda_explicita": "ELA reclama competencias para un salario mínimo propio y negociación con la patronal.",
-        "agenda_estrategica": "Objetivo sindical declarado; no se atribuye una estrategia nueva al PNV o a EH Bildu.",
-        "instrumento_tactico": "Reunión y presión sindical; ninguna concesión gubernamental acreditada.",
+        "territorio": "País Vasco / Navarra",
+        "actor": "ELA y organizaciones convocantes",
+        "agenda_explicita": "Vivienda y salarios; convocatoria de movilización.",
+        "agenda_estrategica": "Reivindicaciones sindicales expresas, sin atribuirlas automáticamente a partidos.",
+        "instrumento_tactico": "Convocatoria para el 11 de noviembre.",
         "variables": [
+          "V7",
           "V10",
           "V16"
         ],
-        "efecto_sistemico": "Añade una demanda competencial y social al seguimiento; no acredita apoyo de investidura ni veto.",
+        "efecto_sistemico": "La capacidad de movilización y la respuesta institucional podrán observarse; no se anticipan sus resultados.",
         "fuentes": [
-          "F-D016-08"
+          "F-D017-05"
         ],
-        "grado_confirmacion": "posicion_sindical_atribuida",
-        "ciudadana": "Los sindicatos plantean sus demandas al Gobierno Vasco. La reunión no significa que exista un acuerdo ni un pacto estatal.",
-        "fecha_incorporacion": "2026-10-22",
+        "grado_confirmacion": "declaracion_atribuida",
+        "ciudadana": "Anunciar una movilización no prueba todavía su participación ni sus resultados.",
+        "fecha_incorporacion": "2026-10-23",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
         "territorio": "Galicia",
-        "actor": "PPdeG",
-        "agenda_explicita": "Anuncios de Santalices para el Senado por Ourense y de Fabiola García para el Congreso por A Coruña.",
-        "agenda_estrategica": "Selección de representantes; no se deducen cambios de voto ni ceses ya realizados.",
-        "instrumento_tactico": "Anuncio de candidatura atribuido al partido por Europa Press.",
+        "actor": "Avia Veira / BNG A Coruña",
+        "agenda_explicita": "Avia Veira critica la actuación policial y rechaza el vandalismo; sus imputaciones no se verifican de forma independiente.",
+        "agenda_estrategica": "Posición partidaria declarada; no se infieren motivos ocultos.",
+        "instrumento_tactico": "Comunicado público.",
         "variables": [
           "V11",
           "V16"
         ],
-        "efecto_sistemico": "Permite vigilar la composición de listas y sus consecuencias institucionales; queda pendiente la formalización.",
+        "efecto_sistemico": "Puede orientar el seguimiento del debate sobre convivencia; no demuestra un desplazamiento electoral.",
         "fuentes": [
-          "F-D016-10"
+          "F-D017-06"
         ],
-        "grado_confirmacion": "anuncio_partidario_segun_agencia",
-        "ciudadana": "El PP anuncia candidatos en Galicia. El anuncio debe distinguirse de la lista oficialmente proclamada.",
-        "fecha_incorporacion": "2026-10-22",
+        "grado_confirmacion": "declaracion_atribuida",
+        "ciudadana": "Recogemos lo que declara el BNG, sin dar por probadas todas sus acusaciones.",
+        "fecha_incorporacion": "2026-10-23",
+        "puntuacion": null,
+        "validacion_interpretacion": "pendiente_IH",
+        "decision_id": null
+      },
+      {
+        "territorio": "Navarra",
+        "actor": "PNV / Geroa Bai; Javier Ollo",
+        "agenda_explicita": "El PNV propone a Javier Ollo; el encaje de la candidatura con Geroa Bai sigue abierto según la crónica.",
+        "agenda_estrategica": "Representación territorial; negociación electoral por comprobar.",
+        "instrumento_tactico": "Designación partidaria y conversaciones.",
+        "variables": [
+          "V11",
+          "V12",
+          "V16"
+        ],
+        "efecto_sistemico": "La formalización de la lista y un eventual apoyo de investidura son pasos distintos.",
+        "fuentes": [
+          "F-D017-08"
+        ],
+        "grado_confirmacion": "declaracion_atribuida",
+        "ciudadana": "Proponer un candidato no significa que toda la candidatura esté acordada.",
+        "fecha_incorporacion": "2026-10-23",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
         "territorio": "Andalucía / agenda estatal",
-        "actor": "Alberto Núñez Feijóo / PP; acto en Sevilla con Juanma Moreno",
-        "agenda_explicita": "Deducciones para alquileres, ampliación de la oferta y ayudas para acceder a vivienda.",
-        "agenda_estrategica": "Objetivos electorales declarados, sujetos a desarrollo jurídico, financiación y apoyos.",
-        "instrumento_tactico": "Presentación de propuestas de programa; no legislación en vigor.",
+        "actor": "Seguimiento del antecedente del PP en Sevilla",
+        "agenda_explicita": "No se verifica una novedad específica admisible en esta revisión.",
+        "agenda_estrategica": "Se conserva el seguimiento de la propuesta de vivienda registrada en D-016.",
+        "instrumento_tactico": "Comprobación de desarrollo programático pendiente.",
         "variables": [
           "V7",
           "V11",
           "V16"
         ],
-        "efecto_sistemico": "Concreta contenido para comparar programas y compatibilidades; no demuestra su ejecución o rendimiento electoral.",
+        "efecto_sistemico": "Sin cambio acreditado; no se presenta el acto anterior como una novedad de hoy.",
         "fuentes": [
-          "F-D016-09"
+          "D-016:F-D016-09"
         ],
-        "grado_confirmacion": "propuesta_partidaria_original",
-        "ciudadana": "El PP presenta propuestas de vivienda en Sevilla. Para aplicarlas tendría que gobernar, concretarlas y obtener los apoyos necesarios.",
-        "fecha_incorporacion": "2026-10-22",
+        "grado_confirmacion": "antecedente_sin_novedad_verificada",
+        "ciudadana": "La referencia de vivienda de ayer sigue en seguimiento; hoy no añadimos una novedad comprobada.",
+        "fecha_incorporacion": "2026-10-23",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
         "territorio": "Aragón / Teruel",
-        "actor": "CHA e Izquierda Unida en el Frente Amplio aragonés",
-        "agenda_explicita": "CHA anuncia no concurrir al Congreso en Teruel; IU se opone y busca mantener una candidatura.",
-        "agenda_estrategica": "CHA alega evitar dispersión; IU defiende representación propia. Son objetivos atribuidos, no resultados.",
-        "instrumento_tactico": "Anuncio y negociación interna, con desacuerdo público.",
+        "actor": "CHA / IU",
+        "agenda_explicita": "Desacuerdo registrado en D-016.",
+        "agenda_estrategica": "Coordinación electoral todavía por comprobar.",
+        "instrumento_tactico": "Seguimiento de la formalización de candidaturas.",
         "variables": [
           "V4",
           "V11",
           "V16"
         ],
-        "efecto_sistemico": "Muestra tensión entre coordinación electoral y representación. No acredita una retirada definitiva ni transferencia automática de votos.",
+        "efecto_sistemico": "Esta revisión no acredita una solución definitiva ni una transferencia de votos.",
         "fuentes": [
-          "F-D016-05",
-          "F-D016-06"
+          "D-016:F-D016-05",
+          "D-016:F-D016-06"
         ],
-        "grado_confirmacion": "anuncios_y_entrevista_original",
-        "ciudadana": "En Teruel los socios discrepan sobre presentar una lista. La solución aún debe comprobarse; los votos no se trasladan automáticamente.",
-        "fecha_incorporacion": "2026-10-22",
+        "grado_confirmacion": "antecedente_sin_novedad_verificada",
+        "ciudadana": "El desacuerdo anterior no se da por resuelto sin una nueva comprobación.",
+        "fecha_incorporacion": "2026-10-23",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
