@@ -8,16 +8,16 @@
   "current_entry": "D-018",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "Se incorpora parcialmente la segunda ola de IMOP: nueva observación de voto, sin convertirla en pronóstico de Gobierno. El Supremo fija un nuevo plazo documental sobre el censo exterior y el calendario prevé el inicio del primer envío CERA. Se actualizan las señales de Navarra, Teruel y Andalucía. D-018 queda pendiente de validación humana, sin recalibración ni nuevas puntuaciones de escenarios.",
+  "system_state": "Se incorpora parcialmente la segunda ola de IMOP: nueva observación de voto, sin convertirla en pronóstico de Gobierno. El Supremo fija un nuevo plazo documental sobre el censo exterior y el calendario prevé el inicio del primer envío CERA. Se actualizan las señales de Navarra, Teruel y Andalucía. D-018 queda pendiente de validación humana, sin recalibración. Codificación documental 18–24 reconstruida el 24/10, pendiente IH.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-018",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
-  "watch_variable": "V4, V7, V9, V10, V11, V12, V13 y V16 · observación cualitativa, sin nueva puntuación",
+  "watch_variable": "Atención documental 18–24 reconstruida el 24/10; pendiente IH. Pesos MICMAC conservados.",
   "social_axis": "Seguimiento de las agendas territoriales y garantías electorales, sin atribuir resultados futuros.",
   "current_bullets": [
     "IMOP aporta una observación parcial de voto: PP 28,5 %, PSOE 27,1 % y Vox 20,0 %. Campo concluido el 16; no mide hechos posteriores.",
     "El requerimiento del Supremo añade un plazo documental verificable: 28 de octubre a las 15:00, según RTVE.",
-    "D-018 pendiente de validación humana. Sin nueva puntuación de escenarios."
+    "D-018 pendiente de validación humana. Series documentales 18–24 reconstruidas el 24/10; codificación pendiente IH."
   ],
   "path": [
     {
@@ -97,7 +97,7 @@
       "date": "2026-10-18",
       "title": "ElectoPanel: nueva ficha, resultados pendientes",
       "recalibration": "No",
-      "state": "Interpretación validada IH · DEC-IH-D012-001; sin nueva codificación numérica"
+      "state": "Interpretación validada IH · DEC-IH-D012-001; reconstrucción posterior 18–24 pendiente IH"
     },
     {
       "id": "D-013",
@@ -187,7 +187,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Seguimiento editorial hasta el 24; última codificación numérica del 17. Días 18–24 sin nuevas puntuaciones.",
+    "mode": "Reconstrucción documental 18–24 realizada el 24/10, con regla v1 y cortes originales; codificación pendiente IH.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -195,13 +195,14 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.36-D018-editorial",
+    "version": "v0.37-D018-reconstruccion-18-24",
     "cutoff": "2026-10-24",
-    "last_numeric_date": "2026-10-17",
+    "last_numeric_date": "2026-10-24",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "D-018 pendiente de validación interpretativa; reglas y codificaciones previas conservan sus reservas."
+    "validation": "Regla v1, reconstrucciones 7–16 y 18–24 y codificación D-011 pendientes de validación IH específica",
+    "reconstruction_date": "2026-10-24"
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
   "territorial_radar": {

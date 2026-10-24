@@ -20,10 +20,10 @@
   "validacion": "Interpretación pendiente de validación humana",
   "decision_id": null,
   "estado_publicacion": "publicada_pendiente_IH",
-  "resumen": "Se incorpora parcialmente la segunda ola de IMOP: nueva observación de voto, sin convertirla en pronóstico de Gobierno. El Supremo fija un nuevo plazo documental sobre el censo exterior y el calendario prevé el inicio del primer envío CERA. Se actualizan las señales de Navarra, Teruel y Andalucía. D-018 queda pendiente de validación humana, sin recalibración ni nuevas puntuaciones de escenarios.",
+  "resumen": "Se incorpora parcialmente la segunda ola de IMOP: nueva observación de voto, sin convertirla en pronóstico de Gobierno. El Supremo fija un nuevo plazo documental sobre el censo exterior y el calendario prevé el inicio del primer envío CERA. Se actualizan las señales de Navarra, Teruel y Andalucía. D-018 queda pendiente de validación humana, sin recalibración. Codificación documental 18–24 reconstruida el 24/10, pendiente IH.",
   "resumen_ciudadana": "Añadimos una encuesta de IMOP con las cifras que hemos podido comprobar. Revisamos el plazo del Supremo sobre el voto exterior y las novedades de varias candidaturas. Una encuesta, una lista electoral y un acuerdo para gobernar son cosas distintas. La interpretación de D-018 está pendiente de validación humana.",
   "senal_principal": "Nueva observación de voto y seguimiento del censo exterior",
-  "variable_vigilancia": "V4, V7, V9, V10, V11, V12, V13 y V16 · observación cualitativa, sin nueva puntuación",
+  "variable_vigilancia": "Atención documental 18–24 reconstruida el 24/10; pendiente IH. Pesos MICMAC conservados.",
   "variable_territorial": "Coordinación electoral y posiciones territoriales; sin efecto electoral cuantificado",
   "decision": "D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, limitada a su interpretación. La publicación técnica no valida modelos ni codificaciones.",
   "url": "diario/2026-10-24.html",
@@ -232,8 +232,13 @@
     ]
   },
   "codificacion": {
-    "estado": "sin_nueva_codificacion_numerica",
-    "ultima_fecha_codificada": "2026-10-17",
-    "tratamiento_D018": "null: sin nueva puntuación; no se arrastran valores del 17."
+    "metodo": "REG-SERIES-29N-001",
+    "version_regla": "1.0",
+    "estado": "reconstruccion_18_24_pendiente_IH",
+    "ultima_fecha_codificada": "2026-10-24",
+    "fecha_reconstruccion": "2026-10-24",
+    "nota": "Reconstrucción del 18 al 24 de octubre realizada el 24/10 con la regla v1 y los cortes originales. Codificación editorial pendiente de validación IH.",
+    "cortes_originales": "18/10 12:50; 19–24/10 09:30 Europe/Madrid",
+    "publicacion_inicial": "D-018 se publicó sin valores nuevos; esta reconstrucción es posterior y no cambia la interpretación archivada."
   }
 }
