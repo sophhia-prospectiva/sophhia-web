@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-10-23",
+  "ultima_actualizacion": "2026-10-24",
   "entradas": [
+    {
+      "codigo": "D-018",
+      "fecha": "2026-10-24",
+      "titulo": "Nueva medición de voto y seguimiento del censo exterior",
+      "url": "diario/2026-10-24.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-017",
       "fecha": "2026-10-23",

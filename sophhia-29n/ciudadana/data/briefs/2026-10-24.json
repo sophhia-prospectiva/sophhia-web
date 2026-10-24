@@ -1,0 +1,583 @@
+{
+  "contrato": "CP-29N-F0 v0.1 + Anexo A",
+  "protocolo": "P001 + P001-E001",
+  "capa": "F2-MICMAC-001 v0.2",
+  "modo": "Modo A · Aproximación heurística estructurada",
+  "revision_abierta": "REV-F2-003",
+  "protocolos_consultados": [
+    "P001-E001: texto disponible",
+    "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
+  ],
+  "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
+  "codigo": "D-018",
+  "fecha": "2026-10-24",
+  "fecha_legible": "24 de octubre de 2026",
+  "hora_corte": "09:30",
+  "timezone": "Europe/Madrid",
+  "titulo": "Nueva medición de voto y seguimiento del censo exterior",
+  "recalibracion": false,
+  "micmac_modificada": false,
+  "validacion": "Interpretación pendiente de validación humana",
+  "decision_id": null,
+  "estado_publicacion": "publicada_pendiente_IH",
+  "resumen": "Se incorpora parcialmente la segunda ola de IMOP: nueva observación de voto, sin convertirla en pronóstico de Gobierno. El Supremo fija un nuevo plazo documental sobre el censo exterior y el calendario prevé el inicio del primer envío CERA. Se actualizan las señales de Navarra, Teruel y Andalucía. D-018 queda pendiente de validación humana, sin recalibración ni nuevas puntuaciones de escenarios.",
+  "resumen_ciudadana": "Añadimos una encuesta de IMOP con las cifras que hemos podido comprobar. Revisamos el plazo del Supremo sobre el voto exterior y las novedades de varias candidaturas. Una encuesta, una lista electoral y un acuerdo para gobernar son cosas distintas. La interpretación de D-018 está pendiente de validación humana.",
+  "senal_principal": "Nueva observación de voto y seguimiento del censo exterior",
+  "variable_vigilancia": "V4, V7, V9, V10, V11, V12, V13 y V16 · observación cualitativa, sin nueva puntuación",
+  "variable_territorial": "Coordinación electoral y posiciones territoriales; sin efecto electoral cuantificado",
+  "decision": "D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, limitada a su interpretación. La publicación técnica no valida modelos ni codificaciones.",
+  "url": "diario/2026-10-24.html",
+  "fuentes_temporales": [
+    {
+      "id": "F-D018-01",
+      "medio": "IMOP Insights / El Confidencial",
+      "url": "https://www.imop.es/encuesta-pre-electoral-el-confidencial-ola-2/",
+      "fecha_publicacion": "2026-10-23",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-13/2026-10-16",
+      "tipo": "primaria_indexada_con_reserva",
+      "titulo": "IMOP · segunda ola, incorporación parcial",
+      "alcance": "Estimaciones verificadas en el contenido indexado del instituto: PP 28,5 %, PSOE 27,1 %, Vox 20,0 %. Campo 13–16 de octubre, 1.000 entrevistas CATI/CAWI, ámbito nacional, población censada de 18 años o más.",
+      "grado_confirmacion": "contenido_primario_indexado_acceso_directo_fallido",
+      "fecha_incorporacion_a_entrega": "2026-10-24",
+      "fecha_incorporacion": "2026-10-24",
+      "corte_admision": "2026-10-24T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Acceso directo fallido (504/tiempo agotado). Encabezado: 21 de octubre; pie: 23 de octubre, sin hora. Se usa el 23 como fecha documental de publicación con reserva, y el 24 como incorporación; no se asegura que surgiera después del corte del 23. Resto de partidos no verificado: n/d. No se hereda la ficha de la primera ola."
+    },
+    {
+      "id": "F-D018-02",
+      "medio": "RTVE",
+      "url": "https://www.rtve.es/noticias/20261023/supremo-da-cinco-dias-gobierno-para-identificar-163020-afectados-ley-nietos-les/17280255.shtml",
+      "fecha_publicacion": "2026-10-23",
+      "hora_publicacion": "12:48; actualización 14:34 · hora mostrada",
+      "fecha_acontecimiento": "2026-10-23",
+      "tipo": "prensa_institucional",
+      "titulo": "Supremo: plazo hasta el 28 de octubre",
+      "alcance": "RTVE informa del requerimiento a Justicia y Exteriores para identificar a 163.020 afectados antes del 28 a las 15:00, con apercibimiento. No se presenta la advertencia como sanción ya impuesta ni como exclusión definitiva de todos.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-24",
+      "fecha_incorporacion": "2026-10-24",
+      "corte_admision": "2026-10-24T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Crónica consultada; autos oficiales completos no leídos. El envío íntegro de la documentación no está acreditado. No se cuantifica un efecto en votos o escaños."
+    },
+    {
+      "id": "F-D018-03",
+      "medio": "INE / Oficina del Censo Electoral",
+      "url": "https://ine.es/dyngs/CEL/en/index.htm?cid=1702",
+      "fecha_publicacion": null,
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-24/2026-10-30",
+      "tipo": "primaria_institucional_antecedente",
+      "titulo": "Calendario del primer envío CERA",
+      "alcance": "La ventana prevista para el primer envío CERA va del 24 al 30 de octubre.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-24",
+      "fecha_incorporacion": "2026-10-24",
+      "corte_admision": "2026-10-24T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Calendario oficial revisado. La apertura de la ventana no acredita que todos los envíos se hayan realizado."
+    },
+    {
+      "id": "F-D018-04",
+      "medio": "Europa Press Navarra",
+      "url": "https://www.europapress.es/navarra/noticia-upn-designa-leticia-san-martin-javier-esparza-encabezar-lista-congreso-senado-20261023191059.html",
+      "fecha_publicacion": "2026-10-23",
+      "hora_publicacion": "19:10 · hora mostrada",
+      "fecha_acontecimiento": "2026-10-23",
+      "tipo": "prensa_designacion_partidaria",
+      "titulo": "UPN designa cabeceras de lista",
+      "alcance": "UPN elige a Leticia San Martín para encabezar el Congreso y a Javier Esparza para el Senado en la coalición con el PP. Es una designación interna, no proclamación electoral.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-24",
+      "fecha_incorporacion": "2026-10-24",
+      "corte_admision": "2026-10-24T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Publicación del 23 anterior al corte del 24; consulta posterior al corte, sin captura histórica íntegra."
+    },
+    {
+      "id": "F-D018-05",
+      "medio": "Europa Press Aragón",
+      "url": "https://www.europapress.es/aragon/noticia-abengochea-lamenta-imposibilidad-candidatura-frente-amplio-teruel-pide-cha-reconsidere-20261023143529.html",
+      "fecha_publicacion": "2026-10-23",
+      "hora_publicacion": "14:35 · hora mostrada",
+      "fecha_acontecimiento": "2026-10-23",
+      "tipo": "prensa_declaracion_atribuida",
+      "titulo": "IU describe el bloqueo de la candidatura en Teruel",
+      "alcance": "Marta Abengochea afirma que no encuentra vía para presentar Frente Amplio en Teruel y pide a CHA reconsiderar su decisión. La declaración no sustituye la comprobación final de candidaturas.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-24",
+      "fecha_incorporacion": "2026-10-24",
+      "corte_admision": "2026-10-24T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Publicación del 23 anterior al corte del 24; consulta posterior al corte, sin captura histórica íntegra."
+    },
+    {
+      "id": "F-D018-06",
+      "medio": "Europa Press Andalucía",
+      "url": "https://www.europapress.es/andalucia/malaga-00356/noticia-bendodo-afirma-pp-aspira-gobierno-solitario-vox-demostrado-puede-gobernar-ellos-20261023114015.html",
+      "fecha_publicacion": "2026-10-23",
+      "hora_publicacion": "actualización 11:49 · hora mostrada",
+      "fecha_acontecimiento": "2026-10-23",
+      "tipo": "prensa_declaracion_atribuida",
+      "titulo": "Bendodo mantiene abiertas dos fórmulas",
+      "alcance": "En Málaga, Bendodo expresa la aspiración del PP a gobernar solo y su disposición a entenderse con Vox. Anuncia que un eventual acuerdo se comunicaría; no acredita uno cerrado.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-24",
+      "fecha_incorporacion": "2026-10-24",
+      "corte_admision": "2026-10-24T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Publicación del 23 anterior al corte del 24; consulta posterior al corte, sin captura histórica íntegra."
+    },
+    {
+      "id": "F-D018-07",
+      "medio": "BOE",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "fecha_publicacion": "2026-10-06",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-05",
+      "tipo": "primaria_institucional_antecedente",
+      "titulo": "Convocatoria electoral",
+      "alcance": "RD 806/2026: elecciones el 29 de noviembre; campaña del 13 al 27.",
+      "grado_confirmacion": "documento_consultado",
+      "fecha_incorporacion_a_entrega": "2026-10-24",
+      "fecha_incorporacion": "2026-10-24",
+      "corte_admision": "2026-10-24T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": true,
+      "reserva_temporal": "Documento oficial revisado; antecedente, no novedad de hoy."
+    },
+    {
+      "id": "F-D018-08",
+      "medio": "Electomanía / ElectoPanel",
+      "url": "https://electomania.es/electopanel-22-oct-el-pp-se-deja-casi-medio-punto-podemos-sigue-a-la-baja/",
+      "fecha_publicacion": "2026-10-22",
+      "hora_publicacion": "13:05 · zona no indicada",
+      "fecha_acontecimiento": "2026-10-22",
+      "tipo": "referencia_no_incorporada",
+      "titulo": "ElectoPanel del 22: reserva documental",
+      "alcance": "No se dispone de ficha y resultados completos verificables en abierto para incorporarlos.",
+      "grado_confirmacion": "documentacion_insuficiente",
+      "fecha_incorporacion_a_entrega": "2026-10-24",
+      "fecha_incorporacion": "2026-10-24",
+      "corte_admision": "2026-10-24T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": false,
+      "reserva_temporal": "Reserva revisada el 24. Se conserva la observación de las 13:05 de D-017 y la anterior de las 10:18 de D-016; no se sobrescriben."
+    },
+    {
+      "id": "F-D018-09",
+      "medio": "The Objective",
+      "url": "https://theobjective.com/espana/politica/2026-10-24/psoe-vox-crece-pp-pierde-votometro/",
+      "fecha_publicacion": "2026-10-24",
+      "hora_publicacion": null,
+      "fecha_acontecimiento": "2026-10-24",
+      "tipo": "referencia_no_incorporada",
+      "titulo": "Votómetro del 24: comprobación pendiente",
+      "alcance": "Referencia localizada; sin verificación suficiente de ficha, método, campo y hora. No se incorporan sus cifras.",
+      "grado_confirmacion": "documentacion_insuficiente",
+      "fecha_incorporacion_a_entrega": "2026-10-24",
+      "fecha_incorporacion": "2026-10-24",
+      "corte_admision": "2026-10-24T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": false,
+      "reserva_temporal": "Lectura directa bloqueada (403); no se certifica encaje temporal en el corte de las 09:30."
+    },
+    {
+      "id": "F-D018-10",
+      "medio": "Junta Electoral Central",
+      "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+      "fecha_publicacion": null,
+      "hora_publicacion": null,
+      "fecha_acontecimiento": null,
+      "tipo": "referencia_con_reserva",
+      "titulo": "Cierre de candidaturas: referencia en seguimiento",
+      "alcance": "Se conserva la referencia al 26 de octubre, pendiente de lectura íntegra del PDF.",
+      "grado_confirmacion": "documentacion_insuficiente",
+      "fecha_incorporacion_a_entrega": "2026-10-24",
+      "fecha_incorporacion": "2026-10-24",
+      "corte_admision": "2026-10-24T09:30:00+02:00",
+      "admitida_como_hecho_al_corte": false,
+      "reserva_temporal": "Reserva heredada: PDF directo inaccesible en las comprobaciones anteriores. No se afirma lectura completa ni proclamación de listas."
+    }
+  ],
+  "sync_version": "D018-editorial-20261024",
+  "ventana_novedades": {
+    "desde_exclusivo": "2026-10-23T09:30:00+02:00",
+    "hasta_inclusivo": "2026-10-24T09:30:00+02:00",
+    "reserva": "IMOP se incorpora documentalmente con discrepancia de fechas y sin hora; no se afirma que apareciera tras el corte anterior. INE y BOE son antecedentes. Consulta posterior al corte, sin captura histórica completa."
+  },
+  "anterior": {
+    "codigo": "D-017",
+    "fecha": "2026-10-23",
+    "fecha_legible": "23 de octubre de 2026",
+    "titulo": "Pactos y debates: posiciones más explícitas, acuerdos aún abiertos",
+    "url": "diario/2026-10-23.html",
+    "decision_id": null,
+    "estado": "Interpretación pendiente de validación humana"
+  },
+  "demoscopia": {
+    "estudios_de_voto_incorporados_hoy": 1,
+    "estudios_en_historico": 7,
+    "casas_en_panel": 6,
+    "nuevas_estimaciones_nacionales_voto_verificadas": 1,
+    "nuevas_publicaciones_preferencias_gobierno": 0,
+    "ampliaciones_documentales_estudios_existentes": 0,
+    "ultima_incorporacion_cuantitativa_voto": "2026-10-24",
+    "resultado_busqueda": "Se incorpora IMOP ola 2 de forma parcial: PP, PSOE y Vox verificados en contenido primario indexado; resto n/d. Ficha identificada y acceso directo fallido. ElectoPanel del 22 y Votómetro del 24 no incorporados.",
+    "agregacion": "Seis observaciones, una por casa, en el comparador; siete estudios en el histórico. Datos ausentes sin imputación; preferencias de gobierno y mapa provincial conservan sus registros.",
+    "limite": "Se conservan la reserva de acceso a la ficha primaria del CIS y la reserva del estudio del Senado. No se presume independencia entre paneles u oleadas.",
+    "documentos_excluidos_del_corte": [],
+    "documentos_no_incorporados_por_ficha_incompleta": [
+      "F-D018-08",
+      "F-D018-09"
+    ]
+  },
+  "codificacion": {
+    "estado": "sin_nueva_codificacion_numerica",
+    "ultima_fecha_codificada": "2026-10-17",
+    "tratamiento_D018": "null: sin nueva puntuación; no se arrastran valores del 17."
+  },
+  "cambios": [
+    "IMOP aporta una observación parcial de voto: PP 28,5 %, PSOE 27,1 % y Vox 20,0 %. Campo concluido el 16; no mide hechos posteriores.",
+    "El requerimiento del Supremo añade un plazo documental verificable: 28 de octubre a las 15:00, según RTVE.",
+    "Hoy comienza la ventana prevista del primer envío CERA; el calendario no confirma su ejecución.",
+    "UPN concreta cabeceras; IU describe el bloqueo en Teruel; Bendodo mantiene abiertas fórmulas con Vox.",
+    "Se añaden datos al comparador, sin recalibrar A-000, MICMAC ni las puntuaciones de los cinco gráficos de seguimiento."
+  ],
+  "senales": [
+    {
+      "id": "S-D018-01",
+      "tema": "Una nueva observación demoscópica parcial",
+      "tipo": "estimacion_instituto",
+      "fuentes": [
+        "F-D018-01"
+      ],
+      "variables_en_observacion": [
+        "V4",
+        "V16"
+      ],
+      "alcance": "Añade información al comparador; no identifica efectos de hechos posteriores al 16 ni resuelve qué Gobierno se formará.",
+      "fecha_incorporacion": "2026-10-24",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D018-02",
+      "tema": "Requerimiento documental y calendario exterior",
+      "tipo": "informacion_institucional_con_reserva",
+      "fuentes": [
+        "F-D018-02",
+        "F-D018-03"
+      ],
+      "variables_en_observacion": [
+        "V13"
+      ],
+      "alcance": "El plazo permite observar cumplimiento administrativo; no se deduce un número final de votos excluidos.",
+      "fecha_incorporacion": "2026-10-24",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D018-03",
+      "tema": "Designaciones y bloqueo de coordinación territorial",
+      "tipo": "anuncios_y_declaraciones",
+      "fuentes": [
+        "F-D018-04",
+        "F-D018-05"
+      ],
+      "variables_en_observacion": [
+        "V4",
+        "V11",
+        "V12",
+        "V16"
+      ],
+      "alcance": "La formalización electoral y los apoyos posteriores a una investidura requieren comprobaciones distintas.",
+      "fecha_incorporacion": "2026-10-24",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "S-D018-04",
+      "tema": "Opciones de Gobierno expresadas por el PP",
+      "tipo": "declaracion_atribuida",
+      "fuentes": [
+        "F-D018-06"
+      ],
+      "variables_en_observacion": [
+        "V16"
+      ],
+      "alcance": "Solitario y coalición siguen siendo hipótesis; falta acuerdo bilateral sobre fórmula, programa y composición.",
+      "fecha_incorporacion": "2026-10-24",
+      "valor_grafico": null,
+      "estado_interpretacion": "pendiente_IH",
+      "decision_id": null
+    }
+  ],
+  "dimension_nacional_territorial": [
+    {
+      "territorio": "Cataluña",
+      "actor": "Comuns / Frente Amplio",
+      "agenda_explicita": "Candidatura descrita en D-017, en seguimiento.",
+      "agenda_estrategica": "Coordinación electoral; sin nuevo acuerdo estatal verificado.",
+      "instrumento_tactico": "Comprobación posterior de formalización.",
+      "variables": [
+        "V4",
+        "V9",
+        "V12",
+        "V16"
+      ],
+      "efecto_sistemico": "Se mantiene la distinción entre integración electoral y compatibilidad de un futuro programa de gobierno.",
+      "fuentes": [
+        "D-017:F-D017-07"
+      ],
+      "grado_confirmacion": "antecedente_sin_novedad_verificada",
+      "ciudadana": "Hoy no añadimos una novedad confirmada sobre esta candidatura.",
+      "fecha_incorporacion": "2026-10-24",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "País Vasco",
+      "actor": "ELA y organizaciones convocantes",
+      "agenda_explicita": "Vivienda y salarios; convocatoria del 11 de noviembre registrada en D-017.",
+      "agenda_estrategica": "Agenda sindical expresa, sin atribución automática a partidos.",
+      "instrumento_tactico": "Seguimiento de convocatoria y respuesta institucional.",
+      "variables": [
+        "V7",
+        "V10",
+        "V16"
+      ],
+      "efecto_sistemico": "Sin nueva evidencia para cuantificar movilización, concesiones programáticas o efectos sobre la estabilidad.",
+      "fuentes": [
+        "D-017:F-D017-05"
+      ],
+      "grado_confirmacion": "antecedente_sin_novedad_verificada",
+      "ciudadana": "La convocatoria sigue pendiente de celebrarse; no anticipamos asistencia ni resultados.",
+      "fecha_incorporacion": "2026-10-24",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "Galicia",
+      "actor": "BNG A Coruña / Avia Veira",
+      "agenda_explicita": "Posición registrada en D-017.",
+      "agenda_estrategica": "Seguimiento del debate público; sin nuevo compromiso estatal verificado.",
+      "instrumento_tactico": "Comunicado anterior, conservado como antecedente.",
+      "variables": [
+        "V11",
+        "V16"
+      ],
+      "efecto_sistemico": "No se convierte la posición anterior en un cambio de voto o poder de negociación acreditado.",
+      "fuentes": [
+        "D-017:F-D017-06"
+      ],
+      "grado_confirmacion": "antecedente_sin_novedad_verificada",
+      "ciudadana": "Conservamos la referencia anterior y no la presentamos otra vez como noticia nueva.",
+      "fecha_incorporacion": "2026-10-24",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "Navarra",
+      "actor": "UPN / PP",
+      "agenda_explicita": "Designación de cabeceras de listas.",
+      "agenda_estrategica": "Representación territorial mediante coalición electoral.",
+      "instrumento_tactico": "Decisión del Consejo Político de UPN.",
+      "variables": [
+        "V11",
+        "V12",
+        "V16"
+      ],
+      "efecto_sistemico": "Concreta la oferta electoral; no determina por sí sola el resultado ni las condiciones de una investidura.",
+      "fuentes": [
+        "F-D018-04"
+      ],
+      "grado_confirmacion": "declaracion_atribuida",
+      "ciudadana": "Los nombres elegidos por UPN concretan su candidatura; la proclamación oficial es un paso posterior.",
+      "fecha_incorporacion": "2026-10-24",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "Andalucía / agenda estatal",
+      "actor": "Elías Bendodo / PP",
+      "agenda_explicita": "Aspiración a gobernar solo y apertura a acuerdos con Vox.",
+      "agenda_estrategica": "Opciones expresadas públicamente, sin atribuir negociaciones reservadas.",
+      "instrumento_tactico": "Declaraciones en Málaga.",
+      "variables": [
+        "V11",
+        "V16"
+      ],
+      "efecto_sistemico": "No permite elegir entre coalición y apoyo externo ni anticipar reparto ministerial o programa.",
+      "fuentes": [
+        "F-D018-06"
+      ],
+      "grado_confirmacion": "declaracion_atribuida",
+      "ciudadana": "Las declaraciones mantienen posibilidades abiertas; todavía no son un pacto para gobernar.",
+      "fecha_incorporacion": "2026-10-24",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "Aragón / Teruel",
+      "actor": "IU / CHA",
+      "agenda_explicita": "Abengochea describe el bloqueo y pide reconsideración.",
+      "agenda_estrategica": "Coordinación de una oferta electoral, según la posición de IU.",
+      "instrumento_tactico": "Declaración pública y petición a CHA.",
+      "variables": [
+        "V4",
+        "V11",
+        "V16"
+      ],
+      "efecto_sistemico": "Puede afectar a la oferta en la circunscripción si se confirma; no demuestra transferencia automática de votos ni escaños.",
+      "fuentes": [
+        "F-D018-05"
+      ],
+      "grado_confirmacion": "declaracion_atribuida",
+      "ciudadana": "IU da por bloqueada la candidatura en sus declaraciones; comprobaremos cómo queda el registro final.",
+      "fecha_incorporacion": "2026-10-24",
+      "puntuacion": null,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    }
+  ],
+  "escenarios_conservados": {
+    "origen": "A-000; marco conservado desde D-017",
+    "identificadores": [
+      "G1",
+      "G2",
+      "G4",
+      "G5"
+    ],
+    "recalibracion": false
+  },
+  "lectura_escenarios": [
+    {
+      "id": "G1",
+      "nombre": "Gobierno PP-Vox de coalición",
+      "lectura": "La nueva observación de voto no acredita un acuerdo de coalición. Siguen pendientes una mayoría suficiente y compromisos sobre programa y carteras.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "G2",
+      "nombre": "PP monocolor con apoyo externo de Vox",
+      "lectura": "La aspiración del PP a gobernar solo no acredita que Vox acepte apoyarlo desde fuera. Fórmula y condiciones pendientes.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "G4",
+      "nombre": "Reconstrucción progresista",
+      "lectura": "El seguimiento de la coordinación territorial continúa; ni la encuesta ni las listas acreditan una mayoría alternativa o un programa común.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "G5",
+      "nombre": "Bloqueo / repetición electoral",
+      "lectura": "Las incertidumbres administrativas y de negociación requieren seguimiento, sin traducirlas automáticamente en mayor probabilidad de bloqueo.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    }
+  ],
+  "incertidumbres": [
+    "Acceso directo y tabla completa de IMOP; aclarar encabezado del 21 y pie del 23. No se imputan los partidos no verificados.",
+    "Cumplimiento del requerimiento del Supremo, resolución oficial completa y ejecución del calendario CERA; sin estimación de efectos electorales.",
+    "Formalización de candidaturas y solución final en Teruel; no se presupone proclamación por una designación interna.",
+    "Acuerdo bilateral PP–Vox, fórmula de Gobierno, composición y programa; declaraciones insuficientes para darlo por cerrado.",
+    "ElectoPanel del 22 y Votómetro del 24 sin documentación admisible suficiente; se conservan las reservas previas sobre CIS, Senado e identificación digital."
+  ],
+  "proximas_comprobaciones": [
+    {
+      "plazo": "24–72 horas",
+      "comprobacion": "Recuperar la tabla original de IMOP, comprobar fichas pendientes y contrastar formalización de candidaturas y pactos mediante documentos públicos."
+    },
+    {
+      "fecha": "2026-10-24/2026-10-30",
+      "hito": "Primer envío CERA previsto; verificar ejecución.",
+      "fuente": "F-D018-03"
+    },
+    {
+      "fecha": "2026-10-26",
+      "hito": "Cierre de presentación según referencia conservada; lectura íntegra pendiente.",
+      "fuente": "F-D018-10"
+    },
+    {
+      "fecha": "2026-10-28 · 15:00",
+      "hito": "Plazo comunicado por RTVE para entregar la relación nominal al Supremo; verificar cumplimiento.",
+      "fuente": "F-D018-02"
+    }
+  ],
+  "estudios_complementarios": [
+    {
+      "id": "ELECTOPANEL-PREFERENCIAS-20261020",
+      "tipo": "preferencias_sobre_formula_de_gobierno",
+      "instituto": "ElectoPanel",
+      "empresa_analisis": "Estudios y Minería de Datos S. L.",
+      "publicacion": "2026-10-20",
+      "hora_publicacion": "18:09",
+      "zona_horaria_publicacion": "no indicada",
+      "medio": "Electomanía",
+      "promotor": null,
+      "reserva_promotor": "La ficha identifica el medio de publicación; no identifica un promotor separado.",
+      "ambito": "España",
+      "universo": "Personas con derecho a voto en España",
+      "campo_inicio": "2026-10-05",
+      "campo_fin": "2026-10-17",
+      "muestra": 6873,
+      "modo": "CAWI / tracking; 60 % de panelistas fijos",
+      "cuotas": [
+        "territorio",
+        "sexo",
+        "edad",
+        "formación",
+        "interés político"
+      ],
+      "pregunta_resumida": "Fórmula de gobierno preferida tras las elecciones; pregunta general, sin condicionar a una mayoría PP-Vox.",
+      "porcentajes_preferencia": {
+        "PSOE + Frente Amplio": 33.6,
+        "PP + Vox": 29.3,
+        "PP en solitario": 17.0,
+        "Otra fórmula": 9.5,
+        "PSOE en solitario": 6.8,
+        "NS/NC": 2.0,
+        "PP–PSOE": 1.8
+      },
+      "url": "https://electomania.es/electopanel-20-oct-continua-la-division-por-la-formula-de-gobierno-preferida-tras-el-29n/",
+      "incorporado": "2026-10-21",
+      "validacion_interpretacion": "validada_IH",
+      "incluido_en_comparador_voto": false,
+      "incluido_en_agregado_voto": false,
+      "reserva": "No es intención ni estimación de voto, ni probabilidad de escenarios. Campo concluido el 17: no mide acontecimientos del 18–20. No se publican tamaños de submuestras partidarias; posible solapamiento de panel, sin independencia presumida.",
+      "decision_id": "DEC-IH-D015-001"
+    },
+    {
+      "id": "SIGMADOS-MAPA-20261020",
+      "tipo": "ampliacion_documental_estudio_existente",
+      "estudio_vinculado": "SIGMADOS-ELMUNDO-20261019",
+      "publicacion": "2026-10-20",
+      "hora_publicacion": null,
+      "url": "https://www.sigmados.com/noticia?id=rivzEnwHgHaatUC",
+      "incorporado": "2026-10-21",
+      "campo_inicio": "2026-10-01",
+      "campo_fin": "2026-10-14",
+      "muestra": 3007,
+      "modo": "CATI / CAWI",
+      "nueva_muestra": false,
+      "nueva_estimacion_nacional_voto": false,
+      "reserva": "Mapa de estimaciones del instituto; no cálculo de SOPHHIA. No se suman extremos de intervalos. La ficha no indica tamaños provinciales; campo anterior a los acuerdos posteriores."
+    }
+  ]
+}

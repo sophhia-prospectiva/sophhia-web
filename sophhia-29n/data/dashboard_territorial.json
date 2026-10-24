@@ -44,8 +44,8 @@
   "watch_level": "V13 vigilancia alta; V9 activada; V16 en vigilancia",
   "date_role": "Fecha histórica de la referencia estructural; no fecha de observación diaria.",
   "editorial_update": {
-    "date": "2026-10-23",
-    "entry": "D-017",
+    "date": "2026-10-24",
+    "entry": "D-018",
     "cutoff": "09:30 CEST",
     "validation": "Interpretación pendiente de validación humana",
     "quantified": false,
@@ -53,132 +53,130 @@
       {
         "territorio": "Cataluña",
         "actor": "Comuns / Frente Amplio",
-        "agenda_explicita": "La crónica sitúa a Colau y Urtasun al frente de la lista y a Aina Vidal fuera de ella; falta comprobar la proclamación.",
-        "agenda_estrategica": "Coordinación electoral; no se atribuye un pacto estatal nuevo.",
-        "instrumento_tactico": "Acuerdo interno y anuncio recogidos en prensa.",
+        "agenda_explicita": "Candidatura descrita en D-017, en seguimiento.",
+        "agenda_estrategica": "Coordinación electoral; sin nuevo acuerdo estatal verificado.",
+        "instrumento_tactico": "Comprobación posterior de formalización.",
         "variables": [
           "V4",
           "V9",
           "V12",
           "V16"
         ],
-        "efecto_sistemico": "La composición de la lista no resuelve la compatibilidad programática de una futura mayoría.",
+        "efecto_sistemico": "Se mantiene la distinción entre integración electoral y compatibilidad de un futuro programa de gobierno.",
         "fuentes": [
-          "F-D017-07"
+          "D-017:F-D017-07"
         ],
-        "grado_confirmacion": "declaracion_atribuida",
-        "ciudadana": "Una lista electoral concreta quién concurre; los acuerdos para gobernar deberán comprobarse por separado.",
-        "fecha_incorporacion": "2026-10-23",
+        "grado_confirmacion": "antecedente_sin_novedad_verificada",
+        "ciudadana": "Hoy no añadimos una novedad confirmada sobre esta candidatura.",
+        "fecha_incorporacion": "2026-10-24",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
-        "territorio": "País Vasco / Navarra",
+        "territorio": "País Vasco",
         "actor": "ELA y organizaciones convocantes",
-        "agenda_explicita": "Vivienda y salarios; convocatoria de movilización.",
-        "agenda_estrategica": "Reivindicaciones sindicales expresas, sin atribuirlas automáticamente a partidos.",
-        "instrumento_tactico": "Convocatoria para el 11 de noviembre.",
+        "agenda_explicita": "Vivienda y salarios; convocatoria del 11 de noviembre registrada en D-017.",
+        "agenda_estrategica": "Agenda sindical expresa, sin atribución automática a partidos.",
+        "instrumento_tactico": "Seguimiento de convocatoria y respuesta institucional.",
         "variables": [
           "V7",
           "V10",
           "V16"
         ],
-        "efecto_sistemico": "La capacidad de movilización y la respuesta institucional podrán observarse; no se anticipan sus resultados.",
+        "efecto_sistemico": "Sin nueva evidencia para cuantificar movilización, concesiones programáticas o efectos sobre la estabilidad.",
         "fuentes": [
-          "F-D017-05"
+          "D-017:F-D017-05"
         ],
-        "grado_confirmacion": "declaracion_atribuida",
-        "ciudadana": "Anunciar una movilización no prueba todavía su participación ni sus resultados.",
-        "fecha_incorporacion": "2026-10-23",
+        "grado_confirmacion": "antecedente_sin_novedad_verificada",
+        "ciudadana": "La convocatoria sigue pendiente de celebrarse; no anticipamos asistencia ni resultados.",
+        "fecha_incorporacion": "2026-10-24",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
         "territorio": "Galicia",
-        "actor": "Avia Veira / BNG A Coruña",
-        "agenda_explicita": "Avia Veira critica la actuación policial y rechaza el vandalismo; sus imputaciones no se verifican de forma independiente.",
-        "agenda_estrategica": "Posición partidaria declarada; no se infieren motivos ocultos.",
-        "instrumento_tactico": "Comunicado público.",
+        "actor": "BNG A Coruña / Avia Veira",
+        "agenda_explicita": "Posición registrada en D-017.",
+        "agenda_estrategica": "Seguimiento del debate público; sin nuevo compromiso estatal verificado.",
+        "instrumento_tactico": "Comunicado anterior, conservado como antecedente.",
         "variables": [
           "V11",
           "V16"
         ],
-        "efecto_sistemico": "Puede orientar el seguimiento del debate sobre convivencia; no demuestra un desplazamiento electoral.",
+        "efecto_sistemico": "No se convierte la posición anterior en un cambio de voto o poder de negociación acreditado.",
         "fuentes": [
-          "F-D017-06"
+          "D-017:F-D017-06"
         ],
-        "grado_confirmacion": "declaracion_atribuida",
-        "ciudadana": "Recogemos lo que declara el BNG, sin dar por probadas todas sus acusaciones.",
-        "fecha_incorporacion": "2026-10-23",
+        "grado_confirmacion": "antecedente_sin_novedad_verificada",
+        "ciudadana": "Conservamos la referencia anterior y no la presentamos otra vez como noticia nueva.",
+        "fecha_incorporacion": "2026-10-24",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
         "territorio": "Navarra",
-        "actor": "PNV / Geroa Bai; Javier Ollo",
-        "agenda_explicita": "El PNV propone a Javier Ollo; el encaje de la candidatura con Geroa Bai sigue abierto según la crónica.",
-        "agenda_estrategica": "Representación territorial; negociación electoral por comprobar.",
-        "instrumento_tactico": "Designación partidaria y conversaciones.",
+        "actor": "UPN / PP",
+        "agenda_explicita": "Designación de cabeceras de listas.",
+        "agenda_estrategica": "Representación territorial mediante coalición electoral.",
+        "instrumento_tactico": "Decisión del Consejo Político de UPN.",
         "variables": [
           "V11",
           "V12",
           "V16"
         ],
-        "efecto_sistemico": "La formalización de la lista y un eventual apoyo de investidura son pasos distintos.",
+        "efecto_sistemico": "Concreta la oferta electoral; no determina por sí sola el resultado ni las condiciones de una investidura.",
         "fuentes": [
-          "F-D017-08"
+          "F-D018-04"
         ],
         "grado_confirmacion": "declaracion_atribuida",
-        "ciudadana": "Proponer un candidato no significa que toda la candidatura esté acordada.",
-        "fecha_incorporacion": "2026-10-23",
+        "ciudadana": "Los nombres elegidos por UPN concretan su candidatura; la proclamación oficial es un paso posterior.",
+        "fecha_incorporacion": "2026-10-24",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
         "territorio": "Andalucía / agenda estatal",
-        "actor": "Seguimiento del antecedente del PP en Sevilla",
-        "agenda_explicita": "No se verifica una novedad específica admisible en esta revisión.",
-        "agenda_estrategica": "Se conserva el seguimiento de la propuesta de vivienda registrada en D-016.",
-        "instrumento_tactico": "Comprobación de desarrollo programático pendiente.",
+        "actor": "Elías Bendodo / PP",
+        "agenda_explicita": "Aspiración a gobernar solo y apertura a acuerdos con Vox.",
+        "agenda_estrategica": "Opciones expresadas públicamente, sin atribuir negociaciones reservadas.",
+        "instrumento_tactico": "Declaraciones en Málaga.",
         "variables": [
-          "V7",
           "V11",
           "V16"
         ],
-        "efecto_sistemico": "Sin cambio acreditado; no se presenta el acto anterior como una novedad de hoy.",
+        "efecto_sistemico": "No permite elegir entre coalición y apoyo externo ni anticipar reparto ministerial o programa.",
         "fuentes": [
-          "D-016:F-D016-09"
+          "F-D018-06"
         ],
-        "grado_confirmacion": "antecedente_sin_novedad_verificada",
-        "ciudadana": "La referencia de vivienda de ayer sigue en seguimiento; hoy no añadimos una novedad comprobada.",
-        "fecha_incorporacion": "2026-10-23",
+        "grado_confirmacion": "declaracion_atribuida",
+        "ciudadana": "Las declaraciones mantienen posibilidades abiertas; todavía no son un pacto para gobernar.",
+        "fecha_incorporacion": "2026-10-24",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
         "territorio": "Aragón / Teruel",
-        "actor": "CHA / IU",
-        "agenda_explicita": "Desacuerdo registrado en D-016.",
-        "agenda_estrategica": "Coordinación electoral todavía por comprobar.",
-        "instrumento_tactico": "Seguimiento de la formalización de candidaturas.",
+        "actor": "IU / CHA",
+        "agenda_explicita": "Abengochea describe el bloqueo y pide reconsideración.",
+        "agenda_estrategica": "Coordinación de una oferta electoral, según la posición de IU.",
+        "instrumento_tactico": "Declaración pública y petición a CHA.",
         "variables": [
           "V4",
           "V11",
           "V16"
         ],
-        "efecto_sistemico": "Esta revisión no acredita una solución definitiva ni una transferencia de votos.",
+        "efecto_sistemico": "Puede afectar a la oferta en la circunscripción si se confirma; no demuestra transferencia automática de votos ni escaños.",
         "fuentes": [
-          "D-016:F-D016-05",
-          "D-016:F-D016-06"
+          "F-D018-05"
         ],
-        "grado_confirmacion": "antecedente_sin_novedad_verificada",
-        "ciudadana": "El desacuerdo anterior no se da por resuelto sin una nueva comprobación.",
-        "fecha_incorporacion": "2026-10-23",
+        "grado_confirmacion": "declaracion_atribuida",
+        "ciudadana": "IU da por bloqueada la candidatura en sus declaraciones; comprobaremos cómo queda el registro final.",
+        "fecha_incorporacion": "2026-10-24",
         "puntuacion": null,
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
