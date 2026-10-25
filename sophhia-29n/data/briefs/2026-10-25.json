@@ -1,0 +1,753 @@
+{
+  "contrato": "CP-29N-F0 v0.1 + Anexo A",
+  "protocolo": "P001 + P001-E001",
+  "capa": "F2-MICMAC-001 v0.2",
+  "modo": "Modo A · Aproximación heurística estructurada",
+  "revision_abierta": "REV-F2-003",
+  "protocolos_consultados": [
+    "P001-E001: texto disponible",
+    "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
+  ],
+  "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
+  "codigo": "D-019",
+  "fecha": "2026-10-25",
+  "fecha_legible": "25 de octubre de 2026",
+  "hora_corte": "09:30",
+  "timezone": "Europe/Madrid",
+  "titulo": "Censo exterior y posiciones políticas antes del cierre de candidaturas",
+  "recalibracion": false,
+  "micmac_modificada": false,
+  "validacion": "Interpretación pendiente de validación humana",
+  "decision_id": null,
+  "estado_publicacion": "publicada_pendiente_IH",
+  "resumen": "Exteriores comunica refuerzos consulares; las fuerzas políticas explicitan posiciones sobre la Presidencia y el programa. Se mantiene la vigilancia de la coordinación electoral y las agendas territoriales. Sin nueva encuesta nacional admitida ni recalibración. Los cinco gráficos incorporan la codificación documental del 25, pendiente de validación humana.",
+  "resumen_ciudadana": "Hoy distinguimos lo que se ha comunicado, lo que los partidos proponen y lo que todavía falta comprobar. Hay novedades en los consulados y en las posiciones políticas. Los cinco gráficos llegan al 25 de octubre; sus barras cuentan temas y sus niveles indican atención documental. No pronostican quién gobernará.",
+  "senal_principal": "Respuesta consular y posiciones ante la formación de Gobierno",
+  "variable_vigilancia": "V3, V4, V7, V8, V9, V10, V11, V12, V13 y V16 · atención documental, sin modificar pesos MICMAC",
+  "variable_territorial": "Agenda catalana, sindical vasca, gestión gallega y programa estatal presentado en Andalucía",
+  "decision": "D-019, D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001, con sus alcances originales. La publicación técnica no valida interpretaciones, reglas ni codificaciones.",
+  "url": "diario/2026-10-25.html",
+  "fuentes_temporales": [
+    {
+      "id": "F-D019-01",
+      "medio": "RTVE",
+      "titulo": "Refuerzo consular para responder al Supremo",
+      "url": "https://www.rtve.es/noticias/20261024/exteriores-refuerza-personal-consulados-listas-ley-nietos/17281659.shtml",
+      "fecha_publicacion": "2026-10-24",
+      "hora_publicacion": "10:48",
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "informacion_periodistica",
+      "acceso": "consulta_directa",
+      "alcance": "RTVE atribuye a Exteriores refuerzos de personal y trabajo durante el fin de semana. No acredita la entrega completa de la relación nominal.",
+      "reserva_temporal": "Fecha anterior al corte; consulta posterior. Sin captura histórica completa al minuto del corte.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-02",
+      "medio": "laSexta",
+      "titulo": "Posiciones de Podemos y Frente Amplio",
+      "url": "https://www.lasexta.com/elecciones/generales/podemos-frente-amplio-gresca-alianzas-izquierda-psoe-tenemos-claro-que-adversario-extrema-derecha_202610246adcaf51658beb674b263d53.html",
+      "fecha_publicacion": "2026-10-24",
+      "hora_publicacion": "15:14",
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "informacion_periodistica",
+      "acceso": "consulta_directa",
+      "alcance": "Montero reclama autonomía respecto al PSOE; Colau evita la confrontación entre izquierdas. Posiciones atribuidas, sin nuevo pacto de Gobierno.",
+      "reserva_temporal": "Fecha anterior al corte; consulta posterior. Sin captura histórica completa al minuto del corte.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-03",
+      "medio": "Europa Press",
+      "titulo": "Posición de Junts sobre la alianza ERC–Podemos",
+      "url": "https://www.europapress.es/catalunya/noticia-nogueras-reivindica-junts-unico-partido-obediencia-estrictamente-catalana-20261024102939.html",
+      "fecha_publicacion": "2026-10-24",
+      "hora_publicacion": "10:31",
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "informacion_periodistica",
+      "acceso": "contenido_indexado; contraste_directo_F-D019-04",
+      "alcance": "Nogueras reivindica la agenda catalana y pide más capacidad para condicionar decisiones estatales. No acredita apoyos de investidura.",
+      "reserva_temporal": "Cabecera del sábado 24; el cuerpo dice domingo. Se conserva la discrepancia y se contrasta con El Nacional del 24; no se usa el día de la semana erróneo.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-04",
+      "medio": "El Nacional",
+      "titulo": "Contraste de fecha y declaraciones de Nogueras",
+      "url": "https://www.elnacional.cat/es/politica/nogueras-acusa-rufian-obediencia-espanola-por-hacer-campana-con-irene-montero_1714408_102.html",
+      "fecha_publicacion": "2026-10-24",
+      "hora_publicacion": "10:35",
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "informacion_periodistica",
+      "acceso": "consulta_directa",
+      "alcance": "Confirma las declaraciones atribuidas del sábado 24. Fuente de contraste del mismo tema; no añade otra unidad al recuento.",
+      "reserva_temporal": "Fecha anterior al corte; consulta posterior. Sin captura histórica completa al minuto del corte.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-05",
+      "medio": "EFE",
+      "titulo": "Feijóo reivindica su gestión en Galicia",
+      "url": "https://efe.com/galicia/2026-10-24/feijoo-en-su-prime-para-contrarrestar-un-todos-contra-el-pp/",
+      "fecha_publicacion": "2026-10-24",
+      "hora_publicacion": null,
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "informacion_periodistica",
+      "acceso": "consulta_directa",
+      "alcance": "Feijóo presenta su experiencia en la Xunta como aval estatal y menciona propuestas fiscales. Declaraciones de precampaña; no medidas ejecutadas.",
+      "reserva_temporal": "Fecha anterior al corte; consulta posterior. Sin captura histórica completa al minuto del corte.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-06",
+      "medio": "Servimedia",
+      "titulo": "Abascal expresa su aspiración a la Presidencia",
+      "url": "https://www.servimedia.es/noticias/abascal-dice-aspira-presidencia-gobierno-no-vicepresidencia/1413488068",
+      "fecha_publicacion": "2026-10-24",
+      "hora_publicacion": "14:17",
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "informacion_periodistica",
+      "acceso": "consulta_directa",
+      "alcance": "Abascal declara que busca la Presidencia, no una vicepresidencia. La declaración no cierra ni descarta un futuro acuerdo con el PP.",
+      "reserva_temporal": "Fecha anterior al corte; consulta posterior. Sin captura histórica completa al minuto del corte.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-07",
+      "medio": "RTVE",
+      "titulo": "Sánchez propone protección constitucional del aborto",
+      "url": "https://www.rtve.es/noticias/20261024/sanchez-replica-feijoo-ser-feminista-recortar-derechos-mujeres-blindar-aborto/17281736.shtml",
+      "fecha_publicacion": "2026-10-24",
+      "hora_publicacion": "13:08",
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "informacion_periodistica",
+      "acceso": "contenido_original_consultado_en_busqueda",
+      "alcance": "Sánchez plantea en Granada una reforma constitucional sobre el aborto. Es una propuesta electoral, no una reforma aprobada.",
+      "reserva_temporal": "Fecha anterior al corte; consulta posterior. Sin captura histórica completa al minuto del corte.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-08",
+      "medio": "ELA",
+      "titulo": "Seguimiento de vivienda y poder adquisitivo",
+      "url": "https://www.ela.eus/es/noticias/para-garantizar-el-derecho-a-la-vivienda-no-a-la-especulacion",
+      "fecha_publicacion": "2026-10-22",
+      "hora_publicacion": null,
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "declaracion_original_sindical",
+      "acceso": "consulta_directa",
+      "alcance": "Se retoma la convocatoria sindical del 11 de noviembre sobre vivienda, salarios y pérdida de poder adquisitivo. No es un anuncio nuevo ni una posición atribuida a PNV o EH Bildu.",
+      "reserva_temporal": "Antecedente del 22, retomado expresamente. No se anticipan asistencia ni resultados de la huelga.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-09",
+      "medio": "BOE",
+      "titulo": "Convocatoria oficial del 29 de noviembre",
+      "url": "https://boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "fecha_publicacion": "2026-10-06",
+      "hora_publicacion": null,
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "documento_oficial",
+      "acceso": "consulta_directa",
+      "alcance": "RD 806/2026: elecciones el 29 de noviembre y campaña del 13 al 27. Antecedente oficial comprobado.",
+      "reserva_temporal": "Documento anterior a la ventana; contexto, no nueva señal.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-10",
+      "medio": "IMOP Insights",
+      "titulo": "Revisión de la segunda ola para El Confidencial",
+      "url": "https://www.imop.es/encuesta-pre-electoral-el-confidencial-ola-2/",
+      "fecha_publicacion": "2026-10-23",
+      "hora_publicacion": null,
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "publicacion_original_encuesta",
+      "acceso": "contenido_primario_indexado; acceso_directo_502",
+      "alcance": "Se conserva la incorporación parcial de D-018: no se añade una nueva ola ni se completan partidos con agregadores.",
+      "reserva_temporal": "Encabezado 21 y pie 23 de octubre, sin hora. Campo 13–16. Persisten acceso directo fallido y tabla parcial.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-11",
+      "medio": "Electomanía",
+      "titulo": "ElectoPanel del 22: ficha completa no disponible en abierto",
+      "url": "https://electomania.es/electopanel-22-oct-el-pp-se-deja-casi-medio-punto-podemos-sigue-a-la-baja/",
+      "fecha_publicacion": "2026-10-22",
+      "hora_publicacion": "13:05",
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "reserva_documental",
+      "acceso": "consulta_directa",
+      "alcance": "La página abierta remite a los datos y ficha completos para patrones. No se incorporan cifras de esta ola.",
+      "reserva_temporal": "Faltan muestra y fechas de campo verificables de esta ola en el material abierto. Se conserva la reserva; no se contrata acceso.",
+      "admitida_como_hecho_al_corte": false,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-12",
+      "medio": "THE OBJECTIVE / Redlines",
+      "titulo": "Votómetro: agregado y simulación de encuestas",
+      "url": "https://theobjective.com/espana/politica/2026-10-24/psoe-vox-crece-pp-pierde-votometro/",
+      "fecha_publicacion": "2026-10-24",
+      "hora_publicacion": "05:25; actualización 06:05",
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "modelo_secundario",
+      "acceso": "consulta_directa",
+      "alcance": "Acceso directo recuperado. El propio artículo describe una agregación de encuestas y simulaciones; no es una muestra nueva.",
+      "reserva_temporal": "Incorporación documental tardía: ya estaba fechado antes del corte de D-018. No entra en el promedio de sondeos ni transfiere probabilidades a SOPHHIA.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-13",
+      "medio": "Cadena SER",
+      "titulo": "Análisis condicionado de candidaturas separadas",
+      "url": "https://cadenaser.com/nacional/2026/10/24/podemos-y-frente-amplio-perderian-entre-4-y-8-escanos-y-desperdiciarian-mas-de-800000-votos-por-ir-separados-cadena-ser/",
+      "fecha_publicacion": "2026-10-24",
+      "hora_publicacion": "08:45 CEST",
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "modelo_secundario",
+      "acceso": "consulta_directa",
+      "alcance": "Simulación publicada que supone conservar votos al unir listas; no es una nueva encuesta ni una predicción adoptada por SOPHHIA.",
+      "reserva_temporal": "Documento anterior al corte de D-018, incorporado ahora como referencia metodológica; sin reproducir ni adoptar sus probabilidades.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-14",
+      "medio": "RTVE",
+      "titulo": "Calendario de presentación y proclamación de candidaturas",
+      "url": "https://amp.rtve.es/noticias/20261019/cuando-son-elecciones-generales-calendario-fechas-clave/17269230.shtml",
+      "fecha_publicacion": "2026-10-19",
+      "hora_publicacion": null,
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "informacion_periodistica",
+      "acceso": "contenido_indexado",
+      "alcance": "Referencia periodística: presentación hasta el 26; publicación de listas presentadas el 28; proclamación el 2 de noviembre y publicación el 3.",
+      "reserva_temporal": "Reserva de acceso al PDF íntegro de la JEC. Se distingue calendario informado de cumplimiento efectivo.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-25"
+    },
+    {
+      "id": "F-D019-15",
+      "medio": "Junta Electoral Central",
+      "titulo": "Calendario electoral: acceso pendiente",
+      "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
+      "fecha_publicacion": null,
+      "hora_publicacion": null,
+      "fecha_consulta": "2026-10-25",
+      "hora_consulta": "2026-10-25T11:09:41+01:00",
+      "tipo": "reserva_documental",
+      "acceso": "fallido",
+      "alcance": "No se certifica lectura íntegra del PDF.",
+      "reserva_temporal": "Fallo de acceso al PDF; no se amplían permisos ni se desactiva la verificación TLS.",
+      "admitida_como_hecho_al_corte": false,
+      "fecha_incorporacion": "2026-10-25"
+    }
+  ],
+  "sync_version": "D019-editorial-20261025",
+  "ventana_novedades": {
+    "desde_exclusivo": "2026-10-24T09:30:00+02:00",
+    "hasta_inclusivo": "2026-10-25T09:30:00+01:00",
+    "duracion_horas": 25,
+    "reserva": "Cambio de horario estacional. ELA, BOE y calendario son antecedentes. Votómetro y SER son incorporaciones documentales tardías, no publicaciones nuevas de esta ventana."
+  },
+  "anterior": {
+    "codigo": "D-018",
+    "fecha": "2026-10-24",
+    "fecha_legible": "24 de octubre de 2026",
+    "titulo": "Nueva medición de voto y seguimiento del censo exterior",
+    "url": "diario/2026-10-24.html",
+    "decision_id": null,
+    "estado": "Interpretación pendiente de validación humana"
+  },
+  "demoscopia": {
+    "estudios_de_voto_incorporados_hoy": 0,
+    "estudios_en_historico": 7,
+    "casas_en_panel": 6,
+    "nuevas_estimaciones_nacionales_voto_verificadas": 0,
+    "nuevas_publicaciones_preferencias_gobierno": 0,
+    "ampliaciones_documentales_estudios_existentes": 0,
+    "ultima_incorporacion_cuantitativa_voto": "2026-10-24",
+    "resultado_busqueda": "Sin nueva encuesta nacional admitida. Votómetro y análisis SER son modelos secundarios documentados aparte; no nuevas muestras.",
+    "agregacion": "Seis observaciones, una por casa, en el comparador; siete estudios en el histórico. Datos ausentes sin imputación; preferencias de gobierno y mapa provincial conservan sus registros.",
+    "limite": "Se conservan la reserva de acceso a la ficha primaria del CIS y la reserva del estudio del Senado. No se presume independencia entre paneles u oleadas.",
+    "documentos_excluidos_del_corte": [],
+    "documentos_no_incorporados_por_ficha_incompleta": [
+      "F-D019-11"
+    ],
+    "modelos_secundarios_revisados": [
+      "VOTOMETRO-20261024",
+      "SER-SIMULACION-20261024"
+    ]
+  },
+  "codificacion": {
+    "metodo": "REG-SERIES-29N-001",
+    "version_regla": "1.0",
+    "estado": "codificacion_D019_pendiente_IH",
+    "ultima_fecha_codificada": "2026-10-25",
+    "nota": "Recuentos y máximos ejecutados con evidencia por unidad; clasificación editorial pendiente IH. Histórico 7–24 conservado."
+  },
+  "corte_iso": "2026-10-25T09:30:00+01:00",
+  "zona_corte": "CET",
+  "cambios": [
+    "Respuesta consular: se incorpora el refuerzo comunicado por Exteriores; su cumplimiento final sigue pendiente.",
+    "Las declaraciones de las fuerzas políticas amplían el seguimiento de Presidencia, programa y coordinación territorial.",
+    "Se recupera acceso directo al Votómetro: es un agregado con simulación y se documenta aparte de las encuestas.",
+    "Sin nueva encuesta nacional admitida: se conservan siete estudios de seis casas y la observación parcial de IMOP.",
+    "Los cinco gráficos incorporan evidencias del 25 con la regla v1; se preserva íntegra la serie del 7 al 24."
+  ],
+  "senales": [
+    {
+      "id": "S-D019-01",
+      "tema": "Respuesta administrativa sobre el censo exterior",
+      "tipo": "Vigilancia",
+      "alcance": "Exteriores comunica refuerzos consulares. Falta comprobar la entrega exigida y su aceptación por los órganos competentes.",
+      "groups": [
+        "Garantías y procedimiento"
+      ],
+      "variable_levels": {
+        "V13": 2
+      },
+      "variables_en_observacion": [
+        "V13"
+      ],
+      "fuentes": [
+        "F-D019-01"
+      ],
+      "razon_codificacion": "Seguimiento procedimental; no se infiere participación V6 ni bloqueo de investidura V15.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D019-02",
+      "tema": "Coordinación entre fuerzas de izquierda",
+      "tipo": "Vigilancia",
+      "alcance": "Las posiciones de Podemos y Frente Amplio siguen diferenciadas; el acercamiento ERC–Podemos forma parte del seguimiento. No se acredita una nueva alianza estatal.",
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
+      ],
+      "variable_levels": {
+        "V4": 2,
+        "V9": 1,
+        "V12": 1,
+        "V16": 2
+      },
+      "variables_en_observacion": [
+        "V4",
+        "V9",
+        "V12",
+        "V16"
+      ],
+      "fuentes": [
+        "F-D019-02"
+      ],
+      "razon_codificacion": "Una unidad por coordinación electoral; no se duplican declaraciones de cada protagonista. Agenda catalana y bisagra sólo como contexto.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D019-03",
+      "tema": "Agenda catalana y capacidad de negociación de Junts",
+      "tipo": "Vigilancia",
+      "alcance": "Nogueras defiende la prioridad de la agenda catalana y reclama capacidad para influir en Madrid; apoyos concretos pendientes.",
+      "groups": [
+        "Territoriales/bisagra"
+      ],
+      "variable_levels": {
+        "V9": 2,
+        "V12": 2,
+        "V16": 1
+      },
+      "variables_en_observacion": [
+        "V9",
+        "V12",
+        "V16"
+      ],
+      "fuentes": [
+        "F-D019-03",
+        "F-D019-04"
+      ],
+      "razon_codificacion": "Reivindicación explícita de influencia y agenda territorial. V12 mide atención documental, no poder de veto demostrado.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D019-04",
+      "tema": "Gestión gallega como argumento del PP",
+      "tipo": "Vigilancia",
+      "alcance": "Feijóo vincula su proyecto estatal a su experiencia en la Xunta. Se sigue la relación entre oferta nacional y trayectoria territorial.",
+      "groups": [
+        "PP‑Vox",
+        "Territoriales/bisagra"
+      ],
+      "variable_levels": {
+        "V11": 2,
+        "V16": 1
+      },
+      "variables_en_observacion": [
+        "V11",
+        "V16"
+      ],
+      "fuentes": [
+        "F-D019-05"
+      ],
+      "razon_codificacion": "El vínculo territorial es explícito, no se asigna V11 sólo porque el acto ocurra en Vigo. Propuestas aún sin ejecución.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D019-05",
+      "tema": "Presidencia y relación PP–Vox",
+      "tipo": "Vigilancia",
+      "alcance": "Abascal expresa una aspiración presidencial propia. No hay evidencia nueva suficiente para elegir entre coalición y apoyo externo.",
+      "groups": [
+        "PP‑Vox"
+      ],
+      "variable_levels": {
+        "V3": 2,
+        "V16": 1
+      },
+      "variables_en_observacion": [
+        "V3",
+        "V16"
+      ],
+      "fuentes": [
+        "F-D019-06"
+      ],
+      "razon_codificacion": "La fórmula PP–Vox continúa bajo seguimiento (2); una aspiración no constituye un refuerzo de probabilidad.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D019-06",
+      "tema": "Propuesta programática del PSOE",
+      "tipo": "Vigilancia",
+      "alcance": "La propuesta constitucional anunciada en Granada se registra como posición del PSOE; falta conocer los apoyos para desarrollarla.",
+      "groups": [
+        "PSOE + izquierda"
+      ],
+      "variable_levels": {
+        "V16": 2
+      },
+      "variables_en_observacion": [
+        "V16"
+      ],
+      "fuentes": [
+        "F-D019-07"
+      ],
+      "razon_codificacion": "Seguimiento programático; la ubicación del mitin no convierte la propuesta estatal en una agenda territorial distinta.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D019-07",
+      "tema": "Vivienda y poder adquisitivo en la agenda sindical vasca",
+      "tipo": "Vigilancia",
+      "alcance": "Se retoma la convocatoria de ELA y otras organizaciones sobre vivienda, salarios y pérdida de poder adquisitivo, prevista para el 11 de noviembre.",
+      "groups": [
+        "Territoriales/bisagra"
+      ],
+      "variable_levels": {
+        "V7": 2,
+        "V8": 2,
+        "V10": 1,
+        "V16": 2
+      },
+      "variables_en_observacion": [
+        "V7",
+        "V8",
+        "V10",
+        "V16"
+      ],
+      "fuentes": [
+        "F-D019-08"
+      ],
+      "razon_codificacion": "Seguimiento explícito de vivienda y poder adquisitivo. V8 no mide inflación real. V10 es contexto; no se atribuyen reivindicaciones sindicales a partidos.",
+      "grado_confirmacion": "antecedente_en_seguimiento",
+      "validacion": "pendiente_IH"
+    }
+  ],
+  "dimension_nacional_territorial": [
+    {
+      "territorio": "Cataluña",
+      "actor": "Junts; ERC y Podemos; Comuns / Frente Amplio",
+      "agenda_explicita": "Prioridad territorial y opciones diferentes de coordinación.",
+      "agenda_estrategica": "Influencia estatal reivindicada; no negociación reservada acreditada.",
+      "instrumento_tactico": "Declaraciones y colaboración electoral anunciada.",
+      "variables": [
+        "V4",
+        "V9",
+        "V12",
+        "V16"
+      ],
+      "efecto_sistemico": "La compatibilidad de un futuro programa necesita compromisos verificables. No se presume investidura por compartir campaña.",
+      "fuentes": [
+        "F-D019-02",
+        "F-D019-03",
+        "F-D019-04"
+      ],
+      "ciudadana": "Hacer actos juntos, presentar una lista y apoyar un Gobierno son decisiones diferentes.",
+      "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
+      "fecha_incorporacion": "2026-10-25",
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "País Vasco",
+      "actor": "ELA y otras organizaciones convocantes",
+      "agenda_explicita": "Vivienda, salarios y pérdida de poder adquisitivo; antecedente del 22.",
+      "agenda_estrategica": "Reivindicaciones sindicales dirigidas a las instituciones.",
+      "instrumento_tactico": "Convocatoria del 11 de noviembre, todavía futura.",
+      "variables": [
+        "V7",
+        "V8",
+        "V10",
+        "V16"
+      ],
+      "efecto_sistemico": "La respuesta institucional podría aportar evidencia programática. No se anticipan movilización efectiva ni efectos electorales.",
+      "fuentes": [
+        "F-D019-08"
+      ],
+      "ciudadana": "Se sigue una convocatoria ya conocida; el gráfico registra que hoy volvemos a examinarla.",
+      "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
+      "fecha_incorporacion": "2026-10-25",
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "Galicia",
+      "actor": "Feijóo y PP gallego",
+      "agenda_explicita": "Trayectoria de gestión gallega como aval de la oferta estatal.",
+      "agenda_estrategica": "Proyección nacional de una experiencia autonómica reivindicada.",
+      "instrumento_tactico": "Acto y declaraciones de precampaña.",
+      "variables": [
+        "V11",
+        "V16"
+      ],
+      "efecto_sistemico": "El argumento territorial no acredita apoyos parlamentarios ni ejecución de propuestas.",
+      "fuentes": [
+        "F-D019-05"
+      ],
+      "ciudadana": "La experiencia que un candidato reivindica debe distinguirse de los resultados que promete.",
+      "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
+      "fecha_incorporacion": "2026-10-25",
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "territorio": "Andalucía / programa estatal",
+      "actor": "Sánchez / PSOE, acto en Granada",
+      "agenda_explicita": "Propuesta constitucional sobre el aborto.",
+      "agenda_estrategica": "Posición programática expresada públicamente.",
+      "instrumento_tactico": "Anuncio de precampaña.",
+      "variables": [
+        "V16"
+      ],
+      "efecto_sistemico": "Requiere procedimiento y apoyos; no es una reforma en vigor ni evidencia de acuerdo entre partidos.",
+      "fuentes": [
+        "F-D019-07"
+      ],
+      "ciudadana": "Anunciar una medida y aprobarla son pasos distintos. No atribuimos una agenda autonómica sólo por el lugar del acto.",
+      "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
+      "fecha_incorporacion": "2026-10-25",
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null
+    }
+  ],
+  "lectura_escenarios": [
+    {
+      "id": "G1",
+      "nombre": "Gobierno PP-Vox de coalición",
+      "lectura": "Continúa como escenario de referencia. Las aspiraciones presidenciales no acreditan acuerdo de coalición, programa o carteras.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "G2",
+      "nombre": "PP monocolor con apoyo externo de Vox",
+      "lectura": "Continúa como referencia; no se ha verificado un compromiso de apoyo externo de Vox.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "G4",
+      "nombre": "Reconstrucción progresista",
+      "lectura": "Se conserva la vigilancia de la coordinación y la compatibilidad programática, sin inferir una mayoría suficiente.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    },
+    {
+      "id": "G5",
+      "nombre": "Bloqueo / repetición electoral",
+      "lectura": "Se conserva como referencia. El procedimiento censal y la competencia electoral no demuestran bloqueo de investidura.",
+      "probabilidad_nueva": null,
+      "validacion": "pendiente_IH",
+      "decision_id": null
+    }
+  ],
+  "escenarios_conservados": {
+    "origen": "D-018; etiquetas documentales conservadas desde D-011, continuidad D-010",
+    "identificadores": [
+      "G1",
+      "G2",
+      "G4",
+      "G5"
+    ],
+    "scenario_levels": {
+      "G1": 1,
+      "G2": 1,
+      "G4": 2,
+      "G5": 1
+    },
+    "nota": "Se conservan expresamente las lecturas documentales de D-018: G1/G2/G4/G5 = 1/1/2/1. A-000 y MICMAC no se recalibran.",
+    "recalibracion": false
+  },
+  "incertidumbres": [
+    "Entrega y aceptación de la documentación censal; lectura íntegra del auto y calendario JEC aún no recuperada.",
+    "Formalización y posterior proclamación de candidaturas; no se equiparan a anuncios internos.",
+    "Acuerdos verificables de investidura, programa, composición ministerial y cooperación parlamentaria.",
+    "IMOP conserva reserva de fecha y acceso; ElectoPanel del 22 carece de ficha abierta suficiente. Persisten reservas anteriores de CIS y Senado.",
+    "La consulta se ha hecho después del corte. Fechas visibles anteriores permiten admisión con reservas; no existe captura histórica completa a las 09:30."
+  ],
+  "proximas_comprobaciones": [
+    {
+      "plazo": "24–72 horas",
+      "comprobacion": "Comprobar documentación censal, candidaturas presentadas y compromisos públicos; revisar fuentes demoscópicas originales."
+    },
+    {
+      "fecha": "2026-10-26",
+      "hito": "Cierre de presentación de candidaturas según calendario informado por RTVE; PDF JEC pendiente.",
+      "fuente": "F-D019-14"
+    },
+    {
+      "fecha": "2026-10-28",
+      "hito": "Publicación prevista de candidaturas presentadas; todavía no proclamación definitiva.",
+      "fuente": "F-D019-14"
+    },
+    {
+      "fecha": "2026-10-28 · 15:00",
+      "hito": "Plazo judicial comunicado por RTVE; comprobar cumplimiento.",
+      "fuente": "F-D019-01"
+    }
+  ],
+  "estudios_complementarios": [
+    {
+      "id": "ELECTOPANEL-PREFERENCIAS-20261020",
+      "tipo": "preferencias_sobre_formula_de_gobierno",
+      "instituto": "ElectoPanel",
+      "empresa_analisis": "Estudios y Minería de Datos S. L.",
+      "publicacion": "2026-10-20",
+      "hora_publicacion": "18:09",
+      "zona_horaria_publicacion": "no indicada",
+      "medio": "Electomanía",
+      "promotor": null,
+      "reserva_promotor": "La ficha identifica el medio de publicación; no identifica un promotor separado.",
+      "ambito": "España",
+      "universo": "Personas con derecho a voto en España",
+      "campo_inicio": "2026-10-05",
+      "campo_fin": "2026-10-17",
+      "muestra": 6873,
+      "modo": "CAWI / tracking; 60 % de panelistas fijos",
+      "cuotas": [
+        "territorio",
+        "sexo",
+        "edad",
+        "formación",
+        "interés político"
+      ],
+      "pregunta_resumida": "Fórmula de gobierno preferida tras las elecciones; pregunta general, sin condicionar a una mayoría PP-Vox.",
+      "porcentajes_preferencia": {
+        "PSOE + Frente Amplio": 33.6,
+        "PP + Vox": 29.3,
+        "PP en solitario": 17.0,
+        "Otra fórmula": 9.5,
+        "PSOE en solitario": 6.8,
+        "NS/NC": 2.0,
+        "PP–PSOE": 1.8
+      },
+      "url": "https://electomania.es/electopanel-20-oct-continua-la-division-por-la-formula-de-gobierno-preferida-tras-el-29n/",
+      "incorporado": "2026-10-21",
+      "validacion_interpretacion": "validada_IH",
+      "incluido_en_comparador_voto": false,
+      "incluido_en_agregado_voto": false,
+      "reserva": "No es intención ni estimación de voto, ni probabilidad de escenarios. Campo concluido el 17: no mide acontecimientos del 18–20. No se publican tamaños de submuestras partidarias; posible solapamiento de panel, sin independencia presumida.",
+      "decision_id": "DEC-IH-D015-001"
+    },
+    {
+      "id": "SIGMADOS-MAPA-20261020",
+      "tipo": "ampliacion_documental_estudio_existente",
+      "estudio_vinculado": "SIGMADOS-ELMUNDO-20261019",
+      "publicacion": "2026-10-20",
+      "hora_publicacion": null,
+      "url": "https://www.sigmados.com/noticia?id=rivzEnwHgHaatUC",
+      "incorporado": "2026-10-21",
+      "campo_inicio": "2026-10-01",
+      "campo_fin": "2026-10-14",
+      "muestra": 3007,
+      "modo": "CATI / CAWI",
+      "nueva_muestra": false,
+      "nueva_estimacion_nacional_voto": false,
+      "reserva": "Mapa de estimaciones del instituto; no cálculo de SOPHHIA. No se suman extremos de intervalos. La ficha no indica tamaños provinciales; campo anterior a los acuerdos posteriores."
+    },
+    {
+      "id": "VOTOMETRO-20261024",
+      "tipo": "agregacion_y_simulacion_secundaria",
+      "instituto": "Redlines Estrategia y Comunicación",
+      "medio": "THE OBJECTIVE",
+      "publicacion": "2026-10-24",
+      "hora_publicacion": "05:25; actualización 06:05",
+      "url": "https://theobjective.com/espana/politica/2026-10-24/psoe-vox-crece-pp-pierde-votometro/",
+      "incorporado": "2026-10-25",
+      "nueva_muestra": false,
+      "incluido_en_comparador_voto": false,
+      "incluido_en_agregado_voto": false,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null,
+      "reserva": "Incorporación documental tardía: ya estaba fechado antes del corte de D-018. No entra en el promedio de sondeos ni transfiere probabilidades a SOPHHIA."
+    },
+    {
+      "id": "SER-SIMULACION-20261024",
+      "tipo": "simulacion_condicionada_candidaturas",
+      "medio": "Cadena SER",
+      "publicacion": "2026-10-24",
+      "hora_publicacion": "08:45 CEST",
+      "url": "https://cadenaser.com/nacional/2026/10/24/podemos-y-frente-amplio-perderian-entre-4-y-8-escanos-y-desperdiciarian-mas-de-800000-votos-por-ir-separados-cadena-ser/",
+      "incorporado": "2026-10-25",
+      "nueva_muestra": false,
+      "incluido_en_comparador_voto": false,
+      "incluido_en_agregado_voto": false,
+      "validacion_interpretacion": "pendiente_IH",
+      "decision_id": null,
+      "reserva": "Documento anterior al corte de D-018, incorporado ahora como referencia metodológica; sin reproducir ni adoptar sus probabilidades."
+    }
+  ]
+}

@@ -1,23 +1,23 @@
 {
-  "version": "v0.36-D018-editorial",
-  "updated": "2026-10-24",
+  "version": "v0.38-D019",
+  "updated": "2026-10-25",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-018",
+  "current_entry": "D-019",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "Se incorpora parcialmente la segunda ola de IMOP: nueva observación de voto, sin convertirla en pronóstico de Gobierno. El Supremo fija un nuevo plazo documental sobre el censo exterior y el calendario prevé el inicio del primer envío CERA. Se actualizan las señales de Navarra, Teruel y Andalucía. D-018 queda pendiente de validación humana, sin recalibración. Codificación documental 18–24 reconstruida el 24/10, pendiente IH.",
+  "system_state": "Exteriores comunica refuerzos consulares; las fuerzas políticas explicitan posiciones sobre la Presidencia y el programa. Se mantiene la vigilancia de la coordinación electoral y las agendas territoriales. Sin nueva encuesta nacional admitida ni recalibración. Los cinco gráficos incorporan la codificación documental del 25, pendiente de validación humana.",
   "dominant_scenario": "Mayoría PP-Vox",
-  "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-018",
+  "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-019",
   "main_uncertainty": "Forma de Gobierno: coalición, apoyo externo o fórmula intermedia",
-  "watch_variable": "Atención documental 18–24 reconstruida el 24/10; pendiente IH. Pesos MICMAC conservados.",
-  "social_axis": "Seguimiento de las agendas territoriales y garantías electorales, sin atribuir resultados futuros.",
+  "watch_variable": "V3, V4, V7, V8, V9, V10, V11, V12, V13 y V16 · atención documental, sin modificar pesos MICMAC",
+  "social_axis": "Compatibilidad programática y agendas territoriales bajo seguimiento documental.",
   "current_bullets": [
-    "IMOP aporta una observación parcial de voto: PP 28,5 %, PSOE 27,1 % y Vox 20,0 %. Campo concluido el 16; no mide hechos posteriores.",
-    "El requerimiento del Supremo añade un plazo documental verificable: 28 de octubre a las 15:00, según RTVE.",
-    "D-018 pendiente de validación humana. Series documentales 18–24 reconstruidas el 24/10; codificación pendiente IH."
+    "Respuesta consular: se incorpora el refuerzo comunicado por Exteriores; su cumplimiento final sigue pendiente.",
+    "Se recupera acceso directo al Votómetro: es un agregado con simulación y se documenta aparte de las encuestas.",
+    "D-019 y codificación de sus cinco gráficos pendientes de validación humana."
   ],
   "path": [
     {
@@ -140,31 +140,38 @@
       "title": "Nueva medición de voto y seguimiento del censo exterior",
       "recalibration": "No",
       "state": "Interpretación pendiente de validación humana"
+    },
+    {
+      "id": "D-019",
+      "date": "2026-10-25",
+      "title": "Censo exterior y posiciones políticas antes del cierre de candidaturas",
+      "recalibration": "No",
+      "state": "Interpretación pendiente de validación humana"
     }
   ],
   "scenarios": [
     {
       "id": "G1",
       "name": "Gobierno PP-Vox de coalición",
-      "trend": "marco conservado en D-018; sin nueva probabilidad",
+      "trend": "marco conservado en D-019; sin nueva probabilidad",
       "status": "marco anterior conservado; no nueva estimación"
     },
     {
       "id": "G2",
       "name": "PP monocolor con apoyo externo de Vox",
-      "trend": "marco conservado en D-018; sin nueva probabilidad",
+      "trend": "marco conservado en D-019; sin nueva probabilidad",
       "status": "marco anterior conservado; no nueva estimación"
     },
     {
       "id": "G4",
       "name": "Reconstrucción progresista",
-      "trend": "marco conservado en D-018; sin nueva probabilidad",
+      "trend": "marco conservado en D-019; sin nueva probabilidad",
       "status": "pendiente evaluación; sin probabilidad asignada"
     },
     {
       "id": "G5",
       "name": "Bloqueo / repetición electoral",
-      "trend": "marco conservado en D-018; sin nueva probabilidad",
+      "trend": "marco conservado en D-019; sin nueva probabilidad",
       "status": "marco anterior conservado; no nueva estimación"
     }
   ],
@@ -187,7 +194,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Reconstrucción documental 18–24 realizada el 24/10, con regla v1 y cortes originales; codificación pendiente IH.",
+    "mode": "Codificación documental diaria; 7–24 conservado, 25 calculado con regla v1 y evidencia. Pendiente IH.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -195,13 +202,13 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.37-D018-reconstruccion-18-24",
-    "cutoff": "2026-10-24",
-    "last_numeric_date": "2026-10-24",
+    "version": "v0.38-D019",
+    "cutoff": "2026-10-25",
+    "last_numeric_date": "2026-10-25",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Regla v1, reconstrucciones 7–16 y 18–24 y codificación D-011 pendientes de validación IH específica",
+    "validation": "Regla v1, reconstrucciones previas y codificación D-019 pendientes de validación IH específica",
     "reconstruction_date": "2026-10-24"
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
@@ -249,139 +256,93 @@
     "daily_observations": [
       {
         "territorio": "Cataluña",
-        "actor": "Comuns / Frente Amplio",
-        "agenda_explicita": "Candidatura descrita en D-017, en seguimiento.",
-        "agenda_estrategica": "Coordinación electoral; sin nuevo acuerdo estatal verificado.",
-        "instrumento_tactico": "Comprobación posterior de formalización.",
+        "actor": "Junts; ERC y Podemos; Comuns / Frente Amplio",
+        "agenda_explicita": "Prioridad territorial y opciones diferentes de coordinación.",
+        "agenda_estrategica": "Influencia estatal reivindicada; no negociación reservada acreditada.",
+        "instrumento_tactico": "Declaraciones y colaboración electoral anunciada.",
         "variables": [
           "V4",
           "V9",
           "V12",
           "V16"
         ],
-        "efecto_sistemico": "Se mantiene la distinción entre integración electoral y compatibilidad de un futuro programa de gobierno.",
+        "efecto_sistemico": "La compatibilidad de un futuro programa necesita compromisos verificables. No se presume investidura por compartir campaña.",
         "fuentes": [
-          "D-017:F-D017-07"
+          "F-D019-02",
+          "F-D019-03",
+          "F-D019-04"
         ],
-        "grado_confirmacion": "antecedente_sin_novedad_verificada",
-        "ciudadana": "Hoy no añadimos una novedad confirmada sobre esta candidatura.",
-        "fecha_incorporacion": "2026-10-24",
-        "puntuacion": null,
+        "ciudadana": "Hacer actos juntos, presentar una lista y apoyar un Gobierno son decisiones diferentes.",
+        "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
+        "fecha_incorporacion": "2026-10-25",
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
         "territorio": "País Vasco",
-        "actor": "ELA y organizaciones convocantes",
-        "agenda_explicita": "Vivienda y salarios; convocatoria del 11 de noviembre registrada en D-017.",
-        "agenda_estrategica": "Agenda sindical expresa, sin atribución automática a partidos.",
-        "instrumento_tactico": "Seguimiento de convocatoria y respuesta institucional.",
+        "actor": "ELA y otras organizaciones convocantes",
+        "agenda_explicita": "Vivienda, salarios y pérdida de poder adquisitivo; antecedente del 22.",
+        "agenda_estrategica": "Reivindicaciones sindicales dirigidas a las instituciones.",
+        "instrumento_tactico": "Convocatoria del 11 de noviembre, todavía futura.",
         "variables": [
           "V7",
+          "V8",
           "V10",
           "V16"
         ],
-        "efecto_sistemico": "Sin nueva evidencia para cuantificar movilización, concesiones programáticas o efectos sobre la estabilidad.",
+        "efecto_sistemico": "La respuesta institucional podría aportar evidencia programática. No se anticipan movilización efectiva ni efectos electorales.",
         "fuentes": [
-          "D-017:F-D017-05"
+          "F-D019-08"
         ],
-        "grado_confirmacion": "antecedente_sin_novedad_verificada",
-        "ciudadana": "La convocatoria sigue pendiente de celebrarse; no anticipamos asistencia ni resultados.",
-        "fecha_incorporacion": "2026-10-24",
-        "puntuacion": null,
+        "ciudadana": "Se sigue una convocatoria ya conocida; el gráfico registra que hoy volvemos a examinarla.",
+        "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
+        "fecha_incorporacion": "2026-10-25",
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
         "territorio": "Galicia",
-        "actor": "BNG A Coruña / Avia Veira",
-        "agenda_explicita": "Posición registrada en D-017.",
-        "agenda_estrategica": "Seguimiento del debate público; sin nuevo compromiso estatal verificado.",
-        "instrumento_tactico": "Comunicado anterior, conservado como antecedente.",
+        "actor": "Feijóo y PP gallego",
+        "agenda_explicita": "Trayectoria de gestión gallega como aval de la oferta estatal.",
+        "agenda_estrategica": "Proyección nacional de una experiencia autonómica reivindicada.",
+        "instrumento_tactico": "Acto y declaraciones de precampaña.",
         "variables": [
           "V11",
           "V16"
         ],
-        "efecto_sistemico": "No se convierte la posición anterior en un cambio de voto o poder de negociación acreditado.",
+        "efecto_sistemico": "El argumento territorial no acredita apoyos parlamentarios ni ejecución de propuestas.",
         "fuentes": [
-          "D-017:F-D017-06"
+          "F-D019-05"
         ],
-        "grado_confirmacion": "antecedente_sin_novedad_verificada",
-        "ciudadana": "Conservamos la referencia anterior y no la presentamos otra vez como noticia nueva.",
-        "fecha_incorporacion": "2026-10-24",
-        "puntuacion": null,
+        "ciudadana": "La experiencia que un candidato reivindica debe distinguirse de los resultados que promete.",
+        "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
+        "fecha_incorporacion": "2026-10-25",
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       },
       {
-        "territorio": "Navarra",
-        "actor": "UPN / PP",
-        "agenda_explicita": "Designación de cabeceras de listas.",
-        "agenda_estrategica": "Representación territorial mediante coalición electoral.",
-        "instrumento_tactico": "Decisión del Consejo Político de UPN.",
+        "territorio": "Andalucía / programa estatal",
+        "actor": "Sánchez / PSOE, acto en Granada",
+        "agenda_explicita": "Propuesta constitucional sobre el aborto.",
+        "agenda_estrategica": "Posición programática expresada públicamente.",
+        "instrumento_tactico": "Anuncio de precampaña.",
         "variables": [
-          "V11",
-          "V12",
           "V16"
         ],
-        "efecto_sistemico": "Concreta la oferta electoral; no determina por sí sola el resultado ni las condiciones de una investidura.",
+        "efecto_sistemico": "Requiere procedimiento y apoyos; no es una reforma en vigor ni evidencia de acuerdo entre partidos.",
         "fuentes": [
-          "F-D018-04"
+          "F-D019-07"
         ],
-        "grado_confirmacion": "declaracion_atribuida",
-        "ciudadana": "Los nombres elegidos por UPN concretan su candidatura; la proclamación oficial es un paso posterior.",
-        "fecha_incorporacion": "2026-10-24",
-        "puntuacion": null,
-        "validacion_interpretacion": "pendiente_IH",
-        "decision_id": null
-      },
-      {
-        "territorio": "Andalucía / agenda estatal",
-        "actor": "Elías Bendodo / PP",
-        "agenda_explicita": "Aspiración a gobernar solo y apertura a acuerdos con Vox.",
-        "agenda_estrategica": "Opciones expresadas públicamente, sin atribuir negociaciones reservadas.",
-        "instrumento_tactico": "Declaraciones en Málaga.",
-        "variables": [
-          "V11",
-          "V16"
-        ],
-        "efecto_sistemico": "No permite elegir entre coalición y apoyo externo ni anticipar reparto ministerial o programa.",
-        "fuentes": [
-          "F-D018-06"
-        ],
-        "grado_confirmacion": "declaracion_atribuida",
-        "ciudadana": "Las declaraciones mantienen posibilidades abiertas; todavía no son un pacto para gobernar.",
-        "fecha_incorporacion": "2026-10-24",
-        "puntuacion": null,
-        "validacion_interpretacion": "pendiente_IH",
-        "decision_id": null
-      },
-      {
-        "territorio": "Aragón / Teruel",
-        "actor": "IU / CHA",
-        "agenda_explicita": "Abengochea describe el bloqueo y pide reconsideración.",
-        "agenda_estrategica": "Coordinación de una oferta electoral, según la posición de IU.",
-        "instrumento_tactico": "Declaración pública y petición a CHA.",
-        "variables": [
-          "V4",
-          "V11",
-          "V16"
-        ],
-        "efecto_sistemico": "Puede afectar a la oferta en la circunscripción si se confirma; no demuestra transferencia automática de votos ni escaños.",
-        "fuentes": [
-          "F-D018-05"
-        ],
-        "grado_confirmacion": "declaracion_atribuida",
-        "ciudadana": "IU da por bloqueada la candidatura en sus declaraciones; comprobaremos cómo queda el registro final.",
-        "fecha_incorporacion": "2026-10-24",
-        "puntuacion": null,
+        "ciudadana": "Anunciar una medida y aprobarla son pasos distintos. No atribuimos una agenda autonómica sólo por el lugar del acto.",
+        "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
+        "fecha_incorporacion": "2026-10-25",
         "validacion_interpretacion": "pendiente_IH",
         "decision_id": null
       }
     ]
   },
   "current_reading": {
-    "signal": "Nueva observación de voto y seguimiento del censo exterior",
+    "signal": "Respuesta consular y posiciones ante la formación de Gobierno",
     "micmac_variables": [
       "V4",
       "V7",
@@ -392,7 +353,7 @@
       "V13",
       "V16"
     ],
-    "decision": "D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, limitada a su interpretación. La publicación técnica no valida modelos ni codificaciones."
+    "decision": "D-019, D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001, con sus alcances originales. La publicación técnica no valida interpretaciones, reglas ni codificaciones."
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -417,74 +378,174 @@
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D018-01",
-      "tema": "Una nueva observación demoscópica parcial",
-      "tipo": "estimacion_instituto",
-      "fuentes": [
-        "F-D018-01"
+      "id": "S-D019-01",
+      "tema": "Respuesta administrativa sobre el censo exterior",
+      "tipo": "Vigilancia",
+      "alcance": "Exteriores comunica refuerzos consulares. Falta comprobar la entrega exigida y su aceptación por los órganos competentes.",
+      "groups": [
+        "Garantías y procedimiento"
       ],
-      "variables_en_observacion": [
-        "V4",
-        "V16"
-      ],
-      "alcance": "Añade información al comparador; no identifica efectos de hechos posteriores al 16 ni resuelve qué Gobierno se formará.",
-      "fecha_incorporacion": "2026-10-24",
-      "valor_grafico": null,
-      "estado_interpretacion": "pendiente_IH",
-      "decision_id": null
-    },
-    {
-      "id": "S-D018-02",
-      "tema": "Requerimiento documental y calendario exterior",
-      "tipo": "informacion_institucional_con_reserva",
-      "fuentes": [
-        "F-D018-02",
-        "F-D018-03"
-      ],
+      "variable_levels": {
+        "V13": 2
+      },
       "variables_en_observacion": [
         "V13"
       ],
-      "alcance": "El plazo permite observar cumplimiento administrativo; no se deduce un número final de votos excluidos.",
-      "fecha_incorporacion": "2026-10-24",
-      "valor_grafico": null,
-      "estado_interpretacion": "pendiente_IH",
-      "decision_id": null
+      "fuentes": [
+        "F-D019-01"
+      ],
+      "razon_codificacion": "Seguimiento procedimental; no se infiere participación V6 ni bloqueo de investidura V15.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D018-03",
-      "tema": "Designaciones y bloqueo de coordinación territorial",
-      "tipo": "anuncios_y_declaraciones",
-      "fuentes": [
-        "F-D018-04",
-        "F-D018-05"
+      "id": "S-D019-02",
+      "tema": "Coordinación entre fuerzas de izquierda",
+      "tipo": "Vigilancia",
+      "alcance": "Las posiciones de Podemos y Frente Amplio siguen diferenciadas; el acercamiento ERC–Podemos forma parte del seguimiento. No se acredita una nueva alianza estatal.",
+      "groups": [
+        "PSOE + izquierda",
+        "Territoriales/bisagra"
       ],
+      "variable_levels": {
+        "V4": 2,
+        "V9": 1,
+        "V12": 1,
+        "V16": 2
+      },
       "variables_en_observacion": [
         "V4",
-        "V11",
+        "V9",
         "V12",
         "V16"
       ],
-      "alcance": "La formalización electoral y los apoyos posteriores a una investidura requieren comprobaciones distintas.",
-      "fecha_incorporacion": "2026-10-24",
-      "valor_grafico": null,
-      "estado_interpretacion": "pendiente_IH",
-      "decision_id": null
+      "fuentes": [
+        "F-D019-02"
+      ],
+      "razon_codificacion": "Una unidad por coordinación electoral; no se duplican declaraciones de cada protagonista. Agenda catalana y bisagra sólo como contexto.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D018-04",
-      "tema": "Opciones de Gobierno expresadas por el PP",
-      "tipo": "declaracion_atribuida",
-      "fuentes": [
-        "F-D018-06"
+      "id": "S-D019-03",
+      "tema": "Agenda catalana y capacidad de negociación de Junts",
+      "tipo": "Vigilancia",
+      "alcance": "Nogueras defiende la prioridad de la agenda catalana y reclama capacidad para influir en Madrid; apoyos concretos pendientes.",
+      "groups": [
+        "Territoriales/bisagra"
       ],
+      "variable_levels": {
+        "V9": 2,
+        "V12": 2,
+        "V16": 1
+      },
+      "variables_en_observacion": [
+        "V9",
+        "V12",
+        "V16"
+      ],
+      "fuentes": [
+        "F-D019-03",
+        "F-D019-04"
+      ],
+      "razon_codificacion": "Reivindicación explícita de influencia y agenda territorial. V12 mide atención documental, no poder de veto demostrado.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D019-04",
+      "tema": "Gestión gallega como argumento del PP",
+      "tipo": "Vigilancia",
+      "alcance": "Feijóo vincula su proyecto estatal a su experiencia en la Xunta. Se sigue la relación entre oferta nacional y trayectoria territorial.",
+      "groups": [
+        "PP‑Vox",
+        "Territoriales/bisagra"
+      ],
+      "variable_levels": {
+        "V11": 2,
+        "V16": 1
+      },
+      "variables_en_observacion": [
+        "V11",
+        "V16"
+      ],
+      "fuentes": [
+        "F-D019-05"
+      ],
+      "razon_codificacion": "El vínculo territorial es explícito, no se asigna V11 sólo porque el acto ocurra en Vigo. Propuestas aún sin ejecución.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D019-05",
+      "tema": "Presidencia y relación PP–Vox",
+      "tipo": "Vigilancia",
+      "alcance": "Abascal expresa una aspiración presidencial propia. No hay evidencia nueva suficiente para elegir entre coalición y apoyo externo.",
+      "groups": [
+        "PP‑Vox"
+      ],
+      "variable_levels": {
+        "V3": 2,
+        "V16": 1
+      },
+      "variables_en_observacion": [
+        "V3",
+        "V16"
+      ],
+      "fuentes": [
+        "F-D019-06"
+      ],
+      "razon_codificacion": "La fórmula PP–Vox continúa bajo seguimiento (2); una aspiración no constituye un refuerzo de probabilidad.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D019-06",
+      "tema": "Propuesta programática del PSOE",
+      "tipo": "Vigilancia",
+      "alcance": "La propuesta constitucional anunciada en Granada se registra como posición del PSOE; falta conocer los apoyos para desarrollarla.",
+      "groups": [
+        "PSOE + izquierda"
+      ],
+      "variable_levels": {
+        "V16": 2
+      },
       "variables_en_observacion": [
         "V16"
       ],
-      "alcance": "Solitario y coalición siguen siendo hipótesis; falta acuerdo bilateral sobre fórmula, programa y composición.",
-      "fecha_incorporacion": "2026-10-24",
-      "valor_grafico": null,
-      "estado_interpretacion": "pendiente_IH",
-      "decision_id": null
+      "fuentes": [
+        "F-D019-07"
+      ],
+      "razon_codificacion": "Seguimiento programático; la ubicación del mitin no convierte la propuesta estatal en una agenda territorial distinta.",
+      "grado_confirmacion": "declaracion_atribuida",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D019-07",
+      "tema": "Vivienda y poder adquisitivo en la agenda sindical vasca",
+      "tipo": "Vigilancia",
+      "alcance": "Se retoma la convocatoria de ELA y otras organizaciones sobre vivienda, salarios y pérdida de poder adquisitivo, prevista para el 11 de noviembre.",
+      "groups": [
+        "Territoriales/bisagra"
+      ],
+      "variable_levels": {
+        "V7": 2,
+        "V8": 2,
+        "V10": 1,
+        "V16": 2
+      },
+      "variables_en_observacion": [
+        "V7",
+        "V8",
+        "V10",
+        "V16"
+      ],
+      "fuentes": [
+        "F-D019-08"
+      ],
+      "razon_codificacion": "Seguimiento explícito de vivienda y poder adquisitivo. V8 no mide inflación real. V10 es contexto; no se atribuyen reivindicaciones sindicales a partidos.",
+      "grado_confirmacion": "antecedente_en_seguimiento",
+      "validacion": "pendiente_IH"
     }
   ]
 }

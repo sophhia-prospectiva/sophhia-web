@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-10-24",
+  "ultima_actualizacion": "2026-10-25",
   "entradas": [
+    {
+      "codigo": "D-019",
+      "fecha": "2026-10-25",
+      "titulo": "Censo exterior y posiciones políticas antes del cierre de candidaturas",
+      "url": "diario/2026-10-25.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-018",
       "fecha": "2026-10-24",
