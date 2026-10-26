@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-10-25",
+  "ultima_actualizacion": "2026-10-26",
   "entradas": [
+    {
+      "codigo": "D-020",
+      "fecha": "2026-10-26",
+      "titulo": "Cierre de candidaturas y pactos tácticos antes de la publicación oficial",
+      "url": "diario/2026-10-26.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-019",
       "fecha": "2026-10-25",
