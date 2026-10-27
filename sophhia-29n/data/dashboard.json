@@ -1,23 +1,24 @@
 {
-  "version": "v0.39-D020",
-  "updated": "2026-10-26",
+  "version": "v0.40-D021",
+  "updated": "2026-10-27",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-020",
+  "current_entry": "D-021",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "El cierre de candidaturas concentra la jornada. PP y Vox negocian una fórmula para el Senado; en Baleares, Podemos se integra en Ara Més-Front Ampli; PSOE y Frente Amplio explicitan sus condiciones de Gobierno. Sin nueva encuesta nacional admitida ni recalibración. Los cinco gráficos incorporan cinco unidades documentales del 26, pendientes de validación humana.",
+  "system_state": "PP y Vox formalizan una coordinación para el Senado con retiradas y candidaturas limitadas por provincias; Podemos confirma que no presentará candidatura propia a la Cámara Alta en Cataluña, Comunidad Valenciana, Canarias y Baleares. La publicación oficial de candidaturas sigue pendiente del 28. Sin nueva encuesta nacional admitida ni recalibración. Los cinco gráficos incorporan tres unidades documentales del 27, pendientes de validación humana.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Formalización de candidaturas y forma de cooperación PP-Vox y de las izquierdas tras el cierre",
-  "watch_variable": "V3, V4, V7, V8, V11, V12 y V16 · atención documental, sin modificar pesos MICMAC",
+  "main_uncertainty": "Publicación oficial de candidaturas el 28 y alcance político de coordinaciones electorales que no equivalen a pactos de Gobierno.",
+  "watch_variable": "V3 · Relación PP‑Vox; V4 · Fragmentación izquierda; V11/V12/V16 · coordinación territorial",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "PP y Vox negocian una fórmula para el Senado, pero al corte no consta acuerdo formal.",
-    "En Baleares, Podemos se integra como independiente en Ara Més-Front Ampli: cooperación territorial concreta sin extrapolación estatal.",
-    "D-020 y codificación de sus cinco gráficos pendientes de validación humana."
+    "PP y Vox concretan una coordinación senatorial por provincias.",
+    "Podemos no presentará candidatura propia al Senado en cuatro territorios.",
+    "La lista oficial se comprobará el 28; no se anticipa su validación.",
+    "Sin nueva encuesta nacional admitida ni recalibración."
   ],
   "path": [
     {
@@ -347,11 +348,7 @@
       }
     ]
   },
-  "current_reading": {
-    "signal": "Cierre de candidaturas y negociación de fórmulas electorales",
-    "micmac_variables": "V3, V4, V7, V8, V11, V12 y V16 · atención documental, sin modificar pesos MICMAC",
-    "decision": "D-020, D-019, D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001, con sus alcances originales. La publicación técnica no valida interpretaciones, reglas ni codificaciones."
-  },
+  "current_reading": "PP y Vox formalizan una coordinación para el Senado con retiradas y candidaturas limitadas por provincias; Podemos confirma que no presentará candidatura propia a la Cámara Alta en Cataluña, Comunidad Valenciana, Canarias y Baleares. La publicación oficial de candidaturas sigue pendiente del 28. Sin nueva encuesta nacional admitida ni recalibración. Los cinco gráficos incorporan tres unidades documentales del 27, pendientes de validación humana.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -371,7 +368,7 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación pendiente de validación humana",
+  "human_validation": "Interpretación y codificación D-021 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
