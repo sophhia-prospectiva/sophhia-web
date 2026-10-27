@@ -1,13 +1,13 @@
 {
-  "version": "v0.39-D020",
-  "mode": "Codificación documental diaria; 7–25 conservado, 26 calculado con regla v1 y evidencia. Pendiente IH.",
+  "version": "v0.40-D021",
+  "mode": "Codificación documental diaria; 7–26 conservado, 27 calculado con regla v1 y evidencia. Pendiente IH.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-10-26",
-  "current_entry": "D-020",
-  "last_numeric_date": "2026-10-26",
-  "updated": "2026-10-26",
+  "cutoff": "2026-10-27",
+  "current_entry": "D-021",
+  "last_numeric_date": "2026-10-27",
+  "updated": "2026-10-27",
   "reconstruction_date": "2026-10-24",
-  "interpretation_cutoff": "2026-10-26T09:30:00+01:00",
+  "interpretation_cutoff": "2026-10-27T09:30:00+01:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
     {
@@ -136,6 +136,12 @@
       "entry": "D-020",
       "source_status": "codificacion_editorial_pendiente_IH",
       "retrospective": false
+    },
+    {
+      "date": "2026-10-27",
+      "entry": "D-021",
+      "source_status": "codificacion_editorial_pendiente_IH",
+      "retrospective": false
     }
   ],
   "scenarios": {
@@ -149,6 +155,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -181,6 +188,7 @@
       1,
       1,
       1,
+      1,
       1
     ],
     "G4 · Reconstrucción progresista": [
@@ -203,6 +211,7 @@
       2,
       2,
       2,
+      2,
       2
     ],
     "G5 · Bloqueo/repetición": [
@@ -215,6 +224,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -249,6 +259,7 @@
       3,
       3,
       2,
+      1,
       1
     ],
     "PSOE + izquierda": [
@@ -271,7 +282,8 @@
       3,
       3,
       2,
-      3
+      3,
+      1
     ],
     "Territoriales/bisagra": [
       0,
@@ -293,7 +305,8 @@
       6,
       5,
       4,
-      1
+      1,
+      2
     ],
     "Garantías y procedimiento": [
       0,
@@ -313,6 +326,7 @@
       2,
       1,
       2,
+      1,
       1,
       1,
       1
@@ -339,7 +353,8 @@
       2,
       2,
       2,
-      2
+      2,
+      null
     ],
     "Inflación/coste de vida": [
       1,
@@ -361,7 +376,8 @@
       null,
       null,
       2,
-      2
+      2,
+      null
     ],
     "Fragmentación izquierda": [
       1,
@@ -379,6 +395,7 @@
       2,
       null,
       null,
+      2,
       2,
       2,
       2,
@@ -405,7 +422,8 @@
       2,
       2,
       2,
-      2
+      2,
+      3
     ],
     "Participación": [
       null,
@@ -415,6 +433,7 @@
       2,
       1,
       2,
+      null,
       null,
       null,
       null,
@@ -438,6 +457,7 @@
       1,
       2,
       2,
+      null,
       null,
       null,
       null,
@@ -473,6 +493,7 @@
       1,
       1,
       2,
+      null,
       null
     ],
     "Agenda nacionalista vasca": [
@@ -495,6 +516,7 @@
       1,
       1,
       1,
+      null,
       null
     ],
     "Veto/bisagra territorial": [
@@ -517,12 +539,14 @@
       1,
       1,
       2,
-      1
+      1,
+      2
     ],
     "Compatibilidad programática-territorial": [
       null,
       null,
       null,
+      2,
       2,
       2,
       2,
@@ -561,6 +585,7 @@
       2,
       2,
       2,
+      2,
       2
     ]
   },
@@ -571,6 +596,7 @@
       1,
       1,
       1,
+      0,
       0,
       0,
       0,
@@ -607,9 +633,11 @@
       10,
       8,
       7,
-      5
+      5,
+      3
     ],
     "Disruptivas": [
+      0,
       0,
       0,
       0,
@@ -651,6 +679,7 @@
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -661,14 +690,14 @@
     "territorial": "ordinal_1_3",
     "signals": "counts"
   },
-  "validation": "Regla v1, reconstrucciones previas y codificación D-020 pendientes de validación IH específica",
+  "validation": "Regla v1, reconstrucciones previas y codificación D-021 pendientes de validación IH específica",
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
   "note": "Sin recalibración de A-000, sin modificación de MICMAC ni de probabilidades selladas.",
   "readings": {
-    "scenarios": "Se conservan expresamente las lecturas documentales de D-019: G1/G2/G4/G5 = 1/1/2/1. A-000 y MICMAC no se recalibran.",
-    "variables": "V3, V4, V7, V8 y V16 tienen seguimiento explícito. V6 y V15 quedan sin registro específico; los huecos no son ceros.",
-    "territorial": "Baleares aporta una unidad de agenda territorial complementaria y compatibilidad; no se fuerza codificación catalana o vasca sin evidencia específica.",
-    "signals": "Cinco temas externos en vigilancia. El resumen secundario de sondeos y el calendario contextual no añaden una muestra ni una señal recalibradora."
+    "scenarios": "Se conservan expresamente las lecturas documentales de D-020: G1/G2/G4/G5 = 1/1/2/1. A-000 y MICMAC no se recalibran.",
+    "variables": "V3 alcanza atención alta por la formalización detallada del acuerdo senatorial; V4 permanece en seguimiento. V7, V8, V6 y V15 quedan sin registro específico.",
+    "territorial": "Las reglas provinciales del pacto PP‑Vox y la retirada de Podemos en cuatro territorios elevan el seguimiento de V11, V12 y V16; V9 y V10 quedan sin registro específico.",
+    "signals": "Tres temas externos en vigilancia. El calendario delimita la verificación oficial; no hay señal confirmatoria, disruptiva ni recalibradora."
   },
   "reconstructions": [
     {

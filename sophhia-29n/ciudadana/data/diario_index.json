@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-10-26",
+  "ultima_actualizacion": "2026-10-27",
   "entradas": [
+    {
+      "codigo": "D-021",
+      "fecha": "2026-10-27",
+      "titulo": "El pacto senatorial PP‑Vox concreta la coordinación territorial",
+      "url": "diario/2026-10-27.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-020",
       "fecha": "2026-10-26",
