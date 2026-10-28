@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso Aeropuerto Barcelona-El Prat 2033 | SOPHHIA</title>
+    <meta name="description" content="Análisis prospectivo de la ampliación del Aeropuerto de Barcelona-El Prat. Escenarios 2025-2033, actores clave y estrategias robustas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --midnight: #0A0F1A;
+            --navy: #0F172A;
+            --cobalt: #1E3A5F;
+            --amber: #F59E0B;
+            --gold: #D97706;
+            --slate: #334155;
+            --silver: #94A3B8;
+            --pearl: #E2E8F0;
+            --snow: #F8FAFC;
+            --teal: #0D9488;
+            --sky: #0EA5E9;
+            --red: #DC2626;
+            --green: #059669;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--snow);
+            color: var(--slate);
+            line-height: 1.6;
+        }
+        
+        /* Header */
+        .header {
+            background: var(--midnight);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+        
+        .logo-symbol { color: var(--amber); font-size: 24px; }
+        .logo-text { color: white; font-size: 20px; font-weight: 700; letter-spacing: 2px; }
+        
+        .nav-link {
+            color: var(--pearl);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+        .nav-link:hover { color: var(--amber); }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--cobalt) 100%);
+            padding: 80px 24px;
+            color: white;
+        }
+        
+        .hero-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: rgba(245, 158, 11, 0.2);
+            border: 1px solid var(--amber);
+            color: var(--amber);
+            padding: 6px 16px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 24px;
+        }
+        
+        .hero h1 {
+            font-size: clamp(32px, 5vw, 48px);
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            font-size: 20px;
+            color: var(--pearl);
+            margin-bottom: 32px;
+        }
+        
+        .hero-meta {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+        
+        .meta-item {
+            text-align: center;
+        }
+        
+        .meta-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--amber);
+        }
+        
+        .meta-label {
+            font-size: 12px;
+            color: var(--silver);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* Content */
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        
+        .section {
+            margin-bottom: 60px;
+        }
+        
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid var(--amber);
+            display: inline-block;
+        }
+        
+        .section-intro {
+            font-size: 18px;
+            color: var(--slate);
+            margin-bottom: 32px;
+            max-width: 800px;
+        }
+        
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid var(--pearl);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .card-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        
+        .card-icon.amber { background: rgba(245, 158, 11, 0.15); }
+        .card-icon.teal { background: rgba(13, 148, 136, 0.15); }
+        .card-icon.sky { background: rgba(14, 165, 233, 0.15); }
+        .card-icon.red { background: rgba(220, 38, 38, 0.15); }
+        
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--navy);
+        }
+        
+        .card-content {
+            font-size: 14px;
+            color: var(--slate);
+        }
+        
+        /* Variable Motriz */
+        .variable-motriz {
+            background: linear-gradient(135deg, var(--midnight) 0%, var(--cobalt) 100%);
+            border-radius: 16px;
+            padding: 32px;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        .vm-label {
+            color: var(--amber);
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        
+        .vm-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        
+        .vm-description {
+            color: var(--pearl);
+            font-size: 16px;
+            line-height: 1.7;
+        }
+        
+        /* Scenarios */
+        .scenarios-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        
+        .scenario-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .scenario-header {
+            padding: 16px 20px;
+            color: white;
+        }
+        
+        .scenario-header.green { background: var(--green); }
+        .scenario-header.sky { background: var(--sky); }
+        .scenario-header.amber { background: var(--gold); }
+        .scenario-header.red { background: var(--red); }
+        
+        .scenario-name {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .scenario-prob {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        
+        .scenario-body {
+            padding: 16px 20px;
+        }
+        
+        .scenario-desc {
+            font-size: 13px;
+            color: var(--slate);
+            line-height: 1.6;
+        }
+        
+        /* Actors Table */
+        .actors-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .actors-table th {
+            background: var(--navy);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .actors-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--pearl);
+            font-size: 14px;
+        }
+        
+        .actors-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .actors-table tr:hover {
+            background: rgba(245, 158, 11, 0.05);
+        }
+        
+        .actor-type {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        
+        .actor-type.promotor { background: #D1FAE5; color: #065F46; }
+        .actor-type.opositor { background: #FEE2E2; color: #991B1B; }
+        .actor-type.ambivalente { background: #FEF3C7; color: #92400E; }
+        
+        /* Variables Grid */
+        .variables-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+        }
+        
+        .variable-item {
+            background: white;
+            border-radius: 10px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        
+        .variable-type {
+            width: 8px;
+            height: 40px;
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+        
+        .variable-type.motriz { background: var(--amber); }
+        .variable-type.enlace { background: var(--sky); }
+        .variable-type.resultado { background: var(--teal); }
+        
+        .variable-info h4 {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--navy);
+            margin-bottom: 4px;
+        }
+        
+        .variable-info p {
+            font-size: 12px;
+            color: var(--silver);
+        }
+        
+        /* Download Section */
+        .download-section {
+            background: var(--midnight);
+            border-radius: 16px;
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+        
+        .download-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        
+        .download-subtitle {
+            color: var(--silver);
+            margin-bottom: 24px;
+        }
+        
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--amber);
+            color: var(--midnight);
+            padding: 14px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--navy);
+            padding: 40px 24px;
+            text-align: center;
+            color: var(--silver);
+        }
+        
+        .footer-brand {
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+        
+        .footer-tagline {
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-copy {
+            font-size: 12px;
+            color: var(--slate);
+        }
+        
+        /* Phases Timeline */
+        .phases-timeline {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 32px;
+        }
+        
+        .phase-badge {
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            background: white;
+            border: 1px solid var(--pearl);
+            color: var(--slate);
+        }
+        
+        .phase-badge.active {
+            background: var(--amber);
+            color: var(--midnight);
+            border-color: var(--amber);
+        }
+        
+        /* Bifurcation Points */
+        .bifurcation-card {
+            background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--amber);
+        }
+        
+        .bifurcation-date {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        
+        .bifurcation-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 8px;
+        }
+        
+        .bifurcation-desc {
+            font-size: 14px;
+            color: var(--slate);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-meta { gap: 20px; }
+            .meta-value { font-size: 24px; }
+            .actors-table { font-size: 13px; }
+            .actors-table th, .actors-table td { padding: 10px 12px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">◈</span>
+                <span class="logo-text">SOPHHIA</span>
+            </a>
+            <a href="index.html" class="nav-link">← Volver a inicio</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-badge">CASO BASE CERO · INFRAESTRUCTURAS</div>
+            <h1>Ampliación del Aeropuerto Barcelona-El Prat</h1>
+            <p class="hero-subtitle">Análisis Prospectivo Sistémico · Horizonte 2033 · Fases 1-7 Completas</p>
+            
+            <div class="hero-meta">
+                <div class="meta-item">
+                    <div class="meta-value">3.200M€</div>
+                    <div class="meta-label">Inversión prevista</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-value">16</div>
+                    <div class="meta-label">Actores mapeados</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-value">4</div>
+                    <div class="meta-label">Escenarios</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-value">9</div>
+                    <div class="meta-label">Variables estructurales</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <main class="content">
+
+        <!-- Fases Cubiertas -->
+        <section class="section">
+            <h2 class="section-title">Fases del Análisis</h2>
+            <div class="phases-timeline">
+                <span class="phase-badge active">F1 · Síntesis</span>
+                <span class="phase-badge active">F2 · Actores</span>
+                <span class="phase-badge active">F3 · Estructural</span>
+                <span class="phase-badge active">F4 · Escenarios</span>
+                <span class="phase-badge active">F5 · Estrategias</span>
+                <span class="phase-badge active">F6 · Robustez</span>
+                <span class="phase-badge active">F7 · Vigilancia</span>
+            </div>
+            <p class="section-intro">
+                Este caso Base Cero ha sido generado íntegramente por SOPHHIA sin intervención humana. 
+                Demuestra la capacidad analítica del sistema. La activación de una Mesa de Expertos 
+                permitiría validar, corregir y enriquecer el análisis.
+            </p>
+        </section>
+
+        <!-- Variable Motriz -->
+        <section class="section">
+            <div class="variable-motriz">
+                <div class="vm-label">⚡ Variable Motriz Identificada</div>
+                <h3 class="vm-title">Dictamen UE sobre Red Natura 2000 (La Ricarda)</h3>
+                <p class="vm-description">
+                    El análisis MICMAC identifica la decisión de la Comisión Europea sobre la compatibilidad 
+                    del proyecto con la Directiva Hábitats como la variable de máxima motricidad y mínima 
+                    dependencia. Esta variable determina la viabilidad legal del proyecto y condiciona el 
+                    comportamiento de todos los actores. Sin dictamen favorable, el proyecto es jurídicamente 
+                    inviable independientemente del consenso político interno.
+                </p>
+            </div>
+        </section>
+
+        <!-- Escenarios -->
+        <section class="section">
+            <h2 class="section-title">Escenarios Prospectivos 2033</h2>
+            <p class="section-intro">
+                Construcción de cuatro futuros plausibles basados en las incertidumbres críticas del sistema.
+            </p>
+            
+            <div class="scenarios-grid">
+                <div class="scenario-card">
+                    <div class="scenario-header green">
+                        <div class="scenario-name">Escenario A</div>
+                        <div class="scenario-prob">25%</div>
+                    </div>
+                    <div class="scenario-body">
+                        <p class="scenario-desc">
+                            <strong>"Hub Mediterráneo"</strong><br>
+                            Dictamen UE favorable + consenso político + inversión completa. 
+                            Barcelona alcanza 70-80M pasajeros/año y consolida posición como hub intercontinental.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="scenario-card">
+                    <div class="scenario-header sky">
+                        <div class="scenario-name">Escenario B</div>
+                        <div class="scenario-prob">35%</div>
+                    </div>
+                    <div class="scenario-body">
+                        <p class="scenario-desc">
+                            <strong>"Ampliación Modular"</strong><br>
+                            Dictamen UE condicionado + acuerdo parcial. Expansión gradual sin tercera pista. 
+                            Capacidad 55-60M pasajeros. Modelo más sostenible pero menos ambicioso.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="scenario-card">
+                    <div class="scenario-header amber">
+                        <div class="scenario-name">Escenario C</div>
+                        <div class="scenario-prob">25%</div>
+                    </div>
+                    <div class="scenario-body">
+                        <p class="scenario-desc">
+                            <strong>"Bloqueo Perpetuo"</strong><br>
+                            Conflicto institucional persistente + litigios ambientales. Proyecto paralizado 
+                            indefinidamente. Saturación operativa creciente. Fuga de conectividad a Madrid.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="scenario-card">
+                    <div class="scenario-header red">
+                        <div class="scenario-name">Escenario D</div>
+                        <div class="scenario-prob">15%</div>
+                    </div>
+                    <div class="scenario-body">
+                        <p class="scenario-desc">
+                            <strong>"Ruptura Traumática"</strong><br>
+                            Dictamen UE negativo definitivo + crisis política. Abandono formal del proyecto. 
+                            Reconfiguración radical del modelo aeroportuario catalán.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Actores Clave -->
+        <section class="section">
+            <h2 class="section-title">Mapa de Actores (MACTOR)</h2>
+            <p class="section-intro">
+                16 actores estratégicos identificados con sus posiciones, poder relativo e intereses.
+            </p>
+            
+            <table class="actors-table">
+                <thead>
+                    <tr>
+                        <th>Actor</th>
+                        <th>Posición</th>
+                        <th>Poder</th>
+                        <th>Interés Principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Comisión Europea (DG ENV)</strong></td>
+                        <td><span class="actor-type ambivalente">Regulador</span></td>
+                        <td>■■■■■ Alto</td>
+                        <td>Cumplimiento Directiva Hábitats</td>
+                    </tr>
+                    <tr>
+                        <td><strong>AENA</strong></td>
+                        <td><span class="actor-type promotor">Promotor</span></td>
+                        <td>■■■■■ Alto</td>
+                        <td>Ampliación capacidad, ingresos</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gobierno de España</strong></td>
+                        <td><span class="actor-type promotor">Promotor</span></td>
+                        <td>■■■■□ Alto</td>
+                        <td>Desarrollo económico, conectividad</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Generalitat de Catalunya</strong></td>
+                        <td><span class="actor-type ambivalente">Ambivalente</span></td>
+                        <td>■■■■□ Alto</td>
+                        <td>Competencias, modelo territorial</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ajuntament de Barcelona</strong></td>
+                        <td><span class="actor-type ambivalente">Ambivalente</span></td>
+                        <td>■■■□□ Medio</td>
+                        <td>Impacto urbano, modelo turístico</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Foment del Treball / Cercle d'Economia</strong></td>
+                        <td><span class="actor-type promotor">Promotor</span></td>
+                        <td>■■■□□ Medio</td>
+                        <td>Competitividad empresarial</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Grupos Ecologistas</strong></td>
+                        <td><span class="actor-type opositor">Opositor</span></td>
+                        <td>■■□□□ Medio</td>
+                        <td>Protección La Ricarda, clima</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Plataformas Vecinales</strong></td>
+                        <td><span class="actor-type opositor">Opositor</span></td>
+                        <td>■■□□□ Bajo</td>
+                        <td>Calidad de vida, contaminación</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sector Hotelero/Turístico</strong></td>
+                        <td><span class="actor-type promotor">Promotor</span></td>
+                        <td>■■■□□ Medio</td>
+                        <td>Más turistas, conectividad</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Aerolíneas (Vueling, Ryanair, IAG)</strong></td>
+                        <td><span class="actor-type promotor">Promotor</span></td>
+                        <td>■■■□□ Medio</td>
+                        <td>Más slots, costes operativos</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 13px; color: var(--silver); margin-top: 12px; text-align: center;">
+                + 6 actores adicionales en el análisis completo (PDF)
+            </p>
+        </section>
+
+        <!-- Variables Estructurales -->
+        <section class="section">
+            <h2 class="section-title">Variables Estructurales (MICMAC)</h2>
+            <p class="section-intro">
+                9 variables clave clasificadas por motricidad y dependencia.
+            </p>
+            
+            <div class="variables-grid">
+                <div class="variable-item">
+                    <div class="variable-type motriz"></div>
+                    <div class="variable-info">
+                        <h4>Dictamen UE Red Natura 2000</h4>
+                        <p>Motriz · Alta motricidad, baja dependencia</p>
+                    </div>
+                </div>
+                <div class="variable-item">
+                    <div class="variable-type motriz"></div>
+                    <div class="variable-info">
+                        <h4>Consenso Político AENA-Generalitat</h4>
+                        <p>Motriz · Condiciona viabilidad institucional</p>
+                    </div>
+                </div>
+                <div class="variable-item">
+                    <div class="variable-type enlace"></div>
+                    <div class="variable-info">
+                        <h4>Inversión Pública Comprometida</h4>
+                        <p>Enlace · Alta motricidad y dependencia</p>
+                    </div>
+                </div>
+                <div class="variable-item">
+                    <div class="variable-type enlace"></div>
+                    <div class="variable-info">
+                        <h4>Modelo de Gobernanza Aeroportuaria</h4>
+                        <p>Enlace · Define reparto de poder</p>
+                    </div>
+                </div>
+                <div class="variable-item">
+                    <div class="variable-type resultado"></div>
+                    <div class="variable-info">
+                        <h4>Capacidad Operativa (pax/año)</h4>
+                        <p>Resultado · Baja motricidad, alta dependencia</p>
+                    </div>
+                </div>
+                <div class="variable-item">
+                    <div class="variable-type resultado"></div>
+                    <div class="variable-info">
+                        <h4>Conectividad Intercontinental</h4>
+                        <p>Resultado · Depende de capacidad y alianzas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Puntos de Bifurcación -->
+        <section class="section">
+            <h2 class="section-title">Puntos de Bifurcación Críticos</h2>
+            
+            <div class="bifurcation-card">
+                <div class="bifurcation-date">2025-2026</div>
+                <h3 class="bifurcation-title">Dictamen Comisión Europea</h3>
+                <p class="bifurcation-desc">
+                    Decisión sobre compatibilidad del proyecto con la Directiva Hábitats. 
+                    Si es negativo, cierra definitivamente la opción de tercera pista. 
+                    Si es favorable o condicionado, abre ventana de negociación.
+                </p>
+            </div>
+            
+            <div class="bifurcation-card">
+                <div class="bifurcation-date">2026-2027</div>
+                <h3 class="bifurcation-title">Acuerdo Marco AENA-Generalitat</h3>
+                <p class="bifurcation-desc">
+                    Negociación sobre modelo de gobernanza, reparto de inversiones y 
+                    compensaciones ambientales. Sin acuerdo, el proyecto entra en vía muerta institucional.
+                </p>
+            </div>
+            
+            <div class="bifurcation-card">
+                <div class="bifurcation-date">2028-2030</div>
+                <h3 class="bifurcation-title">Inicio de Obras (si procede)</h3>
+                <p class="bifurcation-desc">
+                    Punto de no retorno financiero. Una vez iniciadas las obras principales, 
+                    la reversión tiene costes hundidos muy elevados.
+                </p>
+            </div>
+        </section>
+
+        <!-- Recomendaciones -->
+        <section class="section">
+            <h2 class="section-title">Estrategias Robustas Identificadas</h2>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon amber">🎯</div>
+                        <h3 class="card-title">Estrategia de Consenso Previo</h3>
+                    </div>
+                    <div class="card-content">
+                        Construir acuerdo político ANTES del dictamen UE. Negociación 
+                        paralela con todos los actores para presentar frente unido ante Bruselas.
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon teal">🌿</div>
+                        <h3 class="card-title">Compensación Ambiental Proactiva</h3>
+                    </div>
+                    <div class="card-content">
+                        Ofrecer medidas compensatorias excepcionales ANTES de que las exija la UE. 
+                        Creación de nuevos humedales, fondos de biodiversidad, límites de crecimiento.
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon sky">📊</div>
+                        <h3 class="card-title">Modularidad del Proyecto</h3>
+                    </div>
+                    <div class="card-content">
+                        Diseñar el proyecto en fases independientes que permitan avanzar 
+                        incluso sin tercera pista (nuevas terminales, accesos, servicios).
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon red">⚠️</div>
+                        <h3 class="card-title">Plan B: Descentralización</h3>
+                    </div>
+                    <div class="card-content">
+                        Si bloqueo definitivo, explorar modelo de sistema aeroportuario 
+                        distribuido (Reus, Girona, Lleida) con conectividad ferroviaria de alta velocidad.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download -->
+        <section class="section">
+            <div class="download-section">
+                <h3 class="download-title">Documento Completo</h3>
+                <p class="download-subtitle">
+                    Descarga el análisis prospectivo íntegro con las 7 fases, 
+                    matrices MICMAC y MACTOR, y hojas de ruta diferenciadas por actor.
+                </p>
+                <a href="SOPHHIA_BCN_Integral_Fases_1_7_v3.pdf" class="download-btn">
+                    <span>📄</span>
+                    <span>Descargar PDF (35 páginas)</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Disclaimer -->
+        <section class="section" style="text-align: center; padding: 40px; background: #FEF3C7; border-radius: 12px;">
+            <p style="font-size: 14px; color: var(--gold); font-weight: 600; margin-bottom: 8px;">
+                ⚠️ CASO BASE CERO
+            </p>
+            <p style="font-size: 14px; color: var(--slate); max-width: 600px; margin: 0 auto;">
+                Este análisis ha sido generado íntegramente por SOPHHIA (IA) sin intervención humana. 
+                Constituye un punto de partida demostrativo. La contratación del servicio activa una 
+                <strong>Mesa de Expertos</strong> que valida, corrige y enriquece el análisis.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-brand">◈ SOPHHIA</div>
+        <p class="footer-tagline">Sistema Operativo de Prospectiva Híbrido Humano-IA</p>
+        <p class="footer-copy">© 2025 SOPHHIA. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cómo Funciona SOPHHIA — El Mapa de Valor</title>
+<meta name="description" content="El recorrido que transforma incertidumbre en decisión estratégica. 9 fases, 37 prompts, 4 módulos de análisis prospectivo híbrido humano-IA.">
+<link rel="icon" href="/favicon.ico">
+<script src="https://cdn.tailwindcss.com/"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { display: ['"Playfair Display"','Georgia','serif'], body: ['Inter','sans-serif'] } } } }
+</script>
+<style>
+body { font-family:'Inter',sans-serif; }
+.font-display { font-family:'Playfair Display',Georgia,serif; }
+.journey-spine::before { content:''; position:absolute; left:24px; top:0; bottom:0; width:2px; background:linear-gradient(to bottom,#14b8a6,#8b5cf6,#14b8a6); }
+.fase-card { transition:all 0.2s ease; }
+.fase-card:hover { transform:translateX(3px); }
+.output-box { display:none; }
+.fase-row.open .output-box { display:block; }
+.fase-row.open .expand-icon { transform:rotate(180deg); }
+.expand-icon { transition:transform 0.2s; }
+#detail-panel { transform:translateX(100%); transition:transform 0.3s cubic-bezier(0.16,1,0.3,1); }
+#detail-panel.open { transform:translateX(0); }
+.prompt-chip { transition:all 0.15s; }
+.prompt-chip:hover { filter:brightness(1.2); transform:translateY(-1px); }
+.saas-detail { display:none; }
+.saas-card.open .saas-detail { display:block; }
+</style>
+</head>
+<body class="bg-slate-950 text-slate-200 min-h-screen">
+
+<nav class="fixed top-0 left-0 right-0 z-40 bg-slate-950/95 backdrop-blur-lg shadow-lg">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-teal-500 to-purple-600 flex items-center justify-center">
+        <span class="text-white font-bold text-lg font-display">S</span>
+      </div>
+      <span class="text-xl font-semibold tracking-wide font-display">SOPHHIA</span>
+    </a>
+    <div class="hidden md:flex items-center gap-6">
+      <a href="manifiesto-sophhia.html" class="px-4 py-2 bg-teal-600 text-white rounded-full font-semibold text-sm">Manifiesto</a>
+      <a href="/#metodologia" class="text-slate-400 hover:text-teal-400 transition-colors text-sm">Metodología</a>
+      <a href="/#hemisferios" class="text-slate-400 hover:text-teal-400 transition-colors text-sm">Los Dos Hemisferios</a>
+      <a href="/#casos" class="text-slate-400 hover:text-teal-400 transition-colors text-sm">Casos</a>
+      <a href="como-funciona.html" class="text-teal-400 text-sm font-semibold border-b border-teal-400 pb-0.5">Cómo Funciona</a>
+      <a href="/#contacto" class="px-4 py-2 border border-teal-500 text-teal-400 rounded-full text-sm hover:bg-teal-500 hover:text-white transition-all">Contacto</a>
+    </div>
+  </div>
+</nav>
+
+<section class="pt-32 pb-20 px-6 relative overflow-hidden">
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute top-20 left-1/4 w-96 h-96 bg-teal-500 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 right-1/4 w-80 h-80 bg-purple-600 rounded-full blur-3xl"></div>
+  </div>
+  <div class="max-w-4xl mx-auto relative z-10 text-center">
+    <div class="inline-flex items-center gap-2 px-4 py-2 bg-slate-800/60 rounded-full border border-slate-700 text-sm text-slate-400 mb-8">
+      <span class="w-2 h-2 bg-teal-400 rounded-full"></span>
+      El Mapa de Valor · 9 Fases · 37 Prompts
+    </div>
+    <h1 class="font-display font-black text-5xl md:text-7xl leading-none mb-6">
+      El recorrido<br><em class="text-teal-400">que transforma</em><br>
+      <span class="text-slate-300">incertidumbre</span><br>
+      <span class="text-slate-400 text-4xl md:text-5xl">en decisión.</span>
+    </h1>
+    <p class="text-slate-400 text-lg max-w-xl mx-auto mt-8 leading-relaxed">
+      Cada fase produce un <span class="text-slate-200 font-medium">output tangible</span> para el cliente.
+      Haga clic en cualquier fase para ver qué recibirá.
+    </p>
+    <div class="flex flex-wrap gap-3 justify-center mt-10">
+      <span class="flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold border border-blue-500/40 text-blue-400 bg-blue-500/10"><span class="w-2 h-2 rounded-full bg-blue-400"></span>LMM · Calcula</span>
+      <span class="flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold border border-green-500/40 text-green-400 bg-green-500/10"><span class="w-2 h-2 rounded-full bg-green-400"></span>LOG · Narra</span>
+      <span class="flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold border border-teal-500/40 text-teal-400 bg-teal-500/10"><span class="w-2 h-2 rounded-full bg-teal-400"></span>LLM · Traduce</span>
+      <span class="flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold border border-orange-500/40 text-orange-400 bg-orange-500/10"><span class="w-2 h-2 rounded-full bg-orange-400"></span>SaaS · Entrega</span>
+      <span class="flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold border border-yellow-500/40 text-yellow-400 bg-yellow-500/10"><span class="w-2 h-2 rounded-full bg-yellow-400"></span>STOP · Validación humana</span>
+    </div>
+  </div>
+</section>
+
+<section class="px-6 pb-20">
+  <div class="max-w-3xl mx-auto">
+    <div class="relative journey-spine pl-16" id="journey"></div>
+  </div>
+</section>
+
+<section class="px-6 py-20 bg-slate-900/50">
+  <div class="max-w-3xl mx-auto">
+    <div class="mb-2 text-xs font-semibold tracking-widest uppercase text-orange-400">Infraestructura</div>
+    <h2 class="font-display text-3xl font-bold text-slate-100 mb-3">La capa invisible que lo hace posible</h2>
+    <p class="text-slate-400 text-sm mb-10 max-w-xl leading-relaxed">
+      Detrás de cada entregable, 9 prompts de plataforma garantizan trazabilidad y mejora continua.
+      El cliente no los ve — pero siente su efecto.
+    </p>
+    <div class="grid md:grid-cols-3 gap-4" id="saas-grid"></div>
+  </div>
+</section>
+
+<section class="px-6 py-24 text-center">
+  <div class="max-w-xl mx-auto">
+    <h2 class="font-display text-4xl font-bold text-slate-100 mb-4">¿Listo para anticipar?</h2>
+    <p class="text-slate-400 mb-8">Solicite una sesión exploratoria gratuita de 45 minutos.</p>
+    <a href="/#contacto" class="inline-flex items-center gap-2 px-8 py-4 bg-teal-600 hover:bg-teal-500 text-white rounded-full font-semibold text-lg transition-all">Solicitar sesión exploratoria →</a>
+  </div>
+</section>
+
+<footer class="py-16 px-6 bg-slate-950 border-t border-slate-800">
+  <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
+    <div>
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-teal-500 to-purple-600 flex items-center justify-center">
+          <span class="text-white font-bold text-sm font-display">S</span>
+        </div>
+        <span class="font-display font-bold text-lg">SOPHHIA</span>
+      </div>
+      <p class="text-slate-500 text-sm leading-relaxed">Sistema Operativo de Prospectiva Híbrido Humano-IA.<br>Barcelona · 2026</p>
+    </div>
+    <div class="flex gap-12 text-sm text-slate-500">
+      <div>
+        <div class="text-slate-300 font-semibold mb-3">Lemas</div>
+        <div class="italic mb-1">"No alucinamos. Calculamos."</div>
+        <div class="italic">"No imponemos. Resonamos."</div>
+      </div>
+      <div>
+        <div class="text-slate-300 font-semibold mb-3">Contacto</div>
+        <a href="mailto:info@sophhia.com" class="hover:text-teal-400 transition-colors">info@sophhia.com</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="detail-panel" class="fixed right-0 top-0 bottom-0 w-80 bg-slate-900 border-l border-slate-700 z-50 overflow-y-auto p-6">
+  <button onclick="closePanel()" class="absolute top-4 right-4 w-8 h-8 rounded-full border border-slate-700 text-slate-400 hover:text-white flex items-center justify-center text-sm transition-all">✕</button>
+  <div id="p-mod"   class="text-xs font-bold tracking-widest uppercase mb-2 mt-2"></div>
+  <div id="p-id"    class="text-xs text-yellow-400 font-mono mb-1"></div>
+  <div id="p-name"  class="font-display text-xl font-bold text-slate-100 mb-5 leading-tight"></div>
+  <div class="h-px bg-slate-700 mb-5"></div>
+  <div class="mb-4"><div class="text-xs text-slate-500 uppercase tracking-widest mb-1">Función</div><div id="p-func" class="text-sm text-slate-300 leading-relaxed"></div></div>
+  <div class="mb-4"><div class="text-xs text-slate-500 uppercase tracking-widest mb-1">Herramienta</div><div id="p-herr" class="text-sm text-slate-400 leading-relaxed"></div></div>
+  <div class="mb-4"><div class="text-xs text-slate-500 uppercase tracking-widest mb-1">Output para el cliente</div><div id="p-out" class="text-sm text-slate-300 leading-relaxed"></div></div>
+  <div><div class="text-xs text-slate-500 uppercase tracking-widest mb-1">Clasificación</div><div id="p-clasif" class="text-sm font-semibold"></div></div>
+</div>
+
+<script>
+const MC={lmm:'#60a5fa',log:'#4ade80',llm:'#2dd4bf',saas:'#fb923c'};
+const MB={lmm:'rgba(59,130,246,.15)',log:'rgba(34,197,94,.15)',llm:'rgba(20,184,166,.15)',saas:'rgba(249,115,22,.15)'};
+const MBo={lmm:'rgba(59,130,246,.3)',log:'rgba(34,197,94,.3)',llm:'rgba(20,184,166,.3)',saas:'rgba(249,115,22,.3)'};
+const ML={lmm:'LMM — Calcula',log:'LOG — Narra',llm:'LLM — Traduce',saas:'SaaS — Entrega'};
+const CC={T1:'#4ade80',T2:'#2dd4bf',C1:'#f87171',C2:'#c084fc'};
+const CL={T1:'🟢 T1 · Transparente Total',T2:'🔵 T2 · Transparente Parcial',C1:'🔴 C1 · Confidencial Núcleo',C2:'🟣 C2 · Confidencial Reservado'};
+
+const FASES=[
+  {id:"F0",name:"Contrato",dc:"#60a5fa",question:"¿Exactamente qué vamos a analizar — y para qué?",value:"Antes de calcular nada, SOPHHIA fija con precisión el objeto del análisis, el horizonte temporal y el nivel de incertidumbre. El cliente sabe desde el primer momento qué recibirá al final.",clientOutput:"Contrato Prospectivo firmado · Pregunta motriz acordada · Alcance y horizonte definidos",prompts:[{id:"LMM-F0",mod:"lmm",name:"Contrato de Precisión",func:"Fija objeto, horizonte y nivel de fuzzificación. Punto de partida obligatorio.",herr:"Contrato Prospectivo · 3 niveles fuzzificación",out:"Contrato firmado · Pregunta motriz · Nivel fuzzificación",clasif:"T2"},{id:"ALX-F0",mod:"log",name:"Analizador Lexosimbólico",func:"Descompone el encargo del cliente en unidades de sentido y tensiones latentes.",herr:"Análisis lexosimbólico del encargo",out:"Campo semántico · Tensiones latentes · Pregunta motriz",clasif:"T2"},{id:"LLM-F0",mod:"llm",name:"Verificación de Comprensión",func:"Confirma que cliente y analista han entendido exactamente lo mismo antes de arrancar.",herr:"Diálogo de verificación en 4 puntos",out:"Acta de Comprensión Compartida",clasif:"T1"}]},
+  {id:"F1",name:"Encuadre",dc:"#4ade80",question:"¿Qué variables mueven realmente este sistema?",value:"Se identifican todas las fuerzas que actúan sobre el sistema del cliente. El DAFO emerge del análisis real y se conecta directamente con las variables que se calcularán.",clientOutput:"DAFO validado por la dirección · Matriz cruzada FO/FA/DO/DA · Variables: Estructurales, Palancas y Riesgos",prompts:[{id:"LMM-F1",mod:"lmm",name:"Panel Variables + Coeficientes k",func:"Formaliza las variables candidatas y sus pesos de acoplamiento. Los coeficientes k son la innovación técnica más original de SOPHHIA.",herr:"Panel de variables · Coeficientes k",out:"Panel validado · Coeficientes k · Fronteras del sistema",clasif:"C1"},{id:"ALX-F1",mod:"log",name:"Analizador Lexosimbólico del Sistema",func:"Procesa la documentación primaria para extraer variables candidatas y tensiones profundas.",herr:"Análisis lexosimbólico de documentación",out:"Variables candidatas · Campo semántico profundo",clasif:"C1"},{id:"LLM-F1",mod:"llm",name:"DAFO + Matriz Cruzada + Variables MICMAC",func:"PESTEL→DAFO + Matriz cruzada + Variables clasificadas. STOP ½ bifurcado.",herr:"PESTEL→DAFO · Matriz cruzada · Clasificación",out:"DAFO definitivo · Variables candidatas",clasif:"T2"}]},
+  {isStop:true,label:"STOP ½",question:"¿El sistema está bien delimitado? La dirección valida antes de continuar."},
+  {id:"F2",name:"MICMAC",dc:"#60a5fa",question:"¿Cuáles son las palancas reales del cambio?",value:"Se calcula matemáticamente qué variables dominan el sistema y cuáles solo reaccionan. El cliente recibe un mapa de poder de las variables — sin opinión, sin sesgos: puro cálculo.",clientOutput:"Mapa de variables ordenadas por poder de influencia · Las 3 variables críticas · Síntesis en lenguaje de dirección",prompts:[{id:"LMM-F2a",mod:"lmm",name:"MICMAC + Álgebra Borrosa",func:"Calcula motricidad × dependencia de todas las variables. La extensión borrosa es el corazón del hemisferio cuantitativo.",herr:"MID → MII · 4 cuadrantes · Fuzzy",out:"Matriz MII · Variables clasificadas · Ranking",clasif:"C1"},{id:"LLM-F2",mod:"llm",name:"Traducción MICMAC al Cliente",func:"Convierte la matriz de cálculo en lenguaje de reunión de dirección.",herr:"Traducción 4 cuadrantes · 3 variables clave",out:"Descripción no técnica · Variables clave",clasif:"T1"}]},
+  {id:"F3",name:"Forrester",dc:"#4ade80",question:"¿Cómo va a evolucionar el sistema en el horizonte?",value:"Se modelan las fuerzas de retroalimentación que harán que el sistema cambie — o lo mantendrán estancado. El cliente entiende hacia dónde va si no interviene.",clientOutput:"Los 3 bucles que gobiernan el sistema · El estado futuro probable sin intervención · Los puntos donde una pequeña acción produce un gran efecto",prompts:[{id:"LMM-F3",mod:"lmm",name:"Forrester + Atractores",func:"Modela la evolución temporal con EDO y calcula los estados futuros probables.",herr:"EDO · Bucles retroalimentación · Atractores",out:"Mapa de bucles · Atractores · Arquetipos",clasif:"C1"},{id:"TRS-F3",mod:"log",name:"Transductor Semántico — Bucles",func:"Convierte los bucles matemáticos en campos narrativos. La bisagra entre hemisferios.",herr:"Transducción cuantitativo → narrativo",out:"Nombre narrativo de bucles · Tensión central",clasif:"C1"},{id:"CSL-F3",mod:"log",name:"Colisionador Semántico — Dinámicas",func:"Hace chocar narrativas de bucles opuestos para revelar la tensión central del sistema.",herr:"Colisión narrativas · Tensión→Ruptura→Reconfiguración",out:"Síntesis de tensión · Narrativa de ruptura",clasif:"C2"},{id:"LLM-F3",mod:"llm",name:"Traducción Forrester al Cliente",func:"Explica bucles dominantes y puntos de intervención sin jerga técnica.",herr:"Bucles en lenguaje cotidiano · Palancas",out:"Bucles traducidos · 2-3 palancas de intervención",clasif:"T1"}]},
+  {isStop:true,label:"STOP ①",question:"¿Las dinámicas son reconocibles? La dirección valida antes de mapear actores."},
+  {id:"F4",name:"MACTOR",dc:"#2dd4bf",question:"¿Quién quiere qué — y quién tiene poder para conseguirlo?",value:"Se mapea el poder real del entorno. El cliente recibe una guía de navegación política y relacional basada en cálculo, no en especulación.",clientOutput:"Mapa de poder real de los actores · Objetivos y convergencias · Coaliciones posibles y posicionamiento recomendado",prompts:[{id:"LMM-F4",mod:"lmm",name:"MACTOR + Nash/Pareto + PODA",func:"Calcula poder, posiciones y equilibrios. PODA identifica coaliciones estables.",herr:"1MAO/2MAO · Nash/Pareto · PODA",out:"Mapa de poder · Posiciones · Coaliciones",clasif:"C1"},{id:"TRS-F4",mod:"log",name:"Transductor Semántico — Actores",func:"Traduce perfiles de poder en narrativas de actor comprensibles.",herr:"Transducción posición → perfil narrativo",out:"Perfil narrativo · Mapa de motivaciones",clasif:"C1"},{id:"LLM-F4",mod:"llm",name:"Traducción MACTOR al Cliente",func:"Describe el mapa de poder real y la recomendación táctica de posicionamiento.",herr:"Mapa de poder · Convergencias · Táctica",out:"Poder real · Coaliciones · Posicionamiento",clasif:"T1"}]},
+  {id:"F5",name:"Escenarios",dc:"#60a5fa",question:"¿Qué futuros son plausibles — y cuál es el más probable?",value:"Se simulan miles de futuros posibles para identificar cuáles son plausibles, cuáles más probables y cuáles más peligrosos. El cliente recibe el mapa completo del territorio futuro.",clientOutput:"3-5 escenarios narrados con probabilidad cotidiana · El escenario apuesta y el temido · Las bifurcaciones críticas",prompts:[{id:"LMM-F5",mod:"lmm",name:"Monte Carlo + Markov + Morfológico",func:"Construye y pondera futuros plausibles con simulación estocástica.",herr:"Morfológico · Monte Carlo · Cadenas de Markov",out:"Distribución de escenarios · Probabilidades",clasif:"T2"},{id:"CSL-F5",mod:"log",name:"Colisionador Semántico — Escenarios",func:"Hace chocar escenarios extremos para revelar el campo de futuros.",herr:"Colisión escenarios extremos",out:"Campo de futuros · Tensión narrativa central",clasif:"C2"},{id:"GRL-F5",mod:"log",name:"Generador de Relatos — Escenarios",func:"Produce las narrativas de cada escenario en lenguaje movilizador.",herr:"Generación narrativa de escenarios",out:"Nombre evocador · Narrativa · Señal identificadora",clasif:"C1"},{id:"LLM-F5",mod:"llm",name:"Traducción Monte Carlo al Cliente",func:"Narra los escenarios con probabilidad cotidiana. Escenario apuesta y temido.",herr:"Probabilidad cotidiana · STOP ②",out:"Escenarios en lenguaje humano · Bifurcaciones",clasif:"T1"}]},
+  {isStop:true,label:"STOP ②",question:"¿Los escenarios son plausibles? La dirección elige el escenario apuesta."},
+  {id:"F6",name:"Visión y Estrategia",dc:"#4ade80",question:"¿Qué estrategia resiste incluso si el futuro va mal?",value:"Se identifica la estrategia que funciona no solo en el escenario ideal, sino también en los adversos. El cliente recibe la decisión estratégica robusta y la Visión narrativa que la moviliza.",clientOutput:"La estrategia robusta con justificación no técnica · El Relato Estratégico de la Visión · Las 3 prioridades de acción",prompts:[{id:"LMM-F6",mod:"lmm",name:"Robustez + Minimax Regret",func:"Identifica la estrategia que pierde menos en el peor escenario posible.",herr:"Regret matrix · Minimax regret",out:"Estrategia robusta · Ranking · Punto débil",clasif:"T2"},{id:"GRL-F6",mod:"log",name:"Generador de Relatos — Visión",func:"Produce el Relato Estratégico y la Visión del horizonte deseado.",herr:"Generación narrativa de la Visión",out:"Relato Estratégico · 3 prioridades narrativizadas",clasif:"C1"},{id:"LLM-F6",mod:"llm",name:"Traducción Estrategia Robusta",func:"Justifica la estrategia en lenguaje del cliente. Vincula prioridades con el DAFO de F1.",herr:"Justificación · Visión · 3 prioridades · DAFO",out:"Justificación · Visión · 3 prioridades con urgencia",clasif:"T1"}]},
+  {id:"F7",name:"Vigilancia",dc:"#2dd4bf",question:"¿Cómo sabremos si el futuro está cambiando de rumbo?",value:"Se diseña el sistema de alerta temprana personalizado. No son KPIs genéricos: son los indicadores específicos que cambiarán cuando el sistema empiece a desviarse del escenario apuesta.",clientOutput:"5 indicadores críticos con semáforos cotidianos · Señales débiles a monitorizar · Protocolo de respuesta AMARILLO y ROJO",prompts:[{id:"LMM-F7",mod:"lmm",name:"KPIs + Umbrales Borrosos",func:"Define indicadores de alerta temprana con niveles semáforo. Los umbrales borrosos son la innovación de F7.",herr:"KPIs prospectivos · Umbrales clásicos o borrosos",out:"Panel KPIs con semáforos · Umbrales · Señales",clasif:"T2"},{id:"GRL-F7",mod:"log",name:"Narrativa del Sistema de Vigilancia",func:"Convierte el panel técnico de KPIs en un protocolo de respuesta comprensible.",herr:"Narrativa · Protocolo AMARILLO/ROJO",out:"Narrativa del panel · Protocolo de respuesta",clasif:"C1"},{id:"LLM-F7",mod:"llm",name:"Traducción KPIs al Cliente",func:"Describe los 5 indicadores críticos con semáforos cotidianos.",herr:"5 KPIs · Semáforo · STOP ③",out:"5 KPIs cotidianos · Protocolo de respuesta",clasif:"T1"}]},
+  {isStop:true,label:"STOP ③",question:"¿El sistema de vigilancia cubre los riesgos reales? La dirección valida el panel."},
+  {id:"F8",name:"Auditoría",dc:"#fbbf24",question:"¿Qué aprendimos — y cómo mejoramos el próximo ciclo?",value:"SOPHHIA no termina con una recomendación: termina con un aprendizaje. Se comparan predicciones con realidad y se actualiza el modelo. La honestidad del cierre es parte del valor.",clientOutput:"Informe de aciertos y fallos · Modelo actualizado · Recomendaciones para el próximo ciclo",prompts:[{id:"LMM-F8",mod:"lmm",name:"Backtesting Bayesiano",func:"Compara predicciones vs. realidad y actualiza el modelo. Cierra el ciclo.",herr:"Backtesting · Actualización bayesiana",out:"Comparación predicción/realidad · Modelo actualizado",clasif:"T2"},{id:"EVR-F8",mod:"log",name:"Evaluador de Resonancia",func:"Mide el impacto movilizador de los relatos del ciclo.",herr:"Evaluación de resonancia narrativa",out:"Puntuación resonancia · Mejoras narrativas",clasif:"C2"},{id:"LLM-F8",mod:"llm",name:"Traducción Backtesting",func:"Informa qué funcionó, qué falló y qué aprender. La honestidad genera credibilidad.",herr:"Informe aciertos/fallos · Aprendizajes",out:"Informe de aciertos · Fallos · Aprendizajes",clasif:"T1"}]}
+];
+
+const SAAS=[
+  {id:"SaaS-BI1",name:"Bitácora de Sesión",func:"Genera el acta estructurada de cada sesión: decisiones IH, STOPs validados, pendientes.",out:"Acta · Registro supuestos · Pendientes",clasif:"C1"},
+  {id:"SaaS-BI2",name:"Resumen Ejecutivo Avance",func:"Documento de una página para compartir entre sesiones: estado, hallazgos y próximos pasos.",out:"Panel ✅⏳○ · Hallazgos · Próximos pasos",clasif:"T1"},
+  {id:"SaaS-RE1",name:"Informe de Fase",func:"Entregable de cada fase completada. Profesional, sin jerga técnica.",out:"Informe de fase en lenguaje del cliente",clasif:"T2"},
+  {id:"SaaS-RE2",name:"Informe Ejecutivo Final",func:"Documento final: síntesis ejecutiva + 9 fases + 5 conclusiones estratégicas.",out:"Documento de entrega completo",clasif:"T2"},
+  {id:"SaaS-OB1",name:"Diagnóstico Inicial",func:"Clasifica el sistema del cliente y recomienda el alcance adecuado.",out:"Tipo de sistema · Alcance recomendado",clasif:"T1"},
+  {id:"SaaS-OB2",name:"Guía Primera Vez",func:"Acompaña al usuario nuevo hasta completar la primera fase.",out:"Primera fase completada en modo guiado",clasif:"T1"},
+  {id:"SaaS-SO1",name:"Diagnóstico de Error",func:"Identifica errores metodológicos (4 tipos A/B/C/D) y prescribe la corrección mínima.",out:"Tipo de error · Corrección paso a paso",clasif:"C1"},
+  {id:"SaaS-SO2",name:"Explicación de Conceptos",func:"Explica cualquier concepto en 3 niveles: intuitivo, operativo y técnico.",out:"Explicación en el nivel adecuado",clasif:"T2"},
+  {id:"SaaS-CE1",name:"Evaluación Certificación",func:"Evalúa casos en 3 dimensiones: LMM + LOG + IH. CERTIFICA / NO CERTIFICA.",out:"Puntuación · Fortalezas · Recomendación",clasif:"C2"}
+];
+
+const ALL={};
+FASES.forEach(f=>{if(!f.isStop)f.prompts.forEach(p=>ALL[p.id]=p);});
+SAAS.forEach(p=>{ALL[p.id]={...p,mod:'saas'};});
+
+function buildJourney(){
+  const j=document.getElementById('journey');
+  FASES.forEach(f=>{
+    if(f.isStop){
+      const d=document.createElement('div');
+      d.className='relative flex items-center mb-4 ml-4';
+      d.innerHTML=`<div class="absolute -left-16 w-3 h-3 rounded-full bg-yellow-400 border-2 border-slate-950 z-10" style="top:50%;transform:translateY(-50%)"></div>
+        <div class="flex-1 flex items-center gap-3 px-4 py-3 border border-dashed border-yellow-500/40 bg-yellow-500/5 rounded-lg">
+          <span class="text-yellow-400 font-bold text-xs tracking-widest uppercase whitespace-nowrap">⬡ ${f.label}</span>
+          <span class="text-slate-500 text-xs italic">${f.question}</span>
+          <span class="ml-auto text-yellow-400/60 text-xs font-bold">IH</span>
+        </div>`;
+      j.appendChild(d);return;
+    }
+    const chips=f.prompts.map(p=>`<button class="prompt-chip flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold border" style="color:${MC[p.mod]};border-color:${MBo[p.mod]};background:${MB[p.mod]}" onclick="openById(event,'${p.id}')"><span class="w-1.5 h-1.5 rounded-full" style="background:${MC[p.mod]}"></span>${p.id.replace(/LMM-|LOG-|LLM-/,'')}</button>`).join('');
+    const d=document.createElement('div');d.className='fase-row relative mb-3';
+    d.innerHTML=`<div class="absolute -left-16 w-4 h-4 rounded-full border-2 border-slate-950 z-10 cursor-pointer" style="background:${f.dc};top:20px" onclick="this.closest('.fase-row').classList.toggle('open')"></div>
+      <div class="fase-card bg-slate-800/60 border border-slate-700/60 rounded-xl p-5 cursor-pointer hover:border-slate-600" onclick="this.closest('.fase-row').classList.toggle('open')">
+        <div class="flex justify-between items-start gap-3">
+          <div><div class="text-xs font-bold tracking-widest uppercase mb-1" style="color:${f.dc}">${f.id} · ${f.name}</div>
+          <div class="font-display text-lg font-bold text-slate-100 leading-tight italic">${f.question}</div></div>
+          <div class="flex items-center gap-2 flex-shrink-0 mt-1"><span class="text-xs text-slate-500">${f.prompts.length}p</span><span class="expand-icon text-slate-500 text-sm">▼</span></div>
+        </div>
+        <p class="text-slate-400 text-sm mt-3 leading-relaxed">${f.value}</p>
+        <div class="flex flex-wrap gap-2 mt-4">${chips}</div>
+        <div class="output-box mt-4 p-4 bg-slate-700/40 rounded-lg border border-slate-600/40">
+          <div class="text-xs font-bold text-teal-400 uppercase tracking-widest mb-2">Lo que recibe el cliente</div>
+          <div class="text-sm text-slate-300 leading-relaxed">${f.clientOutput}</div>
+        </div>
+      </div>`;
+    j.appendChild(d);
+  });
+}
+
+function buildSaas(){
+  const g=document.getElementById('saas-grid');
+  SAAS.forEach(p=>{
+    const d=document.createElement('div');
+    d.className='saas-card bg-slate-800/60 border border-t-2 border-orange-500/20 rounded-xl p-5 cursor-pointer hover:border-orange-500/40 transition-all';
+    d.style.borderTopColor='#fb923c';
+    d.innerHTML=`<div class="text-xs text-orange-400 font-bold tracking-widest uppercase mb-2">${p.id}</div>
+      <div class="font-semibold text-slate-200 text-sm mb-2 leading-tight">${p.name}</div>
+      <div class="saas-detail text-xs text-slate-400 leading-relaxed mt-3 pt-3 border-t border-slate-700">
+        <div>${p.func}</div><div class="text-teal-400 mt-2">→ ${p.out}</div></div>`;
+    d.addEventListener('click',()=>{d.classList.toggle('open');openP({...p,mod:'saas'},'SaaS — Infraestructura');});
+    g.appendChild(d);
+  });
+}
+
+function openById(e,id){e.stopPropagation();const p=ALL[id];if(p)openP(p,ML[p.mod]||'SaaS');}
+function openP(p,mod){
+  const col=MC[p.mod]||'#fb923c';
+  document.getElementById('p-mod').style.color=col;
+  document.getElementById('p-mod').textContent=mod;
+  document.getElementById('p-id').textContent=p.id;
+  document.getElementById('p-name').textContent=p.name;
+  document.getElementById('p-func').textContent=p.func;
+  document.getElementById('p-herr').textContent=p.herr||'—';
+  document.getElementById('p-out').textContent=p.out;
+  const cc=document.getElementById('p-clasif');
+  cc.textContent=CL[p.clasif]||p.clasif;cc.style.color=CC[p.clasif]||'#94a3b8';
+  document.getElementById('detail-panel').classList.add('open');
+}
+function closePanel(){document.getElementById('detail-panel').classList.remove('open');}
+document.addEventListener('click',e=>{if(!e.target.closest('#detail-panel')&&!e.target.closest('.prompt-chip')&&!e.target.closest('.saas-card'))closePanel();});
+buildJourney();buildSaas();
+</script>
+</body>
+</html>

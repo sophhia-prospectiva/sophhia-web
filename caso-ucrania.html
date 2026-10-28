@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso Ucrania — Análisis Prospectivo Geopolítico | SOPHHIA</title>
+    <meta name="description" content="Análisis prospectivo de la guerra de Ucrania. Escenarios 2025-2030, actores clave, probabilidades y variables críticas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --midnight: #0A0F1A;
+            --navy: #0F172A;
+            --cobalt: #1E3A5F;
+            --amber: #F59E0B;
+            --gold: #D97706;
+            --slate: #334155;
+            --silver: #94A3B8;
+            --pearl: #E2E8F0;
+            --snow: #F8FAFC;
+            --teal: #0D9488;
+            --sky: #0EA5E9;
+            --red: #DC2626;
+            --green: #059669;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--snow);
+            color: var(--slate);
+            line-height: 1.6;
+        }
+        
+        /* Header */
+        .header {
+            background: var(--midnight);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+        
+        .logo-symbol { color: var(--amber); font-size: 24px; }
+        .logo-text { color: white; font-size: 20px; font-weight: 700; letter-spacing: 2px; }
+        
+        .nav-link {
+            color: var(--pearl);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+        .nav-link:hover { color: var(--amber); }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--cobalt) 100%);
+            padding: 80px 24px;
+            color: white;
+        }
+        
+        .hero-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: rgba(245, 158, 11, 0.2);
+            border: 1px solid var(--amber);
+            color: var(--amber);
+            padding: 6px 16px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 24px;
+        }
+        
+        .hero h1 {
+            font-size: clamp(32px, 5vw, 48px);
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            font-size: 20px;
+            color: var(--pearl);
+            margin-bottom: 32px;
+        }
+        
+        .hero-meta {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+        
+        .meta-item {
+            text-align: center;
+        }
+        
+        .meta-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--amber);
+        }
+        
+        .meta-label {
+            font-size: 12px;
+            color: var(--silver);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* Content */
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        
+        .section {
+            margin-bottom: 60px;
+        }
+        
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid var(--amber);
+            display: inline-block;
+        }
+        
+        .section-intro {
+            font-size: 18px;
+            color: var(--slate);
+            margin-bottom: 32px;
+            max-width: 800px;
+        }
+        
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid var(--pearl);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .card-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        
+        .card-icon.amber { background: rgba(245, 158, 11, 0.15); }
+        .card-icon.teal { background: rgba(13, 148, 136, 0.15); }
+        .card-icon.sky { background: rgba(14, 165, 233, 0.15); }
+        .card-icon.red { background: rgba(220, 38, 38, 0.15); }
+        
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--navy);
+        }
+        
+        .card-content {
+            font-size: 14px;
+            color: var(--slate);
+        }
+        
+        .card-highlight {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--amber);
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        /* Scenarios */
+        .scenarios-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        
+        .scenario-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .scenario-header {
+            padding: 16px 20px;
+            color: white;
+        }
+        
+        .scenario-header.green { background: var(--green); }
+        .scenario-header.sky { background: var(--sky); }
+        .scenario-header.amber { background: var(--gold); }
+        .scenario-header.red { background: var(--red); }
+        
+        .scenario-name {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .scenario-prob {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        
+        .scenario-body {
+            padding: 16px 20px;
+        }
+        
+        .scenario-desc {
+            font-size: 13px;
+            color: var(--slate);
+            line-height: 1.6;
+        }
+        
+        .most-likely-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--amber);
+            color: var(--midnight);
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 4px 10px;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+        
+        /* Actors Table */
+        .actors-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .actors-table th {
+            background: var(--navy);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .actors-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--pearl);
+            font-size: 14px;
+        }
+        
+        .actors-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .actors-table tr:hover {
+            background: rgba(245, 158, 11, 0.05);
+        }
+        
+        .actor-type {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        
+        .actor-type.leader { background: #FEF3C7; color: #92400E; }
+        .actor-type.key { background: #DBEAFE; color: #1E40AF; }
+        .actor-type.facilitator { background: #D1FAE5; color: #065F46; }
+        .actor-type.shadow { background: #E2E8F0; color: #475569; }
+        
+        /* Variables Table */
+        .variables-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .variables-table th {
+            background: var(--navy);
+            color: white;
+            padding: 14px 16px;
+            text-align: left;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .variables-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--pearl);
+            font-size: 14px;
+        }
+        
+        .variables-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .variables-table tr:hover {
+            background: rgba(245, 158, 11, 0.05);
+        }
+        
+        .signal-positive {
+            color: var(--green);
+        }
+        
+        .signal-negative {
+            color: var(--red);
+        }
+        
+        /* Data Stats */
+        .data-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 16px;
+            margin-top: 32px;
+        }
+        
+        .data-stat {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            border: 1px solid var(--pearl);
+        }
+        
+        .data-stat .value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--amber);
+            margin-bottom: 4px;
+        }
+        
+        .data-stat .label {
+            font-size: 12px;
+            color: var(--silver);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* CTR Section */
+        .ctr-section {
+            background: var(--midnight);
+            border-radius: 16px;
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+        
+        .ctr-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .ctr-section h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        
+        .ctr-section p {
+            color: var(--silver);
+            margin-bottom: 24px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .ctr-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--amber);
+            color: var(--midnight);
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--navy);
+            padding: 40px 24px;
+            text-align: center;
+            color: var(--silver);
+        }
+        
+        .footer-brand {
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+        
+        .footer-tagline {
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-copy {
+            font-size: 12px;
+            color: var(--slate);
+        }
+        
+        .footer a {
+            color: var(--amber);
+            text-decoration: none;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-meta { gap: 20px; }
+            .meta-value { font-size: 24px; }
+            .actors-table { font-size: 13px; }
+            .actors-table th, .actors-table td { padding: 10px 12px; }
+            .variables-table { font-size: 13px; }
+            .variables-table th, .variables-table td { padding: 10px 12px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">◈</span>
+                <span class="logo-text">SOPHHIA</span>
+            </a>
+            <a href="index.html" class="nav-link">← Volver a inicio</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-badge">ANÁLISIS EN CASI TIEMPO REAL · GEOPOLÍTICA</div>
+            <h1>Caso Ucrania</h1>
+            <p class="hero-subtitle">Análisis prospectivo geopolítico de la guerra de Ucrania. Escenarios, actores estratégicos y variables críticas.</p>
+            
+            <div class="hero-meta">
+                <div class="meta-item">
+                    <div class="meta-value">2025–2030</div>
+                    <div class="meta-label">Horizonte</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-value">6</div>
+                    <div class="meta-label">Actores mapeados</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-value">4</div>
+                    <div class="meta-label">Escenarios</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-value">7</div>
+                    <div class="meta-label">Variables críticas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <main class="content">
+
+        <!-- Executive Summary -->
+        <section class="section">
+            <h2 class="section-title">Resumen Ejecutivo</h2>
+            <p class="section-intro">
+                Síntesis del análisis prospectivo aplicando metodología SOPHHIA con datos actualizados a diciembre 2025.
+            </p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon amber">📊</div>
+                        <h3 class="card-title">Escenario Base</h3>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-highlight">B</span>
+                        <strong>Acuerdo Parcial Sin Realineamiento:</strong> Alto el fuego logrado pero sanciones estructurales permanecen. Conflicto congelado modelo Chipre.
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon teal">📈</div>
+                        <h3 class="card-title">Probabilidad Mayor</h3>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-highlight">50-60%</span>
+                        El escenario de acuerdo parcial tiene la mayor probabilidad, con negociaciones avanzando según plan de 28 puntos.
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon sky">💰</div>
+                        <h3 class="card-title">Activos Congelados</h3>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-highlight">€300.000M</span>
+                        Activos soberanos rusos congelados globalmente, €210.000M en Europa (Euroclear, Bélgica).
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon red">🏦</div>
+                        <h3 class="card-title">Tasa BCR</h3>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-highlight">21%</span>
+                        Banco Central de Rusia mantiene tasa récord pese a inflación semanal más alta en 22 años.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="data-stats">
+                <div class="data-stat">
+                    <div class="value">28</div>
+                    <div class="label">Puntos Plan Trump</div>
+                </div>
+                <div class="data-stat">
+                    <div class="value">Art. 5</div>
+                    <div class="label">Garantías Alternativas</div>
+                </div>
+                <div class="data-stat">
+                    <div class="value">2027</div>
+                    <div class="label">Membresía UE Objetivo</div>
+                </div>
+                <div class="data-stat">
+                    <div class="value">5-10 años</div>
+                    <div class="label">Riesgo Reanudación</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Actors -->
+        <section class="section">
+            <h2 class="section-title">Mapa de Actores Estratégicos</h2>
+            <p class="section-intro">
+                Actores nacionales (territoriales) y transnacionales (financieros) con sus funciones objetivo.
+            </p>
+            
+            <table class="actors-table">
+                <thead>
+                    <tr>
+                        <th>Actor</th>
+                        <th>Tipo</th>
+                        <th>Función Objetivo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>🇺🇸 Estados Unidos</strong></td>
+                        <td><span class="actor-type leader">Actor Líder</span></td>
+                        <td>Acabar la guerra, participar en reconstrucción, reconfigurar costes OTAN. Construir plataforma transnacional financiera con sectores rusos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>🇷🇺 Rusia</strong></td>
+                        <td><span class="actor-type key">Actor Clave</span></td>
+                        <td>Control "tierras históricas", neutralidad ucraniana, levantamiento sanciones. Economía bajo estrés: rublo perdió 50%+ valor.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>🇺🇦 Ucrania</strong></td>
+                        <td><span class="actor-type key">Actor Clave</span></td>
+                        <td>Integridad territorial máxima posible, garantías seguridad tipo Art. 5, membresía UE. Zelensky: renuncia a OTAN por garantías alternativas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>🇪🇺 Unión Europea</strong></td>
+                        <td><span class="actor-type key">Actor Clave</span></td>
+                        <td>Estabilidad continental, autonomía estratégica, "divorcio energético" consumado. Activos rusos congelados €210.000M.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>🇨🇳 China</strong></td>
+                        <td><span class="actor-type facilitator">Facilitador Decisivo</span></td>
+                        <td>Posición como "facilitador decisivo", mantener opciones abiertas, consolidar influencia global. Coordinación en proceso de paz.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>💰 Actores Transnacionales</strong></td>
+                        <td><span class="actor-type shadow">En la Sombra</span></td>
+                        <td>Sectores financieros que operan más allá de lógicas territoriales. Oligarcas rusos demandando $16.000M+ vía tribunales ISDS.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Scenarios -->
+        <section class="section">
+            <h2 class="section-title">Escenarios Prospectivos 2025-2030</h2>
+            <p class="section-intro">
+                Cuatro futuros posibles con probabilidades actualizadas según evolución negociaciones diciembre 2025.
+            </p>
+            
+            <div class="scenarios-grid">
+                <div class="scenario-card">
+                    <div class="scenario-header green">
+                        <div class="scenario-name">Escenario A</div>
+                        <div class="scenario-prob">10-15%</div>
+                    </div>
+                    <div class="scenario-body">
+                        <p class="scenario-desc">
+                            <strong>"Convergencia EEUU-Rusia"</strong><br>
+                            Gran acuerdo con levantamiento sustancial de sanciones. Rusia pivota hacia Occidente. Realineamiento geopolítico mayor.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="scenario-card">
+                    <div class="scenario-header amber">
+                        <div class="scenario-name">Escenario B</div>
+                        <div class="scenario-prob">50-60%</div>
+                    </div>
+                    <div class="scenario-body">
+                        <p class="scenario-desc">
+                            <strong>"Acuerdo Parcial Sin Realineamiento"</strong><br>
+                            Alto el fuego logrado pero sanciones estructurales permanecen. Conflicto congelado modelo Chipre.
+                        </p>
+                        <div class="most-likely-badge">
+                            ✓ En Materialización
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="scenario-card">
+                    <div class="scenario-header sky">
+                        <div class="scenario-name">Escenario C</div>
+                        <div class="scenario-prob">20-25%</div>
+                    </div>
+                    <div class="scenario-body">
+                        <p class="scenario-desc">
+                            <strong>"Profundización Rusia-China"</strong><br>
+                            Negociaciones fracasan. Rusia acelera integración con China. Bloque euroasiático consolidado.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="scenario-card">
+                    <div class="scenario-header red">
+                        <div class="scenario-name">Escenario D</div>
+                        <div class="scenario-prob">5-10%</div>
+                    </div>
+                    <div class="scenario-body">
+                        <p class="scenario-desc">
+                            <strong>"Fragmentación UE"</strong><br>
+                            Crisis de cohesión europea. Divergencias sobre sanciones y estrategia. Debilitamiento institucional.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Variables -->
+        <section class="section">
+            <h2 class="section-title">Variables Críticas de Monitoreo</h2>
+            <p class="section-intro">
+                Variables clave a vigilar con señales positivas y negativas para anticipar cambios de escenario.
+            </p>
+            
+            <table class="variables-table">
+                <thead>
+                    <tr>
+                        <th>Variable</th>
+                        <th>Señal Positiva ↑</th>
+                        <th>Señal Negativa ↓</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Negociaciones directas</strong></td>
+                        <td class="signal-positive">Reuniones alto nivel, acuerdos parciales</td>
+                        <td class="signal-negative">Suspensión conversaciones, retórica hostil</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sanciones occidentales</strong></td>
+                        <td class="signal-positive">Mecanismos de levantamiento gradual</td>
+                        <td class="signal-negative">Nuevas sanciones, confiscación activos</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Economía rusa</strong></td>
+                        <td class="signal-positive">Estabilización rublo, baja de tasas</td>
+                        <td class="signal-negative">Inflación acelerada, fuga de capitales</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Línea del frente</strong></td>
+                        <td class="signal-positive">Estabilización, treguas locales</td>
+                        <td class="signal-negative">Escalada ofensivas, nuevos frentes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Posición China</strong></td>
+                        <td class="signal-positive">Mediación activa, presión sobre Moscú</td>
+                        <td class="signal-negative">Apoyo militar directo a Rusia</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cohesión UE</strong></td>
+                        <td class="signal-positive">Posición unificada, fondos reconstrucción</td>
+                        <td class="signal-negative">Vetos, acuerdos bilaterales separados</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Garantías de seguridad</strong></td>
+                        <td class="signal-positive">Framework alternativo a OTAN acordado</td>
+                        <td class="signal-negative">Impasse sobre formato de garantías</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- CTR Section -->
+        <section class="section">
+            <div class="ctr-section">
+                <div class="ctr-icon">⚡</div>
+                <h3>Casi Tiempo Real (CTR)</h3>
+                <p>
+                    En sistemas de alta volatilidad como el conflicto ucraniano, el valor diferencial de SOPHHIA es la capacidad de actualizar análisis en <strong>Casi Tiempo Real</strong>. Los escenarios y probabilidades se recalibran continuamente según nuevos datos, permitiendo decisiones informadas ante cambios rápidos.
+                </p>
+                <div class="ctr-badge">
+                    🕐 Última actualización: Diciembre 2025
+                </div>
+            </div>
+        </section>
+
+        <!-- Disclaimer -->
+        <section class="section" style="text-align: center; padding: 40px; background: #FEF3C7; border-radius: 12px;">
+            <p style="font-size: 14px; color: var(--gold); font-weight: 600; margin-bottom: 8px;">
+                ⚠️ CASO BASE CERO
+            </p>
+            <p style="font-size: 14px; color: var(--slate); max-width: 600px; margin: 0 auto;">
+                Este análisis ha sido generado íntegramente por SOPHHIA (IA) sin intervención humana. 
+                Constituye un punto de partida demostrativo. La contratación del servicio activa una 
+                <strong>Mesa de Expertos</strong> que valida, corrige y enriquece el análisis.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-brand">◈ SOPHHIA</div>
+        <p class="footer-tagline">Sistema Operativo de Prospectiva Híbrido Humano-IA</p>
+        <p class="footer-copy">© 2025 SOPHHIA. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

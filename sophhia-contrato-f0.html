@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOPHHIA® — Contrato Prospectivo · Fase 0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#161d33;--bg2:#1f2945;--surface:#F4F0E8;--surface2:#ECE6DA;
+  --ink:#161d33;--muted:#54607A;--accent:#A9763F;--accent2:#D4A86A;
+  --line:#D8CFBF;--hi:#FCF9F3;--zoom:1;
+}
+[data-theme="2"]{--bg:#0c1117;--bg2:#16202c;--surface:#EEF2F5;--surface2:#E1E8EE;--ink:#0c1117;--muted:#4A5867;--accent:#2C7DA0;--accent2:#7CC4DD;--line:#CDD7DF;--hi:#fff;}
+[data-theme="3"]{--bg:#1c1013;--bg2:#2c181d;--surface:#F6EFE9;--surface2:#ECE0D6;--ink:#1c1013;--muted:#6B524D;--accent:#9C333E;--accent2:#D27A85;--line:#DDCCC4;--hi:#FDF9F5;}
+[data-theme="4"]{--bg:#0b1812;--bg2:#13261d;--surface:#EEF3EE;--surface2:#E0EAE2;--ink:#0b1812;--muted:#465C50;--accent:#2F7D52;--accent2:#74C596;--line:#CAD9CF;--hi:#FAFDFB;}
+*{margin:0;padding:0;box-sizing:border-box}
+html{font-size:calc(16px * var(--zoom));scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--surface);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .4s,color .4s}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:500;line-height:1.14}
+.wrap{max-width:760px;margin:0 auto;padding:0 28px}
+.controls{position:fixed;top:16px;right:16px;z-index:1000;display:flex;gap:12px;align-items:center;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:40px;padding:8px 14px;box-shadow:0 4px 20px rgba(0,0,0,.14)}
+.palettes{display:flex;gap:8px}
+.sw{width:23px;height:23px;border-radius:50%;border:2px solid #fff;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.3);transition:transform .15s}
+.sw:hover{transform:scale(1.18)}
+.sw1{background:#A9763F}.sw2{background:#2C7DA0}.sw3{background:#9C333E}.sw4{background:#2F7D52}
+.zoom{display:flex;gap:6px;align-items:center;border-left:1px solid var(--line);padding-left:12px}
+.zbtn{width:28px;height:28px;border-radius:50%;border:none;background:#161d33;color:#fff;font-size:16px;cursor:pointer;font-weight:bold;line-height:1}
+.zbtn:hover{opacity:.82}
+.zlbl{font-size:11px;color:var(--muted);min-width:34px;text-align:center}
+
+header{background:var(--bg);color:var(--hi);padding:90px 0 56px}
+.kicker{font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--accent2);font-weight:700;margin-bottom:16px}
+header h1{font-size:3rem;color:var(--hi);margin-bottom:14px}
+header h1 .reg{font-size:1rem;vertical-align:super;color:var(--accent2)}
+header p{color:#ccd2e2;font-size:1.15rem;font-weight:300;max-width:60ch}
+.back{display:inline-block;margin-top:26px;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent2);text-decoration:none;border-bottom:1px solid transparent;transition:border .2s}
+.back:hover{border-color:var(--accent2)}
+
+.intro{background:var(--surface2);padding:34px 0}
+.intro .wrap{font-size:1.02rem;color:var(--muted)}
+.intro b{color:var(--ink)}
+
+form{padding:56px 0 30px}
+.step{font-family:'Inter',sans-serif;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:6px}
+.q{background:#fff;border:1px solid var(--line);border-radius:8px;padding:28px;margin-bottom:22px}
+[data-theme] .q{background:var(--surface)}
+.q h3{font-size:1.4rem;margin-bottom:4px}
+.q .help{color:var(--muted);font-size:.92rem;margin-bottom:16px}
+label.f{display:block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:14px 0 7px;font-weight:600}
+input,select,textarea{width:100%;padding:13px 15px;background:var(--surface2);border:1px solid var(--line);color:var(--ink);font-family:'Inter',sans-serif;font-size:.96rem;border-radius:5px;transition:border .2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
+textarea{resize:vertical;min-height:84px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.btn{display:inline-block;padding:15px 36px;border-radius:4px;font-size:.82rem;letter-spacing:.07em;text-transform:uppercase;font-weight:600;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer;font-family:'Inter',sans-serif;transition:all .25s}
+.btn:hover{background:var(--accent2);border-color:var(--accent2);color:var(--bg)}
+.note{font-size:.85rem;color:var(--muted);margin-top:16px}
+.ok{display:none;background:var(--bg);color:var(--hi);border-radius:10px;padding:46px;text-align:center}
+.ok.show{display:block}
+.ok h2{color:var(--hi);font-size:2rem;margin-bottom:10px}
+.ok p{color:#ccd2e2;max-width:52ch;margin:0 auto}
+@media(max-width:680px){.two{grid-template-columns:1fr}header h1{font-size:2.2rem}.controls{top:auto;bottom:16px;right:50%;transform:translateX(50%)}}
+</style>
+</head>
+<body data-theme="1">
+
+<div class="controls" role="toolbar" aria-label="Apariencia">
+  <div class="palettes" role="group" aria-label="Paletas de color">
+    <span class="sw sw1" onclick="setTheme(1)" title="Quiet Luxury"></span>
+    <span class="sw sw2" onclick="setTheme(2)" title="Pizarra"></span>
+    <span class="sw sw3" onclick="setTheme(3)" title="Borgoña"></span>
+    <span class="sw sw4" onclick="setTheme(4)" title="Noosfera"></span>
+  </div>
+  <div class="zoom">
+    <button class="zbtn" onclick="zoom(-.1)" aria-label="Reducir zoom">−</button>
+    <span class="zlbl" id="zlbl">100%</span>
+    <button class="zbtn" onclick="zoom(.1)" aria-label="Aumentar zoom">+</button>
+  </div>
+</div>
+
+<header>
+  <div class="wrap">
+    <div class="kicker">Fase 0 · El método empieza aquí</div>
+    <h1>Contrato Prospectivo<span class="reg">®</span></h1>
+    <p>Antes de calcular nada, SOPHHIA delimita el sistema. Este cuestionario es la primera fase del método: define qué vamos a anticipar, para quién y con qué fronteras. No hay análisis riguroso sin un buen contrato de partida.</p>
+    <a href="index.html" class="back">← Volver a SOPHHIA</a>
+  </div>
+</header>
+
+<div class="intro">
+  <div class="wrap">
+    Tómate tu tiempo. Cada respuesta afina el análisis posterior. Lo que aquí defines determina las variables (F2), los actores (F4) y los escenarios (F5). <b>Si una pregunta no la tienes clara, déjala abierta: la afinamos juntos.</b>
+  </div>
+</div>
+
+<form id="cp">
+  <div class="wrap">
+
+    <div class="q">
+      <div class="step">Paso 1 de 6</div>
+      <h3>El sistema a analizar</h3>
+      <p class="help">¿Qué quieres anticipar? Una organización, un territorio, una tecnología, una relación estratégica…</p>
+      <label class="f" for="sis_tipo">Tipo de sistema</label>
+      <select id="sis_tipo">
+        <option value="">Selecciona…</option>
+        <option>Una organización / empresa</option>
+        <option>Un territorio o sistema urbano</option>
+        <option>Una tecnología o sector</option>
+        <option>Una relación estratégica (alianza, coopetición…)</option>
+        <option>Una institución o política pública</option>
+        <option>Otro</option>
+      </select>
+      <label class="f" for="sis_desc">Descríbelo en una o dos frases</label>
+      <textarea id="sis_desc" placeholder="El sistema que quiero anticipar es…"></textarea>
+    </div>
+
+    <div class="q">
+      <div class="step">Paso 2 de 6</div>
+      <h3>Horizonte y destinatario</h3>
+      <p class="help">Hasta cuándo miramos, y para quién es el análisis.</p>
+      <div class="two">
+        <div>
+          <label class="f" for="horizonte">Horizonte temporal</label>
+          <select id="horizonte">
+            <option value="">Selecciona…</option>
+            <option>Corto (≈ 5 años)</option>
+            <option>Medio (≈ 10 años)</option>
+            <option>Largo (≈ 15 años)</option>
+            <option>Muy largo (20+ años)</option>
+          </select>
+        </div>
+        <div>
+          <label class="f" for="cliente">Destinatario / beneficiario</label>
+          <input type="text" id="cliente" placeholder="Quién usará el análisis">
+        </div>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="step">Paso 3 de 6</div>
+      <h3>La pregunta prospectiva clave</h3>
+      <p class="help">La decisión o pregunta central que el análisis debe ayudar a responder. Una sola frase, lo más concreta posible.</p>
+      <label class="f" for="ppc">Pregunta prospectiva clave (PPC)</label>
+      <textarea id="ppc" placeholder="¿Qué tengo que decidir, o qué quiero entender del futuro de este sistema?"></textarea>
+    </div>
+
+    <div class="q">
+      <div class="step">Paso 4 de 6</div>
+      <h3>Alcance</h3>
+      <p class="help">Delimitar es decidir qué queda dentro y qué queda fuera. Un buen contrato dice ambas cosas.</p>
+      <div class="two">
+        <div>
+          <label class="f" for="incluye">Incluye</label>
+          <textarea id="incluye" placeholder="Qué entra en el análisis"></textarea>
+        </div>
+        <div>
+          <label class="f" for="excluye">Excluye</label>
+          <textarea id="excluye" placeholder="Qué queda deliberadamente fuera"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="step">Paso 5 de 6</div>
+      <h3>Actores principales</h3>
+      <p class="help">Los 3-5 stakeholders que más influyen o más se juegan en este sistema. Sin nombres confidenciales si prefieres; basta el rol.</p>
+      <label class="f" for="actores">Stakeholders principales</label>
+      <textarea id="actores" placeholder="1. … 2. … 3. …"></textarea>
+    </div>
+
+    <div class="q">
+      <div class="step">Paso 6 de 6</div>
+      <h3>Tus datos de contacto</h3>
+      <p class="help">Para devolverte el contrato prospectivo formalizado y proponerte cómo seguir.</p>
+      <div class="two">
+        <div>
+          <label class="f" for="nombre">Nombre</label>
+          <input type="text" id="nombre" autocomplete="name">
+        </div>
+        <div>
+          <label class="f" for="email">Correo electrónico</label>
+          <input type="email" id="email" autocomplete="email">
+        </div>
+      </div>
+      <label class="f" for="org">Organización (opcional)</label>
+      <input type="text" id="org" autocomplete="organization">
+    </div>
+
+    <button type="button" class="btn" id="enviar">Enviar el contrato de partida</button>
+    <p class="note">Revisaremos tu contrato prospectivo y te responderemos personalmente. También puedes escribir a <strong>contacto@sophhia.com</strong>.</p>
+
+    <div class="ok" id="ok">
+      <h2>Contrato recibido</h2>
+      <p>Gracias. Hemos recibido tu contrato de partida. Lo revisaremos y te devolveremos la formalización en formato SOPHHIA, con la propuesta de fases. Te escribiremos en breve.</p>
+    </div>
+
+  </div>
+</form>
+
+<script>
+function setTheme(n){document.body.setAttribute('data-theme',n);}
+var z=1;var zlbl=document.getElementById('zlbl');
+function zoom(d){z=Math.min(1.5,Math.max(.7,Math.round((z+d)*100)/100));document.documentElement.style.setProperty('--zoom',z);zlbl.textContent=Math.round(z*100)+'%';}
+document.getElementById('enviar').addEventListener('click',function(){
+  var g=function(id){var e=document.getElementById(id);return e?e.value.trim():'';};
+  var nombre=g('nombre'), email=g('email'), sis=g('sis_desc');
+  if(!nombre||!email||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){alert('Necesitamos al menos tu nombre y un correo válido para devolverte el contrato.');return;}
+  if(!sis){alert('Cuéntanos al menos qué sistema quieres anticipar (paso 1).');return;}
+  var btn=this; btn.textContent='Enviando…'; btn.disabled=true;
+  fetch('https://formspree.io/f/mnjkaloj',{
+    method:'POST',
+    headers:{'Accept':'application/json'},
+    body:JSON.stringify({
+      _subject:'SOPHHIA · Contrato Prospectivo F0',
+      origen:'Cuestionario Contrato F0',
+      nombre:nombre, email:email, organizacion:g('org'),
+      tipo_sistema:g('sis_tipo'), descripcion_sistema:sis,
+      horizonte:g('horizonte'), destinatario:g('cliente'),
+      pregunta_clave:g('ppc'), incluye:g('incluye'), excluye:g('excluye'),
+      actores:g('actores')
+    })
+  }).then(function(r){
+    if(r.ok){
+      document.getElementById('cp').querySelectorAll('.q, .btn, .note').forEach(function(e){e.style.display='none';});
+      document.getElementById('ok').classList.add('show');
+      document.getElementById('ok').scrollIntoView({behavior:'smooth',block:'center'});
+    } else {btn.textContent='Enviar el contrato de partida';btn.disabled=false;alert('No se pudo enviar. Inténtalo de nuevo o escribe a jvg@sophhia.com.');}
+  }).catch(function(){btn.textContent='Enviar el contrato de partida';btn.disabled=false;alert('No se pudo enviar. Revisa tu conexión o escribe a jvg@sophhia.com.');});
+});
+</script>
+</body>
+</html>

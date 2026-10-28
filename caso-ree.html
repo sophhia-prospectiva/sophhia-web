@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso REE/Redeia | SOPHHIA</title>
+    <meta name="description" content="Análisis prospectivo del sector eléctrico español post-apagón. Escenarios regulatorios 2025-2028 para Red Eléctrica de España.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --blue-primary: #1E3A5F;
+            --blue-accent: #2E86AB;
+            --blue-light: #E8F4F8;
+            --gray-light: #F5F5F5;
+            --gray-medium: #E0E0E0;
+            --gray-text: #666666;
+            --dark-text: #333333;
+            --highlight: #FFF8E1;
+            --highlight-border: #F9A825;
+            --success: #2E7D32;
+            --warning: #E65100;
+            --white: #FFFFFF;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background: var(--white);
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+        /* Header */
+        header {
+            background: var(--white);
+            border-bottom: 1px solid var(--gray-medium);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--blue-primary);
+            text-decoration: none;
+        }
+
+        .logo span { color: var(--blue-accent); }
+
+        .header-nav { display: flex; gap: 24px; align-items: center; }
+
+        .header-nav a {
+            color: var(--gray-text);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+
+        .header-nav a:hover { color: var(--blue-primary); }
+
+        .header-cta {
+            background: var(--blue-accent);
+            color: var(--white) !important;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 500;
+        }
+
+        .header-cta:hover { background: var(--blue-primary); }
+
+        /* Hero */
+        .case-hero {
+            background: linear-gradient(135deg, var(--blue-primary) 0%, #2c5282 100%);
+            color: var(--white);
+            padding: 60px 0;
+        }
+
+        .case-hero-content { max-width: 800px; }
+
+        .case-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+
+        .case-hero h1 {
+            font-size: clamp(28px, 4vw, 40px);
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+
+        .case-hero-subtitle {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 24px;
+        }
+
+        .case-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            font-size: 14px;
+        }
+
+        .case-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .case-meta-label { opacity: 0.7; }
+
+        /* Content */
+        .case-content { padding: 60px 0; }
+
+        .case-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 48px;
+        }
+
+        @media (max-width: 900px) {
+            .case-grid { grid-template-columns: 1fr; }
+        }
+
+        .case-main h2 {
+            font-size: 24px;
+            color: var(--blue-primary);
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--blue-light);
+        }
+
+        .case-main h3 {
+            font-size: 18px;
+            color: var(--blue-primary);
+            margin: 32px 0 16px;
+        }
+
+        .case-main p { margin-bottom: 16px; color: var(--dark-text); }
+
+        /* Scenario Cards */
+        .scenarios-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            margin: 24px 0;
+        }
+
+        @media (max-width: 600px) {
+            .scenarios-grid { grid-template-columns: 1fr; }
+        }
+
+        .scenario-card {
+            background: var(--gray-light);
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 4px solid var(--blue-accent);
+        }
+
+        .scenario-card.target {
+            background: var(--highlight);
+            border-left-color: var(--highlight-border);
+        }
+
+        .scenario-card.risk {
+            background: #FFEBEE;
+            border-left-color: #C62828;
+        }
+
+        .scenario-name {
+            font-weight: 700;
+            color: var(--blue-primary);
+            margin-bottom: 4px;
+        }
+
+        .scenario-prob {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--blue-accent);
+        }
+
+        .scenario-card.target .scenario-prob { color: var(--warning); }
+        .scenario-card.risk .scenario-prob { color: #C62828; }
+
+        .scenario-desc {
+            font-size: 13px;
+            color: var(--gray-text);
+            margin-top: 8px;
+        }
+
+        /* Actor Table */
+        .actor-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        .actor-table th, .actor-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--gray-medium);
+        }
+
+        .actor-table th {
+            background: var(--blue-primary);
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        .actor-table tr:hover { background: var(--gray-light); }
+
+        /* Sidebar */
+        .case-sidebar { position: sticky; top: 100px; }
+
+        .download-card {
+            background: var(--blue-light);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .download-card h4 {
+            font-size: 16px;
+            color: var(--blue-primary);
+            margin-bottom: 16px;
+        }
+
+        .download-btn {
+            display: block;
+            background: var(--blue-accent);
+            color: var(--white);
+            padding: 14px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 12px;
+            transition: background 0.2s;
+        }
+
+        .download-btn:hover { background: var(--blue-primary); }
+
+        .download-btn.secondary {
+            background: var(--white);
+            color: var(--blue-primary);
+            border: 1px solid var(--gray-medium);
+        }
+
+        .download-btn.secondary:hover {
+            background: var(--gray-light);
+        }
+
+        .info-card {
+            background: var(--gray-light);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .info-card h4 {
+            font-size: 14px;
+            color: var(--gray-text);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--gray-medium);
+            font-size: 14px;
+        }
+
+        .info-item:last-child { border-bottom: none; }
+
+        .info-label { color: var(--gray-text); }
+        .info-value { font-weight: 600; color: var(--dark-text); }
+
+        /* Key Points */
+        .key-point {
+            background: var(--highlight);
+            border-left: 4px solid var(--highlight-border);
+            padding: 16px 20px;
+            margin: 24px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .key-point p {
+            margin: 0;
+            font-family: 'Merriweather', serif;
+            font-style: italic;
+        }
+
+        /* Profiles */
+        .profiles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
+        }
+
+        .profile-card {
+            background: var(--white);
+            border: 1px solid var(--gray-medium);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .profile-card h5 {
+            font-size: 14px;
+            color: var(--blue-accent);
+            margin-bottom: 8px;
+        }
+
+        .profile-card p {
+            font-size: 13px;
+            margin: 0;
+            color: var(--gray-text);
+        }
+
+        .profile-recommendation {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid var(--gray-light);
+            font-weight: 600;
+            color: var(--blue-primary);
+            font-size: 13px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark-text);
+            color: rgba(255,255,255,0.7);
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 8px;
+        }
+
+        .footer-logo span { color: var(--blue-accent); }
+        .footer-tagline { font-size: 13px; margin-bottom: 20px; }
+        .footer-copy { font-size: 13px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo">SOPHH<span>IA</span></a>
+            <nav class="header-nav">
+                <a href="index.html">Inicio</a>
+                <a href="index.html#casos">Casos</a>
+                <a href="index.html#contacto" class="header-cta">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="case-hero">
+        <div class="container">
+            <div class="case-hero-content">
+                <span class="case-badge">⚡ Caso de Estudio — Sector Eléctrico</span>
+                <h1>REE/Redeia: Escenarios Post-Apagón del Sistema Eléctrico Español</h1>
+                <p class="case-hero-subtitle">
+                    Análisis prospectivo del futuro regulatorio y estratégico de Red Eléctrica de España 
+                    tras el apagón del 28 de abril de 2025.
+                </p>
+                <div class="case-meta">
+                    <div class="case-meta-item">
+                        <span class="case-meta-label">Horizonte:</span>
+                        <strong>2025 — 2028</strong>
+                    </div>
+                    <div class="case-meta-item">
+                        <span class="case-meta-label">Actores:</span>
+                        <strong>8 mapeados</strong>
+                    </div>
+                    <div class="case-meta-item">
+                        <span class="case-meta-label">Escenarios:</span>
+                        <strong>4 construidos</strong>
+                    </div>
+                    <div class="case-meta-item">
+                        <span class="case-meta-label">Actualización:</span>
+                        <strong>19 dic 2025</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-content">
+        <div class="container">
+            <div class="case-grid">
+                <div class="case-main">
+                    <h2>Contexto del Sistema</h2>
+                    <p>
+                        El apagón del 28 de abril de 2025 representa una bifurcación crítica para el sistema 
+                        eléctrico español. La investigación de la CNMC (prevista Q1 2026) determinará no solo 
+                        responsabilidades, sino el futuro modelo de gobernanza del sector.
+                    </p>
+                    <p>
+                        REE/Redeia se encuentra en una posición de vulnerabilidad: su legitimidad técnica ha sido 
+                        cuestionada, mientras las grandes eléctricas (AELEC) presionan por una redistribución de 
+                        funciones que podría fragmentar el monopolio natural del operador del sistema.
+                    </p>
+
+                    <div class="key-point">
+                        <p>Bifurcación crítica: El informe CNMC Q1 2026 determinará si el sistema evoluciona hacia 
+                        consolidación de REE o hacia fragmentación con pérdida de funciones.</p>
+                    </div>
+
+                    <h2>Escenarios 2025-2028</h2>
+                    <div class="scenarios-grid">
+                        <div class="scenario-card">
+                            <div class="scenario-name">S1: Statu Quo Reforzado</div>
+                            <div class="scenario-prob">20%</div>
+                            <p class="scenario-desc">REE mantiene todas sus funciones. CNMC atribuye causas a factores externos.</p>
+                        </div>
+                        <div class="scenario-card">
+                            <div class="scenario-name">S2: Reforma Incremental</div>
+                            <div class="scenario-prob">30%</div>
+                            <p class="scenario-desc">Ajustes procedimentales sin cambio estructural. Supervisión reforzada.</p>
+                        </div>
+                        <div class="scenario-card target">
+                            <div class="scenario-name">S3: Travesía en Turbulencia</div>
+                            <div class="scenario-prob">35%</div>
+                            <p class="scenario-desc">Escenario objetivo. Reformas significativas pero REE preserva núcleo operativo.</p>
+                        </div>
+                        <div class="scenario-card risk">
+                            <div class="scenario-name">S4: Fragmentación</div>
+                            <div class="scenario-prob">15%</div>
+                            <p class="scenario-desc">Pérdida de funciones clave. Operadores regionales o privados asumen roles.</p>
+                        </div>
+                    </div>
+
+                    <h2>Actores Clave</h2>
+                    <table class="actor-table">
+                        <thead>
+                            <tr>
+                                <th>Actor</th>
+                                <th>Posición</th>
+                                <th>Poder</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>MITECO</strong></td>
+                                <td>Protector de REE</td>
+                                <td>Alto</td>
+                            </tr>
+                            <tr>
+                                <td><strong>CNMC</strong></td>
+                                <td>Árbitro neutral</td>
+                                <td>Muy Alto</td>
+                            </tr>
+                            <tr>
+                                <td><strong>IBERDROLA</strong></td>
+                                <td>Crítico activo</td>
+                                <td>Alto</td>
+                            </tr>
+                            <tr>
+                                <td><strong>ENDESA</strong></td>
+                                <td>Oposición moderada</td>
+                                <td>Medio-Alto</td>
+                            </tr>
+                            <tr>
+                                <td><strong>NATURGY</strong></td>
+                                <td>Neutral pragmático</td>
+                                <td>Medio</td>
+                            </tr>
+                            <tr>
+                                <td><strong>OMIE</strong></td>
+                                <td>Aliado táctico</td>
+                                <td>Medio</td>
+                            </tr>
+                            <tr>
+                                <td><strong>SEPI</strong></td>
+                                <td>Accionista protector</td>
+                                <td>Alto</td>
+                            </tr>
+                            <tr>
+                                <td><strong>REE/REDEIA</strong></td>
+                                <td>Defensa activa</td>
+                                <td>Medio (erosionado)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h2>Estrategias por Perfil de Cliente</h2>
+                    <div class="profiles-grid">
+                        <div class="profile-card">
+                            <h5>Perfil A: Inversor Institucional</h5>
+                            <p>Exposición a acciones Redeia o sector eléctrico español</p>
+                            <div class="profile-recommendation">→ Mantener con cobertura</div>
+                        </div>
+                        <div class="profile-card">
+                            <h5>Perfil B: Empresa Industrial</h5>
+                            <p>Gran consumidor eléctrico o dependiente de estabilidad de red</p>
+                            <div class="profile-recommendation">→ Anticipación y diversificación</div>
+                        </div>
+                        <div class="profile-card">
+                            <h5>Perfil C: Empresa Eléctrica</h5>
+                            <p>Generadores, comercializadoras o competidores de REE</p>
+                            <div class="profile-recommendation">→ Presión calibrada</div>
+                        </div>
+                        <div class="profile-card">
+                            <h5>Perfil D: Administración Pública</h5>
+                            <p>CCAA con competencias energéticas o intereses territoriales</p>
+                            <div class="profile-recommendation">→ Activismo planificador</div>
+                        </div>
+                        <div class="profile-card">
+                            <h5>Perfil E: REE/Redeia</h5>
+                            <p>La propia empresa en posición de defensa</p>
+                            <div class="profile-recommendation">→ Defensa activa + modernización</div>
+                        </div>
+                    </div>
+
+                    <h2>Cronograma de Decisiones</h2>
+                    <p>
+                        <strong>Q1 2026:</strong> Publicación informe CNMC — punto de bifurcación crítico<br>
+                        <strong>Q2 2026:</strong> Respuesta política MITECO según resultado investigación<br>
+                        <strong>Q3-Q4 2026:</strong> Negociación marco regulatorio renovado<br>
+                        <strong>2027:</strong> Implementación reformas estructurales (si aplica)<br>
+                        <strong>2028:</strong> Consolidación nuevo equilibrio sectorial
+                    </p>
+                </div>
+
+                <aside class="case-sidebar">
+                    <div class="download-card">
+                        <h4>📄 Descargar Informes</h4>
+                        <a href="SOPHHIA_REE_Fase1B_2_Completo.pdf" class="download-btn" download>
+                            Fase 1-2: Diagnóstico y Prospectiva
+                        </a>
+                        <a href="SOPHHIA_REE_Fase3_4_Completo.pdf" class="download-btn secondary" download>
+                            Fase 3-4: Estrategia y Plan Director
+                        </a>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>Ficha Técnica</h4>
+                        <div class="info-item">
+                            <span class="info-label">Sistema</span>
+                            <span class="info-value">Sector Eléctrico ES</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Escala</span>
+                            <span class="info-value">Nacional</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Variables clave</span>
+                            <span class="info-value">12</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Actores</span>
+                            <span class="info-value">8</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Escenarios</span>
+                            <span class="info-value">4</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Perfiles cliente</span>
+                            <span class="info-value">5</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Versión</span>
+                            <span class="info-value">Base 0</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Mesa de Expertos</span>
+                            <span class="info-value">Pendiente</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">SOPHH<span>IA</span></div>
+            <p class="footer-tagline">Sistema Operativo de Prospectiva Híbrido Humano-IA</p>
+            <p class="footer-copy">© 2025 SOPHHIA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
