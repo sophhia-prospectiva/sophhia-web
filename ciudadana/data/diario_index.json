@@ -1,0 +1,169 @@
+{
+  "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
+  "ultima_actualizacion": "2026-10-27",
+  "entradas": [
+    {
+      "codigo": "D-021",
+      "fecha": "2026-10-27",
+      "titulo": "El pacto senatorial PP‑Vox concreta la coordinación territorial",
+      "url": "diario/2026-10-27.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
+    {
+      "codigo": "D-020",
+      "fecha": "2026-10-26",
+      "titulo": "Cierre de candidaturas y pactos tácticos antes de la publicación oficial",
+      "url": "diario/2026-10-26.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
+    {
+      "codigo": "D-019",
+      "fecha": "2026-10-25",
+      "titulo": "Censo exterior y posiciones políticas antes del cierre de candidaturas",
+      "url": "diario/2026-10-25.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
+    {
+      "codigo": "D-018",
+      "fecha": "2026-10-24",
+      "titulo": "Nueva medición de voto y seguimiento del censo exterior",
+      "url": "diario/2026-10-24.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
+    {
+      "codigo": "D-017",
+      "fecha": "2026-10-23",
+      "titulo": "Pactos y debates: posiciones más explícitas, acuerdos aún abiertos",
+      "url": "diario/2026-10-23.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
+    {
+      "codigo": "D-016",
+      "fecha": "2026-10-22",
+      "titulo": "Voto exterior y candidaturas: decisiones concretas, pactos aún abiertos",
+      "url": "diario/2026-10-22.html",
+      "estado": "editorial_pendiente_IH",
+      "decision": null
+    },
+    {
+      "codigo": "D-015",
+      "fecha": "2026-10-21",
+      "titulo": "Amnistía, Senado y preferencias de gobierno: nuevas condiciones para los pactos",
+      "url": "diario/2026-10-21.html",
+      "estado": "validacion_IH",
+      "decision": "DEC-IH-D015-001"
+    },
+    {
+      "codigo": "D-014",
+      "fecha": "2026-10-20",
+      "titulo": "Sigma Dos verificado; programas y pactos bajo vigilancia",
+      "url": "diario/2026-10-20.html",
+      "estado": "validacion_IH",
+      "decision": "DEC-IH-D014-001"
+    },
+    {
+      "codigo": "D-013",
+      "fecha": "2026-10-19",
+      "titulo": "ElectoPanel publica resultados; nuevas comprobaciones demoscópicas y territoriales",
+      "url": "diario/2026-10-19.html",
+      "estado": "editorial_pendiente_IH",
+      "decision": null
+    },
+    {
+      "codigo": "D-012",
+      "fecha": "2026-10-18",
+      "titulo": "ElectoPanel: nueva ficha, resultados pendientes",
+      "url": "diario/2026-10-18.html",
+      "estado": "validacion_IH",
+      "registro": "REG-D012-20261018",
+      "decision": "DEC-IH-D012-001"
+    },
+    {
+      "codigo": "D-011",
+      "fecha": "2026-10-17",
+      "titulo": "Cooperación en el Senado y fragmentación en el Congreso",
+      "url": "diario/2026-10-17.html",
+      "estado": "editorial_pendiente_IH",
+      "registro": "REG-D011-20261017",
+      "decision": null
+    },
+    {
+      "codigo": "D-010",
+      "fecha": "2026-10-16",
+      "titulo": "Las alianzas territoriales llegan al cierre del plazo de coaliciones",
+      "url": "diario/2026-10-16.html",
+      "estado": "validacion_IH",
+      "registro": "REG-D010-20261016",
+      "decision": "DEC-IH-D010-001"
+    },
+    {
+      "codigo": "D-009",
+      "fecha": "2026-10-15",
+      "titulo": "Encuestas divergentes, alianzas abiertas y garantías de sufragio",
+      "url": "diario/2026-10-15.html",
+      "estado": "borrador_recuperado_pendiente_IH",
+      "publicado_el": "2026-10-16",
+      "rectificacion": "REG-RECT-29N-20261016-001"
+    },
+    {
+      "codigo": "D-008",
+      "fecha": "2026-10-14",
+      "titulo": "Alianzas territoriales y garantías de sufragio: interdependencias bajo revisión",
+      "url": "diario/2026-10-14.html",
+      "estado": "validacion_IH_provisional",
+      "decision": "DEC-IH-D008-001"
+    },
+    {
+      "codigo": "D-007",
+      "fecha": "2026-10-13",
+      "titulo": "Alianzas de izquierda y derecho de sufragio: dos bifurcaciones bajo vigilancia",
+      "url": "diario/2026-10-13.html",
+      "estado": "validacion_IH_provisional",
+      "decision_previa": "DEC-IH-D006-001",
+      "decision": "DEC-IH-D007-001"
+    },
+    {
+      "codigo": "D-006",
+      "fecha": "2026-10-12",
+      "titulo": "Territorio, identidad y alianzas: nuevas conexiones en el sistema electoral",
+      "url": "diario/2026-10-12.html",
+      "estado": "validacion_IH_provisional",
+      "decision": "DEC-IH-D006-001"
+    },
+    {
+      "codigo": "D-005",
+      "fecha": "2026-10-11",
+      "titulo": "Malestar social, vivienda y territorio: señales de tensión sin recalibración",
+      "url": "diario/2026-10-11.html",
+      "estado": "archivada"
+    },
+    {
+      "codigo": "D-004",
+      "fecha": "2026-10-10",
+      "titulo": "Censo, territorio y legitimidad: el MICMAC entra en la Bitácora diaria",
+      "url": "diario/2026-10-10.html",
+      "estado": "archivada"
+    },
+    {
+      "codigo": "D-003",
+      "fecha": "2026-10-09",
+      "titulo": "Del ruido diario a las señales prospectivas",
+      "url": "diario/2026-10-09.html",
+      "estado": "archivada"
+    },
+    {
+      "codigo": "D-002",
+      "fecha": "2026-10-08",
+      "titulo": "Primer día de rutina: señales, no sobresaltos",
+      "url": "diario/2026-10-08.html",
+      "estado": "archivada"
+    },
+    {
+      "codigo": "D-001",
+      "fecha": "2026-10-07",
+      "titulo": "Apertura del observatorio público",
+      "url": "diario/2026-10-07.html",
+      "estado": "archivada"
+    }
+  ]
+}

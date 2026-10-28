@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-10-27",
+  "ultima_actualizacion": "2026-10-28",
   "entradas": [
+    {
+      "codigo": "D-022",
+      "fecha": "2026-10-28",
+      "titulo": "El BOE fija el mapa inicial de candidaturas y abre la fase de subsanación",
+      "url": "diario/2026-10-28.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-021",
       "fecha": "2026-10-27",

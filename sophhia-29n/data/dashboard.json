@@ -1,23 +1,23 @@
 {
-  "version": "v0.40-D021",
-  "updated": "2026-10-27",
+  "version": "v0.41-D022",
+  "updated": "2026-10-28",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-021",
+  "current_entry": "D-022",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "PP y Vox formalizan una coordinación para el Senado con retiradas y candidaturas limitadas por provincias; Podemos confirma que no presentará candidatura propia a la Cámara Alta en Cataluña, Comunidad Valenciana, Canarias y Baleares. La publicación oficial de candidaturas sigue pendiente del 28. Sin nueva encuesta nacional admitida ni recalibración. Los cinco gráficos incorporan tres unidades documentales del 27, pendientes de validación humana.",
+  "system_state": "El BOE publica las candidaturas presentadas al Congreso y al Senado y permite contrastar por primera vez los acuerdos territoriales anunciados. La relación sigue siendo provisional: la proclamación corresponde al 2 de noviembre y su publicación definitiva al día 3. La propia relación identifica al menos una candidatura inadmitida. Sin nueva encuesta nacional admitida ni recalibración de escenarios.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Publicación oficial de candidaturas el 28 y alcance político de coordinaciones electorales que no equivalen a pactos de Gobierno.",
-  "watch_variable": "V3 · Relación PP‑Vox; V4 · Fragmentación izquierda; V11/V12/V16 · coordinación territorial",
+  "main_uncertainty": "Subsanaciones, impugnaciones y proclamación definitiva de candidaturas; alcance político de acuerdos electorales que no equivalen a pactos de Gobierno.",
+  "watch_variable": "V3 · Relación PP-Vox; V4 · Fragmentación izquierda; V11/V12/V16 · coordinación territorial",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "PP y Vox concretan una coordinación senatorial por provincias.",
-    "Podemos no presentará candidatura propia al Senado en cuatro territorios.",
-    "La lista oficial se comprobará el 28; no se anticipa su validación.",
+    "El BOE publica las candidaturas presentadas.",
+    "Los acuerdos territoriales pueden contrastarse ya con una fuente oficial.",
+    "La relación sigue siendo provisional hasta la proclamación.",
     "Sin nueva encuesta nacional admitida ni recalibración."
   ],
   "path": [
@@ -348,7 +348,7 @@
       }
     ]
   },
-  "current_reading": "PP y Vox formalizan una coordinación para el Senado con retiradas y candidaturas limitadas por provincias; Podemos confirma que no presentará candidatura propia a la Cámara Alta en Cataluña, Comunidad Valenciana, Canarias y Baleares. La publicación oficial de candidaturas sigue pendiente del 28. Sin nueva encuesta nacional admitida ni recalibración. Los cinco gráficos incorporan tres unidades documentales del 27, pendientes de validación humana.",
+  "current_reading": "El BOE publica las candidaturas presentadas al Congreso y al Senado y permite contrastar por primera vez los acuerdos territoriales anunciados. La relación sigue siendo provisional: la proclamación corresponde al 2 de noviembre y su publicación definitiva al día 3. La propia relación identifica al menos una candidatura inadmitida. Sin nueva encuesta nacional admitida ni recalibración de escenarios.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -368,7 +368,7 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-021 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-022 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
