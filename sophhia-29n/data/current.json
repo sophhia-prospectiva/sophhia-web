@@ -9,87 +9,87 @@
     "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
   ],
   "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
-  "codigo": "D-022",
-  "fecha": "2026-10-28",
-  "fecha_legible": "28 de octubre de 2026",
+  "codigo": "D-023",
+  "fecha": "2026-10-29",
+  "fecha_legible": "29 de octubre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "El BOE fija el mapa inicial de candidaturas y abre la fase de subsanación",
+  "titulo": "La JEC ordena el reparto de propaganda en medios públicos y activa el siguiente hito electoral",
   "recalibracion": false,
   "micmac_modificada": false,
   "validacion": "Interpretación pendiente de validación humana",
   "decision_id": null,
   "estado_publicacion": "publicada_pendiente_IH",
-  "resumen": "El BOE publica las candidaturas presentadas al Congreso y al Senado y permite contrastar por primera vez los acuerdos territoriales anunciados. La relación sigue siendo provisional: la proclamación corresponde al 2 de noviembre y su publicación definitiva al día 3. La propia relación identifica al menos una candidatura inadmitida. Sin nueva encuesta nacional admitida ni recalibración de escenarios.",
-  "resumen_ciudadana": "Ya puede consultarse en el BOE la primera relación oficial de candidaturas presentadas. Confirma el mapa territorial anunciado, pero todavía no es la lista definitiva: quedan subsanaciones e impugnaciones antes de la proclamación. No añadimos una encuesta nueva ni cambiamos los escenarios.",
-  "senal_principal": "Publicación oficial inicial de candidaturas presentadas",
-  "variable_vigilancia": "V3, V4, V11, V12 y V16 · contraste documental, sin modificar pesos MICMAC",
-  "variable_territorial": "Mapa provincial y fórmulas territoriales oficialmente publicadas; todavía no proclamadas",
-  "decision": "D-022, D-021, D-020, D-019, D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001, con sus alcances originales. La publicación técnica no valida interpretaciones, reglas ni codificaciones.",
-  "url": "diario/2026-10-28.html",
+  "resumen": "El BOE publica la Instrucción 2/2026 de la Junta Electoral Central: la propaganda gratuita en medios públicos nacionales se distribuirá según los resultados de 2023 y la comisión de partidos se reunirá el 4 de noviembre. Las juntas provinciales asumirán el reparto regional y local. La medida ordena el procedimiento y el pluralismo, sin cambiar candidaturas, sondeos ni escenarios de gobernabilidad.",
+  "resumen_ciudadana": "La Junta Electoral Central ha fijado cómo se repartirán los espacios gratuitos de propaganda en los medios públicos. La comisión nacional se reunirá el 4 de noviembre y las juntas provinciales gestionarán los espacios regionales. Es un avance del procedimiento electoral, no una encuesta ni una señal sobre quién ganará o gobernará.",
+  "senal_principal": "La JEC fija la distribución de propaganda gratuita en medios públicos",
+  "variable_vigilancia": "Garantías y procedimiento · ejecución nacional y territorial, sin modificar pesos MICMAC",
+  "variable_territorial": "Delegación administrativa a juntas provinciales; no equivale a agenda territorial de gobernabilidad",
+  "decision": "D-023, D-022, D-021, D-020, D-019, D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001, con sus alcances originales. La publicación técnica no valida interpretaciones, reglas ni codificaciones.",
+  "url": "diario/2026-10-29.html",
   "fuentes_temporales": [
     {
-      "id": "F-D022-01",
+      "id": "F-D023-01",
+      "medio": "Boletín Oficial del Estado",
+      "titulo": "Instrucción 2/2026 de la Junta Electoral Central sobre espacios gratuitos de propaganda electoral",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22695",
+      "fecha_publicacion": "2026-10-29",
+      "hora_publicacion": null,
+      "fecha_consulta": "2026-10-29",
+      "hora_consulta": "2026-10-29T09:44:00+01:00",
+      "tipo": "documento_oficial",
+      "acceso": "consulta_directa",
+      "alcance": "Distribución nacional de propaganda gratuita en medios públicos, comisión del 4 de noviembre y delegación territorial.",
+      "reserva_temporal": "El BOE acredita la fecha de publicación, no una hora. Se admite al corte por publicación en el diario oficial del 29; no se interpreta como medición de opinión pública.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-29"
+    },
+    {
+      "id": "F-D023-02",
+      "medio": "Junta Electoral Central",
+      "titulo": "Actualidad y acuerdos de las elecciones generales 2026",
+      "url": "https://www.juntaelectoralcentral.es/cs/Satellite?c=Page&childpagename=JEC%2FJEC_Layout&cid=1379061421225&d=Touch&pagename=jec%2Fwrapper%2FJEC_Wrapper&rendermode=preview",
+      "fecha_publicacion": "2026-10-26",
+      "hora_publicacion": null,
+      "fecha_consulta": "2026-10-29",
+      "hora_consulta": "2026-10-29T09:44:00+01:00",
+      "tipo": "documento_oficial",
+      "acceso": "consulta_directa",
+      "alcance": "Registro institucional de la instrucción y del plan de cobertura informativa electoral.",
+      "reserva_temporal": "Se usa para corroborar el procedimiento; la publicación normativa vigente es F-D023-01.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-29"
+    },
+    {
+      "id": "F-D023-03",
       "medio": "Boletín Oficial del Estado",
       "titulo": "Candidaturas presentadas para las elecciones al Congreso y al Senado",
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
       "fecha_publicacion": "2026-10-28",
       "hora_publicacion": null,
-      "fecha_consulta": "2026-10-28",
-      "hora_consulta": "2026-10-28T09:42:00+01:00",
+      "fecha_consulta": "2026-10-29",
+      "hora_consulta": "2026-10-29T09:44:00+01:00",
       "tipo": "documento_oficial",
       "acceso": "consulta_directa",
-      "alcance": "Relación oficial inicial de candidaturas presentadas por las juntas electorales provinciales.",
-      "reserva_temporal": "Publicación oficial de candidaturas presentadas, no de candidaturas definitivamente proclamadas. La fuente no acredita una hora de publicación.",
+      "alcance": "Continuidad del mapa inicial de candidaturas mientras sigue la fase de subsanación.",
+      "reserva_temporal": "No son candidaturas definitivamente proclamadas; no se añaden hechos posteriores no acreditados al corte.",
       "admitida_como_hecho_al_corte": true,
-      "fecha_incorporacion": "2026-10-28"
-    },
-    {
-      "id": "F-D022-02",
-      "medio": "Newtral",
-      "titulo": "PP con Vox al Senado y PSOE con Frente Amplio: acuerdos presentados para el 29-N",
-      "url": "https://www.newtral.es/elecciones-generales-noviembre-coaliciones-acuerdos/20261027/",
-      "fecha_publicacion": "2026-10-27",
-      "hora_publicacion": null,
-      "fecha_consulta": "2026-10-28",
-      "hora_consulta": "2026-10-28T09:42:00+01:00",
-      "tipo": "informacion_periodistica",
-      "acceso": "consulta_directa",
-      "alcance": "Sintetiza los acuerdos territoriales de PP-Vox, Senado de Progreso y la concurrencia diferenciada de Frente Amplio y Podemos.",
-      "reserva_temporal": "Síntesis periodística contrastada con la publicación oficial; no convierte acuerdos de candidatura en acuerdos de Gobierno.",
-      "admitida_como_hecho_al_corte": true,
-      "fecha_incorporacion": "2026-10-28"
-    },
-    {
-      "id": "F-D022-03",
-      "medio": "Junta Electoral Central",
-      "titulo": "Calendario oficial de las elecciones generales del 29 de noviembre",
-      "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/eg2026_calendario.pdf",
-      "fecha_publicacion": null,
-      "hora_publicacion": null,
-      "fecha_consulta": "2026-10-28",
-      "hora_consulta": "2026-10-28T09:42:00+01:00",
-      "tipo": "documento_oficial",
-      "acceso": "contenido_indexado",
-      "alcance": "Distingue publicación de candidaturas presentadas, proclamación y publicación definitiva.",
-      "reserva_temporal": "Calendario sin hora visible; se usa únicamente para delimitar las fases del procedimiento.",
-      "admitida_como_hecho_al_corte": true,
-      "fecha_incorporacion": "2026-10-28"
+      "fecha_incorporacion": "2026-10-29"
     }
   ],
-  "sync_version": "D022-editorial-20261028",
+  "sync_version": "D023-editorial-20261029",
   "ventana_novedades": {
-    "desde_exclusivo": "2026-10-27T09:30:00+01:00",
-    "hasta_inclusivo": "2026-10-28T09:30:00+01:00",
+    "desde_exclusivo": "2026-10-28T09:30:00+01:00",
+    "hasta_inclusivo": "2026-10-29T09:30:00+01:00",
     "duracion_horas": 24,
     "reserva": "CET estable durante toda la ventana; sólo se admite información disponible al corte."
   },
   "anterior": {
-    "codigo": "D-021",
-    "fecha": "2026-10-27",
-    "fecha_legible": "27 de octubre de 2026",
-    "titulo": "El pacto senatorial PP‑Vox concreta la coordinación territorial",
-    "url": "diario/2026-10-27.html",
+    "codigo": "D-022",
+    "fecha": "2026-10-28",
+    "fecha_legible": "28 de octubre de 2026",
+    "titulo": "El BOE fija el mapa inicial de candidaturas y abre la fase de subsanación",
+    "url": "diario/2026-10-28.html",
     "decision_id": null,
     "estado": "Interpretación pendiente de validación humana"
   },
@@ -111,92 +111,54 @@
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D022_pendiente_IH",
-    "ultima_fecha_codificada": "2026-10-28",
-    "nota": "Tres unidades documentales codificadas con máximo por variable y recuento por grupo; clasificación editorial pendiente IH. Histórico 7–27 conservado."
+    "estado": "codificacion_D023_pendiente_IH",
+    "ultima_fecha_codificada": "2026-10-29",
+    "nota": "Dos unidades documentales: una confirmatoria y una de vigilancia. Sin valores imputables a las seis variables críticas ni a las agendas territoriales. Histórico 7–28 conservado."
   },
-  "corte_iso": "2026-10-28T09:30:00+01:00",
+  "corte_iso": "2026-10-29T09:30:00+01:00",
   "zona_corte": "CET",
   "cambios": [
-    "El BOE publica la relación inicial de candidaturas presentadas al Congreso y al Senado.",
-    "La fuente oficial permite contrastar los acuerdos territoriales anunciados por PP-Vox y las fórmulas de la izquierda.",
-    "La relación no es definitiva: quedan subsanaciones, impugnaciones y proclamación.",
-    "El BOE identifica expresamente al menos una candidatura inadmitida, la del PCTE al Congreso por Burgos.",
+    "El BOE publica la Instrucción 2/2026 de la Junta Electoral Central.",
+    "El reparto nacional de propaganda gratuita en medios públicos tomará como referencia los resultados de las anteriores elecciones al Congreso.",
+    "La comisión de partidos se reunirá el 4 de noviembre a las 12:00.",
+    "Las juntas provinciales gestionarán la distribución regional y local.",
     "Sin nueva encuesta nacional admitida ni cambios en el comparador demoscópico."
   ],
   "senales": [
     {
-      "id": "S-D022-01",
-      "tema": "Publicación oficial inicial de candidaturas",
+      "id": "S-D023-01",
+      "tema": "Regla nacional para la propaganda gratuita en medios públicos",
       "tipo": "Confirmatoria",
-      "alcance": "El BOE publica las candidaturas presentadas, todavía sujetas a subsanación, impugnación y proclamación.",
+      "alcance": "La JEC fija que el reparto nacional se base en los resultados de las anteriores elecciones al Congreso y convoca la comisión para el 4 de noviembre.",
       "groups": [
         "Garantías y procedimiento"
       ],
       "variable_levels": {},
       "variables_en_observacion": [],
       "fuentes": [
-        "F-D022-01",
-        "F-D022-03"
+        "F-D023-01",
+        "F-D023-02"
       ],
-      "razon_codificacion": "Confirma el hito procedimental sin anticipar la lista definitiva.",
-      "grado_confirmacion": "publicacion_oficial_inicial",
+      "razon_codificacion": "Confirma un hito institucional del proceso sin medir apoyo electoral.",
+      "grado_confirmacion": "publicacion_oficial",
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D022-02",
-      "tema": "Contraste oficial del acuerdo senatorial PP-Vox",
-      "tipo": "Confirmatoria",
-      "alcance": "La publicación permite comprobar la distribución provincial anunciada por PP y Vox para el Senado.",
-      "groups": [
-        "PP-Vox",
-        "Territoriales/bisagra"
-      ],
-      "variable_levels": {
-        "V3": 3,
-        "V12": 3,
-        "V16": 3
-      },
-      "variables_en_observacion": [
-        "V3",
-        "V12",
-        "V16"
-      ],
-      "fuentes": [
-        "F-D022-01",
-        "F-D022-02"
-      ],
-      "razon_codificacion": "El anuncio pasa a contraste documental oficial; no acredita un pacto de investidura.",
-      "grado_confirmacion": "contraste_oficial_inicial",
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "S-D022-03",
-      "tema": "Fragmentación y coaliciones de la izquierda",
+      "id": "S-D023-02",
+      "tema": "Delegación territorial del reparto en medios públicos",
       "tipo": "Vigilancia",
-      "alcance": "La relación oficial muestra concurrencias diferenciadas de Frente Amplio, Podemos y fórmulas senatoriales territoriales.",
+      "alcance": "Las juntas provinciales gestionarán los espacios regionales y locales con referencia a la representación parlamentaria del ámbito.",
       "groups": [
-        "PSOE + izquierda",
-        "Territoriales/bisagra"
+        "Territoriales/bisagra",
+        "Garantías y procedimiento"
       ],
-      "variable_levels": {
-        "V4": 3,
-        "V11": 2,
-        "V12": 3,
-        "V16": 3
-      },
-      "variables_en_observacion": [
-        "V4",
-        "V11",
-        "V12",
-        "V16"
-      ],
+      "variable_levels": {},
+      "variables_en_observacion": [],
       "fuentes": [
-        "F-D022-01",
-        "F-D022-02"
+        "F-D023-01"
       ],
-      "razon_codificacion": "Alta atención documental por pluralidad de fórmulas; no se extrapola a apoyos de Gobierno.",
-      "grado_confirmacion": "configuracion_presentada_no_definitiva",
+      "razon_codificacion": "Se vigila la ejecución territorial, pero no se atribuye un valor a variables políticas o agendas territoriales.",
+      "grado_confirmacion": "regla_publicada_ejecucion_pendiente",
       "validacion": "pendiente_IH"
     }
   ]

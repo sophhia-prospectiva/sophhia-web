@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-10-28",
+  "ultima_actualizacion": "2026-10-29",
   "entradas": [
+    {
+      "codigo": "D-023",
+      "fecha": "2026-10-29",
+      "titulo": "La JEC ordena el reparto de propaganda en medios públicos y activa el siguiente hito electoral",
+      "url": "diario/2026-10-29.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-022",
       "fecha": "2026-10-28",

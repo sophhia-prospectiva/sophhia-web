@@ -1,23 +1,23 @@
 {
-  "version": "v0.41-D022",
-  "updated": "2026-10-28",
+  "version": "v0.42-D023",
+  "updated": "2026-10-29",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-022",
+  "current_entry": "D-023",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "El BOE publica las candidaturas presentadas al Congreso y al Senado y permite contrastar por primera vez los acuerdos territoriales anunciados. La relación sigue siendo provisional: la proclamación corresponde al 2 de noviembre y su publicación definitiva al día 3. La propia relación identifica al menos una candidatura inadmitida. Sin nueva encuesta nacional admitida ni recalibración de escenarios.",
+  "system_state": "El BOE publica la Instrucción 2/2026 de la Junta Electoral Central: la propaganda gratuita en medios públicos nacionales se distribuirá según los resultados de 2023 y la comisión de partidos se reunirá el 4 de noviembre. Las juntas provinciales asumirán el reparto regional y local. La medida ordena el procedimiento y el pluralismo, sin cambiar candidaturas, sondeos ni escenarios de gobernabilidad.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Subsanaciones, impugnaciones y proclamación definitiva de candidaturas; alcance político de acuerdos electorales que no equivalen a pactos de Gobierno.",
-  "watch_variable": "V3 · Relación PP-Vox; V4 · Fragmentación izquierda; V11/V12/V16 · coordinación territorial",
+  "main_uncertainty": "Ejecución del reparto de espacios gratuitos, decisiones de la comisión del 4 de noviembre y proclamación definitiva de candidaturas.",
+  "watch_variable": "Garantías y procedimiento; ejecución nacional y territorial sin atribuir agenda política",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "El BOE publica las candidaturas presentadas.",
-    "Los acuerdos territoriales pueden contrastarse ya con una fuente oficial.",
-    "La relación sigue siendo provisional hasta la proclamación.",
+    "La JEC fija la regla nacional de reparto de propaganda gratuita.",
+    "La comisión de partidos se reunirá el 4 de noviembre.",
+    "Las juntas provinciales gestionarán los espacios regionales y locales.",
     "Sin nueva encuesta nacional admitida ni recalibración."
   ],
   "path": [
@@ -348,7 +348,7 @@
       }
     ]
   },
-  "current_reading": "El BOE publica las candidaturas presentadas al Congreso y al Senado y permite contrastar por primera vez los acuerdos territoriales anunciados. La relación sigue siendo provisional: la proclamación corresponde al 2 de noviembre y su publicación definitiva al día 3. La propia relación identifica al menos una candidatura inadmitida. Sin nueva encuesta nacional admitida ni recalibración de escenarios.",
+  "current_reading": "El BOE publica la Instrucción 2/2026 de la Junta Electoral Central: la propaganda gratuita en medios públicos nacionales se distribuirá según los resultados de 2023 y la comisión de partidos se reunirá el 4 de noviembre. Las juntas provinciales asumirán el reparto regional y local. La medida ordena el procedimiento y el pluralismo, sin cambiar candidaturas, sondeos ni escenarios de gobernabilidad.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -368,7 +368,7 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-022 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-023 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
