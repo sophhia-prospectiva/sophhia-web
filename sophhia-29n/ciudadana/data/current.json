@@ -9,87 +9,103 @@
     "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
   ],
   "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
-  "codigo": "D-023",
-  "fecha": "2026-10-29",
-  "fecha_legible": "29 de octubre de 2026",
+  "codigo": "D-024",
+  "fecha": "2026-10-30",
+  "fecha_legible": "30 de octubre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "La JEC ordena el reparto de propaganda en medios públicos y activa el siguiente hito electoral",
+  "titulo": "Continuidad verificable: candidaturas en subsanación y sin nueva encuesta nacional admitida",
   "recalibracion": false,
   "micmac_modificada": false,
   "validacion": "Interpretación pendiente de validación humana",
   "decision_id": null,
   "estado_publicacion": "publicada_pendiente_IH",
-  "resumen": "El BOE publica la Instrucción 2/2026 de la Junta Electoral Central: la propaganda gratuita en medios públicos nacionales se distribuirá según los resultados de 2023 y la comisión de partidos se reunirá el 4 de noviembre. Las juntas provinciales asumirán el reparto regional y local. La medida ordena el procedimiento y el pluralismo, sin cambiar candidaturas, sondeos ni escenarios de gobernabilidad.",
-  "resumen_ciudadana": "La Junta Electoral Central ha fijado cómo se repartirán los espacios gratuitos de propaganda en los medios públicos. La comisión nacional se reunirá el 4 de noviembre y las juntas provinciales gestionarán los espacios regionales. Es un avance del procedimiento electoral, no una encuesta ni una señal sobre quién ganará o gobernará.",
-  "senal_principal": "La JEC fija la distribución de propaganda gratuita en medios públicos",
-  "variable_vigilancia": "Garantías y procedimiento · ejecución nacional y territorial, sin modificar pesos MICMAC",
-  "variable_territorial": "Delegación administrativa a juntas provinciales; no equivale a agenda territorial de gobernabilidad",
-  "decision": "D-023, D-022, D-021, D-020, D-019, D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001, con sus alcances originales. La publicación técnica no valida interpretaciones, reglas ni codificaciones.",
-  "url": "diario/2026-10-29.html",
+  "resumen": "Al corte no consta un nuevo hito oficial posterior a la instrucción de la Junta Electoral Central ni una encuesta nacional nueva con ficha técnica completa. Continúan la subsanación de candidaturas hasta la proclamación del 2 de noviembre y la preparación del reparto de propaganda pública del 4. La ausencia de novedad se registra sin fabricar señales, cifras ni aprobaciones.",
+  "resumen_ciudadana": "No hay una novedad oficial o demoscópica nueva que cambie el informe al corte. Siguen abiertos la corrección de candidaturas y los preparativos del reparto de propaganda electoral. SOPHHIA mantiene los escenarios y deja vacíos explicados donde no existe evidencia nueva.",
+  "senal_principal": "Continuidad documental sin hecho nuevo codificable al corte",
+  "variable_vigilancia": "Proclamación de candidaturas y comisión de propaganda, sin anticipar resultados",
+  "variable_territorial": "Sin evidencia nueva específica; null justificado",
+  "decision": "D-024, D-023, D-022, D-021, D-020, D-019, D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001, con sus alcances originales. La publicación técnica no valida interpretaciones, reglas ni codificaciones.",
+  "url": "diario/2026-10-30.html",
   "fuentes_temporales": [
     {
-      "id": "F-D023-01",
-      "medio": "Boletín Oficial del Estado",
-      "titulo": "Instrucción 2/2026 de la Junta Electoral Central sobre espacios gratuitos de propaganda electoral",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22695",
-      "fecha_publicacion": "2026-10-29",
-      "hora_publicacion": null,
-      "fecha_consulta": "2026-10-29",
-      "hora_consulta": "2026-10-29T09:44:00+01:00",
-      "tipo": "documento_oficial",
-      "acceso": "consulta_directa",
-      "alcance": "Distribución nacional de propaganda gratuita en medios públicos, comisión del 4 de noviembre y delegación territorial.",
-      "reserva_temporal": "El BOE acredita la fecha de publicación, no una hora. Se admite al corte por publicación en el diario oficial del 29; no se interpreta como medición de opinión pública.",
-      "admitida_como_hecho_al_corte": true,
-      "fecha_incorporacion": "2026-10-29"
-    },
-    {
-      "id": "F-D023-02",
+      "id": "F-D024-01",
       "medio": "Junta Electoral Central",
       "titulo": "Actualidad y acuerdos de las elecciones generales 2026",
       "url": "https://www.juntaelectoralcentral.es/cs/Satellite?c=Page&childpagename=JEC%2FJEC_Layout&cid=1379061421225&d=Touch&pagename=jec%2Fwrapper%2FJEC_Wrapper&rendermode=preview",
       "fecha_publicacion": "2026-10-26",
       "hora_publicacion": null,
-      "fecha_consulta": "2026-10-29",
-      "hora_consulta": "2026-10-29T09:44:00+01:00",
+      "fecha_consulta": "2026-10-30",
+      "hora_consulta": "2026-10-30T09:28:00+01:00",
       "tipo": "documento_oficial",
       "acceso": "consulta_directa",
-      "alcance": "Registro institucional de la instrucción y del plan de cobertura informativa electoral.",
-      "reserva_temporal": "Se usa para corroborar el procedimiento; la publicación normativa vigente es F-D023-01.",
+      "alcance": "Control de novedades institucionales al corte; sigue siendo visible la Instrucción 2/2026.",
+      "reserva_temporal": "La página no acredita una hora de publicación para nuevas entradas; no se incorpora un hito posterior no fechado antes del corte.",
       "admitida_como_hecho_al_corte": true,
-      "fecha_incorporacion": "2026-10-29"
+      "fecha_incorporacion": "2026-10-30"
     },
     {
-      "id": "F-D023-03",
+      "id": "F-D024-02",
       "medio": "Boletín Oficial del Estado",
       "titulo": "Candidaturas presentadas para las elecciones al Congreso y al Senado",
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
       "fecha_publicacion": "2026-10-28",
       "hora_publicacion": null,
-      "fecha_consulta": "2026-10-29",
-      "hora_consulta": "2026-10-29T09:44:00+01:00",
+      "fecha_consulta": "2026-10-30",
+      "hora_consulta": "2026-10-30T09:28:00+01:00",
       "tipo": "documento_oficial",
       "acceso": "consulta_directa",
-      "alcance": "Continuidad del mapa inicial de candidaturas mientras sigue la fase de subsanación.",
-      "reserva_temporal": "No son candidaturas definitivamente proclamadas; no se añaden hechos posteriores no acreditados al corte.",
+      "alcance": "Base oficial de continuidad durante el plazo de subsanación.",
+      "reserva_temporal": "Son candidaturas presentadas, no definitivamente proclamadas; la proclamación corresponde al 2 de noviembre.",
       "admitida_como_hecho_al_corte": true,
-      "fecha_incorporacion": "2026-10-29"
+      "fecha_incorporacion": "2026-10-30"
+    },
+    {
+      "id": "F-D024-03",
+      "medio": "Boletín Oficial del Estado",
+      "titulo": "Instrucción 2/2026 de la Junta Electoral Central sobre espacios gratuitos de propaganda electoral",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22695",
+      "fecha_publicacion": "2026-10-29",
+      "hora_publicacion": null,
+      "fecha_consulta": "2026-10-30",
+      "hora_consulta": "2026-10-30T09:28:00+01:00",
+      "tipo": "documento_oficial",
+      "acceso": "consulta_directa",
+      "alcance": "Hito previo vigente: comisión nacional prevista para el 4 de noviembre.",
+      "reserva_temporal": "Se conserva como antecedente; no se recodifica como novedad del 30.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-30"
+    },
+    {
+      "id": "F-D024-04",
+      "medio": "SOPHHIA · vigilancia demoscópica",
+      "titulo": "Comprobación nacional del 30 de octubre, 09:18 CET",
+      "url": "https://sophhia.com/sophhia-29n/midc/historico/",
+      "fecha_publicacion": "2026-10-30",
+      "hora_publicacion": "09:18 CET",
+      "fecha_consulta": "2026-10-30",
+      "hora_consulta": "2026-10-30T09:28:00+01:00",
+      "tipo": "registro_de_comprobacion",
+      "acceso": "revision_de_fuentes",
+      "alcance": "No confirma encuestas nacionales nuevas con ficha completa posteriores a las ya examinadas el 27.",
+      "reserva_temporal": "No se incorporan sondeos internos sin ficha pública ni se convierte un aplazamiento editorial en una medición.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-30"
     }
   ],
-  "sync_version": "D023-editorial-20261029",
+  "sync_version": "D024-editorial-20261030",
   "ventana_novedades": {
-    "desde_exclusivo": "2026-10-28T09:30:00+01:00",
-    "hasta_inclusivo": "2026-10-29T09:30:00+01:00",
+    "desde_exclusivo": "2026-10-29T09:30:00+01:00",
+    "hasta_inclusivo": "2026-10-30T09:30:00+01:00",
     "duracion_horas": 24,
     "reserva": "CET estable durante toda la ventana; sólo se admite información disponible al corte."
   },
   "anterior": {
-    "codigo": "D-022",
-    "fecha": "2026-10-28",
-    "fecha_legible": "28 de octubre de 2026",
-    "titulo": "El BOE fija el mapa inicial de candidaturas y abre la fase de subsanación",
-    "url": "diario/2026-10-28.html",
+    "codigo": "D-023",
+    "fecha": "2026-10-29",
+    "fecha_legible": "29 de octubre de 2026",
+    "titulo": "La JEC ordena el reparto de propaganda en medios públicos y activa el siguiente hito electoral",
+    "url": "diario/2026-10-29.html",
     "decision_id": null,
     "estado": "Interpretación pendiente de validación humana"
   },
@@ -101,65 +117,30 @@
     "nuevas_publicaciones_preferencias_gobierno": 0,
     "ampliaciones_documentales_estudios_existentes": 0,
     "ultima_incorporacion_cuantitativa_voto": "2026-10-24",
-    "resultado_busqueda": "Sin nueva encuesta nacional posterior a las publicadas el 26 con ficha primaria completa admitida al corte; no se incorporan porcentajes ni escaños.",
+    "resultado_busqueda": "Sin nueva encuesta nacional con ficha primaria completa admitida al corte; no se incorporan porcentajes ni escaños.",
     "agregacion": "Seis observaciones, una por casa, en el comparador; siete estudios en el histórico. Datos ausentes sin imputación; preferencias de gobierno y mapa provincial conservan sus registros.",
     "limite": "Se conservan la reserva de acceso a la ficha primaria del CIS y la reserva del estudio del Senado. No se presume independencia entre paneles u oleadas.",
     "documentos_excluidos_del_corte": [],
-    "documentos_no_incorporados_por_ficha_incompleta": [],
+    "documentos_no_incorporados_por_ficha_incompleta": [
+      "Sondeos internos citados sin ficha técnica pública completa"
+    ],
     "modelos_secundarios_revisados": []
   },
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D023_pendiente_IH",
-    "ultima_fecha_codificada": "2026-10-29",
-    "nota": "Dos unidades documentales: una confirmatoria y una de vigilancia. Sin valores imputables a las seis variables críticas ni a las agendas territoriales. Histórico 7–28 conservado."
+    "estado": "codificacion_D024_pendiente_IH",
+    "ultima_fecha_codificada": "2026-10-30",
+    "nota": "Jornada de continuidad: cero unidades nuevas codificables. Escenarios conservados; bloques, variables y territorios sin registro específico son null. Histórico 7–29 conservado."
   },
-  "corte_iso": "2026-10-29T09:30:00+01:00",
+  "corte_iso": "2026-10-30T09:30:00+01:00",
   "zona_corte": "CET",
   "cambios": [
-    "El BOE publica la Instrucción 2/2026 de la Junta Electoral Central.",
-    "El reparto nacional de propaganda gratuita en medios públicos tomará como referencia los resultados de las anteriores elecciones al Congreso.",
-    "La comisión de partidos se reunirá el 4 de noviembre a las 12:00.",
-    "Las juntas provinciales gestionarán la distribución regional y local.",
-    "Sin nueva encuesta nacional admitida ni cambios en el comparador demoscópico."
+    "Sin nuevo hito oficial acreditado antes de las 09:30 CET.",
+    "Continúa la fase de subsanación de candidaturas hasta la proclamación del 2 de noviembre.",
+    "La comisión nacional de propaganda sigue prevista para el 4 de noviembre.",
+    "Sin nueva encuesta nacional con ficha técnica completa admitida al corte.",
+    "Los factores sin registro específico se conservan como null, no como cero."
   ],
-  "senales": [
-    {
-      "id": "S-D023-01",
-      "tema": "Regla nacional para la propaganda gratuita en medios públicos",
-      "tipo": "Confirmatoria",
-      "alcance": "La JEC fija que el reparto nacional se base en los resultados de las anteriores elecciones al Congreso y convoca la comisión para el 4 de noviembre.",
-      "groups": [
-        "Garantías y procedimiento"
-      ],
-      "variable_levels": {},
-      "variables_en_observacion": [],
-      "fuentes": [
-        "F-D023-01",
-        "F-D023-02"
-      ],
-      "razon_codificacion": "Confirma un hito institucional del proceso sin medir apoyo electoral.",
-      "grado_confirmacion": "publicacion_oficial",
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "S-D023-02",
-      "tema": "Delegación territorial del reparto en medios públicos",
-      "tipo": "Vigilancia",
-      "alcance": "Las juntas provinciales gestionarán los espacios regionales y locales con referencia a la representación parlamentaria del ámbito.",
-      "groups": [
-        "Territoriales/bisagra",
-        "Garantías y procedimiento"
-      ],
-      "variable_levels": {},
-      "variables_en_observacion": [],
-      "fuentes": [
-        "F-D023-01"
-      ],
-      "razon_codificacion": "Se vigila la ejecución territorial, pero no se atribuye un valor a variables políticas o agendas territoriales.",
-      "grado_confirmacion": "regla_publicada_ejecucion_pendiente",
-      "validacion": "pendiente_IH"
-    }
-  ]
+  "senales": []
 }

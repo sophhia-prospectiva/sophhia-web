@@ -1,23 +1,23 @@
 {
-  "version": "v0.42-D023",
-  "updated": "2026-10-29",
+  "version": "v0.43-D024",
+  "updated": "2026-10-30",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "De dónde partimos, dónde estamos, por dónde hemos pasado, a dónde vamos",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-023",
+  "current_entry": "D-024",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "El BOE publica la Instrucción 2/2026 de la Junta Electoral Central: la propaganda gratuita en medios públicos nacionales se distribuirá según los resultados de 2023 y la comisión de partidos se reunirá el 4 de noviembre. Las juntas provinciales asumirán el reparto regional y local. La medida ordena el procedimiento y el pluralismo, sin cambiar candidaturas, sondeos ni escenarios de gobernabilidad.",
+  "system_state": "Al corte no consta un nuevo hito oficial posterior a la instrucción de la Junta Electoral Central ni una encuesta nacional nueva con ficha técnica completa. Continúan la subsanación de candidaturas hasta la proclamación del 2 de noviembre y la preparación del reparto de propaganda pública del 4. La ausencia de novedad se registra sin fabricar señales, cifras ni aprobaciones.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Ejecución del reparto de espacios gratuitos, decisiones de la comisión del 4 de noviembre y proclamación definitiva de candidaturas.",
-  "watch_variable": "Garantías y procedimiento; ejecución nacional y territorial sin atribuir agenda política",
+  "main_uncertainty": "Proclamación definitiva de candidaturas, decisiones de la comisión del 4 de noviembre y nuevas encuestas verificables.",
+  "watch_variable": "Continuidad institucional sin atribuir señales a ausencia de datos",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "La JEC fija la regla nacional de reparto de propaganda gratuita.",
-    "La comisión de partidos se reunirá el 4 de noviembre.",
-    "Las juntas provinciales gestionarán los espacios regionales y locales.",
+    "Sin nuevo hito oficial acreditado al corte.",
+    "Subsanación de candidaturas hasta el 2 de noviembre.",
+    "Comisión nacional de propaganda prevista el 4 de noviembre.",
     "Sin nueva encuesta nacional admitida ni recalibración."
   ],
   "path": [
@@ -348,7 +348,7 @@
       }
     ]
   },
-  "current_reading": "El BOE publica la Instrucción 2/2026 de la Junta Electoral Central: la propaganda gratuita en medios públicos nacionales se distribuirá según los resultados de 2023 y la comisión de partidos se reunirá el 4 de noviembre. Las juntas provinciales asumirán el reparto regional y local. La medida ordena el procedimiento y el pluralismo, sin cambiar candidaturas, sondeos ni escenarios de gobernabilidad.",
+  "current_reading": "Al corte no consta un nuevo hito oficial posterior a la instrucción de la Junta Electoral Central ni una encuesta nacional nueva con ficha técnica completa. Continúan la subsanación de candidaturas hasta la proclamación del 2 de noviembre y la preparación del reparto de propaganda pública del 4. La ausencia de novedad se registra sin fabricar señales, cifras ni aprobaciones.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -368,7 +368,7 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-023 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-024 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
