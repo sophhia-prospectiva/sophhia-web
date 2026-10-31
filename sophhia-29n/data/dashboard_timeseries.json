@@ -1,13 +1,13 @@
 {
   "version": "v0.43-D024",
-  "mode": "Codificación documental diaria; histórico conservado y 30 registrado como continuidad sin evidencia específica. Pendiente IH.",
+  "mode": "Codificación documental diaria; histórico conservado y 31 registrado con una unidad de vigilancia procedimental. Pendiente IH.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-10-30",
-  "current_entry": "D-024",
-  "last_numeric_date": "2026-10-30",
-  "updated": "2026-10-30",
+  "cutoff": "2026-10-31",
+  "current_entry": "D-025",
+  "last_numeric_date": "2026-10-31",
+  "updated": "2026-10-31",
   "reconstruction_date": "2026-10-24",
-  "interpretation_cutoff": "2026-10-30T09:30:00+01:00",
+  "interpretation_cutoff": "2026-10-31T09:30:00+01:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
     {
@@ -160,6 +160,12 @@
       "entry": "D-024",
       "source_status": "continuidad_documental_pendiente_IH",
       "retrospective": false
+    },
+    {
+      "date": "2026-10-31",
+      "entry": "D-025",
+      "source_status": "codificacion_editorial_pendiente_IH",
+      "retrospective": false
     }
   ],
   "scenarios": {
@@ -173,6 +179,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -213,6 +220,7 @@
       1,
       1,
       1,
+      1,
       1
     ],
     "G4 · Reconstrucción progresista": [
@@ -239,6 +247,7 @@
       2,
       2,
       2,
+      2,
       2
     ],
     "G5 · Bloqueo/repetición": [
@@ -251,6 +260,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -293,6 +303,7 @@
       1,
       1,
       null,
+      null,
       null
     ],
     "PSOE + izquierda": [
@@ -318,6 +329,7 @@
       3,
       1,
       1,
+      null,
       null,
       null
     ],
@@ -345,6 +357,7 @@
       2,
       2,
       1,
+      null,
       null
     ],
     "Garantías y procedimiento": [
@@ -371,7 +384,8 @@
       1,
       1,
       3,
-      null
+      null,
+      1
     ]
   },
   "variables": {
@@ -396,6 +410,7 @@
       2,
       2,
       2,
+      null,
       null,
       null,
       null,
@@ -425,6 +440,7 @@
       null,
       null,
       null,
+      null,
       null
     ],
     "Fragmentación izquierda": [
@@ -450,6 +466,7 @@
       2,
       2,
       3,
+      null,
       null,
       null
     ],
@@ -477,6 +494,7 @@
       3,
       3,
       null,
+      null,
       null
     ],
     "Participación": [
@@ -487,6 +505,7 @@
       2,
       1,
       2,
+      null,
       null,
       null,
       null,
@@ -514,6 +533,7 @@
       1,
       2,
       2,
+      null,
       null,
       null,
       null,
@@ -557,6 +577,7 @@
       null,
       null,
       null,
+      null,
       null
     ],
     "Agenda nacionalista vasca": [
@@ -579,6 +600,7 @@
       1,
       1,
       1,
+      null,
       null,
       null,
       null,
@@ -609,6 +631,7 @@
       2,
       3,
       null,
+      null,
       null
     ],
     "Compatibilidad programática-territorial": [
@@ -635,6 +658,7 @@
       2,
       3,
       null,
+      null,
       null
     ],
     "Agendas territoriales complementarias": [
@@ -660,6 +684,7 @@
       2,
       2,
       2,
+      null,
       null,
       null
     ]
@@ -689,6 +714,7 @@
       0,
       2,
       1,
+      0,
       0
     ],
     "Vigilancia": [
@@ -715,9 +741,11 @@
       3,
       1,
       1,
-      0
+      0,
+      1
     ],
     "Disruptivas": [
+      0,
       0,
       0,
       0,
@@ -767,6 +795,7 @@
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -777,14 +806,15 @@
     "territorial": "ordinal_1_3",
     "signals": "counts"
   },
-  "validation": "Regla v1 y codificación D-024 pendientes de validación IH específica",
+  "validation": "Regla v1 y codificación D-025 pendientes de validación IH específica",
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
   "note": "Sin recalibración de A-000, sin modificación de MICMAC ni de probabilidades selladas.",
   "readings": {
     "scenarios": "Se conservan expresamente G1/G2/G4/G5 = 1/1/2/1; son lecturas del marco vigente, no probabilidades. A-000 y MICMAC no se recalibran.",
-    "variables": "No hay evidencia nueva específica para V3, V4, V6, V7, V8 o V15; se registran null justificados.",
-    "territorial": "No hay evidencia nueva específica para V9, V10, V11, V12 o V16; se registran null justificados.",
-    "signals": "Cero unidades nuevas; los ceros son recuentos de señales, mientras los factores sin evidencia son null."
+    "blocks": "Una unidad en Garantías y procedimiento por la revisión provincial de candidaturas presentadas. No mide fuerza electoral.",
+    "variables": "No hay evidencia nueva específica para las variables críticas; se registran null justificados.",
+    "territorial": "La cobertura por circunscripción no se convierte en puntuación territorial; se registran null justificados.",
+    "signals": "Una unidad de vigilancia procedimental; confirmatorias, disruptivas y recalibradoras = 0."
   },
   "reconstructions": [
     {

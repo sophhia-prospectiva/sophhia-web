@@ -3,111 +3,108 @@
   "protocolo": "P001 + P001-E001",
   "capa": "F2-MICMAC-001 v0.2",
   "modo": "Modo A · Aproximación heurística estructurada",
-  "revision_abierta": "REV-F2-003",
+  "revision_abierta": true,
   "protocolos_consultados": [
     "P001-E001: texto disponible",
     "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
   ],
   "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
-  "codigo": "D-024",
-  "fecha": "2026-10-30",
-  "fecha_legible": "30 de octubre de 2026",
+  "codigo": "D-025",
+  "fecha": "2026-10-31",
+  "fecha_legible": "31 de octubre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "Continuidad verificable: candidaturas en subsanación y sin nueva encuesta nacional admitida",
+  "titulo": "El mapa provisional de candidaturas permite comparar la cobertura territorial",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación pendiente de validación humana",
+  "validacion": "Interpretación y codificación pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_IH",
-  "resumen": "Al corte no consta un nuevo hito oficial posterior a la instrucción de la Junta Electoral Central ni una encuesta nacional nueva con ficha técnica completa. Continúan la subsanación de candidaturas hasta la proclamación del 2 de noviembre y la preparación del reparto de propaganda pública del 4. La ausencia de novedad se registra sin fabricar señales, cifras ni aprobaciones.",
-  "resumen_ciudadana": "No hay una novedad oficial o demoscópica nueva que cambie el informe al corte. Siguen abiertos la corrección de candidaturas y los preparativos del reparto de propaganda electoral. SOPHHIA mantiene los escenarios y deja vacíos explicados donde no existe evidencia nueva.",
-  "senal_principal": "Continuidad documental sin hecho nuevo codificable al corte",
-  "variable_vigilancia": "Proclamación de candidaturas y comisión de propaganda, sin anticipar resultados",
-  "variable_territorial": "Sin evidencia nueva específica; null justificado",
-  "decision": "D-024, D-023, D-022, D-021, D-020, D-019, D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001, con sus alcances originales. La publicación técnica no valida interpretaciones, reglas ni codificaciones.",
-  "url": "diario/2026-10-30.html",
+  "estado_publicacion": "publicada",
+  "resumen": "Una revisión publicada antes del corte ordena las candidaturas provisionales por provincia y señala que PP, PSOE, Vox y Frente Obrero concurren en todas ellas. La base sigue siendo el BOE del 28: son listas presentadas, no proclamadas. No aparece una nueva encuesta nacional verificable y no se recalibran escenarios.",
+  "resumen_ciudadana": "El mapa de listas provisionales ya permite comparar qué partidos se presentan en cada provincia. PP, PSOE, Vox y Frente Obrero aparecen en todas, pero las candidaturas aún no son definitivas. No hay una nueva encuesta nacional verificable y SOPHHIA mantiene sus escenarios sin fabricar datos.",
+  "senal_principal": "Cobertura territorial de candidaturas provisionales, sin proclamación definitiva",
+  "variable_vigilancia": "Garantías y procedimiento: mapa provincial provisional",
+  "variable_territorial": "Cobertura electoral por circunscripción, sin inferencia de fuerza política",
+  "decision": "D-025, D-024, D-023, D-022, D-021, D-020, D-019, D-018, D-017 y D-016 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001, con sus alcances originales. La publicación técnica no valida interpretaciones, reglas ni codificaciones.",
+  "url": "diario/2026-10-31.html",
   "fuentes_temporales": [
     {
-      "id": "F-D024-01",
+      "id": "F-D025-01",
       "medio": "Junta Electoral Central",
       "titulo": "Actualidad y acuerdos de las elecciones generales 2026",
       "url": "https://www.juntaelectoralcentral.es/cs/Satellite?c=Page&childpagename=JEC%2FJEC_Layout&cid=1379061421225&d=Touch&pagename=jec%2Fwrapper%2FJEC_Wrapper&rendermode=preview",
       "fecha_publicacion": "2026-10-26",
       "hora_publicacion": null,
-      "fecha_consulta": "2026-10-30",
-      "hora_consulta": "2026-10-30T09:28:00+01:00",
+      "fecha_consulta": "2026-10-31",
+      "hora_consulta": "2026-10-31T09:26:00+01:00",
       "tipo": "documento_oficial",
       "acceso": "consulta_directa",
-      "alcance": "Control de novedades institucionales al corte; sigue siendo visible la Instrucción 2/2026.",
-      "reserva_temporal": "La página no acredita una hora de publicación para nuevas entradas; no se incorpora un hito posterior no fechado antes del corte.",
+      "alcance": "Control de novedades institucionales al corte; la Instrucción 2/2026 sigue siendo el último acuerdo visible.",
+      "reserva_temporal": "No se incorpora como novedad una entrada sin fecha y hora acreditadas antes del corte.",
       "admitida_como_hecho_al_corte": true,
-      "fecha_incorporacion": "2026-10-30"
+      "fecha_incorporacion": "2026-10-31"
     },
     {
-      "id": "F-D024-02",
+      "id": "F-D025-02",
       "medio": "Boletín Oficial del Estado",
       "titulo": "Candidaturas presentadas para las elecciones al Congreso y al Senado",
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22607",
       "fecha_publicacion": "2026-10-28",
       "hora_publicacion": null,
-      "fecha_consulta": "2026-10-30",
-      "hora_consulta": "2026-10-30T09:28:00+01:00",
+      "fecha_consulta": "2026-10-31",
+      "hora_consulta": "2026-10-31T09:26:00+01:00",
       "tipo": "documento_oficial",
       "acceso": "consulta_directa",
-      "alcance": "Base oficial de continuidad durante el plazo de subsanación.",
-      "reserva_temporal": "Son candidaturas presentadas, no definitivamente proclamadas; la proclamación corresponde al 2 de noviembre.",
+      "alcance": "Base oficial de las listas presentadas por circunscripción.",
+      "reserva_temporal": "No son candidaturas proclamadas; no se anticipan subsanaciones ni impugnaciones.",
       "admitida_como_hecho_al_corte": true,
-      "fecha_incorporacion": "2026-10-30"
+      "fecha_incorporacion": "2026-10-31"
     },
     {
-      "id": "F-D024-03",
-      "medio": "Boletín Oficial del Estado",
-      "titulo": "Instrucción 2/2026 de la Junta Electoral Central sobre espacios gratuitos de propaganda electoral",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22695",
-      "fecha_publicacion": "2026-10-29",
-      "hora_publicacion": null,
-      "fecha_consulta": "2026-10-30",
-      "hora_consulta": "2026-10-30T09:28:00+01:00",
-      "tipo": "documento_oficial",
-      "acceso": "consulta_directa",
-      "alcance": "Hito previo vigente: comisión nacional prevista para el 4 de noviembre.",
-      "reserva_temporal": "Se conserva como antecedente; no se recodifica como novedad del 30.",
-      "admitida_como_hecho_al_corte": true,
-      "fecha_incorporacion": "2026-10-30"
-    },
-    {
-      "id": "F-D024-04",
-      "medio": "SOPHHIA · vigilancia demoscópica",
-      "titulo": "Comprobación nacional del 30 de octubre, 09:18 CET",
-      "url": "https://sophhia.com/sophhia-29n/midc/historico/",
+      "id": "F-D025-03",
+      "medio": "elDiario.es",
+      "titulo": "Quién se presenta en tu provincia y quién lograría escaño si se repiten los resultados: las listas al Congreso, nombre a nombre",
+      "url": "https://www.eldiario.es/politica/presenta-provincia-lograria-escano-si-repiten-resultados-listas-congreso-nombre-nombre_1_13620526.html",
       "fecha_publicacion": "2026-10-30",
-      "hora_publicacion": "09:18 CET",
-      "fecha_consulta": "2026-10-30",
-      "hora_consulta": "2026-10-30T09:28:00+01:00",
+      "hora_publicacion": "22:17 CET",
+      "fecha_actualizacion": "2026-10-31",
+      "hora_actualizacion": "05:30 CET",
+      "fecha_consulta": "2026-10-31",
+      "hora_consulta": "2026-10-31T09:26:00+01:00",
+      "tipo": "revision_periodistica_de_documento_oficial",
+      "acceso": "consulta_directa",
+      "alcance": "Ordena las listas provisionales por provincia y permite comprobar cobertura territorial.",
+      "reserva_temporal": "Las proyecciones por repetición de resultados no se incorporan como estimación SOPHHIA ni como encuesta.",
+      "admitida_como_hecho_al_corte": true,
+      "fecha_incorporacion": "2026-10-31"
+    },
+    {
+      "id": "F-D025-04",
+      "medio": "SOPHHIA · vigilancia demoscópica",
+      "titulo": "Comprobación nacional del 31 de octubre, 09:20 CET",
+      "url": "https://sophhia.com/sophhia-29n/midc/historico/",
+      "fecha_publicacion": "2026-10-31",
+      "hora_publicacion": "09:20 CET",
+      "fecha_consulta": "2026-10-31",
+      "hora_consulta": "2026-10-31T09:26:00+01:00",
       "tipo": "registro_de_comprobacion",
       "acceso": "revision_de_fuentes",
-      "alcance": "No confirma encuestas nacionales nuevas con ficha completa posteriores a las ya examinadas el 27.",
-      "reserva_temporal": "No se incorporan sondeos internos sin ficha pública ni se convierte un aplazamiento editorial en una medición.",
+      "alcance": "No confirma encuestas nacionales nuevas con ficha completa posteriores a las del 26. Ikerfel País Vasco y SyM Comunitat Valenciana se excluyen por ámbito territorial.",
+      "reserva_temporal": "Una encuesta autonómica sobre generales no se incorpora como medición nacional.",
       "admitida_como_hecho_al_corte": true,
-      "fecha_incorporacion": "2026-10-30"
+      "fecha_incorporacion": "2026-10-31"
     }
   ],
-  "sync_version": "D024-editorial-20261030",
+  "sync_version": "2026-10-31-D025",
   "ventana_novedades": {
-    "desde_exclusivo": "2026-10-29T09:30:00+01:00",
-    "hasta_inclusivo": "2026-10-30T09:30:00+01:00",
-    "duracion_horas": 24,
-    "reserva": "CET estable durante toda la ventana; sólo se admite información disponible al corte."
+    "desde_exclusivo": "2026-10-30T09:30:00+01:00",
+    "hasta_inclusivo": "2026-10-31T09:30:00+01:00",
+    "timezone": "Europe/Madrid"
   },
   "anterior": {
-    "codigo": "D-023",
-    "fecha": "2026-10-29",
-    "fecha_legible": "29 de octubre de 2026",
-    "titulo": "La JEC ordena el reparto de propaganda en medios públicos y activa el siguiente hito electoral",
-    "url": "diario/2026-10-29.html",
-    "decision_id": null,
-    "estado": "Interpretación pendiente de validación humana"
+    "codigo": "D-024",
+    "fecha": "2026-10-30",
+    "url": "diario/2026-10-30.html"
   },
   "demoscopia": {
     "estudios_de_voto_incorporados_hoy": 0,
@@ -124,23 +121,40 @@
     "documentos_no_incorporados_por_ficha_incompleta": [
       "Sondeos internos citados sin ficha técnica pública completa"
     ],
-    "modelos_secundarios_revisados": []
+    "modelos_secundarios_revisados": [],
+    "fecha_revision": "2026-10-31",
+    "hora_revision": "09:20 CET",
+    "nuevas_encuestas_nacionales_admitidas": 0,
+    "exclusiones": [
+      "Ikerfel · País Vasco · ámbito territorial",
+      "SyM Consulting · Comunitat Valenciana · ámbito territorial"
+    ]
   },
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D024_pendiente_IH",
-    "ultima_fecha_codificada": "2026-10-30",
-    "nota": "Jornada de continuidad: cero unidades nuevas codificables. Escenarios conservados; bloques, variables y territorios sin registro específico son null. Histórico 7–29 conservado."
+    "estado": "codificacion_D025_pendiente_IH",
+    "ultima_fecha_codificada": "2026-10-31",
+    "nota": "Una unidad de vigilancia procedimental: cobertura provincial de candidaturas presentadas. Escenarios conservados; variables y territorios sin registro específico son null. Histórico 7–30 conservado."
   },
-  "corte_iso": "2026-10-30T09:30:00+01:00",
+  "corte_iso": "2026-10-31T09:30:00+01:00",
   "zona_corte": "CET",
   "cambios": [
-    "Sin nuevo hito oficial acreditado antes de las 09:30 CET.",
-    "Continúa la fase de subsanación de candidaturas hasta la proclamación del 2 de noviembre.",
-    "La comisión nacional de propaganda sigue prevista para el 4 de noviembre.",
-    "Sin nueva encuesta nacional con ficha técnica completa admitida al corte.",
-    "Los factores sin registro específico se conservan como null, no como cero."
+    "Mapa provincial de candidaturas provisionales ordenado a partir del BOE del 28",
+    "PP, PSOE, Vox y Frente Obrero figuran en todas las provincias según la revisión admitida",
+    "Sin nueva encuesta nacional con ficha técnica completa",
+    "Proclamación definitiva aún pendiente; sin recalibración de A-000 ni MICMAC"
   ],
-  "senales": []
+  "senales": [
+    {
+      "id": "S-D025-01",
+      "tipo": "Vigilancia",
+      "tema": "Cobertura provincial de candidaturas presentadas",
+      "alcance": "Una revisión publicada el 30 a las 22:17 y actualizada el 31 a las 05:30 ordena el documento oficial y permite comparar cobertura provincial. No convierte listas presentadas en proclamadas.",
+      "fuentes": [
+        "F-D025-03"
+      ],
+      "validacion": "pendiente_IH"
+    }
+  ]
 }

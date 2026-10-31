@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-10-30",
+  "ultima_actualizacion": "2026-10-31",
   "entradas": [
+    {
+      "codigo": "D-025",
+      "fecha": "2026-10-31",
+      "titulo": "El mapa provisional de candidaturas permite comparar la cobertura territorial",
+      "url": "diario/2026-10-31.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-024",
       "fecha": "2026-10-30",
