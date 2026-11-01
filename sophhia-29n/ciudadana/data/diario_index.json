@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-10-31",
+  "ultima_actualizacion": "2026-11-01",
   "entradas": [
+    {
+      "codigo": "D-026",
+      "fecha": "2026-11-01",
+      "titulo": "La vivienda abre el contraste programático mientras la proclamación sigue pendiente",
+      "url": "diario/2026-11-01.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-025",
       "fecha": "2026-10-31",

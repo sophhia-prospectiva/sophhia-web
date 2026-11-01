@@ -1,25 +1,25 @@
 {
-  "version": "v0.45-D025-R1",
-  "updated": "2026-10-31",
+  "version": "v0.46-D026",
+  "updated": "2026-11-01",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 31 de octubre de 2026 · 09:30 CET",
+  "subtitle": "Corte 1 de noviembre de 2026 · 09:30 CET",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-025",
+  "current_entry": "D-026",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "El mapa provincial de candidaturas presentadas permite comparar cobertura territorial: PP, PSOE, Vox y Frente Obrero figuran en todas las provincias. La relación sigue siendo provisional hasta la proclamación; no se convierte presencia en intención de voto, escaños ni probabilidad. Sin nueva encuesta nacional admitida ni recalibración.",
+  "system_state": "D-026 publicada; reconstrucción 29–31 preservada; sin recalibración de A-000 ni MICMAC.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Subsanaciones y proclamación definitiva de candidaturas; nuevas encuestas nacionales verificables.",
-  "watch_variable": "Garantías y procedimiento: cobertura provincial de candidaturas presentadas",
+  "main_uncertainty": "Programas definitivos, proclamación de candidaturas y nuevas encuestas nacionales verificables.",
+  "watch_variable": "Vivienda: contraste documental de propuestas",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "Mapa provincial provisional derivado del BOE del 28",
-    "PP, PSOE, Vox y Frente Obrero figuran en todas las provincias",
-    "Las listas aún no están proclamadas",
+    "Vivienda en seguimiento explícito mediante un comparador publicado a las 07:07 CET",
+    "IPC adelantado: 4,9% anual y 3,1% subyacente, como contexto ya publicado",
+    "Listas aún presentadas, no proclamadas",
     "Sin nueva encuesta nacional admitida ni recalibración",
-    "Revisión 1/11: fuentes y series del 29–31 ampliadas retrospectivamente; véanse evidencias en las fichas."
+    "Reconstrucción REC-29N-20261101-2931 preservada sin cambios"
   ],
   "path": [
     {
@@ -349,7 +349,7 @@
       }
     ]
   },
-  "current_reading": "Una revisión publicada antes del corte ordena las candidaturas provisionales por provincia y señala que PP, PSOE, Vox y Frente Obrero concurren en todas ellas. La base sigue siendo el BOE del 28: son listas presentadas, no proclamadas. No aparece una nueva encuesta nacional verificable y no se recalibran escenarios. Ampliación retrospectiva del 1/11: coste de vida y diferencias entre fuerzas de izquierda incorporados con evidencias al gráfico; no modifica el corte ni valida las interpretaciones.",
+  "current_reading": "Un comparador publicado a las 07:07 CET ordena las propuestas de vivienda de las principales fuerzas: regulación y protección del alquiler en la izquierda, frente a más oferta y menos restricciones en PP y Vox. Se incorpora como seguimiento temático, no como programa definitivo ni evidencia de pacto. No aparece una nueva encuesta nacional verificable y se conservan escenarios, A-000, MICMAC, DEC-IH y parámetros.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -369,27 +369,36 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-025 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-026 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D025-01",
-      "tema": "Cobertura provincial de candidaturas presentadas",
+      "id": "S-D026-01",
+      "tema": "Contraste programático sobre vivienda",
       "tipo": "Vigilancia",
-      "alcance": "La revisión admitida ordena la publicación oficial por provincia. No acredita proclamación ni fuerza electoral.",
+      "alcance": "Comparación periodística de posiciones; no acredita programa definitivo, pacto, ejecución ni efecto electoral.",
       "groups": [
-        "Garantías y procedimiento"
+        "PP‑Vox",
+        "PSOE + izquierda"
       ],
-      "variable_levels": {},
-      "variables_en_observacion": [],
+      "variable_levels": {
+        "Vivienda": 2,
+        "Inflación/coste de vida": 1,
+        "Fragmentación izquierda": 1
+      },
+      "variables_en_observacion": [
+        "Vivienda",
+        "Inflación/coste de vida",
+        "Fragmentación izquierda"
+      ],
       "fuentes": [
-        "F-D025-02",
-        "F-D025-03"
+        "F-D026-01",
+        "F-D026-03"
       ],
-      "razon_codificacion": "Una unidad documental de procedimiento; no se extrapola a probabilidades, intención de voto o pesos MICMAC.",
-      "grado_confirmacion": "documento_oficial_y_revision_periodistica",
+      "razon_codificacion": "Seguimiento explícito de vivienda y contexto económico; sin extrapolación a probabilidades o pesos MICMAC.",
+      "grado_confirmacion": "comparador_periodistico_y_contexto_estadistico_oficial",
       "validacion": "pendiente_IH"
     }
   ],
