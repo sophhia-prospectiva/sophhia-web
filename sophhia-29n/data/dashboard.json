@@ -1,5 +1,5 @@
 {
-  "version": "v0.43-D024",
+  "version": "v0.45-D025-R1",
   "updated": "2026-10-31",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "Corte 31 de octubre de 2026 · 09:30 CET",
@@ -18,7 +18,8 @@
     "Mapa provincial provisional derivado del BOE del 28",
     "PP, PSOE, Vox y Frente Obrero figuran en todas las provincias",
     "Las listas aún no están proclamadas",
-    "Sin nueva encuesta nacional admitida ni recalibración"
+    "Sin nueva encuesta nacional admitida ni recalibración",
+    "Revisión 1/11: fuentes y series del 29–31 ampliadas retrospectivamente; véanse evidencias en las fichas."
   ],
   "path": [
     {
@@ -201,7 +202,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Codificación documental diaria; histórico 7–30 conservado y 31 calculado con regla v1. Pendiente IH.",
+    "mode": "Reconstrucción documental retrospectiva del 29–31 de octubre, realizada el 1 de noviembre. Regla v1 sin cambios; pendiente IH.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -209,14 +210,14 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.44-D025",
+    "version": "v0.45-D025-R1",
     "cutoff": "2026-10-31",
     "last_numeric_date": "2026-10-31",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Codificación D-025 pendiente de validación IH",
-    "reconstruction_date": "2026-10-24"
+    "validation": "Regla v1 y reconstrucción 29–31 pendientes de validación IH específica; decisiones previas intactas.",
+    "reconstruction_date": "2026-11-01"
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
   "territorial_radar": {
@@ -348,7 +349,7 @@
       }
     ]
   },
-  "current_reading": "Una revisión publicada antes del corte ordena las candidaturas provisionales por provincia y señala que PP, PSOE, Vox y Frente Obrero concurren en todas ellas. La base sigue siendo el BOE del 28: son listas presentadas, no proclamadas. No aparece una nueva encuesta nacional verificable y no se recalibran escenarios.",
+  "current_reading": "Una revisión publicada antes del corte ordena las candidaturas provisionales por provincia y señala que PP, PSOE, Vox y Frente Obrero concurren en todas ellas. La base sigue siendo el BOE del 28: son listas presentadas, no proclamadas. No aparece una nueva encuesta nacional verificable y no se recalibran escenarios. Ampliación retrospectiva del 1/11: coste de vida y diferencias entre fuerzas de izquierda incorporados con evidencias al gráfico; no modifica el corte ni valida las interpretaciones.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -391,5 +392,13 @@
       "grado_confirmacion": "documento_oficial_y_revision_periodistica",
       "validacion": "pendiente_IH"
     }
-  ]
+  ],
+  "revision_retrospectiva": {
+    "id": "REC-29N-20261101-2931",
+    "date": "2026-11-01",
+    "from_date": "2026-10-29",
+    "to_date": "2026-10-31",
+    "validation": "pendiente_IH",
+    "reference": "diario/2026-10-31.html#reconstruccion-2931"
+  }
 }

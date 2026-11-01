@@ -1,12 +1,12 @@
 {
-  "version": "v0.43-D024",
-  "mode": "Codificación documental diaria; histórico conservado y 31 registrado con una unidad de vigilancia procedimental. Pendiente IH.",
+  "version": "v0.45-D025-R1",
+  "mode": "Reconstrucción documental retrospectiva del 29–31 de octubre, realizada el 1 de noviembre. Regla v1 sin cambios; pendiente IH.",
   "method": "REG-SERIES-29N-001",
   "cutoff": "2026-10-31",
   "current_entry": "D-025",
   "last_numeric_date": "2026-10-31",
-  "updated": "2026-10-31",
-  "reconstruction_date": "2026-10-24",
+  "updated": "2026-11-01",
+  "reconstruction_date": "2026-11-01",
   "interpretation_cutoff": "2026-10-31T09:30:00+01:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
@@ -152,20 +152,26 @@
     {
       "date": "2026-10-29",
       "entry": "D-023",
-      "source_status": "codificacion_editorial_pendiente_IH",
-      "retrospective": false
+      "source_status": "reconstruccion_20261101_pendiente_IH",
+      "retrospective": true,
+      "reconstructed_on": "2026-11-01",
+      "cutoff": "2026-10-29T09:30:00+01:00"
     },
     {
       "date": "2026-10-30",
       "entry": "D-024",
-      "source_status": "continuidad_documental_pendiente_IH",
-      "retrospective": false
+      "source_status": "reconstruccion_20261101_pendiente_IH",
+      "retrospective": true,
+      "reconstructed_on": "2026-11-01",
+      "cutoff": "2026-10-30T09:30:00+01:00"
     },
     {
       "date": "2026-10-31",
       "entry": "D-025",
-      "source_status": "codificacion_editorial_pendiente_IH",
-      "retrospective": false
+      "source_status": "reconstruccion_20261101_pendiente_IH",
+      "retrospective": true,
+      "reconstructed_on": "2026-11-01",
+      "cutoff": "2026-10-31T09:30:00+01:00"
     }
   ],
   "scenarios": {
@@ -302,9 +308,9 @@
       1,
       1,
       1,
-      null,
-      null,
-      null
+      1,
+      1,
+      0
     ],
     "PSOE + izquierda": [
       0,
@@ -329,9 +335,9 @@
       3,
       1,
       1,
-      null,
-      null,
-      null
+      2,
+      1,
+      1
     ],
     "Territoriales/bisagra": [
       0,
@@ -356,9 +362,9 @@
       1,
       2,
       2,
+      2,
       1,
-      null,
-      null
+      0
     ],
     "Garantías y procedimiento": [
       0,
@@ -383,8 +389,8 @@
       1,
       1,
       1,
-      3,
-      null,
+      2,
+      0,
       1
     ]
   },
@@ -412,9 +418,9 @@
       2,
       null,
       null,
-      null,
-      null,
-      null
+      2,
+      2,
+      1
     ],
     "Inflación/coste de vida": [
       1,
@@ -439,9 +445,9 @@
       2,
       null,
       null,
-      null,
-      null,
-      null
+      1,
+      2,
+      2
     ],
     "Fragmentación izquierda": [
       1,
@@ -466,9 +472,9 @@
       2,
       2,
       3,
-      null,
-      null,
-      null
+      2,
+      2,
+      2
     ],
     "Relación PP‑Vox": [
       null,
@@ -493,8 +499,8 @@
       2,
       3,
       3,
-      null,
-      null,
+      2,
+      2,
       null
     ],
     "Participación": [
@@ -657,9 +663,9 @@
       2,
       2,
       3,
+      2,
       null,
-      null,
-      null
+      2
     ],
     "Agendas territoriales complementarias": [
       null,
@@ -740,9 +746,9 @@
       5,
       3,
       1,
-      1,
-      0,
-      1
+      4,
+      4,
+      3
     ],
     "Disruptivas": [
       0,
@@ -806,15 +812,15 @@
     "territorial": "ordinal_1_3",
     "signals": "counts"
   },
-  "validation": "Regla v1 y codificación D-025 pendientes de validación IH específica",
+  "validation": "Regla v1 y reconstrucción 29–31 pendientes de validación IH específica; decisiones previas intactas.",
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
   "note": "Sin recalibración de A-000, sin modificación de MICMAC ni de probabilidades selladas.",
   "readings": {
     "scenarios": "Se conservan expresamente G1/G2/G4/G5 = 1/1/2/1; son lecturas del marco vigente, no probabilidades. A-000 y MICMAC no se recalibran.",
-    "blocks": "Una unidad en Garantías y procedimiento por la revisión provincial de candidaturas presentadas. No mide fuerza electoral.",
-    "variables": "No hay evidencia nueva específica para las variables críticas; se registran null justificados.",
-    "territorial": "La cobertura por circunscripción no se convierte en puntuación territorial; se registran null justificados.",
-    "signals": "Una unidad de vigilancia procedimental; confirmatorias, disruptivas y recalibradoras = 0."
+    "blocks": "Recuentos recalculados de unidades documentales, con IDs únicos. No miden fuerza electoral. Revisión 29–31 realizada el 1 de noviembre.",
+    "variables": "Se recuperan registros de vivienda, coste de vida y relaciones entre partidos. Los huecos restantes carecen de evidencia específica en el corpus revisado; no son ceros.",
+    "territorial": "Compatibilidad programática revisada el 29 y el 31. No se infiere veto de investidura, agenda nacionalista ni intensidad territorial de la mera presencia de un actor.",
+    "signals": "Recuentos por clase calculados sobre las fichas reconstruidas; no son sucesos nuevos acumulativos. Revisión retrospectiva del 1 de noviembre."
   },
   "reconstructions": [
     {
@@ -827,6 +833,955 @@
       "to": "2026-10-24",
       "performed_on": "2026-10-24",
       "status": "pendiente_IH"
+    },
+    {
+      "id": "REC-29N-20261101-2931",
+      "from": "2026-10-29",
+      "to": "2026-10-31",
+      "performed_on": "2026-11-01",
+      "status": "pendiente_IH",
+      "reason": "Ampliación documentada de fuentes omitidas y corrección de recuentos; no publicación contemporánea."
+    }
+  ],
+  "reconstruction_provenance": [
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "variables",
+      "series": "Vivienda",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D023-R03"
+      ],
+      "source_ids": [
+        "R01",
+        "R02"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Revisión explícita de propuestas de vivienda (2); salarios y poder adquisitivo son contexto (1). La atribución a grupos procede sólo de Montero y Rufián, nunca de USO.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "before": null,
+      "value": 1,
+      "record_ids": [
+        "REC-D023-R03"
+      ],
+      "source_ids": [
+        "R01",
+        "R02"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Revisión explícita de propuestas de vivienda (2); salarios y poder adquisitivo son contexto (1). La atribución a grupos procede sólo de Montero y Rufián, nunca de USO.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D023-R04"
+      ],
+      "source_ids": [
+        "R02"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Se revisan los motivos expresos del desacuerdo y el encaje de socios y programas. Atención 2 no significa acuerdo conseguido. Antecedente del 28 revisado retrospectivamente en D-023.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D023-R05"
+      ],
+      "source_ids": [
+        "R03",
+        "R04"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Comparación documentada de decisiones distintas. No se infiere ruptura de alianzas ni se asigna atención 3.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "variables",
+      "series": "Participación",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "variables",
+      "series": "Bloqueo",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D023-R04"
+      ],
+      "source_ids": [
+        "R02"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Se revisan los motivos expresos del desacuerdo y el encaje de socios y programas. Atención 2 no significa acuerdo conseguido. Antecedente del 28 revisado retrospectivamente en D-023.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "before": null,
+      "value": 1,
+      "record_ids": [
+        "REC-D023-R05"
+      ],
+      "source_ids": [
+        "R03",
+        "R04"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Comparación documentada de decisiones distintas. No se infiere ruptura de alianzas ni se asigna atención 3.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D023-R03",
+        "REC-D023-R04"
+      ],
+      "source_ids": [
+        "R01",
+        "R02"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Revisión explícita de propuestas de vivienda (2); salarios y poder adquisitivo son contexto (1). La atribución a grupos procede sólo de Montero y Rufián, nunca de USO.; Se revisan los motivos expresos del desacuerdo y el encaje de socios y programas. Atención 2 no significa acuerdo conseguido. Antecedente del 28 revisado retrospectivamente en D-023.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "before": 1,
+      "value": 2,
+      "record_ids": [
+        "REC-D023-R03",
+        "REC-D023-R04"
+      ],
+      "source_ids": [
+        "R01",
+        "R02"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Revisión explícita de propuestas de vivienda (2); salarios y poder adquisitivo son contexto (1). La atribución a grupos procede sólo de Montero y Rufián, nunca de USO.; Se revisan los motivos expresos del desacuerdo y el encaje de socios y programas. Atención 2 no significa acuerdo conseguido. Antecedente del 28 revisado retrospectivamente en D-023.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "before": 3,
+      "value": 2,
+      "record_ids": [
+        "REC-D023-R01",
+        "REC-D023-R02"
+      ],
+      "source_ids": [
+        "O01"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Unidad nacional conservada de D-023, con su reserva temporal original. Un ID se cuenta una sola vez.; Unidad territorial administrativa conservada de D-023. No acredita protagonismo de partidos bisagra.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "before": 1,
+      "value": 1,
+      "record_ids": [
+        "REC-D023-R01"
+      ],
+      "source_ids": [
+        "O01"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Unidad nacional conservada de D-023, con su reserva temporal original. Un ID se cuenta una sola vez.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "signals",
+      "series": "Vigilancia",
+      "before": 1,
+      "value": 4,
+      "record_ids": [
+        "REC-D023-R02",
+        "REC-D023-R03",
+        "REC-D023-R04",
+        "REC-D023-R05"
+      ],
+      "source_ids": [
+        "O01",
+        "R01",
+        "R02",
+        "R03",
+        "R04"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Unidad territorial administrativa conservada de D-023. No acredita protagonismo de partidos bisagra.; Revisión explícita de propuestas de vivienda (2); salarios y poder adquisitivo son contexto (1). La atribución a grupos procede sólo de Montero y Rufián, nunca de USO.; Se revisan los motivos expresos del desacuerdo y el encaje de socios y programas. Atención 2 no significa acuerdo conseguido. Antecedente del 28 revisado retrospectivamente en D-023.; Comparación documentada de decisiones distintas. No se infiere ruptura de alianzas ni se asigna atención 3.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "signals",
+      "series": "Disruptivas",
+      "before": 0,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-29",
+      "cutoff": "2026-10-29T09:30:00+01:00",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "before": 0,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "variables",
+      "series": "Vivienda",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D024-R02"
+      ],
+      "source_ids": [
+        "R06"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Revisión concreta de un pacto de vivienda propuesto por una entidad social; no se atribuye a un partido ni se presenta como acuerdo firmado.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D024-R04"
+      ],
+      "source_ids": [
+        "R08",
+        "R09"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Se revisa el dato principal publicado antes del corte. 2 es el nivel de atención, no el valor del IPC; se excluyen añadidos periodísticos posteriores a las 09:30.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D024-R03"
+      ],
+      "source_ids": [
+        "R07"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "La petición conjunta de Rufián y Belarra y la iniciativa separada de Frente Amplio permiten seguir la coordinación entre fuerzas. No acreditan V12 ni un programa común V16.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D024-R01"
+      ],
+      "source_ids": [
+        "R05"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Seguimiento de una crítica explícita sobre la continuidad de los actos; no medición de compatibilidad de Gobierno.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "variables",
+      "series": "Participación",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "variables",
+      "series": "Bloqueo",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "before": null,
+      "value": 1,
+      "record_ids": [
+        "REC-D024-R01"
+      ],
+      "source_ids": [
+        "R05"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Seguimiento de una crítica explícita sobre la continuidad de los actos; no medición de compatibilidad de Gobierno.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "before": null,
+      "value": 1,
+      "record_ids": [
+        "REC-D024-R03"
+      ],
+      "source_ids": [
+        "R07"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "La petición conjunta de Rufián y Belarra y la iniciativa separada de Frente Amplio permiten seguir la coordinación entre fuerzas. No acreditan V12 ni un programa común V16.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "before": null,
+      "value": 1,
+      "record_ids": [
+        "REC-D024-R03"
+      ],
+      "source_ids": [
+        "R07"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "La petición conjunta de Rufián y Belarra y la iniciativa separada de Frente Amplio permiten seguir la coordinación entre fuerzas. No acreditan V12 ni un programa común V16.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "before": null,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "before": 0,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "signals",
+      "series": "Vigilancia",
+      "before": 0,
+      "value": 4,
+      "record_ids": [
+        "REC-D024-R01",
+        "REC-D024-R02",
+        "REC-D024-R03",
+        "REC-D024-R04"
+      ],
+      "source_ids": [
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Seguimiento de una crítica explícita sobre la continuidad de los actos; no medición de compatibilidad de Gobierno.; Revisión concreta de un pacto de vivienda propuesto por una entidad social; no se atribuye a un partido ni se presenta como acuerdo firmado.; La petición conjunta de Rufián y Belarra y la iniciativa separada de Frente Amplio permiten seguir la coordinación entre fuerzas. No acreditan V12 ni un programa común V16.; Se revisa el dato principal publicado antes del corte. 2 es el nivel de atención, no el valor del IPC; se excluyen añadidos periodísticos posteriores a las 09:30.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "signals",
+      "series": "Disruptivas",
+      "before": 0,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-30",
+      "cutoff": "2026-10-30T09:30:00+01:00",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "before": 0,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "variables",
+      "series": "Vivienda",
+      "before": null,
+      "value": 1,
+      "record_ids": [
+        "REC-D025-R03"
+      ],
+      "source_ids": [
+        "R08",
+        "R10"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Seguimiento explícito del coste de vida (2). La referencia a vivienda es sólo contextual (1). Se trata la información del 31, sin arrastrar mecánicamente el valor del 30.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "variables",
+      "series": "Inflación/coste de vida",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D025-R03"
+      ],
+      "source_ids": [
+        "R08",
+        "R10"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Seguimiento explícito del coste de vida (2). La referencia a vivienda es sólo contextual (1). Se trata la información del 31, sin arrastrar mecánicamente el valor del 30.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "variables",
+      "series": "Fragmentación izquierda",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D025-R02"
+      ],
+      "source_ids": [
+        "R11",
+        "R12"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Se revisan posiciones divergentes y el contenido de las críticas al modelo ferroviario. Codificación heurística de atención 2, no ruptura de coalición ni incompatibilidad calculada; pendiente IH.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "variables",
+      "series": "Relación PP‑Vox",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "variables",
+      "series": "Participación",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "variables",
+      "series": "Bloqueo",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Agenda nacionalista catalana",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Agenda nacionalista vasca",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Veto/bisagra territorial",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Compatibilidad programática-territorial",
+      "before": null,
+      "value": 2,
+      "record_ids": [
+        "REC-D025-R02"
+      ],
+      "source_ids": [
+        "R11",
+        "R12"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Se revisan posiciones divergentes y el contenido de las críticas al modelo ferroviario. Codificación heurística de atención 2, no ruptura de coalición ni incompatibilidad calculada; pendiente IH.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "territorial",
+      "series": "Agendas territoriales complementarias",
+      "before": null,
+      "value": null,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Sin evidencia específica admisible en el corpus revisado; no es cero ni prueba de inactividad.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "blocks",
+      "series": "PP‑Vox",
+      "before": null,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "blocks",
+      "series": "PSOE + izquierda",
+      "before": null,
+      "value": 1,
+      "record_ids": [
+        "REC-D025-R02"
+      ],
+      "source_ids": [
+        "R11",
+        "R12"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Se revisan posiciones divergentes y el contenido de las críticas al modelo ferroviario. Codificación heurística de atención 2, no ruptura de coalición ni incompatibilidad calculada; pendiente IH.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "blocks",
+      "series": "Territoriales/bisagra",
+      "before": null,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "blocks",
+      "series": "Garantías y procedimiento",
+      "before": 1,
+      "value": 1,
+      "record_ids": [
+        "REC-D025-R01"
+      ],
+      "source_ids": [
+        "O02",
+        "O03"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Unidad procedimental conservada de D-025. Cobertura no equivale a escaños ni apoyo.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "signals",
+      "series": "Confirmatorias",
+      "before": 0,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "signals",
+      "series": "Vigilancia",
+      "before": 1,
+      "value": 3,
+      "record_ids": [
+        "REC-D025-R01",
+        "REC-D025-R02",
+        "REC-D025-R03"
+      ],
+      "source_ids": [
+        "O02",
+        "O03",
+        "R08",
+        "R10",
+        "R11",
+        "R12"
+      ],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Unidad procedimental conservada de D-025. Cobertura no equivale a escaños ni apoyo.; Se revisan posiciones divergentes y el contenido de las críticas al modelo ferroviario. Codificación heurística de atención 2, no ruptura de coalición ni incompatibilidad calculada; pendiente IH.; Seguimiento explícito del coste de vida (2). La referencia a vivienda es sólo contextual (1). Se trata la información del 31, sin arrastrar mecánicamente el valor del 30.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "signals",
+      "series": "Disruptivas",
+      "before": 0,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
+    },
+    {
+      "date": "2026-10-31",
+      "cutoff": "2026-10-31T09:30:00+01:00",
+      "group": "signals",
+      "series": "Recalibradoras",
+      "before": 0,
+      "value": 0,
+      "record_ids": [],
+      "source_ids": [],
+      "rule": "REG-SERIES-29N-001 v1.0",
+      "reason": "Cero unidades codificadas de este grupo o clase en la ficha reconstruida.",
+      "reconstructed_on": "2026-11-01",
+      "validation": "pendiente_IH"
     }
   ]
 }

@@ -95,7 +95,7 @@
       "fecha_incorporacion": "2026-10-31"
     }
   ],
-  "sync_version": "2026-10-31-D025",
+  "sync_version": "2026-10-31-D025-R1",
   "ventana_novedades": {
     "desde_exclusivo": "2026-10-30T09:30:00+01:00",
     "hasta_inclusivo": "2026-10-31T09:30:00+01:00",
@@ -133,9 +133,10 @@
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D025_pendiente_IH",
+    "estado": "reconstruccion_2931_pendiente_IH",
     "ultima_fecha_codificada": "2026-10-31",
-    "nota": "Una unidad de vigilancia procedimental: cobertura provincial de candidaturas presentadas. Escenarios conservados; variables y territorios sin registro específico son null. Histórico 7–30 conservado."
+    "nota": "Reconstrucción documental retrospectiva del 29–31 de octubre, realizada el 1 de noviembre. Regla v1 sin cambios; pendiente IH.",
+    "reconstruida_el": "2026-11-01"
   },
   "corte_iso": "2026-10-31T09:30:00+01:00",
   "zona_corte": "CET",
@@ -143,7 +144,8 @@
     "Mapa provincial de candidaturas provisionales ordenado a partir del BOE del 28",
     "PP, PSOE, Vox y Frente Obrero figuran en todas las provincias según la revisión admitida",
     "Sin nueva encuesta nacional con ficha técnica completa",
-    "Proclamación definitiva aún pendiente; sin recalibración de A-000 ni MICMAC"
+    "Proclamación definitiva aún pendiente; sin recalibración de A-000 ni MICMAC",
+    "Revisión del 1/11: series 29–31 reconstruidas con fuentes omitidas; sin cambio del corte ni de las validaciones."
   ],
   "senales": [
     {
@@ -156,5 +158,13 @@
       ],
       "validacion": "pendiente_IH"
     }
-  ]
+  ],
+  "revision_retrospectiva": {
+    "id": "REC-29N-20261101-2931",
+    "date": "2026-11-01",
+    "from_date": "2026-10-29",
+    "to_date": "2026-10-31",
+    "validation": "pendiente_IH",
+    "reference": "diario/2026-10-31.html#reconstruccion-2931"
+  }
 }
