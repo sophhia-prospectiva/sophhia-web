@@ -1,23 +1,23 @@
 {
-  "version": "v0.46-D026",
-  "updated": "2026-11-01",
+  "version": "v0.47-D027",
+  "updated": "2026-11-02",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 1 de noviembre de 2026 · 09:30 CET",
+  "subtitle": "Corte 2 de noviembre de 2026 · 09:30 CET",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-026",
+  "current_entry": "D-027",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-026 publicada; reconstrucción 29–31 preservada; sin recalibración de A-000 ni MICMAC.",
+  "system_state": "D-027 publicada; reconstrucción 29–31 preservada; sin recalibración de A-000 ni MICMAC.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Programas definitivos, proclamación de candidaturas y nuevas encuestas nacionales verificables.",
-  "watch_variable": "Vivienda: contraste documental de propuestas",
+  "main_uncertainty": "Contenido oficial de las candidaturas proclamadas y nuevas encuestas nacionales verificables.",
+  "watch_variable": "Participación: inicio del envío de tarjetas censales",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "Vivienda en seguimiento explícito mediante un comparador publicado a las 07:07 CET",
-    "IPC adelantado: 4,9% anual y 3,1% subyacente, como contexto ya publicado",
-    "Listas aún presentadas, no proclamadas",
+    "Proclamación prevista hoy; resultado completo no acreditado al corte",
+    "Publicación oficial de las candidaturas proclamadas prevista para el 3 de noviembre",
+    "Tarjetas censales: envío desde hoy para 38.728.356 electores",
     "Sin nueva encuesta nacional admitida ni recalibración",
     "Reconstrucción REC-29N-20261101-2931 preservada sin cambios"
   ],
@@ -349,7 +349,7 @@
       }
     ]
   },
-  "current_reading": "Un comparador publicado a las 07:07 CET ordena las propuestas de vivienda de las principales fuerzas: regulación y protección del alquiler en la izquierda, frente a más oferta y menos restricciones en PP y Vox. Se incorpora como seguimiento temático, no como programa definitivo ni evidencia de pacto. No aparece una nueva encuesta nacional verificable y se conservan escenarios, A-000, MICMAC, DEC-IH y parámetros.",
+  "current_reading": "El calendario electoral sitúa hoy la proclamación de candidaturas, pero al corte de las 09:30 CET no existe una publicación oficial completa que permita acreditar el resultado. El INE inicia desde hoy el envío de tarjetas censales para 38.728.356 electores. No se admite una nueva encuesta nacional y se conservan escenarios, A-000, MICMAC, DEC-IH y parámetros.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -369,36 +369,32 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-026 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-027 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D026-01",
-      "tema": "Contraste programático sobre vivienda",
+      "id": "S-D027-01",
+      "tema": "Hito de proclamación y documentación censal",
       "tipo": "Vigilancia",
-      "alcance": "Comparación periodística de posiciones; no acredita programa definitivo, pacto, ejecución ni efecto electoral.",
+      "alcance": "Calendario procedimental y comienzo del envío de tarjetas; no anticipa el contenido de las listas proclamadas.",
       "groups": [
-        "PP‑Vox",
-        "PSOE + izquierda"
+        "Garantías / proceso"
       ],
       "variable_levels": {
-        "Vivienda": 2,
-        "Inflación/coste de vida": 1,
-        "Fragmentación izquierda": 1
+        "Participación": 1
       },
       "variables_en_observacion": [
-        "Vivienda",
-        "Inflación/coste de vida",
-        "Fragmentación izquierda"
+        "Participación"
       ],
       "fuentes": [
-        "F-D026-01",
-        "F-D026-03"
+        "F-D027-01",
+        "F-D027-02",
+        "F-D027-03"
       ],
-      "razon_codificacion": "Seguimiento explícito de vivienda y contexto económico; sin extrapolación a probabilidades o pesos MICMAC.",
-      "grado_confirmacion": "comparador_periodistico_y_contexto_estadistico_oficial",
+      "razon_codificacion": "Mención contextual del acceso a la documentación censal; sin arrastre ni inferencia electoral.",
+      "grado_confirmacion": "calendario_y_datos_oficiales",
       "validacion": "pendiente_IH"
     }
   ],
