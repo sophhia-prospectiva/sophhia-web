@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-02",
+  "ultima_actualizacion": "2026-11-03",
   "entradas": [
+    {
+      "codigo": "D-028",
+      "fecha": "2026-11-03",
+      "titulo": "El BOE fija las candidaturas proclamadas y abre la fase de comprobación definitiva",
+      "url": "diario/2026-11-03.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-027",
       "fecha": "2026-11-02",

@@ -1,25 +1,25 @@
 {
-  "version": "v0.47-D027",
-  "updated": "2026-11-02",
+  "version": "v0.48-D028",
+  "updated": "2026-11-03",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 2 de noviembre de 2026 · 09:30 CET",
+  "subtitle": "Corte 3 de noviembre de 2026 · 09:30 CET",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-027",
+  "current_entry": "D-028",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-027 publicada; reconstrucción 29–31 preservada; sin recalibración de A-000 ni MICMAC.",
+  "system_state": "D-028 publicada; reconstrucción 29–31 preservada; sin recalibración de A-000 ni MICMAC.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Contenido oficial de las candidaturas proclamadas y nuevas encuestas nacionales verificables.",
-  "watch_variable": "Participación: inicio del envío de tarjetas censales",
+  "main_uncertainty": "Impugnaciones y correcciones posteriores a la proclamación; encuestas con ficha primaria completa.",
+  "watch_variable": "Participación: entrega de copias del censo a candidaturas proclamadas",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "Proclamación prevista hoy; resultado completo no acreditado al corte",
-    "Publicación oficial de las candidaturas proclamadas prevista para el 3 de noviembre",
-    "Tarjetas censales: envío desde hoy para 38.728.356 electores",
-    "Sin nueva encuesta nacional admitida ni recalibración",
-    "Reconstrucción REC-29N-20261101-2931 preservada sin cambios"
+    "BOE-A-2026-23103 publica las candidaturas proclamadas en 225 páginas",
+    "El BOE identifica expresamente candidaturas no proclamadas en circunscripciones concretas",
+    "El INE entrega copias del censo los días 3 y 4 de noviembre",
+    "Dos sondeos del 2 de noviembre quedan excluidos por falta de ficha primaria completa",
+    "REC-29N-20261101-2931 preservada sin cambios"
   ],
   "path": [
     {
@@ -349,7 +349,7 @@
       }
     ]
   },
-  "current_reading": "El calendario electoral sitúa hoy la proclamación de candidaturas, pero al corte de las 09:30 CET no existe una publicación oficial completa que permita acreditar el resultado. El INE inicia desde hoy el envío de tarjetas censales para 38.728.356 electores. No se admite una nueva encuesta nacional y se conservan escenarios, A-000, MICMAC, DEC-IH y parámetros.",
+  "current_reading": "El BOE de 3 de noviembre publica en 225 páginas las candidaturas proclamadas al Congreso y al Senado. La fuente permite distinguir listas proclamadas y candidaturas expresamente no proclamadas, sin convertir ese hecho procedimental en estimación electoral. El INE abre la entrega de copias del censo a los representantes que las soliciten. No se incorpora una encuesta nacional nueva por falta de ficha primaria completa.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -369,16 +369,16 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-027 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-028 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D027-01",
-      "tema": "Hito de proclamación y documentación censal",
+      "id": "S-D028-01",
+      "tema": "Candidaturas proclamadas y acceso censal",
       "tipo": "Vigilancia",
-      "alcance": "Calendario procedimental y comienzo del envío de tarjetas; no anticipa el contenido de las listas proclamadas.",
+      "alcance": "Publicación oficial y procedimiento censal; no anticipa resultado electoral.",
       "groups": [
         "Garantías / proceso"
       ],
@@ -389,12 +389,11 @@
         "Participación"
       ],
       "fuentes": [
-        "F-D027-01",
-        "F-D027-02",
-        "F-D027-03"
+        "F-D028-01",
+        "F-D028-02"
       ],
-      "razon_codificacion": "Mención contextual del acceso a la documentación censal; sin arrastre ni inferencia electoral.",
-      "grado_confirmacion": "calendario_y_datos_oficiales",
+      "razon_codificacion": "Atención procedimental alta y una mención de participación; sin arrastre ni inferencia electoral.",
+      "grado_confirmacion": "documentos_oficiales",
       "validacion": "pendiente_IH"
     }
   ],
