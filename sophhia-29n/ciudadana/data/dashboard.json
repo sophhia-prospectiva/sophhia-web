@@ -1,25 +1,25 @@
 {
-  "version": "v0.48-D028",
-  "updated": "2026-11-03",
+  "version": "v0.49-D029",
+  "updated": "2026-11-04",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 3 de noviembre de 2026 · 09:30 CET",
+  "subtitle": "Corte 4 de noviembre de 2026 · 09:30 CET",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-028",
+  "current_entry": "D-029",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-028 publicada; reconstrucción 29–31 preservada; sin recalibración de A-000 ni MICMAC.",
+  "system_state": "D-029 publicada; sin recalibración de A-000 ni MICMAC.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Impugnaciones y correcciones posteriores a la proclamación; encuestas con ficha primaria completa.",
-  "watch_variable": "Participación: entrega de copias del censo a candidaturas proclamadas",
+  "main_uncertainty": "Efecto político y electoral posterior a Urda; formalización del cese y de la candidatura.",
+  "watch_variable": "Formalización del cese, sustitución en la lista y medición demoscópica posterior a Urda",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "BOE-A-2026-23103 publica las candidaturas proclamadas en 225 páginas",
-    "El BOE identifica expresamente candidaturas no proclamadas en circunscripciones concretas",
-    "El INE entrega copias del censo los días 3 y 4 de noviembre",
-    "Dos sondeos del 2 de noviembre quedan excluidos por falta de ficha primaria completa",
-    "REC-29N-20261101-2931 preservada sin cambios"
+    "Puente anuncia su dimisión y retirada de la candidatura",
+    "No consta aún el cese formal ni el cambio de lista proclamada",
+    "BOE publica medidas urgentes por Urda",
+    "More in Common y Hamalgama entran con reservas de campo",
+    "JEC y CERA se registran sin anticipar hitos posteriores al corte"
   ],
   "path": [
     {
@@ -349,7 +349,7 @@
       }
     ]
   },
-  "current_reading": "El BOE de 3 de noviembre publica en 225 páginas las candidaturas proclamadas al Congreso y al Senado. La fuente permite distinguir listas proclamadas y candidaturas expresamente no proclamadas, sin convertir ese hecho procedimental en estimación electoral. El INE abre la entrega de copias del censo a los representantes que las soliciten. No se incorpora una encuesta nacional nueva por falta de ficha primaria completa.",
+  "current_reading": "Óscar Puente anunció al final de su comparecencia del 3 de noviembre que deja el Ministerio de Transportes y la candidatura del PSOE por Valladolid. Al corte no consta aún el real decreto de cese ni una modificación acreditada de la lista proclamada. El BOE publica el paquete urgente para las víctimas de Urda; dos sondeos con ficha suficiente se incorporan con reserva porque su campo es anterior o apenas coincide con el accidente.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -369,31 +369,30 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-028 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-029 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D028-01",
-      "tema": "Candidaturas proclamadas y acceso censal",
+      "id": "S-D029-01",
+      "tema": "Dimisión anunciada y candidatura",
       "tipo": "Vigilancia",
-      "alcance": "Publicación oficial y procedimiento censal; no anticipa resultado electoral.",
+      "alcance": "Anuncio político verificado; efectos jurídicos pendientes.",
       "groups": [
+        "PSOE + izquierda",
         "Garantías / proceso"
       ],
       "variable_levels": {
-        "Participación": 1
+        "Fragmentación izquierda": 2,
+        "Participación": 2
       },
-      "variables_en_observacion": [
-        "Participación"
-      ],
       "fuentes": [
-        "F-D028-01",
-        "F-D028-02"
+        "F-D029-01",
+        "F-D029-02",
+        "F-D029-07"
       ],
-      "razon_codificacion": "Atención procedimental alta y una mención de participación; sin arrastre ni inferencia electoral.",
-      "grado_confirmacion": "documentos_oficiales",
+      "grado_confirmacion": "fuentes_oficiales_y_agencia",
       "validacion": "pendiente_IH"
     }
   ],

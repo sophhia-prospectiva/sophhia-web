@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-03",
+  "ultima_actualizacion": "2026-11-04",
   "entradas": [
+    {
+      "codigo": "D-029",
+      "fecha": "2026-11-04",
+      "titulo": "Puente anuncia su dimisión y renuncia a la candidatura tras el accidente de Urda",
+      "url": "diario/2026-11-04.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-028",
       "fecha": "2026-11-03",
