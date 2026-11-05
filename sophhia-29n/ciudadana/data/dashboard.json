@@ -1,25 +1,25 @@
 {
-  "version": "v0.49-D029",
-  "updated": "2026-11-04",
+  "version": "v0.50-D030",
+  "updated": "2026-11-05",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 4 de noviembre de 2026 · 09:30 CET",
+  "subtitle": "Corte 5 de noviembre de 2026 · 09:30 CET",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-029",
+  "current_entry": "D-030",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-029 publicada; sin recalibración de A-000 ni MICMAC.",
+  "system_state": "D-030 publicada; sin recalibración de A-000 ni MICMAC.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Efecto político y electoral posterior a Urda; formalización del cese y de la candidatura.",
-  "watch_variable": "Formalización del cese, sustitución en la lista y medición demoscópica posterior a Urda",
+  "main_uncertainty": "Efecto político y electoral posterior a Urda y situación formal de la candidatura.",
+  "watch_variable": "Continuidad en Transportes, efectos de la dimisión en Adif y resolución oficial de la candidatura por Valladolid",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "Puente anuncia su dimisión y retirada de la candidatura",
-    "No consta aún el cese formal ni el cambio de lista proclamada",
-    "BOE publica medidas urgentes por Urda",
-    "More in Common y Hamalgama entran con reservas de campo",
-    "JEC y CERA se registran sin anticipar hitos posteriores al corte"
+    "BOE formaliza el cese de Óscar Puente",
+    "Carlos Cuerpo asume temporalmente el despacho de Transportes",
+    "Dimite el presidente de Adif",
+    "La situación de la papeleta por Valladolid sigue sin resolución oficial nueva",
+    "No se incorpora ningún sondeo nacional nuevo"
   ],
   "path": [
     {
@@ -349,7 +349,7 @@
       }
     ]
   },
-  "current_reading": "Óscar Puente anunció al final de su comparecencia del 3 de noviembre que deja el Ministerio de Transportes y la candidatura del PSOE por Valladolid. Al corte no consta aún el real decreto de cese ni una modificación acreditada de la lista proclamada. El BOE publica el paquete urgente para las víctimas de Urda; dos sondeos con ficha suficiente se incorporan con reserva porque su campo es anterior o apenas coincide con el accidente.",
+  "current_reading": "El BOE formalizó el 4 de noviembre el cese de Óscar Puente y encargó a Carlos Cuerpo el despacho ordinario de Transportes. Ese mismo día dimitió el presidente de Adif. La situación de la candidatura socialista por Valladolid sigue sin una resolución oficial nueva acreditada al corte; no se incorpora ningún sondeo nacional posterior.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -369,30 +369,27 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-029 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-030 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D029-01",
-      "tema": "Dimisión anunciada y candidatura",
-      "tipo": "Vigilancia",
-      "alcance": "Anuncio político verificado; efectos jurídicos pendientes.",
+      "id": "S-D030-01",
+      "tema": "Cese formal y continuidad temporal",
+      "tipo": "Confirmatoria",
+      "alcance": "Formalización oficial verificada; efectos electorales no inferidos.",
       "groups": [
         "PSOE + izquierda",
         "Garantías / proceso"
       ],
-      "variable_levels": {
-        "Fragmentación izquierda": 2,
-        "Participación": 2
-      },
+      "variable_levels": {},
       "fuentes": [
-        "F-D029-01",
-        "F-D029-02",
-        "F-D029-07"
+        "F-D030-01",
+        "F-D030-02",
+        "F-D030-03"
       ],
-      "grado_confirmacion": "fuentes_oficiales_y_agencia",
+      "grado_confirmacion": "fuentes_oficiales",
       "validacion": "pendiente_IH"
     }
   ],
