@@ -1,25 +1,25 @@
 {
-  "version": "v0.50-D030",
-  "updated": "2026-11-05",
+  "version": "v0.51-D031",
+  "updated": "2026-11-06",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 5 de noviembre de 2026 · 09:30 CET",
+  "subtitle": "Corte 6 de noviembre de 2026 · 09:30 CET",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-030",
+  "current_entry": "D-031",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-030 publicada; sin recalibración de A-000 ni MICMAC.",
+  "system_state": "D-031 publicada; sin recalibración de A-000 ni MICMAC.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Efecto político y electoral posterior a Urda y situación formal de la candidatura.",
-  "watch_variable": "Continuidad en Transportes, efectos de la dimisión en Adif y resolución oficial de la candidatura por Valladolid",
+  "main_uncertainty": "Efecto electoral posterior a Urda y comparabilidad del nuevo tracking diario.",
+  "watch_variable": "Aplicación de la resolución de Valladolid, reclamaciones al plan de RTVE y acreditación primaria del tracking",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "BOE formaliza el cese de Óscar Puente",
-    "Carlos Cuerpo asume temporalmente el despacho de Transportes",
-    "Dimite el presidente de Adif",
-    "La situación de la papeleta por Valladolid sigue sin resolución oficial nueva",
-    "No se incorpora ningún sondeo nacional nuevo"
+    "Puente seguirá en la papeleta del PSOE por Valladolid",
+    "La tachadura de su nombre no anulará el voto",
+    "El BOE publica el plan de cobertura electoral de RTVE",
+    "El plazo de reclamaciones vence a las 14:00, después del corte",
+    "El tracking de SW Demoscopia queda bajo reserva y fuera de MIDC"
   ],
   "path": [
     {
@@ -349,7 +349,7 @@
       }
     ]
   },
-  "current_reading": "El BOE formalizó el 4 de noviembre el cese de Óscar Puente y encargó a Carlos Cuerpo el despacho ordinario de Transportes. Ese mismo día dimitió el presidente de Adif. La situación de la candidatura socialista por Valladolid sigue sin una resolución oficial nueva acreditada al corte; no se incorpora ningún sondeo nacional posterior.",
+  "current_reading": "La Junta Electoral Provincial mantiene el nombre de Óscar Puente en la papeleta del PSOE por Valladolid y considera válidas las papeletas que lo lleven tachado. El BOE publica además el plan de cobertura electoral de RTVE. Se detecta el primer tracking de SW Demoscopia para La Séptima, pero no se incorpora a MIDC por no disponer de una publicación primaria completa y por discrepancias secundarias en los escaños.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -369,27 +369,41 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-030 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-031 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D030-01",
-      "tema": "Cese formal y continuidad temporal",
+      "id": "S-D031-01",
+      "tema": "Papeleta de Valladolid",
       "tipo": "Confirmatoria",
-      "alcance": "Formalización oficial verificada; efectos electorales no inferidos.",
+      "alcance": "Resolución documentada por dos fuentes; no se infiere efecto electoral.",
       "groups": [
         "PSOE + izquierda",
         "Garantías / proceso"
       ],
       "variable_levels": {},
       "fuentes": [
-        "F-D030-01",
-        "F-D030-02",
-        "F-D030-03"
+        "F-D031-02",
+        "F-D031-03"
       ],
-      "grado_confirmacion": "fuentes_oficiales",
+      "grado_confirmacion": "agencias_concordantes",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D031-02",
+      "tema": "Plan electoral de RTVE",
+      "tipo": "Vigilancia",
+      "alcance": "Publicación oficial; reclamaciones posteriores al corte.",
+      "groups": [
+        "Garantías / proceso"
+      ],
+      "variable_levels": {},
+      "fuentes": [
+        "F-D031-01"
+      ],
+      "grado_confirmacion": "fuente_oficial",
       "validacion": "pendiente_IH"
     }
   ],

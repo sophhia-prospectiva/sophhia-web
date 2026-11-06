@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-05",
+  "ultima_actualizacion": "2026-11-06",
   "entradas": [
+    {
+      "codigo": "D-031",
+      "fecha": "2026-11-06",
+      "titulo": "La papeleta de Valladolid mantendrá a Puente y RTVE abre su plan electoral",
+      "url": "diario/2026-11-06.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-030",
       "fecha": "2026-11-05",

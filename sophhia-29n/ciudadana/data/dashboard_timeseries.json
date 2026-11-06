@@ -1,13 +1,13 @@
 {
-  "version": "v0.50-D030",
-  "mode": "Codificación documental diaria; D-030 pendiente IH.",
+  "version": "v0.51-D031",
+  "mode": "Codificación documental diaria; D-031 pendiente IH.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-11-05",
-  "current_entry": "D-030",
-  "last_numeric_date": "2026-11-05",
-  "updated": "2026-11-05",
+  "cutoff": "2026-11-06",
+  "current_entry": "D-031",
+  "last_numeric_date": "2026-11-06",
+  "updated": "2026-11-06",
   "reconstruction_date": "2026-11-01",
-  "interpretation_cutoff": "2026-11-05T09:30:00+01:00",
+  "interpretation_cutoff": "2026-11-06T09:30:00+01:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
     {
@@ -207,6 +207,13 @@
       "source_status": "codificacion_editorial_pendiente_IH",
       "retrospective": false,
       "cutoff": "2026-11-05T09:30:00+01:00"
+    },
+    {
+      "date": "2026-11-06",
+      "entry": "D-031",
+      "source_status": "codificacion_editorial_pendiente_IH",
+      "retrospective": false,
+      "cutoff": "2026-11-06T09:30:00+01:00"
     }
   ],
   "scenarios": {
@@ -220,6 +227,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -272,6 +280,7 @@
       1,
       1,
       1,
+      1,
       1
     ],
     "G4 · Reconstrucción progresista": [
@@ -304,6 +313,7 @@
       2,
       2,
       2,
+      2,
       2
     ],
     "G5 · Bloqueo/repetición": [
@@ -316,6 +326,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -370,6 +381,7 @@
       0,
       0,
       3,
+      0,
       0
     ],
     "PSOE + izquierda": [
@@ -402,7 +414,8 @@
       0,
       0,
       4,
-      3
+      3,
+      1
     ],
     "Territoriales/bisagra": [
       0,
@@ -429,6 +442,7 @@
       2,
       2,
       1,
+      0,
       0,
       0,
       0,
@@ -466,6 +480,7 @@
       1,
       3,
       2,
+      2,
       2
     ]
   },
@@ -497,6 +512,7 @@
       2,
       1,
       2,
+      null,
       null,
       null,
       null,
@@ -532,6 +548,7 @@
       null,
       null,
       null,
+      null,
       null
     ],
     "Fragmentación izquierda": [
@@ -564,6 +581,7 @@
       null,
       null,
       2,
+      null,
       null
     ],
     "Relación PP‑Vox": [
@@ -591,6 +609,7 @@
       3,
       2,
       2,
+      null,
       null,
       null,
       null,
@@ -628,6 +647,7 @@
       1,
       1,
       2,
+      null,
       null
     ],
     "Bloqueo": [
@@ -639,6 +659,7 @@
       1,
       2,
       2,
+      null,
       null,
       null,
       null,
@@ -694,6 +715,7 @@
       null,
       null,
       null,
+      null,
       null
     ],
     "Agenda nacionalista vasca": [
@@ -716,6 +738,7 @@
       1,
       1,
       1,
+      null,
       null,
       null,
       null,
@@ -758,6 +781,7 @@
       null,
       null,
       null,
+      null,
       null
     ],
     "Compatibilidad programática-territorial": [
@@ -790,6 +814,7 @@
       null,
       null,
       null,
+      null,
       null
     ],
     "Agendas territoriales complementarias": [
@@ -815,6 +840,7 @@
       2,
       2,
       2,
+      null,
       null,
       null,
       null,
@@ -856,6 +882,7 @@
       0,
       0,
       2,
+      1,
       1
     ],
     "Vigilancia": [
@@ -888,9 +915,11 @@
       1,
       3,
       3,
+      2,
       2
     ],
     "Disruptivas": [
+      0,
       0,
       0,
       0,
@@ -952,6 +981,7 @@
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -962,15 +992,15 @@
     "territorial": "ordinal_1_3",
     "signals": "counts"
   },
-  "validation": "Regla v1 y codificación D-030 pendientes de validación IH específica",
+  "validation": "Regla v1 y codificación D-031 pendientes de validación IH específica",
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
   "note": "Sin recalibración de A-000, sin modificación de MICMAC ni de probabilidades selladas.",
   "readings": {
     "scenarios": "G1/G2/G4/G5 = 1/1/2/1; marco conservado, no probabilidades. A-000 y MICMAC no se recalibran.",
-    "blocks": "PP‑Vox=0, PSOE+izquierda=3 por la transición ministerial, territoriales=0 y garantías=2 por los reales decretos y el procedimiento electoral.",
-    "variables": "Seis null justificados: los hechos admitidos no aportan evidencia específica nueva sobre vivienda, coste de vida, fragmentación, relación PP‑Vox, participación o bloqueo. Sin arrastre.",
+    "blocks": "PP‑Vox=0, PSOE+izquierda=1 por la continuidad de la lista socialista, territoriales=0 y garantías=2 por la resolución electoral y el plan de RTVE.",
+    "variables": "Seis null justificados: los hechos admitidos no aportan evidencia específica nueva sobre vivienda, coste de vida, fragmentación, relación PP‑Vox, participación o bloqueo. El tracking detectado no se codifica.",
     "territorial": "Cinco null justificados: no hay nueva relación territorial codificable.",
-    "signals": "Una unidad confirmatoria por la formalización oficial y dos de vigilancia por Adif y la candidatura; disruptivas y recalibradoras=0."
+    "signals": "Una unidad confirmatoria por la decisión sobre la papeleta y dos de vigilancia por RTVE y el tracking no admitido; disruptivas y recalibradoras=0."
   },
   "reconstructions": [
     {
