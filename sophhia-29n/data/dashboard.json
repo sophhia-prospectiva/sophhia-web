@@ -1,25 +1,25 @@
 {
-  "version": "v0.51-D031",
-  "updated": "2026-11-06",
+  "version": "v0.52-D032",
+  "updated": "2026-11-07",
   "title": "Dashboard SOPHHIA 29-N",
   "subtitle": "Corte 6 de noviembre de 2026 · 09:30 CET",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-031",
+  "current_entry": "D-032",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-031 publicada; sin recalibración de A-000 ni MICMAC.",
+  "system_state": "D-032 publicada; sin recalibración de A-000 ni MICMAC.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "Efecto electoral posterior a Urda y comparabilidad del nuevo tracking diario.",
-  "watch_variable": "Aplicación de la resolución de Valladolid, reclamaciones al plan de RTVE y acreditación primaria del tracking",
+  "main_uncertainty": "Los últimos escaños y la comparabilidad entre estudios con campos y modelos distintos.",
+  "watch_variable": "Margen de mayoría PP‑Vox, fragmentación alternativa y documentación primaria de nuevos sondeos",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "Puente seguirá en la papeleta del PSOE por Valladolid",
-    "La tachadura de su nombre no anulará el voto",
-    "El BOE publica el plan de cobertura electoral de RTVE",
-    "El plazo de reclamaciones vence a las 14:00, después del corte",
-    "El tracking de SW Demoscopia queda bajo reserva y fuera de MIDC"
+    "Informe primario de SW Demoscopia verificado e incorporado",
+    "PSOE 31,0 %, PP 28,3 %, Vox 17,2 %, Frente Amplio 7,6 %",
+    "PP+Vox: 178 escaños centrales; mayoría en 53 % de simulaciones del instituto",
+    "Celeste Tel queda en reserva documental",
+    "El PP anuncia lema y arranque de campaña"
   ],
   "path": [
     {
@@ -202,7 +202,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Reconstrucción documental retrospectiva del 29–31 de octubre, realizada el 1 de noviembre. Regla v1 sin cambios; pendiente IH.",
+    "mode": "Codificación documental diaria D-032; regla v1 sin cambios; pendiente IH.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -210,13 +210,13 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.45-D025-R1",
-    "cutoff": "2026-10-31",
-    "last_numeric_date": "2026-10-31",
+    "version": "v0.52-D032",
+    "cutoff": "2026-11-07",
+    "last_numeric_date": "2026-11-07",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Regla v1 y reconstrucción 29–31 pendientes de validación IH específica; decisiones previas intactas.",
+    "validation": "Regla v1 y codificación D-032 pendientes de validación IH específica.",
     "reconstruction_date": "2026-11-01"
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
@@ -349,7 +349,7 @@
       }
     ]
   },
-  "current_reading": "La Junta Electoral Provincial mantiene el nombre de Óscar Puente en la papeleta del PSOE por Valladolid y considera válidas las papeletas que lo lleven tachado. El BOE publica además el plan de cobertura electoral de RTVE. Se detecta el primer tracking de SW Demoscopia para La Séptima, pero no se incorpora a MIDC por no disponer de una publicación primaria completa y por discrepancias secundarias en los escaños.",
+  "current_reading": "El segundo barómetro de SW Demoscopia para La Séptima, ahora acreditado mediante su informe primario, estima PSOE 31,0 %, PP 28,3 %, Vox 17,2 % y Frente Amplio 7,6 %. PP y Vox suman 178 escaños en el reparto central, pero sólo alcanzan 176 en el 53 % de 40.000 simulaciones. El estudio se incorpora a MIDC; el sondeo de Celeste Tel queda en reserva por falta de ficha primaria completa y discrepancias secundarias.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -359,51 +359,73 @@
     "data_file": "/sophhia-29n/data/explorador_parametrico_29n_v0_1.json"
   },
   "demoscopy": {
-    "quantitative_references": 5,
-    "historical_studies": 6,
-    "new_quantitative_observations": 0,
+    "quantitative_references": 9,
+    "historical_studies": 10,
+    "new_quantitative_observations": 1,
     "pending_primary_records": [
+      "Celeste Tel / Onda Cero 2026-11-06",
       "F-D020-07"
     ],
-    "pending_record_scope": "Senado; excluido de la serie del Congreso",
-    "new_government_preference_publications": 0,
+    "pending_record_scope": "Celeste Tel nacional y Senado; excluidos de la serie hasta completar ficha",
+    "new_government_preference_publications": 1,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-031 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-032 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D031-01",
-      "tema": "Papeleta de Valladolid",
+      "id": "S-D032-01",
+      "tema": "Informe primario SW Demoscopia",
       "tipo": "Confirmatoria",
-      "alcance": "Resolución documentada por dos fuentes; no se infiere efecto electoral.",
-      "groups": [
-        "PSOE + izquierda",
-        "Garantías / proceso"
-      ],
+      "alcance": "Se resuelve la reserva D-031 con ficha, resultados y metodología completos.",
+      "groups": [],
       "variable_levels": {},
       "fuentes": [
-        "F-D031-02",
-        "F-D031-03"
+        "F-D032-01",
+        "F-D032-02"
       ],
-      "grado_confirmacion": "agencias_concordantes",
+      "grado_confirmacion": "informe_primario",
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D031-02",
-      "tema": "Plan electoral de RTVE",
+      "id": "S-D032-02",
+      "tema": "Mayoría PP‑Vox",
       "tipo": "Vigilancia",
-      "alcance": "Publicación oficial; reclamaciones posteriores al corte.",
-      "groups": [
-        "Garantías / proceso"
-      ],
+      "alcance": "El reparto central alcanza 178, pero la mayoría aparece en el 53 % de simulaciones del instituto.",
+      "groups": [],
       "variable_levels": {},
       "fuentes": [
-        "F-D031-01"
+        "F-D032-02"
       ],
-      "grado_confirmacion": "fuente_oficial",
+      "grado_confirmacion": "fuente_publicada",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D032-03",
+      "tema": "Fragmentación de la izquierda alternativa",
+      "tipo": "Vigilancia",
+      "alcance": "Frente Amplio y Podemos se publican por separado; no se suman ni se imputan.",
+      "groups": [],
+      "variable_levels": {},
+      "fuentes": [
+        "F-D032-01"
+      ],
+      "grado_confirmacion": "fuente_publicada",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D032-04",
+      "tema": "Celeste Tel",
+      "tipo": "Vigilancia",
+      "alcance": "Resultados difundidos, no admitidos sin ficha primaria completa y con discrepancias secundarias.",
+      "groups": [],
+      "variable_levels": {},
+      "fuentes": [
+        "F-D032-03"
+      ],
+      "grado_confirmacion": "fuente_publicada",
       "validacion": "pendiente_IH"
     }
   ],

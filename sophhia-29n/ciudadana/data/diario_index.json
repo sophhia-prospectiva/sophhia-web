@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-06",
+  "ultima_actualizacion": "2026-11-07",
   "entradas": [
+    {
+      "codigo": "D-032",
+      "fecha": "2026-11-07",
+      "titulo": "SW Demoscopia sitúa al PSOE primero y deja la mayoría PP‑Vox en el margen",
+      "url": "diario/2026-11-07.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-031",
       "fecha": "2026-11-06",
