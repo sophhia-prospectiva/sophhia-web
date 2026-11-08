@@ -1,13 +1,13 @@
 {
-  "version": "v0.51-D031",
-  "mode": "Codificación documental diaria; D-031 pendiente IH.",
+  "version": "v0.53-D033",
+  "mode": "Codificación documental diaria; D-032 pendiente IH.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-11-06",
-  "current_entry": "D-031",
-  "last_numeric_date": "2026-11-06",
-  "updated": "2026-11-06",
+  "cutoff": "2026-11-08",
+  "current_entry": "D-033",
+  "last_numeric_date": "2026-11-08",
+  "updated": "2026-11-08",
   "reconstruction_date": "2026-11-01",
-  "interpretation_cutoff": "2026-11-06T09:30:00+01:00",
+  "interpretation_cutoff": "2026-11-07T09:30:00+01:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
     {
@@ -214,6 +214,20 @@
       "source_status": "codificacion_editorial_pendiente_IH",
       "retrospective": false,
       "cutoff": "2026-11-06T09:30:00+01:00"
+    },
+    {
+      "date": "2026-11-07",
+      "entry": "D-032",
+      "source_status": "codificacion_editorial_pendiente_IH",
+      "retrospective": false,
+      "cutoff": "2026-11-07T09:30:00+01:00"
+    },
+    {
+      "date": "2026-11-08",
+      "entry": "D-033",
+      "source_status": "codificacion_editorial_pendiente_IH",
+      "retrospective": false,
+      "cutoff": "2026-11-08T09:30:00+01:00"
     }
   ],
   "scenarios": {
@@ -227,6 +241,8 @@
       1,
       1,
       null,
+      1,
+      1,
       1,
       1,
       1,
@@ -281,6 +297,8 @@
       1,
       1,
       1,
+      1,
+      1,
       1
     ],
     "G4 · Reconstrucción progresista": [
@@ -314,6 +332,8 @@
       2,
       2,
       2,
+      2,
+      2,
       2
     ],
     "G5 · Bloqueo/repetición": [
@@ -326,6 +346,8 @@
       1,
       1,
       null,
+      1,
+      1,
       1,
       1,
       1,
@@ -382,7 +404,9 @@
       0,
       3,
       0,
-      0
+      0,
+      2,
+      2
     ],
     "PSOE + izquierda": [
       0,
@@ -415,7 +439,9 @@
       0,
       4,
       3,
-      1
+      1,
+      2,
+      2
     ],
     "Territoriales/bisagra": [
       0,
@@ -448,7 +474,9 @@
       0,
       0,
       0,
-      0
+      0,
+      2,
+      2
     ],
     "Garantías y procedimiento": [
       0,
@@ -481,7 +509,9 @@
       3,
       2,
       2,
-      2
+      2,
+      0,
+      0
     ]
   },
   "variables": {
@@ -512,6 +542,8 @@
       2,
       1,
       2,
+      null,
+      null,
       null,
       null,
       null,
@@ -549,6 +581,8 @@
       null,
       null,
       null,
+      null,
+      null,
       null
     ],
     "Fragmentación izquierda": [
@@ -582,7 +616,9 @@
       null,
       2,
       null,
-      null
+      null,
+      2,
+      2
     ],
     "Relación PP‑Vox": [
       null,
@@ -615,7 +651,9 @@
       null,
       null,
       null,
-      null
+      null,
+      2,
+      2
     ],
     "Participación": [
       null,
@@ -647,6 +685,8 @@
       1,
       1,
       2,
+      null,
+      null,
       null,
       null
     ],
@@ -681,7 +721,9 @@
       null,
       null,
       null,
-      null
+      null,
+      1,
+      1
     ]
   },
   "territorial": {
@@ -716,7 +758,9 @@
       null,
       null,
       null,
-      null
+      null,
+      1,
+      1
     ],
     "Agenda nacionalista vasca": [
       null,
@@ -749,7 +793,9 @@
       null,
       null,
       null,
-      null
+      null,
+      1,
+      1
     ],
     "Veto/bisagra territorial": [
       null,
@@ -782,7 +828,9 @@
       null,
       null,
       null,
-      null
+      null,
+      2,
+      2
     ],
     "Compatibilidad programática-territorial": [
       null,
@@ -815,7 +863,9 @@
       null,
       null,
       null,
-      null
+      null,
+      2,
+      2
     ],
     "Agendas territoriales complementarias": [
       null,
@@ -848,7 +898,9 @@
       null,
       null,
       null,
-      null
+      null,
+      1,
+      1
     ]
   },
   "signals": {
@@ -883,6 +935,8 @@
       0,
       2,
       1,
+      1,
+      1,
       1
     ],
     "Vigilancia": [
@@ -916,9 +970,13 @@
       3,
       3,
       2,
-      2
+      2,
+      3,
+      3
     ],
     "Disruptivas": [
+      0,
+      0,
       0,
       0,
       0,
@@ -982,6 +1040,8 @@
       0,
       0,
       0,
+      0,
+      0,
       0
     ]
   },
@@ -992,15 +1052,15 @@
     "territorial": "ordinal_1_3",
     "signals": "counts"
   },
-  "validation": "Regla v1 y codificación D-031 pendientes de validación IH específica",
+  "validation": "Regla v1 y codificación D-032 pendientes de validación IH específica",
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
-  "note": "Sin recalibración de A-000, sin modificación de MICMAC ni de probabilidades selladas.",
+  "note": "D-032: informe primario SW Demoscopia admitido; Celeste Tel reservado. Sin arrastre ni interpolación; null sólo por ausencia de registro. A-000 y MICMAC intactos.",
   "readings": {
     "scenarios": "G1/G2/G4/G5 = 1/1/2/1; marco conservado, no probabilidades. A-000 y MICMAC no se recalibran.",
-    "blocks": "PP‑Vox=0, PSOE+izquierda=1 por la continuidad de la lista socialista, territoriales=0 y garantías=2 por la resolución electoral y el plan de RTVE.",
-    "variables": "Seis null justificados: los hechos admitidos no aportan evidencia específica nueva sobre vivienda, coste de vida, fragmentación, relación PP‑Vox, participación o bloqueo. El tracking detectado no se codifica.",
-    "territorial": "Cinco null justificados: no hay nueva relación territorial codificable.",
-    "signals": "Una unidad confirmatoria por la decisión sobre la papeleta y dos de vigilancia por RTVE y el tracking no admitido; disruptivas y recalibradoras=0."
+    "blocks": "PP‑Vox=2, PSOE+izquierda=2 y territoriales=2 por el tracking y su desglose; garantías=0.",
+    "variables": "Fragmentación izquierda=2, relación PP‑Vox=2 y bloqueo=1. Vivienda, inflación y participación son null justificados por ausencia de registro específico.",
+    "territorial": "Cataluña=1, País Vasco=1, veto/bisagra=2, compatibilidad=2 y agendas complementarias=1; lectura documental pendiente IH.",
+    "signals": "Una confirmatoria por la nueva oleada y tres vigilancias por mayoría, fragmentación y bisagra; disruptivas y recalibradoras=0."
   },
   "reconstructions": [
     {
