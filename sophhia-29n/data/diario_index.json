@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-08",
+  "ultima_actualizacion": "2026-11-09",
   "entradas": [
+    {
+      "codigo": "D-034",
+      "fecha": "2026-11-09",
+      "titulo": "40dB acorta a dos puntos la distancia PP‑PSOE y mantiene una mayoría amplia PP‑Vox",
+      "url": "diario/2026-11-09.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-033",
       "fecha": "2026-11-08",

@@ -9,81 +9,93 @@
     "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
   ],
   "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
-  "codigo": "D-033",
-  "fecha": "2026-11-08",
-  "fecha_legible": "8 de noviembre de 2026",
+  "codigo": "D-034",
+  "fecha": "2026-11-09",
+  "fecha_legible": "9 de noviembre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "SW Demoscopia estrecha la distancia y sitúa la mayoría PP‑Vox en 177 escaños",
+  "titulo": "40dB acorta a dos puntos la distancia PP‑PSOE y mantiene una mayoría amplia PP‑Vox",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación y codificación D-033 pendientes de validación humana",
+  "validacion": "Interpretación y codificación D-034 pendientes de validación humana",
   "decision_id": null,
   "estado_publicacion": "publicada_verificada",
-  "resumen": "El tercer barómetro de SW Demoscopia para La Séptima, con trabajo de campo hasta el 6 de noviembre, estima PSOE 30,8 %, PP 28,6 %, Vox 17,2 % y Frente Amplio 7,7 %. PP y Vox suman 177 escaños en el reparto central y alcanzan 176 en el 58 % de las simulaciones del instituto. Se actualiza MIDC sin recalibrar A-000, MICMAC, escenarios ni parámetros.",
-  "resumen_ciudadana": "El tercer tracking de SW Demoscopia mantiene al PSOE primero y deja a PP y Vox en 177 escaños. La mayoría absoluta aparece en el 58 % de las simulaciones del instituto: la carrera continúa ajustada. SOPHHIA actualiza el comparador, conserva sus reservas metodológicas y no convierte el sondeo en una predicción propia.",
-  "senal_principal": "Tercer barómetro de SW Demoscopia con ficha primaria completa",
-  "variable_vigilancia": "Relación PP‑Vox=2; fragmentación izquierda=2; bloqueo=1; vivienda, inflación y participación sin registro específico",
+  "resumen": "La encuesta preelectoral de 40dB para EL PAÍS y la Cadena SER, publicada a las 05:30 CET y con campo del 2 al 4 de noviembre, estima PP 31,9 %, PSOE 29,9 %, Vox 18,0 %, Frente Amplio 5,0 %, SALF 2,0 % y Podemos 1,2 %. El reparto central asigna 129 escaños al PP, 119 al PSOE, 61 a Vox y 10 a Frente Amplio. PP y Vox suman 190; la encuesta publica además vivienda, economía, participación y confianza electoral. Se actualiza MIDC sin recalibrar A-000, MICMAC, escenarios ni parámetros.",
+  "resumen_ciudadana": "La nueva encuesta de 40dB deja al PP sólo dos puntos por delante del PSOE, pero PP y Vox suman 190 escaños en la estimación central. La vivienda aparece como el asunto más citado y el informe mide también participación y confianza en el proceso. SOPHHIA conserva las reservas metodológicas y no convierte el sondeo en una predicción propia.",
+  "senal_principal": "Encuesta preelectoral 40dB con informe primario de 65 páginas",
+  "variable_vigilancia": "Relación PP‑Vox=3; fragmentación izquierda=3; vivienda=3; inflación/coste de vida=2; participación=2; bloqueo=1",
   "variable_territorial": "Cataluña=1; País Vasco=1; veto/bisagra=2; compatibilidad=2; agendas complementarias=1",
-  "decision": "D-033 y entregas D-016 a D-032 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001. La publicación no valida interpretaciones ni codificaciones.",
-  "url": "diario/2026-11-08.html",
+  "decision": "D-034 y entregas D-016 a D-033 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001. La publicación no valida interpretaciones ni codificaciones.",
+  "url": "diario/2026-11-09.html",
   "fuentes_temporales": [
     {
-      "id": "F-D033-01",
-      "medio": "SW Demoscopia / La Séptima",
-      "titulo": "Barómetro electoral n.º 3 · datos al 6 de noviembre",
-      "url": "https://media.licdn.com/dms/document/media/v2/D4E1FAQFZ9M82yro8Iw/feedshare-document-pdf-analyzed/B4EaG33yQBJgAY-/0/1794086218465?e=1795046400&t=uNJl1bSK3Zmv5CVdrgdgbmkjbm9Bt4Fz_MHtKH6S8dw&v=beta",
-      "fecha_publicacion": "2026-11-07",
-      "hora_publicacion": null,
+      "id": "F-D034-01",
+      "medio": "40dB / EL PAÍS / Cadena SER",
+      "titulo": "Encuesta preelectoral · noviembre 2026",
+      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-preelectoral/2026_11_preelectoral_informe.pdf",
+      "fecha_publicacion": "2026-11-09",
+      "hora_publicacion": "05:30 CET",
       "tipo": "informe_primario_sondeo",
-      "alcance": "Informe de 13 páginas: campo 26 de octubre–6 de noviembre, 4.500 entrevistas CATI, margen ±1,5 puntos; PSOE 30,8 %, PP 28,6 %, Vox 17,2 %, Frente Amplio 7,7 %.",
-      "reserva_temporal": "El informe acredita entrega el 7 de noviembre, sin hora. Se admite antes del corte del día 8; no se inventa una hora de publicación y sus estimaciones son del instituto, no de SOPHHIA.",
+      "alcance": "Informe de 65 páginas: campo 2–4 de noviembre, 2.000 entrevistas CAWI, margen ±2,2 puntos; PP 31,9 %, PSOE 29,9 %, Vox 18,0 %, Frente Amplio 5,0 %, SALF 2,0 %, Podemos 1,2 %.",
+      "reserva_temporal": "Publicación acreditada a las 05:30 CET, anterior al corte 09:30. Las estimaciones y escaños son del instituto, no de SOPHHIA.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "F-D033-02",
-      "medio": "SW Demoscopia / La Séptima",
-      "titulo": "Bloques, escaños y preferencias de gobierno",
-      "url": "https://media.licdn.com/dms/document/media/v2/D4E1FAQFZ9M82yro8Iw/feedshare-document-pdf-analyzed/B4EaG33yQBJgAY-/0/1794086218465?e=1795046400&t=uNJl1bSK3Zmv5CVdrgdgbmkjbm9Bt4Fz_MHtKH6S8dw&v=beta",
-      "fecha_publicacion": "2026-11-07",
-      "hora_publicacion": null,
+      "id": "F-D034-02",
+      "medio": "40dB / EL PAÍS / Cadena SER",
+      "titulo": "Estimación de escaños y asuntos en juego",
+      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-preelectoral/2026_11_preelectoral_informe.pdf",
+      "fecha_publicacion": "2026-11-09",
+      "hora_publicacion": "05:30 CET",
       "tipo": "informe_primario_sondeo",
-      "alcance": "PP+Vox: 177 escaños centrales, mediana 176, P25–P75 173–179 y mayoría en el 58 % de simulaciones. PP+Vox+PP-UPN+CC: 180 centrales y mayoría en el 81 %.",
-      "reserva_temporal": "Las simulaciones y escaños pertenecen al modelo del instituto; no son probabilidades SOPHHIA ni recalibran escenarios.",
+      "alcance": "PP 129, PSOE 119, Vox 61 y Frente Amplio 10; PP+Vox 190. Vivienda 31,7 %, pensiones/servicios 25,1 %, inmigración 24,7 %, economía/empleo 23,9 %.",
+      "reserva_temporal": "El reparto y los porcentajes pertenecen al instituto; no son probabilidades SOPHHIA ni recalibran escenarios.",
+      "admitida_como_hecho_al_corte": true
+    },
+    {
+      "id": "F-D034-03",
+      "medio": "40dB / EL PAÍS / Cadena SER",
+      "titulo": "Participación y confianza electoral",
+      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-preelectoral/2026_11_preelectoral_informe.pdf",
+      "fecha_publicacion": "2026-11-09",
+      "hora_publicacion": "05:30 CET",
+      "tipo": "informe_primario_sondeo",
+      "alcance": "Voto seguro (10/10): 66,0 %. Confía en elecciones limpias: 52,3 %; no confía: 31,4 %; no sabe: 16,3 %.",
+      "reserva_temporal": "Son respuestas declaradas del sondeo, no hechos sobre la limpieza del proceso ni una estimación propia de participación.",
       "admitida_como_hecho_al_corte": true
     }
   ],
-  "sync_version": "2026-11-08-D033",
+  "sync_version": "2026-11-09-D034",
   "ventana_novedades": {
-    "desde_exclusivo": "2026-11-07T09:30:00+01:00",
-    "hasta_inclusivo": "2026-11-08T09:30:00+01:00",
+    "desde_exclusivo": "2026-11-08T09:30:00+01:00",
+    "hasta_inclusivo": "2026-11-09T09:30:00+01:00",
     "timezone": "Europe/Madrid"
   },
   "anterior": {
-    "codigo": "D-032",
-    "fecha": "2026-11-07",
-    "fecha_legible": "7 de noviembre de 2026",
-    "titulo": "SW Demoscopia sitúa al PSOE primero y deja la mayoría PP‑Vox en el margen",
-    "url": "diario/2026-11-07.html",
+    "codigo": "D-033",
+    "fecha": "2026-11-08",
+    "fecha_legible": "8 de noviembre de 2026",
+    "titulo": "SW Demoscopia estrecha la distancia y sitúa la mayoría PP‑Vox en 177 escaños",
+    "url": "diario/2026-11-08.html",
     "estado": "Interpretación pendiente de validación humana"
   },
   "demoscopia": {
     "estudios_de_voto_incorporados_hoy": 1,
-    "estudios_en_historico": 11,
+    "estudios_en_historico": 12,
     "casas_en_panel": 9,
     "nuevas_estimaciones_nacionales_voto_verificadas": 1,
     "nuevas_publicaciones_preferencias_gobierno": 1,
     "ampliaciones_documentales_estudios_existentes": 0,
-    "ultima_incorporacion_cuantitativa_voto": "2026-11-08",
-    "resultado_busqueda": "Se incorpora el tercer barómetro de SW Demoscopia tras verificar su informe primario completo. Sustituye a la oleada anterior como observación vigente de la casa y se conserva en el histórico.",
-    "agregacion": "Nueve observaciones, una por casa, en el comparador; once estudios en el histórico. Datos ausentes sin imputación.",
-    "limite": "Las simulaciones y escaños son del instituto. Celeste Tel, CIS y el estudio del Senado mantienen sus reservas específicas. No se presume independencia entre paneles u oleadas.",
+    "ultima_incorporacion_cuantitativa_voto": "2026-11-09",
+    "resultado_busqueda": "Se incorpora la encuesta preelectoral de 40dB tras verificar el informe primario completo. Sustituye a la oleada anterior como observación vigente de la casa y se conserva en el histórico.",
+    "agregacion": "Nueve observaciones, una por casa, en el comparador; doce estudios en el histórico. Datos ausentes sin imputación.",
+    "limite": "Las estimaciones y escaños son del instituto. Celeste Tel, CIS y el estudio del Senado mantienen sus reservas específicas. No se presume independencia entre paneles u oleadas.",
     "documentos_excluidos_del_corte": [],
     "documentos_no_incorporados_por_ficha_incompleta": [
       "Sondeos internos citados sin ficha técnica pública completa"
     ],
     "modelos_secundarios_revisados": [],
-    "fecha_revision": "2026-11-08",
+    "fecha_revision": "2026-11-09",
     "hora_revision": "09:30 CET",
     "nuevas_encuestas_nacionales_admitidas": 1,
     "exclusiones": [
@@ -94,58 +106,70 @@
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D033_pendiente_IH",
-    "ultima_fecha_codificada": "2026-11-08",
-    "nota": "Codificación basada en el informe primario de SW Demoscopia. Los null de vivienda, inflación y participación son ausencia de registro, no cero ni codificación pendiente.",
+    "estado": "codificacion_D034_pendiente_IH",
+    "ultima_fecha_codificada": "2026-11-09",
+    "nota": "Codificación basada en el informe primario de 40dB. El informe contiene evidencia explícita para vivienda, coste de vida/economía, participación, relación PP‑Vox y fragmentación de la izquierda; no se imputan datos ausentes.",
     "reconstruida_el": "2026-11-01"
   },
-  "corte_iso": "2026-11-08T09:30:00+01:00",
+  "corte_iso": "2026-11-09T09:30:00+01:00",
   "zona_corte": "CET",
   "cambios": [
-    "SW Demoscopia amplía su tracking a 4.500 entrevistas y campo hasta el 6 de noviembre",
-    "PSOE 30,8 %, PP 28,6 %, Vox 17,2 % y Frente Amplio 7,7 % según el instituto",
-    "PP+Vox: 177 escaños centrales y mayoría en el 58 % de simulaciones del instituto",
-    "MIDC conserva una observación vigente por casa y añade el estudio al histórico",
+    "40dB publica una encuesta preelectoral de 2.000 entrevistas CAWI, campo 2–4 de noviembre y error ±2,2 puntos",
+    "PP 31,9 %, PSOE 29,9 %, Vox 18,0 %, Frente Amplio 5,0 %, SALF 2,0 % y Podemos 1,2 %",
+    "PP+Vox: 190 escaños centrales; la distancia PP‑PSOE queda en dos puntos",
+    "Vivienda 31,7 %, economía y empleo 23,9 %, voto seguro 66,0 % y confianza en limpieza electoral 52,3 %",
+    "MIDC sustituye la observación vigente de 40dB y conserva ambas oleadas en el histórico",
     "Sin recalibración de A-000, MICMAC, escenarios ni parámetros"
   ],
   "senales": [
     {
-      "id": "S-D033-01",
+      "id": "S-D034-01",
       "tipo": "Confirmatoria",
-      "tema": "Continuidad del tracking SW Demoscopia",
-      "alcance": "La tercera oleada actualiza la medición nacional con ficha primaria completa.",
+      "tema": "Mayoría central PP‑Vox",
+      "alcance": "La estimación central del instituto suma 190 escaños entre PP y Vox.",
       "fuentes": [
-        "F-D033-01"
+        "F-D034-01",
+        "F-D034-02"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D033-02",
+      "id": "S-D034-02",
       "tipo": "Vigilancia",
-      "tema": "Mayoría PP‑Vox",
-      "alcance": "El reparto central queda en 177 y la mayoría aparece en el 58 % de simulaciones del instituto.",
+      "tema": "Distancia PP‑PSOE",
+      "alcance": "La distancia se reduce a dos puntos, dentro del error muestral publicado.",
       "fuentes": [
-        "F-D033-02"
+        "F-D034-01"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D033-03",
+      "id": "S-D034-03",
       "tipo": "Vigilancia",
       "tema": "Fragmentación de la izquierda alternativa",
-      "alcance": "Frente Amplio y Podemos se publican por separado; no se suman ni se imputan.",
+      "alcance": "Frente Amplio queda en 5,0 % y Podemos en 1,2 %; no se suman ni se imputan.",
       "fuentes": [
-        "F-D033-01"
+        "F-D034-01"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D033-04",
+      "id": "S-D034-04",
       "tipo": "Vigilancia",
-      "tema": "Bisagra territorial",
-      "alcance": "El instituto separa PP-UPN y CC al ampliar el bloque; no se confunden con PP+Vox.",
+      "tema": "Vivienda y coste de vida",
+      "alcance": "Vivienda encabeza los asuntos citados; economía/empleo y situación del hogar tienen medición explícita.",
       "fuentes": [
-        "F-D033-02"
+        "F-D034-02"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D034-05",
+      "tipo": "Vigilancia",
+      "tema": "Participación y confianza electoral",
+      "alcance": "El informe mide voto seguro y confianza en la limpieza del proceso; son percepciones declaradas.",
+      "fuentes": [
+        "F-D034-03"
       ],
       "validacion": "pendiente_IH"
     }

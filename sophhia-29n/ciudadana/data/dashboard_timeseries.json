@@ -1,11 +1,11 @@
 {
-  "version": "v0.53-D033",
+  "version": "v0.54-D034",
   "mode": "Codificación documental diaria; D-032 pendiente IH.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-11-08",
-  "current_entry": "D-033",
-  "last_numeric_date": "2026-11-08",
-  "updated": "2026-11-08",
+  "cutoff": "2026-11-09",
+  "current_entry": "D-034",
+  "last_numeric_date": "2026-11-09",
+  "updated": "2026-11-09",
   "reconstruction_date": "2026-11-01",
   "interpretation_cutoff": "2026-11-07T09:30:00+01:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
@@ -228,6 +228,13 @@
       "source_status": "codificacion_editorial_pendiente_IH",
       "retrospective": false,
       "cutoff": "2026-11-08T09:30:00+01:00"
+    },
+    {
+      "date": "2026-11-09",
+      "entry": "D-034",
+      "source_status": "codificacion_editorial_pendiente_IH",
+      "retrospective": false,
+      "cutoff": "2026-11-09T09:30:00+01:00"
     }
   ],
   "scenarios": {
@@ -241,6 +248,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -299,6 +307,7 @@
       1,
       1,
       1,
+      1,
       1
     ],
     "G4 · Reconstrucción progresista": [
@@ -334,6 +343,7 @@
       2,
       2,
       2,
+      2,
       2
     ],
     "G5 · Bloqueo/repetición": [
@@ -346,6 +356,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -406,7 +417,8 @@
       0,
       0,
       2,
-      2
+      2,
+      3
     ],
     "PSOE + izquierda": [
       0,
@@ -440,6 +452,7 @@
       4,
       3,
       1,
+      2,
       2,
       2
     ],
@@ -476,6 +489,7 @@
       0,
       0,
       2,
+      2,
       2
     ],
     "Garantías y procedimiento": [
@@ -511,7 +525,8 @@
       2,
       2,
       0,
-      0
+      0,
+      1
     ]
   },
   "variables": {
@@ -548,7 +563,8 @@
       null,
       null,
       null,
-      null
+      null,
+      3
     ],
     "Inflación/coste de vida": [
       1,
@@ -583,7 +599,8 @@
       null,
       null,
       null,
-      null
+      null,
+      2
     ],
     "Fragmentación izquierda": [
       1,
@@ -618,7 +635,8 @@
       null,
       null,
       2,
-      2
+      2,
+      3
     ],
     "Relación PP‑Vox": [
       null,
@@ -653,7 +671,8 @@
       null,
       null,
       2,
-      2
+      2,
+      3
     ],
     "Participación": [
       null,
@@ -688,7 +707,8 @@
       null,
       null,
       null,
-      null
+      null,
+      2
     ],
     "Bloqueo": [
       1,
@@ -722,6 +742,7 @@
       null,
       null,
       null,
+      1,
       1,
       1
     ]
@@ -760,6 +781,7 @@
       null,
       null,
       1,
+      1,
       1
     ],
     "Agenda nacionalista vasca": [
@@ -794,6 +816,7 @@
       null,
       null,
       null,
+      1,
       1,
       1
     ],
@@ -830,6 +853,7 @@
       null,
       null,
       2,
+      2,
       2
     ],
     "Compatibilidad programática-territorial": [
@@ -865,6 +889,7 @@
       null,
       null,
       2,
+      2,
       2
     ],
     "Agendas territoriales complementarias": [
@@ -899,6 +924,7 @@
       null,
       null,
       null,
+      1,
       1,
       1
     ]
@@ -937,6 +963,7 @@
       1,
       1,
       1,
+      1,
       1
     ],
     "Vigilancia": [
@@ -972,9 +999,11 @@
       2,
       2,
       3,
-      3
+      3,
+      4
     ],
     "Disruptivas": [
+      0,
       0,
       0,
       0,
@@ -1042,6 +1071,7 @@
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1057,10 +1087,10 @@
   "note": "D-032: informe primario SW Demoscopia admitido; Celeste Tel reservado. Sin arrastre ni interpolación; null sólo por ausencia de registro. A-000 y MICMAC intactos.",
   "readings": {
     "scenarios": "G1/G2/G4/G5 = 1/1/2/1; marco conservado, no probabilidades. A-000 y MICMAC no se recalibran.",
-    "blocks": "PP‑Vox=2, PSOE+izquierda=2 y territoriales=2 por el tracking y su desglose; garantías=0.",
-    "variables": "Fragmentación izquierda=2, relación PP‑Vox=2 y bloqueo=1. Vivienda, inflación y participación son null justificados por ausencia de registro específico.",
+    "blocks": "PP‑Vox=3, PSOE+izquierda=2, territoriales=2 y garantías=1 por la estimación, el desglose y las preguntas de confianza electoral.",
+    "variables": "Vivienda=3, inflación/coste de vida=2, fragmentación izquierda=3, relación PP‑Vox=3, participación=2 y bloqueo=1. D-034 no contiene null: el informe aporta evidencia específica para las seis variables.",
     "territorial": "Cataluña=1, País Vasco=1, veto/bisagra=2, compatibilidad=2 y agendas complementarias=1; lectura documental pendiente IH.",
-    "signals": "Una confirmatoria por la nueva oleada y tres vigilancias por mayoría, fragmentación y bisagra; disruptivas y recalibradoras=0."
+    "signals": "Una confirmatoria por la mayoría central PP‑Vox y cuatro vigilancias: distancia PP‑PSOE, fragmentación alternativa, vivienda/coste de vida y participación/confianza; disruptivas y recalibradoras=0."
   },
   "reconstructions": [
     {

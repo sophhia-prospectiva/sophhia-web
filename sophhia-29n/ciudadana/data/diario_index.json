@@ -1,11 +1,18 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-08",
+  "ultima_actualizacion": "2026-11-09",
   "entradas": [
+    {
+      "codigo": "D-034",
+      "fecha": "2026-11-09",
+      "titulo": "El PSOE se acerca al PP, pero PP y Vox conservan una mayoría amplia",
+      "url": "diario/2026-11-09.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-033",
       "fecha": "2026-11-08",
-      "titulo": "El nuevo tracking mantiene un resultado muy ajustado",
+      "titulo": "SW Demoscopia estrecha la distancia y sitúa la mayoría PP‑Vox en 177 escaños",
       "url": "diario/2026-11-08.html",
       "estado": "Interpretación pendiente de validación humana"
     },

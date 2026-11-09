@@ -1,24 +1,24 @@
 {
-  "version": "v0.53-D033",
-  "updated": "2026-11-08",
+  "version": "v0.54-D034",
+  "updated": "2026-11-09",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 8 de noviembre de 2026 · 09:30 CET",
+  "subtitle": "Corte 9 de noviembre de 2026 · 09:30 CET",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-033",
+  "current_entry": "D-034",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-033 publicada; sin recalibración de A-000 ni MICMAC.",
+  "system_state": "D-034 publicada; sin recalibración de A-000 ni MICMAC.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "El margen de mayoría y la comparabilidad entre oleadas, campos y modelos distintos.",
-  "watch_variable": "Margen de mayoría PP‑Vox, fragmentación alternativa y bisagra territorial",
+  "main_uncertainty": "La distancia PP‑PSOE está dentro del error publicado y los modelos de escaños no son directamente comparables entre casas.",
+  "watch_variable": "Relación PP‑Vox, fragmentación alternativa, vivienda y confianza electoral",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "Tercer barómetro de SW Demoscopia verificado e incorporado",
-    "PSOE 30,8 %, PP 28,6 %, Vox 17,2 %, Frente Amplio 7,7 %",
-    "PP+Vox: 177 escaños centrales; mayoría en 58 % de simulaciones del instituto",
-    "MIDC mantiene una observación vigente por casa y once estudios históricos",
+    "Encuesta preelectoral de 40dB verificada con informe primario completo",
+    "PP 31,9 %, PSOE 29,9 %, Vox 18,0 %, Frente Amplio 5,0 %, SALF 2,0 %, Podemos 1,2 %",
+    "PP+Vox: 190 escaños centrales; la distancia PP‑PSOE queda en dos puntos",
+    "MIDC mantiene una observación vigente por casa y doce estudios históricos",
     "Sin recalibración de A-000, MICMAC, escenarios ni parámetros"
   ],
   "path": [
@@ -202,7 +202,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Codificación documental diaria D-033; regla v1 sin cambios; pendiente IH.",
+    "mode": "Codificación documental diaria D-034; regla v1 sin cambios; pendiente IH.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -210,13 +210,13 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.53-D033",
-    "cutoff": "2026-11-08",
-    "last_numeric_date": "2026-11-08",
+    "version": "v0.54-D034",
+    "cutoff": "2026-11-09",
+    "last_numeric_date": "2026-11-09",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Regla v1 y codificación D-033 pendientes de validación IH específica.",
+    "validation": "Regla v1 y codificación D-034 pendientes de validación IH específica.",
     "reconstruction_date": "2026-11-01"
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
@@ -349,7 +349,7 @@
       }
     ]
   },
-  "current_reading": "El tercer barómetro de SW Demoscopia para La Séptima, con trabajo de campo hasta el 6 de noviembre, estima PSOE 30,8 %, PP 28,6 %, Vox 17,2 % y Frente Amplio 7,7 %. PP y Vox suman 177 escaños en el reparto central y alcanzan 176 en el 58 % de las simulaciones del instituto. Se actualiza MIDC sin recalibrar A-000, MICMAC, escenarios ni parámetros.",
+  "current_reading": "La encuesta preelectoral de 40dB para EL PAÍS y la Cadena SER, publicada a las 05:30 CET y con campo del 2 al 4 de noviembre, estima PP 31,9 %, PSOE 29,9 %, Vox 18,0 %, Frente Amplio 5,0 %, SALF 2,0 % y Podemos 1,2 %. El reparto central asigna 129 escaños al PP, 119 al PSOE, 61 a Vox y 10 a Frente Amplio. PP y Vox suman 190; la encuesta publica además vivienda, economía, participación y confianza electoral. Se actualiza MIDC sin recalibrar A-000, MICMAC, escenarios ni parámetros.",
   "explorer": {
     "status": "incorporado como pieza experimental",
     "code": "FE.5-29N-001",
@@ -360,7 +360,7 @@
   },
   "demoscopy": {
     "quantitative_references": 9,
-    "historical_studies": 11,
+    "historical_studies": 12,
     "new_quantitative_observations": 1,
     "pending_primary_records": [
       "Celeste Tel / Onda Cero 2026-11-06",
@@ -370,59 +370,73 @@
     "new_government_preference_publications": 1,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-033 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-034 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D033-01",
-      "tema": "Continuidad del tracking SW Demoscopia",
+      "id": "S-D034-01",
+      "tema": "Mayoría central PP‑Vox",
       "tipo": "Confirmatoria",
-      "alcance": "La tercera oleada actualiza la medición nacional con ficha primaria completa.",
+      "alcance": "La estimación central del instituto suma 190 escaños entre PP y Vox.",
       "groups": [],
       "variable_levels": {},
       "fuentes": [
-        "F-D033-01"
+        "F-D034-01",
+        "F-D034-02"
       ],
       "grado_confirmacion": "informe_primario",
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D033-02",
-      "tema": "Mayoría PP‑Vox",
+      "id": "S-D034-02",
+      "tema": "Distancia PP‑PSOE",
       "tipo": "Vigilancia",
-      "alcance": "El reparto central queda en 177 y la mayoría aparece en el 58 % de simulaciones del instituto.",
+      "alcance": "La distancia se reduce a dos puntos, dentro del error muestral publicado.",
       "groups": [],
       "variable_levels": {},
       "fuentes": [
-        "F-D033-02"
+        "F-D034-01"
       ],
       "grado_confirmacion": "fuente_publicada",
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D033-03",
+      "id": "S-D034-03",
       "tema": "Fragmentación de la izquierda alternativa",
       "tipo": "Vigilancia",
-      "alcance": "Frente Amplio y Podemos se publican por separado; no se suman ni se imputan.",
+      "alcance": "Frente Amplio queda en 5,0 % y Podemos en 1,2 %; no se suman ni se imputan.",
       "groups": [],
       "variable_levels": {},
       "fuentes": [
-        "F-D033-01"
+        "F-D034-01"
       ],
       "grado_confirmacion": "fuente_publicada",
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D033-04",
-      "tema": "Bisagra territorial",
+      "id": "S-D034-04",
+      "tema": "Vivienda y coste de vida",
       "tipo": "Vigilancia",
-      "alcance": "El instituto separa PP-UPN y CC al ampliar el bloque; no se confunden con PP+Vox.",
+      "alcance": "Vivienda encabeza los asuntos citados; economía/empleo y situación del hogar tienen medición explícita.",
       "groups": [],
       "variable_levels": {},
       "fuentes": [
-        "F-D033-02"
+        "F-D034-02"
+      ],
+      "grado_confirmacion": "fuente_publicada",
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D034-05",
+      "tema": "Participación y confianza electoral",
+      "tipo": "Vigilancia",
+      "alcance": "El informe mide voto seguro y confianza en la limpieza del proceso; son percepciones declaradas.",
+      "groups": [],
+      "variable_levels": {},
+      "fuentes": [
+        "F-D034-03"
       ],
       "grado_confirmacion": "fuente_publicada",
       "validacion": "pendiente_IH"
