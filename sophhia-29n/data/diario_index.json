@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-09",
+  "ultima_actualizacion": "2026-11-10",
   "entradas": [
+    {
+      "codigo": "D-035",
+      "fecha": "2026-11-10",
+      "titulo": "PP y PSOE pactan la organización de los debates; GAD3 mantiene una mayoría amplia PP-Vox",
+      "url": "diario/2026-11-10.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-034",
       "fecha": "2026-11-09",

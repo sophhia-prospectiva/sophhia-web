@@ -9,93 +9,93 @@
     "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
   ],
   "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
-  "codigo": "D-034",
-  "fecha": "2026-11-09",
-  "fecha_legible": "9 de noviembre de 2026",
+  "codigo": "D-035",
+  "fecha": "2026-11-10",
+  "fecha_legible": "10 de noviembre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "40dB acorta a dos puntos la distancia PP‑PSOE y mantiene una mayoría amplia PP‑Vox",
+  "titulo": "PP y PSOE pactan la organización de los debates; GAD3 mantiene una mayoría amplia PP-Vox",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación y codificación D-034 pendientes de validación humana",
+  "validacion": "Interpretación y codificación D-035 pendientes de validación humana",
   "decision_id": null,
   "estado_publicacion": "publicada_verificada",
-  "resumen": "La encuesta preelectoral de 40dB para EL PAÍS y la Cadena SER, publicada a las 05:30 CET y con campo del 2 al 4 de noviembre, estima PP 31,9 %, PSOE 29,9 %, Vox 18,0 %, Frente Amplio 5,0 %, SALF 2,0 % y Podemos 1,2 %. El reparto central asigna 129 escaños al PP, 119 al PSOE, 61 a Vox y 10 a Frente Amplio. PP y Vox suman 190; la encuesta publica además vivienda, economía, participación y confianza electoral. Se actualiza MIDC sin recalibrar A-000, MICMAC, escenarios ni parámetros.",
-  "resumen_ciudadana": "La nueva encuesta de 40dB deja al PP sólo dos puntos por delante del PSOE, pero PP y Vox suman 190 escaños en la estimación central. La vivienda aparece como el asunto más citado y el informe mide también participación y confianza en el proceso. SOPHHIA conserva las reservas metodológicas y no convierte el sondeo en una predicción propia.",
-  "senal_principal": "Encuesta preelectoral 40dB con informe primario de 65 páginas",
-  "variable_vigilancia": "Relación PP‑Vox=3; fragmentación izquierda=3; vivienda=3; inflación/coste de vida=2; participación=2; bloqueo=1",
+  "resumen": "PP y PSOE aceptan que la Academia de Televisión organice un cara a cara Sánchez-Feijóo y un debate con los principales candidatos; al corte todavía no constan fechas ni formato cerrados. Se incorpora además el barómetro de GAD3 para ABC: 1.502 entrevistas CATI, campo 3-5 de noviembre, error ±2,6 puntos; PP 31,9 % y 136 escaños, PSOE 25,9 % y 103, Vox 18,6 % y 63. PP y Vox suman 199 escaños según el instituto. Sin recalibración de A-000, MICMAC, escenarios ni parámetros.",
+  "resumen_ciudadana": "PP y PSOE han acordado que la Academia de Televisión organice los principales debates, aunque aún faltan fechas y reglas definitivas. La nueva encuesta de GAD3 sitúa a PP y Vox en 199 escaños y muestra de nuevo la fragmentación de la izquierda alternativa. Son estimaciones del instituto, no una predicción de SOPHHIA.",
+  "senal_principal": "Acuerdo para organizar los debates y nueva estimación nacional GAD3",
+  "variable_vigilancia": "Relación PP-Vox=3; fragmentación izquierda=3; vivienda=null; inflación/coste de vida=null; participación=null; bloqueo=1",
   "variable_territorial": "Cataluña=1; País Vasco=1; veto/bisagra=2; compatibilidad=2; agendas complementarias=1",
-  "decision": "D-034 y entregas D-016 a D-033 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001. La publicación no valida interpretaciones ni codificaciones.",
-  "url": "diario/2026-11-09.html",
+  "decision": "D-035 y entregas D-016 a D-034 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001. La publicación no valida interpretaciones ni codificaciones.",
+  "url": "diario/2026-11-10.html",
   "fuentes_temporales": [
     {
-      "id": "F-D034-01",
-      "medio": "40dB / EL PAÍS / Cadena SER",
-      "titulo": "Encuesta preelectoral · noviembre 2026",
-      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-preelectoral/2026_11_preelectoral_informe.pdf",
-      "fecha_publicacion": "2026-11-09",
-      "hora_publicacion": "05:30 CET",
-      "tipo": "informe_primario_sondeo",
-      "alcance": "Informe de 65 páginas: campo 2–4 de noviembre, 2.000 entrevistas CAWI, margen ±2,2 puntos; PP 31,9 %, PSOE 29,9 %, Vox 18,0 %, Frente Amplio 5,0 %, SALF 2,0 %, Podemos 1,2 %.",
-      "reserva_temporal": "Publicación acreditada a las 05:30 CET, anterior al corte 09:30. Las estimaciones y escaños son del instituto, no de SOPHHIA.",
+      "id": "F-D035-01",
+      "medio": "RTVE",
+      "titulo": "PP y PSOE acuerdan que la Academia de Televisión organice los debates",
+      "url": "https://www.rtve.es/noticias/20261110/psoe-pp-acuerdan-debates-electorales-academia-television/17307046.shtml",
+      "fecha_publicacion": "2026-11-10",
+      "hora_publicacion": "00:04 CET",
+      "tipo": "informacion_contrastada",
+      "alcance": "Acuerdo para organizar un cara a cara Sánchez-Feijóo y un debate con los principales candidatos.",
+      "reserva_temporal": "Anterior al corte. Fechas, formato, moderación y lista definitiva de participantes no estaban cerrados.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "F-D034-02",
-      "medio": "40dB / EL PAÍS / Cadena SER",
-      "titulo": "Estimación de escaños y asuntos en juego",
-      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-preelectoral/2026_11_preelectoral_informe.pdf",
+      "id": "F-D035-02",
+      "medio": "GAD3 / ABC",
+      "titulo": "Barómetro ABC · estimación de voto nacional",
+      "url": "https://www.gad3.com/barometro-abc-i-estimacion-de-voto-nacional-noviembre-2026/",
       "fecha_publicacion": "2026-11-09",
-      "hora_publicacion": "05:30 CET",
-      "tipo": "informe_primario_sondeo",
-      "alcance": "PP 129, PSOE 119, Vox 61 y Frente Amplio 10; PP+Vox 190. Vivienda 31,7 %, pensiones/servicios 25,1 %, inmigración 24,7 %, economía/empleo 23,9 %.",
-      "reserva_temporal": "El reparto y los porcentajes pertenecen al instituto; no son probabilidades SOPHHIA ni recalibran escenarios.",
+      "hora_publicacion": null,
+      "tipo": "publicacion_primaria_sondeo",
+      "alcance": "n=1.502; CATI; campo 3-5 de noviembre; error ±2,6 pp al 95,5 %. PP 31,9 %, PSOE 25,9 %, Vox 18,6 %; 136, 103 y 63 escaños.",
+      "reserva_temporal": "La página primaria acredita la fecha 9 de noviembre, sin hora pública visible; disponibilidad comprobada antes del corte D-035. Estimaciones del instituto, no de SOPHHIA.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "F-D034-03",
-      "medio": "40dB / EL PAÍS / Cadena SER",
-      "titulo": "Participación y confianza electoral",
-      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-preelectoral/2026_11_preelectoral_informe.pdf",
+      "id": "F-D035-03",
+      "medio": "Europa Press",
+      "titulo": "Aceptación del PP y propuesta de fechas",
+      "url": "https://www.europapress.es/nacional/noticia-pp-acepta-academia-television-organice-debates-critica-veto-psoe-grupos-privados-20261109194934.html",
       "fecha_publicacion": "2026-11-09",
-      "hora_publicacion": "05:30 CET",
-      "tipo": "informe_primario_sondeo",
-      "alcance": "Voto seguro (10/10): 66,0 %. Confía en elecciones limpias: 52,3 %; no confía: 31,4 %; no sabe: 16,3 %.",
-      "reserva_temporal": "Son respuestas declaradas del sondeo, no hechos sobre la limpieza del proceso ni una estimación propia de participación.",
+      "hora_publicacion": "19:51 CET",
+      "tipo": "informacion_contrastada",
+      "alcance": "La aceptación del organizador se produjo tras la negociación entre las direcciones de campaña; las fechas 16 y 26 eran propuestas, no calendario cerrado.",
+      "reserva_temporal": "No se presentan las fechas propuestas como acuerdo definitivo.",
       "admitida_como_hecho_al_corte": true
     }
   ],
-  "sync_version": "2026-11-09-D034",
+  "sync_version": "2026-11-10-D035",
   "ventana_novedades": {
-    "desde_exclusivo": "2026-11-08T09:30:00+01:00",
-    "hasta_inclusivo": "2026-11-09T09:30:00+01:00",
+    "desde_exclusivo": "2026-11-09T09:30:00+01:00",
+    "hasta_inclusivo": "2026-11-10T09:30:00+01:00",
     "timezone": "Europe/Madrid"
   },
   "anterior": {
-    "codigo": "D-033",
-    "fecha": "2026-11-08",
-    "fecha_legible": "8 de noviembre de 2026",
-    "titulo": "SW Demoscopia estrecha la distancia y sitúa la mayoría PP‑Vox en 177 escaños",
-    "url": "diario/2026-11-08.html",
+    "codigo": "D-034",
+    "fecha": "2026-11-09",
+    "fecha_legible": "9 de noviembre de 2026",
+    "titulo": "40dB acorta a dos puntos la distancia PP-PSOE y mantiene una mayoría amplia PP-Vox",
+    "url": "diario/2026-11-09.html",
     "estado": "Interpretación pendiente de validación humana"
   },
   "demoscopia": {
     "estudios_de_voto_incorporados_hoy": 1,
-    "estudios_en_historico": 12,
+    "estudios_en_historico": 13,
     "casas_en_panel": 9,
     "nuevas_estimaciones_nacionales_voto_verificadas": 1,
-    "nuevas_publicaciones_preferencias_gobierno": 1,
+    "nuevas_publicaciones_preferencias_gobierno": 0,
     "ampliaciones_documentales_estudios_existentes": 0,
-    "ultima_incorporacion_cuantitativa_voto": "2026-11-09",
-    "resultado_busqueda": "Se incorpora la encuesta preelectoral de 40dB tras verificar el informe primario completo. Sustituye a la oleada anterior como observación vigente de la casa y se conserva en el histórico.",
-    "agregacion": "Nueve observaciones, una por casa, en el comparador; doce estudios en el histórico. Datos ausentes sin imputación.",
-    "limite": "Las estimaciones y escaños son del instituto. Celeste Tel, CIS y el estudio del Senado mantienen sus reservas específicas. No se presume independencia entre paneles u oleadas.",
+    "ultima_incorporacion_cuantitativa_voto": "2026-11-10",
+    "resultado_busqueda": "Se incorpora el barómetro de GAD3 tras verificar la publicación primaria y su ficha técnica. NC Report y Data10 permanecen detectados pero no incorporados por falta de una ficha primaria equivalente localizada.",
+    "agregacion": "Nueve observaciones, una por casa, en el comparador; trece estudios en el histórico. Datos ausentes sin imputación.",
+    "limite": "Las estimaciones y escaños son del instituto. NC Report, Data10, Celeste Tel, CIS y el estudio del Senado mantienen reservas específicas. No se presume independencia entre paneles u oleadas.",
     "documentos_excluidos_del_corte": [],
     "documentos_no_incorporados_por_ficha_incompleta": [
       "Sondeos internos citados sin ficha técnica pública completa"
     ],
     "modelos_secundarios_revisados": [],
-    "fecha_revision": "2026-11-09",
+    "fecha_revision": "2026-11-10",
     "hora_revision": "09:30 CET",
     "nuevas_encuestas_nacionales_admitidas": 1,
     "exclusiones": [
@@ -106,70 +106,60 @@
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D034_pendiente_IH",
-    "ultima_fecha_codificada": "2026-11-09",
-    "nota": "Codificación basada en el informe primario de 40dB. El informe contiene evidencia explícita para vivienda, coste de vida/economía, participación, relación PP‑Vox y fragmentación de la izquierda; no se imputan datos ausentes.",
+    "estado": "codificacion_D035_pendiente_IH",
+    "ultima_fecha_codificada": "2026-11-10",
+    "nota": "Codificación basada en la publicación primaria de GAD3 y el acuerdo de organización de debates. Vivienda, coste de vida y participación quedan null por ausencia de registro específico; no se imputan ni se arrastran valores.",
     "reconstruida_el": "2026-11-01"
   },
-  "corte_iso": "2026-11-09T09:30:00+01:00",
+  "corte_iso": "2026-11-10T09:30:00+01:00",
   "zona_corte": "CET",
   "cambios": [
-    "40dB publica una encuesta preelectoral de 2.000 entrevistas CAWI, campo 2–4 de noviembre y error ±2,2 puntos",
-    "PP 31,9 %, PSOE 29,9 %, Vox 18,0 %, Frente Amplio 5,0 %, SALF 2,0 % y Podemos 1,2 %",
-    "PP+Vox: 190 escaños centrales; la distancia PP‑PSOE queda en dos puntos",
-    "Vivienda 31,7 %, economía y empleo 23,9 %, voto seguro 66,0 % y confianza en limpieza electoral 52,3 %",
-    "MIDC sustituye la observación vigente de 40dB y conserva ambas oleadas en el histórico",
+    "PP y PSOE aceptan que la Academia de Televisión organice un cara a cara y un debate principal",
+    "Fechas, formato, moderación y participación definitiva seguían abiertos al corte",
+    "GAD3 publica un barómetro de 1.502 entrevistas CATI, campo 3-5 de noviembre y error ±2,6 puntos",
+    "PP 31,9 % / 136; PSOE 25,9 % / 103; Vox 18,6 % / 63; PP+Vox 199 escaños",
+    "MIDC sustituye la observación vigente de GAD3 y conserva la oleada anterior en el histórico",
     "Sin recalibración de A-000, MICMAC, escenarios ni parámetros"
   ],
   "senales": [
     {
-      "id": "S-D034-01",
+      "id": "S-D035-01",
       "tipo": "Confirmatoria",
-      "tema": "Mayoría central PP‑Vox",
-      "alcance": "La estimación central del instituto suma 190 escaños entre PP y Vox.",
+      "tema": "Mayoría central PP-Vox",
+      "alcance": "La estimación central de GAD3 suma 199 escaños entre PP y Vox.",
       "fuentes": [
-        "F-D034-01",
-        "F-D034-02"
+        "F-D035-02"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D034-02",
+      "id": "S-D035-02",
       "tipo": "Vigilancia",
-      "tema": "Distancia PP‑PSOE",
-      "alcance": "La distancia se reduce a dos puntos, dentro del error muestral publicado.",
+      "tema": "Distancia PP-PSOE",
+      "alcance": "GAD3 sitúa al PP seis puntos por delante del PSOE; la estimación pertenece al instituto.",
       "fuentes": [
-        "F-D034-01"
+        "F-D035-02"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D034-03",
+      "id": "S-D035-03",
       "tipo": "Vigilancia",
       "tema": "Fragmentación de la izquierda alternativa",
-      "alcance": "Frente Amplio queda en 5,0 % y Podemos en 1,2 %; no se suman ni se imputan.",
+      "alcance": "GAD3 separa Frente Amplio, Compromís, Adelante Andalucía, Ara Més y Podemos; no se agregan categorías distintas.",
       "fuentes": [
-        "F-D034-01"
+        "F-D035-02"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D034-04",
+      "id": "S-D035-04",
       "tipo": "Vigilancia",
-      "tema": "Vivienda y coste de vida",
-      "alcance": "Vivienda encabeza los asuntos citados; economía/empleo y situación del hogar tienen medición explícita.",
+      "tema": "Debates y reglas de participación",
+      "alcance": "El organizador queda acordado, pero fechas, formato y participantes definitivos siguen abiertos.",
       "fuentes": [
-        "F-D034-02"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "S-D034-05",
-      "tipo": "Vigilancia",
-      "tema": "Participación y confianza electoral",
-      "alcance": "El informe mide voto seguro y confianza en la limpieza del proceso; son percepciones declaradas.",
-      "fuentes": [
-        "F-D034-03"
+        "F-D035-01",
+        "F-D035-03"
       ],
       "validacion": "pendiente_IH"
     }

@@ -1,11 +1,18 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-09",
+  "ultima_actualizacion": "2026-11-10",
   "entradas": [
+    {
+      "codigo": "D-035",
+      "fecha": "2026-11-10",
+      "titulo": "Los debates ya tienen organizador y una nueva encuesta mantiene la ventaja de la derecha",
+      "url": "diario/2026-11-10.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-034",
       "fecha": "2026-11-09",
-      "titulo": "El PSOE se acerca al PP, pero PP y Vox conservan una mayoría amplia",
+      "titulo": "40dB acorta a dos puntos la distancia PP‑PSOE y mantiene una mayoría amplia PP‑Vox",
       "url": "diario/2026-11-09.html",
       "estado": "Interpretación pendiente de validación humana"
     },
