@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-10",
+  "ultima_actualizacion": "2026-11-11",
   "entradas": [
+    {
+      "codigo": "D-036",
+      "fecha": "2026-11-11",
+      "titulo": "La huelga general sitúa vivienda, salarios y precios en el centro de la precampaña",
+      "url": "diario/2026-11-11.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-035",
       "fecha": "2026-11-10",
