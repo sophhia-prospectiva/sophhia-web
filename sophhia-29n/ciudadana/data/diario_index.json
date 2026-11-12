@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-11",
+  "ultima_actualizacion": "2026-11-12",
   "entradas": [
+    {
+      "codigo": "D-037",
+      "fecha": "2026-11-12",
+      "titulo": "La huelga cierra con balances enfrentados y la campaña comienza esta medianoche",
+      "url": "diario/2026-11-12.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-036",
       "fecha": "2026-11-11",
