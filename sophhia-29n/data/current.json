@@ -9,83 +9,107 @@
     "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
   ],
   "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
-  "codigo": "D-037",
-  "fecha": "2026-11-12",
-  "fecha_legible": "12 de noviembre de 2026",
+  "codigo": "D-038",
+  "fecha": "2026-11-13",
+  "fecha_legible": "13 de noviembre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "La huelga cierra con balances enfrentados y la campaña comienza esta medianoche",
+  "titulo": "La campaña arranca con una fuerte divergencia entre el CIS y 40dB",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación y codificación D-037 pendientes de validación humana",
+  "validacion": "Interpretación y codificación D-038 pendientes de validación humana",
   "decision_id": null,
   "estado_publicacion": "publicada_verificada",
-  "resumen": "La huelga general del 11-N cerró con valoraciones enfrentadas: los sindicatos la calificaron de éxito y la patronal de seguimiento bajo, salvo en sectores sindicalizados. Al corte, la campaña electoral aún no había comenzado: el BOE fija su inicio a las 00:00 del 13 de noviembre. No se incorpora una encuesta nacional nueva ni se recalibran A-000, MICMAC, escenarios o parámetros.",
-  "resumen_ciudadana": "La huelga del 11-N terminó con balances distintos según sindicatos y patronal. A las 09:30 del día 12 la campaña todavía no había empezado: comienza a medianoche. No se añade una encuesta nueva ni se convierten las cifras de seguimiento en datos propios de SOPHHIA.",
-  "senal_principal": "Cierre de la huelga con balances enfrentados; campaña aún no iniciada al corte",
-  "variable_vigilancia": "Relación PP-Vox=null; fragmentación izquierda=null; vivienda=3; inflación/coste de vida=3; participación=null; bloqueo=null",
+  "resumen": "La campaña comenzó a las 00:00. Dos estudios nacionales publicados después del corte anterior y antes del corte de hoy dibujan lecturas muy distintas: el CIS sitúa al PSOE primero y a PP+Vox entre 155 y 171 escaños, mientras 40dB sitúa al PP primero y atribuye 192 escaños a PP+Vox. SOPHHIA conserva ambas estimaciones por separado: no las promedia, no las convierte en probabilidad y no recalibra A-000, MICMAC, escenarios ni parámetros.",
+  "resumen_ciudadana": "La campaña electoral ya ha empezado. El CIS coloca primero al PSOE y calcula entre 155 y 171 escaños para PP y Vox juntos; 40dB coloca primero al PP y calcula 192. Son encuestas con métodos y campos distintos, no un resultado ni una probabilidad de SOPHHIA.",
+  "senal_principal": "Inicio formal de campaña y divergencia metodológica entre CIS y 40dB",
+  "variable_vigilancia": "Relación PP-Vox=3; fragmentación izquierda=2; vivienda=2; inflación/coste de vida=2; participación=2; bloqueo=null",
   "variable_territorial": "Cataluña=null; País Vasco=null; veto/bisagra=null; compatibilidad=null; agendas complementarias=null",
-  "decision": "D-037 y entregas D-016 a D-036 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001. La publicación no valida interpretaciones ni codificaciones.",
-  "url": "diario/2026-11-12.html",
+  "decision": "D-038 y entregas D-016 a D-037 pendientes de validación humana. D-015 conserva DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001. La publicación no valida interpretaciones ni codificaciones.",
+  "url": "diario/2026-11-13.html",
   "fuentes_temporales": [
     {
-      "id": "F-D037-01",
-      "medio": "RTVE",
-      "titulo": "Los sindicatos califican la huelga de éxito y la patronal ve un seguimiento bajo",
-      "url": "https://www.rtve.es/temas/huelga-general-11n/1032327/",
-      "fecha_publicacion": "2026-11-11",
-      "hora_publicacion": null,
-      "tipo": "informacion_contrastada",
-      "alcance": "Acredita las valoraciones enfrentadas tras la jornada y los sectores citados por las partes.",
-      "reserva_temporal": "Los balances proceden de las partes; no son una medición independiente ni datos de SOPHHIA.",
-      "admitida_como_hecho_al_corte": true
-    },
-    {
-      "id": "F-D037-02",
+      "id": "F-D038-01",
       "medio": "BOE",
       "titulo": "Real Decreto 806/2026 de convocatoria electoral",
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
       "fecha_publicacion": "2026-10-06",
       "hora_publicacion": null,
       "tipo": "fuente_oficial",
-      "alcance": "Fija la campaña entre las 00:00 del 13 de noviembre y las 24:00 del 27.",
-      "reserva_temporal": "Al corte del 12, la campaña aún no había comenzado.",
+      "alcance": "Fija el inicio de la campaña a las 00:00 del 13 de noviembre.",
+      "reserva_temporal": "Acredita el calendario, no la orientación de la campaña.",
+      "admitida_como_hecho_al_corte": true
+    },
+    {
+      "id": "F-D038-02",
+      "medio": "RTVE / CIS",
+      "titulo": "Encuesta preelectoral CIS, estudio 3584",
+      "url": "https://www.rtve.es/noticias/20261112/encuesta-cis-elecciones-generales-psoe-ganaria/17315652.shtml",
+      "fecha_publicacion": "2026-11-12",
+      "hora_publicacion": "17:14 CET",
+      "tipo": "estimacion_demoscopica",
+      "alcance": "PSOE 33,3 % y 134-143 escaños; PP 25,5 % y 98-106; Vox 18,4 % y 57-65; PP+Vox 155-171. Campo 7-30 octubre; 45.074 entrevistas; error ±0,5 pp.",
+      "reserva_temporal": "Estimación del CIS; el documento primario enlazado no fue accesible directamente. No se suman extremos como pronóstico propio ni se equiparan categorías de izquierda.",
+      "admitida_como_hecho_al_corte": true
+    },
+    {
+      "id": "F-D038-03",
+      "medio": "Cadena SER / 40dB",
+      "titulo": "Barómetro de inicio de campaña",
+      "url": "https://cadenaser.com/nacional/2026/11/13/el-pp-ganaria-las-elecciones-y-sumaria-mayoria-absoluta-con-vox-segun-el-barometro-de-40db-cadena-ser/",
+      "fecha_publicacion": "2026-11-13",
+      "hora_publicacion": "07:08 CET",
+      "tipo": "estimacion_demoscopica",
+      "alcance": "PP 31,5 % y 126 escaños; PSOE 29,4 % y 118; Vox 18,8 % y 64; PP+Vox 192. Campo 10-12 noviembre; 1.000 entrevistas CAWI; error ±3,1 pp.",
+      "reserva_temporal": "Estimación de 40dB; no se promedia con el CIS ni se interpreta como probabilidad.",
+      "admitida_como_hecho_al_corte": true
+    },
+    {
+      "id": "F-D038-04",
+      "medio": "Onda Cero",
+      "titulo": "Comienza la campaña electoral del 29-N",
+      "url": "https://www.ondacero.es/elecciones-generales/2026/11/13/elecciones-generales-29n-campana-electoral-arranca-vivienda-como-uno-grandes-ejes_202611136916b13c4d14723d10c61687.html",
+      "fecha_publicacion": "2026-11-13",
+      "hora_publicacion": "06:00 CET",
+      "tipo": "informacion_contrastada",
+      "alcance": "Acredita el inicio efectivo de campaña y la presencia de vivienda, salarios, precios y pensiones en la agenda del día.",
+      "reserva_temporal": "Agenda editorial del inicio de campaña; no implica prioridad electoral cuantificada.",
       "admitida_como_hecho_al_corte": true
     }
   ],
-  "sync_version": "2026-11-12-D037",
+  "sync_version": "2026-11-13-D038",
   "ventana_novedades": {
-    "desde_exclusivo": "2026-11-11T09:30:00+01:00",
-    "hasta_inclusivo": "2026-11-12T09:30:00+01:00",
+    "desde_exclusivo": "2026-11-12T09:30:00+01:00",
+    "hasta_inclusivo": "2026-11-13T09:30:00+01:00",
     "timezone": "Europe/Madrid"
   },
   "anterior": {
-    "codigo": "D-036",
-    "fecha": "2026-11-11",
-    "fecha_legible": "11 de noviembre de 2026",
-    "titulo": "La huelga general sitúa vivienda, salarios y precios en el centro de la precampaña",
-    "url": "diario/2026-11-11.html",
+    "codigo": "D-037",
+    "fecha": "2026-11-12",
+    "fecha_legible": "12 de noviembre de 2026",
+    "titulo": "La huelga cierra con balances enfrentados y la campaña comienza esta medianoche",
+    "url": "diario/2026-11-12.html",
     "estado": "Interpretación pendiente de validación humana"
   },
   "demoscopia": {
-    "estudios_de_voto_incorporados_hoy": 0,
-    "estudios_en_historico": 13,
+    "estudios_de_voto_incorporados_hoy": 2,
+    "estudios_en_historico": 15,
     "casas_en_panel": 9,
-    "nuevas_estimaciones_nacionales_voto_verificadas": 0,
+    "nuevas_estimaciones_nacionales_voto_verificadas": 2,
     "nuevas_publicaciones_preferencias_gobierno": 0,
     "ampliaciones_documentales_estudios_existentes": 0,
-    "ultima_incorporacion_cuantitativa_voto": "2026-11-10",
-    "resultado_busqueda": "No se localiza una nueva encuesta nacional con publicación primaria y ficha completa admisible en la ventana. Se mantienen trece estudios históricos y nueve observaciones vigentes, una por casa.",
-    "agregacion": "Nueve observaciones, una por casa, en el comparador; trece estudios en el histórico. Datos ausentes sin imputación.",
+    "ultima_incorporacion_cuantitativa_voto": "2026-11-13",
+    "resultado_busqueda": "Se incorporan el preelectoral CIS 3584 y el barómetro 40dB publicado a las 07:08. El histórico pasa a quince estudios; el comparador mantiene nueve observaciones vigentes, una por casa.",
+    "agregacion": "Nueve observaciones, una por casa, en el comparador; quince estudios en el histórico. Datos ausentes sin imputación.",
     "limite": "Las estimaciones vigentes pertenecen a sus institutos. NC Report, Data10, Celeste Tel, CIS y el estudio del Senado mantienen reservas específicas.",
     "documentos_excluidos_del_corte": [],
     "documentos_no_incorporados_por_ficha_incompleta": [
       "Sondeos internos citados sin ficha técnica pública completa"
     ],
     "modelos_secundarios_revisados": [],
-    "fecha_revision": "2026-11-12",
+    "fecha_revision": "2026-11-13",
     "hora_revision": "09:30 CET",
-    "nuevas_encuestas_nacionales_admitidas": 0,
+    "nuevas_encuestas_nacionales_admitidas": 2,
     "exclusiones": [
       "Ikerfel · País Vasco · ámbito territorial",
       "SyM Consulting · Comunitat Valenciana · ámbito territorial"
@@ -94,48 +118,60 @@
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D037_pendiente_IH",
-    "ultima_fecha_codificada": "2026-11-12",
-    "nota": "Vivienda y coste de vida mantienen atención alta por el balance documental de la huelga; no se arrastran valores para relación PP-Vox, fragmentación alternativa, participación o bloqueo. La campaña aún no había comenzado al corte.",
+    "estado": "codificacion_D038_pendiente_IH",
+    "ultima_fecha_codificada": "2026-11-13",
+    "nota": "Relación PP-Vox recibe atención alta por la aritmética de mayoría publicada; fragmentación alternativa, vivienda, coste de vida y participación reciben seguimiento explícito. Bloqueo y las cinco variables territoriales quedan null por ausencia de registro específico. Sin recalibración.",
     "reconstruida_el": "2026-11-01"
   },
-  "corte_iso": "2026-11-12T09:30:00+01:00",
+  "corte_iso": "2026-11-13T09:30:00+01:00",
   "zona_corte": "CET",
   "cambios": [
-    "La huelga cerró con balances enfrentados de sindicatos y patronal",
-    "Vivienda, salarios y coste de vida continúan como ejes documentales",
-    "La campaña electoral aún no había comenzado al corte y arranca a las 00:00 del 13",
-    "No se incorpora una encuesta nacional nueva",
+    "La campaña electoral comenzó a las 00:00",
+    "Se incorporan por separado el preelectoral CIS 3584 y el barómetro 40dB",
+    "Las estimaciones divergen en el primer partido y en la mayoría PP-Vox",
+    "Vivienda y coste de vida permanecen en la agenda inicial de campaña",
     "Sin recalibración de A-000, MICMAC, escenarios ni parámetros"
   ],
   "senales": [
     {
-      "id": "S-D037-01",
+      "id": "S-D038-01",
       "tipo": "Confirmatoria",
-      "tema": "Cierre de la huelga",
-      "alcance": "Consta el cierre de la jornada con balances enfrentados de sindicatos y patronal.",
+      "tema": "Inicio formal de campaña",
+      "alcance": "La campaña comenzó a las 00:00 conforme al calendario oficial.",
       "fuentes": [
-        "F-D037-01"
+        "F-D038-01",
+        "F-D038-04"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D037-02",
+      "id": "S-D038-02",
       "tipo": "Vigilancia",
-      "tema": "Vivienda y coste de vida",
-      "alcance": "Los ejes sociales permanecen en la documentación del balance, sin convertir seguimiento en intención de voto.",
+      "tema": "Preelectoral CIS",
+      "alcance": "El CIS sitúa al PSOE primero y a PP+Vox entre 155 y 171 escaños.",
       "fuentes": [
-        "F-D037-01"
+        "F-D038-02"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D037-03",
+      "id": "S-D038-03",
       "tipo": "Vigilancia",
-      "tema": "Inicio de campaña",
-      "alcance": "La campaña comienza a las 00:00 del 13; al corte del 12 seguía siendo precampaña.",
+      "tema": "Barómetro 40dB",
+      "alcance": "40dB sitúa al PP primero y a PP+Vox en 192 escaños.",
       "fuentes": [
-        "F-D037-02"
+        "F-D038-03"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "S-D038-04",
+      "tipo": "Vigilancia",
+      "tema": "Divergencia metodológica",
+      "alcance": "Las diferencias de campo, muestra y método impiden tratar ambos estudios como una señal única.",
+      "fuentes": [
+        "F-D038-02",
+        "F-D038-03"
       ],
       "validacion": "pendiente_IH"
     }

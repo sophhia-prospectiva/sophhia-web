@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-12",
+  "ultima_actualizacion": "2026-11-13",
   "entradas": [
+    {
+      "codigo": "D-038",
+      "fecha": "2026-11-13",
+      "titulo": "La campaña arranca con una fuerte divergencia entre el CIS y 40dB",
+      "url": "diario/2026-11-13.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-037",
       "fecha": "2026-11-12",

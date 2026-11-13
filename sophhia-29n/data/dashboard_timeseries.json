@@ -1,11 +1,11 @@
 {
-  "version": "v0.57-D037",
-  "mode": "Codificación documental diaria; D-037 pendiente IH.",
+  "version": "v0.58-D038",
+  "mode": "Codificación documental diaria; D-038 pendiente IH.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-11-12",
-  "current_entry": "D-037",
-  "last_numeric_date": "2026-11-12",
-  "updated": "2026-11-12",
+  "cutoff": "2026-11-13",
+  "current_entry": "D-038",
+  "last_numeric_date": "2026-11-13",
+  "updated": "2026-11-13",
   "reconstruction_date": "2026-11-01",
   "interpretation_cutoff": "2026-11-07T09:30:00+01:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
@@ -256,6 +256,13 @@
       "source_status": "codificacion_editorial_pendiente_IH",
       "retrospective": false,
       "cutoff": "2026-11-12T09:30:00+01:00"
+    },
+    {
+      "date": "2026-11-13",
+      "entry": "D-038",
+      "source_status": "codificacion_editorial_pendiente_IH",
+      "retrospective": false,
+      "cutoff": "2026-11-13T09:30:00+01:00"
     }
   ],
   "scenarios": {
@@ -296,7 +303,8 @@
       1,
       1,
       1,
-      1
+      1,
+      2
     ],
     "G2 · PP apoyo Vox": [
       null,
@@ -335,7 +343,8 @@
       1,
       1,
       1,
-      1
+      1,
+      2
     ],
     "G4 · Reconstrucción progresista": [
       null,
@@ -374,7 +383,8 @@
       2,
       2,
       2,
-      2
+      2,
+      3
     ],
     "G5 · Bloqueo/repetición": [
       null,
@@ -386,6 +396,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -454,7 +465,8 @@
       3,
       3,
       1,
-      1
+      1,
+      3
     ],
     "PSOE + izquierda": [
       0,
@@ -493,7 +505,8 @@
       2,
       2,
       2,
-      2
+      2,
+      3
     ],
     "Territoriales/bisagra": [
       0,
@@ -532,6 +545,7 @@
       2,
       2,
       1,
+      1,
       1
     ],
     "Garantías y procedimiento": [
@@ -569,6 +583,7 @@
       0,
       0,
       1,
+      2,
       2,
       2,
       2
@@ -612,7 +627,8 @@
       3,
       null,
       3,
-      3
+      3,
+      2
     ],
     "Inflación/coste de vida": [
       1,
@@ -651,7 +667,8 @@
       2,
       null,
       3,
-      3
+      3,
+      2
     ],
     "Fragmentación izquierda": [
       1,
@@ -690,7 +707,8 @@
       3,
       3,
       null,
-      null
+      null,
+      2
     ],
     "Relación PP‑Vox": [
       null,
@@ -729,7 +747,8 @@
       3,
       3,
       null,
-      null
+      null,
+      3
     ],
     "Participación": [
       null,
@@ -768,7 +787,8 @@
       2,
       null,
       null,
-      null
+      null,
+      2
     ],
     "Bloqueo": [
       1,
@@ -806,6 +826,7 @@
       1,
       1,
       1,
+      null,
       null,
       null
     ]
@@ -848,6 +869,7 @@
       1,
       1,
       null,
+      null,
       null
     ],
     "Agenda nacionalista vasca": [
@@ -886,6 +908,7 @@
       1,
       1,
       1,
+      null,
       null,
       null
     ],
@@ -926,6 +949,7 @@
       2,
       2,
       null,
+      null,
       null
     ],
     "Compatibilidad programática-territorial": [
@@ -964,6 +988,7 @@
       2,
       2,
       2,
+      null,
       null,
       null
     ],
@@ -1004,6 +1029,7 @@
       1,
       1,
       1,
+      null,
       null
     ]
   },
@@ -1038,6 +1064,7 @@
       0,
       0,
       2,
+      1,
       1,
       1,
       1,
@@ -1084,9 +1111,11 @@
       4,
       3,
       2,
-      2
+      2,
+      3
     ],
     "Disruptivas": [
+      0,
       0,
       0,
       0,
@@ -1162,6 +1191,7 @@
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1176,11 +1206,11 @@
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
   "note": "D-032: informe primario SW Demoscopia admitido; Celeste Tel reservado. Sin arrastre ni interpolación; null sólo por ausencia de registro. A-000 y MICMAC intactos.",
   "readings": {
-    "scenarios": "G1/G2/G4/G5 = 1/1/2/1; marco conservado, sin probabilidades ni recalibración.",
-    "blocks": "PP-Vox=1, PSOE+izquierda=2, territoriales=1 y garantías/procedimiento=2; lectura documental pendiente IH.",
-    "variables": "Vivienda=3 e inflación/coste de vida=3; fragmentación izquierda, relación PP-Vox, participación y bloqueo quedan null por ausencia de registro específico.",
-    "territorial": "Las cinco series quedan null: no se arrastran valores ni se deduce agenda territorial del balance de la huelga.",
-    "signals": "Una confirmatoria por el cierre documentado de la huelga y dos vigilancias: ejes sociales e inicio formal de campaña; disruptivas y recalibradoras=0."
+    "scenarios": "G1/G2/G4/G5 = 2/2/3/1; atención documental ante estudios divergentes, sin probabilidades ni recalibración.",
+    "blocks": "PP-Vox=3, PSOE+izquierda=3, territoriales=1 y garantías/procedimiento=2; lectura documental pendiente IH.",
+    "variables": "Vivienda=2, inflación/coste de vida=2, fragmentación izquierda=2, relación PP-Vox=3, participación=2 y bloqueo=null.",
+    "territorial": "Las cinco series quedan null: no se arrastran valores ni se deduce agenda territorial de los estudios nacionales.",
+    "signals": "Una confirmatoria por el inicio formal de campaña y tres vigilancias: CIS, 40dB y su divergencia; disruptivas y recalibradoras=0."
   },
   "reconstructions": [
     {
