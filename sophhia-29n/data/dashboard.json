@@ -1,24 +1,24 @@
 {
-  "version": "v0.58-D038",
-  "updated": "2026-11-13",
+  "version": "v0.59-D039",
+  "updated": "2026-11-14",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 13 de noviembre de 2026 · 09:30 CET",
+  "subtitle": "Corte 14 de noviembre de 2026 · 09:30 CET",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-038",
+  "current_entry": "D-039",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-038 publicada; sin recalibración de A-000 ni MICMAC.",
+  "system_state": "D-039 publicada; sin recalibración de A-000 ni MICMAC.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "CIS y 40dB ofrecen estimaciones divergentes con campos, muestras y métodos distintos.",
+  "main_uncertainty": "El tracking diario acorta la distancia PP-PSOE sin eliminar la mayoría estimada de PP y Vox; la participación efectiva sigue abierta.",
   "watch_variable": "Relación PP-Vox, fragmentación alternativa, vivienda, coste de vida y participación",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "La campaña electoral comenzó a las 00:00",
-    "Se incorporan por separado el preelectoral CIS 3584 y el barómetro 40dB",
-    "Las estimaciones divergen en el primer partido y en la mayoría PP-Vox",
-    "Vivienda y coste de vida permanecen en la agenda inicial de campaña",
+    "El segundo tracking de 40dB reduce a 1,3 puntos la ventaja del PP",
+    "PP y Vox permanecen en el entorno de 190 escaños, con suma de voto ligeramente inferior al 50 %",
+    "La intención declarada de participar sube al 69,5 %",
+    "Vivienda, pensiones y movilización marcan la primera jornada completa de campaña",
     "Sin recalibración de A-000, MICMAC, escenarios ni parámetros"
   ],
   "path": [
@@ -167,6 +167,12 @@
       "date": "2026-11-13",
       "title": "La campaña arranca con una fuerte divergencia entre el CIS y 40dB",
       "recalibration": "No"
+    },
+    {
+      "id": "D-039",
+      "date": "2026-11-14",
+      "title": "El tracking estrecha la distancia y la campaña eleva vivienda y participación",
+      "recalibration": "No"
     }
   ],
   "scenarios": [
@@ -214,7 +220,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Codificación documental diaria D-036; regla v1 sin cambios; pendiente IH.",
+    "mode": "Codificación documental diaria D-039; regla v1 sin cambios; pendiente IH.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -222,13 +228,13 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.56-D036",
-    "cutoff": "2026-11-11",
-    "last_numeric_date": "2026-11-11",
+    "version": "v0.59-D039",
+    "cutoff": "2026-11-14",
+    "last_numeric_date": "2026-11-14",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Regla v1 y codificación D-036 pendientes de validación IH específica.",
+    "validation": "Regla v1 y codificación D-039 pendientes de validación IH específica.",
     "reconstruction_date": "2026-11-01"
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
@@ -362,9 +368,9 @@
     ]
   },
   "current_reading": {
-    "mode": "Codificación documental diaria D-038; regla v1 sin cambios; pendiente IH.",
-    "summary": "La campaña comenzó a las 00:00. Dos estudios nacionales publicados después del corte anterior y antes del corte de hoy dibujan lecturas muy distintas: el CIS sitúa al PSOE primero y a PP+Vox entre 155 y 171 escaños, mientras 40dB sitúa al PP primero y atribuye 192 escaños a PP+Vox. SOPHHIA conserva ambas estimaciones por separado: no las promedia, no las convierte en probabilidad y no recalibra A-000, MICMAC, escenarios ni parámetros.",
-    "validation": "Regla v1 y codificación D-038 pendientes de validación IH específica."
+    "mode": "Codificación documental diaria D-039; regla v1 sin cambios; pendiente IH.",
+    "summary": "El segundo tracking diario de 40dB, publicado a las 05:30 dentro del corte, reduce a 1,3 puntos la ventaja del PP sobre el PSOE. Mantiene a PP y Vox en el entorno de 190 escaños, aunque su suma cae ligeramente por debajo del 50 % del voto por primera vez desde mayo, y eleva al 69,5 % la intención declarada de participar. La primera jornada completa de campaña sitúa vivienda, pensiones y movilización en el centro. Son datos de encuesta y agenda documentada: no son probabilidades de SOPHHIA y no recalibran A-000, MICMAC, escenarios ni parámetros.",
+    "validation": "Regla v1 y codificación D-039 pendientes de validación IH específica."
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -376,8 +382,8 @@
   },
   "demoscopy": {
     "quantitative_references": 9,
-    "historical_studies": 13,
-    "new_quantitative_observations": 0,
+    "historical_studies": 16,
+    "new_quantitative_observations": 1,
     "pending_primary_records": [
       "Celeste Tel / Onda Cero 2026-11-06",
       "F-D020-07"
@@ -386,50 +392,51 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-038 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-039 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D038-01",
+      "id": "S-D039-01",
       "tipo": "Confirmatoria",
-      "tema": "Inicio formal de campaña",
-      "alcance": "La campaña comenzó a las 00:00 conforme al calendario oficial.",
+      "tema": "Mayor movilización declarada",
+      "alcance": "El tracking sitúa en 69,5 % la intención declarada de votar, 3,5 puntos más que la semana anterior.",
       "fuentes": [
-        "F-D038-01",
-        "F-D038-04"
+        "F-D039-01"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D038-02",
+      "id": "S-D039-02",
       "tipo": "Vigilancia",
-      "tema": "Preelectoral CIS",
-      "alcance": "El CIS sitúa al PSOE primero y a PP+Vox entre 155 y 171 escaños.",
+      "tema": "Distancia PP-PSOE",
+      "alcance": "40dB reduce a 1,3 puntos la ventaja del PP sobre el PSOE.",
       "fuentes": [
-        "F-D038-02"
+        "F-D039-01"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D038-03",
+      "id": "S-D039-03",
       "tipo": "Vigilancia",
-      "tema": "Barómetro 40dB",
-      "alcance": "40dB sitúa al PP primero y a PP+Vox en 192 escaños.",
+      "tema": "Mayoría PP-Vox",
+      "alcance": "La estimación mantiene al bloque PP-Vox en el entorno de 190 escaños, aunque su suma de voto baja ligeramente del 50 %.",
       "fuentes": [
-        "F-D038-03"
+        "F-D039-01"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "S-D038-04",
+      "id": "S-D039-04",
       "tipo": "Vigilancia",
-      "tema": "Divergencia metodológica",
-      "alcance": "Las diferencias de campo, muestra y método impiden tratar ambos estudios como una señal única.",
+      "tema": "Agenda social de campaña",
+      "alcance": "Vivienda, pensiones y participación concentran propuestas y mensajes documentados.",
       "fuentes": [
-        "F-D038-02",
-        "F-D038-03"
+        "F-D039-02",
+        "F-D039-03",
+        "F-D039-04",
+        "F-D039-05"
       ],
       "validacion": "pendiente_IH"
     }

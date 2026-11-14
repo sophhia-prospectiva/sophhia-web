@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-13",
+  "ultima_actualizacion": "2026-11-14",
   "entradas": [
+    {
+      "codigo": "D-039",
+      "fecha": "2026-11-14",
+      "titulo": "El tracking estrecha la distancia y la campaña eleva vivienda y participación",
+      "url": "diario/2026-11-14.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-038",
       "fecha": "2026-11-13",
