@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-14",
+  "ultima_actualizacion": "2026-11-15",
   "entradas": [
+    {
+      "codigo": "D-040",
+      "fecha": "2026-11-15",
+      "titulo": "Dos trackings mantienen la mayoría PP-Vox y acentúan la incertidumbre sobre el PSOE",
+      "url": "diario/2026-11-15.html",
+      "estado": "Interpretación pendiente de validación humana"
+    },
     {
       "codigo": "D-039",
       "fecha": "2026-11-14",
