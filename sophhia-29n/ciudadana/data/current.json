@@ -19,7 +19,7 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-045 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
   "resumen": "Reconstrucción realizada el 20 de noviembre con corte a las 09:30 del mismo día y validación IH pendiente. La crónica de RTVE publicada durante la madrugada permite incorporar el debate entre Sánchez y Feijóo, con vivienda y pensiones entre sus asuntos. El octavo tracking de 40dB y ElectoPanel conservan trabajos de campo anteriores al encuentro; sus cifras no miden su efecto. Se registra también la propuesta de Colau sobre la comisión de la DANA. La lectura distingue propuestas, mediciones previas y seguimiento territorial, manteniendo intacto el modelo.",
   "resumen_ciudadana": "El cara a cara ya entra en esta edición porque su crónica se publicó antes de las 09:30. Vivienda y pensiones forman parte de lo discutido. Las encuestas disponibles proceden de entrevistas anteriores al debate y no permiten saber cómo reaccionó el electorado. También se recoge una propuesta sobre la investigación de la DANA. Esta reconstrucción del día 20 conserva sus reservas documentales y necesita validación humana de la clasificación.",
   "senal_principal": "Vivienda y pensiones en el cara a cara; las encuestas conservan su campo anterior",
@@ -250,5 +250,12 @@
     "Separar cualquier futura medición posterior al debate por fecha y hora de campo, publicación y variable realmente medida.",
     "Contrastar el detalle de los compromisos de vivienda y pensiones en sus documentos o declaraciones originales.",
     "Verificar la tramitación efectiva de la propuesta sobre la DANA y los avisos fechados del voto exterior."
-  ]
+  ],
+  "verificacion_publicacion": {
+    "verified_at": "2026-11-20T15:05:53.247550+00:00",
+    "published_commit": "492efcd7bca5cfb94619340eca1550a45b3345a0",
+    "deployment_run": 44758582527,
+    "method": "Navegación directa a URL canónica sin parámetros anticaché; contenido, fecha, corte y secciones A–I comprobados",
+    "retrospective": true
+  }
 }

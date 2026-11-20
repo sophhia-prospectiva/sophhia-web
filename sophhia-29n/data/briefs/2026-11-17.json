@@ -19,7 +19,7 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-042 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
   "resumen": "Reconstrucción realizada el 20 de noviembre con corte a las 09:30 del día 17 y clasificación IH pendiente. 40dB sitúa al PP en el 31,8 % y al PSOE en el 30,6 %; ElectoPanel del día anterior presenta un reparto diferente. Colau vincula una eventual coalición a medidas iniciales sobre alquileres. Junts introduce demandas fiscales y de competencias. Son posiciones públicas que delimitan asuntos de negociación, sin acreditar acuerdos cerrados. El próximo periodo de voto exterior figura en una fuente institucional anterior a este corte.",
   "resumen_ciudadana": "La edición recuperada del 17 distingue lo que los partidos proponen de lo que podrían pactar. Colau plantea una condición sobre alquileres para un futuro gobierno y Junts expone sus demandas. Las encuestas siguen ofreciendo resultados distintos entre casas. También se recuerda el próximo periodo de voto en urna desde el extranjero. Todo se limita a información anterior a las 09:30; la reconstrucción y su clasificación esperan revisión humana.",
   "senal_principal": "La vivienda aparece como condición de coalición y continúa la vigilancia de los pactos",
@@ -226,5 +226,12 @@
     "Buscar respuestas explícitas a la condición sobre alquileres y distinguir coincidencias programáticas de acuerdos.",
     "Comprobar si Junts concreta requisitos para apoyar o abstenerse en una investidura.",
     "Revisar los siguientes sondeos y los avisos institucionales fechados sin incorporar novedades posteriores al corte."
-  ]
+  ],
+  "verificacion_publicacion": {
+    "verified_at": "2026-11-20T15:05:53.247550+00:00",
+    "published_commit": "492efcd7bca5cfb94619340eca1550a45b3345a0",
+    "deployment_run": 44758582527,
+    "method": "Navegación directa a URL canónica sin parámetros anticaché; contenido, fecha, corte y secciones A–I comprobados",
+    "retrospective": true
+  }
 }

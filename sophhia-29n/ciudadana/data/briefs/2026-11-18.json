@@ -19,7 +19,7 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-043 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
   "resumen": "Reconstrucción realizada el 20 de noviembre para el corte de las 09:30 del día 18, pendiente de validación IH. 40dB estima PP 32,2 %, PSOE 30,7 % y Vox 17,0 %; ElectoPanel aporta otra fotografía nacional. La campaña reúne declaraciones sobre la relación PP‑Vox, propuestas de ingresos y suministros y una condición de ERC relativa a financiación. Estos elementos precisan asuntos que requieren seguimiento, sin acreditar transferencias de voto ni acuerdos de investidura. Los escenarios conservan su origen documental previo y no se recalibran con estas noticias.",
   "resumen_ciudadana": "Esta edición recuperada explica tres asuntos de la campaña: posibles acuerdos, poder adquisitivo y financiación territorial. Son declaraciones y propuestas que todavía necesitan concreción. Las encuestas miden preferencias mediante procedimientos diferentes y no permiten explicar por sí solas qué noticia cambia cada voto. Se utiliza solo información conocida antes de las 09:30 del 18. La reconstrucción del día 20 y sus etiquetas de seguimiento permanecen pendientes de revisión humana.",
   "senal_principal": "Pactos, salarios y financiación territorial precisan los asuntos de campaña",
@@ -226,5 +226,12 @@
     "Identificar condiciones recíprocas de PP y Vox en lugar de inferirlas de una declaración general.",
     "Comprobar concreción, alcance y financiación de las propuestas sobre ingresos y suministros.",
     "Registrar respuestas a la condición de ERC y cualquier decisión explícita de apoyo, abstención o veto."
-  ]
+  ],
+  "verificacion_publicacion": {
+    "verified_at": "2026-11-20T15:05:53.247550+00:00",
+    "published_commit": "492efcd7bca5cfb94619340eca1550a45b3345a0",
+    "deployment_run": 44758582527,
+    "method": "Navegación directa a URL canónica sin parámetros anticaché; contenido, fecha, corte y secciones A–I comprobados",
+    "retrospective": true
+  }
 }

@@ -19,7 +19,7 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-041 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
   "resumen": "Reconstrucción realizada el 20 de noviembre, con información admisible hasta las 09:30 del día 16 y validación IH pendiente. El tracking de 40dB sitúa al PP en el 31,5 % y al PSOE en el 30,3 %; ElectoPanel, publicado la tarde anterior, ofrece otra distribución. La vivienda destaca entre las propuestas socialistas y el PP incorpora un formato accesible a su programa. La lectura conjunta requiere conservar las diferencias de método y candidatura. Esta ficha documenta agenda y estimaciones, sin convertirlas en pactos, resultados o probabilidades del proyecto.",
   "resumen_ciudadana": "Esta edición recupera lo que podía conocerse el 16 de noviembre a las 09:30. Dos encuestas presentan al PP por delante del PSOE, con distancias diferentes. Las propuestas de vivienda y la accesibilidad de los programas aportan otros elementos de campaña. Conviene distinguir una promesa, una encuesta y un acuerdo firmado. La reconstrucción se ha preparado el día 20 y todavía requiere validación humana de su clasificación documental.",
   "senal_principal": "La vivienda abre la semana de campaña entre estimaciones nacionales divergentes",
@@ -215,5 +215,12 @@
     "Comprobar la siguiente publicación de cada casa con fecha, hora y campo diferenciados.",
     "Contrastar el detalle y las condiciones de aplicación de las propuestas de vivienda cuando aparezcan documentos específicos.",
     "Revisar si las siguientes declaraciones identifican apoyos, vetos o compromisos territoriales concretos."
-  ]
+  ],
+  "verificacion_publicacion": {
+    "verified_at": "2026-11-20T15:05:53.247550+00:00",
+    "published_commit": "492efcd7bca5cfb94619340eca1550a45b3345a0",
+    "deployment_run": 44758582527,
+    "method": "Navegación directa a URL canónica sin parámetros anticaché; contenido, fecha, corte y secciones A–I comprobados",
+    "retrospective": true
+  }
 }

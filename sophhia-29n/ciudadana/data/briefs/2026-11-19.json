@@ -19,7 +19,7 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-044 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
   "resumen": "Reconstrucción realizada el 20 de noviembre, limitada a las 09:30 del día 19 y pendiente de validación IH. El séptimo tracking de 40dB estima PP 32,4 %, PSOE 30,4 % y Vox 17,2 %. ElectoPanel del día anterior proporciona otra referencia. La preparación del debate convive con propuestas de vivienda y declaraciones sobre una posible coalición PP‑Vox. Son antecedentes del encuentro previsto para esa noche: esta edición no puede incorporar su desarrollo. Se mantienen separados el calendario de campaña, las posiciones políticas y los resultados de encuesta.",
   "resumen_ciudadana": "La edición del 19 se sitúa antes del debate entre Sánchez y Feijóo. Recoge las encuestas disponibles por la mañana y asuntos de campaña que siguen abiertos, especialmente vivienda y posibles pactos. No incluye lo que sucedió esa noche. Las propuestas y condiciones anunciadas requieren comprobación posterior. El texto se ha reconstruido el día 20, respetando el corte de las 09:30 y dejando pendiente la revisión humana de sus etiquetas.",
   "senal_principal": "Vivienda y condiciones de pacto antes del cara a cara",
@@ -226,5 +226,12 @@
     "Recuperar la crónica del debate solo para una edición cuyo corte sea posterior a su publicación.",
     "Contrastar respuestas y condiciones concretas de Vox a la eventual coalición.",
     "Verificar cualquier modificación de plazos electorales en su acuerdo original, con fecha y hora admisibles."
-  ]
+  ],
+  "verificacion_publicacion": {
+    "verified_at": "2026-11-20T15:05:53.247550+00:00",
+    "published_commit": "492efcd7bca5cfb94619340eca1550a45b3345a0",
+    "deployment_run": 44758582527,
+    "method": "Navegación directa a URL canónica sin parámetros anticaché; contenido, fecha, corte y secciones A–I comprobados",
+    "retrospective": true
+  }
 }

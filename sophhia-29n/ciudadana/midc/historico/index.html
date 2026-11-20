@@ -15,6 +15,8 @@ table{border-collapse:collapse;width:100%;font-size:14px}
 td,th{padding:8px;border-bottom:1px solid #d8cfc0;text-align:left}
 .scroll{overflow-x:auto}svg{width:100%;height:auto}
 .dot{fill:#a97b4f;stroke:#182845;stroke-width:2}
+
+.historical-plot{background:var(--paper,#fbf8f2);border-color:var(--line,#d8cfc0);color:var(--ink,#182845)}.plot-legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;list-style:none;padding:0;margin:.6rem 0;font-size:.82rem}.plot-key{display:inline-block;width:.7rem;height:.7rem;border-radius:50%;margin-right:.35rem;border:1px solid currentColor}.plot-help,.point-detail{font-size:.85rem}.point-detail{min-height:3em;overflow-wrap:anywhere}.plot-grid{stroke:var(--line,#d8cfc0);stroke-width:1}.plot-point{cursor:pointer}.plot-point:focus{stroke:var(--ink,#182845);stroke-width:4;outline:none}
 </style>
 <style>
 .reading-controls{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 20px}.reading-controls button{font:inherit;color:var(--ink);background:var(--paper,#fff);border:1px solid var(--line);border-radius:8px;padding:7px 11px;cursor:pointer}.reading-controls button[aria-pressed="true"]{outline:2px solid var(--accent)}.reading-controls button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
@@ -24,15 +26,15 @@ body[data-reader-theme="technical"]{--bg:#eef3f9;--paper:#fff;--ink:#162a46;--mu
 body[data-reader-theme]{background:var(--bg);color:var(--ink)}body[data-reader-theme] :is(.panel,.control,.entry,.notice,.alert,.checks label,select){background:var(--paper);color:var(--ink)}body[data-reader-theme] svg text{fill:var(--ink)}body[data-reader-theme] :is(h1,h2,h3,p,th,td){color:var(--ink)}body[data-reader-theme] :is(.small,.intro,.meta){color:var(--muted)}body[data-reader-theme] :is(a){color:var(--accent)}
 </style></head>
 <body>
-<header><a href="../">← MIDC v0.18</a></header>
+<header><a href="../">← MIDC v0.19</a></header>
 <main><div class="reading-controls" aria-label="Opciones de lectura"><button type="button" data-theme-choice="editorial" aria-pressed="true">Editorial</button><button type="button" data-theme-choice="night" aria-pressed="false">Nocturna</button><button type="button" data-theme-choice="parchment" aria-pressed="false">Pergamino</button><button type="button" data-theme-choice="technical" aria-pressed="false">Técnica</button><button type="button" data-zoom="-1" aria-label="Reducir tamaño de texto">A−</button><button type="button" data-zoom="0" aria-label="Restablecer tamaño de texto">100 %</button><button type="button" data-zoom="1" aria-label="Aumentar tamaño de texto">A+</button><span id="zoom-status" aria-live="polite"></span></div><p class="small"><strong>Revisión editorial D-045 · 20 de noviembre de 2026 · corte 09:30 CET.</strong> Recuperación retrospectiva de las jornadas 16–20: incorporación real el 20 de noviembre de diez publicaciones de seguimiento, cinco de 40dB (16–20/11) y cinco de ElectoPanel (15–19/11, admitidas al día siguiente). El histórico conserva veintiocho estudios de nueve casas; el panel utiliza una observación por casa. Se mantiene la reserva temporal del informe 40dB del 20/11 y la reserva de fuente primaria de Sigma Dos. <a href="../../diario/2026-11-20.html">Leer D-045</a>. Interpretación pendiente IH; las validaciones anteriores conservan su alcance.</p>
 <small>MIDC-29N-002 · LABORATORIO · REVISIÓN EDITORIAL 20-11-2026 · v0.19</small>
 <h1>Archivo demoscópico comparado</h1><p class="notice">Veintiocho estudios documentales de nueve encuestadoras. Incorporación real del 20 de noviembre: diez publicaciones de tracking recuperadas para los cortes de las 09:30 del 16–20/11. Cada oleada se conserva sin duplicarla en el panel vigente; los campos solapados no son muestras independientes. Frente Amplio, Sumar y otras coaliciones territoriales permanecen separados.</p>
 <p class="notice">Se conservan íntegramente los dieciocho estudios anteriores, incluidos sus identificadores, cifras, reservas y validaciones. Las diferencias de casa, fecha y candidatura impiden interpretar los puntos como una tendencia continua o una predicción. Se mantienen las reservas de IMOP, CIS y Sigma Dos. El informe 40dB del 20/11 tiene una salvedad de metadatos temporal detallada en su ficha.</p>
-<section>
+<section class="historical-plot">
 <label for="party">Partido</label><select id="party"></select>
 <label for="date">Fecha del eje</label><select id="date"><option value="publicacion">Publicación</option><option value="campo_fin">Fin del trabajo de campo</option></select>
-<h2>Observaciones fechadas</h2><div id="plot"></div><p id="insight"></p>
+<h2>Observaciones fechadas</h2><p class="plot-help" id="plot-help">Cada punto es una publicación. Los colores identifican la encuestadora; la tabla recoge los 28 estudios y sus fechas.</p><ul class="plot-legend" id="plot-legend" aria-label="Encuestadoras"></ul><div id="plot"></div><p class="point-detail" id="point-detail" aria-live="polite" aria-atomic="true"></p><p id="insight"></p>
 </section>
 <section><h2>Fuentes y ficha metodológica</h2><div class="scroll" id="table"></div></section>
 <section class="panel full" style="margin-top:18px"><h2>Publicación sobre el Senado pendiente de comprobar</h2><p>Se conserva la referencia secundaria del 20 de octubre a Sigma Dos / El Mundo sobre el Senado. En esta revisión no se ha verificado su ficha primaria, su campo ni el método de proyección; no se incorporan cifras ni se hereda la ficha del Congreso. <a href="https://www.elmundo.es/espana/encuestas/2026/10/19/6ad65700fc6c837b168b4590.html" target="_blank" rel="noopener noreferrer">Original identificado</a>. Es una reserva documental, no una encuesta nueva admitida.</p></section><section><h2>Protocolo de registro</h2><p>Conservar el identificador original, fechas de campo y publicación, método, muestra, ámbito, resultado y fuente de cada sondeo. Los registros nuevos se añaden sin sobrescribir los anteriores. Ninguna alerta implica actualización automática de escenarios.</p></section>
@@ -47,34 +49,11 @@ const visualAliases={'Frente Amplio':'Frente_Amplio','Adelante Andalucía':'Adel
 const valueFor=(x,p)=>{const v=x.porcentajes[p];return v!==undefined?v:(visualAliases[p]?x.porcentajes[visualAliases[p]]:null);};
 d.partidos.forEach(p=>get('party').add(new Option(p,p)));
 
-// Etiquetas autónomas: posición observada invariable; se desplaza únicamente el rótulo.
-function positionLabels(points){
-  const placed=[];
-  return points.map((p,i)=>{
-    const label=p.name+' '+format(p.value);
-    const w=Math.max(78,label.length*7.5);
-    const options=[
-      [0,-22],[0,-44],[-95,-23],[95,-23],[-95,-47],[95,-47],
-      [0,29],[-120,-68],[120,-68],[-155,29],[155,29]
-    ];
-    let chosen;
-    for(const [dx,dy] of options){
-      const x=Math.max(w/2+4,Math.min(850-w/2-4,p.x+dx));
-      const y=Math.max(17,Math.min(253,p.y+dy));
-      const r={l:x-w/2-4,r:x+w/2+4,t:y-15,b:y+5};
-      if(!placed.some(q=>r.l<q.r&&r.r>q.l&&r.t<q.b&&r.b>q.t)){
-        chosen={x,y,rect:r};break;
-      }
-    }
-    if(!chosen){
-      const x=Math.max(w/2+4,Math.min(850-w/2-4,p.x));
-      const y=Math.min(253,Math.max(17,p.y-22-22*i));
-      chosen={x,y,rect:{l:x-w/2-4,r:x+w/2+4,t:y-15,b:y+5}};
-    }
-    placed.push(chosen.rect);
-    return {...p,label,tx:chosen.x,ty:chosen.y};
-  });
-}
+// La posición de cada observación se conserva; su identificación se ofrece al enfocarla y en la tabla.
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const houses=[...new Set(d.encuestas.map(x=>x.instituto))];
+const houseColors=['#3f6b91','#a55a4f','#3f7b64','#885f91','#ad7a2f','#477e88','#99624a','#6d7286','#8b743b'];
+const colorFor=name=>houseColors[houses.indexOf(name)%houseColors.length];
 function render(){
   const party=get('party').value,axis=get('date').value;
   const rows=d.encuestas.filter(x=>valueFor(x,party)!=null).sort((a,b)=>a[axis].localeCompare(b[axis]));
@@ -84,23 +63,34 @@ function render(){
   const times=rows.map(x=>Date.parse(x[axis]));
   const mint=Math.min(...times)-86400000,maxt=Math.max(...times)+86400000;
   const X=t=>85+(t-mint)/(maxt-mint)*700,Y=v=>40+(hi-v)/(hi-lo)*190;
-  const points=positionLabels(rows.map((x,i)=>({x:X(times[i]),y:Y(vals[i]),name:x.instituto,value:vals[i],date:x[axis]})));
-  let svg='<svg viewBox="0 0 850 315" role="img" aria-label="Estimaciones observadas">';
-  const shownDates=new Set();
-  let lastDateX=-Infinity,dateRow=0;
+  const points=rows.map((x,i)=>({x:X(times[i]),y:Y(vals[i]),name:x.instituto,value:vals[i],date:x[axis],record:x}));
+  const axisLabel=axis==='publicacion'?'Publicación':'Fin del trabajo de campo';
+  const dateLabel=day=>new Intl.DateTimeFormat('es-ES',{day:'numeric',month:'short',timeZone:'UTC'}).format(new Date(day+'T00:00:00Z'));
+  let svg='<svg viewBox="0 0 850 315" role="group" aria-label="'+esc('Estimaciones de '+party+' por '+axisLabel.toLowerCase())+'" aria-describedby="plot-help"><title>'+esc('Observaciones de '+party)+'</title>';
+  for(let i=0;i<=4;i++){
+    const value=lo+(hi-lo)*i/4,y=Y(value);
+    svg+='<line class="plot-grid" x1="85" y1="'+y+'" x2="785" y2="'+y+'"/><text x="73" y="'+(y+4)+'" text-anchor="end" font-size="12">'+format(value)+'</text>';
+  }
   points.forEach(p=>{
-    svg+='<circle class="dot" cx="'+p.x+'" cy="'+p.y+'" r="8"/>';
-    if(Math.abs(p.tx-p.x)>3||Math.abs(p.ty-(p.y-22))>4){
-      svg+='<line x1="'+p.x+'" y1="'+p.y+'" x2="'+p.tx+'" y2="'+(p.ty+4)+'" stroke="#7b6e60" stroke-width="1" opacity=".65"/>';
-    }
-    svg+='<text x="'+p.tx+'" y="'+p.ty+'" text-anchor="middle" font-size="13">'+p.label+'</text>';
-    if(!shownDates.has(p.date)){
-      dateRow=p.x-lastDateX<95?1-dateRow:0;lastDateX=p.x;
-      svg+='<text x="'+p.x+'" y="'+(275+dateRow*22)+'" text-anchor="middle" font-size="12">'+new Intl.DateTimeFormat('es-ES',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(p.date+'T00:00:00Z'))+'</text>';
-      shownDates.add(p.date);
-    }
+    const label=p.name+' · '+party+': '+format(p.value)+' · publicación: '+p.record.publicacion+' · '+axisLabel+': '+p.date+' · '+p.record.id;
+    svg+='<circle class="dot plot-point" cx="'+p.x+'" cy="'+p.y+'" r="8" style="fill:'+colorFor(p.name)+'" tabindex="0" role="img" data-study-id="'+esc(p.record.id)+'" aria-label="'+esc(label)+'"><title>'+esc(label)+'</title></circle>';
   });
+  const dates=[...new Set(points.map(p=>p.date))],lastDateX=X(Date.parse(dates[dates.length-1]));
+  let lastTickX=-Infinity;
+  dates.forEach((day,i)=>{
+    const x=X(Date.parse(day));
+    if(i!==0&&i!==dates.length-1&&(x-lastTickX<135||lastDateX-x<135))return;
+    lastTickX=x;
+    svg+='<line class="plot-grid" x1="'+x+'" y1="250" x2="'+x+'" y2="257"/><text x="'+x+'" y="278" text-anchor="middle" font-size="12">'+dateLabel(day)+'</text>';
+  });
+  svg+='<text x="435" y="307" text-anchor="middle" font-size="12">'+axisLabel+' · 2026</text>';
   get('plot').innerHTML=svg+'</svg>';
+  get('plot-legend').innerHTML=houses.filter(name=>points.some(p=>p.name===name)).map(name=>'<li><span class="plot-key" style="background:'+colorFor(name)+'" aria-hidden="true"></span>'+esc(name)+'</li>').join('');
+  get('point-detail').textContent='Sitúa el puntero en un punto, tócalo o recórrelo con Tab para consultar su ficha.';
+  get('plot').querySelectorAll('.plot-point').forEach(point=>{
+    const show=()=>{get('point-detail').textContent=point.getAttribute('aria-label');};
+    point.addEventListener('focus',show);point.addEventListener('pointerenter',show);point.addEventListener('click',show);
+  });
   get('insight').textContent='Dispersión de las observaciones: '+(Math.max(...vals)-Math.min(...vals)).toFixed(1).replace('.',',')+' puntos. Incluye estudios y fechas diferentes; no equivale a un intervalo de confianza.';
   get('table').innerHTML='<table><tr><th>Instituto</th><th>Publicación</th><th>Campo</th><th>Muestra</th><th>Modo</th><th>'+party+'</th><th>Fuente / ficha</th></tr>'+d.encuestas.map(x=>'<tr><td>'+x.instituto+'</td><td>'+x.publicacion+'</td><td>'+x.campo_inicio+' a '+x.campo_fin+'</td><td>'+x.muestra+'</td><td>'+x.modo+'</td><td>'+format(valueFor(x,party))+'</td><td><a href="'+x.url+'" target="_blank" rel="noopener noreferrer">Fuente</a>'+(x.fuente_campo?' · <a href="'+x.fuente_campo+'" target="_blank" rel="noopener noreferrer">Campo</a>':'')+(x.fuente_temporal?' · <a href="'+x.fuente_temporal+'" target="_blank" rel="noopener noreferrer">Evidencia temporal</a>':'')+'</td></tr>').join('')+'</table>'+d.encuestas.filter(x=>x.reserva).map(x=>'<p><strong>'+x.instituto+' · '+x.publicacion+':</strong> '+x.reserva+'</p>').join('');
 }
