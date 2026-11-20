@@ -1,25 +1,25 @@
 {
-  "version": "v0.60-D040",
-  "updated": "2026-11-15",
+  "version": "v0.65-D045",
+  "updated": "2026-11-20",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 15 de noviembre de 2026 · 09:30 CET",
+  "subtitle": "Corte 20 de noviembre de 2026 · 09:30 CET · reconstrucción 20/11/2026",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-040",
+  "current_entry": "D-045",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-040 publicada; sin recalibración de A-000 ni MICMAC.",
+  "system_state": "D-045 reconstruida al corte y publicada; pendiente IH; sin recalibración.",
   "dominant_scenario": "Mayoría PP-Vox",
-  "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en D-020",
-  "main_uncertainty": "40dB y Sigma Dos mantienen una mayoría PP-Vox, pero discrepan en 4,3 puntos sobre el PSOE; la campaña y la participación efectiva siguen abiertas.",
-  "watch_variable": "Relación PP-Vox, fragmentación de la izquierda y vivienda",
+  "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad en esta recuperación",
+  "main_uncertainty": "El PDF de 40dB lleva fecha 20, mientras el artículo coeditor que lo enlaza está fechado el 19 a las 20:00; el vínculo se verificó el 20, sin captura histórica. El sondeo urgente de Cadena SER publicado a las 14:01 queda fuera del corte; el análisis de DatosRTVE indexado a las 09:29 queda en reserva por fallo de apertura.",
+  "watch_variable": "Vivienda; Inflación/coste de vida",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "40dB sitúa PP 31,4 %, PSOE 29,9 % y Vox 18,3 %, con 192 escaños para PP y Vox",
-    "Sigma Dos sitúa PP 31,0 %, PSOE 25,6 % y Vox 19,7 %, con PP y Vox entre 188 y 199 escaños",
-    "La distancia PP-PSOE difiere entre casas: 1,5 puntos en 40dB y 5,4 en Sigma Dos",
-    "La vivienda continúa como eje central de la campaña del sábado",
-    "Sin recalibración de A-000, MICMAC, escenarios ni parámetros"
+    "Se incorpora la crónica de RTVE publicada a las 00:19 y actualizada a las 01:54.",
+    "Se añade el octavo tracking de 40dB con la salvedad documental de su artículo enlazante fechado el 19.",
+    "Se conserva ElectoPanel del 19 como medición previa al debate.",
+    "Se registran vivienda y pensiones como temas diferenciados del cara a cara.",
+    "Se incorpora la propuesta de Colau sobre la comisión de la DANA."
   ],
   "path": [
     {
@@ -179,32 +179,67 @@
       "date": "2026-11-15",
       "title": "Dos trackings mantienen la mayoría PP-Vox y acentúan la incertidumbre sobre el PSOE",
       "recalibration": "No"
+    },
+    {
+      "id": "D-041",
+      "date": "2026-11-16",
+      "title": "La vivienda abre la semana de campaña entre estimaciones nacionales divergentes",
+      "recalibration": "No",
+      "retrospective": true
+    },
+    {
+      "id": "D-042",
+      "date": "2026-11-17",
+      "title": "La vivienda aparece como condición de coalición y continúa la vigilancia de los pactos",
+      "recalibration": "No",
+      "retrospective": true
+    },
+    {
+      "id": "D-043",
+      "date": "2026-11-18",
+      "title": "Pactos, salarios y financiación territorial precisan los asuntos de campaña",
+      "recalibration": "No",
+      "retrospective": true
+    },
+    {
+      "id": "D-044",
+      "date": "2026-11-19",
+      "title": "Vivienda y condiciones de pacto antes del cara a cara",
+      "recalibration": "No",
+      "retrospective": true
+    },
+    {
+      "id": "D-045",
+      "date": "2026-11-20",
+      "title": "Vivienda y pensiones en el cara a cara; las encuestas conservan su campo anterior",
+      "recalibration": "No",
+      "retrospective": true
     }
   ],
   "scenarios": [
     {
       "id": "G1",
       "name": "Gobierno PP-Vox de coalición",
-      "trend": "marco conservado en D-019; sin nueva probabilidad",
-      "status": "marco anterior conservado; no nueva estimación"
+      "trend": "Lectura documental 2 conservada expresamente desde D-040; sin nueva probabilidad",
+      "status": "marco conservado; interpretación pendiente IH"
     },
     {
       "id": "G2",
       "name": "PP monocolor con apoyo externo de Vox",
-      "trend": "marco conservado en D-019; sin nueva probabilidad",
-      "status": "marco anterior conservado; no nueva estimación"
+      "trend": "Lectura documental 2 conservada expresamente desde D-040; sin nueva probabilidad",
+      "status": "marco conservado; interpretación pendiente IH"
     },
     {
       "id": "G4",
       "name": "Reconstrucción progresista",
-      "trend": "marco conservado en D-019; sin nueva probabilidad",
-      "status": "pendiente evaluación; sin probabilidad asignada"
+      "trend": "Lectura documental 3 conservada expresamente desde D-040; sin nueva probabilidad",
+      "status": "marco conservado; interpretación pendiente IH"
     },
     {
       "id": "G5",
       "name": "Bloqueo / repetición electoral",
-      "trend": "marco conservado en D-019; sin nueva probabilidad",
-      "status": "marco anterior conservado; no nueva estimación"
+      "trend": "Lectura documental 1 conservada expresamente desde D-040; sin nueva probabilidad",
+      "status": "marco conservado; interpretación pendiente IH"
     }
   ],
   "bifurcations": [
@@ -226,7 +261,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Codificación documental diaria D-040; regla v1 sin cambios; pendiente IH.",
+    "mode": "Reconstrucción documental D-045; pendiente IH.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -234,14 +269,21 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.60-D040",
-    "cutoff": "2026-11-15",
-    "last_numeric_date": "2026-11-15",
+    "version": "v0.65-D045",
+    "cutoff": "2026-11-20",
+    "last_numeric_date": "2026-11-20",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Regla v1 y codificación D-040 pendientes de validación IH específica.",
-    "reconstruction_date": "2026-11-01"
+    "validation": "Interpretación y codificación D-045 pendientes de validación humana",
+    "reconstruction_date": "2026-11-20",
+    "last_numeric_dates": {
+      "scenarios": "2026-11-20",
+      "blocks": "2026-11-20",
+      "variables": "2026-11-20",
+      "territorial": "2026-11-20",
+      "signals": "2026-11-20"
+    }
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
   "territorial_radar": {
@@ -287,96 +329,24 @@
     "base_label": "Referencia estructural MICMAC v0.2; sus estados no son puntuaciones nuevas del día.",
     "daily_observations": [
       {
-        "territorio": "Cataluña",
-        "actor": "Junts; ERC y Podemos; Comuns / Frente Amplio",
-        "agenda_explicita": "Prioridad territorial y opciones diferentes de coordinación.",
-        "agenda_estrategica": "Influencia estatal reivindicada; no negociación reservada acreditada.",
-        "instrumento_tactico": "Declaraciones y colaboración electoral anunciada.",
+        "tema": "Propuesta sobre la comisión de la DANA",
+        "lectura": "Colau plantea en Valencia reabrir la comisión de investigación sobre la DANA. El objeto territorial y la propuesta de control institucional permiten un seguimiento específico. Se trata de un compromiso anunciado durante la campaña, no de una reapertura ya acordada o ejecutada.",
         "variables": [
-          "V4",
-          "V9",
-          "V12",
-          "V16"
+          "Agendas territoriales complementarias"
         ],
-        "efecto_sistemico": "La compatibilidad de un futuro programa necesita compromisos verificables. No se presume investidura por compartir campaña.",
         "fuentes": [
-          "F-D019-02",
-          "F-D019-03",
-          "F-D019-04"
+          "rtve_20261119"
         ],
-        "ciudadana": "Hacer actos juntos, presentar una lista y apoyar un Gobierno son decisiones diferentes.",
-        "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
-        "fecha_incorporacion": "2026-10-25",
-        "validacion_interpretacion": "pendiente_IH",
-        "decision_id": null
-      },
-      {
-        "territorio": "País Vasco",
-        "actor": "ELA y otras organizaciones convocantes",
-        "agenda_explicita": "Vivienda, salarios y pérdida de poder adquisitivo; antecedente del 22.",
-        "agenda_estrategica": "Reivindicaciones sindicales dirigidas a las instituciones.",
-        "instrumento_tactico": "Convocatoria del 11 de noviembre, todavía futura.",
-        "variables": [
-          "V7",
-          "V8",
-          "V10",
-          "V16"
-        ],
-        "efecto_sistemico": "La respuesta institucional podría aportar evidencia programática. No se anticipan movilización efectiva ni efectos electorales.",
-        "fuentes": [
-          "F-D019-08"
-        ],
-        "ciudadana": "Se sigue una convocatoria ya conocida; el gráfico registra que hoy volvemos a examinarla.",
-        "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
-        "fecha_incorporacion": "2026-10-25",
-        "validacion_interpretacion": "pendiente_IH",
-        "decision_id": null
-      },
-      {
-        "territorio": "Galicia",
-        "actor": "Feijóo y PP gallego",
-        "agenda_explicita": "Trayectoria de gestión gallega como aval de la oferta estatal.",
-        "agenda_estrategica": "Proyección nacional de una experiencia autonómica reivindicada.",
-        "instrumento_tactico": "Acto y declaraciones de precampaña.",
-        "variables": [
-          "V11",
-          "V16"
-        ],
-        "efecto_sistemico": "El argumento territorial no acredita apoyos parlamentarios ni ejecución de propuestas.",
-        "fuentes": [
-          "F-D019-05"
-        ],
-        "ciudadana": "La experiencia que un candidato reivindica debe distinguirse de los resultados que promete.",
-        "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
-        "fecha_incorporacion": "2026-10-25",
-        "validacion_interpretacion": "pendiente_IH",
-        "decision_id": null
-      },
-      {
-        "territorio": "Andalucía / programa estatal",
-        "actor": "Sánchez / PSOE, acto en Granada",
-        "agenda_explicita": "Propuesta constitucional sobre el aborto.",
-        "agenda_estrategica": "Posición programática expresada públicamente.",
-        "instrumento_tactico": "Anuncio de precampaña.",
-        "variables": [
-          "V16"
-        ],
-        "efecto_sistemico": "Requiere procedimiento y apoyos; no es una reforma en vigor ni evidencia de acuerdo entre partidos.",
-        "fuentes": [
-          "F-D019-07"
-        ],
-        "ciudadana": "Anunciar una medida y aprobarla son pasos distintos. No atribuimos una agenda autonómica sólo por el lugar del acto.",
-        "grado_confirmacion": "declaracion_atribuida_o_antecedente_identificado",
-        "fecha_incorporacion": "2026-10-25",
-        "validacion_interpretacion": "pendiente_IH",
-        "decision_id": null
+        "fecha_incorporacion": "2026-11-20",
+        "fecha_referencia": "2026-11-20",
+        "validacion_interpretacion": "pendiente_IH"
       }
     ]
   },
   "current_reading": {
-    "mode": "Codificación documental diaria D-040; regla v1 sin cambios; pendiente IH.",
-    "summary": "Dos estimaciones nacionales publicadas antes del corte mantienen una mayoría amplia de PP y Vox, pero discrepan sobre el nivel del PSOE. El tercer tracking de 40dB sitúa PP 31,4 %, PSOE 29,9 % y Vox 18,3 %, con 192 escaños para PP y Vox; Sigma Dos sitúa PP 31,0 %, PSOE 25,6 % y Vox 19,7 %, con una horquilla conjunta de 188-199 escaños. La campaña del sábado mantiene la vivienda como eje. Son estimaciones y agenda documentada: no son probabilidades de SOPHHIA y no recalibran A-000, MICMAC, escenarios ni parámetros.",
-    "validation": "Regla v1 y codificación D-040 pendientes de validación IH específica."
+    "mode": "Reconstrucción documental D-045; pendiente IH.",
+    "summary": "Reconstrucción realizada el 20 de noviembre con corte a las 09:30 del mismo día y validación IH pendiente. La crónica de RTVE publicada durante la madrugada permite incorporar el debate entre Sánchez y Feijóo, con vivienda y pensiones entre sus asuntos. El octavo tracking de 40dB y ElectoPanel conservan trabajos de campo anteriores al encuentro; sus cifras no miden su efecto. Se registra también la propuesta de Colau sobre la comisión de la DANA. La lectura distingue propuestas, mediciones previas y seguimiento territorial, manteniendo intacto el modelo.",
+    "validation": "Interpretación y codificación D-045 pendientes de validación humana"
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -388,7 +358,7 @@
   },
   "demoscopy": {
     "quantitative_references": 9,
-    "historical_studies": 18,
+    "historical_studies": 28,
     "new_quantitative_observations": 2,
     "pending_primary_records": [
       "Celeste Tel / Onda Cero 2026-11-06",
@@ -398,69 +368,71 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-040 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-045 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "S-D040-01",
+      "id": "D045-F01",
+      "tipo": "Vigilancia",
+      "tema": "Sondeos anteriores al cara a cara",
+      "alcance": "40dB estima PP 32,2 %, PSOE 30,2 % y Vox 17,6 %, con campo del 15 al 19. ElectoPanel del 19 ofrece 30,4 %, 27,6 % y 18,7 %, con campo hasta el 18. Ninguno permite atribuir cambios al debate nocturno.",
+      "fuentes": [
+        "40db_20261120",
+        "electopanel_20261119"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D045-F02",
+      "tipo": "Vigilancia",
+      "tema": "La vivienda forma parte del debate",
+      "alcance": "La crónica de RTVE identifica la vivienda entre los asuntos destacados del cara a cara entre Sánchez y Feijóo. La ficha concentra atención documental en ese tema, sin atribuir un efecto electoral a su presencia ni equiparar exposición en el debate con ejecución de medidas.",
+      "fuentes": [
+        "rtve_debate_20261120"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D045-F03",
+      "tipo": "Vigilancia",
+      "tema": "Compromisos sobre pensiones e IPC",
+      "alcance": "Feijóo expresa compromiso con la revalorización de pensiones según el IPC y Sánchez defiende una garantía constitucional. Se registran dos posiciones del debate sobre protección de ingresos. Su formulación no acredita una reforma aprobada ni permite deducir de ella cambios en la intención de voto.",
+      "fuentes": [
+        "rtve_debate_20261120"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D045-F04",
+      "tipo": "Vigilancia",
+      "tema": "Propuesta sobre la comisión de la DANA",
+      "alcance": "Colau plantea en Valencia reabrir la comisión de investigación sobre la DANA. El objeto territorial y la propuesta de control institucional permiten un seguimiento específico. Se trata de un compromiso anunciado durante la campaña, no de una reapertura ya acordada o ejecutada.",
+      "fuentes": [
+        "rtve_20261119"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D045-F05",
       "tipo": "Confirmatoria",
-      "tema": "Mayoría PP-Vox en 40dB",
-      "alcance": "40dB estima 192 escaños para PP y Vox.",
+      "tema": "El siguiente hito del voto CERA",
+      "alcance": "El periodo de depósito del voto CERA en urna comienza el 21 de noviembre y se extiende hasta el 26, según la nota del INE del 9 de octubre. Se incorpora como próximo hito verificable. No se deduce del calendario un nivel de participación ni una ventaja partidista.",
       "fuentes": [
-        "F-D040-01"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "S-D040-02",
-      "tipo": "Confirmatoria",
-      "tema": "Mayoría PP-Vox en Sigma Dos",
-      "alcance": "Sigma Dos sitúa la suma PP-Vox entre 188 y 199 escaños.",
-      "fuentes": [
-        "F-D040-02"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "S-D040-03",
-      "tipo": "Vigilancia",
-      "tema": "Dispersión sobre el PSOE",
-      "alcance": "40dB estima al PSOE en 29,9 % y Sigma Dos en 25,6 %; no se promedian.",
-      "fuentes": [
-        "F-D040-01",
-        "F-D040-02"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "S-D040-04",
-      "tipo": "Vigilancia",
-      "tema": "Fragmentación de la izquierda",
-      "alcance": "40dB documenta transferencias relevantes desde el espacio de Sumar y distingue Frente Amplio, otras coaliciones y Podemos.",
-      "fuentes": [
-        "F-D040-01"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "S-D040-05",
-      "tipo": "Vigilancia",
-      "tema": "Vivienda",
-      "alcance": "RTVE documenta la vivienda como eje central de los actos del sábado.",
-      "fuentes": [
-        "F-D040-03"
+        "ine_20261009"
       ],
       "validacion": "pendiente_IH"
     }
   ],
   "revision_retrospectiva": {
-    "id": "REC-29N-20261101-2931",
-    "date": "2026-11-01",
-    "from_date": "2026-10-29",
-    "to_date": "2026-10-31",
+    "id": "REC-29N-20261120-1620",
+    "date": "2026-11-20",
+    "from_date": "2026-11-16",
+    "to_date": "2026-11-20",
     "validation": "pendiente_IH",
-    "reference": "diario/2026-10-31.html#reconstruccion-2931"
+    "reference": "diario/2026-11-20.html#reconstruccion",
+    "cutoff_policy": "09:30 Europe/Madrid en cada fecha",
+    "publication_not_contemporaneous": true
   }
 }

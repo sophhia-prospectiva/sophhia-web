@@ -1,0 +1,230 @@
+{
+  "contrato": "CP-29N-F0 v0.1 + Anexo A",
+  "protocolo": "P001 + P001-E001",
+  "capa": "F2-MICMAC-001 v0.2",
+  "modo": "Modo A · Aproximación heurística estructurada",
+  "revision_abierta": true,
+  "protocolos_consultados": [
+    "P001-E001: texto disponible",
+    "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
+  ],
+  "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
+  "codigo": "D-042",
+  "fecha": "2026-11-17",
+  "fecha_legible": "17 de noviembre de 2026",
+  "hora_corte": "09:30",
+  "timezone": "Europe/Madrid",
+  "titulo": "La vivienda aparece como condición de coalición y continúa la vigilancia de los pactos",
+  "recalibracion": false,
+  "micmac_modificada": false,
+  "validacion": "Interpretación y codificación D-042 pendientes de validación humana",
+  "decision_id": null,
+  "estado_publicacion": "publicada_pendiente_verificacion",
+  "resumen": "Reconstrucción realizada el 20 de noviembre con corte a las 09:30 del día 17 y clasificación IH pendiente. 40dB sitúa al PP en el 31,8 % y al PSOE en el 30,6 %; ElectoPanel del día anterior presenta un reparto diferente. Colau vincula una eventual coalición a medidas iniciales sobre alquileres. Junts introduce demandas fiscales y de competencias. Son posiciones públicas que delimitan asuntos de negociación, sin acreditar acuerdos cerrados. El próximo periodo de voto exterior figura en una fuente institucional anterior a este corte.",
+  "resumen_ciudadana": "La edición recuperada del 17 distingue lo que los partidos proponen de lo que podrían pactar. Colau plantea una condición sobre alquileres para un futuro gobierno y Junts expone sus demandas. Las encuestas siguen ofreciendo resultados distintos entre casas. También se recuerda el próximo periodo de voto en urna desde el extranjero. Todo se limita a información anterior a las 09:30; la reconstrucción y su clasificación esperan revisión humana.",
+  "senal_principal": "La vivienda aparece como condición de coalición y continúa la vigilancia de los pactos",
+  "variable_vigilancia": "Vivienda=3; Inflación/coste de vida=null (ausencia revisada); Fragmentación izquierda=null (ausencia revisada); Relación PP‑Vox=null (ausencia revisada); Participación=null (ausencia revisada); Bloqueo=null (ausencia revisada).",
+  "variable_territorial": "Agenda nacionalista catalana=2; Agenda nacionalista vasca=null (ausencia revisada); Veto/bisagra territorial=null (ausencia revisada); Compatibilidad programática-territorial=null (ausencia revisada); Agendas territoriales complementarias=null (ausencia revisada).",
+  "decision": "D-042 y las entregas posteriores a D-015 conservan su estado pendiente de validación humana. D-015 mantiene DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001 con sus alcances originales. La publicación no valida interpretaciones ni codificaciones.",
+  "url": "diario/2026-11-17.html",
+  "fuentes_temporales": [
+    {
+      "id": "40db_20261117",
+      "medio": "40dB para EL PAÍS y Cadena SER",
+      "titulo": "Tracking electoral, día 05",
+      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-tracking-electoral/informe_tracking_dia05.pdf",
+      "fecha_publicacion": "2026-11-17",
+      "hora_publicacion": "2026-11-17T05:30:00+01:00",
+      "fecha_consulta_real": "2026-11-20",
+      "evidencia_temporal": "Hora de artículo del coeditor anterior a las 09:30 CET; enlace al PDF original.",
+      "reserva_temporal": "Campos solapados: no son observaciones independientes. Margen declarado por la casa; no equivale a intervalo de la estimación modelizada ni de una diferencia partidista. Conservar Frente Amplio y otras coaliciones territoriales como categorías separadas del PDF; algunos agregadores las suman indebidamente. No se trasladan escaños: divergencias entre secundarios y extracción original. No es probabilidad de escenario SOPHHIA ni autoriza recalibrar MICMAC, A000 o DEC-IH.",
+      "admitida_como_hecho_al_corte": true
+    },
+    {
+      "id": "electopanel_20261116",
+      "medio": "Electomanía / ElectoPanel; Estudios y Minería de Datos SL",
+      "titulo": "ElectoPanel · publicación 2026-11-16",
+      "url": "https://electomania.es/tracking-electopanel-16-nov-el-psoe-avanza-con-la-suma-de-pp-y-vox-en-189-escanos/",
+      "fecha_publicacion": "2026-11-16",
+      "hora_publicacion": "16:48",
+      "fecha_consulta_real": "2026-11-20",
+      "evidencia_temporal": "Publicación fechada la tarde del día anterior al corte; incluso con incertidumbre de zona horaria europea queda antes del corte.",
+      "reserva_temporal": "La tabla conserva solo seis candidaturas nacionales; no representa el total100%. Panel y campos solapados; el tamaño acumulado no crea cinco encuestas independientes. No interpretar variaciones pequeñas como cambios estadísticamente acreditados. No hacer medias con40dB ni asignar causalmente transferencias de voto por el titular. No transformar estimaciones en probabilidades SOPHHIA.",
+      "admitida_como_hecho_al_corte": true
+    },
+    {
+      "id": "rtve_20261116",
+      "medio": "RTVE Noticias",
+      "titulo": "Sánchez con Lula, ley de nietos vasca, propuestas fiscales, migración o vivienda marcan el primer lunes de campaña",
+      "url": "https://www.rtve.es/noticias/20261116/diario-campana-29n-16-noviembre/17309180.shtml",
+      "fecha_publicacion": "2026-11-16",
+      "hora_publicacion": "2026-11-16T13:26:00+01:00",
+      "fecha_consulta_real": "2026-11-20",
+      "evidencia_temporal": "Publicación y, cuando existe, actualización visibles del día anterior al corte.",
+      "reserva_temporal": "Reconstrucción con página consultada20/11; no se dispone de captura archivada contemporánea. Las propuestas se atribuyen a sus promotores y no se presentan como hechos consumados ni pactos firmados. Los sondeos que pueda mencionar la crónica se sustituyen por el documento original de la casa.",
+      "admitida_como_hecho_al_corte": true
+    },
+    {
+      "id": "ine_20261009",
+      "medio": "INE",
+      "titulo": "Elecciones a Cortes Generales de29 de noviembre de2026",
+      "url": "https://www.ine.es/dyngs/Prensa/es/EG2026.htm",
+      "fecha_publicacion": "2026-10-09",
+      "hora_publicacion": null,
+      "fecha_consulta_real": "2026-11-20",
+      "evidencia_temporal": "Nota con fecha9/10/2026, anterior a todos los cortes.",
+      "reserva_temporal": "Usar como marco y próximo hito administrativo, no como estimación de participación.",
+      "admitida_como_hecho_al_corte": true
+    },
+    {
+      "id": "boe_20261006",
+      "medio": "BOE",
+      "titulo": "Real Decreto806/2026, de5 de octubre",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "fecha_publicacion": "2026-10-06",
+      "hora_publicacion": null,
+      "fecha_consulta_real": "2026-11-20",
+      "evidencia_temporal": "Texto original publicado el6/10, anterior a todas las jornadas recuperadas.",
+      "reserva_temporal": "",
+      "admitida_como_hecho_al_corte": true
+    }
+  ],
+  "sync_version": "2026-11-17-D042-REC20261120",
+  "ventana_novedades": {
+    "desde_exclusivo": "2026-11-16T09:30:00+01:00",
+    "hasta_inclusivo": "2026-11-17T09:30:00+01:00",
+    "timezone": "Europe/Madrid"
+  },
+  "anterior": {
+    "codigo": "D-041",
+    "fecha": "2026-11-16",
+    "fecha_legible": "16 de noviembre de 2026",
+    "titulo": "La vivienda abre la semana de campaña entre estimaciones nacionales divergentes",
+    "url": "diario/2026-11-16.html",
+    "estado": "Interpretación y codificación D-041 pendientes de validación humana"
+  },
+  "demoscopia": {
+    "estudios_de_voto_incorporados_hoy": 2,
+    "estudios_en_historico": 22,
+    "casas_en_panel": 9,
+    "nuevas_estimaciones_nacionales_voto_verificadas": 2,
+    "nuevas_publicaciones_preferencias_gobierno": 0,
+    "ampliaciones_documentales_estudios_existentes": 0,
+    "ultima_incorporacion_cuantitativa_voto": "2026-11-17",
+    "resultado_busqueda": "Se recuperan dos publicaciones nacionales originales, de 40dB y ElectoPanel, admisibles al corte propio. Incorporación efectiva realizada el 20/11/2026; campos solapados y sin agregación nueva.",
+    "agregacion": "Una observación vigente por casa; registros históricos conservados. No se promedian los estudios en la entrega diaria.",
+    "limite": "Las estimaciones vigentes pertenecen a sus institutos. NC Report, Data10, Celeste Tel, CIS y el estudio del Senado mantienen reservas específicas.",
+    "documentos_excluidos_del_corte": [],
+    "documentos_no_incorporados_por_ficha_incompleta": [
+      "Sondeos internos citados sin ficha técnica pública completa"
+    ],
+    "modelos_secundarios_revisados": [],
+    "fecha_revision": "2026-11-20",
+    "hora_revision": "15:50:08 CET",
+    "nuevas_encuestas_nacionales_admitidas": 2,
+    "exclusiones": [
+      "Ikerfel · País Vasco · ámbito territorial",
+      "SyM Consulting · Comunitat Valenciana · ámbito territorial"
+    ]
+  },
+  "codificacion": {
+    "metodo": "REG-SERIES-29N-001",
+    "version_regla": "1.0",
+    "estado": "codificacion_D042_pendiente_IH",
+    "ultima_fecha_codificada": "2026-11-17",
+    "nota": "Valores calculados desde unidades documentales revisadas; escenarios conservados expresamente desde D-040. Null sólo por ausencia revisada. Sin recalibración.",
+    "reconstruida_el": "2026-11-20"
+  },
+  "corte_iso": "2026-11-17T09:30:00+01:00",
+  "zona_corte": "CET",
+  "cambios": [
+    "Se añade el quinto tracking de 40dB, con campo del 12 al 16 de noviembre.",
+    "Se incorpora ElectoPanel publicado el 16 por la tarde.",
+    "Se registra la condición anunciada por Colau sobre un primer decreto de alquileres.",
+    "Se documentan propuestas de Junts sobre fiscalidad y competencias migratorias.",
+    "Se incorpora el hito del voto CERA en urna del 21 al 26 de noviembre."
+  ],
+  "senales": [
+    {
+      "id": "D042-F01",
+      "tipo": "Vigilancia",
+      "tema": "Actualización de las estimaciones nacionales",
+      "alcance": "40dB ofrece PP 31,8 %, PSOE 30,6 % y Vox 17,5 %. ElectoPanel del día 16 estima 30,5 %, 26,9 % y 18,9 %. La comparación documenta diferencias entre casas; el cambio de muestra y el solapamiento de campos aconsejan evitar conclusiones sobre movimientos estadísticamente acreditados.",
+      "fuentes": [
+        "40db_20261117",
+        "electopanel_20261116"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D042-F02",
+      "tipo": "Vigilancia",
+      "tema": "Colau condiciona una coalición a medidas de alquiler",
+      "alcance": "Colau vincula una posible coalición con Sánchez a un primer decreto destinado a bajar o estabilizar los alquileres. La declaración conecta vivienda y formación de gobierno. Se registra una condición anunciada por una parte, sin atribuir aceptación a otra ni presentar un pacto concluido.",
+      "fuentes": [
+        "rtve_20261116"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D042-F03",
+      "tipo": "Vigilancia",
+      "tema": "Junts expone demandas fiscales y competenciales",
+      "alcance": "Nogueras plantea reducciones fiscales y competencias en materia migratoria. Son elementos de la agenda de Junts recogidos por la crónica de campaña. La ficha los incorpora al seguimiento de la agenda nacionalista catalana, sin suponer un acuerdo posterior ni deducir automáticamente un veto de investidura.",
+      "fuentes": [
+        "rtve_20261116"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D042-F04",
+      "tipo": "Confirmatoria",
+      "tema": "Próximo periodo de depósito del voto CERA",
+      "alcance": "La nota del INE fechada el 9 de octubre establece el depósito del voto CERA en centros habilitados del 21 al 26 de noviembre. Es un hito administrativo conocido antes de este corte. Su proximidad no constituye una estimación de participación ni un indicador de movilización partidista.",
+      "fuentes": [
+        "ine_20261009"
+      ],
+      "validacion": "pendiente_IH"
+    }
+  ],
+  "revision_retrospectiva": {
+    "id": "REC-29N-20261120-1620",
+    "date": "2026-11-20",
+    "from_date": "2026-11-16",
+    "to_date": "2026-11-20",
+    "validation": "pendiente_IH",
+    "reference": "diario/2026-11-20.html#reconstruccion",
+    "cutoff_policy": "09:30 Europe/Madrid en cada fecha",
+    "publication_not_contemporaneous": true
+  },
+  "recuperacion": {
+    "tipo": "retrospectiva_al_corte",
+    "fecha_elaboracion_real": "2026-11-20T15:50:08+01:00",
+    "fecha_reconstruccion": "2026-11-20",
+    "publicacion_programada_en_su_dia": false,
+    "limitacion": "Fuentes consultadas el 20/11 con metadatos históricos visibles; sin captura contemporánea independiente."
+  },
+  "escenarios_lectura_documental": {
+    "id": "D-042-CTX",
+    "type": "context",
+    "origin": "D-040",
+    "text": "La continuidad de escenarios se declara desde D-040: G1, coalición PP‑Vox, y G2, PP con apoyo de Vox, permanecen en vigilancia; G4, reconstrucción progresista, conserva el 3 documental heredado; G5, bloqueo o repetición, sigue como referencia. Se mantiene 2/2/3/1 con origen explícito. Las condiciones de campaña se observan dentro de ese marco, sin añadir un nuevo refuerzo a G4. Ninguna declaración aislada ni actualización de encuesta se transforma aquí en una probabilidad o recalibración del modelo.",
+    "scenario_levels": {
+      "G1 · PP‑Vox coalición": 2,
+      "G2 · PP apoyo Vox": 2,
+      "G4 · Reconstrucción progresista": 3,
+      "G5 · Bloqueo/repetición": 1
+    }
+  },
+  "dimension_territorial": "Las propuestas de Junts permiten registrar una agenda catalana concreta. La crónica también recoge la voluntad de ERC de influir en un eventual Gobierno socialista y prioridades sociales de EH Bildu; esas menciones no se codifican como vetos ni como compromisos de apoyo. Importa identificar quién formula cada condición y qué parte podría aceptarla. Sin esa precisión, la categoría territorial mezclaría demandas diferentes bajo una única etiqueta. Se mantiene abierta la comprobación de compatibilidades, con niveles solo allí donde existe un registro específico y sin deducir conducta parlamentaria de los porcentajes nacionales.",
+  "incertidumbres": [
+    "Una condición anunciada por un partido no acredita aceptación por sus posibles socios.",
+    "La reconstrucción utiliza fechas y horas visibles de páginas consultadas el 20 de noviembre, sin archivo contemporáneo independiente.",
+    "El calendario dinámico del INE contiene cambios posteriores a este corte; se utiliza solo la nota fechada del 9 de octubre para el hito CERA."
+  ],
+  "proximas_comprobaciones": [
+    "Buscar respuestas explícitas a la condición sobre alquileres y distinguir coincidencias programáticas de acuerdos.",
+    "Comprobar si Junts concreta requisitos para apoyar o abstenerse en una investidura.",
+    "Revisar los siguientes sondeos y los avisos institucionales fechados sin incorporar novedades posteriores al corte."
+  ]
+}

@@ -1,7 +1,47 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-15",
+  "ultima_actualizacion": "2026-11-20",
   "entradas": [
+    {
+      "codigo": "D-045",
+      "fecha": "2026-11-20",
+      "titulo": "Vivienda y pensiones en el cara a cara; las encuestas conservan su campo anterior",
+      "url": "diario/2026-11-20.html",
+      "estado": "Reconstrucción retrospectiva · interpretación y codificación pendientes IH",
+      "reconstruida_el": "2026-11-20"
+    },
+    {
+      "codigo": "D-044",
+      "fecha": "2026-11-19",
+      "titulo": "Vivienda y condiciones de pacto antes del cara a cara",
+      "url": "diario/2026-11-19.html",
+      "estado": "Reconstrucción retrospectiva · interpretación y codificación pendientes IH",
+      "reconstruida_el": "2026-11-20"
+    },
+    {
+      "codigo": "D-043",
+      "fecha": "2026-11-18",
+      "titulo": "Pactos, salarios y financiación territorial precisan los asuntos de campaña",
+      "url": "diario/2026-11-18.html",
+      "estado": "Reconstrucción retrospectiva · interpretación y codificación pendientes IH",
+      "reconstruida_el": "2026-11-20"
+    },
+    {
+      "codigo": "D-042",
+      "fecha": "2026-11-17",
+      "titulo": "La vivienda aparece como condición de coalición y continúa la vigilancia de los pactos",
+      "url": "diario/2026-11-17.html",
+      "estado": "Reconstrucción retrospectiva · interpretación y codificación pendientes IH",
+      "reconstruida_el": "2026-11-20"
+    },
+    {
+      "codigo": "D-041",
+      "fecha": "2026-11-16",
+      "titulo": "La vivienda abre la semana de campaña entre estimaciones nacionales divergentes",
+      "url": "diario/2026-11-16.html",
+      "estado": "Reconstrucción retrospectiva · interpretación y codificación pendientes IH",
+      "reconstruida_el": "2026-11-20"
+    },
     {
       "codigo": "D-040",
       "fecha": "2026-11-15",
