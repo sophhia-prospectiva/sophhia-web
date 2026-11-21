@@ -9,132 +9,124 @@
     "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
   ],
   "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
-  "codigo": "D-045",
-  "fecha": "2026-11-20",
-  "fecha_legible": "20 de noviembre de 2026",
+  "codigo": "D-046",
+  "fecha": "2026-11-21",
+  "fecha_legible": "21 de noviembre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "Vivienda y pensiones en el cara a cara; las encuestas conservan su campo anterior",
+  "titulo": "40dB estrecha la distancia PP–PSOE mientras el calendario electoral entra en fase operativa",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación y codificación D-045 pendientes de validación humana",
+  "validacion": "Interpretación y codificación D-046 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_verificada",
-  "resumen": "Reconstrucción realizada el 20 de noviembre con corte a las 09:30 del mismo día y validación IH pendiente. La crónica de RTVE publicada durante la madrugada permite incorporar el debate entre Sánchez y Feijóo, con vivienda y pensiones entre sus asuntos. El octavo tracking de 40dB y ElectoPanel conservan trabajos de campo anteriores al encuentro; sus cifras no miden su efecto. Se registra también la propuesta de Colau sobre la comisión de la DANA. La lectura distingue propuestas, mediciones previas y seguimiento territorial, manteniendo intacto el modelo.",
-  "resumen_ciudadana": "El cara a cara ya entra en esta edición porque su crónica se publicó antes de las 09:30. Vivienda y pensiones forman parte de lo discutido. Las encuestas disponibles proceden de entrevistas anteriores al debate y no permiten saber cómo reaccionó el electorado. También se recoge una propuesta sobre la investigación de la DANA. Esta reconstrucción del día 20 conserva sus reservas documentales y necesita validación humana de la clasificación.",
-  "senal_principal": "Vivienda y pensiones en el cara a cara; las encuestas conservan su campo anterior",
-  "variable_vigilancia": "Vivienda=3; Inflación/coste de vida=2; Fragmentación izquierda=null (ausencia revisada); Relación PP‑Vox=null (ausencia revisada); Participación=null (ausencia revisada); Bloqueo=null (ausencia revisada).",
-  "variable_territorial": "Agenda nacionalista catalana=null (ausencia revisada); Agenda nacionalista vasca=null (ausencia revisada); Veto/bisagra territorial=null (ausencia revisada); Compatibilidad programática-territorial=null (ausencia revisada); Agendas territoriales complementarias=2.",
-  "decision": "D-045 y las entregas posteriores a D-015 conservan su estado pendiente de validación humana. D-015 mantiene DEC-IH-D015-001, D-014 DEC-IH-D014-001 y D-012 DEC-IH-D012-001 con sus alcances originales. La publicación no valida interpretaciones ni codificaciones.",
-  "url": "diario/2026-11-20.html",
+  "estado_publicacion": "publicada_pendiente_verificacion",
+  "resumen": "El noveno tracking de 40dB reduce a siete décimas la distancia entre PP y PSOE; ElectoPanel mantiene una separación mayor. El voto por correo se amplía hasta el 26 a las 14:00 y comienza el depósito CERA. Las propuestas ferroviarias añaden un contraste programático. No se promedian sondeos ni se recalibra el modelo.",
+  "resumen_ciudadana": "Dos encuestas ofrecen fotografías diferentes: 40dB acerca al PP y al PSOE, mientras ElectoPanel mantiene más distancia. El calendario electoral cambia: el voto por correo puede depositarse hasta el 26 a las 14:00 y hoy comienza el voto CERA en urna. SOPHHIA conserva las reservas y no convierte estas cifras en un pronóstico propio.",
+  "senal_principal": "40dB estrecha la distancia PP–PSOE mientras el calendario electoral entra en fase operativa",
+  "variable_vigilancia": "Vivienda=null (ausencia revisada); Inflación/coste de vida=null (ausencia revisada); Fragmentación izquierda=2; Relación PP‑Vox=2; Participación=2; Bloqueo=null (ausencia revisada).",
+  "variable_territorial": "Agenda nacionalista catalana=null (ausencia revisada); Agenda nacionalista vasca=null (ausencia revisada); Veto/bisagra territorial=null (ausencia revisada); Compatibilidad programática-territorial=null (ausencia revisada); Agendas territoriales complementarias=null (ausencia revisada).",
+  "decision": "D-046 queda pendiente de validación humana. Las decisiones DEC-IH anteriores conservan exclusivamente su alcance original. La publicación técnica no valida interpretaciones ni codificaciones.",
+  "url": "diario/2026-11-21.html",
   "fuentes_temporales": [
     {
-      "id": "40db_20261120",
+      "id": "40db_20261120_d09",
       "medio": "40dB para EL PAÍS y Cadena SER",
-      "titulo": "Tracking electoral, día 08",
-      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-tracking-electoral/informe_tracking_dia08.pdf",
+      "titulo": "Tracking electoral, día 09",
+      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-tracking-electoral/informe_tracking_dia09.pdf",
+      "fecha_publicacion": "2026-11-20T14:26:00+01:00",
+      "fecha_consulta_real": "2026-11-21",
+      "evidencia_temporal": "Admitida al corte del 21/11; artículo y PDF originales publicados el 20/11.",
+      "reserva_temporal": "El acumulado contiene 500 entrevistas posteriores al debate, pero no permite aislar un efecto causal ni convertir el resultado en probabilidad SOPHHIA.",
+      "admitida_como_hecho_al_corte": true
+    },
+    {
+      "id": "electopanel_20261120",
+      "medio": "Electomanía / ElectoPanel",
+      "titulo": "ElectoPanel, 20 de noviembre",
+      "url": "https://electomania.es/tracking-electopanel-20-nov-el-pp-sale-reforzado-del-cara-a-cara/",
       "fecha_publicacion": "2026-11-20",
-      "hora_publicacion": null,
-      "fecha_consulta_real": "2026-11-20",
-      "evidencia_temporal": "Artículo original del coeditor EL PAÍS fechado19/11 20:00 CET enlaza directamente (enlace26) al PDF día08, portada20/11, y detalla campo15–19 y n2000. También coinciden sus cifras de preferencias y escaños con día08. La relación artículo–PDF y los metadatos se observaron el20/11; no existe captura histórica independiente. Se admite al corte20 con esa salvedad explícita.",
-      "reserva_temporal": "Campos solapados: no son observaciones independientes. Margen declarado por la casa; no equivale a intervalo de la estimación modelizada ni de una diferencia partidista. Conservar Frente Amplio y otras coaliciones territoriales como categorías separadas del PDF; algunos agregadores las suman indebidamente. No se trasladan escaños: divergencias entre secundarios y extracción original. No es probabilidad de escenario SOPHHIA ni autoriza recalibrar MICMAC, A000 o DEC-IH. La portada del informe dice20/11, mientras el artículo enlazante está fechado19/11 20:00. No asignar al propio PDF una hora que no contiene; citar ambas fechas y la comprobación del enlace original.",
+      "fecha_consulta_real": "2026-11-21",
+      "evidencia_temporal": "Admitida al corte del 21/11; publicación del día anterior.",
+      "reserva_temporal": "Campo amplio y panel solapado; las respuestas posteriores al debate no acreditan por sí solas su efecto.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "electopanel_20261119",
-      "medio": "Electomanía / ElectoPanel; Estudios y Minería de Datos SL",
-      "titulo": "ElectoPanel · publicación 2026-11-19",
-      "url": "https://electomania.es/tracking-electopanel-19-nov-sanchez-mete-el-turbo-a-costa-de-su-izquierda-con-la-derecha-en-187-escanos/",
-      "fecha_publicacion": "2026-11-19",
-      "hora_publicacion": "19:31",
-      "fecha_consulta_real": "2026-11-20",
-      "evidencia_temporal": "Publicación fechada la tarde del día anterior al corte; incluso con incertidumbre de zona horaria europea queda antes del corte.",
-      "reserva_temporal": "La tabla conserva solo seis candidaturas nacionales; no representa el total100%. Panel y campos solapados; el tamaño acumulado no crea cinco encuestas independientes. No interpretar variaciones pequeñas como cambios estadísticamente acreditados. No hacer medias con40dB ni asignar causalmente transferencias de voto por el titular. No transformar estimaciones en probabilidades SOPHHIA.",
-      "admitida_como_hecho_al_corte": true
-    },
-    {
-      "id": "rtve_debate_20261120",
-      "medio": "RTVE Noticias",
-      "titulo": "Crónica del cara a cara de Sánchez y Feijóo",
-      "url": "https://www.rtve.es/noticias/20261120/debate-electoral-pedro-sanchez-feijoo-elecciones-2026-cronica/17318763.shtml",
+      "id": "correos_jec_20261120",
+      "medio": "Correos / Junta Electoral Central",
+      "titulo": "Ampliación del plazo de voto por correo",
+      "url": "https://www.correos.com/sala-prensa/la-junta-electoral-central-amplia-el-plazo-para-depositar-el-voto-por-correo-hasta-el-jueves-26-de-noviembre-como-maximo-hasta-las-1400-horas/",
       "fecha_publicacion": "2026-11-20",
-      "hora_publicacion": "2026-11-20T00:19:00+01:00",
-      "fecha_consulta_real": "2026-11-20",
-      "evidencia_temporal": "Publicación00:19 y actualización01:54 anteriores a09:30 del20/11.",
-      "reserva_temporal": "No atribuir ganadores ni efecto electoral sin medición posterior admisible. 40dB20 y ElectoPanel19 terminan campo antes de la emisión del debate.",
+      "fecha_consulta_real": "2026-11-21",
+      "evidencia_temporal": "Admitida; nota oficial anterior al corte.",
+      "reserva_temporal": "La ampliación fija un plazo procedimental; no permite inferir participación efectiva.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "rtve_20261119",
-      "medio": "RTVE Noticias",
-      "titulo": "Diario de campaña del19 de noviembre",
-      "url": "https://www.rtve.es/noticias/20261119/diario-campana-29n-19-noviembre/17309191.shtml",
-      "fecha_publicacion": "2026-11-19",
-      "hora_publicacion": "2026-11-19T14:35:00+01:00",
-      "fecha_consulta_real": "2026-11-20",
-      "evidencia_temporal": "Publicación y, cuando existe, actualización visibles del día anterior al corte.",
-      "reserva_temporal": "Reconstrucción con página consultada20/11; no se dispone de captura archivada contemporánea. Las propuestas se atribuyen a sus promotores y no se presentan como hechos consumados ni pactos firmados. Los sondeos que pueda mencionar la crónica se sustituyen por el documento original de la casa.",
-      "admitida_como_hecho_al_corte": true
-    },
-    {
-      "id": "ine_20261009",
-      "medio": "INE",
-      "titulo": "Elecciones a Cortes Generales de29 de noviembre de2026",
-      "url": "https://www.ine.es/dyngs/Prensa/es/EG2026.htm",
+      "id": "ine_cera_20261121",
+      "medio": "INE · Oficina del Censo Electoral",
+      "titulo": "Plazos electorales del 29-N",
+      "url": "https://www.ine.es/dyngs/CEL/es/index.htm?cid=1702",
       "fecha_publicacion": "2026-10-09",
-      "hora_publicacion": null,
-      "fecha_consulta_real": "2026-11-20",
-      "evidencia_temporal": "Nota con fecha9/10/2026, anterior a todos los cortes.",
-      "reserva_temporal": "Usar como marco y próximo hito administrativo, no como estimación de participación.",
+      "fecha_consulta_real": "2026-11-21",
+      "evidencia_temporal": "Admitida para todos los cortes; calendario oficial.",
+      "reserva_temporal": "El inicio del depósito CERA no acredita volumen de votos ni ventaja partidista.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "boe_20261006",
-      "medio": "BOE",
-      "titulo": "Real Decreto806/2026, de5 de octubre",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
-      "fecha_publicacion": "2026-10-06",
-      "hora_publicacion": null,
-      "fecha_consulta_real": "2026-11-20",
-      "evidencia_temporal": "Texto original publicado el6/10, anterior a todas las jornadas recuperadas.",
-      "reserva_temporal": "",
+      "id": "elpais_ferrocarril_20261121",
+      "medio": "EL PAÍS",
+      "titulo": "Propuestas ferroviarias de PP y PSOE",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-21/miles-de-millones-para-el-ferrocarril-garantizar-la-seguridad-en-la-alta-velocidad-decanta-votos.html",
+      "fecha_publicacion": "2026-11-21T05:30:00+01:00",
+      "fecha_consulta_real": "2026-11-21",
+      "evidencia_temporal": "Admitida; publicación 05:30 CET anterior al corte.",
+      "reserva_temporal": "Las cifras son compromisos programáticos descritos por el medio, no presupuestos aprobados ni ejecución acreditada.",
+      "admitida_como_hecho_al_corte": true
+    },
+    {
+      "id": "elpais_supremo_20261120",
+      "medio": "EL PAÍS",
+      "titulo": "Resolución del Supremo sobre el censo de nacionalizados",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/el-supremo-mantiene-suspendido-el-voto-a-163000-nacionalizados-por-la-ley-de-nietos-aunque-ahora-vivan-en-espana.html",
+      "fecha_publicacion": "2026-11-20T19:08:00+01:00",
+      "fecha_consulta_real": "2026-11-21",
+      "evidencia_temporal": "Admitida al corte siguiente; crónica judicial publicada el 20/11.",
+      "reserva_temporal": "Se conserva la atribución periodística y la discrepancia entre listados; no sustituye la lectura del expediente judicial completo.",
       "admitida_como_hecho_al_corte": true
     }
   ],
-  "sync_version": "2026-11-20-D045-REC20261120",
+  "sync_version": "2026-11-21-D046",
   "ventana_novedades": {
-    "desde_exclusivo": "2026-11-19T09:30:00+01:00",
-    "hasta_inclusivo": "2026-11-20T09:30:00+01:00",
+    "desde_exclusivo": "2026-11-20T09:30:00+01:00",
+    "hasta_inclusivo": "2026-11-21T09:30:00+01:00",
     "timezone": "Europe/Madrid"
   },
   "anterior": {
-    "codigo": "D-044",
-    "fecha": "2026-11-19",
-    "fecha_legible": "19 de noviembre de 2026",
-    "titulo": "Vivienda y condiciones de pacto antes del cara a cara",
-    "url": "diario/2026-11-19.html",
-    "estado": "Interpretación y codificación D-044 pendientes de validación humana"
+    "codigo": "D-045",
+    "fecha": "2026-11-20",
+    "fecha_legible": "20 de noviembre de 2026",
+    "titulo": "Vivienda y pensiones en el cara a cara; las encuestas conservan su campo anterior",
+    "url": "diario/2026-11-20.html",
+    "estado": "Interpretación y codificación D-045 pendientes de validación humana"
   },
   "demoscopia": {
     "estudios_de_voto_incorporados_hoy": 2,
-    "estudios_en_historico": 28,
+    "estudios_en_historico": 30,
     "casas_en_panel": 9,
     "nuevas_estimaciones_nacionales_voto_verificadas": 2,
     "nuevas_publicaciones_preferencias_gobierno": 0,
     "ampliaciones_documentales_estudios_existentes": 0,
-    "ultima_incorporacion_cuantitativa_voto": "2026-11-20",
-    "resultado_busqueda": "Se recuperan dos publicaciones nacionales originales, de 40dB y ElectoPanel, admisibles al corte propio. Incorporación efectiva realizada el 20/11/2026; campos solapados y sin agregación nueva.",
-    "agregacion": "Una observación vigente por casa; registros históricos conservados. No se promedian los estudios en la entrega diaria.",
+    "ultima_incorporacion_cuantitativa_voto": "2026-11-21",
+    "resultado_busqueda": "Se incorporan 40dB día 09 y ElectoPanel del 20 como publicaciones separadas, ambas admisibles al corte. No se promedian ni se atribuyen causalmente al debate.",
+    "agregacion": "Una observación por publicación y casa; campos solapados y paneles no independientes.",
     "limite": "Las estimaciones vigentes pertenecen a sus institutos. NC Report, Data10, Celeste Tel, CIS y el estudio del Senado mantienen reservas específicas.",
-    "documentos_excluidos_del_corte": [
-      "Sondeo urgente del debate publicado el 20/11 a las 14:01"
-    ],
+    "documentos_excluidos_del_corte": [],
     "documentos_no_incorporados_por_ficha_incompleta": [
       "Sondeos internos citados sin ficha técnica pública completa"
     ],
     "modelos_secundarios_revisados": [],
-    "fecha_revision": "2026-11-20",
-    "hora_revision": "15:50:08 CET",
+    "fecha_revision": "2026-11-21",
+    "hora_revision": "09:51:59 CET",
     "nuevas_encuestas_nacionales_admitidas": 2,
     "exclusiones": [
       "Ikerfel · País Vasco · ámbito territorial",
@@ -144,95 +136,77 @@
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D045_pendiente_IH",
-    "ultima_fecha_codificada": "2026-11-20",
-    "nota": "Valores calculados desde unidades documentales revisadas; escenarios conservados expresamente desde D-040. Null sólo por ausencia revisada. Sin recalibración.",
-    "reconstruida_el": "2026-11-20"
+    "estado": "codificacion_D046_pendiente_IH",
+    "ultima_fecha_codificada": "2026-11-21",
+    "nota": "Valores calculados desde unidades documentales admisibles; escenarios conservados desde D-040. Null por ausencia revisada. Sin recalibración."
   },
-  "corte_iso": "2026-11-20T09:30:00+01:00",
+  "corte_iso": "2026-11-21T09:30:00+01:00",
   "zona_corte": "CET",
   "cambios": [
-    "Se incorpora la crónica de RTVE publicada a las 00:19 y actualizada a las 01:54.",
-    "Se añade el octavo tracking de 40dB con la salvedad documental de su artículo enlazante fechado el 19.",
-    "Se conserva ElectoPanel del 19 como medición previa al debate.",
-    "Se registran vivienda y pensiones como temas diferenciados del cara a cara.",
-    "Se incorpora la propuesta de Colau sobre la comisión de la DANA."
+    "Se incorpora el noveno tracking de 40dB y el ElectoPanel del 20, manteniéndolos separados.",
+    "Se registra la ampliación oficial del plazo de voto por correo hasta el 26 a las 14:00.",
+    "Comienza la ventana oficial del depósito CERA en urna, del 21 al 26.",
+    "Se contraponen las propuestas ferroviarias publicadas antes del corte.",
+    "Se documenta con atribución la reserva jurídica sobre el censo de nacionalizados."
   ],
   "senales": [
     {
-      "id": "D045-F01",
+      "id": "D046-F01",
       "tipo": "Vigilancia",
-      "tema": "Sondeos anteriores al cara a cara",
-      "alcance": "40dB estima PP 32,2 %, PSOE 30,2 % y Vox 17,6 %, con campo del 15 al 19. ElectoPanel del 19 ofrece 30,4 %, 27,6 % y 18,7 %, con campo hasta el 18. Ninguno permite atribuir cambios al debate nocturno.",
+      "tema": "Dos mediciones nacionales posteriores al corte anterior",
+      "alcance": "40dB sitúa al PP en 31,9 %, al PSOE en 31,2 % y a Vox en 17,1 % (2.000 entrevistas, campo 16–20). ElectoPanel estima 31,0 %, 27,6 % y 18,2 % (6.559 cuestionarios, campo 9–20). Son mediciones distintas y no se promedian.",
       "fuentes": [
-        "40db_20261120",
-        "electopanel_20261119"
+        "40db_20261120_d09",
+        "electopanel_20261120"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D045-F02",
-      "tipo": "Vigilancia",
-      "tema": "La vivienda forma parte del debate",
-      "alcance": "La crónica de RTVE identifica la vivienda entre los asuntos destacados del cara a cara entre Sánchez y Feijóo. La ficha concentra atención documental en ese tema, sin atribuir un efecto electoral a su presencia ni equiparar exposición en el debate con ejecución de medidas.",
-      "fuentes": [
-        "rtve_debate_20261120"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "D045-F03",
-      "tipo": "Vigilancia",
-      "tema": "Compromisos sobre pensiones e IPC",
-      "alcance": "Feijóo expresa compromiso con la revalorización de pensiones según el IPC y Sánchez defiende una garantía constitucional. Se registran dos posiciones del debate sobre protección de ingresos. Su formulación no acredita una reforma aprobada ni permite deducir de ella cambios en la intención de voto.",
-      "fuentes": [
-        "rtve_debate_20261120"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "D045-F04",
-      "tipo": "Vigilancia",
-      "tema": "Propuesta sobre la comisión de la DANA",
-      "alcance": "Colau plantea en Valencia reabrir la comisión de investigación sobre la DANA. El objeto territorial y la propuesta de control institucional permiten un seguimiento específico. Se trata de un compromiso anunciado durante la campaña, no de una reapertura ya acordada o ejecutada.",
-      "fuentes": [
-        "rtve_20261119"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "D045-F05",
+      "id": "D046-F02",
       "tipo": "Confirmatoria",
-      "tema": "El siguiente hito del voto CERA",
-      "alcance": "El periodo de depósito del voto CERA en urna comienza el 21 de noviembre y se extiende hasta el 26, según la nota del INE del 9 de octubre. Se incorpora como próximo hito verificable. No se deduce del calendario un nivel de participación ni una ventaja partidista.",
+      "tema": "El voto por correo se amplía hasta el día 26",
+      "alcance": "La Junta Electoral Central amplía para los electores en España el depósito del voto por correo hasta el jueves 26 de noviembre, en el horario habitual y como máximo hasta las 14:00. Es una modificación del calendario operativo, no una cifra de participación.",
       "fuentes": [
-        "ine_20261009"
+        "correos_jec_20261120"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D046-F03",
+      "tipo": "Confirmatoria",
+      "tema": "Comienza el depósito presencial del voto CERA",
+      "alcance": "El calendario del INE abre del 21 al 26 de noviembre el depósito en urna para residentes en el extranjero. El hito se registra como inicio de una ventana procedimental; no se imputa un volumen de voto.",
+      "fuentes": [
+        "ine_cera_20261121"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D046-F04",
+      "tipo": "Vigilancia",
+      "tema": "El ferrocarril concentra compromisos de inversión",
+      "alcance": "Una comparación publicada a las 05:30 atribuye al PP un plan de infraestructuras de 300.000 millones de euros a 15 años con participación privada y al PSOE 19.000 millones para mantenimiento ferroviario hasta 2030. Son propuestas de campaña sujetas a financiación, contratación y ejecución.",
+      "fuentes": [
+        "elpais_ferrocarril_20261121"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D046-F05",
+      "tipo": "Vigilancia",
+      "tema": "La controversia censal mantiene una reserva jurídica",
+      "alcance": "EL PAÍS informa de que el Supremo exige impedir que las 163.355 identidades del anexo examinado figuren como electores, salvo 901 personas ya acreditadas y quienes certifiquen su condición antes de la votación. Se conserva la atribución y la discrepancia entre cifras administrativas.",
+      "fuentes": [
+        "elpais_supremo_20261120"
       ],
       "validacion": "pendiente_IH"
     }
   ],
-  "revision_retrospectiva": {
-    "id": "REC-29N-20261120-1620",
-    "date": "2026-11-20",
-    "from_date": "2026-11-16",
-    "to_date": "2026-11-20",
-    "validation": "pendiente_IH",
-    "reference": "diario/2026-11-20.html#reconstruccion",
-    "cutoff_policy": "09:30 Europe/Madrid en cada fecha",
-    "publication_not_contemporaneous": true
-  },
-  "recuperacion": {
-    "tipo": "retrospectiva_al_corte",
-    "fecha_elaboracion_real": "2026-11-20T15:50:08+01:00",
-    "fecha_reconstruccion": "2026-11-20",
-    "publicacion_programada_en_su_dia": false,
-    "limitacion": "Fuentes consultadas el 20/11 con metadatos históricos visibles; sin captura contemporánea independiente."
-  },
   "escenarios_lectura_documental": {
-    "id": "D-045-CTX",
+    "id": "D-046-CTX",
     "type": "context",
     "origin": "D-040",
-    "text": "Los escenarios mantienen explícitamente su origen en D-040: G1, coalición PP‑Vox, y G2, PP con apoyo de Vox, en vigilancia; G4, reconstrucción progresista, con nivel documental 3 heredado; G5, bloqueo o repetición, como referencia. Se conserva 2/2/3/1 y no se formula un nuevo refuerzo de G4. La celebración del debate añade contenido al seguimiento, pero no justifica por sí misma cambiar las etiquetas heredadas. No se calculan probabilidades ni se modifican A-000, MICMAC o DEC-IH.",
+    "text": "Se mantiene expresamente la lectura documental heredada de D-040: G1/G2/G4/G5 = 2/2/3/1. Los sondeos del día no son probabilidades SOPHHIA ni justifican un refuerzo o descenso de escenarios. A-000, MICMAC, parámetros y DEC-IH permanecen intactos.",
     "scenario_levels": {
       "G1 · PP‑Vox coalición": 2,
       "G2 · PP apoyo Vox": 2,
@@ -240,22 +214,15 @@
       "G5 · Bloqueo/repetición": 1
     }
   },
-  "dimension_territorial": "La propuesta sobre la DANA aporta un objeto valenciano específico de control institucional, por lo que permite seguimiento de agendas territoriales complementarias. Esa codificación no la convierte en una condición de investidura ni atribuye capacidad de veto a sus promotores. La crónica del día anterior recoge también declaraciones de Puigdemont sobre la investidura de 2023, cuyo contenido no queda verificado por la mera reproducción periodística; no se utiliza como hecho acreditado. La dimensión territorial exige conservar quién afirma cada cosa y distinguir propuesta, controversia y acuerdo cuando se evalúan posibles mayorías.",
+  "dimension_territorial": "No aparece antes del corte una nueva condición territorial de investidura suficientemente acreditada. Las categorías territoriales de los sondeos se conservan en sus publicaciones, pero no se transforman en una señal nueva de veto o compatibilidad programática. La controversia censal afecta a garantías del sufragio y no se codifica como fuerza territorial.",
   "incertidumbres": [
-    "El PDF de 40dB lleva fecha 20, mientras el artículo coeditor que lo enlaza está fechado el 19 a las 20:00; el vínculo se verificó el 20, sin captura histórica.",
-    "El sondeo urgente de Cadena SER publicado a las 14:01 queda fuera del corte; el análisis de DatosRTVE indexado a las 09:29 queda en reserva por fallo de apertura.",
-    "La información disponible no permite atribuir a la emisión del debate cambios en los sondeos con campo anterior."
+    "El tracking de 40dB combina 500 entrevistas posteriores al debate con tres días anteriores; no aísla causalidad.",
+    "ElectoPanel usa panel solapado y un campo más largo; diferencias pequeñas no se interpretan como cambios acreditados.",
+    "La crónica judicial no sustituye el expediente íntegro y conserva una discrepancia entre el anexo de 163.355 identidades y recuentos depurados posteriores."
   ],
   "proximas_comprobaciones": [
-    "Separar cualquier futura medición posterior al debate por fecha y hora de campo, publicación y variable realmente medida.",
-    "Contrastar el detalle de los compromisos de vivienda y pensiones en sus documentos o declaraciones originales.",
-    "Verificar la tramitación efectiva de la propuesta sobre la DANA y los avisos fechados del voto exterior."
-  ],
-  "verificacion_publicacion": {
-    "verified_at": "2026-11-20T15:05:53.247550+00:00",
-    "published_commit": "492efcd7bca5cfb94619340eca1550a45b3345a0",
-    "deployment_run": 44758582527,
-    "method": "Navegación directa a URL canónica sin parámetros anticaché; contenido, fecha, corte y secciones A–I comprobados",
-    "retrospective": true
-  }
+    "Separar las siguientes mediciones por casa, campo y momento posterior al debate.",
+    "Comprobar la ejecución efectiva de los plazos de voto por correo y CERA sin inferir participación.",
+    "Contrastar la financiación y el calendario de las propuestas ferroviarias en documentos programáticos y presupuestarios."
+  ]
 }

@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-20",
+  "ultima_actualizacion": "2026-11-21",
   "entradas": [
+    {
+      "codigo": "D-046",
+      "fecha": "2026-11-21",
+      "titulo": "PP y PSOE se acercan en 40dB y se amplía el plazo del voto por correo",
+      "url": "diario/2026-11-21.html",
+      "estado": "Interpretación y codificación pendientes IH"
+    },
     {
       "codigo": "D-045",
       "fecha": "2026-11-20",
