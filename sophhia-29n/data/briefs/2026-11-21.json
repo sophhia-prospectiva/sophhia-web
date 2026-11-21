@@ -19,7 +19,19 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-046 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
+  "verificacion_publicacion": {
+    "verified_at": "2026-11-21T10:02:19+01:00",
+    "commit_sha": "79063d86707b4f0e6a8b0f7787258345c90a292a",
+    "deployment_run_id": 44887522551,
+    "method": "URLs canónicas verificadas sin parámetros anticaché",
+    "urls": [
+      "https://sophhia.com/sophhia-29n/",
+      "https://sophhia.com/sophhia-29n/diario/2026-11-21.html",
+      "https://sophhia.com/sophhia-29n/ciudadana/",
+      "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-21.html"
+    ]
+  },
   "resumen": "El noveno tracking de 40dB reduce a siete décimas la distancia entre PP y PSOE; ElectoPanel mantiene una separación mayor. El voto por correo se amplía hasta el 26 a las 14:00 y comienza el depósito CERA. Las propuestas ferroviarias añaden un contraste programático. No se promedian sondeos ni se recalibra el modelo.",
   "resumen_ciudadana": "Dos encuestas ofrecen fotografías diferentes: 40dB acerca al PP y al PSOE, mientras ElectoPanel mantiene más distancia. El calendario electoral cambia: el voto por correo puede depositarse hasta el 26 a las 14:00 y hoy comienza el voto CERA en urna. SOPHHIA conserva las reservas y no convierte estas cifras en un pronóstico propio.",
   "senal_principal": "40dB estrecha la distancia PP–PSOE mientras el calendario electoral entra en fase operativa",
