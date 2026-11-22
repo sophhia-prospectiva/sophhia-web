@@ -19,7 +19,18 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-047 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
+  "verificacion_publicacion": {
+    "verified_at": "2026-11-22T09:50:48+01:00",
+    "commit_sha": "130e39948d7737babfd6cf41875d3ca4c9c63868",
+    "method": "URLs canónicas verificadas sin parámetros anticaché",
+    "urls": [
+      "https://sophhia.com/sophhia-29n/",
+      "https://sophhia.com/sophhia-29n/diario/2026-11-22.html",
+      "https://sophhia.com/sophhia-29n/ciudadana/",
+      "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-22.html"
+    ]
+  },
   "resumen": "40dB sitúa al PP y al PSOE a tres décimas, una distancia muy inferior a su margen de error; ElectoPanel mantiene 3,1 puntos y eleva a 34 los escaños en disputa. RTVE fija para el 23-N un debate a ocho sobre vivienda, economía y pactos. Las mediciones permanecen separadas y no recalibran SOPHHIA.",
   "resumen_ciudadana": "40dB acerca al PP y al PSOE, pero ElectoPanel mantiene más distancia. No se promedian: cada sondeo conserva su método y sus límites. RTVE celebrará el 23-N un debate a ocho sobre vivienda, economía y pactos. SOPHHIA no convierte estas cifras en una probabilidad propia.",
   "senal_principal": "40dB acerca PP y PSOE mientras ElectoPanel mantiene una brecha mayor",
