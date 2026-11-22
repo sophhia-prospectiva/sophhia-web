@@ -1,13 +1,13 @@
 {
-  "version": "v0.66-D046",
-  "mode": "Jornada ordinaria D-046; pendiente IH.",
+  "version": "v0.67-D047",
+  "mode": "Jornada ordinaria D-047; pendiente IH.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-11-21",
-  "current_entry": "D-046",
-  "last_numeric_date": "2026-11-21",
-  "updated": "2026-11-21",
+  "cutoff": "2026-11-22",
+  "current_entry": "D-047",
+  "last_numeric_date": "2026-11-22",
+  "updated": "2026-11-22",
   "reconstruction_date": "2026-11-20",
-  "interpretation_cutoff": "2026-11-21T09:30:00+01:00",
+  "interpretation_cutoff": "2026-11-22T09:30:00+01:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
     {
@@ -330,6 +330,14 @@
       "retrospective": false,
       "cutoff": "2026-11-21T09:30:00+01:00",
       "elaborated_at": "2026-11-21T09:51:59+01:00"
+    },
+    {
+      "date": "2026-11-22",
+      "entry": "D-047",
+      "source_status": "rutina_ordinaria_codificacion_pendiente_IH",
+      "retrospective": false,
+      "cutoff": "2026-11-22T09:30:00+01:00",
+      "elaborated_at": "2026-11-22T09:43:01+01:00"
     }
   ],
   "scenarios": {
@@ -371,6 +379,7 @@
       1,
       1,
       1,
+      2,
       2,
       2,
       2,
@@ -427,6 +436,7 @@
       2,
       2,
       2,
+      2,
       2
     ],
     "G4 · Reconstrucción progresista": [
@@ -475,6 +485,7 @@
       3,
       3,
       3,
+      3,
       3
     ],
     "G5 · Bloqueo/repetición": [
@@ -487,6 +498,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -573,7 +585,8 @@
       3,
       2,
       3,
-      2
+      2,
+      3
     ],
     "PSOE + izquierda": [
       0,
@@ -621,7 +634,8 @@
       2,
       2,
       4,
-      2
+      2,
+      3
     ],
     "Territoriales/bisagra": [
       0,
@@ -669,7 +683,8 @@
       1,
       1,
       1,
-      0
+      0,
+      2
     ],
     "Garantías y procedimiento": [
       0,
@@ -717,7 +732,8 @@
       0,
       1,
       2,
-      3
+      3,
+      2
     ]
   },
   "variables": {
@@ -767,7 +783,8 @@
       null,
       2,
       3,
-      null
+      null,
+      1
     ],
     "Inflación/coste de vida": [
       1,
@@ -815,6 +832,7 @@
       2,
       null,
       2,
+      null,
       null
     ],
     "Fragmentación izquierda": [
@@ -863,6 +881,7 @@
       null,
       null,
       null,
+      2,
       2
     ],
     "Relación PP‑Vox": [
@@ -911,7 +930,8 @@
       2,
       3,
       null,
-      2
+      2,
+      3
     ],
     "Participación": [
       null,
@@ -959,7 +979,8 @@
       null,
       null,
       null,
-      2
+      2,
+      null
     ],
     "Bloqueo": [
       1,
@@ -1007,7 +1028,8 @@
       null,
       null,
       null,
-      null
+      null,
+      2
     ]
   },
   "territorial": {
@@ -1057,7 +1079,8 @@
       2,
       null,
       null,
-      null
+      null,
+      1
     ],
     "Agenda nacionalista vasca": [
       null,
@@ -1105,7 +1128,8 @@
       null,
       null,
       null,
-      null
+      null,
+      1
     ],
     "Veto/bisagra territorial": [
       null,
@@ -1153,7 +1177,8 @@
       2,
       null,
       null,
-      null
+      null,
+      2
     ],
     "Compatibilidad programática-territorial": [
       null,
@@ -1201,7 +1226,8 @@
       2,
       null,
       null,
-      null
+      null,
+      1
     ],
     "Agendas territoriales complementarias": [
       null,
@@ -1249,7 +1275,8 @@
       null,
       null,
       2,
-      null
+      null,
+      1
     ]
   },
   "signals": {
@@ -1299,6 +1326,7 @@
       0,
       1,
       1,
+      2,
       2
     ],
     "Vigilancia": [
@@ -1347,9 +1375,11 @@
       4,
       3,
       4,
-      3
+      3,
+      2
     ],
     "Disruptivas": [
+      0,
       0,
       0,
       0,
@@ -1443,6 +1473,7 @@
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1453,15 +1484,15 @@
     "territorial": "ordinal_1_3",
     "signals": "counts"
   },
-  "validation": "Interpretación y codificación D-046 pendientes de validación humana",
+  "validation": "Interpretación y codificación D-047 pendientes de validación humana",
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
   "note": "Rutina ordinaria al corte 09:30 CET. Sin recalibración de A-000, MICMAC, parámetros o DEC-IH.",
   "readings": {
     "scenarios": "Continuidad explícita de D-040: G1/G2/G4/G5 = 2/2/3/1; etiquetas documentales, no probabilidades.",
-    "blocks": "PP‑Vox=2; PSOE + izquierda=2; Territoriales/bisagra=0; Garantías y procedimiento=3.",
-    "variables": "Vivienda=null (ausencia revisada); Inflación/coste de vida=null (ausencia revisada); Fragmentación izquierda=2; Relación PP‑Vox=2; Participación=2; Bloqueo=null (ausencia revisada).",
-    "territorial": "Agenda nacionalista catalana=null (ausencia revisada); Agenda nacionalista vasca=null (ausencia revisada); Veto/bisagra territorial=null (ausencia revisada); Compatibilidad programática-territorial=null (ausencia revisada); Agendas territoriales complementarias=null (ausencia revisada).",
-    "signals": "Confirmatorias=2; Vigilancia=3; Disruptivas=0; Recalibradoras=0."
+    "blocks": "PP‑Vox=3; PSOE + izquierda=3; Territoriales/bisagra=2; Garantías y procedimiento=2.",
+    "variables": "Vivienda=1; Inflación/coste de vida=null (ausencia revisada); Fragmentación izquierda=2; Relación PP‑Vox=3; Participación=null (ausencia revisada); Bloqueo=2.",
+    "territorial": "Agenda nacionalista catalana=1; Agenda nacionalista vasca=1; Veto/bisagra territorial=2; Compatibilidad programática-territorial=1; Agendas territoriales complementarias=1.",
+    "signals": "Confirmatorias=2; Vigilancia=2; Disruptivas=0; Recalibradoras=0."
   },
   "reconstructions": [
     {
@@ -2434,10 +2465,10 @@
     }
   ],
   "last_numeric_dates": {
-    "scenarios": "2026-11-21",
-    "blocks": "2026-11-21",
-    "variables": "2026-11-21",
-    "territorial": "2026-11-21",
-    "signals": "2026-11-21"
+    "scenarios": "2026-11-22",
+    "blocks": "2026-11-22",
+    "variables": "2026-11-22",
+    "territorial": "2026-11-22",
+    "signals": "2026-11-22"
   }
 }

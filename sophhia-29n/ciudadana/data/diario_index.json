@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-21",
+  "ultima_actualizacion": "2026-11-22",
   "entradas": [
+    {
+      "codigo": "D-047",
+      "fecha": "2026-11-22",
+      "titulo": "Dos encuestas dibujan distancias distintas entre PP y PSOE",
+      "url": "diario/2026-11-22.html",
+      "estado": "Interpretación y codificación pendientes IH"
+    },
     {
       "codigo": "D-046",
       "fecha": "2026-11-21",
