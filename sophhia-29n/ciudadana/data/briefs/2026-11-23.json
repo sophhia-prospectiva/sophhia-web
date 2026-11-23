@@ -19,7 +19,18 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-048 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
+  "verificacion_publicacion": {
+    "verified_at": "2026-11-23T09:57:30+01:00",
+    "commit_sha": "076069e882a0cfe00c042ce3cb91a917fcc43038",
+    "method": "URLs canónicas verificadas directamente, sin parámetros anticaché",
+    "urls": [
+      "https://sophhia.com/sophhia-29n/",
+      "https://sophhia.com/sophhia-29n/diario/2026-11-23.html",
+      "https://sophhia.com/sophhia-29n/ciudadana/",
+      "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-23.html"
+    ]
+  },
   "resumen": "La preelectoral final de 40dB sitúa al PP en 31,8 %, al PSOE en 30,9 % y a Vox en 17,3 %. La estimación central da 128/124/57 escaños a PP/PSOE/Vox y mantiene mayoría PP–Vox, con las reservas de sus horquillas y del error muestral. El debate a ocho de RTVE se celebrará después del corte.",
   "resumen_ciudadana": "La última preelectoral pública de 40dB deja nueve décimas entre PP y PSOE y mantiene una mayoría de PP y Vox en su estimación central. Son datos de encuesta, no resultados. El debate a ocho de RTVE tendrá lugar esta noche, por lo que no se anticipan posiciones ni efectos.",
   "senal_principal": "40dB estrecha la primera plaza y mantiene mayoría PP–Vox",
