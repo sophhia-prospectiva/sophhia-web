@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-22",
+  "ultima_actualizacion": "2026-11-23",
   "entradas": [
+    {
+      "codigo": "D-048",
+      "fecha": "2026-11-23",
+      "titulo": "40dB sitúa a PP y PSOE a nueve décimas y mantiene mayoría de derechas",
+      "url": "diario/2026-11-23.html",
+      "estado": "Interpretación y codificación pendientes IH"
+    },
     {
       "codigo": "D-047",
       "fecha": "2026-11-22",

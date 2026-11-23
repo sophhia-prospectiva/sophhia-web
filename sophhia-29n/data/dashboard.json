@@ -1,24 +1,24 @@
 {
-  "version": "v0.67-D047",
-  "updated": "2026-11-22",
+  "version": "v0.68-D048",
+  "updated": "2026-11-23",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 22 de noviembre de 2026 · 09:30 CET · jornada ordinaria",
+  "subtitle": "Corte 23 de noviembre de 2026 · 09:30 CET · jornada ordinaria",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-047",
+  "current_entry": "D-048",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-047 publicada técnicamente; interpretación y codificación pendientes IH; sin recalibración.",
+  "system_state": "D-048 publicada técnicamente; interpretación y codificación pendientes IH; sin recalibración.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad",
-  "main_uncertainty": "La distancia PP–PSOE de 0,3 puntos en 40dB queda muy por debajo del error muestral de ±2,2; no acredita un empate estadístico.",
-  "watch_variable": "Vivienda; Fragmentación izquierda; Relación PP‑Vox; Bloqueo",
+  "main_uncertainty": "La distancia PP–PSOE de 0,9 puntos en 40dB queda dentro del error muestral publicado de ±1,1 puntos; no acredita una igualdad exacta.",
+  "watch_variable": "Vivienda; Fragmentación izquierda; Relación PP‑Vox",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "Se incorpora el décimo tracking de 40dB: PP 31,9 %, PSOE 31,6 % y Vox 16,9 %.",
-    "Se incorpora por separado el ElectoPanel del 21: PP 31,0 %, PSOE 27,9 % y Vox 18,5 %, con 34 escaños en disputa según el instituto.",
-    "Se registra la convocatoria oficial de RTVE para el debate a ocho del 23-N y sus tres bloques temáticos.",
-    "La ventana semanal del gráfico privado pasa a 16–22 de noviembre sin arrastrar valores ni rellenar ausencias."
+    "Se incorpora la Preelectoral II de 40dB publicada a las 05:30 CET: PP 31,8 %, PSOE 30,9 % y Vox 17,3 %.",
+    "Se conserva la estimación central de escaños de la casa: PP 128, PSOE 124, Vox 57; PP–Vox 185 y 187 con UPN-PP, siempre con horquillas.",
+    "Se registra que el debate a ocho de RTVE está programado para las 22:00, después del corte, sin anticipar su contenido efectivo.",
+    "La ventana semanal del gráfico privado pasa a 17–23 de noviembre sin arrastrar valores ni rellenar ausencias."
   ],
   "path": [
     {
@@ -227,6 +227,13 @@
       "title": "40dB acerca PP y PSOE mientras ElectoPanel mantiene una brecha mayor",
       "recalibration": "No",
       "retrospective": false
+    },
+    {
+      "id": "D-048",
+      "date": "2026-11-23",
+      "title": "40dB estrecha la primera plaza y mantiene mayoría PP–Vox",
+      "recalibration": "No",
+      "retrospective": false
     }
   ],
   "scenarios": [
@@ -274,7 +281,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Jornada ordinaria D-047; pendiente IH.",
+    "mode": "Jornada ordinaria D-048; pendiente IH.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -282,20 +289,20 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.67-D047",
-    "cutoff": "2026-11-22",
-    "last_numeric_date": "2026-11-22",
+    "version": "v0.68-D048",
+    "cutoff": "2026-11-23",
+    "last_numeric_date": "2026-11-23",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Interpretación y codificación D-047 pendientes de validación humana",
+    "validation": "Interpretación y codificación D-048 pendientes de validación humana",
     "reconstruction_date": null,
     "last_numeric_dates": {
-      "scenarios": "2026-11-22",
-      "blocks": "2026-11-22",
-      "variables": "2026-11-22",
-      "territorial": "2026-11-22",
-      "signals": "2026-11-22"
+      "scenarios": "2026-11-23",
+      "blocks": "2026-11-23",
+      "variables": "2026-11-23",
+      "territorial": "2026-11-23",
+      "signals": "2026-11-23"
     }
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
@@ -343,9 +350,9 @@
     "daily_observations": []
   },
   "current_reading": {
-    "mode": "Jornada ordinaria D-047; pendiente IH.",
-    "summary": "40dB sitúa al PP y al PSOE a tres décimas, una distancia muy inferior a su margen de error; ElectoPanel mantiene 3,1 puntos y eleva a 34 los escaños en disputa. RTVE fija para el 23-N un debate a ocho sobre vivienda, economía y pactos. Las mediciones permanecen separadas y no recalibran SOPHHIA.",
-    "validation": "Interpretación y codificación D-047 pendientes de validación humana"
+    "mode": "Jornada ordinaria D-048; pendiente IH.",
+    "summary": "La preelectoral final de 40dB sitúa al PP en 31,8 %, al PSOE en 30,9 % y a Vox en 17,3 %. La estimación central da 128/124/57 escaños a PP/PSOE/Vox y mantiene mayoría PP–Vox, con las reservas de sus horquillas y del error muestral. El debate a ocho de RTVE se celebrará después del corte.",
+    "validation": "Interpretación y codificación D-048 pendientes de validación humana"
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -357,8 +364,8 @@
   },
   "demoscopy": {
     "quantitative_references": 9,
-    "historical_studies": 32,
-    "new_quantitative_observations": 2,
+    "historical_studies": 33,
+    "new_quantitative_observations": 1,
     "pending_primary_records": [
       "Celeste Tel / Onda Cero 2026-11-06",
       "F-D020-07"
@@ -367,50 +374,48 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-047 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-048 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "D047-F01",
+      "id": "D048-F01",
       "tipo": "Vigilancia",
-      "tema": "40dB sitúa a PP y PSOE a tres décimas",
-      "alcance": "El décimo tracking de 40dB estima PP 31,9 %, PSOE 31,6 % y Vox 16,9 % (2.000 entrevistas, campo 17–21). La distancia de 0,3 puntos es muy inferior al error muestral publicado de ±2,2 puntos y no acredita un empate estadístico ni un efecto causal del debate.",
+      "tema": "40dB publica su preelectoral final antes del corte",
+      "alcance": "La Preelectoral II de 40dB estima PP 31,8 %, PSOE 30,9 %, Vox 17,3 %, Frente Amplio 3,9 %, coaliciones territoriales de izquierda 1,8 %, Podemos 1,1 % y SALF 1,3 %. Reúne 7.500 entrevistas, con campo del 10 al 21 de noviembre y error muestral publicado de ±1,1 puntos.",
       "fuentes": [
-        "40db_20261121_d10"
+        "40db_preelectoral2_20261123"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D047-F02",
+      "id": "D048-F02",
       "tipo": "Vigilancia",
-      "tema": "ElectoPanel mantiene otra fotografía y eleva la disputa de escaños",
-      "alcance": "ElectoPanel publica PP 31,0 %, PSOE 27,9 %, Vox 18,5 %, Frente Amplio 5,7 % y Podemos 0,9 %. Su estimación atribuye 126/121/59 escaños a PP/PSOE/Vox y señala 34 escaños en disputa. La ficha abierta conserva marcadores sin completar y el panel es solapado; no se combina con 40dB.",
+      "tema": "La estimación central mantiene mayoría PP–Vox",
+      "alcance": "40dB atribuye en su estimación central 128 escaños al PP, 124 al PSOE y 57 a Vox; PP y Vox sumarían 185 y alcanzarían 187 con los dos escaños de UPN-PP citados en la distribución territorial. Son estimaciones de la casa con horquillas, no resultados ni probabilidades SOPHHIA.",
       "fuentes": [
-        "electopanel_20261121"
+        "40db_preelectoral2_20261123"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D047-F03",
+      "id": "D048-F03",
       "tipo": "Confirmatoria",
-      "tema": "RTVE fija un debate a ocho para el 23-N",
-      "alcance": "RTVE anuncia para el lunes 23 a las 22:00 un debate con portavoces de PP, PSOE, Vox, Frente Amplio, ERC, Junts, EH Bildu y PNV. Los bloques serán vivienda y bienestar; economía, empleo e infraestructuras; y clima sociopolítico y pactos. La programación no anticipa posiciones ni acuerdos.",
+      "tema": "El debate a ocho se celebrará después del corte",
+      "alcance": "RTVE mantiene para hoy, 23 de noviembre, a las 22:00, el debate de PP, PSOE, Vox, Frente Amplio, ERC, Junts, EH Bildu y PNV. Sus bloques serán vivienda y bienestar; economía, empleo e infraestructuras; y clima sociopolítico y pactos. Al corte de las 09:30 todavía no se ha celebrado.",
       "fuentes": [
-        "rtve_debate_20261120"
+        "rtve_debate_20261121"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D047-F04",
+      "id": "D048-F04",
       "tipo": "Confirmatoria",
-      "tema": "El calendario electoral entra en la última semana",
-      "alcance": "El 29-N permanece convocado y el proceso continúa dentro de los plazos oficiales. La ventana de publicación de sondeos citada por las casas se cierra el lunes 23; el dato se registra como contexto procedimental, no como señal de participación.",
+      "tema": "El 29-N entra en su semana decisiva",
+      "alcance": "El INE mantiene la convocatoria de las elecciones generales para el 29 de noviembre. Este dato se registra como contexto procedimental y no acredita participación, voto efectivo ni ventaja partidista.",
       "fuentes": [
-        "ine_calendario_20261122",
-        "40db_20261121_d10",
-        "electopanel_20261121"
+        "ine_calendario_20261123"
       ],
       "validacion": "pendiente_IH"
     }

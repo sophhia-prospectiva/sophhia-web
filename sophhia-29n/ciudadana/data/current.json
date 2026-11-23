@@ -9,114 +9,92 @@
     "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
   ],
   "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
-  "codigo": "D-047",
-  "fecha": "2026-11-22",
-  "fecha_legible": "22 de noviembre de 2026",
+  "codigo": "D-048",
+  "fecha": "2026-11-23",
+  "fecha_legible": "23 de noviembre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "40dB acerca PP y PSOE mientras ElectoPanel mantiene una brecha mayor",
+  "titulo": "40dB estrecha la primera plaza y mantiene mayoría PP–Vox",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación y codificación D-047 pendientes de validación humana",
+  "validacion": "Interpretación y codificación D-048 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_verificada",
-  "verificacion_publicacion": {
-    "verified_at": "2026-11-22T09:50:48+01:00",
-    "commit_sha": "130e39948d7737babfd6cf41875d3ca4c9c63868",
-    "method": "URLs canónicas verificadas sin parámetros anticaché",
-    "urls": [
-      "https://sophhia.com/sophhia-29n/",
-      "https://sophhia.com/sophhia-29n/diario/2026-11-22.html",
-      "https://sophhia.com/sophhia-29n/ciudadana/",
-      "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-22.html"
-    ]
-  },
-  "resumen": "40dB sitúa al PP y al PSOE a tres décimas, una distancia muy inferior a su margen de error; ElectoPanel mantiene 3,1 puntos y eleva a 34 los escaños en disputa. RTVE fija para el 23-N un debate a ocho sobre vivienda, economía y pactos. Las mediciones permanecen separadas y no recalibran SOPHHIA.",
-  "resumen_ciudadana": "40dB acerca al PP y al PSOE, pero ElectoPanel mantiene más distancia. No se promedian: cada sondeo conserva su método y sus límites. RTVE celebrará el 23-N un debate a ocho sobre vivienda, economía y pactos. SOPHHIA no convierte estas cifras en una probabilidad propia.",
-  "senal_principal": "40dB acerca PP y PSOE mientras ElectoPanel mantiene una brecha mayor",
-  "variable_vigilancia": "Vivienda=1; Inflación/coste de vida=null (ausencia revisada); Fragmentación izquierda=2; Relación PP‑Vox=3; Participación=null (ausencia revisada); Bloqueo=2.",
-  "variable_territorial": "Agenda nacionalista catalana=1; Agenda nacionalista vasca=1; Veto/bisagra territorial=2; Compatibilidad programática-territorial=1; Agendas territoriales complementarias=1.",
-  "decision": "D-047 queda pendiente de validación humana. Las decisiones DEC-IH anteriores conservan exclusivamente su alcance original. La publicación técnica no valida interpretaciones ni codificaciones.",
-  "url": "diario/2026-11-22.html",
+  "estado_publicacion": "publicada_pendiente_verificacion",
+  "resumen": "La preelectoral final de 40dB sitúa al PP en 31,8 %, al PSOE en 30,9 % y a Vox en 17,3 %. La estimación central da 128/124/57 escaños a PP/PSOE/Vox y mantiene mayoría PP–Vox, con las reservas de sus horquillas y del error muestral. El debate a ocho de RTVE se celebrará después del corte.",
+  "resumen_ciudadana": "La última preelectoral pública de 40dB deja nueve décimas entre PP y PSOE y mantiene una mayoría de PP y Vox en su estimación central. Son datos de encuesta, no resultados. El debate a ocho de RTVE tendrá lugar esta noche, por lo que no se anticipan posiciones ni efectos.",
+  "senal_principal": "40dB estrecha la primera plaza y mantiene mayoría PP–Vox",
+  "variable_vigilancia": "Vivienda=2; Inflación/coste de vida=null (ausencia revisada); Fragmentación izquierda=3; Relación PP‑Vox=3; Participación=null (ausencia revisada); Bloqueo=null (ausencia revisada).",
+  "variable_territorial": "Agenda nacionalista catalana=1; Agenda nacionalista vasca=1; Veto/bisagra territorial=2; Compatibilidad programática-territorial=2; Agendas territoriales complementarias=1.",
+  "decision": "D-048 queda pendiente de validación humana. Las decisiones DEC-IH anteriores conservan exclusivamente su alcance original. La publicación técnica no valida interpretaciones ni codificaciones.",
+  "url": "diario/2026-11-23.html",
   "fuentes_temporales": [
     {
-      "id": "40db_20261121_d10",
+      "id": "40db_preelectoral2_20261123",
       "medio": "40dB para EL PAÍS y Cadena SER",
-      "titulo": "Tracking electoral, día 10",
-      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-tracking-electoral/informe_tracking_dia10.pdf",
-      "fecha_publicacion": "2026-11-21T19:27:00+01:00",
-      "fecha_consulta_real": "2026-11-22",
-      "evidencia_temporal": "Admitida al corte del 22/11; artículo publicado el 21/11 a las 19:27 y actualizado el 22/11 a las 05:57, ambos momentos anteriores al corte; PDF original disponible.",
-      "reserva_temporal": "La distancia de 0,3 puntos queda muy por debajo del error muestral publicado; no acredita empate estadístico ni efecto causal del debate.",
+      "titulo": "Preelectoral II · estimaciones de voto y escaños",
+      "url": "https://ep00.epimg.net/infografias/encuestas40db/2026/11-preelectoral2/PE2-cbe680f8658575bfec9654dda53767bbd334f392/2026_11_preelectoral2_voto.pdf",
+      "fecha_publicacion": "2026-11-23T05:30:00+01:00",
+      "fecha_consulta_real": "2026-11-23",
+      "evidencia_temporal": "Admitida al corte del 23/11; informe y artículo publicados a las 05:30 CET, antes del corte.",
+      "reserva_temporal": "La distancia PP–PSOE de 0,9 puntos queda dentro del error muestral publicado de ±1,1 puntos. La estimación central de escaños no elimina las horquillas ni constituye una probabilidad SOPHHIA.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "electopanel_20261121",
-      "medio": "Electomanía / ElectoPanel",
-      "titulo": "ElectoPanel, 21 de noviembre",
-      "url": "https://electomania.es/tracking-electopanel-21-nov-psoe-y-vox-al-alza-con-34-escanos-en-disputa/",
-      "fecha_publicacion": "2026-11-21",
-      "fecha_consulta_real": "2026-11-22",
-      "evidencia_temporal": "Admitida al corte del 22/11; publicación del día anterior. La ficha visible contiene marcadores sin completar; muestra y campo se contrastan en el inventario demoscópico citado en la trazabilidad.",
-      "reserva_temporal": "El panel es solapado y el artículo abierto no completa muestra, error ni fechas de campo; sus 34 escaños en disputa son una estimación del instituto, no incertidumbre probabilística de SOPHHIA.",
-      "admitida_como_hecho_al_corte": true
-    },
-    {
-      "id": "rtve_debate_20261120",
+      "id": "rtve_debate_20261121",
       "medio": "RTVE",
-      "titulo": "Debate parlamentario del 23-N",
-      "url": "https://www.rtve.es/rtve/20261120/23n-rtve-organiza-gran-debate-parlamentario-elecciones-del-29-noviembre/17324183.shtml",
-      "fecha_publicacion": "2026-11-20T17:38:00+01:00",
-      "fecha_consulta_real": "2026-11-22",
-      "evidencia_temporal": "Admitida; nota institucional publicada antes del corte y programación vigente para el 23/11.",
-      "reserva_temporal": "La convocatoria y los bloques temáticos son hechos de programación; no anticipan posiciones, acuerdos ni desempeño de los participantes.",
+      "titulo": "Debate parlamentario del 23-N: horario, participantes y bloques",
+      "url": "https://www.rtve.es/noticias/20261121/debate-elecciones-generales-2026-horario-donde-ver/17324313.shtml",
+      "fecha_publicacion": "2026-11-21T17:14:00+01:00",
+      "fecha_consulta_real": "2026-11-23",
+      "evidencia_temporal": "Admitida; información institucional publicada antes del corte y programación vigente para el 23/11 a las 22:00.",
+      "reserva_temporal": "Al corte de las 09:30 el debate todavía no se ha celebrado; no se atribuyen posiciones, acuerdos, ganadores ni efectos electorales.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "ine_calendario_20261122",
+      "id": "ine_calendario_20261123",
       "medio": "INE · Oficina del Censo Electoral",
-      "titulo": "Calendario electoral del 29-N",
+      "titulo": "Elecciones Generales de 29 de noviembre de 2026",
       "url": "https://www.ine.es/dyngs/CEL/index.htm?cid=1699",
       "fecha_publicacion": "2026-10-09",
-      "fecha_consulta_real": "2026-11-22",
+      "fecha_consulta_real": "2026-11-23",
       "evidencia_temporal": "Admitida como referencia institucional vigente del proceso electoral.",
       "reserva_temporal": "El calendario no acredita participación efectiva, voto emitido ni ventaja partidista.",
       "admitida_como_hecho_al_corte": true
     }
   ],
-  "sync_version": "2026-11-22-D047",
+  "sync_version": "2026-11-23-D048",
   "ventana_novedades": {
-    "desde_exclusivo": "2026-11-21T09:30:00+01:00",
-    "hasta_inclusivo": "2026-11-22T09:30:00+01:00",
+    "desde_exclusivo": "2026-11-22T09:30:00+01:00",
+    "hasta_inclusivo": "2026-11-23T09:30:00+01:00",
     "timezone": "Europe/Madrid"
   },
   "anterior": {
-    "codigo": "D-046",
-    "fecha": "2026-11-21",
-    "fecha_legible": "21 de noviembre de 2026",
-    "titulo": "40dB estrecha la distancia PP–PSOE mientras el calendario electoral entra en fase operativa",
-    "url": "diario/2026-11-21.html",
-    "estado": "Interpretación y codificación D-046 pendientes de validación humana"
+    "codigo": "D-047",
+    "fecha": "2026-11-22",
+    "fecha_legible": "22 de noviembre de 2026",
+    "titulo": "40dB acerca PP y PSOE mientras ElectoPanel mantiene una brecha mayor",
+    "url": "diario/2026-11-22.html",
+    "estado": "Interpretación y codificación D-047 pendientes de validación humana"
   },
   "demoscopia": {
-    "estudios_de_voto_incorporados_hoy": 2,
-    "estudios_en_historico": 32,
+    "estudios_de_voto_incorporados_hoy": 1,
+    "estudios_en_historico": 33,
     "casas_en_panel": 9,
-    "nuevas_estimaciones_nacionales_voto_verificadas": 2,
+    "nuevas_estimaciones_nacionales_voto_verificadas": 1,
     "nuevas_publicaciones_preferencias_gobierno": 0,
     "ampliaciones_documentales_estudios_existentes": 0,
-    "ultima_incorporacion_cuantitativa_voto": "2026-11-22",
-    "resultado_busqueda": "Se incorporan 40dB día 10 y ElectoPanel del 21 como publicaciones separadas y admisibles al corte. No se promedian; se conserva la ficha incompleta visible de ElectoPanel como reserva.",
-    "agregacion": "Una observación por publicación y casa; campos solapados y paneles no independientes.",
+    "ultima_incorporacion_cuantitativa_voto": "2026-11-23",
+    "resultado_busqueda": "Se incorpora la Preelectoral II de 40dB publicada a las 05:30 CET con su informe original, muestra, campo, error, estimaciones y horquillas. No se agrega con otras casas.",
+    "agregacion": "Una observación por publicación y casa; el acumulado de 40dB contiene entrevistas de tracking y no se trata como independiente de sus entregas diarias.",
     "limite": "Las estimaciones vigentes pertenecen a sus institutos. NC Report, Data10, Celeste Tel, CIS y el estudio del Senado mantienen reservas específicas.",
     "documentos_excluidos_del_corte": [],
     "documentos_no_incorporados_por_ficha_incompleta": [
       "Sondeos internos citados sin ficha técnica pública completa"
     ],
     "modelos_secundarios_revisados": [],
-    "fecha_revision": "2026-11-22",
-    "hora_revision": "09:43:01 CET",
-    "nuevas_encuestas_nacionales_admitidas": 2,
+    "fecha_revision": "2026-11-23",
+    "hora_revision": "09:47:57 CET",
+    "nuevas_encuestas_nacionales_admitidas": 1,
     "exclusiones": [
       "Ikerfel · País Vasco · ámbito territorial",
       "SyM Consulting · Comunitat Valenciana · ámbito territorial"
@@ -125,67 +103,65 @@
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D047_pendiente_IH",
-    "ultima_fecha_codificada": "2026-11-22",
+    "estado": "codificacion_D048_pendiente_IH",
+    "ultima_fecha_codificada": "2026-11-23",
     "nota": "Valores calculados desde unidades documentales admisibles; escenarios conservados desde D-040. Null por ausencia revisada. Sin recalibración."
   },
-  "corte_iso": "2026-11-22T09:30:00+01:00",
+  "corte_iso": "2026-11-23T09:30:00+01:00",
   "zona_corte": "CET",
   "cambios": [
-    "Se incorpora el décimo tracking de 40dB: PP 31,9 %, PSOE 31,6 % y Vox 16,9 %.",
-    "Se incorpora por separado el ElectoPanel del 21: PP 31,0 %, PSOE 27,9 % y Vox 18,5 %, con 34 escaños en disputa según el instituto.",
-    "Se registra la convocatoria oficial de RTVE para el debate a ocho del 23-N y sus tres bloques temáticos.",
-    "La ventana semanal del gráfico privado pasa a 16–22 de noviembre sin arrastrar valores ni rellenar ausencias."
+    "Se incorpora la Preelectoral II de 40dB publicada a las 05:30 CET: PP 31,8 %, PSOE 30,9 % y Vox 17,3 %.",
+    "Se conserva la estimación central de escaños de la casa: PP 128, PSOE 124, Vox 57; PP–Vox 185 y 187 con UPN-PP, siempre con horquillas.",
+    "Se registra que el debate a ocho de RTVE está programado para las 22:00, después del corte, sin anticipar su contenido efectivo.",
+    "La ventana semanal del gráfico privado pasa a 17–23 de noviembre sin arrastrar valores ni rellenar ausencias."
   ],
   "senales": [
     {
-      "id": "D047-F01",
+      "id": "D048-F01",
       "tipo": "Vigilancia",
-      "tema": "40dB sitúa a PP y PSOE a tres décimas",
-      "alcance": "El décimo tracking de 40dB estima PP 31,9 %, PSOE 31,6 % y Vox 16,9 % (2.000 entrevistas, campo 17–21). La distancia de 0,3 puntos es muy inferior al error muestral publicado de ±2,2 puntos y no acredita un empate estadístico ni un efecto causal del debate.",
+      "tema": "40dB publica su preelectoral final antes del corte",
+      "alcance": "La Preelectoral II de 40dB estima PP 31,8 %, PSOE 30,9 %, Vox 17,3 %, Frente Amplio 3,9 %, coaliciones territoriales de izquierda 1,8 %, Podemos 1,1 % y SALF 1,3 %. Reúne 7.500 entrevistas, con campo del 10 al 21 de noviembre y error muestral publicado de ±1,1 puntos.",
       "fuentes": [
-        "40db_20261121_d10"
+        "40db_preelectoral2_20261123"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D047-F02",
+      "id": "D048-F02",
       "tipo": "Vigilancia",
-      "tema": "ElectoPanel mantiene otra fotografía y eleva la disputa de escaños",
-      "alcance": "ElectoPanel publica PP 31,0 %, PSOE 27,9 %, Vox 18,5 %, Frente Amplio 5,7 % y Podemos 0,9 %. Su estimación atribuye 126/121/59 escaños a PP/PSOE/Vox y señala 34 escaños en disputa. La ficha abierta conserva marcadores sin completar y el panel es solapado; no se combina con 40dB.",
+      "tema": "La estimación central mantiene mayoría PP–Vox",
+      "alcance": "40dB atribuye en su estimación central 128 escaños al PP, 124 al PSOE y 57 a Vox; PP y Vox sumarían 185 y alcanzarían 187 con los dos escaños de UPN-PP citados en la distribución territorial. Son estimaciones de la casa con horquillas, no resultados ni probabilidades SOPHHIA.",
       "fuentes": [
-        "electopanel_20261121"
+        "40db_preelectoral2_20261123"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D047-F03",
+      "id": "D048-F03",
       "tipo": "Confirmatoria",
-      "tema": "RTVE fija un debate a ocho para el 23-N",
-      "alcance": "RTVE anuncia para el lunes 23 a las 22:00 un debate con portavoces de PP, PSOE, Vox, Frente Amplio, ERC, Junts, EH Bildu y PNV. Los bloques serán vivienda y bienestar; economía, empleo e infraestructuras; y clima sociopolítico y pactos. La programación no anticipa posiciones ni acuerdos.",
+      "tema": "El debate a ocho se celebrará después del corte",
+      "alcance": "RTVE mantiene para hoy, 23 de noviembre, a las 22:00, el debate de PP, PSOE, Vox, Frente Amplio, ERC, Junts, EH Bildu y PNV. Sus bloques serán vivienda y bienestar; economía, empleo e infraestructuras; y clima sociopolítico y pactos. Al corte de las 09:30 todavía no se ha celebrado.",
       "fuentes": [
-        "rtve_debate_20261120"
+        "rtve_debate_20261121"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D047-F04",
+      "id": "D048-F04",
       "tipo": "Confirmatoria",
-      "tema": "El calendario electoral entra en la última semana",
-      "alcance": "El 29-N permanece convocado y el proceso continúa dentro de los plazos oficiales. La ventana de publicación de sondeos citada por las casas se cierra el lunes 23; el dato se registra como contexto procedimental, no como señal de participación.",
+      "tema": "El 29-N entra en su semana decisiva",
+      "alcance": "El INE mantiene la convocatoria de las elecciones generales para el 29 de noviembre. Este dato se registra como contexto procedimental y no acredita participación, voto efectivo ni ventaja partidista.",
       "fuentes": [
-        "ine_calendario_20261122",
-        "40db_20261121_d10",
-        "electopanel_20261121"
+        "ine_calendario_20261123"
       ],
       "validacion": "pendiente_IH"
     }
   ],
   "escenarios_lectura_documental": {
-    "id": "D-047-CTX",
+    "id": "D-048-CTX",
     "type": "context",
     "origin": "D-040",
-    "text": "Se mantiene expresamente la lectura documental heredada de D-040: G1/G2/G4/G5 = 2/2/3/1. Los sondeos y el anuncio del debate no son probabilidades SOPHHIA ni justifican un refuerzo o descenso de escenarios. A-000, MICMAC, parámetros y DEC-IH permanecen intactos.",
+    "text": "Se mantiene expresamente la lectura documental heredada de D-040: G1/G2/G4/G5 = 2/2/3/1. La preelectoral y la convocatoria del debate no son probabilidades SOPHHIA ni justifican recalibración. A-000, MICMAC, parámetros y DEC-IH permanecen intactos.",
     "scenario_levels": {
       "G1 · PP‑Vox coalición": 2,
       "G2 · PP apoyo Vox": 2,
@@ -193,15 +169,15 @@
       "G5 · Bloqueo/repetición": 1
     }
   },
-  "dimension_territorial": "El debate del 23-N incluye a ERC, Junts, EH Bildu y PNV junto a los cuatro espacios estatales. Esto eleva la atención documental sobre veto/bisagra y compatibilidad programática-territorial, pero no acredita pactos, vetos ni condiciones nuevas de investidura. Los resultados territoriales de ElectoPanel se conservan como estimaciones de la casa.",
+  "dimension_territorial": "La estimación de 40dB separa Frente Amplio, coaliciones territoriales de izquierda y Podemos, y el debate incluye a ERC, Junts, EH Bildu y PNV. Aumenta la atención documental sobre veto/bisagra y compatibilidad programática-territorial, pero no se acreditan pactos, vetos ni condiciones nuevas de investidura.",
   "incertidumbres": [
-    "La distancia PP–PSOE de 0,3 puntos en 40dB queda muy por debajo del error muestral de ±2,2; no acredita un empate estadístico.",
-    "La ficha abierta de ElectoPanel conserva marcadores sin completar y su panel es solapado; sus 34 escaños en disputa no son una medida probabilística de SOPHHIA.",
-    "El debate del 23-N aún no se ha celebrado: sólo se registran su convocatoria, participantes y bloques, no posiciones o acuerdos futuros."
+    "La distancia PP–PSOE de 0,9 puntos en 40dB queda dentro del error muestral publicado de ±1,1 puntos; no acredita una igualdad exacta.",
+    "Los 128/124/57 escaños son estimaciones centrales con horquillas, no resultados ni probabilidades SOPHHIA.",
+    "El debate del 23-N no se había celebrado al corte: sólo se registran programación, participantes y bloques."
   ],
   "proximas_comprobaciones": [
-    "Separar las publicaciones del 22 y 23 por casa, muestra, campo y hora de publicación antes del cierre legal de sondeos.",
-    "Verificar el debate a ocho del 23-N después de celebrarse, sin anticipar sus contenidos.",
+    "Verificar el debate a ocho después de celebrarse, distinguiendo hechos, propuestas y comprobaciones de datos.",
+    "Aplicar la prohibición temporal de publicación de sondeos desde el 24 de noviembre sin reconstruir ni prolongar series ocultas.",
     "Comprobar la continuidad del calendario de voto por correo y CERA sin inferir participación efectiva."
   ]
 }
