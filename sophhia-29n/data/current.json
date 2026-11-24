@@ -19,7 +19,7 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-049 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
   "resumen": "DatosRTVE registra la vivienda como el asunto principal del debate a ocho, con 12:44 de tiempo de palabra, seguida del modelo territorial, la fiscalidad y los pactos. La confrontación volvió a ordenarse por bloques; desde hoy rige la prohibición legal de publicar sondeos.",
   "resumen_ciudadana": "El debate a ocho concentró su mayor atención en la vivienda y volvió a mostrar la confrontación entre bloques. Desde hoy ya no pueden publicarse sondeos electorales antes del 29-N, por lo que no se incorpora ninguna estimación nueva de voto.",
   "senal_principal": "El debate sitúa vivienda, territorio y pactos en el centro de la recta final",
@@ -201,5 +201,16 @@
     "Seguir propuestas y rectificaciones posteriores al debate sin atribuir efectos electorales no medidos.",
     "Mantener la disciplina legal de no publicar ni reproducir sondeos durante el periodo de prohibición.",
     "Comprobar el cierre de los plazos de voto por correo y CERA sin inferir participación efectiva."
-  ]
+  ],
+  "verificacion_publicacion": {
+    "verified_at": "2026-11-24T09:48:00+01:00",
+    "commit_sha": "36dd061c43877b406e817e10c6c75506dcc4bb60",
+    "method": "URLs canónicas verificadas directamente, sin parámetros anticaché",
+    "urls": [
+      "https://sophhia.com/sophhia-29n/",
+      "https://sophhia.com/sophhia-29n/diario/2026-11-24.html",
+      "https://sophhia.com/sophhia-29n/ciudadana/",
+      "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-24.html"
+    ]
+  }
 }
