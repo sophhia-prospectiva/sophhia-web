@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-23",
+  "ultima_actualizacion": "2026-11-24",
   "entradas": [
+    {
+      "codigo": "D-049",
+      "fecha": "2026-11-24",
+      "titulo": "El debate sitúa vivienda, territorio y pactos en el centro de la recta final",
+      "url": "diario/2026-11-24.html",
+      "estado": "Interpretación y codificación pendientes IH"
+    },
     {
       "codigo": "D-048",
       "fecha": "2026-11-23",
