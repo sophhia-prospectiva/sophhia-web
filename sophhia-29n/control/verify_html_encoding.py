@@ -230,6 +230,11 @@ def main() -> int:
             except ValueError:
                 record["local"]["errors"].append(f"File is outside --root {root}")
                 continue
+            # Check the reader-facing directory URL, not a cache-busting alias.
+            if relative == "index.html":
+                relative = ""
+            elif relative.endswith("/index.html"):
+                relative = relative[:-len("index.html")]
             url = urljoin(args.base_url.rstrip("/") + "/", quote(relative, safe="/"))
             record["live"] = verify_live(url, data, args.timeout)
     ok = all(not part.get("errors") for record in records for part in (record["local"], record.get("live", {})))
