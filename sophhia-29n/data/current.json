@@ -19,7 +19,7 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-050 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
   "resumen": "El calendario oficial mantiene abierto hasta el 26 a las 14:00 el voto por correo de residentes y hasta ese día el depósito consular CERA. La campaña concentra la atención en garantías, vivienda y posiciones territoriales, sin nuevas encuestas por la prohibición legal.",
   "resumen_ciudadana": "Quedan cuatro días para el 29-N. El voto por correo de residentes puede remitirse hasta el jueves a las 14:00 y el voto CERA puede depositarse en los consulados hasta ese día. La campaña sigue abierta, pero ya no pueden publicarse sondeos.",
   "senal_principal": "El voto por correo y las garantías electorales dominan la cuenta atrás del 29-N",
@@ -202,5 +202,23 @@
     "Comprobar el cierre efectivo de los plazos de voto por correo y CERA sin inferir participación.",
     "Mantener la disciplina legal de no publicar ni reproducir sondeos durante el periodo de prohibición.",
     "Seguir propuestas y rectificaciones de campaña con fuente y hora acreditadas."
-  ]
+  ],
+  "verificacion_publicacion": {
+    "estado": "verificada_canonica",
+    "commit_publicacion": "9f40d0339479c333d0ab89cc0bc20cf062262e99",
+    "workflow_run_id": 45580255968,
+    "workflow_conclusion": "success",
+    "verificada_el": "2026-11-25T09:55:00+01:00",
+    "urls": {
+      "basica": "https://sophhia.com/sophhia-29n/",
+      "ciudadana": "https://sophhia.com/sophhia-29n/ciudadana/",
+      "diario_basico": "https://sophhia.com/sophhia-29n/diario/2026-11-25.html",
+      "diario_ciudadano": "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-25.html"
+    },
+    "landing_sha256": {
+      "basica": "ac2480a29b76206355a4da044fa6b1a18a068ba6fe622ad99b5390896e9a8c5c",
+      "ciudadana": "ac6d0c1dbbbb515ed3e828529cd1270278b6ad7659de913bf02235871013d42d"
+    },
+    "integridad": "HTTP 200, text/html UTF-8 y bytes canónicos idénticos a las copias locales validadas; cinco gráficos estáticos y datos D-050 comprobados."
+  }
 }
