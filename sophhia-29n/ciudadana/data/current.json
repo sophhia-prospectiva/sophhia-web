@@ -9,45 +9,45 @@
     "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
   ],
   "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
-  "codigo": "D-049",
-  "fecha": "2026-11-24",
-  "fecha_legible": "24 de noviembre de 2026",
+  "codigo": "D-050",
+  "fecha": "2026-11-25",
+  "fecha_legible": "25 de noviembre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "El debate sitúa vivienda, territorio y pactos en el centro de la recta final",
+  "titulo": "El voto por correo y las garantías electorales dominan la cuenta atrás del 29-N",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación y codificación D-049 pendientes de validación humana",
+  "validacion": "Interpretación y codificación D-050 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_verificada",
-  "resumen": "DatosRTVE registra la vivienda como el asunto principal del debate a ocho, con 12:44 de tiempo de palabra, seguida del modelo territorial, la fiscalidad y los pactos. La confrontación volvió a ordenarse por bloques; desde hoy rige la prohibición legal de publicar sondeos.",
-  "resumen_ciudadana": "El debate a ocho concentró su mayor atención en la vivienda y volvió a mostrar la confrontación entre bloques. Desde hoy ya no pueden publicarse sondeos electorales antes del 29-N, por lo que no se incorpora ninguna estimación nueva de voto.",
-  "senal_principal": "El debate sitúa vivienda, territorio y pactos en el centro de la recta final",
-  "variable_vigilancia": "Vivienda=3; Inflación/coste de vida=null (ausencia revisada); Fragmentación izquierda=2; Relación PP‑Vox=3; Participación=1; Bloqueo=2.",
-  "variable_territorial": "Agenda nacionalista catalana=2; Agenda nacionalista vasca=2; Veto/bisagra territorial=3; Compatibilidad programática-territorial=3; Agendas territoriales complementarias=2.",
-  "decision": "D-049 queda pendiente de validación humana. Las decisiones DEC-IH anteriores conservan exclusivamente su alcance original. La publicación técnica no valida interpretaciones ni codificaciones.",
-  "url": "diario/2026-11-24.html",
+  "estado_publicacion": "publicada_pendiente_verificacion",
+  "resumen": "El calendario oficial mantiene abierto hasta el 26 a las 14:00 el voto por correo de residentes y hasta ese día el depósito consular CERA. La campaña concentra la atención en garantías, vivienda y posiciones territoriales, sin nuevas encuestas por la prohibición legal.",
+  "resumen_ciudadana": "Quedan cuatro días para el 29-N. El voto por correo de residentes puede remitirse hasta el jueves a las 14:00 y el voto CERA puede depositarse en los consulados hasta ese día. La campaña sigue abierta, pero ya no pueden publicarse sondeos.",
+  "senal_principal": "El voto por correo y las garantías electorales dominan la cuenta atrás del 29-N",
+  "variable_vigilancia": "Vivienda=2; Inflación/coste de vida=2; Fragmentación izquierda=2; Relación PP‑Vox=2; Participación=2; Bloqueo=null (ausencia revisada).",
+  "variable_territorial": "Agenda nacionalista catalana=2; Agenda nacionalista vasca=1; Veto/bisagra territorial=2; Compatibilidad programática-territorial=2; Agendas territoriales complementarias=2.",
+  "decision": "D-050 queda pendiente de validación humana. Las decisiones DEC-IH anteriores conservan exclusivamente su alcance original. La publicación técnica no valida interpretaciones ni codificaciones.",
+  "url": "diario/2026-11-25.html",
   "fuentes_temporales": [
     {
-      "id": "rtve_datos_debate_20261124",
-      "medio": "DatosRTVE",
-      "titulo": "Entre bloques y rivalidades: el mapa de los duelos que se vieron en el debate a ocho",
-      "url": "https://www.rtve.es/noticias/20261124/debate-ocho-portavoces-analisis-tiempo-elecciones-2026/17327511.shtml",
-      "fecha_publicacion": "2026-11-24T05:51:00+01:00",
-      "fecha_consulta_real": "2026-11-24",
-      "evidencia_temporal": "Admitida al corte: publicada por RTVE a las 05:51 CET del 24/11.",
-      "reserva_temporal": "Los tiempos describen la emisión y la codificación de DatosRTVE; no miden apoyo electoral, persuasión ni efecto causal.",
+      "id": "rtve_diario_campana_20261124",
+      "medio": "RTVE",
+      "titulo": "Diario de campaña del 29-N: vivienda, garantías y posiciones territoriales",
+      "url": "https://www.rtve.es/noticias/20261124/diario-campana-29n/17309198.shtml",
+      "fecha_publicacion": "2026-11-24T15:48:00+01:00",
+      "fecha_consulta_real": "2026-11-25",
+      "evidencia_temporal": "Admitida al corte: publicada y actualizada por RTVE el 24/11, antes de las 09:30 CET del 25/11.",
+      "reserva_temporal": "Se documentan declaraciones y propuestas de campaña; no acreditan pactos posteriores, apoyo electoral ni efectos causales.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "rtve_verifica_debate_20261123",
-      "medio": "VerificaRTVE",
-      "titulo": "Verificación, datos y contexto del debate electoral a ocho",
-      "url": "https://www.rtve.es/noticias/20261123/debate-electoral-ocho-elecciones-2026-verificacion-datos-contexto/17327432.shtml",
-      "fecha_publicacion": "2026-11-23T22:37:00+01:00",
-      "fecha_consulta_real": "2026-11-24",
-      "evidencia_temporal": "Admitida al corte: verificación iniciada y publicada durante el debate, antes de las 09:30 del 24/11.",
-      "reserva_temporal": "Se incorporan únicamente comprobaciones expresas de RTVE con su alcance; no se generalizan a todo el discurso.",
+      "id": "moncloa_voto_correo_20261124",
+      "medio": "La Moncloa · Ministerio del Interior",
+      "titulo": "Ampliado hasta el 26 de noviembre el plazo para depositar el voto por correo",
+      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/paginas/voto-por-correo-elecciones-generales-29n.aspx",
+      "fecha_publicacion": "2026-11-24T00:00:00+01:00",
+      "fecha_consulta_real": "2026-11-25",
+      "evidencia_temporal": "Admitida al corte: nota oficial del 24/11, anterior al corte del 25/11.",
+      "reserva_temporal": "El plazo administrativo no acredita participación efectiva ni volumen de voto emitido.",
       "admitida_como_hecho_al_corte": true
     },
     {
@@ -56,7 +56,7 @@
       "titulo": "Ley Orgánica 5/1985, artículo 69.7",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#asesentaynueve",
       "fecha_publicacion": "2024-02-02",
-      "fecha_consulta_real": "2026-11-24",
+      "fecha_consulta_real": "2026-11-25",
       "evidencia_temporal": "Norma vigente consultada al corte; prohíbe publicar, difundir o reproducir sondeos durante los cinco días anteriores a la votación.",
       "reserva_temporal": "La prohibición no borra encuestas ya publicadas ni autoriza reconstruir o divulgar datos nuevos ocultos.",
       "admitida_como_hecho_al_corte": true
@@ -65,27 +65,27 @@
       "id": "ine_plazos_29n",
       "medio": "INE · Oficina del Censo Electoral",
       "titulo": "Plazos de interés para los electores · Generales 29-N",
-      "url": "https://www.ine.es/dyngs/CEL/es/index.htm?cid=1702",
+      "url": "https://www.ine.es/dyngs/CEL/index.htm?cid=1702",
       "fecha_publicacion": "2026-10-09",
-      "fecha_consulta_real": "2026-11-24",
-      "evidencia_temporal": "Calendario institucional vigente al corte del 24/11.",
+      "fecha_consulta_real": "2026-11-25",
+      "evidencia_temporal": "Calendario institucional vigente al corte del 25/11.",
       "reserva_temporal": "Los plazos administrativos no acreditan participación efectiva ni volumen de voto emitido.",
       "admitida_como_hecho_al_corte": true
     }
   ],
-  "sync_version": "2026-11-24-D049",
+  "sync_version": "2026-11-25-D050",
   "ventana_novedades": {
-    "desde_exclusivo": "2026-11-23T09:30:00+01:00",
-    "hasta_inclusivo": "2026-11-24T09:30:00+01:00",
+    "desde_exclusivo": "2026-11-24T09:30:00+01:00",
+    "hasta_inclusivo": "2026-11-25T09:30:00+01:00",
     "timezone": "Europe/Madrid"
   },
   "anterior": {
-    "codigo": "D-048",
-    "fecha": "2026-11-23",
-    "fecha_legible": "23 de noviembre de 2026",
-    "titulo": "40dB estrecha la primera plaza y mantiene mayoría PP–Vox",
-    "url": "diario/2026-11-23.html",
-    "estado": "Interpretación y codificación D-048 pendientes de validación humana"
+    "codigo": "D-049",
+    "fecha": "2026-11-24",
+    "fecha_legible": "24 de noviembre de 2026",
+    "titulo": "El debate sitúa vivienda, territorio y pactos en el centro de la recta final",
+    "url": "diario/2026-11-24.html",
+    "estado": "Interpretación y codificación D-049 pendientes de validación humana"
   },
   "demoscopia": {
     "estudios_de_voto_incorporados_hoy": 0,
@@ -95,7 +95,7 @@
     "nuevas_publicaciones_preferencias_gobierno": 0,
     "ampliaciones_documentales_estudios_existentes": 0,
     "ultima_incorporacion_cuantitativa_voto": "2026-11-23",
-    "resultado_busqueda": "No se incorpora ninguna estimación nueva de voto. Desde el 24 de noviembre rige la prohibición del artículo 69.7 de la LOREG; se conserva el archivo histórico con sus fechas y reservas.",
+    "resultado_busqueda": "No se incorpora ninguna estimación nueva de voto. Continúa la prohibición iniciada el 24 de noviembre conforme al artículo 69.7 de la LOREG; se conserva el archivo histórico con sus fechas y reservas.",
     "agregacion": "Sin agregación nueva. Los estudios históricos permanecen identificados por casa y publicación; no se prolongan ni reconstruyen durante la prohibición.",
     "limite": "Las estimaciones vigentes pertenecen a sus institutos. NC Report, Data10, Celeste Tel, CIS y el estudio del Senado mantienen reservas específicas.",
     "documentos_excluidos_del_corte": [],
@@ -103,8 +103,8 @@
       "Sondeos internos citados sin ficha técnica pública completa"
     ],
     "modelos_secundarios_revisados": [],
-    "fecha_revision": "2026-11-24",
-    "hora_revision": "09:42:28 CET",
+    "fecha_revision": "2026-11-25",
+    "hora_revision": "09:46:05 CET",
     "nuevas_encuestas_nacionales_admitidas": 0,
     "exclusiones": [
       "Ikerfel · País Vasco · ámbito territorial",
@@ -114,76 +114,77 @@
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D049_pendiente_IH",
-    "ultima_fecha_codificada": "2026-11-24",
+    "estado": "codificacion_D050_pendiente_IH",
+    "ultima_fecha_codificada": "2026-11-25",
     "nota": "Valores calculados desde unidades documentales admisibles; escenarios conservados desde D-040. Null por ausencia revisada. Sin recalibración."
   },
-  "corte_iso": "2026-11-24T09:30:00+01:00",
+  "corte_iso": "2026-11-25T09:30:00+01:00",
   "zona_corte": "CET",
   "cambios": [
-    "Se incorpora el análisis de DatosRTVE publicado a las 05:51 CET: vivienda 12:44, modelo territorial 5:23, fiscalidad 4:44 y pactos 4:38.",
-    "Se documentan alineamientos discursivos de PP–Vox y de las fuerzas que sostuvieron al Gobierno, sin convertirlos en pactos, vetos ni probabilidades.",
-    "Se incorpora una verificación expresa de RTVE sobre población extranjera y se conserva su alcance limitado.",
-    "Se aplica desde hoy el artículo 69.7 de la LOREG: no se añade ninguna nueva estimación de voto.",
-    "La ventana semanal del gráfico privado pasa a 18–24 de noviembre sin arrastrar valores ni rellenar ausencias."
+    "Se documentan los plazos oficiales vigentes de voto por correo y CERA sin convertirlos en participación efectiva.",
+    "Se incorpora la controversia sobre garantías electorales con la reserva expresa de que no acredita irregularidades.",
+    "Vivienda, diferencias en la izquierda y posiciones de Junts, PNV y ERC reciben seguimiento explícito.",
+    "Continúa la prohibición del artículo 69.7 de la LOREG: no se añade ninguna estimación nueva de voto.",
+    "La ventana semanal del gráfico privado pasa a 19–25 de noviembre sin arrastrar valores ni rellenar ausencias."
   ],
   "senales": [
     {
-      "id": "D049-F01",
-      "tipo": "Vigilancia",
-      "tema": "La vivienda concentró casi trece minutos del debate",
-      "alcance": "DatosRTVE contabiliza 12 minutos y 44 segundos dedicados a vivienda, por delante del modelo territorial y de Estado (5:23), la fiscalidad (4:44) y los pactos y la gobernabilidad (4:38).",
-      "fuentes": [
-        "rtve_datos_debate_20261124"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "D049-F02",
-      "tipo": "Vigilancia",
-      "tema": "El debate volvió a ordenar la confrontación por bloques",
-      "alcance": "El análisis de RTVE registra coincidencias de PP y Vox contra la izquierda en corrupción y una advertencia común de los socios del Gobierno frente a un pacto de derechas. Se documentan alineamientos discursivos, no acuerdos de investidura ni probabilidades.",
-      "fuentes": [
-        "rtve_datos_debate_20261124"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "D049-F03",
-      "tipo": "Vigilancia",
-      "tema": "VerificaRTVE corrige una cifra sobre población extranjera",
-      "alcance": "VerificaRTVE califica como falsa la afirmación de que España incorporó más de seis millones de extranjeros en cinco años: contrasta 5.324.756 personas extranjeras en julio de 2021 y 7.437.543 al terminar el segundo trimestre de 2026, un aumento aproximado de 2,1 millones.",
-      "fuentes": [
-        "rtve_verifica_debate_20261123"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "D049-F04",
+      "id": "D050-F01",
       "tipo": "Confirmatoria",
-      "tema": "Comienza el periodo legal sin publicación de sondeos",
-      "alcance": "El artículo 69.7 de la LOREG prohíbe la publicación, difusión o reproducción de sondeos electorales durante los cinco días anteriores a la votación del 29 de noviembre. SOPHHIA no incorpora hoy ninguna estimación nueva de voto.",
+      "tema": "El voto por correo continúa hasta el jueves a las 14:00",
+      "alcance": "El INE y el Ministerio del Interior mantienen hasta el 26 de noviembre a las 14:00 el plazo para que los residentes remitan el voto por correo. El depósito en urna consular del voto CERA continúa hasta el día 26; el envío postal CERA terminó el 24.",
+      "fuentes": [
+        "ine_plazos_29n",
+        "moncloa_voto_correo_20261124"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D050-F02",
+      "tipo": "Vigilancia",
+      "tema": "Las garantías electorales entran en la confrontación de campaña",
+      "alcance": "RTVE recoge críticas de Feijóo al sistema electoral y a las condiciones del voto exterior, junto a su afirmación de confianza en la supervisión consular. SOPHHIA registra la controversia sin afirmar irregularidad acreditada.",
+      "fuentes": [
+        "rtve_diario_campana_20261124"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D050-F03",
+      "tipo": "Vigilancia",
+      "tema": "La vivienda vuelve a diferenciar a las izquierdas",
+      "alcance": "RTVE contrapone las propuestas de Ada Colau sobre parque público y regulación con las posiciones de Xavier García Albiol, y recoge la comparación de Colau entre Frente Amplio y el PSOE. Son posiciones de campaña, no una medición de apoyo.",
+      "fuentes": [
+        "rtve_diario_campana_20261124"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D050-F04",
+      "tipo": "Vigilancia",
+      "tema": "Junts reivindica capacidad decisiva y rechaza facilitar PP–Vox",
+      "alcance": "Según RTVE, Junts afirma que no facilitará un Gobierno de PP y Vox y aspira a ser decisivo; el PNV describe una campaña ordenada por bloques, mientras ERC vincula pensiones y salarios al coste de vida territorial. No se infieren pactos cerrados ni mayorías.",
+      "fuentes": [
+        "rtve_diario_campana_20261124"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D050-F05",
+      "tipo": "Confirmatoria",
+      "tema": "Continúa el periodo legal sin publicación de sondeos",
+      "alcance": "El artículo 69.7 de la LOREG prohíbe publicar, difundir o reproducir sondeos electorales durante los cinco días anteriores a la votación. SOPHHIA no incorpora ninguna estimación nueva de voto.",
       "fuentes": [
         "boe_loreg_69_7"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "D049-F05",
-      "tipo": "Confirmatoria",
-      "tema": "El calendario mantiene abiertos plazos de voto por correo",
-      "alcance": "El INE fija el 24 de noviembre como último día para remitir el voto CERA por correo a los consulados; el depósito en urna consular continúa hasta el 26. Para residentes, la remisión del voto por correo continúa hasta el 26 a las 14:00.",
-      "fuentes": [
-        "ine_plazos_29n"
       ],
       "validacion": "pendiente_IH"
     }
   ],
   "escenarios_lectura_documental": {
-    "id": "D-049-CTX",
+    "id": "D-050-CTX",
     "type": "context",
     "origin": "D-040",
-    "text": "Se mantiene expresamente la lectura documental heredada de D-040: G1/G2/G4/G5 = 2/2/3/1. El debate, sus tiempos y la prohibición de sondeos no son probabilidades SOPHHIA ni justifican recalibración. A-000, MICMAC, parámetros y DEC-IH permanecen intactos.",
+    "text": "Se mantiene expresamente la lectura documental heredada de D-040: G1/G2/G4/G5 = 2/2/3/1. Los plazos administrativos y las declaraciones de campaña no son probabilidades SOPHHIA ni justifican recalibración. A-000, MICMAC, parámetros y DEC-IH permanecen intactos.",
     "scenario_levels": {
       "G1 · PP‑Vox coalición": 2,
       "G2 · PP apoyo Vox": 2,
@@ -191,26 +192,15 @@
       "G5 · Bloqueo/repetición": 1
     }
   },
-  "dimension_territorial": "El modelo territorial ocupó 5:23 del debate; RTVE identifica protagonismo de PNV y Vox en este eje y atención de Junts al modelo territorial. Se registra como seguimiento explícito de agendas y bisagras, no como condición de investidura acreditada.",
+  "dimension_territorial": "Junts declara que no facilitará un Gobierno PP–Vox y aspira a ser decisivo; el PNV describe una competencia por bloques y ERC formula propuestas ligadas al coste de vida territorial. Se registran posiciones de campaña, no condiciones de investidura acreditadas.",
   "incertidumbres": [
-    "Los tiempos de palabra describen la emisión y la codificación de RTVE; no miden apoyo, persuasión ni causalidad electoral.",
-    "Los alineamientos discursivos no acreditan pactos postelectorales cerrados ni vetos efectivos.",
-    "La prohibición de sondeos impide incorporar nuevas estimaciones públicas; no convierte los datos del 23 en predicciones vigentes sin reserva."
+    "Los plazos administrativos no acreditan cuántas personas han votado ni permiten inferir participación final.",
+    "Las declaraciones sobre garantías electorales no prueban irregularidad, fraude ni efecto electoral.",
+    "Las posiciones de campaña no acreditan pactos postelectorales cerrados, vetos efectivos ni mayorías."
   ],
   "proximas_comprobaciones": [
-    "Seguir propuestas y rectificaciones posteriores al debate sin atribuir efectos electorales no medidos.",
+    "Comprobar el cierre efectivo de los plazos de voto por correo y CERA sin inferir participación.",
     "Mantener la disciplina legal de no publicar ni reproducir sondeos durante el periodo de prohibición.",
-    "Comprobar el cierre de los plazos de voto por correo y CERA sin inferir participación efectiva."
-  ],
-  "verificacion_publicacion": {
-    "verified_at": "2026-11-24T09:48:00+01:00",
-    "commit_sha": "36dd061c43877b406e817e10c6c75506dcc4bb60",
-    "method": "URLs canónicas verificadas directamente, sin parámetros anticaché",
-    "urls": [
-      "https://sophhia.com/sophhia-29n/",
-      "https://sophhia.com/sophhia-29n/diario/2026-11-24.html",
-      "https://sophhia.com/sophhia-29n/ciudadana/",
-      "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-24.html"
-    ]
-  }
+    "Seguir propuestas y rectificaciones de campaña con fuente y hora acreditadas."
+  ]
 }

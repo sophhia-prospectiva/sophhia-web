@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-24",
+  "ultima_actualizacion": "2026-11-25",
   "entradas": [
+    {
+      "codigo": "D-050",
+      "fecha": "2026-11-25",
+      "titulo": "El voto por correo y las garantías electorales dominan la cuenta atrás del 29-N",
+      "url": "diario/2026-11-25.html",
+      "estado": "Interpretación y codificación pendientes IH"
+    },
     {
       "codigo": "D-049",
       "fecha": "2026-11-24",
