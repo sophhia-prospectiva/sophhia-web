@@ -19,7 +19,7 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-051 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
   "resumen": "El 26 de noviembre concluyen a las 14:00 la remisión del voto por correo y el depósito consular CERA. La campaña incorpora propuestas contra la violencia de género y mantiene la controversia sobre garantías; el debate a cuatro será a las 22:00, fuera del corte.",
   "resumen_ciudadana": "Quedan tres días para el 29-N. Hoy terminan los principales plazos del voto por correo y del voto exterior. El debate a cuatro está previsto para esta noche, por lo que esta edición sólo registra su convocatoria, no lo que ocurra después.",
   "senal_principal": "El cierre del voto por correo y las garantías marcan la víspera del debate a cuatro",
@@ -213,5 +213,23 @@
     "Comprobar en D-052 el cierre efectivo de los plazos sin inferir participación.",
     "Documentar el debate a cuatro únicamente con fuentes y horas posteriores, manteniéndolo fuera de D-051.",
     "Mantener la disciplina legal de no publicar ni reproducir sondeos durante el periodo de prohibición."
-  ]
+  ],
+  "verificacion_publicacion": {
+    "estado": "verificada_canonica",
+    "commit_publicacion": "b87688edada50d8ca902e292cae4965117a51e95",
+    "workflow_run_id": null,
+    "workflow_conclusion": "no_expuesto_por_conexion; despliegue verificado por bytes canónicos",
+    "verificada_el": "2026-11-26T10:00:00+01:00",
+    "urls": {
+      "basica": "https://sophhia.com/sophhia-29n/",
+      "ciudadana": "https://sophhia.com/sophhia-29n/ciudadana/",
+      "diario_basico": "https://sophhia.com/sophhia-29n/diario/2026-11-26.html",
+      "diario_ciudadano": "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-26.html"
+    },
+    "landing_sha256": {
+      "basica": "e2b824117cfae0a2b0605d800c9d7475794063394bea5ae99b10a5228649f5f4",
+      "ciudadana": "5254e17940c5f0ec582df96baf057f07a531b033f0cdfd33e9a1e855ca95a914"
+    },
+    "integridad": "HTTP 200, text/html UTF-8 y bytes canónicos idénticos a las copias locales validadas; cinco gráficos estáticos, 51 entradas y datos D-051 comprobados."
+  }
 }
