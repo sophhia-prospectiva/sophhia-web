@@ -1,25 +1,25 @@
 {
-  "version": "v0.70-D050",
-  "updated": "2026-11-25",
+  "version": "v0.71-D051",
+  "updated": "2026-11-26",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 25 de noviembre de 2026 · 09:30 CET · jornada ordinaria",
+  "subtitle": "Corte 26 de noviembre de 2026 · 09:30 CET · jornada ordinaria",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-050",
+  "current_entry": "D-051",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-050 publicada y verificada canónicamente; interpretación y codificación pendientes IH; sin recalibración.",
+  "system_state": "D-051 publicada técnicamente; interpretación y codificación pendientes IH; sin recalibración.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad",
   "main_uncertainty": "Los plazos administrativos no acreditan cuántas personas han votado ni permiten inferir participación final.",
-  "watch_variable": "Vivienda; Inflación/coste de vida; Fragmentación izquierda; Relación PP‑Vox; Participación",
+  "watch_variable": "Fragmentación izquierda; Relación PP‑Vox; Participación",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "Se documentan los plazos oficiales vigentes de voto por correo y CERA sin convertirlos en participación efectiva.",
-    "Se incorpora la controversia sobre garantías electorales con la reserva expresa de que no acredita irregularidades.",
-    "Vivienda, diferencias en la izquierda y posiciones de Junts, PNV y ERC reciben seguimiento explícito.",
-    "Continúa la prohibición del artículo 69.7 de la LOREG: no se añade ninguna estimación nueva de voto.",
-    "La ventana semanal del gráfico privado pasa a 19–25 de noviembre sin arrastrar valores ni rellenar ausencias."
+    "Se documenta que hoy concluyen los principales plazos de voto por correo y depósito CERA, sin convertirlos en participación efectiva.",
+    "Las propuestas sobre violencia de género pasan a seguimiento explícito, con separación entre compromisos electorales y medidas aprobadas.",
+    "La controversia sobre la limpieza del proceso se mantiene como vigilancia documental, sin afirmar irregularidades.",
+    "El debate a cuatro de las 22:00 queda registrado sólo como evento futuro respecto del corte de las 09:30.",
+    "Continúa la prohibición del artículo 69.7 de la LOREG y la ventana semanal pasa a 20–26 de noviembre sin arrastrar valores."
   ],
   "path": [
     {
@@ -249,6 +249,13 @@
       "title": "El voto por correo y las garantías electorales dominan la cuenta atrás del 29-N",
       "recalibration": "No",
       "retrospective": false
+    },
+    {
+      "id": "D-051",
+      "date": "2026-11-26",
+      "title": "El cierre del voto por correo y las garantías marcan la víspera del debate a cuatro",
+      "recalibration": "No",
+      "retrospective": false
     }
   ],
   "scenarios": [
@@ -296,7 +303,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Jornada ordinaria D-050; pendiente IH.",
+    "mode": "Jornada ordinaria D-051; pendiente IH.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -304,20 +311,20 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.70-D050",
-    "cutoff": "2026-11-25",
-    "last_numeric_date": "2026-11-25",
+    "version": "v0.71-D051",
+    "cutoff": "2026-11-26",
+    "last_numeric_date": "2026-11-26",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Interpretación y codificación D-050 pendientes de validación humana",
+    "validation": "Interpretación y codificación D-051 pendientes de validación humana",
     "reconstruction_date": null,
     "last_numeric_dates": {
-      "scenarios": "2026-11-25",
-      "blocks": "2026-11-25",
-      "variables": "2026-11-25",
-      "territorial": "2026-11-25",
-      "signals": "2026-11-25"
+      "scenarios": "2026-11-26",
+      "blocks": "2026-11-26",
+      "variables": "2026-11-26",
+      "territorial": "2026-11-26",
+      "signals": "2026-11-26"
     }
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
@@ -365,9 +372,9 @@
     "daily_observations": []
   },
   "current_reading": {
-    "mode": "Jornada ordinaria D-050; pendiente IH.",
-    "summary": "El calendario oficial mantiene abierto hasta el 26 a las 14:00 el voto por correo de residentes y hasta ese día el depósito consular CERA. La campaña concentra la atención en garantías, vivienda y posiciones territoriales, sin nuevas encuestas por la prohibición legal.",
-    "validation": "Interpretación y codificación D-050 pendientes de validación humana"
+    "mode": "Jornada ordinaria D-051; pendiente IH.",
+    "summary": "El 26 de noviembre concluyen a las 14:00 la remisión del voto por correo y el depósito consular CERA. La campaña incorpora propuestas contra la violencia de género y mantiene la controversia sobre garantías; el debate a cuatro será a las 22:00, fuera del corte.",
+    "validation": "Interpretación y codificación D-051 pendientes de validación humana"
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -389,54 +396,54 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-050 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-051 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "D050-F01",
+      "id": "D051-F01",
       "tipo": "Confirmatoria",
-      "tema": "El voto por correo continúa hasta el jueves a las 14:00",
-      "alcance": "El INE y el Ministerio del Interior mantienen hasta el 26 de noviembre a las 14:00 el plazo para que los residentes remitan el voto por correo. El depósito en urna consular del voto CERA continúa hasta el día 26; el envío postal CERA terminó el 24.",
+      "tema": "Hoy concluyen los principales plazos de voto por correo y CERA",
+      "alcance": "El INE y el Ministerio del Interior mantienen hasta las 14:00 del 26 de noviembre la remisión del voto por correo de residentes y electores temporalmente en el extranjero. El depósito del voto CERA en urna consular también concluye hoy; el envío postal CERA terminó el 24.",
       "fuentes": [
         "ine_plazos_29n",
-        "moncloa_voto_correo_20261124"
+        "moncloa_voto_correo_20261120"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D050-F02",
+      "id": "D051-F02",
       "tipo": "Vigilancia",
-      "tema": "Las garantías electorales entran en la confrontación de campaña",
-      "alcance": "RTVE recoge críticas de Feijóo al sistema electoral y a las condiciones del voto exterior, junto a su afirmación de confianza en la supervisión consular. SOPHHIA registra la controversia sin afirmar irregularidad acreditada.",
+      "tema": "La violencia de género entra en el centro programático de la campaña",
+      "alcance": "RTVE documenta compromisos y propuestas del PP y del PSOE sobre protección, sistema Viogén, violencia vicaria, trata y Pacto de Estado, junto a posiciones de otras candidaturas. Son propuestas de campaña, no medidas aprobadas ni resultados acreditados.",
       "fuentes": [
-        "rtve_diario_campana_20261124"
+        "rtve_diario_campana_20261125"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D050-F03",
+      "id": "D051-F03",
       "tipo": "Vigilancia",
-      "tema": "La vivienda vuelve a diferenciar a las izquierdas",
-      "alcance": "RTVE contrapone las propuestas de Ada Colau sobre parque público y regulación con las posiciones de Xavier García Albiol, y recoge la comparación de Colau entre Frente Amplio y el PSOE. Son posiciones de campaña, no una medición de apoyo.",
+      "tema": "La limpieza del proceso electoral sigue en la confrontación pública",
+      "alcance": "RTVE recoge que Pedro Sánchez acusa a PP y Vox de cuestionar la limpieza del proceso y les pide aceptar el resultado. SOPHHIA registra la controversia como agenda de garantías, sin afirmar fraude, irregularidad ni incumplimiento acreditado.",
       "fuentes": [
-        "rtve_diario_campana_20261124"
+        "rtve_diario_campana_20261125"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D050-F04",
+      "id": "D051-F04",
       "tipo": "Vigilancia",
-      "tema": "Junts reivindica capacidad decisiva y rechaza facilitar PP–Vox",
-      "alcance": "Según RTVE, Junts afirma que no facilitará un Gobierno de PP y Vox y aspira a ser decisivo; el PNV describe una campaña ordenada por bloques, mientras ERC vincula pensiones y salarios al coste de vida territorial. No se infieren pactos cerrados ni mayorías.",
+      "tema": "El debate a cuatro está convocado para esta noche, después del corte",
+      "alcance": "RTVE anunció para las 22:00 del 26 de noviembre un debate entre Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal y Ada Colau. Al corte de las 09:30 sólo consta la convocatoria: no se incorporan intervenciones, verificaciones, ganadores ni efectos posteriores.",
       "fuentes": [
-        "rtve_diario_campana_20261124"
+        "rtve_debate_cuatro_20261125"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D050-F05",
+      "id": "D051-F05",
       "tipo": "Confirmatoria",
       "tema": "Continúa el periodo legal sin publicación de sondeos",
       "alcance": "El artículo 69.7 de la LOREG prohíbe publicar, difundir o reproducir sondeos electorales durante los cinco días anteriores a la votación. SOPHHIA no incorpora ninguna estimación nueva de voto.",

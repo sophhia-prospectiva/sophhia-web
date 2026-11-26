@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-25",
+  "ultima_actualizacion": "2026-11-26",
   "entradas": [
+    {
+      "codigo": "D-051",
+      "fecha": "2026-11-26",
+      "titulo": "Voto por correo, garantías y debate: el 29-N entra en sus últimos tres días",
+      "url": "diario/2026-11-26.html",
+      "estado": "Interpretación y codificación pendientes IH"
+    },
     {
       "codigo": "D-050",
       "fecha": "2026-11-25",

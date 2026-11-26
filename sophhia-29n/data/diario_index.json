@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-25",
+  "ultima_actualizacion": "2026-11-26",
   "entradas": [
+    {
+      "codigo": "D-051",
+      "fecha": "2026-11-26",
+      "titulo": "El cierre del voto por correo y las garantías marcan la víspera del debate a cuatro",
+      "url": "diario/2026-11-26.html",
+      "estado": "Interpretación y codificación pendientes IH"
+    },
     {
       "codigo": "D-050",
       "fecha": "2026-11-25",
