@@ -9,56 +9,56 @@
     "P001-CWS-001: propuesta de control disponible; notas REV01 y REV02"
   ],
   "limite_protocolo": "No se ha localizado una copia íntegra autónoma de P001. La autorización de publicación procede del encargo actual; no se atribuye aprobación formal nueva a sus anexos.",
-  "codigo": "D-051",
-  "fecha": "2026-11-26",
-  "fecha_legible": "26 de noviembre de 2026",
+  "codigo": "D-052",
+  "fecha": "2026-11-27",
+  "fecha_legible": "27 de noviembre de 2026",
   "hora_corte": "09:30",
   "timezone": "Europe/Madrid",
-  "titulo": "El cierre del voto por correo y las garantías marcan la víspera del debate a cuatro",
+  "titulo": "El debate a cuatro expone alianzas, distancias y discrepancias antes del cierre de campaña",
   "recalibracion": false,
   "micmac_modificada": false,
-  "validacion": "Interpretación y codificación D-051 pendientes de validación humana",
+  "validacion": "Interpretación y codificación D-052 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_verificada",
-  "resumen": "El 26 de noviembre concluyen a las 14:00 la remisión del voto por correo y el depósito consular CERA. La campaña incorpora propuestas contra la violencia de género y mantiene la controversia sobre garantías; el debate a cuatro será a las 22:00, fuera del corte.",
-  "resumen_ciudadana": "Quedan tres días para el 29-N. Hoy terminan los principales plazos del voto por correo y del voto exterior. El debate a cuatro está previsto para esta noche, por lo que esta edición sólo registra su convocatoria, no lo que ocurra después.",
-  "senal_principal": "El cierre del voto por correo y las garantías marcan la víspera del debate a cuatro",
-  "variable_vigilancia": "Vivienda=null (ausencia revisada); Inflación/coste de vida=null (ausencia revisada); Fragmentación izquierda=2; Relación PP‑Vox=2; Participación=3; Bloqueo=null (ausencia revisada).",
+  "estado_publicacion": "publicada_pendiente_verificacion",
+  "resumen": "El debate a cuatro situó vivienda, economía, servicios, corrupción y migración en el centro. RTVE observó cooperación Sánchez–Colau y distancia entre Feijóo y Abascal; SOPHHIA registra esas relaciones sin inferir pactos ni efectos electorales. La campaña termina hoy a las 24:00.",
+  "resumen_ciudadana": "Los cuatro candidatos confrontaron sus propuestas en el último gran debate. Hubo cooperación entre Sánchez y Colau, y pocos cruces entre Feijóo y Abascal, pero eso no demuestra pactos. La campaña acaba hoy a medianoche y no se publican encuestas nuevas.",
+  "senal_principal": "El debate a cuatro expone alianzas, distancias y discrepancias antes del cierre de campaña",
+  "variable_vigilancia": "Vivienda=3; Inflación/coste de vida=2; Fragmentación izquierda=3; Relación PP‑Vox=3; Participación=2; Bloqueo=null (ausencia revisada).",
   "variable_territorial": "Agenda nacionalista catalana=null (ausencia revisada); Agenda nacionalista vasca=null (ausencia revisada); Veto/bisagra territorial=null (ausencia revisada); Compatibilidad programática-territorial=null (ausencia revisada); Agendas territoriales complementarias=null (ausencia revisada).",
-  "decision": "D-051 queda pendiente de validación humana. Las decisiones DEC-IH anteriores conservan exclusivamente su alcance original. La publicación técnica no valida interpretaciones ni codificaciones.",
-  "url": "diario/2026-11-26.html",
+  "decision": "D-052 queda pendiente de validación humana. Las decisiones DEC-IH anteriores conservan exclusivamente su alcance original. La publicación técnica no valida interpretaciones ni codificaciones.",
+  "url": "diario/2026-11-27.html",
   "fuentes_temporales": [
     {
-      "id": "rtve_diario_campana_20261125",
+      "id": "rtve_cronica_debate_20261127",
       "medio": "RTVE",
-      "titulo": "El 25N y las propuestas contra la violencia de género centran el último miércoles de campaña",
-      "url": "https://www.rtve.es/noticias/20261125/diario-campana-29n/17309200.shtml",
-      "fecha_publicacion": "2026-11-25T13:56:00+01:00",
-      "fecha_consulta_real": "2026-11-26",
-      "evidencia_temporal": "Admitida al corte: publicada por RTVE el 25/11 a las 13:56 CET, antes de las 09:30 CET del 26/11.",
-      "reserva_temporal": "Se documentan propuestas y declaraciones de campaña; no acreditan aprobación legislativa, pactos posteriores, apoyo electoral ni efectos causales.",
+      "titulo": "Sánchez recupera el tono contra Feijóo en un áspero debate a cuatro con Colau de aliada y ante la distancia de Abascal",
+      "url": "https://www.rtve.es/noticias/20261127/debate-electoral-cuatro-elecciones-generales-2026-cronica/17331240.shtml",
+      "fecha_publicacion": "2026-11-27T00:20:00+01:00",
+      "fecha_consulta_real": "2026-11-27",
+      "evidencia_temporal": "Admitida al corte: publicada por RTVE el 27/11 a las 00:20 CET, antes de las 09:30 CET.",
+      "reserva_temporal": "Es una crónica periodística del debate; describe intervenciones y relaciones observadas, no acredita pactos, efectos electorales ni ganadores objetivos.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "rtve_debate_cuatro_20261125",
-      "medio": "RTVE",
-      "titulo": "Programación especial por el debate electoral a cuatro del 26N",
-      "url": "https://www.rtve.es/rtve/20261125/gran-decision-rtve-programacion-especial-por-debate-electoral-a-cuatro-del-26n/17330032.shtml",
-      "fecha_publicacion": "2026-11-25T11:39:00+01:00",
-      "fecha_consulta_real": "2026-11-26",
-      "evidencia_temporal": "Admitida al corte: programación publicada por RTVE el 25/11 a las 11:39 CET.",
-      "reserva_temporal": "A las 09:30 el debate todavía no se había celebrado; sólo se registra su convocatoria, participantes y horario, nunca resultados, frases o efectos posteriores.",
+      "id": "rtve_verifica_debate_20261126",
+      "medio": "VerificaRTVE",
+      "titulo": "Verificación, datos y contexto del debate a cuatro de las elecciones generales del 29N",
+      "url": "https://www.rtve.es/noticias/20261126/debate-cuatro-verificacion-datos-elecciones-generales-2026/17330993.shtml",
+      "fecha_publicacion": "2026-11-26T22:51:00+01:00",
+      "fecha_consulta_real": "2026-11-27",
+      "evidencia_temporal": "Admitida al corte: iniciada por VerificaRTVE el 26/11 a las 22:51 CET y disponible antes de las 09:30 CET del 27/11.",
+      "reserva_temporal": "Se incorporan sólo comprobaciones documentadas; las afirmaciones de los candidatos no se convierten por sí solas en hechos ni en efecto electoral.",
       "admitida_como_hecho_al_corte": true
     },
     {
-      "id": "moncloa_voto_correo_20261120",
-      "medio": "La Moncloa · Ministerio del Interior",
-      "titulo": "Ampliado hasta el 26 de noviembre a las 14:00 el depósito del voto por correo",
-      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/interior/paginas/voto-por-correo-elecciones-generales-29n.aspx",
-      "fecha_publicacion": "2026-11-20T00:00:00+01:00",
-      "fecha_consulta_real": "2026-11-26",
-      "evidencia_temporal": "Nota oficial vigente al corte del 26/11.",
-      "reserva_temporal": "El plazo administrativo no acredita participación efectiva ni volumen de voto emitido.",
+      "id": "boe_convocatoria_29n",
+      "medio": "BOE",
+      "titulo": "Real Decreto 806/2026, de convocatoria de elecciones generales",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742",
+      "fecha_publicacion": "2026-10-06",
+      "fecha_consulta_real": "2026-11-27",
+      "evidencia_temporal": "Norma vigente al corte: la campaña concluye a las 24:00 del viernes 27 de noviembre.",
+      "reserva_temporal": "El calendario legal no acredita movilización, participación ni efectos de los actos de cierre.",
       "admitida_como_hecho_al_corte": true
     },
     {
@@ -67,36 +67,25 @@
       "titulo": "Ley Orgánica 5/1985, artículo 69.7",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#asesentaynueve",
       "fecha_publicacion": "2024-02-02",
-      "fecha_consulta_real": "2026-11-26",
+      "fecha_consulta_real": "2026-11-27",
       "evidencia_temporal": "Norma vigente consultada al corte; prohíbe publicar, difundir o reproducir sondeos durante los cinco días anteriores a la votación.",
       "reserva_temporal": "La prohibición no borra encuestas ya publicadas ni autoriza reconstruir o divulgar datos nuevos ocultos.",
       "admitida_como_hecho_al_corte": true
-    },
-    {
-      "id": "ine_plazos_29n",
-      "medio": "INE · Oficina del Censo Electoral",
-      "titulo": "Plazos de interés para los electores · Generales 29-N",
-      "url": "https://www.ine.es/dyngs/CEL/index.htm?cid=1702",
-      "fecha_publicacion": "2026-10-09",
-      "fecha_consulta_real": "2026-11-26",
-      "evidencia_temporal": "Calendario institucional vigente al corte del 26/11.",
-      "reserva_temporal": "Los plazos administrativos no acreditan participación efectiva ni volumen de voto emitido.",
-      "admitida_como_hecho_al_corte": true
     }
   ],
-  "sync_version": "2026-11-26-D051",
+  "sync_version": "2026-11-27-D052",
   "ventana_novedades": {
-    "desde_exclusivo": "2026-11-25T09:30:00+01:00",
-    "hasta_inclusivo": "2026-11-26T09:30:00+01:00",
+    "desde_exclusivo": "2026-11-26T09:30:00+01:00",
+    "hasta_inclusivo": "2026-11-27T09:30:00+01:00",
     "timezone": "Europe/Madrid"
   },
   "anterior": {
-    "codigo": "D-050",
-    "fecha": "2026-11-25",
-    "fecha_legible": "25 de noviembre de 2026",
-    "titulo": "El voto por correo y las garantías electorales dominan la cuenta atrás del 29-N",
-    "url": "diario/2026-11-25.html",
-    "estado": "Interpretación y codificación D-050 pendientes de validación humana"
+    "codigo": "D-051",
+    "fecha": "2026-11-26",
+    "fecha_legible": "26 de noviembre de 2026",
+    "titulo": "El cierre del voto por correo y las garantías marcan la víspera del debate a cuatro",
+    "url": "diario/2026-11-26.html",
+    "estado": "Interpretación y codificación D-051 pendientes de validación humana"
   },
   "demoscopia": {
     "estudios_de_voto_incorporados_hoy": 0,
@@ -114,8 +103,8 @@
       "Sondeos internos citados sin ficha técnica pública completa"
     ],
     "modelos_secundarios_revisados": [],
-    "fecha_revision": "2026-11-26",
-    "hora_revision": "09:46:50 CET",
+    "fecha_revision": "2026-11-27",
+    "hora_revision": "09:47:05 CET",
     "nuevas_encuestas_nacionales_admitidas": 0,
     "exclusiones": [
       "Ikerfel · País Vasco · ámbito territorial",
@@ -125,77 +114,77 @@
   "codificacion": {
     "metodo": "REG-SERIES-29N-001",
     "version_regla": "1.0",
-    "estado": "codificacion_D051_pendiente_IH",
-    "ultima_fecha_codificada": "2026-11-26",
+    "estado": "codificacion_D052_pendiente_IH",
+    "ultima_fecha_codificada": "2026-11-27",
     "nota": "Valores calculados desde unidades documentales admisibles; escenarios conservados desde D-040. Null por ausencia revisada. Sin recalibración."
   },
-  "corte_iso": "2026-11-26T09:30:00+01:00",
+  "corte_iso": "2026-11-27T09:30:00+01:00",
   "zona_corte": "CET",
   "cambios": [
-    "Se documenta que hoy concluyen los principales plazos de voto por correo y depósito CERA, sin convertirlos en participación efectiva.",
-    "Las propuestas sobre violencia de género pasan a seguimiento explícito, con separación entre compromisos electorales y medidas aprobadas.",
-    "La controversia sobre la limpieza del proceso se mantiene como vigilancia documental, sin afirmar irregularidades.",
-    "El debate a cuatro de las 22:00 queda registrado sólo como evento futuro respecto del corte de las 09:30.",
-    "Continúa la prohibición del artículo 69.7 de la LOREG y la ventana semanal pasa a 20–26 de noviembre sin arrastrar valores."
+    "El debate a cuatro entra por primera vez en la ventana temporal, con crónica y verificación publicadas antes de las 09:30.",
+    "Vivienda alcanza atención alta; economía y coste de vida quedan en seguimiento explícito por su tratamiento en el debate.",
+    "La relación PP–Vox y la fragmentación de la izquierda alternativa se codifican con atención alta, sin convertir la interacción televisiva en pacto.",
+    "El calendario oficial sitúa el cierre de campaña a las 24:00 de hoy; al corte aún no había terminado.",
+    "Continúa la prohibición del artículo 69.7 de la LOREG y la ventana semanal pasa a 21–27 de noviembre sin arrastrar valores."
   ],
   "senales": [
     {
-      "id": "D051-F01",
+      "id": "D052-F01",
       "tipo": "Confirmatoria",
-      "tema": "Hoy concluyen los principales plazos de voto por correo y CERA",
-      "alcance": "El INE y el Ministerio del Interior mantienen hasta las 14:00 del 26 de noviembre la remisión del voto por correo de residentes y electores temporalmente en el extranjero. El depósito del voto CERA en urna consular también concluye hoy; el envío postal CERA terminó el 24.",
+      "tema": "El debate a cuatro concentra la agenda en vivienda, economía, servicios, corrupción y migración",
+      "alcance": "RTVE documenta un debate de dos horas entre Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal y Ada Colau. La confrontación recorrió vivienda, fiscalidad y economía, servicios públicos, regeneración democrática, migración y política exterior. Son intervenciones de campaña, no políticas aprobadas ni efectos electorales acreditados.",
       "fuentes": [
-        "ine_plazos_29n",
-        "moncloa_voto_correo_20261120"
+        "rtve_cronica_debate_20261127"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D051-F02",
+      "id": "D052-F02",
       "tipo": "Vigilancia",
-      "tema": "La violencia de género entra en el centro programático de la campaña",
-      "alcance": "RTVE documenta compromisos y propuestas del PP y del PSOE sobre protección, sistema Viogén, violencia vicaria, trata y Pacto de Estado, junto a posiciones de otras candidaturas. Son propuestas de campaña, no medidas aprobadas ni resultados acreditados.",
+      "tema": "PP y Vox evitan el ataque directo, sin que ello acredite un acuerdo",
+      "alcance": "La crónica de RTVE observa que Feijóo y Abascal apenas interactuaron y no abrieron fuego entre ellos. SOPHHIA registra atención alta sobre su relación, pero no infiere pacto, reparto de poder ni compatibilidad programática.",
       "fuentes": [
-        "rtve_diario_campana_20261125"
+        "rtve_cronica_debate_20261127"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D051-F03",
+      "id": "D052-F03",
       "tipo": "Vigilancia",
-      "tema": "La limpieza del proceso electoral sigue en la confrontación pública",
-      "alcance": "RTVE recoge que Pedro Sánchez acusa a PP y Vox de cuestionar la limpieza del proceso y les pide aceptar el resultado. SOPHHIA registra la controversia como agenda de garantías, sin afirmar fraude, irregularidad ni incumplimiento acreditado.",
+      "tema": "Sánchez y Colau muestran cooperación, junto a discrepancias explícitas en vivienda",
+      "alcance": "RTVE describe cooperación entre Sánchez y Colau y recoge que la candidata de Frente Amplio reprochó al PSOE insuficiencia en vivienda. La coexistencia de coordinación y diferencia programática se codifica como atención alta, no como coalición cerrada.",
       "fuentes": [
-        "rtve_diario_campana_20261125"
+        "rtve_cronica_debate_20261127"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D051-F04",
-      "tipo": "Vigilancia",
-      "tema": "El debate a cuatro está convocado para esta noche, después del corte",
-      "alcance": "RTVE anunció para las 22:00 del 26 de noviembre un debate entre Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal y Ada Colau. Al corte de las 09:30 sólo consta la convocatoria: no se incorporan intervenciones, verificaciones, ganadores ni efectos posteriores.",
-      "fuentes": [
-        "rtve_debate_cuatro_20261125"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "D051-F05",
+      "id": "D052-F04",
       "tipo": "Confirmatoria",
-      "tema": "Continúa el periodo legal sin publicación de sondeos",
-      "alcance": "El artículo 69.7 de la LOREG prohíbe publicar, difundir o reproducir sondeos electorales durante los cinco días anteriores a la votación. SOPHHIA no incorpora ninguna estimación nueva de voto.",
+      "tema": "La verificación separa las afirmaciones de campaña de los datos comprobados",
+      "alcance": "VerificaRTVE contrastó en directo mensajes del debate y aportó contexto documental. SOPHHIA conserva las comprobaciones como evidencia de control y no transforma afirmaciones no verificadas, valoraciones o ataques en hechos.",
       "fuentes": [
+        "rtve_verifica_debate_20261126"
+      ],
+      "validacion": "pendiente_IH"
+    },
+    {
+      "id": "D052-F05",
+      "tipo": "Confirmatoria",
+      "tema": "La campaña termina hoy a las 24:00 y continúa la prohibición de sondeos",
+      "alcance": "El Real Decreto 806/2026 fija el final de la campaña a las 24:00 del 27 de noviembre. El artículo 69.7 de la LOREG mantiene la prohibición de publicar, difundir o reproducir sondeos; esta entrega no incorpora una estimación nueva de voto.",
+      "fuentes": [
+        "boe_convocatoria_29n",
         "boe_loreg_69_7"
       ],
       "validacion": "pendiente_IH"
     }
   ],
   "escenarios_lectura_documental": {
-    "id": "D-051-CTX",
+    "id": "D-052-CTX",
     "type": "context",
     "origin": "D-040",
-    "text": "Se mantiene expresamente la lectura documental heredada de D-040: G1/G2/G4/G5 = 2/2/3/1. Los plazos administrativos, las propuestas y la convocatoria del debate no son probabilidades SOPHHIA ni justifican recalibración. A-000, MICMAC, parámetros y DEC-IH permanecen intactos.",
+    "text": "Se mantiene expresamente la lectura documental heredada de D-040: G1/G2/G4/G5 = 2/2/3/1. La interacción del debate y el cierre de campaña no son probabilidades SOPHHIA ni justifican recalibración. A-000, MICMAC, parámetros y DEC-IH permanecen intactos.",
     "scenario_levels": {
       "G1 · PP‑Vox coalición": 2,
       "G2 · PP apoyo Vox": 2,
@@ -203,33 +192,15 @@
       "G5 · Bloqueo/repetición": 1
     }
   },
-  "dimension_territorial": "No se acredita al corte una novedad territorial específica suficiente para codificar las agendas catalana, vasca o de bisagra. Sus valores son null justificado: no se arrastran registros anteriores ni se convierten en cero.",
+  "dimension_territorial": "No se acredita al corte una novedad territorial específica suficiente para codificar las agendas catalana, vasca, de bisagra o de compatibilidad territorial. Sus valores son null justificado: no se arrastran registros anteriores ni se convierten en cero.",
   "incertidumbres": [
-    "Los plazos administrativos no acreditan cuántas personas han votado ni permiten inferir participación final.",
-    "Las acusaciones sobre garantías no prueban irregularidad, fraude ni efecto electoral.",
-    "El debate de las 22:00 es posterior al corte: sus contenidos y efectos quedan excluidos de D-051."
+    "La interacción entre candidatos en un debate no acredita pactos, vetos, reparto de poder ni compatibilidad postelectoral.",
+    "Las verificaciones corrigen o contextualizan afirmaciones concretas, pero no miden persuasión ni efecto electoral.",
+    "La campaña sigue abierta al corte y sus actos posteriores a las 09:30 quedan fuera de D-052."
   ],
   "proximas_comprobaciones": [
-    "Comprobar en D-052 el cierre efectivo de los plazos sin inferir participación.",
-    "Documentar el debate a cuatro únicamente con fuentes y horas posteriores, manteniéndolo fuera de D-051.",
-    "Mantener la disciplina legal de no publicar ni reproducir sondeos durante el periodo de prohibición."
-  ],
-  "verificacion_publicacion": {
-    "estado": "verificada_canonica",
-    "commit_publicacion": "b87688edada50d8ca902e292cae4965117a51e95",
-    "workflow_run_id": null,
-    "workflow_conclusion": "no_expuesto_por_conexion; despliegue verificado por bytes canónicos",
-    "verificada_el": "2026-11-26T10:00:00+01:00",
-    "urls": {
-      "basica": "https://sophhia.com/sophhia-29n/",
-      "ciudadana": "https://sophhia.com/sophhia-29n/ciudadana/",
-      "diario_basico": "https://sophhia.com/sophhia-29n/diario/2026-11-26.html",
-      "diario_ciudadano": "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-26.html"
-    },
-    "landing_sha256": {
-      "basica": "e2b824117cfae0a2b0605d800c9d7475794063394bea5ae99b10a5228649f5f4",
-      "ciudadana": "5254e17940c5f0ec582df96baf057f07a531b033f0cdfd33e9a1e855ca95a914"
-    },
-    "integridad": "HTTP 200, text/html UTF-8 y bytes canónicos idénticos a las copias locales validadas; cinco gráficos estáticos, 51 entradas y datos D-051 comprobados."
-  }
+    "Documentar en D-053 únicamente hechos publicados antes del corte del 28, durante la jornada de reflexión.",
+    "Mantener la disciplina legal de no publicar ni reproducir sondeos durante el periodo de prohibición.",
+    "Separar el cierre efectivo de campaña de cualquier inferencia sobre movilización o participación."
+  ]
 }

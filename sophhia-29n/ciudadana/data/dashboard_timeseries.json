@@ -1,13 +1,13 @@
 {
-  "version": "v0.71-D051",
-  "mode": "Jornada ordinaria D-051; pendiente IH.",
+  "version": "v0.72-D052",
+  "mode": "Jornada ordinaria D-052; pendiente IH.",
   "method": "REG-SERIES-29N-001",
-  "cutoff": "2026-11-26",
-  "current_entry": "D-051",
-  "last_numeric_date": "2026-11-26",
-  "updated": "2026-11-26",
+  "cutoff": "2026-11-27",
+  "current_entry": "D-052",
+  "last_numeric_date": "2026-11-27",
+  "updated": "2026-11-27",
   "reconstruction_date": "2026-11-20",
-  "interpretation_cutoff": "2026-11-26T09:30:00+01:00",
+  "interpretation_cutoff": "2026-11-27T09:30:00+01:00",
   "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
   "timeline": [
     {
@@ -370,6 +370,14 @@
       "retrospective": false,
       "cutoff": "2026-11-26T09:30:00+01:00",
       "elaborated_at": "2026-11-26T09:46:50+01:00"
+    },
+    {
+      "date": "2026-11-27",
+      "entry": "D-052",
+      "source_status": "rutina_ordinaria_codificacion_pendiente_IH",
+      "retrospective": false,
+      "cutoff": "2026-11-27T09:30:00+01:00",
+      "elaborated_at": "2026-11-27T09:47:05+01:00"
     }
   ],
   "scenarios": {
@@ -411,6 +419,7 @@
       1,
       1,
       1,
+      2,
       2,
       2,
       2,
@@ -477,6 +486,7 @@
       2,
       2,
       2,
+      2,
       2
     ],
     "G4 · Reconstrucción progresista": [
@@ -530,6 +540,7 @@
       3,
       3,
       3,
+      3,
       3
     ],
     "G5 · Bloqueo/repetición": [
@@ -542,6 +553,7 @@
       1,
       1,
       null,
+      1,
       1,
       1,
       1,
@@ -638,7 +650,8 @@
       3,
       2,
       1,
-      3
+      3,
+      2
     ],
     "PSOE + izquierda": [
       0,
@@ -691,6 +704,7 @@
       3,
       2,
       1,
+      2,
       2
     ],
     "Territoriales/bisagra": [
@@ -744,6 +758,7 @@
       3,
       2,
       1,
+      0,
       0
     ],
     "Garantías y procedimiento": [
@@ -797,7 +812,8 @@
       2,
       3,
       3,
-      3
+      3,
+      2
     ]
   },
   "variables": {
@@ -852,7 +868,8 @@
       2,
       3,
       2,
-      null
+      null,
+      3
     ],
     "Inflación/coste de vida": [
       1,
@@ -905,7 +922,8 @@
       null,
       null,
       2,
-      null
+      null,
+      2
     ],
     "Fragmentación izquierda": [
       1,
@@ -958,7 +976,8 @@
       3,
       2,
       2,
-      2
+      2,
+      3
     ],
     "Relación PP‑Vox": [
       null,
@@ -1011,7 +1030,8 @@
       3,
       3,
       2,
-      2
+      2,
+      3
     ],
     "Participación": [
       null,
@@ -1064,7 +1084,8 @@
       null,
       1,
       2,
-      3
+      3,
+      2
     ],
     "Bloqueo": [
       1,
@@ -1116,6 +1137,7 @@
       2,
       null,
       2,
+      null,
       null,
       null
     ]
@@ -1172,6 +1194,7 @@
       1,
       2,
       2,
+      null,
       null
     ],
     "Agenda nacionalista vasca": [
@@ -1225,6 +1248,7 @@
       1,
       2,
       1,
+      null,
       null
     ],
     "Veto/bisagra territorial": [
@@ -1278,6 +1302,7 @@
       2,
       3,
       2,
+      null,
       null
     ],
     "Compatibilidad programática-territorial": [
@@ -1331,6 +1356,7 @@
       2,
       3,
       2,
+      null,
       null
     ],
     "Agendas territoriales complementarias": [
@@ -1384,6 +1410,7 @@
       1,
       2,
       2,
+      null,
       null
     ]
   },
@@ -1439,7 +1466,8 @@
       2,
       2,
       2,
-      2
+      2,
+      3
     ],
     "Vigilancia": [
       0,
@@ -1492,9 +1520,11 @@
       2,
       3,
       3,
-      3
+      3,
+      2
     ],
     "Disruptivas": [
+      0,
       0,
       0,
       0,
@@ -1598,6 +1628,7 @@
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1608,15 +1639,15 @@
     "territorial": "ordinal_1_3",
     "signals": "counts"
   },
-  "validation": "Interpretación y codificación D-051 pendientes de validación humana",
+  "validation": "Interpretación y codificación D-052 pendientes de validación humana",
   "comparability_warning": "La nueva serie se reconstruye desde el 7 con la misma regla. No empalmar con las antiguas puntuaciones 0–100.",
   "note": "Rutina ordinaria al corte 09:30 CET. Sin recalibración de A-000, MICMAC, parámetros o DEC-IH.",
   "readings": {
     "scenarios": "Continuidad explícita de D-040: G1/G2/G4/G5 = 2/2/3/1; etiquetas documentales, no probabilidades.",
-    "blocks": "PP‑Vox=3; PSOE + izquierda=2; Territoriales/bisagra=0; Garantías y procedimiento=3.",
-    "variables": "Vivienda=null (ausencia revisada); Inflación/coste de vida=null (ausencia revisada); Fragmentación izquierda=2; Relación PP‑Vox=2; Participación=3; Bloqueo=null (ausencia revisada).",
+    "blocks": "PP‑Vox=2; PSOE + izquierda=2; Territoriales/bisagra=0; Garantías y procedimiento=2.",
+    "variables": "Vivienda=3; Inflación/coste de vida=2; Fragmentación izquierda=3; Relación PP‑Vox=3; Participación=2; Bloqueo=null (ausencia revisada).",
     "territorial": "Agenda nacionalista catalana=null (ausencia revisada); Agenda nacionalista vasca=null (ausencia revisada); Veto/bisagra territorial=null (ausencia revisada); Compatibilidad programática-territorial=null (ausencia revisada); Agendas territoriales complementarias=null (ausencia revisada).",
-    "signals": "Confirmatorias=2; Vigilancia=3; Disruptivas=0; Recalibradoras=0."
+    "signals": "Confirmatorias=3; Vigilancia=2; Disruptivas=0; Recalibradoras=0."
   },
   "reconstructions": [
     {
@@ -2589,10 +2620,10 @@
     }
   ],
   "last_numeric_dates": {
-    "scenarios": "2026-11-26",
-    "blocks": "2026-11-26",
-    "variables": "2026-11-26",
-    "territorial": "2026-11-26",
-    "signals": "2026-11-26"
+    "scenarios": "2026-11-27",
+    "blocks": "2026-11-27",
+    "variables": "2026-11-27",
+    "territorial": "2026-11-27",
+    "signals": "2026-11-27"
   }
 }

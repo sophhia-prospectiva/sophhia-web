@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-26",
+  "ultima_actualizacion": "2026-11-27",
   "entradas": [
+    {
+      "codigo": "D-052",
+      "fecha": "2026-11-27",
+      "titulo": "El último debate muestra acuerdos y diferencias antes de que termine la campaña",
+      "url": "diario/2026-11-27.html",
+      "estado": "Interpretación y codificación pendientes IH"
+    },
     {
       "codigo": "D-051",
       "fecha": "2026-11-26",
