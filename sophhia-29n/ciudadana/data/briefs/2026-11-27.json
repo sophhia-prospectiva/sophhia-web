@@ -19,7 +19,7 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-052 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
   "resumen": "El debate a cuatro situó vivienda, economía, servicios, corrupción y migración en el centro. RTVE observó cooperación Sánchez–Colau y distancia entre Feijóo y Abascal; SOPHHIA registra esas relaciones sin inferir pactos ni efectos electorales. La campaña termina hoy a las 24:00.",
   "resumen_ciudadana": "Los cuatro candidatos confrontaron sus propuestas en el último gran debate. Hubo cooperación entre Sánchez y Colau, y pocos cruces entre Feijóo y Abascal, pero eso no demuestra pactos. La campaña acaba hoy a medianoche y no se publican encuestas nuevas.",
   "senal_principal": "El debate a cuatro expone alianzas, distancias y discrepancias antes del cierre de campaña",
@@ -202,5 +202,23 @@
     "Documentar en D-053 únicamente hechos publicados antes del corte del 28, durante la jornada de reflexión.",
     "Mantener la disciplina legal de no publicar ni reproducir sondeos durante el periodo de prohibición.",
     "Separar el cierre efectivo de campaña de cualquier inferencia sobre movilización o participación."
-  ]
+  ],
+  "verificacion_publicacion": {
+    "estado": "verificada_canonica",
+    "commit_publicacion": "b5377449b639553a459fd359216e8b687071b8f8",
+    "workflow_run_id": null,
+    "workflow_conclusion": "no_expuesto_por_conexion; despliegue verificado por bytes canónicos",
+    "verificada_el": "2026-11-27T09:58:14+01:00",
+    "urls": {
+      "basica": "https://sophhia.com/sophhia-29n/",
+      "ciudadana": "https://sophhia.com/sophhia-29n/ciudadana/",
+      "diario_basico": "https://sophhia.com/sophhia-29n/diario/2026-11-27.html",
+      "diario_ciudadano": "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-27.html"
+    },
+    "landing_sha256": {
+      "basica": "74c525980c8af36006eabbfe990fcb51736211438112591806ea04743425a504",
+      "ciudadana": "680d21c6f1a562090510cbb01f45477e204db84c5da6c980318b4a417516f560"
+    },
+    "integridad": "HTTP 200, text/html UTF-8 y bytes canónicos idénticos a las copias locales validadas; cinco grupos gráficos, 52 entradas y datos D-052 comprobados."
+  }
 }
