@@ -1,7 +1,14 @@
 {
   "titulo": "Archivo de la Bitácora SOPHHIA 29-N",
-  "ultima_actualizacion": "2026-11-27",
+  "ultima_actualizacion": "2026-11-28",
   "entradas": [
+    {
+      "codigo": "D-053",
+      "fecha": "2026-11-28",
+      "titulo": "La jornada de reflexión desplaza la atención desde la campaña hacia las garantías de la votación",
+      "url": "diario/2026-11-28.html",
+      "estado": "Interpretación y codificación pendientes IH"
+    },
     {
       "codigo": "D-052",
       "fecha": "2026-11-27",

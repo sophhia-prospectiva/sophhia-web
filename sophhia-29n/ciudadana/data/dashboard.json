@@ -1,25 +1,25 @@
 {
-  "version": "v0.72-D052",
-  "updated": "2026-11-27",
+  "version": "v0.73-D053",
+  "updated": "2026-11-28",
   "title": "Dashboard SOPHHIA 29-N",
-  "subtitle": "Corte 27 de noviembre de 2026 · 09:30 CET · jornada ordinaria",
+  "subtitle": "Corte 28 de noviembre de 2026 · 09:30 CET · jornada ordinaria",
   "contract": "CP-29N-F0 v0.1 + Anexo A",
   "protocol": "P001 + P001-E001",
-  "current_entry": "D-052",
+  "current_entry": "D-053",
   "mode": "Modo A · Aproximación heurística estructurada",
   "recalibration": "No",
-  "system_state": "D-052 publicada y verificada canónicamente; interpretación y codificación pendientes IH; sin recalibración.",
+  "system_state": "D-053 publicada técnicamente; interpretación y codificación pendientes IH; sin recalibración.",
   "dominant_scenario": "Mayoría PP-Vox",
   "dominant_scenario_origin": "Hipótesis heredada de A-000; sin nueva probabilidad",
-  "main_uncertainty": "La interacción entre candidatos en un debate no acredita pactos, vetos, reparto de poder ni compatibilidad postelectoral.",
-  "watch_variable": "Vivienda; Inflación/coste de vida; Fragmentación izquierda; Relación PP‑Vox; Participación",
+  "main_uncertainty": "El despliegue preventivo no acredita que se hayan producido incidentes.",
+  "watch_variable": "Participación",
   "social_axis": "Coordinación electoral, composición de Gobierno y compatibilidad programática bajo seguimiento documental.",
   "current_bullets": [
-    "El debate a cuatro entra por primera vez en la ventana temporal, con crónica y verificación publicadas antes de las 09:30.",
-    "Vivienda alcanza atención alta; economía y coste de vida quedan en seguimiento explícito por su tratamiento en el debate.",
-    "La relación PP–Vox y la fragmentación de la izquierda alternativa se codifican con atención alta, sin convertir la interacción televisiva en pacto.",
-    "El calendario oficial sitúa el cierre de campaña a las 24:00 de hoy; al corte aún no había terminado.",
-    "Continúa la prohibición del artículo 69.7 de la LOREG y la ventana semanal pasa a 21–27 de noviembre sin arrastrar valores."
+    "La campaña figura ya cerrada al corte; D-052 aún se elaboró antes de su final oficial.",
+    "La agenda documental pasa de los mensajes de campaña a las garantías y la logística de la votación.",
+    "Participación recibe atención alta por el calendario y el dispositivo, pero todavía no existe participación efectiva.",
+    "No hay novedad admisible al corte sobre PP–Vox, fragmentación de la izquierda, vivienda, coste de vida o dimensión territorial: se registran como null, no como cero.",
+    "Continúa la prohibición del artículo 69.7 de la LOREG y la ventana semanal pasa a 22–28 de noviembre sin arrastrar valores."
   ],
   "path": [
     {
@@ -263,6 +263,13 @@
       "title": "El último debate muestra acuerdos y diferencias antes de que termine la campaña",
       "recalibration": "No",
       "retrospective": false
+    },
+    {
+      "id": "D-053",
+      "date": "2026-11-28",
+      "title": "Termina la campaña y la atención pasa a las garantías para votar mañana",
+      "recalibration": "No",
+      "retrospective": false
     }
   ],
   "scenarios": [
@@ -310,7 +317,7 @@
   ],
   "charts": {
     "timeseries_file": "data/dashboard_timeseries.json",
-    "mode": "Jornada ordinaria D-052; pendiente IH.",
+    "mode": "Jornada ordinaria D-053; pendiente IH.",
     "charts": [
       "Trayectoria de escenarios",
       "Balance dinámico de bloques",
@@ -318,20 +325,20 @@
       "Registro temporal de señales",
       "Pulso nacional-territorial"
     ],
-    "version": "v0.72-D052",
-    "cutoff": "2026-11-27",
-    "last_numeric_date": "2026-11-27",
+    "version": "v0.73-D053",
+    "cutoff": "2026-11-28",
+    "last_numeric_date": "2026-11-28",
     "missing_value_policy": "null = sin codificación sustentada; 0 sólo en recuentos y significa cero unidades codificadas en la ficha",
     "responsive": "Gráficos completos dentro de cada caja, sin barras de desplazamiento",
     "method": "REG-SERIES-29N-001",
-    "validation": "Interpretación y codificación D-052 pendientes de validación humana",
+    "validation": "Interpretación y codificación D-053 pendientes de validación humana",
     "reconstruction_date": null,
     "last_numeric_dates": {
-      "scenarios": "2026-11-27",
-      "blocks": "2026-11-27",
-      "variables": "2026-11-27",
-      "territorial": "2026-11-27",
-      "signals": "2026-11-27"
+      "scenarios": "2026-11-28",
+      "blocks": "2026-11-28",
+      "variables": "2026-11-28",
+      "territorial": "2026-11-28",
+      "signals": "2026-11-28"
     }
   },
   "methodological_layer": "F2-MICMAC-001 v0.2 conservado · REV-F2-003 abierta",
@@ -379,9 +386,9 @@
     "daily_observations": []
   },
   "current_reading": {
-    "mode": "Jornada ordinaria D-052; pendiente IH.",
-    "summary": "Los cuatro candidatos confrontaron sus propuestas en el último gran debate. Hubo cooperación entre Sánchez y Colau, y pocos cruces entre Feijóo y Abascal, pero eso no demuestra pactos. La campaña acaba hoy a medianoche y no se publican encuestas nuevas.",
-    "validation": "Interpretación y codificación D-052 pendientes de validación humana"
+    "mode": "Jornada ordinaria D-053; pendiente IH.",
+    "summary": "La campaña ya ha terminado. Hoy es jornada de reflexión y mañana se votará entre las nueve de la mañana y las ocho de la tarde. Más de 100.000 agentes forman parte del dispositivo de seguridad; eso no significa que haya incidentes.",
+    "validation": "Interpretación y codificación D-053 pendientes de validación humana"
   },
   "explorer": {
     "status": "incorporado como pieza experimental",
@@ -403,58 +410,48 @@
     "new_government_preference_publications": 0,
     "existing_study_document_extensions": 0
   },
-  "human_validation": "Interpretación y codificación D-052 pendientes de validación humana",
+  "human_validation": "Interpretación y codificación D-053 pendientes de validación humana",
   "micmac_review": "REV-F2-003 abierta; sin pesos nuevos",
   "rectification": "REG-RECT-29N-20261016-001",
   "human_validation_record": null,
   "qualitative_signals": [
     {
-      "id": "D052-F01",
+      "id": "D053-F01",
       "tipo": "Confirmatoria",
-      "tema": "El debate a cuatro concentra la agenda en vivienda, economía, servicios, corrupción y migración",
-      "alcance": "RTVE documenta un debate de dos horas entre Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal y Ada Colau. La confrontación recorrió vivienda, fiscalidad y economía, servicios públicos, regeneración democrática, migración y política exterior. Son intervenciones de campaña, no políticas aprobadas ni efectos electorales acreditados.",
+      "tema": "La campaña ha terminado y comienza la jornada de reflexión",
+      "alcance": "El Real Decreto 806/2026 fija el final de la campaña a las 24:00 del viernes 27. Al corte de las 09:30 del sábado 28 ya no está abierta la campaña; este cambio de fase no acredita movimientos de voto ni participación.",
       "fuentes": [
-        "rtve_cronica_debate_20261127"
+        "boe_convocatoria_29n"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D052-F02",
+      "id": "D053-F02",
       "tipo": "Vigilancia",
-      "tema": "PP y Vox evitan el ataque directo, sin que ello acredite un acuerdo",
-      "alcance": "La crónica de RTVE observa que Feijóo y Abascal apenas interactuaron y no abrieron fuego entre ellos. SOPHHIA registra atención alta sobre su relación, pero no infiere pacto, reparto de poder ni compatibilidad programática.",
+      "tema": "Más de 100.000 agentes integran el dispositivo de seguridad electoral",
+      "alcance": "Interior informa de un despliegue superior a 100.000 agentes y de una fase crítica iniciada el 27 a las 20:00 que cubre reflexión, votación, escrutinio y traslado de documentación. Es una medida preventiva, no evidencia de incidentes.",
       "fuentes": [
-        "rtve_cronica_debate_20261127"
+        "interior_seguridad_29n"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D052-F03",
-      "tipo": "Vigilancia",
-      "tema": "Sánchez y Colau muestran cooperación, junto a discrepancias explícitas en vivienda",
-      "alcance": "RTVE describe cooperación entre Sánchez y Colau y recoge que la candidata de Frente Amplio reprochó al PSOE insuficiencia en vivienda. La coexistencia de coordinación y diferencia programática se codifica como atención alta, no como coalición cerrada.",
-      "fuentes": [
-        "rtve_cronica_debate_20261127"
-      ],
-      "validacion": "pendiente_IH"
-    },
-    {
-      "id": "D052-F04",
+      "id": "D053-F03",
       "tipo": "Confirmatoria",
-      "tema": "La verificación separa las afirmaciones de campaña de los datos comprobados",
-      "alcance": "VerificaRTVE contrastó en directo mensajes del debate y aportó contexto documental. SOPHHIA conserva las comprobaciones como evidencia de control y no transforma afirmaciones no verificadas, valoraciones o ataques en hechos.",
+      "tema": "La votación está prevista mañana entre las 09:00 y las 20:00",
+      "alcance": "El calendario oficial sitúa la jornada electoral el domingo 29 y fija la votación entre las 09:00 y las 20:00. A las 09:30 del sábado no se ha abierto ningún colegio ni existe dato de participación de la jornada electoral.",
       "fuentes": [
-        "rtve_verifica_debate_20261126"
+        "interior_calendario_29n",
+        "boe_convocatoria_29n"
       ],
       "validacion": "pendiente_IH"
     },
     {
-      "id": "D052-F05",
+      "id": "D053-F04",
       "tipo": "Confirmatoria",
-      "tema": "La campaña termina hoy a las 24:00 y continúa la prohibición de sondeos",
-      "alcance": "El Real Decreto 806/2026 fija el final de la campaña a las 24:00 del 27 de noviembre. El artículo 69.7 de la LOREG mantiene la prohibición de publicar, difundir o reproducir sondeos; esta entrega no incorpora una estimación nueva de voto.",
+      "tema": "Continúa la prohibición de publicar o reproducir sondeos",
+      "alcance": "El artículo 69.7 de la LOREG mantiene la prohibición durante los cinco días anteriores a la votación. D-053 no incorpora, reconstruye ni prolonga ninguna estimación de voto.",
       "fuentes": [
-        "boe_convocatoria_29n",
         "boe_loreg_69_7"
       ],
       "validacion": "pendiente_IH"
