@@ -19,7 +19,7 @@
   "micmac_modificada": false,
   "validacion": "Interpretación y codificación D-053 pendientes de validación humana",
   "decision_id": null,
-  "estado_publicacion": "publicada_pendiente_verificacion",
+  "estado_publicacion": "publicada_verificada",
   "resumen": "La campaña concluyó a medianoche y el sábado 28 es jornada de reflexión. El dispositivo oficial supera los 100.000 agentes y la votación está prevista el domingo de 09:00 a 20:00. SOPHHIA registra el cambio de fase sin inferir participación, incidentes ni resultado.",
   "resumen_ciudadana": "La campaña ya ha terminado. Hoy es jornada de reflexión y mañana se votará entre las nueve de la mañana y las ocho de la tarde. Más de 100.000 agentes forman parte del dispositivo de seguridad; eso no significa que haya incidentes.",
   "senal_principal": "La jornada de reflexión desplaza la atención desde la campaña hacia las garantías de la votación",
@@ -192,5 +192,23 @@
     "Comprobar en D-054 la constitución de mesas y la apertura de colegios únicamente cuando exista información oficial posterior al corte propio de esa entrega.",
     "No incorporar participación ni resultados antes de su publicación oficial y temporalmente acreditada.",
     "Mantener separadas las previsiones logísticas, los datos efectivos y las interpretaciones postelectorales."
-  ]
+  ],
+  "verificacion_publicacion": {
+    "estado": "verificada_canonica",
+    "commit_publicacion": "22eebb705aae61e215566c760375b381e5b2023e",
+    "workflow_run_id": null,
+    "workflow_conclusion": "no_expuesto_por_conexion; despliegue verificado por bytes canónicos",
+    "verificada_el": "2026-11-28T10:01:00+01:00",
+    "urls": {
+      "basica": "https://sophhia.com/sophhia-29n/",
+      "ciudadana": "https://sophhia.com/sophhia-29n/ciudadana/",
+      "diario_basico": "https://sophhia.com/sophhia-29n/diario/2026-11-28.html",
+      "diario_ciudadano": "https://sophhia.com/sophhia-29n/ciudadana/diario/2026-11-28.html"
+    },
+    "landing_sha256": {
+      "basica": "6a43e94ae33a6071805c00c53cef3500ad29265b1ed75b18f944c00c929867dd",
+      "ciudadana": "5a3a464127edd237210fe3cfec370ca727e083fbeb42587a3668a3d7a5041ffa"
+    },
+    "integridad": "HTTP 200, text/html UTF-8 y bytes canónicos idénticos a las copias locales validadas; cinco grupos gráficos, 53 entradas y datos D-053 comprobados."
+  }
 }
